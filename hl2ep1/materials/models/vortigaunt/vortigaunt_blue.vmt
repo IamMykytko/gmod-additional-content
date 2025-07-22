@@ -1,0 +1,35 @@
+"VortWarp"
+{
+	"$basetexture" "Models/vortigaunt/vortigaunt_blue"
+	"$flowmap" "models/vortigaunt/vortigaunt_flow"
+	"$selfillummap" "models/vortigaunt/vortigaunt_illum"
+	"$bumpmap" "Models/Vortigaunt/vortigaunt_normal"
+	"$entityorigin" ""
+	"$warpparam" "0.0"
+	"$selfillumtint" "[10 10 10]"
+	
+	
+	"$phong" "1"
+	"$phongboost" "10"
+	"$phongexponenttexture" "Models/vortigaunt/vortigaunt_exponent"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges" "[.18 .4 1]"
+	"$halflambert" "1"
+	"$nodecal" "1"
+	
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "10"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "3"										// Boost for ambient cube component of rim lighting
+
+	"Proxies"
+	{
+
+		"EntityOrigin"
+		{
+		}
+		"MaterialModify"
+		{
+		}
+	}
+}
