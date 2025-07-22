@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	// Original shader: DecalSpecularCubicEnvMap
+	"%tooltexture" "Decals/c2a3cice1"
+	"$envmap" "Environment Maps/c2a3c01"
+	"$envmapmask" "Decals/c2a3cice1r"
+	"$additive" 1
+	"$decal" 1
+	"$envmaptint" "[ 0.50 0.50 0.50 ]"
+}
