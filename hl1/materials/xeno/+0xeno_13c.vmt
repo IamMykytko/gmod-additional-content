@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$baseTexture" "xeno/+0xeno_13c"
+}

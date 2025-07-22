@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/chapters/chapter19"
+	"$vertexalpha" 1
+}

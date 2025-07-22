@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "xeno/crys_1b"
+}

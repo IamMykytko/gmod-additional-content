@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	// Original shader: BaseTexture
+	"$basetexture" "xeno/scrollxen2b"
+	"Proxies"
+	{
+		"ConveyorScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+		}
+	}
+}

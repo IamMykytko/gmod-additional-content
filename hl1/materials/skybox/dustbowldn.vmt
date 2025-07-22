@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+$ignorez 1
+	// Original shader: BaseTexture
+	"$basetexture" "skybox/dustbowldn"
+	"$nofog" 1
+}

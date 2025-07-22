@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	// Original shader: BaseTimesLightmapPlusMaskedSphericalEnvMap
+	"$basetexture" "xeno/crys_3top"
+	"$envmapsphere" 1
+	"$envmap" "environment maps/envmap001a"
+	"$envmapmask" "xeno/crys_3topr"
+	"$surfaceprop" "glass"
+}
