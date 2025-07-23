@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "decals/railroadties_docks"
+$Translucent 1
+$Decal 1
+$DecalScale "0.250000"
+}

@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "buildings/tar_paper_ext_01"
+$surfaceprop rubber
+$ssbump 1
+$bumpmap "buildings/tar_paper_ext_01_height-ssbump"
+"%keywords" l4d2
+}

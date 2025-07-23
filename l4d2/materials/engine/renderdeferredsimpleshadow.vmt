@@ -1,0 +1,8 @@
+Shadow
+{
+$basetexture "Decals/simpleshadow"
+$decal 1
+$no_fullbright 1
+$deferredshadows 1
+$blobbyshadows 1
+}

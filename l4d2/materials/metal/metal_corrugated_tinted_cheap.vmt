@@ -1,0 +1,6 @@
+lightmappedgeneric
+{
+$baseTexture "metal/metal_corrugated02b"
+$surfaceprop metalvent
+$color2 "[.7 .91 1.65]"
+}

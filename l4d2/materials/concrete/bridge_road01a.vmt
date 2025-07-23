@@ -1,0 +1,18 @@
+LightmappedGeneric
+{
+$baseTexture "concrete/highway_01"
+$surfaceprop concrete
+$ssbump 1
+$bumpmap "concrete/blacktop_ext_01_height-ssbump"
+$SSBumpMathFix 1
+$bumptransform "center 0 0 scale 2.1 2.1 rotate 0 translate 0 0"
+
+
+
+
+
+
+
+
+"%keywords" l4d2
+}

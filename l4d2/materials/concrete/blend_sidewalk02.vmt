@@ -1,0 +1,11 @@
+WorldVertexTransition
+{
+$basetexture "concrete/docks_sidewalk"
+$basetexture2 "concrete/docks_sidewalkb"
+$blendmodulatetexture "nature/blend_texture_01"
+$bumpmap "concrete/docks_sidewalk-ssbump"
+$ssbump 1
+$surfaceprop concrete
+"%keywords" "Left4Dead,River,Docks,Barge,Port"
+"%tooltexture" "concrete/blend_sidewalk02_tooltexture"
+}

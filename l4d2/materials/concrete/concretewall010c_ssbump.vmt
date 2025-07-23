@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$basetexture "Concrete/concretewall010c"
+$bumpmap "Concrete/concretewall010a_height-ssbump"
+$surfaceprop concrete
+$ssbump 1
+}

@@ -1,0 +1,16 @@
+"dash"
+{
+	"base"		"dash"
+
+	"maxplayers"	"4"
+	"hasdifficulty"		"1"
+	"singlechapter"		"1"
+
+	"DisplayTitle"	"Dash"
+	"ShortDescription"	"Sample mode to demonstrate Mutation scripting tools."
+	"Description"	"Dash is a sample mode to demonstrate the use of the new Mutation scripting tools.
+
+The Survivors must work together in a race against the clock, running through a series of checkpoints until they reach the end of the course. Only one checkpoint is active (glowing) at a time, and once the required number of survivors have touched it then the next checkpoint will activate."
+	"Image"		"maps/any"
+	"Author"	"Valve"
+}	

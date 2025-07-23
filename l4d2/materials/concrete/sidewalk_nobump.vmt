@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+$basetexture "Concrete/sidewalk"
+$surfaceprop concrete
+$color "[ 1.1 1.1 1.1 ]"
+
+
+
+
+}

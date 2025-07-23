@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$basetexture "CustomText/GC Textures/Roofs/Roof_Ceramic04"
+$bumpmap "CustomText/GC Textures/Roofs/Roof_Ceramic04_normal"
+$surfaceprop Tile
+}

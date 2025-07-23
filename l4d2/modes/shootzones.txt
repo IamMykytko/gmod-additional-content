@@ -1,0 +1,16 @@
+"shootzones"
+{
+		"base"			"shootzones"
+		
+		"maxplayers"	"4"
+		"hasdifficulty"	"1"
+		"singlechapter"	"1"
+		
+		"DisplayTitle"	"ShootZones"
+		"ShortDescription"	"Can only shoot in specific zones."
+		"Description"	"ShootZones is a sample mode to demonstrate the new Mutation scripting tools.
+
+You can only fire your weapon when standing in a higlighted zone. Each zone is only active for a few seconds, and then you have to move on to another one."
+		"Image"			"maps/any"
+		"Author"		"Valve"
+}

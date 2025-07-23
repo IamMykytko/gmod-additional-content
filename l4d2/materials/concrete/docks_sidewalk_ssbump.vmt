@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$basetexture "Concrete/docks_sidewalk"
+$bumpmap "Concrete/docks_sidewalk-ssbump"
+$ssbump 1
+$surfaceprop concrete
+}

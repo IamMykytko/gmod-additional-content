@@ -1,0 +1,13 @@
+WorldVertexTransition
+{
+$baseTexture "buildings/building_roof_01"
+$basetexture2 "buildings/building_roof_02"
+$bumpmap "buildings/building_roof_01_height-ssbump"
+$bumpmap2 "buildings/building_roof_02_height-ssbump"
+$blendmodulatetexture "nature/blend_texture_01"
+$ssbump 1
+$SSBumpMathFix 1
+$surfaceprop plaster
+$surfaceprop2 plaster
+"%keywords" l4d2
+}

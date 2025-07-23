@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+$baseTexture "buildings/brick22overlay"
+$decal 1
+$decalscale "0.250000"
+$color2 "[.4 .4 .4]"
+}

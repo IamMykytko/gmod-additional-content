@@ -1,0 +1,8 @@
+lightmappedgeneric
+{
+$baseTexture "metal/metal_ext_12_under"
+$surfaceprop metal
+
+
+"%keywords" l4d2
+}

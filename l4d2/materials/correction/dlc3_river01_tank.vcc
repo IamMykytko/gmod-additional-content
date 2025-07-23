@@ -1,0 +1,137 @@
+<!-- dmx encoding keyvalues2 1 format dmx 1 -->
+"DmeColorCorrectionOperatorList"
+{
+	"id" "elementid" "6a7f11bd-ac13-4b5d-9b49-f7b25d4832cc"
+	"operators" "element_array" 
+	[
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "91833325-de53-4b13-ac77-c640643fe5a4"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 -0.250980407 0"
+			"enabled" "bool" "1"
+			"fuzziness" "float" "0.392156899"
+			"invertSelection" "bool" "1"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+				"0 1 1"
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+				"1 0 0"
+			]
+			"selectionMethod" "int" "8"
+			"tolerance" "float" "0.7568628192"
+		},
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "8486f3b7-0f8c-4bb3-bb43-ac77e53c0045"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 -0.611764729 0"
+			"enabled" "bool" "0"
+			"fuzziness" "float" "0.3450980484"
+			"invertSelection" "bool" "0"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+				"36.7741928101 0.1684782505 0.721568644"
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+				"0.721568644 0.6745098233 0.6000000238"
+			]
+			"selectionMethod" "int" "8"
+			"tolerance" "float" "0.2000000179"
+		},
+		"CDmeColorCorrectionColorBalanceOp"
+		{
+			"id" "elementid" "fca815b1-f9e5-4576-b867-e7352a19739d"
+			"blendFactor" "float" "1"
+			"cyanRedBalance" "float_array" 
+			[
+				"0",
+				"20",
+				"0"
+			]
+			"enabled" "bool" "1"
+			"magentaGreenBalance" "float_array" 
+			[
+				"0",
+				"0",
+				"0"
+			]
+			"name" "string" "Balance"
+			"preserveLuminosity" "bool" "1"
+			"yellowBlueBalance" "float_array" 
+			[
+				"0",
+				"-7",
+				"0"
+			]
+		},
+		"CDmeColorCorrectionColorBalanceOp"
+		{
+			"id" "elementid" "50bb5cc8-0b66-47ee-a825-6b46d83bc9b7"
+			"blendFactor" "float" "1"
+			"cyanRedBalance" "float_array" 
+			[
+				"9",
+				"0",
+				"0"
+			]
+			"enabled" "bool" "1"
+			"magentaGreenBalance" "float_array" 
+			[
+				"0",
+				"0",
+				"0"
+			]
+			"name" "string" "Balance"
+			"preserveLuminosity" "bool" "1"
+			"yellowBlueBalance" "float_array" 
+			[
+				"0",
+				"-18",
+				"0"
+			]
+		},
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "bcfc1ffa-81e7-4681-91ac-362f4a4bf90b"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 -0.4980392456 0"
+			"enabled" "bool" "0"
+			"fuzziness" "float" "0.631372571"
+			"invertSelection" "bool" "0"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+				"27.4285678864 0.5932203531 0.231372565"
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+				"0.231372565 0.1568627506 0.0941176564"
+			]
+			"selectionMethod" "int" "8"
+			"tolerance" "float" "0.2000000179"
+		},
+		"CDmeColorCorrectionLevelsOp"
+		{
+			"id" "elementid" "ee809d5d-4e87-4302-8259-dfca341e0763"
+			"blendFactor" "float" "1"
+			"channelMask" "int" "7"
+			"enabled" "bool" "1"
+			"maxInputLevel" "float" "1"
+			"maxOutputLevel" "float" "1"
+			"midInputLevel" "float" "0.5254902244"
+			"minInputLevel" "float" "0"
+			"minOutputLevel" "float" "0"
+			"name" "string" "Levels"
+		}
+	]
+}
+

@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+$baseTexture "concrete/highway_02"
+$surfaceprop concrete
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint "[.03 .03 .03]"
+$bumptransform "center .75 .75 scale 1 1 rotate 0 translate 0 0"
+$bumpmap "concrete/pavement2_height-ssbump"
+$ssbump 1
+$SSBumpMathFix 1
+"%keywords" l4d2
+}

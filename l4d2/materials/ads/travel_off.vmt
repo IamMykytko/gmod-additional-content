@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "ads/travel"
+$envmap env_cubemap
+$envmapmask "ads\subwayverticle_ref"
+$surfaceprop glass
+$envmaptint "[ .1 .1 .1 ]"
+}

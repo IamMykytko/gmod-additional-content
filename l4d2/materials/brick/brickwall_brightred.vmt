@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+$baseTexture "brick/colortintwall01"
+$surfaceprop brick
+$bumpmap "brick/urban_brickwall_01_ssbump"
+$color2 "[.9 .55 .55]"
+$ssbump 1
+$envmap "cubemaps/urban_cube01"
+$normalmapalphaenvmapmask 1
+$envmaptint "[ .1 .05 .04 ]"
+$detail "detail\dt_brick03"
+$detailscale "7.5"
+$detailblendfactor ".6"
+$detailblendmode 7
+}

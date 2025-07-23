@@ -1,0 +1,30 @@
+Water
+{
+$normalmap "liquids/water_river_normal_sharp"
+$reflecttexture _rt_WaterReflection
+$reflectamount "0.4"
+$reflecttint "{ 190 190 190 }"
+$reflectskyboxonly 1
+$reflectentities 0
+$abovewater 0
+$bottommaterial "liquids/water_swamp_cheap_beneath"
+$fogenable 1
+$fogstart 0
+$fogend 100
+$lightmapwaterfog 0
+">=DX90_20b"
+{
+
+$fogcolor "{ 9 7 1 }"
+$flashlighttint 50
+}
+"<DX90_20b"
+{
+
+$fogcolor "{ 9 7 1 }"
+$flashlighttint 200
+}
+"%compilewater" 1
+"%tooltexture" "nature/water_frame01_normal"
+$surfaceprop water
+}

@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+$basetexture "decals\portgravel001"
+$translucent 1
+$decal 1
+$decalscale "0.250"
+$surfaceprop gravel
+$vertexcolor 1
+$vertexalpha 1
+}

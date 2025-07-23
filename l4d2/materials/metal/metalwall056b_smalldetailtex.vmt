@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$basetexture "Metal/metalwall056b"
+$surfaceprop metal
+$detail "detail\dt_metal2"
+$detailscale "[8 2]"
+$detailblendfactor ".7"
+$detailblendmode 0
+}

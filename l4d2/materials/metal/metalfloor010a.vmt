@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+
+$basetexture "Metal/metalfloor010a"
+$surfaceprop metalpanel
+"%keywords" borealis
+}

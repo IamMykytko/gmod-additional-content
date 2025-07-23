@@ -1,0 +1,28 @@
+Water
+{
+$normalmap "liquids/water_normal_x"
+$flowmap "liquids/c3m4_hflowmap"
+$flow_normaluvscale 300.0
+$flow_worlduvscale 0.5
+$flow_timeintervalinseconds 0.25 
+$flow_uvscrolldistance 0.085 
+$flow_bumpstrength 0.55
+$flow_timescale 0.5
+$flow_noise_texture "liquids/water_noise"
+$flow_noise_scale 0.0003
+$flow_debug 0
+$refract 1
+$refractamount "0.25"
+$refracttint "{ 151 135 34 }"
+$abovewater 0
+$fogenable 1
+$fogstart 0
+$fogend 15
+$lightmapwaterfog 0
+
+$fogcolor "{ 9 8 1 }"
+$flashlighttint 200
+"%compilewater" 1
+"%tooltexture" "nature/water_frame01_normal"
+$surfaceprop slime
+}

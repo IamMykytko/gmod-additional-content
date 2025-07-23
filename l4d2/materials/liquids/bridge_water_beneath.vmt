@@ -1,0 +1,30 @@
+Water
+{
+$abovewater 0
+"%tooltexture" "nature/water_frame01_normal"
+$refract 1
+$refractamount ".1"
+$normalmap "liquids/water_river_normal_sharp"
+"%compilewater" 1
+$surfaceprop water
+$bottommaterial "liquids/bridge_water_beneath"
+$bumpframe 0
+$fogenable 1
+$fogcolor "{22 20 10}"
+$fogstart "1.00"
+$fogend "150.00"
+$scroll1 "[.01 .01 .05]"
+$scroll2 "[-.025 .025 .075]"
+Proxies
+{
+TextureScroll
+{
+texturescrollvar $bumptransform
+texturescrollrate ".05"
+texturescrollangle "45.00"
+}
+WaterLOD
+{
+}
+}
+}

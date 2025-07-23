@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$basetexture "concrete\concretewall004a"
+$surfaceprop concrete
+$detail "detail\dt_conc2"
+$detailscale 9
+$detailblendfactor ".8"
+$detailblendmode 0
+}

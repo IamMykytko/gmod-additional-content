@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$basetexture "Metal/metalstair002a"
+$surfaceprop metal
+$bumpmap "Metal/metalstair002a-ssbump"
+$ssbump 1
+"%keywords" "Left4Dead,River,Port"
+}

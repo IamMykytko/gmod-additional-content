@@ -1,0 +1,49 @@
+Water
+{
+"GPU<1"
+{
+$fallbackmaterial "liquids/water_drainage_lowend"
+}
+"CPU<1"
+{
+$fallbackmaterial "liquids/water_drainage_lowend"
+}
+$abovewater 1
+"%compilewater" 1
+$reflectentities 0
+"%tooltexture" "nature/water_frame01_normal"
+$refract 1
+$refractamount 1
+
+$bluramount 1
+
+$reflectamount 1
+
+Water_DX90
+{
+$refractamount 0
+}
+$scale "[2 2]"
+$bumpmap "nature/water_frame01_dudv"
+$normalmap "nature/water_frame01_normal"
+$envmap env_cubemap
+$envmaptint "[.5 .5 .5]"
+$surfaceprop water
+$bottommaterial "liquids/militiaWaterbeneath"
+$bumpframe 0
+$fogenable 1
+$fogcolor "{5 10 5}"
+$fogstart 30
+$fogend 300
+$scroll1 "[.01 .01 .05]"
+$scroll2 "[-.025 .025 .075]"
+Proxies
+{
+TextureScroll
+{
+texturescrollvar $bumptransform
+texturescrollrate .01
+texturescrollangle 65.00
+}
+}
+}

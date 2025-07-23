@@ -1,0 +1,4 @@
+DecalModulate
+{
+$baseTexture "effects/docks_shadow"
+}

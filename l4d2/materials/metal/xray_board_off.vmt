@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "metal/Xray_Board_Off"
+$surfaceprop glass
+}

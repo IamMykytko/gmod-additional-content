@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "decals/infnum5"
+$translucent 1
+$decal 1
+$decalscale "0.080000"
+$vertexcolor 1
+$vertexalpha 1
+}

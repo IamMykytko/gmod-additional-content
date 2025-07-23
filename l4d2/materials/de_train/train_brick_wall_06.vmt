@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$basetexture "de_train\train_brick_wall_06"
+$surfaceprop concrete
+}

@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+$basetexture "Concrete/concretefloor007a"
+$surfaceprop concrete
+$detail "detail\dt_conc"
+$detailscale 8
+$detailblendfactor .8
+$detailblendmode 0
+LightmappedGeneric_DX9
+{
+$bumpmap "concrete/concretefloor007a_normal"
+$parallaxmap "concrete/concretefloor007a_height"
+$parallaxmapscale ".05"
+}
+}

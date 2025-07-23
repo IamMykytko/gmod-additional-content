@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "buildings/astro_turf001"
+$surfaceprop rubber
+"%keywords" l4d2
+}

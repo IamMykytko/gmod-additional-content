@@ -1,0 +1,8 @@
+DepthWrite
+{
+$no_fullbright 1
+$model 1
+"%noToolTexture" 1
+$alphatest 1
+$nocull 1
+}

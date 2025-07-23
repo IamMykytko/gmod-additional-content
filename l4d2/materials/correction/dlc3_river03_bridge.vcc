@@ -1,0 +1,48 @@
+<!-- dmx encoding keyvalues2 1 format dmx 1 -->
+"DmeColorCorrectionOperatorList"
+{
+	"id" "elementid" "7ee9e753-502b-466f-b106-ae35c09525f5"
+	"operators" "element_array" 
+	[
+		"CDmeColorCorrectionColorBalanceOp"
+		{
+			"id" "elementid" "3d613832-a5f9-4486-b188-a52212cf06ca"
+			"blendFactor" "float" "1"
+			"cyanRedBalance" "float_array" 
+			[
+				"-10",
+				"0",
+				"-5"
+			]
+			"enabled" "bool" "1"
+			"magentaGreenBalance" "float_array" 
+			[
+				"0",
+				"0",
+				"0"
+			]
+			"name" "string" "Balance"
+			"preserveLuminosity" "bool" "1"
+			"yellowBlueBalance" "float_array" 
+			[
+				"5",
+				"5",
+				"0"
+			]
+		},
+		"CDmeColorCorrectionLevelsOp"
+		{
+			"id" "elementid" "b142cde7-47f6-40f2-a1ec-b549bfff6e77"
+			"blendFactor" "float" "1"
+			"channelMask" "int" "7"
+			"enabled" "bool" "1"
+			"maxInputLevel" "float" "0.9254902601"
+			"maxOutputLevel" "float" "1"
+			"midInputLevel" "float" "0.4627451301"
+			"minInputLevel" "float" "0"
+			"minOutputLevel" "float" "0"
+			"name" "string" "Levels"
+		}
+	]
+}
+

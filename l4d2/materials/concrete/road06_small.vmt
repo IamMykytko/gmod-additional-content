@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+$baseTexture "concrete\road06_small"
+$bumpmap "concrete\pavement_height_low-ssbump"
+$ssbump 1
+$detail "detail\dt_asphalt"
+$detailscale 10
+$detailblendfactor .6
+$detailblendmode 0
+$Surfaceprop asphalt
+"%keywords" "Left4Dead,River,DLC3,Barge"
+}

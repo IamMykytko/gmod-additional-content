@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+$baseTexture "concrete/sign_hospital01"
+$envmap env_cubemap
+$envmapsaturation ".1"
+$bumpmap "concrete/sign_hospital01-ssbump"
+$ssbump 1
+$normalmapalphaenvmapmask 1
+$surfaceprop concrete
+}

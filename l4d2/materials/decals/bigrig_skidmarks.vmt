@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "decals/bigrig_skidmarks"
+$Translucent 1
+$Decal 1
+$DecalScale "0.50000"
+}

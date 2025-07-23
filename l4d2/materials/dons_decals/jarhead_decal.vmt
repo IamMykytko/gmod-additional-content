@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$basetexture "dons_decals/jarhead_decal"
+$translucent 1
+$decal 1
+}

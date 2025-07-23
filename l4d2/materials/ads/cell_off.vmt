@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "ads/cell"
+$envmap env_cubemap
+$envmapmask "ads\subwayhorizontal_ref"
+$envmaptint "[ .2 .2 .2 ]"
+$surfaceprop glass
+}

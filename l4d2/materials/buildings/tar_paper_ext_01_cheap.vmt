@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "buildings/tar_paper_ext_01"
+$surfaceprop rubber
+
+
+"%keywords" l4d2
+}

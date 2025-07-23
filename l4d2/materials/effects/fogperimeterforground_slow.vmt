@@ -1,0 +1,20 @@
+UnlitGeneric
+{
+$baseTexture "effects/FogPerimeterForground"
+$translucent 1
+$nofog 1
+$color2 "[ 1 1 1 ]"
+UnlitGeneric_HDR_dx9
+{
+$color2 "[ .375 .375 .375 ]"
+}
+Proxies
+{
+TextureScroll
+{
+texturescrollvar $baseTextureTransform
+texturescrollrate -0.005
+texturescrollangle 0
+}
+}
+}

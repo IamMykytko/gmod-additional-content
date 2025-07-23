@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "buildings/pool002"
+$envmap env_cubemap
+$bumpmap "props\roof_concrete_wet_normal"
+$normalmapalphaenvmapmask 1
+$surfaceprop wet
+"%keywords" l4d2
+}

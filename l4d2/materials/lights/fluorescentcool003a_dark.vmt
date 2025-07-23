@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+
+$basetexture "Lights/fluorescentcool003a"
+
+$surfaceprop glass
+}

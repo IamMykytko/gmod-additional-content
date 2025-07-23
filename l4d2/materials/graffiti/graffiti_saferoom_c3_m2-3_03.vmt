@@ -1,0 +1,8 @@
+DecalModulate
+{
+$basetexture "graffiti/graffiti_saferoom_c3_m2-3_03"
+$surfaceprop default
+$decal 1
+$vertexcolor 1
+$vertexalpha 1
+}

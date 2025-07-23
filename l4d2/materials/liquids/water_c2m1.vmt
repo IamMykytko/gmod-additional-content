@@ -1,0 +1,35 @@
+Water
+{
+$normalmap "liquids/water_normal_x"
+$flowmap "liquids/c2m1_hflowmap"
+$flow_normaluvscale 200.0
+$flow_worlduvscale .5
+$flow_timeintervalinseconds 0.5 
+$flow_uvscrolldistance 0.1 
+$flow_bumpstrength 0.7
+$flow_timescale 1
+$flow_noise_texture "liquids/water_noise"
+$flow_noise_scale 0.0008
+$flow_debug 0
+$reflecttexture _rt_WaterReflection
+$reflectamount "0.3"
+$reflecttint "{ 190 190 190 }"
+$reflectskyboxonly 1
+$reflectentities 1
+$refract 1
+$refractamount "0.25"
+$refracttint "{ 151 135 34 }"
+$abovewater 1
+$bottommaterial "liquids/water_c2m1_beneath"
+$fogenable 1
+$fogstart 0
+$fogend 10
+$lightmapwaterfog 1
+
+"360?$fogcolor" "{ 45 35 10 }"
+"!360?$fogcolor" "{ 90 70 20 }"
+$flashlighttint 1
+"%compilewater" 1
+"%tooltexture" "nature/water_frame01_normal"
+$surfaceprop slime
+}

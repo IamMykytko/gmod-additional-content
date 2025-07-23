@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "metal/trim01"
+$surfaceprop metalvent
+}

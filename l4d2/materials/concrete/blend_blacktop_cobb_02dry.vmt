@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+$basetexture "stone/waterfront_cobblestone_03a"
+$basetexture2 "concrete/blacktop_ext_04"
+$bumpmap "stone/cobblestone_02-ssbump"
+$bumpmap2 "concrete/pavement_height_low-ssbump"
+$ssbump 1
+$SSBumpMathFix 1
+$blendmodulatetexture "nature/blend_texture_01"
+$surfaceprop concrete
+$surfaceprop2 concrete
+"%keywords" "Left4Dead,River,Port"
+"%tooltexture" "concrete/blend_blacktop_cobb_02dry_tooltexture"
+}

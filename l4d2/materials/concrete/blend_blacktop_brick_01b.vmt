@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+$basetexture "concrete/blacktop_ext_01b"
+$basetexture2 "brick/brick_floor_02"
+
+$ssbump 1
+$bumpmap "concrete/blacktop_ext_01_height-ssbump"
+$bumpmap2 "brick/brick_floor_02_height-ssbump"
+$SSBumpMathFix 1
+$blendmodulatetexture "nature/blend_texture_01"
+$surfaceprop concrete
+$surfaceprop2 brick
+"%keywords" l4d2
+}

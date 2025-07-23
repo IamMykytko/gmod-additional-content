@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "decals/sewer_slime01_decal"
+$Translucent 1
+$Decal 1
+$DecalScale "0.250000"
+$VertexColor 1
+$VertexAlpha 1
+}

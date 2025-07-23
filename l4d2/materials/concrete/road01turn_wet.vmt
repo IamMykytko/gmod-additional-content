@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+$baseTexture "concrete/road01turn_wet"
+$envmap env_cubemap
+$envmapmask "concrete\road01turn_wet_ref"
+$bumpmap "concrete\road01turn_wet_normal"
+$normalmapalphaenvmapmask 1
+$envmaptint "[1 1 1]"
+
+
+
+
+}

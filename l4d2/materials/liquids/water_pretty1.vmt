@@ -1,0 +1,78 @@
+LightmappedGeneric
+{
+LightmappedGeneric_DX6
+{
+$fallbackmaterial "nature/water_movingplane_dx70"
+}
+$basetexture "dev/water_moving"
+$color "[.23 .18 .11]"
+
+$translucent 1
+$surfaceprop water
+$envmap env_cubemap
+$envmaptint "[.5 .5 .5]"
+
+"%compilewater" 1
+$abovewater 1
+$bottommaterial "nature/water_movingplane_beneath"
+$bumpmap "nature/water_frame01_normal"
+
+
+
+$fogenable 1
+$fogcolor "[.077 .07 .05]"
+$fogstart 0
+$fogend 200
+$bumpframe 0 
+$scroll1 "[.01 .01 .05]"
+$scroll2 "[-.025 .025 .075]"
+$bumpscale .1
+
+$temp 0
+$temp2 0
+$temp3 0
+$temp4 0
+Proxies
+{
+TextureScroll
+{
+texturescrollvar $bumptransform
+texturescrollrate $temp
+texturescrollangle $temp2
+}
+AnimatedTexture
+{
+animatedtexturevar $basetexture
+animatedtextureframenumvar $frame
+animatedtextureframerate 21.00
+}
+Sine
+{
+resultVar $temp
+sineperiod 317.5
+sinemin -0.0003
+sinemax 0.0003
+}
+Sine
+{
+resultVar $temp2
+sineperiod 400
+sinemin 0
+sinemax 360
+}
+Sine
+{
+resultVar $bumpscale
+sineperiod 10
+sinemin .3
+sinemax 1.2
+}
+Sine
+{
+resultVar $alpha
+sineperiod 40
+sinemin .7
+sinemax 1
+}
+}
+}

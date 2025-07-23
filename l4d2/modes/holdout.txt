@@ -1,0 +1,17 @@
+"holdout"
+{
+	"base"		"holdout"
+
+	"maxplayers"	"4"
+	"hasdifficulty"		"1"
+	"singlechapter"		"1"
+
+	"DisplayTitle"	"Holdout"
+	"ShortDescription"	"Collect resources and build defenses to survive."
+	"Description"	"Holdout is a sample mode to demonstrate the use of the new Mutation scripting tools.
+
+Barricade yourselves against waves of infected. Use the resources that Special Infected drop to buy supplies and perform other actions. Explore the arena for all sorts of helpful tools and items, and see if you can survive until the rescue chopper arrives!"
+	"Image"		"maps/any"
+	"Author"	"Valve"
+}	
+

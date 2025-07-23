@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+$vertexcolor 1
+$vertexalpha 1
+$translucent 1
+$basetexture "decals/missing_posters_04"
+$decal 1
+$decalscale 0.25
+"%keywords" L4D
+}

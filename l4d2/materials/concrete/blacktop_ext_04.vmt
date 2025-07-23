@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "concrete/blacktop_ext_04"
+$surfaceprop concrete
+"%keywords" l4d2
+}

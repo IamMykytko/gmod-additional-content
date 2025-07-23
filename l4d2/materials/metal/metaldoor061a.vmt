@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+
+$basetexture "Metal/metaldoor061a"
+$surfaceprop metalvent
+$detail "detail\dt_metal2"
+$detailscale 5
+$detailblendfactor .4
+$detailblendmode 0
+"%keywords" "c17industrial,wasteland"
+}

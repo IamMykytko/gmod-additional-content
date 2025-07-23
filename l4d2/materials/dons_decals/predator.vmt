@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$basetexture "dons_decals/predator"
+$translucent 1
+}

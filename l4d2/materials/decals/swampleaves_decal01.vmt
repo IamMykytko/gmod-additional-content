@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+$baseTexture "decals/swampleaves_decal01"
+$translucent 1
+$decal 1
+$decalscale "0.05"
+$surfaceprop grass
+$vertexalpha 1
+$vertexcolor 1
+}

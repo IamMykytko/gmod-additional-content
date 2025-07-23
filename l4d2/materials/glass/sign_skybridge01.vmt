@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "glass/sign_skybridge01"
+$selfillum 1
+$selfillumtint "[ .18 .18 .18 ]"
+$envmap env_cubemap
+$envmapmask "glass\sign_ref"
+$surfaceprop glass
+}

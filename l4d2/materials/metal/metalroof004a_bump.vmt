@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+$basetexture "Metal/metalroof004a"
+$surfaceprop metalvent
+$envmap env_cubemap
+$bumpmap "Metal/metalroof004a_normal"
+$normalmapalphaenvmapmask 1
+$envmapcontrast ".8"
+$envmapsaturation ".8"
+$envmaptint "[.32 .16 .12]"
+}

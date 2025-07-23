@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "metal/metalfloor001b_freighter"
+$Surfaceprop metal
+}

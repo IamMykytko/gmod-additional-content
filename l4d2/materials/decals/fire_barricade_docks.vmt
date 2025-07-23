@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+$basetexture "decals/fire_barricade_docks"
+$translucent 1
+$decal 1
+$decalscale "0.250000"
+$detail "detail\dt_asphalt"
+$detailscale "[ 4 8 ]"
+$detailblendfactor .8
+$detailblendmode 0
+}

@@ -1,0 +1,11 @@
+UnLitGeneric
+{
+$baseTexture "buildings/city_burning02_fog"
+$translucent 1
+$nofog 1
+$color2 "[ .9 .9 .9 ]"
+UnlitGeneric_HDR_dx9
+{
+$color2 "[ .53 .53 .53 ]"
+}
+}

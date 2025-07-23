@@ -1,0 +1,13 @@
+WorldVertexTransition
+{
+$basetexture2 "brick/brick_floor_02"
+$baseTexture "brick/brick_floor_02b"
+$bumpmap "brick/brick_floor_02_height-ssbump"
+$SSBumpMathFix 1
+$blendmodulatetexture "nature/blend_texture_01"
+$ssbump 1
+$surfaceprop2 brick
+$surfaceprop brick
+"%keywords" l4d2
+"%detailtype" urban_grass_overgrown
+}

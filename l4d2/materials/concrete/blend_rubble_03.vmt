@@ -1,0 +1,9 @@
+WorldVertexTransition
+{
+$basetexture "concrete/rubble_floor_01"
+$basetexture2 "wood/woodfloor_int_02"
+$surfaceprop plaster
+$surfaceprop2 wood
+"%keywords" l4d2
+"%detailtype" urban_grass_overgrown
+}

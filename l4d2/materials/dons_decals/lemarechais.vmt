@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$basetexture "dons_decals/Lemarechais"
+$translucent 1
+}

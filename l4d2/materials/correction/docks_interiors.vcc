@@ -1,0 +1,132 @@
+<!-- dmx encoding keyvalues2 1 format dmx 1 -->
+"DmeColorCorrectionOperatorList"
+{
+	"id" "elementid" "51e3add6-40ae-43b2-a0e4-05c7e9891e8e"
+	"operators" "element_array" 
+	[
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "358f5800-f132-45e2-a42b-eb1610786e42"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 0.1921568811 0"
+			"enabled" "bool" "0"
+			"fuzziness" "float" "0.392156899"
+			"invertSelection" "bool" "0"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+				"0 1 1"
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+				"1 0 0"
+			]
+			"selectionMethod" "int" "8"
+			"tolerance" "float" "0.6823529601"
+		},
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "7cbc8ef6-b1f2-46aa-9392-d590ac1c611b"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 -0.250980407 0"
+			"enabled" "bool" "1"
+			"fuzziness" "float" "0.392156899"
+			"invertSelection" "bool" "1"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+				"0 1 1"
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+				"1 0 0"
+			]
+			"selectionMethod" "int" "8"
+			"tolerance" "float" "0.7568628192"
+		},
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "f4112408-d30b-4b9a-95ad-c0782668413d"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 -0.7098039389 0"
+			"enabled" "bool" "0"
+			"fuzziness" "float" "0.5058823824"
+			"invertSelection" "bool" "1"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+				"35.2941207886 0.1268656552 0.5254902244"
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+				"0.5254902244 0.4980392456 0.4588235617"
+			]
+			"selectionMethod" "int" "8"
+			"tolerance" "float" "0.4196078777"
+		},
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "d422ef33-7cce-4ce6-91ec-578c713b9288"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 -0.611764729 0"
+			"enabled" "bool" "1"
+			"fuzziness" "float" "0.3450980484"
+			"invertSelection" "bool" "0"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+				"36.7741928101 0.1684782505 0.721568644"
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+				"0.721568644 0.6745098233 0.6000000238"
+			]
+			"selectionMethod" "int" "8"
+			"tolerance" "float" "0.2000000179"
+		},
+		"CDmeColorCorrectionColorBalanceOp"
+		{
+			"id" "elementid" "8c57c7c9-38d2-4fbf-862f-12e98967dc81"
+			"blendFactor" "float" "1"
+			"cyanRedBalance" "float_array" 
+			[
+				"0",
+				"-2",
+				"0"
+			]
+			"enabled" "bool" "1"
+			"magentaGreenBalance" "float_array" 
+			[
+				"0",
+				"0",
+				"0"
+			]
+			"name" "string" "Balance"
+			"preserveLuminosity" "bool" "1"
+			"yellowBlueBalance" "float_array" 
+			[
+				"0",
+				"6",
+				"0"
+			]
+		},
+		"CDmeColorCorrectionLevelsOp"
+		{
+			"id" "elementid" "fe9a68cc-e11e-437a-a5ca-d3757242f1e6"
+			"blendFactor" "float" "1"
+			"channelMask" "int" "7"
+			"enabled" "bool" "1"
+			"maxInputLevel" "float" "0.9254902601"
+			"maxOutputLevel" "float" "1"
+			"midInputLevel" "float" "0.4627451301"
+			"minInputLevel" "float" "0"
+			"minOutputLevel" "float" "0"
+			"name" "string" "Levels"
+		}
+	]
+}
+

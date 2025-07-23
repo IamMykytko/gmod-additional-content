@@ -1,0 +1,11 @@
+WorldVertexTransition
+{
+$basetexture "concrete/blacktop_ext_01"
+$basetexture2 "concrete/blacktop_ext_02"
+
+
+
+$surfaceprop concrete
+$surfaceprop2 concrete
+"%keywords" l4d2
+}

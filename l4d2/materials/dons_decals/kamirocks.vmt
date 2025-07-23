@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$basetexture "dons_decals/kamirocks"
+$translucent 1
+$decal 1
+}

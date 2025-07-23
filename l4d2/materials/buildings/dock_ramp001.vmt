@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "buildings/dock_ramp001"
+$surfaceprop wood
+"%keywords" l4d2
+}

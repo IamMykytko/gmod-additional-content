@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+$baseTexture "metal/trim_copper01"
+$surfaceprop metalvent
+$bumpmap "metal/trim_copper01-ssbump"
+$ssbump 1
+$normalmapalphaenvmapmask 1
+$envmap env_cubemap
+$envmaptint "[.57 .35 .18]"
+}

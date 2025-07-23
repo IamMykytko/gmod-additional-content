@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "buildings/pool001"
+$surfaceprop plaster
+"%keywords" l4d2
+}

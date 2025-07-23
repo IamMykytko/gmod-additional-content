@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "concrete/roadcrosswalk_overlay_2"
+$translucent 1
+$decal 1
+$decalscale "0.50000"
+$surfaceprop asphalt
+}

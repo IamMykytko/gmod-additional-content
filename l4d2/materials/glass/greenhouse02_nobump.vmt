@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "glass\greenhouse02_bump"
+$translucent 1
+$surfaceprop glass
+}

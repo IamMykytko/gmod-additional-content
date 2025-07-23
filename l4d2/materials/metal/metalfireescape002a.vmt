@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+
+$alphatest 1
+$basetexture "Metal/metalfireescape002a"
+$surfaceprop metalgrate
+"%keywords" c17downtown
+$nodecal 1
+$AlphaTestReference "0.1"
+}

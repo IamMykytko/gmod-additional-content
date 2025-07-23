@@ -1,0 +1,90 @@
+<!-- dmx encoding keyvalues2 1 format dmx 1 -->
+"DmeColorCorrectionOperatorList"
+{
+	"id" "elementid" "bf5da807-9f52-4577-9b9f-11a8b9c3fed5"
+	"operators" "element_array" 
+	[
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "09907ede-1aa7-44d7-90b5-bce513a83bb4"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 -0.250980407 0"
+			"enabled" "bool" "1"
+			"fuzziness" "float" "0.392156899"
+			"invertSelection" "bool" "1"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+				"0 1 1"
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+				"1 0 0"
+			]
+			"selectionMethod" "int" "8"
+			"tolerance" "float" "0.7568628192"
+		},
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "9ab9a85e-a5b8-4905-8ccb-1a73e9649fe3"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 -0.611764729 0"
+			"enabled" "bool" "1"
+			"fuzziness" "float" "0.3450980484"
+			"invertSelection" "bool" "0"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+				"36.7741928101 0.1684782505 0.721568644"
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+				"0.721568644 0.6745098233 0.6000000238"
+			]
+			"selectionMethod" "int" "8"
+			"tolerance" "float" "0.2000000179"
+		},
+		"CDmeColorCorrectionColorBalanceOp"
+		{
+			"id" "elementid" "6ecd6a18-c01e-4df8-a5ad-1f47c4e1d415"
+			"blendFactor" "float" "1"
+			"cyanRedBalance" "float_array" 
+			[
+				"0",
+				"20",
+				"0"
+			]
+			"enabled" "bool" "0"
+			"magentaGreenBalance" "float_array" 
+			[
+				"0",
+				"0",
+				"0"
+			]
+			"name" "string" "Balance"
+			"preserveLuminosity" "bool" "1"
+			"yellowBlueBalance" "float_array" 
+			[
+				"0",
+				"-7",
+				"0"
+			]
+		},
+		"CDmeColorCorrectionLevelsOp"
+		{
+			"id" "elementid" "63fb8e9a-53af-4e0f-bccc-101a076fbaf0"
+			"blendFactor" "float" "1"
+			"channelMask" "int" "7"
+			"enabled" "bool" "1"
+			"maxInputLevel" "float" "0.9254902601"
+			"maxOutputLevel" "float" "1"
+			"midInputLevel" "float" "0.5176470876"
+			"minInputLevel" "float" "0"
+			"minOutputLevel" "float" "0"
+			"name" "string" "Levels"
+		}
+	]
+}
+

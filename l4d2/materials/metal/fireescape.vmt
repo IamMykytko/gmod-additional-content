@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "metal/fireescape"
+$alphatest 1
+$surfaceprop metalgrate
+$AlphaTestReference "0.43"
+"%compilepassbullets" 1
+}

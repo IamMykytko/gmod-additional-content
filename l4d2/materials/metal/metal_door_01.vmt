@@ -1,0 +1,12 @@
+lightmappedgeneric
+{
+$baseTexture "metal/metal_door_01"
+$surfaceprop metal
+$ssbump 1
+$bumpmap "metal/metal_door_01_height-ssbump"
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint "[.05 .05 .05]"
+"%keywords" l4d2
+$SSBumpMathFix 1
+}

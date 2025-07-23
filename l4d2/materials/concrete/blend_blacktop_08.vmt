@@ -1,0 +1,12 @@
+WorldVertexTransition
+{
+$basetexture "nature/dirt_ext_02"
+$basetexture2 "concrete/highway_03b"
+$ssbump 1
+$bumpmap "concrete/blacktop_ext_01_height-ssbump"
+$SSBumpMathFix 1
+$surfaceprop concrete
+$surfaceprop2 concrete
+"%keywords" l4d2
+"%detailtype" urban_grass_overgrown
+}

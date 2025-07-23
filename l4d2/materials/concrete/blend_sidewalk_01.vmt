@@ -1,0 +1,12 @@
+WorldVertexTransition
+{
+$basetexture "concrete/concrete_floor_02"
+$basetexture2 "concrete/concrete_floor_03"
+$blendmodulatetexture "nature/blend_texture_01"
+
+
+
+$surfaceprop concrete
+$surfaceprop2 concrete
+"%keywords" l4d2
+}

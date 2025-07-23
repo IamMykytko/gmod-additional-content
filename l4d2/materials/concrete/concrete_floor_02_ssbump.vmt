@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "concrete/concrete_floor_02"
+$surfaceprop concrete
+$bumpmap "concrete/sidewalk_01_ssb-ssbump"
+$ssbump 1
+"%keywords" l4d2
+}

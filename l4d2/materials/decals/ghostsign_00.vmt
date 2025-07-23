@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+$baseTexture "decals/ghostsign_00"
+$translucent 1
+$decal 1
+$decalscale "0.70000"
+$vertexcolor 1
+$vertexalpha 1
+"%keywords" l4d2
+}

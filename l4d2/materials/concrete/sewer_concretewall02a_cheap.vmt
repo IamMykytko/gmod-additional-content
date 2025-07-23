@@ -1,0 +1,11 @@
+lightmappedgeneric
+{
+$baseTexture "concrete/sewer_concretewall02a"
+$surfaceprop concrete
+
+
+
+
+
+"%keywords" l4d2
+}

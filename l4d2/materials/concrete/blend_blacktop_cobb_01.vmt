@@ -1,0 +1,16 @@
+LightmappedGeneric
+{
+$basetexture "Stone/waterfront_cobblestone_01a"
+$basetexture2 "concrete/blacktop_ext_04"
+$bumpmap "stone/cobblestone_01-ssbump"
+$bumpmap2 "concrete/pavement_height-ssbump"
+$ssbump 1
+$SSBumpMathFix 1
+$blendmodulatetexture "nature/blend_texture_01"
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint "[.2 .2 .2]"
+$surfaceprop concrete
+$surfaceprop2 concrete
+"%keywords" l4d2
+}

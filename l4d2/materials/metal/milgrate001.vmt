@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$basetexture "metal\milgrate001"
+$translucent 1
+$surfaceprop metal
+}

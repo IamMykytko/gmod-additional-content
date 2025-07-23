@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "brick/brickwall_mill06"
+$surfaceprop brick
+
+
+"%keywords" l4d2
+}

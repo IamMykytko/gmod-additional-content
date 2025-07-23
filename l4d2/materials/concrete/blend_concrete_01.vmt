@@ -1,0 +1,12 @@
+WorldVertexTransition
+{
+$basetexture "concrete/concrete_floor_04"
+$basetexture2 "concrete/concrete_floor_05"
+
+$ssbump 1
+$bumpmap "Concrete/road05b_height-ssbump"
+$bumptransform "center .75 .75 scale 2 2 rotate 0 translate 0 0"
+$surfaceprop concrete
+$surfaceprop2 concrete
+"%keywords" l4d2
+}

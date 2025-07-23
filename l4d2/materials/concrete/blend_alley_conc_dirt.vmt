@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+$basetexture "concrete\concretefloor038a"
+$basetexture2 "nature\dirtfloor004a"
+$blendmodulatetexture "concrete/alley_blend"
+$bumpmap "concrete\pavement_height_low-ssbump"
+$ssbump 1
+$surfaceprop concrete
+$surfaceprop2 dirt
+$detail "detail\dt_asphalt"
+$detailscale 5
+$detailblendfactor .8
+$detailblendmode 0
+}

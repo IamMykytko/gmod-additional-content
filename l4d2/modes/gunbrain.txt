@@ -1,0 +1,15 @@
+"gunbrain"
+{
+	"base"		"coop"
+ 
+	"maxplayers"	"4"
+	"hasdifficulty"	"1"
+ 
+	"DisplayTitle"	"GunBrain"
+	"ShortDescription"	"Stats Tracker and trainer."	
+	"Description"	"Stats Tracker and trainer.
+	
+	GunBrain stores data for up to 10 players and boils it down into easy to read graphs. Each weapon keeps it's own stats and you can view them in terms of accuracy or effective vs overkill damage. Gunbrain also tracks damage that you take by source so you can see if there is a threat you aren't prioritizing correctly."
+	"Image"		"maps/any"
+	"Author"	"Valve"
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "lostcoast\models\props_wasteland\boat_fishing01a"
+
+
+$surfaceprop metal
+}

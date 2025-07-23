@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "metal/freezerwall02"
+$envmap env_cubemap
+$envmapmask "metal\freezerwall02_ref"
+$surfaceprop metalvent
+}

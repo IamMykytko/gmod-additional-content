@@ -1,0 +1,11 @@
+WorldVertexTransition
+{
+$basetexture2 "concrete\lots_concrete"
+$basetexture "concrete\concretefloor038a"
+$blendmodulatetexture "concrete/alley_blend"
+$bumpmap "concrete\pavement_height_low-ssbump"
+$ssbump 1
+$surfaceprop2 concrete
+$surfaceprop asphalt
+"%tooltexture" "concrete/blend_lots_conc_pavement_tooltexture"
+}

@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+$baseTexture "metal/ceiling_white02"
+$surfaceprop metalvent
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint "[ .7 .7 .7 ]"
+$envmapsaturation ".2"
+$envmapcontrast ".7"
+$bumpmap "metal\ceiling_white02-ssbump"
+$ssbump 1
+}

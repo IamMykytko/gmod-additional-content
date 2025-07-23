@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$basetexture "de_nuke\nuke_officedoor_03"
+$surfaceprop metal
+}

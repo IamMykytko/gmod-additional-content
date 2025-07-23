@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+
+$basetexture "editor/GizmoScaleHandle"
+$vertexcolor 1
+$nocull 1
+}
