@@ -1,0 +1,6 @@
+LightMappedGeneric
+{
+$basetexture "signs\poster_gibbs_01"
+$surfaceprop default
+"%keywords" l4d2
+}

@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+
+$basetexture "Tile/urban_tilewall01a"
+$surfaceprop tile
+$bumpmap "tile/urban_tilewall01a_ssbump"
+$ssbump 1
+"%keywords" l4d
+}

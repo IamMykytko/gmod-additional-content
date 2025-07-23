@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "plaster/wall_tan04"
+$surfaceprop plaster
+}

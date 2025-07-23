@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "wood/mall_woodtrim00"
+$envmap env_cubemap
+$basealphaenvmapmask 1
+$envmaptint "[.25 .25 .25]"
+$surfaceprop wood
+"%keywords" l4d2
+}

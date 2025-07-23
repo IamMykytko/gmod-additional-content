@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+$baseTexture "tile/tile_mall_walltrim00"
+$envmap env_cubemap
+
+
+$basealphaenvmapmask 1
+$envmaptint "[.5 .5 .5]"
+
+$surfaceprop tile
+"%keywords" l4d2
+}

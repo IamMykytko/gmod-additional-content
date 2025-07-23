@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "signs/vannah_hotel.vtf"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost "0.5"
+$phongexponent 15
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[1 2 5]"
+}

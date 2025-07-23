@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "signs/sign_swamp_02"
+$surfaceprop wood
+"%keywords" l4d2
+}

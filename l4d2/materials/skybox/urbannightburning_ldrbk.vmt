@@ -1,0 +1,8 @@
+sky
+{
+$hdrbasetexture "skybox/urbannightburning_ldrbk"
+$nofog 1
+$ignorez 1
+$color "[ .075 .075 .075 ]"
+$basetexturetransform "center 0 0 scale 1 2 rotate 0 translate 0 0"
+}

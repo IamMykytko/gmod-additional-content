@@ -1,0 +1,8 @@
+LightMappedGeneric
+{
+$basetexture "signs\poster_midnight_riders_dusty"
+$surfaceprop default
+$translucent 1
+$decal 1
+"%keywords" l4d2
+}

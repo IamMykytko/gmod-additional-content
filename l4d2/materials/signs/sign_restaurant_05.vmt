@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "signs/sign_restaurant_05"
+$translucent 1
+$decal 1
+"%keywords" l4d2
+}

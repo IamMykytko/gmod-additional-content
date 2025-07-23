@@ -1,0 +1,7 @@
+WorldVertexTransition
+{
+$basetexture "ti/zwetrock"
+$basetexture2 "ti/zunderwaterrock"
+$surfaceprop dirt
+$surfaceprop2 dirt
+}

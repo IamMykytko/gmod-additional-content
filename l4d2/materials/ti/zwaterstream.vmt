@@ -1,0 +1,55 @@
+LightmappedGeneric
+{
+$basetexture "zfpx/zwaterstream"
+$scale "[0.2 0.2]"
+$refractamount 1
+$bluramount 1
+$translucent 1
+$normalmap "zfpx/zwaterstream"
+$envmap env_cubemap
+$REFRACTTINTTEXTURE "zfpx/zwaterstream"
+"%compilewater" 1
+
+$surfaceprop water
+
+
+
+
+$bumpframe 0
+
+$fogenable 1
+
+
+
+$fogcolor "{25 25 15}"
+
+
+$fogstart 0.00
+
+$fogend 150.00
+$abovewater 1
+$texoffset "[0 0]"
+
+$texscale 1
+Proxies
+{
+AnimatedTexture
+{
+animatedtexturevar $basetexture
+animatedtextureframenumvar $frame
+animatedtextureframerate 5
+}
+TextureScroll
+{
+texturescrollvar $texoffset
+texturescrollrate 1.5
+texturescrollangle 270
+}
+TextureTransform
+{
+translateVar $texoffset
+scaleVar $texscale
+resultVar $basetexturetransform
+}
+}
+}

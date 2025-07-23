@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+$baseTexture "skybox/AirportControlTower"
+$Alphatest 1
+$nofog 1
+$color " .35 .35 .35"
+}

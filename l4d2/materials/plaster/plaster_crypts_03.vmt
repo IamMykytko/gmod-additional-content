@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "plaster/plaster_crypts_03"
+$surfaceprop sheetrock
+\\$bumpmap "plaster/urban_plasterwall_height-ssbump"
+\\$ssbump 1
+"%keywords" l4d2
+}

@@ -1,0 +1,7 @@
+Sky
+{
+$hdrcompressedTexture "skybox/docks_hdrdn"
+$nofog 1
+$ignorez 1
+$color "[ .30 .38 .43 ]"
+}

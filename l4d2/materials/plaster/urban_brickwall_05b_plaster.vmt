@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+$baseTexture "brick/urban_brickwall_05b"
+$bumpmap "plaster/urban_plasterwall_height-ssbump"
+$ssbump 1
+$normalmapalphaenvmapmask 1
+$envmap env_cubemap
+$envmaptint "[ .3 .3 .3 ]"
+$envmapsaturation .5
+$envmapcontrast .5
+$surfaceprop plaster
+}

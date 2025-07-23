@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+$baseTexture "wood/trim_black01"
+$surfaceprop wood
+$envmap env_cubemap
+$envmapmask "wood/trim_black01_ref"
+$envmaptint "[ .3 .3 .2]"
+$envmapcontrast ".4"
+$envmapsaturation ".2"
+$detail "detail\dt_wood2"
+$detailscale "[ 8 2 ]"
+$detailblendfactor ".6"
+$detailblendmode 0
+}

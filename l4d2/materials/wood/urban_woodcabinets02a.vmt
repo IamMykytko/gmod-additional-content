@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+$baseTexture "wood/urban_woodcabinets02a"
+$surfaceprop wood
+$bumpmap "wood/urban_woodcabinets02a_ssbump"
+$ssbump 1
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint "[ .1 .1 .1 ]"
+"%keywords" l4d
+}

@@ -1,0 +1,5 @@
+LightMappedGeneric
+{
+$basetexture "signs/military_map01"
+$surfaceprop default
+}

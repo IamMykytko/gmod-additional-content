@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "plaster/sheetrock01"
+$surfaceprop sheetrock
+$bumpmap "plaster/sheetrockdepth01-ssbump_noalpha"
+$ssbump 1
+}

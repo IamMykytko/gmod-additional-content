@@ -1,0 +1,8 @@
+WorldVertexTransition
+{
+$basetexture "ti/tirock2"
+$basetexture2 "ti/tirock5"
+"%detailtype" rural_dirt_leaves
+$surfaceprop dirt
+$surfaceprop2 dirt
+}

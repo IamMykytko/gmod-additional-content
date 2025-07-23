@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "tile/yellow02"
+$surfaceprop rubber
+}

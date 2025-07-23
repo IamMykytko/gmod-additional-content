@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+$baseTexture "tile/countertop02"
+$envmap env_cubemap
+$envmapmask "tile\countertop02_ref"
+$surfaceprop plastic
+$envmaptint "[1 1 1]"
+lightmappedgeneric_HDR_dx9
+{
+$envmaptint "[.3 .3 .3]"
+}
+}

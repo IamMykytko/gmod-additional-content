@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+$baseTexture "plaster/ranchhouse_plasterwall01"
+$surfaceprop plaster
+$bumpmap "plaster/ranchhouse_plasterwall01_height-ssbump"
+$ssbump 1
+
+
+
+"%keywords" l4d
+}

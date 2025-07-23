@@ -1,0 +1,8 @@
+DecalModulate
+{
+$baseTexture "signs/auto02"
+$decal 1
+$decalscale "0.250000"
+$vertexcolor 1
+$vertexalpha 1
+}

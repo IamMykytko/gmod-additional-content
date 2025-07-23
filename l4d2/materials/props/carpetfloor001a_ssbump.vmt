@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+
+$basetexture "Props/carpetfloor001a"
+$surfaceprop carpet
+$bumpmap "carpet/carpet01-ssbump"
+$bumptransform "center 0 0 scale 2 2 rotate 0 translate 0 0"
+$ssbump 1
+}

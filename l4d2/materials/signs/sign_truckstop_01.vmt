@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "signs/sign_truckstop_01"
+$selfillum 1
+$surfaceprop metal
+
+"%keywords" l4d2
+}

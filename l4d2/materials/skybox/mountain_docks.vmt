@@ -1,0 +1,11 @@
+UnlitGeneric
+{
+$baseTexture "skybox/mountain_docks"
+$translucent 1
+
+$color2 "[ 1 1 1 ]"
+UnlitGeneric_HDR_dx9
+{
+$color2 "[ 0.35 0.35 0.35 ]"
+}
+}

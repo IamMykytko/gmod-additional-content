@@ -1,0 +1,7 @@
+sky
+{
+$hdrbasetexture "skybox/urbannightburning_ldrup"
+$nofog 1
+$ignorez 1
+$color "[ .075 .075 .075 ]"
+}

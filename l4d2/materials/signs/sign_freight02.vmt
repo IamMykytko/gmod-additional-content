@@ -1,0 +1,8 @@
+LightMappedGeneric
+{
+$basetexture "signs/sign_freight02"
+$surfaceprop default
+$decal 1
+$vertexcolor 1
+$vertexalpha 1
+}

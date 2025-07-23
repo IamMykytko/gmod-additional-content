@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+$baseTexture "tile/tile_mall_incline00"
+
+
+
+
+
+
+$surfaceprop tile
+"%keywords" l4d2
+}

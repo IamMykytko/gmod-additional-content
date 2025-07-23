@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "plaster/docks_wall"
+$Surfaceprop plaster
+$detail "detail\dt_conc2"
+$detailscale 5
+$detailblendfactor ".3"
+$detailblendmode 0
+} 

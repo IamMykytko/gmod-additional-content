@@ -1,0 +1,18 @@
+LightmappedGeneric
+{
+$baseTexture "plaster/urban_plasterwall_00a"
+$detail "glass\urban_glass_03"
+$detailscale 1
+$detailblendfactor ".75"
+$detailblendmode 0
+$surfaceprop plaster
+$bumpmap "plaster/urban_plasterwall_height-ssbump"
+
+
+
+
+
+$ssbump 1
+
+
+}

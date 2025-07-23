@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "tile/tile_ceiling_01"
+$bumpmap "tile/tile_ceiling_01_height-ssbump"
+$ssbump 1
+$surfaceprop tile
+"%keywords" l4d2
+$SSBumpMathFix 1
+}

@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+
+$basetexture "Tools/toolsinvisible"
+"%compilenodraw" 1
+$translucent 1
+}

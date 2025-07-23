@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$basetexture "Stone/waterfront_cobblestone_01a"
+$surfaceprop concrete
+"%keywords" l4d2_dlc1
+}

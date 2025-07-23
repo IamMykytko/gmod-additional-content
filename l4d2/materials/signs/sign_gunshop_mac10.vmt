@@ -1,0 +1,6 @@
+LightMappedGeneric
+{
+$basetexture "signs/sign_gunshop_mac10"
+$surfaceprop default
+$decal 1
+}

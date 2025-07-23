@@ -1,0 +1,8 @@
+LightMappedGeneric
+{
+$basetexture "plaster/TOL_wall001"
+$surfaceprop default
+$envmap env_cubemap
+$envmaptint "[1 1 1]"
+$basealphaenvmapmask 1
+}

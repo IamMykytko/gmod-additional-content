@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "stone/stone_floor_01"
+$Surfaceprop concrete
+$ssbump 1
+$bumpmap "stone/stone_floor_01_height-ssbump"
+"%keywords" l4d2
+}

@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "wood/boardwalks01"
+$surfaceprop wood
+"%keywords" l4d2
+}

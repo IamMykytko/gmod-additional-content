@@ -1,0 +1,8 @@
+WorldVertexTransition
+{
+$basetexture "ti/tileaves1"
+$basetexture2 "ti/tirock3"
+"%detailtype" rural_dirt_leaves
+$surfaceprop dirt
+$surfaceprop2 dirt
+}

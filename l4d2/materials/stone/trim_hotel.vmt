@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "stone/trim_hotel"
+$Surfaceprop concrete
+}

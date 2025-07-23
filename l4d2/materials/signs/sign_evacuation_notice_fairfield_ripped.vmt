@@ -1,0 +1,7 @@
+LightMappedGeneric
+{
+$basetexture "signs/sign_evacuation_notice_fairfield_ripped"
+$surfaceprop default
+$translucent 1
+$decal 1
+}

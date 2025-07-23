@@ -1,0 +1,6 @@
+LightMappedGeneric
+{
+$basetexture "signs/sign_evacuation_notice_centers"
+$surfaceprop default
+$decal 1
+}

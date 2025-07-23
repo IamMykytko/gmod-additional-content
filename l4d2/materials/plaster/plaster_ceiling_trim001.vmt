@@ -1,0 +1,9 @@
+lightmappedgeneric
+{
+$baseTexture "plaster/plaster_ceiling_trim001"
+$surfaceprop plaster
+$ssbump 1
+$bumpmap "metal/metal_floor_trim001_height-ssbump"
+"%keywords" l4d2
+$SSBumpMathFix 1
+}

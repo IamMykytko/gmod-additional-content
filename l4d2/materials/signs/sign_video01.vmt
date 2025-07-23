@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "signs/sign_video01"
+$surfaceprop wood
+}

@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "signs/sign_trafficmessage04"
+$selfillum 1
+$surfaceprop metal
+"%keywords" l4d2
+}

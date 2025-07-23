@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "props/bumper01"
+$Surfaceprop rubber
+}

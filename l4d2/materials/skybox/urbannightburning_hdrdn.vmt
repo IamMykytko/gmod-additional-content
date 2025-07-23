@@ -1,0 +1,15 @@
+Sky
+{
+"GPU<1"
+{
+$fallbackmaterial "skybox/urbannightburning_ldrdn"
+}
+$hdrcompressedTexture "skybox/urbannightburning_hdrdn"
+$nofog 1
+$ignorez 1
+$color "[ .35 .35 .35 ]"
+Sky_HDR_dx9
+{
+$color "[ .075 .075 .075 ]"
+}
+}

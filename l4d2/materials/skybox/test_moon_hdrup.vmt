@@ -1,0 +1,12 @@
+Sky
+{
+$hdrcompressedTexture "skybox/urbannightstormhdrup"
+$baseTexture "skybox/urbannightstormup"
+$nofog 1
+$ignorez 1
+$color "[ .65 .65 .65 ]"
+Sky_HDR_dx9
+{
+$color "[ 0.1 0.1 0.1 ]"
+}
+}

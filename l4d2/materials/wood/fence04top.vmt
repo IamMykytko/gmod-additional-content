@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "wood/fence04top"
+$alphatest 1
+$surfaceprop wood
+}

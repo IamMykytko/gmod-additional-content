@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+$baseTexture "tile/tile_int_06"
+$envmap env_cubemap
+$bumpmap "tile/tile_int_06_height-ssbump"
+$normalmapalphaenvmapmask 1
+$ssbump 1
+$surfaceprop tile
+$SSBumpMathFix 1
+"%keywords" l4d2
+$envmaptint "[.4 .4 .4]"
+}

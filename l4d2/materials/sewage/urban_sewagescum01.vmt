@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+$baseTexture "sewage/urban_sewagescum01"
+$translucent 1
+
+
+
+
+$surfaceprop water
+"%keywords" l4d2
+}

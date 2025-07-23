@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "wood/woodsiding_ext_08"
+$surfaceprop wood
+$ssbump 1
+$bumpmap "wood/woodsiding_ext_08_height-ssbump"
+"%keywords" l4d2
+}

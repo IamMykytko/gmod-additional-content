@@ -1,0 +1,6 @@
+LightMappedGeneric
+{
+$basetexture "signs/sign_evacuation_radio02"
+$surfaceprop default
+$decal 1
+}

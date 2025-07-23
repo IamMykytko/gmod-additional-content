@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "plaster/wall_red03"
+$surfaceprop sheetrock
+}

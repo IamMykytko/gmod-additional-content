@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "plaster/plaster_int_17"
+"%keywords" l4d2
+$ssbump 1
+$bumpmap "plaster/plaster_int_17_height_ssbump"
+}

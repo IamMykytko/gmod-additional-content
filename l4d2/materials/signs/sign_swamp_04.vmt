@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "signs/sign_swamp_04"
+$surfaceprop wood
+$envmap env_cubemap
+$basealphaenvmapmask 1
+$envmaptint "[.15 .15 .15]"
+"%keywords" l4d2
+}

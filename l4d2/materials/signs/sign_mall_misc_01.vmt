@@ -1,0 +1,8 @@
+LightMappedGeneric
+{
+$basetexture "signs/sign_mall_misc_01"
+$surfaceprop default
+$translucent 1
+$decal 1
+"%keywords" l4d2
+}

@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "signs/sign_stadium_00"
+$decal 1
+$translucent 1
+"%keywords" l4d2
+}

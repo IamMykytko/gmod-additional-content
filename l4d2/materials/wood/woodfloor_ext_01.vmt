@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "wood/woodfloor_ext_01"
+$surfaceprop wood
+
+
+"%keywords" l4d2
+}

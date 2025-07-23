@@ -1,0 +1,18 @@
+LightmappedGeneric
+{
+$baseTexture "tile/black02"
+$surfaceprop tile
+
+
+$envmap env_cubemap
+$envmapmask "tile/black02_ref"
+
+$envmaptint "[ 1 1 1 ]"
+$envmapcontrast ".8"
+$envmapsaturation ".8"
+
+
+
+
+"%keywords" l4d
+}

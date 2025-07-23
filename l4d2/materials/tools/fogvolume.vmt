@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "tools/fogvolume"
+$translucent 1
+}

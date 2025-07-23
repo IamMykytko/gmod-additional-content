@@ -1,0 +1,5 @@
+LightMappedGeneric
+{
+$basetexture "props/gallery_background_center"
+$surfaceprop default
+}

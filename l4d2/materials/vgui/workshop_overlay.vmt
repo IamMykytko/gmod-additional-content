@@ -1,0 +1,12 @@
+UnlitGeneric
+{
+
+
+$translucent 1
+$basetexture "VGUI\workshop_overlay"
+
+
+$ignorez 1
+
+
+}

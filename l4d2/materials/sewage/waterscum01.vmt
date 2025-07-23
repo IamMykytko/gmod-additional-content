@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "sewage/WaterScum01"
+$translucent 1
+}

@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "plaster/plaster_ext_20d"
+$surfaceprop plaster
+"%keywords" l4d2
+}

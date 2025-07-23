@@ -1,0 +1,5 @@
+WorldVertexTransition
+{
+$basetexture "ti/tiwaterrock"
+$basetexture2 "ti/tirock2"
+}

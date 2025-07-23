@@ -1,0 +1,5 @@
+LightMappedGeneric
+{
+$basetexture "signs/sign_gator01"
+$surfaceprop default
+}

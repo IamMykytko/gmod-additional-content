@@ -1,0 +1,8 @@
+Sky
+{
+$hdrcompressedTexture "skybox/docks_hdrlf"
+$nofog 1
+$ignorez 1
+$color "[ .30 .38 .43 ]"
+$basetexturetransform "center 0 0 scale 1 2 rotate 0 translate 0 0"
+}

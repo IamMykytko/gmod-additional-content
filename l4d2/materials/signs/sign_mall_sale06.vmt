@@ -1,0 +1,6 @@
+LightMappedGeneric
+{
+$basetexture "signs/sign_mall_sale06"
+$surfaceprop default
+"%keywords" l4d2
+}
