@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_exteriors/LighthouseTrim"
+$detail "detail\dt_wood2"
+$detailscale 12
+$detailblendfactor ".6"
+$detailblendmode 0
+}

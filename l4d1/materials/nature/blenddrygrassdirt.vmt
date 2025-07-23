@@ -1,0 +1,10 @@
+WorldVertexTransition
+{
+$basetexture "nature/grass_dry01"
+$basetexture2 "nature/leaves"
+"%tooltexture" "nature/blenddrygrassdirt_tooltexture"
+$blendmodulatetexture "nature/leavesblendtexture"
+$surfaceprop asphalt
+$surfaceprop2 dirt
+"%detailtype" rural_dirt_road
+}

@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "buildings/awning_blue"
+$surfaceprop cloth
+}

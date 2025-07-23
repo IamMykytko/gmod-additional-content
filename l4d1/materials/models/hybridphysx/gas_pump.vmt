@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_equipment/gas_pump"
+$bumpmap "models/props_equipment/gas_pump_normal"
+$selfillum 0
+$phong 1
+$phongexponent 2
+$phongboost 2
+$phongfresnelranges "[0.6 1 1]"
+}

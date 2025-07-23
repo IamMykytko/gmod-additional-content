@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "decals/checkpoint01_red"
+$translucent 1
+$decal 1
+$decalscale "0.20"
+$vertexcolor 1
+$vertexalpha 1
+}

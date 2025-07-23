@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$basetexture "Props/tarpaperroof002a"
+$envmap env_cubemap
+$bumpmap "props\roof_concrete_wet_normal"
+$normalmapalphaenvmapmask 1
+$surfaceprop rubber
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_signs\sign_riverside"
+$surfaceprop wood
+$bumpmap "models\props_signs\sign_riverside_normal"
+
+}

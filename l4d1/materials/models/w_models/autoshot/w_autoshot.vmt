@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+ $baseTexture "models\w_models\autoshot/w_autoshot"
+ $envmap env_cubemap
+ $envmapmask "models\v_models\Weapons\autoshot\m4Super_ref"
+}

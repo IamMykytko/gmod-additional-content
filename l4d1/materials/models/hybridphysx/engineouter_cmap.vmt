@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\hybridPhysx/engineOuter_Cmap"
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongexponent 1
+$phongboost 10
+$phongfresnelranges "[.2 .5 1]"
+$phongalbedotint 1
+$BASEMAPLUMINANCEPHONGMASK 1
+$surfaceprop metal
+$selfillum 1
+}

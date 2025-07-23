@@ -1,0 +1,5 @@
+lightmappedgeneric
+{
+$baseTexture "nature/maple_leaves01"
+$surfaceprop dirt
+}

@@ -1,0 +1,25 @@
+Sprite
+
+{
+$spriteorientation vp_parallel
+$spriteorigin "[ 0.50 0.50 ]"
+
+$basetexture "sprites/physbeam"
+$spriterendermode 5
+
+Proxies
+{
+AnimatedTexture
+{
+animatedtexturevar $basetexture
+animatedtextureframenumvar $frame
+animatedtextureframerate 25.00
+}
+}
+}
+
+
+
+
+
+

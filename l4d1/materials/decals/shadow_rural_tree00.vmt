@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "decals/shadow_rural_tree00"
+$translucent 1
+$decal 1
+$decalscale ".500000"
+$vertexcolor 1
+$vertexalpha 1
+}

@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "signs/sign_bank01"
+$surfaceprop metal
+}

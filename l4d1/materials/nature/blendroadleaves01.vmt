@@ -1,0 +1,20 @@
+WorldVertexTransition
+{
+$basetexture "nature/maple_leaves01"
+$basetexture2 "concrete/road05a"
+
+
+"%detailtype" rural_dirt_leaves02
+
+
+
+
+$surfaceprop dirt
+$surfaceprop2 asphalt
+$ssbump 1
+$bumpmap "Concrete/road05a_height-ssbump"
+
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint "[ .07 .07 .085 ]"
+}

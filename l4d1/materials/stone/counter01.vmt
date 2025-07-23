@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+$baseTexture "stone\counter01"
+$Surfaceprop rock
+$Envmap env_cubemap
+$EnvmapMask "stone\counter01_ref"
+$EnvmapTint "[1 1 1]"
+$EnvmapContrast ".6"
+$EnvmapSaturation ".5"
+}

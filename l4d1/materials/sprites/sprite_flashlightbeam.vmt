@@ -1,0 +1,8 @@
+sprite
+{
+$spriteorigin "[ 0.50 0.00 ]"
+$basetexture "sprites/sprite_flashlightbeam"
+$additive 1
+$vertexcolor 1
+
+}

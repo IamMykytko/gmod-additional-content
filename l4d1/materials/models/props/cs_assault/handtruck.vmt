@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\CS_Assault/HandTruck"
+$envmap env_cubemap
+$envmapmask "models\props\CS_Assault\HandTruck_ref"
+$surfaceprop metal
+$envmaptint "[1 1 1]"
+$envmapcontrast ".6"
+$envmapsaturation ".8"
+}

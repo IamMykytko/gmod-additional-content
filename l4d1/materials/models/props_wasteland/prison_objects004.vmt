@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+
+$basetexture "Models/props_wasteland/prison_objects004"
+$envmap env_cubemap
+$envmapmask "Models/props_wasteland/prison_objects004_mask"
+$envmaptint "[1 1 1]"
+$envmapcontrast .25
+$envmapsaturation .5
+$surfaceprop metal
+vertexlitgeneric_HDR_dx9
+{
+$envmaptint "[.2 .2 .2]"
+$envmapcontrast .5
+}
+}

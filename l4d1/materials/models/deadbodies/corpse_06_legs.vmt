@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\DeadBodies/Corpse_06_Legs"
+$basemapalphaphongmask 1
+$phong 1
+$phongboost 1
+$phongexponent 90
+$phongfresnelranges "[3 1 1]"
+}

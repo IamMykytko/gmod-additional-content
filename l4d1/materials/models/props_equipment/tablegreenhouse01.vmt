@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_equipment/TableGreenhouse01"
+$alphatest 1
+$alphatestreference ".5"
+$detail "detail/dt_metal2"
+$detailscale 16
+$detailblendfactor ".9"
+$detailblendmode 0
+}

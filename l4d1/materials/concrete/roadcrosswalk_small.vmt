@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+$baseTexture "concrete/roadcrosswalk_small"
+$color "[1.5 1.5 1.5]"
+$Surfaceprop asphalt
+$bumpmap "concrete\pavement_height-ssbump"
+$ssbump 1
+$bumptransform "center 0 0 scale 1 .25 rotate 90 translate 0 0"
+$detail "detail\dt_asphalt"
+$detailscale "[ 10 2.5 ]"
+$detailblendfactor .8
+$detailblendmode 0
+}

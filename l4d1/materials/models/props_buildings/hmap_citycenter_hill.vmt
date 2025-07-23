@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_buildings/hmap_citycenter_hill"
+$surfaceprop default
+
+}

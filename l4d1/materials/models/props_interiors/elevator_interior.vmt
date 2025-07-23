@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/elevator_interior"
+$Selfillum 1
+$Phong 1
+$PhongExponent 30
+$PhongExponentTexture "models\props_interiors\elevator_exp"
+$PhongFresnelRanges "[30 30 60]"
+$PhongBoost 1
+$Bumpmap "effects/flat_normal"
+}

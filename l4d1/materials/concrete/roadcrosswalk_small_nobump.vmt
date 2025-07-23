@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "concrete/roadcrosswalk_small"
+$color "[1.5 1.5 1.5]"
+$Surfaceprop asphalt
+}

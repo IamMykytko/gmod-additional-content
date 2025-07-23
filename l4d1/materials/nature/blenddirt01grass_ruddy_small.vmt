@@ -1,0 +1,15 @@
+WorldVertexTransition
+{
+$basetexture "nature/dirt01small"
+$bumpmap "concrete\pavement_height-ssbump"
+$ssbump 1
+
+$basetexture2 "de_train/train_grass_floor_01"
+"%detailtype" rural_dkdirt_grass
+$surfaceprop dirt
+$surfaceprop2 grass
+$detail "detail/dt_dirtleaves"
+$detailscale 7
+$detailblendfactor ".5"
+$detailblendmode 7
+}

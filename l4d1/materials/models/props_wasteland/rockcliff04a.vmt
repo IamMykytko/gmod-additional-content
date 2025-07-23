@@ -1,0 +1,5 @@
+vertexlitGeneric
+{
+$basetexture "models/props_wasteland/rockcliff04a"
+$surfaceprop rock
+}

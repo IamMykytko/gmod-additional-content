@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "nature/cobweb00"
+$translucent 1
+$nocull 1
+}

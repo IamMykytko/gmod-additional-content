@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$basetexture "metal\offgaragedr"
+$envmap env_cubemap
+$envmapmask "metal\offgaragedr_ref"
+$surfaceprop metalvent
+}

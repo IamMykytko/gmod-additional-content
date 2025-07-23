@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "metal/baggagecarousel03"
+$envmap env_cubemap
+$envmapmask "metal\baggagecarousel03_ref"
+$surfaceprop metalvent
+}

@@ -1,0 +1,30 @@
+VertexLitGeneric
+{
+$baseTexture "models\w_models\MiniGun/W_MiniGun"
+
+
+
+
+$basemapalphaphongmask 1
+$phong 1
+$phongboost 1
+$phongexponent 10
+$phongfresnelranges "[4 4 6]"
+$detail "models/w_models/minigun/w_minigun_glow.vtf"
+$detailscale 1
+$detailblendfactor .001 
+$detailblendmode 5
+$HeatAmount 0
+Proxies
+{
+Heat
+{
+resultVar $HeatAmount
+}
+Equals
+{
+srcVar1 $HeatAmount
+resultVar $detailblendfactor
+}
+}
+}

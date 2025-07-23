@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Doors/Checkpoint Door"
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 1
+$phongexponent 10
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[15 15 15]"
+$detail "detail\dt_metal2"
+$detailscale 8
+$detailblendfactor ".9"
+$detailblendmode 0
+
+
+}

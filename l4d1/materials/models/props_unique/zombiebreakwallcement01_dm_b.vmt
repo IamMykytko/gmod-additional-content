@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique/ZombieBreakWallCement01_DM_B"
+$color2 "[ .75 .75 .75]"
+}

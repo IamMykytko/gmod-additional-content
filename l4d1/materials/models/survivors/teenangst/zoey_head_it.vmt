@@ -1,0 +1,20 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+
+$baseTexture "models\survivors\TeenAngst/zoey_head"
+$bumpmap "models\survivors\TeenAngst/zoey_head_normal"
+$compress "models\survivors\TeenAngst/zoey_head_compress"
+$stretch "models\survivors\TeenAngst/zoey_head_compress"
+$phong 1
+$phongboost 1
+$phongexponent 5
+$phongtint "[1 .85 .85]"
+$phongfresnelranges "[.5 .85 30]"
+$nodecal 1
+$ambientocclusion 1
+}
+}

@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+
+$basetexture "sprites/ar2_muzzle3"
+$additive 1
+$vertexcolor 1
+$ignorez 1
+}

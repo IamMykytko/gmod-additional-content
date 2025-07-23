@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\DeadBodies/DeadBodies_Super"
+}

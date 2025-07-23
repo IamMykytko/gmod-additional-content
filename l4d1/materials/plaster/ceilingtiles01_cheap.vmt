@@ -1,0 +1,5 @@
+lightmappedgeneric
+{
+$baseTexture "plaster/ceilingtiles01"
+$surfaceprop plaster
+}

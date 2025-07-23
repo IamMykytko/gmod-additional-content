@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique\airport/phone_booth_airport"
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 1
+$phongexponent 30
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[10 10 30]"
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_unique/Caboose01_Interior03"
+$surfaceprop metal
+$detail "detail\dt_metal1"
+$detailscale "[ 20 20 ]"
+$detailblendfactor ".33"
+$detailblendmode 0
+$selfillum 1
+$selfillummask "Models/props_unique/Caboose01_Interior04_mask"
+}

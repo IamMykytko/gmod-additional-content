@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$basetexture "Models/hybridPhysx/trim_colour"
+$basemapalphaphongmask 1
+$surfaceprop metal
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongexponent 3
+$phongboost 3
+$phongfresnelranges "[.2 .5 1]"
+}

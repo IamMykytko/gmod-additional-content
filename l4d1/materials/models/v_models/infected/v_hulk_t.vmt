@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\v_models\Infected\v_Hulk"
+
+$translucent 1
+
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/news_van"
+$envmap env_cubemap
+$envmapmask "models\props_vehicles\news_van_ref"
+}

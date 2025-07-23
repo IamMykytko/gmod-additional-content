@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$basetexture "models\props\cs_militia\silodome01"
+$detail "detail\dt_conc"
+$detailscale 16
+$detailblendfactor .7
+$detailblendmode 0
+}

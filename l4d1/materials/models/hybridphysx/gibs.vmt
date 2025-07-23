@@ -1,0 +1,14 @@
+vertexlitgeneric
+{
+$baseTexture "models/infected/Gibs/gibs.vtf"
+$shinyblood 1
+$shinybloodexponent 10
+
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 3
+$phongexponent 1
+
+$phongfresnelranges "[1 0 .05]"
+$color2 "[.8 .8 .8]"
+}

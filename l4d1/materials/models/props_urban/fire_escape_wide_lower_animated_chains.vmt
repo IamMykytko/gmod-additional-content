@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_urban/fire_escape_wide_lower_animated_chains"
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/Painting_Landscape_G"
+$envmap env_cubemap
+$envmaptint "[.6 .6 .6]"
+$envmapmask "models\props_interiors\Painting_Landscape_A_ref"
+}

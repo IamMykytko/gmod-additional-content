@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "signs/DutyFree01"
+$surfaceprop glass
+}

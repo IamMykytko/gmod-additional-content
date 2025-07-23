@@ -1,0 +1,6 @@
+LightMappedGeneric
+{
+$basetexture "signs/sign_evacuation_airportQ01"
+$surfaceprop default
+$decal 1
+}

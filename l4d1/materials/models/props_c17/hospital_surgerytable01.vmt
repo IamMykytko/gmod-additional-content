@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+$basetexture "models/props_C17/hospital_surgerytable01"
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 1
+$phongexponent 10
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[10 10 30]"
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,32 @@
+LightmappedGeneric
+{
+$basetexture "shadertest/LightmappedTranslucentTexture"
+$translucent 1
+$detail "shadertest/shadertestdetail"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Proxies
+{
+
+Sine
+{
+resultVar $alpha
+sineperiod 4.00
+sinemin 1
+sinemax 1
+}
+}
+}

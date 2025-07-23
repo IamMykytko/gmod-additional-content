@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+$baseTexture "plaster/urban_plasterwall_01a"
+$surfaceprop plaster
+$color "[ .75 .75 .75]"
+
+
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint "[ .03 .03 .03 ]"
+
+
+
+
+
+}

@@ -1,0 +1,22 @@
+LightmappedGeneric
+{
+$basetexture "shadertest/LightmappedAlphaTestedTexture"
+$alphatest 1
+$detail "shadertest/shadertestdetail"
+$detailscale 0.5
+$temp "[0 0]"
+Proxies
+{
+
+PlayerPosition
+{
+resultVar $temp
+scale 0.01
+}
+TextureTransform
+{
+translateVar $temp
+resultVar $basetexturetransform
+}
+}
+}

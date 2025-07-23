@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$basetexture "Brick/brickwall019a"
+$surfaceprop brick
+$detail "detail\dt_brick"
+$detailscale 8
+$detailblendfactor .7
+$detailblendmode 0
+}

@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$basetexture "nature/roots"
+$translucent 1
+$surfaceprop wood
+}

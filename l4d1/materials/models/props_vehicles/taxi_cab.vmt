@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/taxi_cab"
+$selfillum 1
+$envmap env_cubemap
+$envmapmask "models\props_vehicles\taxi_cab_ref"
+$envmaptint "[1 1 1]"
+$envmapcontrast ".9"
+$envmapsaturation ".4"
+vertexlitgeneric_HDR_dx9
+{
+$envmaptint "[1 1 1]"
+$envmapcontrast ".7"
+$envmapsaturation ".4"
+}
+}

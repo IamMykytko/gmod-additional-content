@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\hybridPhysx\tarp"
+$envmap env_cubemap
+$envmapmask "models\props_unique\spawn_apartment\tarp_ref"
+$envmaptint "[.13 .39 .55]"
+$envmapcontrast .75
+$envmapsaturation .4
+vertexlitgeneric_HDR_dx9
+{
+$envmaptint "[.05 .26 .4]"
+}
+}

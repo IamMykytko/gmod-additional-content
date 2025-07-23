@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+$baseTexture "models\props_equipment/FireHoseBox01_glass"
+$translucent 1
+$envmap env_cubemap
+$envmapmask "models\props_equipment\FireHoseBox01_glass_ref"
+$envmaptint "[1 1 1]"
+lightmappedgeneric_HDR_dx9
+{
+$envmapcontrast ".8"
+$envmapsaturation ".4"
+$envmaptint "[.6 .6 .6]"
+}
+}

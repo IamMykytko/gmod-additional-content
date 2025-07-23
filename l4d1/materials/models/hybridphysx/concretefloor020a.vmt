@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+
+$basetexture "models\hybridPhysx\concretefloor020a"
+$bumpmap "models\hybridPhysx\concretefloor020a_normal"
+$selfillum 0
+$phong 1
+$phongexponent 1
+$phongboost "0.15"
+$phongfresnelranges "[0.6 1 1]"
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\de_nuke/PowerWires_01"
+$detail "detail\dt_metal2"
+$detailscale 18
+$detailblendfactor ".5"
+$detailblendmode 0
+}

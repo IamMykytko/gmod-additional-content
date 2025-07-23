@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+$basetexture "vgui\maps\l4d_farm02_traintunnel"
+$translucent 1
+$ignorez 1
+$vertexcolor 1
+$vertexalpha 1
+}

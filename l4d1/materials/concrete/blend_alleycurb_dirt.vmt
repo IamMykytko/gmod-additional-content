@@ -1,0 +1,8 @@
+WorldVertexTransition
+{
+$basetexture2 "concrete/alleys_curb"
+$basetexture "nature\dirtfloor004a"
+$blendmodulatetexture "concrete/alley_blend"
+$surfaceprop concrete
+$surfaceprop2 dirt
+}

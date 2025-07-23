@@ -1,0 +1,15 @@
+unlitgeneric
+{
+
+$envmap "shadertest/shadertest_env"
+Proxies
+{
+Sine
+{
+resultVar $ALPHA
+sineperiod 2.00
+sinemin 0
+sinemax 1
+}
+}
+}

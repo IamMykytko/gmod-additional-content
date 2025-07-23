@@ -1,0 +1,11 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+$baseTexture "models\survivors\TeenAngst/zoey_hair"
+$translucent 1
+$nocull 1
+}
+}

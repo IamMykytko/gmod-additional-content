@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "glass/sign_emergency01"
+$selfillum 1
+$envmap env_cubemap
+$envmapmask "glass\sign_emergency01_ref"
+$surfaceprop glass
+}

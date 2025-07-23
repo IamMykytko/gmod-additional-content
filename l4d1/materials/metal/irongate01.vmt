@@ -1,0 +1,9 @@
+lightmappedGeneric
+{
+$baseTexture "metal/irongate01"
+$translucent 1
+"%keywords" dod
+"%compilepassbullets" 1
+$surfaceprop metal
+$nodecal 1
+}

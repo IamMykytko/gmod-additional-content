@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$basetexture "wood\infceilinga"
+$surfaceprop wood
+}

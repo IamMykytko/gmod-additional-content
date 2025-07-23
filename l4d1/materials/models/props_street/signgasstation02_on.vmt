@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_street/SignGasStation02_On"
+$surfaceprop default
+$selfillum 1
+
+}

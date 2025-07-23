@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+
+"%tooltexture" "shadertest/Lightmap"
+$detail "shadertest/shadertestdetail"
+}

@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "signs/sign_antiques01"
+$surfaceprop wood
+}

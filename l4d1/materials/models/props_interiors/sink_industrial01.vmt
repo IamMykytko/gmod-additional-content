@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/Sink_industrial01"
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 1
+$phongexponent 30
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[30 30 60]"
+$detail "detail\dt_ssteel1"
+$detailscale 32
+$detailblendfactor".3"
+$detailblendmode 0
+}

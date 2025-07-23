@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "decals\asphalt\asphalt4"
+$translucent 1
+$decal 1
+$decalscale "0.15"
+$decalScaleVariation "0.25"
+}

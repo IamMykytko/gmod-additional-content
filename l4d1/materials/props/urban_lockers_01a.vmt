@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$basetexture "Props/urban_lockers_01a"
+$surfaceprop metalvent
+}

@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "tile/steps01"
+$surfaceprop tile
+}

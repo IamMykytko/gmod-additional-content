@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$basetexture "de_nuke\nuke_metaltrims_01"
+$surfaceprop metal
+}

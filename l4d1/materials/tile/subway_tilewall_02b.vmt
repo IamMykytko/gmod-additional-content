@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+$baseTexture "tile/subway_tilewall_02b"
+$bumpmap "tile/subway_tilewall_02a_ssbump"
+$ssbump 1
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint "[ .05 .05 .05 ]"
+$surfaceprop tile
+}

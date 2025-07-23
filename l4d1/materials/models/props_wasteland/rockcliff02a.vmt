@@ -1,0 +1,10 @@
+vertexlitGeneric
+{
+$basetexture "Nature/cliffface001a"
+$surfaceprop concrete
+$detail "detail\dt_stone1"
+$detailscale 12
+$detailblendfactor .8
+$detailblendmode 0
+$model 1
+}

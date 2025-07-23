@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/train_orecar"
+$Envmap env_cubemap
+$EnvmapMask "models\props_vehicles\train_orecar_spec"
+$EnvmapTint "[.2 .2 .2]"
+}

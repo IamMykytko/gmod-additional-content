@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_equipment/diesel_pump2_screen"
+$alphatest 1
+$alphatestreference ".4"
+}

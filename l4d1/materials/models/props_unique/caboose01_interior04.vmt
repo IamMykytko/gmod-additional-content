@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_unique/Caboose01_Interior04"
+$surfaceprop default
+$selfillum 1
+$selfillummask "Models/props_unique/Caboose01_Interior04_mask"
+}

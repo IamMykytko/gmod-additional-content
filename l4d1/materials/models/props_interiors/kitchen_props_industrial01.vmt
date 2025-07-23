@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_interiors/Kitchen_props_industrial01"
+$surfaceprop default
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost ".25"
+$phongexponent 30
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[30 30 60]"
+$detail "detail\dt_ssteel1"
+$detailscale 32
+$detailblendfactor".3"
+$detailblendmode 0
+}

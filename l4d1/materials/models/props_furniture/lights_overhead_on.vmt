@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_furniture/lights_overhead"
+$selfillum 1
+$selfillumtint "[ .1 .1 .1 ]"
+$envmapmask "fx/white25_ref"
+$envmap env_cubemap
+}

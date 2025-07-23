@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$basetexture "Metal/metalfloor001b"
+$surfaceprop metal
+$envmap env_cubemap
+$envmapmask "metal/metalfloor001b_ref"
+}

@@ -1,0 +1,21 @@
+LightmappedGeneric
+{
+$vertexcolor 1
+$vertexalpha 1
+
+$translucent 1
+$basetexture "decals/bloodstain_hand"
+$decal 1
+Proxies
+{
+PlayerLogo
+{
+}
+AnimatedTexture
+{
+animatedtexturevar $basetexture
+animatedtextureframenumvar $frame
+animatedtextureframerate 5
+}
+}
+}

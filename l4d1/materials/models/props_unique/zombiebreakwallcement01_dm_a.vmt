@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique/ZombieBreakWallCement01_DM_A"
+$detail "detail\dt_stone3"
+$detailscale 8
+$detailblendfactor .6
+$detailblendmode 0
+}

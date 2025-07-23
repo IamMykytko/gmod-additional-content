@@ -1,0 +1,18 @@
+LightmappedGeneric
+{
+$baseTexture "plaster/urban_wallpaper_02a"
+$detail "detail\detail_burned"
+$detailscale 1
+$detailblendfactor ".75"
+$detailblendmode 0
+$surfaceprop plaster
+$bumpmap "plaster/urban_plasterwall_height-ssbump"
+
+
+
+
+
+$ssbump 1
+
+
+}

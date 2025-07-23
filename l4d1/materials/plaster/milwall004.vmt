@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$basetexture "plaster\milwall004"
+$surfaceprop tile
+}

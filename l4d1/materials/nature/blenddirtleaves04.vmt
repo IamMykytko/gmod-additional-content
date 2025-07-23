@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+$basetexture "nature/dirtfloor005c"
+$basetexture2 "nature/dirt02"
+
+
+"%detailtype" rural_dirt_leaves02
+
+
+
+
+$surfaceprop dirt
+$surfaceprop2 dirt
+}

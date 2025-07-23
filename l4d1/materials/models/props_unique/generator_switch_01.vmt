@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique/generator_switch_01"
+$selfillum 1
+}

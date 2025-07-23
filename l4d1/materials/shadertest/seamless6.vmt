@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+$basetexture "building_template/building_template012n"
+
+"%tooltexture" "shadertest/shadertest_env"
+
+$seamless_scale .1
+$seamless_base 1
+$seamless_detail 0
+
+
+}

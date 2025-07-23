@@ -1,0 +1,5 @@
+lightmappedgeneric
+{
+$baseTexture "concrete/concretefloor_construct01"
+$surfaceprop concrete
+}

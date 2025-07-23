@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$basetexture "de_nuke\nukmetwallab"
+$bumpmap "de_nuke\nukmetwallab_normal"
+$color2 "[1 1 1]"
+$surfaceprop metal
+$selfillum 0
+$phong 1
+$phongexponent 10
+$phongboost "0.5"
+$phongfresnelranges "[0.6 1 1]"
+}

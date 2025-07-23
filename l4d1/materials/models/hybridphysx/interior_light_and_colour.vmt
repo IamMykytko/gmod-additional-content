@@ -1,0 +1,12 @@
+UnLitGeneric
+{
+$basetexture "Models/hybridPhysx/interior_light_and_colour"
+$surfaceprop metal
+
+
+
+
+
+
+$color2 "[.7 .7 .7]"
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_exteriors/Lighthouse_TrimRing01"
+$Envmap env_cubemap
+$EnvmapMask "models\props_exteriors\Lighthouse_TrimRing01_ref"
+$EnvmapTint "[.7 .7 .7]"
+}

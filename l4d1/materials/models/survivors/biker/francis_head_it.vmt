@@ -1,0 +1,20 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+
+$baseTexture "models\survivors\biker\francis_head"
+$bumpmap "models\survivors\biker\francis_head_normal"
+$compress "models\survivors\biker\francis_head_compress"
+$stretch "models\survivors\biker\francis_head_compress"
+$phong 1
+$phongboost "1.4"
+$phongexponent 12
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.2 .5 5]"
+$nodecal 1
+$ambientocclusion 1
+}
+}

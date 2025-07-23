@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+
+$basetexture "models\props_docks\canal_docks01a"
+$surfaceprop metal
+}

@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+
+$translucent 1
+$basetexture "sprites/radio"
+$vertexcolor 1
+$ignorez 0
+}

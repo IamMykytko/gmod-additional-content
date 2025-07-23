@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\cs_militia/Fireplace1"
+$alphatest 1
+$AlphaTestReference "0.3"
+}

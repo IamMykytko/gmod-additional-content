@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+$baseTexture "plaster/mainstreet_plasterwall01"
+
+
+
+"%tooltexture" "plaster/mainstreet_plasterwall01a_tooltexture"
+$envmap env_cubemap
+
+
+$envmaptint "[ .005 .005 .005 ]"
+$surfaceprop plaster
+$color2 "[ .75 .8 .8 ]"
+}

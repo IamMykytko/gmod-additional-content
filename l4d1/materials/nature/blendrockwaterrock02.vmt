@@ -1,0 +1,12 @@
+WorldVertexTransition
+{
+$basetexture "nature/rockwater"
+$basetexture2 "nature/cliffface003a"
+"%tooltexture" "nature/blendrockwaterrock_tooltexture"
+$surfaceprop rock
+$surfaceprop2 rock
+$detail "detail\rock_detail_01"
+$detailscale 11
+$detailblendfactor 1
+$detailblendmode 0
+}

@@ -1,0 +1,7 @@
+LightMappedGeneric
+{
+$basetexture "signs/evac_outpost_map"
+$surfaceprop default
+$translucent 1
+$decal 1
+}

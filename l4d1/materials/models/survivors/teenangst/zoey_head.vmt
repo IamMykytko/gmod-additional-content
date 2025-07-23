@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+
+$basetexture "models\survivors\TeenAngst/zoey_head"
+$compress "models\survivors\TeenAngst/zoey_head_compress"
+$stretch "models\survivors\TeenAngst/zoey_head_compress"
+$bumpmap "models\survivors\TeenAngst/zoey_head_normal"
+$phong 1
+$phongboost 1
+$phongexponent 5
+$phongtint "[1 .85 .85]"
+$phongfresnelranges "[.5 .85 30]"
+$nodecal 1
+$ambientocclusion 1
+}

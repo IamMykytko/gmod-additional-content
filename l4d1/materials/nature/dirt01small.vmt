@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "nature/dirt01small"
+$Surfaceprop dirt
+$bumpmap "concrete\pavement_height-ssbump"
+$ssbump 1
+}

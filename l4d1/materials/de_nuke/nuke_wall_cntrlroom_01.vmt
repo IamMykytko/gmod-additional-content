@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$basetexture "de_nuke\nuke_wall_cntrlroom_01"
+$surfaceprop concrete
+}

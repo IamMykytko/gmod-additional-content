@@ -1,0 +1,8 @@
+unlitGeneric
+{
+$baseTexture "buildings/city_nightburned03"
+$surfaceprop default
+$translucent 1
+$nofog 1
+
+}

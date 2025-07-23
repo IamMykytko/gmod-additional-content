@@ -1,0 +1,38 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/airliner_finale2"
+$nofog 1
+$detail "Models/hybridPhysx/airliner_fogdetail"
+$detailblendmode 5
+$detailscale "[1 1]"
+$phong 1
+$phongexponent 35
+$phongboost 2
+$phongfresnelranges "[0.6 1 1]"
+
+$temp1 0.0
+$temp2 0.0
+
+$zero 0.0
+$half 0.5
+
+Proxies
+{
+Cycle
+{
+
+resultVar $temp1
+start "0.5"
+end "-0.5"
+easein 0
+easeout 0
+}
+Clamp
+{
+srcVar1 $temp1
+min $zero
+max $half
+resultVar $detailblendfactor
+}
+}
+}

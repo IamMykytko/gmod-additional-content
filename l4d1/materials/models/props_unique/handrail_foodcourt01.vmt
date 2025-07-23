@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique/HandRail_FoodCourt01"
+$envmap env_cubemap
+$envmapmask "models\props_unique\HandRail_Subway01_ref"
+}

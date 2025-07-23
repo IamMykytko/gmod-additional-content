@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/elevator_arrows_on"
+$selfillum 1
+$envmap env_cubemap
+$envmapmask "models\props_interiors\elevator_arrows_ref"
+$envmaptint "[.5 .5 .5]"
+}

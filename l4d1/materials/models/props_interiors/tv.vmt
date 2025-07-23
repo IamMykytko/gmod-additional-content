@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/TV"
+$surfaceprop computer
+}

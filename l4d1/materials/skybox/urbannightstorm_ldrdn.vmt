@@ -1,0 +1,7 @@
+sky
+{
+$hdrbaseTexture "skybox/urbannightstorm_ldrdn"
+$nofog 1
+$ignorez 1
+$color "[ 0.07 0.07 0.07 ]"
+}

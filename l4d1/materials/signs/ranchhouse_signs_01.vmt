@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+$baseTexture "signs/ranchhouse_signs_01"
+
+
+
+
+
+$surfaceprop metal
+}

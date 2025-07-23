@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_wasteland/chimneypipe01a"
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 1
+$phongexponent 10
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[10 10 30]"
+}

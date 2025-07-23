@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "decals/light_fluorescent01"
+$selfillum 1
+$decal 1
+$decalscale "0.250000"
+$surfaceprop glass
+}

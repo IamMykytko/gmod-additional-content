@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_equipment/sleeping_bag1"
+$envmap env_cubemap
+$envmapmask "models/props_equipment/sleeping_bag1_ref"
+$envmaptint "[.28 .64 .44]"
+$envmapcontrast ".7"
+$envmapsaturation ".8"
+vertexlitgeneric_HDR_dx9
+{
+$envmaptint "[.19 .32 .22]"
+$envmapsaturation ".9"
+}
+}

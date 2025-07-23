@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/Barricade_Door_01"
+$detail "detail/dt_metal2"
+$detailscale 64
+$detailblendfactor .5
+$detailblendmode 0
+}

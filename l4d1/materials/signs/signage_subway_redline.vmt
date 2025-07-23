@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "signs/signage_subway_redline"
+$surfaceprop glass
+$selfillum 1
+}

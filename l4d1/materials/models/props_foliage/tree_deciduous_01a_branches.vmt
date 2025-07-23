@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$alphatest 1
+$alphatestreference ".45"
+$basetexture "models/props_foliage/tree_deciduous_01a_branches"
+$nocull 1
+$flashlightnolambert 1
+}

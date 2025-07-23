@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\CS_Militia/ShedDoor01"
+$detail "detail\dt_wood1"
+$detailscale 8
+$detailblendfactor .7
+$detailblendmode 0
+}

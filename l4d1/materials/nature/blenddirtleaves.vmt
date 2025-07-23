@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+$basetexture "nature/leaves"
+$basetexture2 "nature/dirt01"
+"%tooltexture" "nature/blenddirtleaves_tooltexture"
+$blendmodulatetexture "nature/leavesblendtexture"
+"%detailtype" rural_dirt_leaves
+
+
+
+
+$surfaceprop dirt
+$surfaceprop2 dirt
+}

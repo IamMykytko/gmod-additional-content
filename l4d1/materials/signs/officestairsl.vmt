@@ -1,0 +1,6 @@
+DecalModulate
+{
+$baseTexture "signs/officestairsL"
+$Decal 1
+$DecalScale "0.250000"
+}

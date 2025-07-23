@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "ground\farm_gravel_01a"
+$ssbump 1
+$Bumpmap "ground\farm_gravel_01_ssbump"
+$detail "detail/dt_stone3"
+$detailscale 4
+$surfaceprop dirt
+}

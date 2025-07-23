@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/helicopter_crashed_main"
+$envmap env_cubemap
+$envmapmask "models\props_vehicles\helicopter_crashed_main_ref"
+}

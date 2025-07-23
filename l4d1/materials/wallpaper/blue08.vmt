@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "wallpaper/blue08"
+$envmap env_cubemap
+$envmapmask "wallpaper\blue08_ref"
+$surfaceprop sheetrock
+$envmaptint "[ .1 .1 .1 ]"
+}

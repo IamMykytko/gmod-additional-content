@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Doors/DoorMainMetalWindow01"
+$envmap env_cubemap
+$envmapmask "models\Props_Doors/DoorMainMetalWindow01_ref"
+$envmaptint "[1 1 1]"
+$envmapcontrast ".7"
+$envmapsaturation ".2"
+VertexLitGeneric_HDR_dx9
+{
+$envmaptint "[.5 .5 .5]"
+}
+}

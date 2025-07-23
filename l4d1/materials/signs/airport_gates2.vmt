@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "signs/airport_gates2"
+$Surfaceprop plastic
+}

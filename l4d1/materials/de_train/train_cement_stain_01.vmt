@@ -1,0 +1,10 @@
+DecalModulate
+{
+$basetexture "de_train\train_cement_stain_01"
+
+$decal 1
+$fogscale 4
+$decalscale "0.250"
+$vertexcolor 1
+$vertexalpha 1
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/couch"
+$detail "detail\dt_fabric2"
+$detailscale 16
+$detailblendfactor .7
+$detailblendmode 0
+}

@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$basetexture "models\props\cs_office\light_ceiling"
+$selfillum 1
+$selfillumtint "[.75 .75 .75]"
+$envmap env_cubemap
+$envmapmask "models\props\cs_office\light_ceiling_ref"
+$envmaptint ".25"
+vertexlitgeneric_HDR_dx9
+{
+$selfillumtint "[.90 .90 .90]"
+}
+}

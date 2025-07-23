@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "metal/sign_stairs01"
+$translucent 1
+$decal 1
+$decalscale "0.250000"
+
+
+}

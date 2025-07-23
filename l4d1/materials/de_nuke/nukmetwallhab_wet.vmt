@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "de_nuke/nukmetwallab"
+$envmap env_cubemap
+$bumpmap "de_nuke\nukmetwallh_wet_normal"
+$normalmapalphaenvmapmask 1
+$surfaceprop metal
+}

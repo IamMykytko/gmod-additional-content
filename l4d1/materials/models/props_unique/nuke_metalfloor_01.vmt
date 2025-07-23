@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "de_nuke/nuke_metalfloor_01"
+$surfaceprop default
+}

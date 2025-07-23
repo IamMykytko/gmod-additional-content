@@ -1,0 +1,7 @@
+sky
+{
+$hdrbasetexture "skybox/sky_l4d_rural02_ldrup"
+$nofog 1
+$ignorez 1
+$color "[ 1.9 1.9 1.9 ]"
+}

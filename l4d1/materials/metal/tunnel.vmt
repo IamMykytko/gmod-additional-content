@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "metal/tunnel"
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$surfaceprop metalvent
+$bumpmap "metal\milwall006_normal"
+}

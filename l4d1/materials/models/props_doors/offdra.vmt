@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Doors/offdra"
+$envmap env_cubemap
+$envmapmask "models\props_doors\offdra_ref"
+$envmaptint "[1 1 1]"
+$envmapcontrast .5
+$envmapsaturation .2
+VertexLitGeneric_HDR_dx9
+{
+$envmaptint "[.5 .5 .5]"
+}
+}

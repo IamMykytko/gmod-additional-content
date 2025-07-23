@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+ $baseTexture "models\props\terror\painkillers"
+ 
+
+// Specularity
+ $envmap env_cubemap
+ $envmapmask "models\props\terror\painkillers_spec"
+}

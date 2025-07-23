@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/C130_propeller"
+$translucent 1
+$nocull 1
+}

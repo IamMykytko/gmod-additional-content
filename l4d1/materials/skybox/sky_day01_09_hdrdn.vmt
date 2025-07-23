@@ -1,0 +1,10 @@
+sky
+{
+"GPU<1"
+{
+$fallbackmaterial "skybox/sky_day01_09_ldrdn"
+}
+$hdrcompressedTexture "skybox/sky_day01_09_hdrdn"
+$nofog 1
+$ignorez 1
+}

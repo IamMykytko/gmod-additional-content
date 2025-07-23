@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+
+$basetexture "Metal/metalvent005a"
+$decal 1
+$decalscale "0.250"
+}

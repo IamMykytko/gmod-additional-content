@@ -1,0 +1,7 @@
+LightMappedGeneric
+{
+$basetexture "signs/sign_quarantine_orange_ripped02"
+$surfaceprop default
+$translucent 1
+$decal 1
+}

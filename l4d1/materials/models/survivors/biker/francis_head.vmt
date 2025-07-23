@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+
+$baseTexture "models\survivors\biker\francis_head"
+$compress "models\survivors\biker\francis_head_compress"
+$stretch "models\survivors\biker\francis_head_compress"
+$bumpmap "models\survivors\biker\francis_head_normal"
+$phong 1
+$phongboost "1.4"
+$phongexponent 12
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.2 .5 5]"
+$nodecal 1
+$ambientocclusion 1
+}

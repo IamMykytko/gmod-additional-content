@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+ $baseTexture "models\w_models\Shotgun/W_Pump_Shotgun_Reference"
+ $bumpmap "effects/flat_normal" 
+ $phong 1
+ $phongboost 1
+ $phongexponent 10
+ $phongfresnelranges "[5 5 20]"
+ $BASEMAPLUMINANCEPHONGMASK 1
+}

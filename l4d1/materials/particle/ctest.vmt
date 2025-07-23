@@ -1,0 +1,9 @@
+spritecard
+{
+$baseTexture "ads/ad01"
+$surfaceprop glass
+$splinetype 1
+$radiustrailfade 1
+$alphatrailfade 0
+$orientation 3
+}

@@ -1,0 +1,8 @@
+WorldVertexTransition
+{
+$basetexture "nature/rockwater"
+$basetexture2 "nature/milrock002"
+"%tooltexture" "nature/blendrockwaterrock_tooltexture"
+$surfaceprop rock
+$surfaceprop2 rock
+}

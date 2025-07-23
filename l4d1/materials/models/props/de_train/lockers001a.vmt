@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$basetexture "models\props\de_train\Lockers001a"
+$envmap env_cubemap
+$envmapmask "models\props\de_train\Lockers001a_ref"
+$envmapcontrast ".5"
+$envmapsaturation ".7"
+$envmaptint "[ .8 .8 .8 ]"
+}

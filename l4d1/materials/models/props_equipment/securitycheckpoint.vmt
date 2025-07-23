@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_equipment/SecurityCheckpoint"
+$envmap env_cubemap
+$envmapmask "models\props_equipment\SecurityCheckpoint_ref"
+$envmapsaturation ".3"
+$envmapcontrast ".6"
+$envmaptint "[.7 .7 .7]"
+}

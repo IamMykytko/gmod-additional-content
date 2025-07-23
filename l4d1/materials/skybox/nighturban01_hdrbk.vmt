@@ -1,0 +1,7 @@
+sky
+{
+$hdrbaseTexture "skybox/nighturban01_hdrBK"
+$baseTexture "skybox/nighturban01BK"
+$nofog 1
+$ignorez 1
+}

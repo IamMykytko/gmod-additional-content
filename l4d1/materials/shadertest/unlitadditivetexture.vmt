@@ -1,0 +1,20 @@
+UnlitGeneric
+{
+$basetexture "shadertest/UnlitAdditiveTexture"
+$additive 1
+$temp "[0 0]"
+Proxies
+{
+
+PlayerPosition
+{
+scale 0.01
+resultVar $temp
+}
+TextureTransform
+{
+translateVar $temp
+resultVar $basetexturetransform
+}
+}
+}

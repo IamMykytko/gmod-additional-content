@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/TVstatic"
+$envmap env_cubemap
+$envmapmask "models\props_interiors\TVstatic_ref"
+$surfaceprop glass
+$envmaptint "[1 1 1]"
+vertexlitgeneric_HDR_dx9
+{
+$envmaptint "[.5 .5 .5]"
+}
+}

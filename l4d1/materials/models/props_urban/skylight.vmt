@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_urban/skylight"
+$Envmap env_cubemap
+$EnvmapTint "[0.3 0.3 0.3]"
+$BaseAlphaEnvMapMask 1
+}

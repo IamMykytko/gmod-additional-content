@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/ambulance"
+$envmap env_cubemap
+$envmapmask "models\props_vehicles\ambulance_ref"
+$envmaptint "[.25 .25 .25]"
+}

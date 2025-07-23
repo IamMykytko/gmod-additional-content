@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_trainstation\lobby_fixtures002a"
+$envmap env_cubemap
+$envmapmask "models\props_trainstation\lobby_fixtures002a_ref"
+$envmapcontrast 1
+$envmapsaturation .3
+$envmaptint "[.9 1 1]"
+vertexlitgeneric_HDR_dx9
+{
+$envmaptint "[.7 .9 .9]"
+}
+}

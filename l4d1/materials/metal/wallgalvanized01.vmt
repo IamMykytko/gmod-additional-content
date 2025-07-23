@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "metal/wallgalvanized01"
+$surfaceprop metalvent
+$alphatest 1
+$envmapmask "metal\wallgalvanized01_ref"
+$envmaptint "[1 1 1]"
+}

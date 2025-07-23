@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Doors/DoorGlassMain"
+$envmap env_cubemap
+$envmapmask "models\Props_Doors\DoorGlassMain_ref"
+$envmaptint "[ .7 .7 .7 ]"
+$envmapcontrast ".7"
+$envmapsaturation ".2"
+}

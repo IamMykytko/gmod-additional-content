@@ -1,0 +1,27 @@
+
+LightmappedGeneric
+{
+$basetexture "Tile/tilefloor016a"
+$surfaceprop metal
+"%keywords" combine
+
+
+$envmap env_cubemap
+$envmaptint "[ .06 .06 .06 ]"
+LightmappedGeneric_DX9
+{
+$bumpmap "Tile/tilefloor016a_normal"
+$normalmapalphaenvmapmask 1
+}
+LightmappedGeneric_DX8
+{
+$bumpmap "Tile/tilefloor016a_normal"
+$nodiffusebumplighting 1
+$normalmapalphaenvmapmask 1
+}
+
+
+
+
+
+}

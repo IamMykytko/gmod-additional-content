@@ -1,0 +1,6 @@
+lightmappedGeneric
+{
+$baseTexture "concrete/pcon2trim"
+$surfaceprop wood
+$bumpmap "concrete/pcon2trim_normal"
+}

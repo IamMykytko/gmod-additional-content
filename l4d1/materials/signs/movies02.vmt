@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "signs/movies02"
+$surfaceprop glass
+}

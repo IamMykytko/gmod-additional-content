@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "glass/greenhouse02_bump"
+$surfaceprop glass
+$Translucent 1
+}

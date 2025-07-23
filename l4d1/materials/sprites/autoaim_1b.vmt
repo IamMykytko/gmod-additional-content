@@ -1,0 +1,7 @@
+Sprite
+{
+$spriteorientation vp_parallel
+$spriteorigin "[ 0.50 0.50 ]"
+$basetexture "sprites/autoaim_1b"
+$ignorez 1
+}

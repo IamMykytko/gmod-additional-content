@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$basetexture "Concrete/concrete_crack_01a"
+$surfaceprop concrete
+$bumpmap "concrete/concrete_crack_01a_normal"
+$translucent 1
+"%keywords" "c17sewers,wasteland"
+}

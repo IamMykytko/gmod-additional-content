@@ -1,0 +1,19 @@
+vertexlitgeneric
+{
+
+
+
+
+$basetexture "nature/snowfloor003a"
+
+
+
+
+"%tooltexture" "shadertest/shadertest_env"
+
+$seamless_scale .1
+$seamless_base 1
+$seamless_detail 0
+
+
+}

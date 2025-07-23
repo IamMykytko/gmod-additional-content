@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/harborviewhotel"
+$Envmap env_cubemap
+$EnvmapTint "[.7 .6 .2]"
+$Envmapmask "models\props_street/harborviewhotel_ref"
+
+
+}

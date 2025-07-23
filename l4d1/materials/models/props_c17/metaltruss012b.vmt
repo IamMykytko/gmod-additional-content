@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_c17/metaltruss012b"
+$alphatest 1
+$nocull 1
+$surfaceprop metal
+}

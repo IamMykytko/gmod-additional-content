@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/lamp1_lit"
+$envmap env_cubemap
+$envmapmask "models\props_interiors\furniture_lamp_stool01a_ref"
+$envmaptint "[1 .9 .5]"
+$envmapcontrast ".7"
+$envmapsaturation ".7"
+}

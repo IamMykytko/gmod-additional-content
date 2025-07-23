@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique\airport/atlas"
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 1
+$phongexponent 20
+$phongfresnelranges "[10 10 60]"
+$BASEMAPLUMINANCEPHONGMASK 1
+
+
+
+}

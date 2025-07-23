@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_exteriors/LighthouseRailing"
+$Envmap env_cubemap
+$EnvmapMask "models\props_exteriors\LighthouseRailing_ref"
+$EnvmapTint "[.75 .75 .75]"
+$EnvmapContrast ".4"
+}

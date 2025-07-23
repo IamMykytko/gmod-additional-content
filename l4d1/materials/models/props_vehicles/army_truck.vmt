@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/army_truck"
+$envmap env_cubemap
+$envmapmask "models\props_vehicles\army_truck_ref"
+$envmapsaturation ".7"
+$envmapcontrast ".7"
+}

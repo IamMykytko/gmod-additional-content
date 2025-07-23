@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/Humvee"
+$envmap env_cubemap
+$envmaptint "[1 1 1]"
+$envmapcontrast ".5"
+}

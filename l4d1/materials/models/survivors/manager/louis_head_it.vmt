@@ -1,0 +1,20 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+
+$baseTexture "models\survivors\manager\louis_head"
+$bumpmap "models\survivors\Manager/louis_head_normal"
+$compress "models\survivors\manager\louis_head_compress"
+$stretch "models\survivors\manager\louis_head_compress"
+$phong 1
+$phongboost "1.5"
+$phongexponent 7
+$phongtint "[.80 .80 1]"
+$phongfresnelranges "[.3 .65 1]"
+$nodecal 1
+$ambientocclusion 1
+}
+}

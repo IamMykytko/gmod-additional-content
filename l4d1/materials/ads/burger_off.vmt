@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "ads/burger"
+$envmap env_cubemap
+$envmapmask "ads\subwayhorizontal_ref"
+$surfaceprop glass
+}

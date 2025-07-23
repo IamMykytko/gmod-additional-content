@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "concrete/curba_wet"
+$envmap env_cubemap
+$bumpmap "concrete\curba_wet_normal"
+$normalmapalphaenvmapmask 1
+$surfaceprop concrete
+}

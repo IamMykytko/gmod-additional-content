@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+$model 1
+$surfaceprop glass
+
+$basetexture "models/props_wasteland/glasslens"
+$additive 1
+}

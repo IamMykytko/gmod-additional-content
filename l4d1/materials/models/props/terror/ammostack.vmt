@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\terror/AmmoStack"
+$envmap env_cubemap
+$envmapmask "models\props\terror\AmmoStack_ref"
+$envmapcontrast ".5"
+}

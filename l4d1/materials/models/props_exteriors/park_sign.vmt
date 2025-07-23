@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$basetexture "models/props_exteriors/park_sign"
+$surfaceprop wood
+
+
+
+
+}

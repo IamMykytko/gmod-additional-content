@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$basetexture "decals\infscrub"
+$translucent 1
+$decal 1
+$decalscale ".25"
+$vertexcolor 1
+$vertexalpha 1
+}

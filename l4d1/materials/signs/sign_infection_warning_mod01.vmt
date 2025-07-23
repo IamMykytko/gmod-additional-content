@@ -1,0 +1,7 @@
+LightMappedGeneric
+{
+$basetexture "signs/sign_infection_warning_mod01"
+$surfaceprop default
+$translucent 1
+$decal 1
+}

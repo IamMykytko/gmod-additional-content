@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+
+"%tooltexture" "shadertest/envmap"
+$envmap "shadertest/envmap"
+
+}

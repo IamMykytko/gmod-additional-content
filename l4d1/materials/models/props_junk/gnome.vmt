@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_junk/gnome"
+$bumpmap "Models/props_junk/gnome_normal" 
+$phong 1 
+$phongexponent 20 
+$phongboost "0.05" 
+$phongfresnelranges "[2 7 75]" 
+}

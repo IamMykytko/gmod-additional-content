@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+ $baseTexture "models\props\terror\medkit"
+ 
+
+// Specularity
+ $envmap env_cubemap
+ $envmapmask "models\props\terror\medkit_spec"
+ 
+ 
+}
+
+

@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique\hospital/surgery_lamp_on"
+$selfillum 1
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 1
+$phongexponent 10
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[5 5 30]"
+
+
+
+
+
+
+
+
+
+}

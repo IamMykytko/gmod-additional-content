@@ -1,0 +1,9 @@
+WorldVertexTransition
+{
+$basetexture "Concrete/concretefloor038a"
+$basetexture2 "concrete/concretefloor012a"
+"%tooltexture" "Concrete/concretefloor012a"
+$surfaceprop concrete
+$surfaceprop2 dirt
+"%compileNoShadows" 1
+}

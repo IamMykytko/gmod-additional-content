@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique/SandTower01_ExternalTank"
+$detail "detail/dt_metal2"
+$detailscale 16
+$detailblendfactor .9
+$detailblendmode 0
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 1
+$phongexponent 30
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[5 5 30]"
+}

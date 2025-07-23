@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\CS_Assault/Floodlight03"
+$envmapmask "models\props\CS_Assault\Floodlight03_ref"
+$envmap env_cubemap
+$surfaceprop metal
+$envmaptint "[1 1 1]"
+$envmapcontrast ".5"
+$envmapsaturation ".5"
+}

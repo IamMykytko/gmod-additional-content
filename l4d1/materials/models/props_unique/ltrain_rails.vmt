@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique/LTrain_Rails"
+$Alphatest 1
+$AlphaTestReference ".3"
+$detail "detail/dt_metalgalv"
+$detailscale 26
+$detailblendfactor .4
+$detailblendmode 0
+}

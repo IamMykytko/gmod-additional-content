@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+$basetexture "Concrete/concreteceiling004a"
+$surfaceprop concrete
+$detail "detail\dt_conc"
+$detailscale 7
+$detailblendfactor ".5"
+$detailblendmode 0
+"%keywords" "c17downtown,c17industrial"
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/flagpole"
+$envmap env_cubemap
+$envmapmask "models\props_street\flagpole_ref"
+$envmapsaturation ".4"
+$envmapcontrast ".5"
+}

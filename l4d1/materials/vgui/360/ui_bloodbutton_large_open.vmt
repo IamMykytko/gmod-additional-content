@@ -1,0 +1,10 @@
+UnlitGeneric
+{
+$basetexture "vgui/360/ui_bloodbutton_large_open"
+$translucent 1
+$vertexcolor 0
+$vertexalpha 0
+$ignorez 1
+$additive 0
+$no_fullbright 1
+}

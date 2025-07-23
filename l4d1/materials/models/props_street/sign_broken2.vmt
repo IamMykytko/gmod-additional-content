@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/sign_broken2"
+$envmap env_cubemap
+$envmapmask "models\props_street\sign_broken2_ref"
+}

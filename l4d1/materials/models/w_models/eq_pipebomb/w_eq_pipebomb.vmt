@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\v_models\weapons\eq_pipebomb\v_eq_pipebomb"
+}

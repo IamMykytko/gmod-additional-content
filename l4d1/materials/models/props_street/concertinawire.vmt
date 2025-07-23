@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/ConcertinaWire"
+$envmap env_cubemap
+$envmaptint "[.3 .3 .3]"
+$envmapsaturation ".2"
+$alphatest 1
+$nocull 1
+$alphatestreference ".45"
+$FlashlightNoLambert 1
+}

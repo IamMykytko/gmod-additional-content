@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/TrashCan01"
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 1
+$phongexponent 30
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[30 30 60]"
+
+
+
+
+
+
+
+
+
+
+}

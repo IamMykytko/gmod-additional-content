@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/fridge_mini"
+$envmap env_cubemap
+$envmapmask "fx\white25_ref"
+$envmaptint "[.5 .4 .3]"
+$envmapcontrast ".8"
+$envmapsaturation ".3"
+}

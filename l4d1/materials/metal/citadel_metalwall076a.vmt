@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+$basetexture "metal/metalwall076a"
+$basealphaenvmapmask 1
+$surfaceprop metal
+"%keywords" combine
+
+
+$envmap env_cubemap
+$envmaptint "[ 0.55 0.55 0.75 ]"
+$envmapcontrast 1
+$envmapsaturation 1
+}

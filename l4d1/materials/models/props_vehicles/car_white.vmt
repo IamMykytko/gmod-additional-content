@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/car_white"
+$envmap env_cubemap
+$envmapmask "models\props_vehicles\car_ref"
+$envmaptint "[1 1 1]"
+$envmapcontrast ".5"
+$envmapsaturation ".2"
+
+
+
+
+}

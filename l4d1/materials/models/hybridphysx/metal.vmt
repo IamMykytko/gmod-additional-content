@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$basetexture "cable\metal"
+$bumpmap "cable\metal_normal"
+$selfillum 0
+$phong 1
+$phongexponent 2
+$phongboost 2
+$phongfresnelranges "[0.6 1 1]"
+}

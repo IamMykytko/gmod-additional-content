@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique\airport/line_post"
+$envmap env_cubemap
+$envmapmask "models\props_unique\airport\line_post_ref"
+}

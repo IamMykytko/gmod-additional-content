@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models\v_models\Infected\v_Boomer_body"
+$bumpmap "models\v_models\Infected/v_Boomer_body_normal"
+$phong 1
+$phongexponent 60
+$phongfresnelranges "[10 10 10]"
+$phongboost 1
+
+
+}

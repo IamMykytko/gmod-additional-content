@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+ $baseTexture "models\w_models\smg/w_smg"
+ $bumpmap "effects/flat_normal" 
+ $phong 1
+ $phongboost ".5"
+ $phongexponent 2
+ $phongfresnelranges "[10 10 30]"
+ $BASEMAPLUMINANCEPHONGMASK 1
+}

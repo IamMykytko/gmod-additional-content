@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "overlays/concrete_road01b"
+$Translucent 1
+$Decal 1
+$decalscale "0.25000"
+}

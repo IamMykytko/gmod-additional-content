@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Doors/DoorMain_Skin04"
+$surfaceprop wood
+$envmap env_cubemap
+$envmapmask "models\Props_Doors/DoorMain_Skin04_ref"
+$envmaptint "[ .5 .5 .5 ]"
+$envmapcontrast ".5"
+$envmapsaturation ".2"
+}

@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/train_flatcar"
+$Envmap env_cubemap
+$EnvmapMask "models\props_vehicles\train_flatcar_spec"
+
+$envmapfresnel 1
+$envmapFresnelMinMaxExp "[0.03 0.03 2]"
+}

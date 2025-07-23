@@ -1,0 +1,49 @@
+sprite
+{
+
+$spriteorigin "[ 0.50 0.00 ]"
+$basetexture "sprites/spotlight01_proxyfade"
+$additive 1
+"srgb?$color" ".4"
+$vertexcolor 1
+
+$near 512
+
+$far 1536
+
+$between 0
+Proxies
+{
+PlayerProximity
+{
+
+scale 1
+resultVar $alpha
+}
+Subtract
+{
+srcVar1 $alpha
+srcVar2 $near
+resultVar $alpha
+}
+Subtract
+{
+srcVar1 $far
+srcVar2 $near
+resultVar $between
+}
+Divide
+{
+srcVar1 $alpha
+srcVar2 $between
+resultVar $alpha
+}
+Clamp
+{
+srcVar1 $alpha
+min 0
+max .5
+resultVar $alpha
+}
+}
+}

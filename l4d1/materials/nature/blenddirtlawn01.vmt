@@ -1,0 +1,10 @@
+WorldVertexTransition
+{
+$basetexture2 "nature/dirt02"
+$baseTexture "nature/grasslawn_dry01"
+$surfaceprop grass
+$surfaceprop2 dirt
+"%detailtype" rural_dkdirt_grass_smalltown
+$bumpmap "concrete/pavement_height-ssbump"
+$ssbump 1
+}

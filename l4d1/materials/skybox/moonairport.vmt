@@ -1,0 +1,11 @@
+UnlitGeneric
+{
+$baseTexture "skybox/MoonAirport"
+$translucent 1
+$color2 "[ .85 .85 .85 ]"
+$nofog 1
+UnlitGeneric_hdr_dx9
+{
+$color2 "[ 0.25 0.25 0.25 ]"
+}
+}

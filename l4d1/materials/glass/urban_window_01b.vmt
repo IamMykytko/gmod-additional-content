@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "glass/urban_window_01b"
+$surfaceprop glass
+$Selfillum 1
+}

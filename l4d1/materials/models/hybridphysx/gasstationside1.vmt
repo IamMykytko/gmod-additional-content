@@ -1,0 +1,38 @@
+VertexLitGeneric
+{
+$basetexture "Models/hybridPhysx/gasStationSide1_post"
+$detail "Models/hybridPhysx/gasStationSide1_pre"
+$bumpmap "Models/hybridPhysx/gasStationSide_normal"
+$selfillum 0
+$phong 1
+$phongexponent 10
+$phongboost "0.5"
+$phongfresnelranges "[0.6 1 1]"
+$detailblendmode 3
+$detailscale "[1 1]"
+$color2 "[1.25 1.25 1.25]"
+$shaderSrgbRead360 1
+
+
+$one "1.0"
+$animatedblend 1
+Proxies
+{
+Cycle
+{
+
+resultVar $animatedblend
+start "0.1"
+end "0.4"
+easein 1
+easeout 1
+}
+Subtract
+{
+
+resultVar $detailblendfactor
+srcVar1 $one
+srcVar2 $animatedblend
+}
+}
+}

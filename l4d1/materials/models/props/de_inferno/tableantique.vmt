@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\de_inferno/TableAntique"
+$surfaceprop wood
+}

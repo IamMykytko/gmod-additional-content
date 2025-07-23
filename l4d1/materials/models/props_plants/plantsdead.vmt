@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_plants/PlantsDead"
+$alphatest 1
+$nocull 1
+$FlashlightNoLambert 1
+$AlphaTestReference ".4"
+$model 1
+}

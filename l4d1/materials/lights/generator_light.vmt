@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+$basetexture "Lights/fluorescentcool003a"
+$color2 "[.4 .4 .4]"
+$surfaceprop glass
+}

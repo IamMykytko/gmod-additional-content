@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "decals/MedicalChart_HumanMouth"
+$translucent 1
+$decal 1
+$decalscale ".15"
+$vertexcolor 1
+$vertexalpha 1
+}

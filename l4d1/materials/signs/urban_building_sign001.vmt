@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "signs/urban_building_sign001"
+$translucent 1
+$decal 1
+}
