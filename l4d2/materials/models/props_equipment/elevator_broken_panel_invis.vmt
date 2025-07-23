@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_equipment/Elevator_Broken_Panel_Invis"
+$alphatest 1
+}

@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/racecar_glass"
+
+$model 1
+$phong 1
+$phongexponent 100
+$phongboost 10
+$envmap env_cubemap
+$envmaptint "[ .6 .6 .6 ]"
+$envmapfresnel 1
+$envmapfresnelMinMaxExp "[0.2 5 2]"
+}

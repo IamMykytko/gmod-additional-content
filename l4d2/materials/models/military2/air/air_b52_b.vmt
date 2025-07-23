@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$basetexture "models/military2/air/air_b52_b"
+$bumpmap "models/military2/air/air_b52_b_nomal"
+$phong 1
+$phongexponent 40
+$phongboost 2
+$phongfresnelranges "[.05 .5 1]"
+$halflambert 1
+$model 1
+}

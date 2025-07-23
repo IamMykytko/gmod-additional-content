@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$basetexture "models/infected/common/l4d2_test/master_wound_cmap"
+$bumpmap "models/infected/common/l4d2_test/master_wound_normal"
+$halflambert 1
+$phong 1
+$phongtint "[.4 .8 1]"
+$phongfresnelranges "[1 1 1]"
+$phongexponent 10
+$phongboost 1
+$allowdiffusemodulation 0
+$ambientboost "0.2"
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+
+$basetexture "Models/props_vehicles/car005b_01"
+$surfaceprop solidmetal
+$envmap env_cubemap
+$basealphaenvmapmask 1
+}

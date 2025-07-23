@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+$basetexture "models/Props_Lighting/lighteffects"
+$additive 1
+$nocull 1
+$model 1
+$color2 "[.1 .1 .1]"
+}

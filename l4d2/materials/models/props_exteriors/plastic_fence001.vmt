@@ -1,0 +1,7 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_exteriors/plastic_fence001.vtf"
+$alphatest 1
+$nocull 1
+}

@@ -1,0 +1,39 @@
+VertexLitGeneric
+{
+$basetexture "Models/hybridPhysx/crashliner_cmap"
+$bumpmap "Models/hybridPhysx/crashliner_cmap_normal"
+
+
+
+
+$phong 1
+$phongexponent 10
+$phongboost 2
+$phongfresnelranges "[0.6 5 30]"
+
+$temp1 0.0
+$temp2 0.0
+
+$zero 0.0
+$half 0.5
+
+Proxies
+{
+Cycle
+{
+
+resultVar $temp1
+start "0.5"
+end "-0.5"
+easein 0
+easeout 0
+}
+Clamp
+{
+srcVar1 $temp1
+min $zero
+max $half
+resultVar $detailblendfactor
+}
+}
+}

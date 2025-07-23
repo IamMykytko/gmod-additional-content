@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$basetexture "models\props\de_inferno\walkingplywood"
+$detail "detail\dt_wood1"
+$detailscale 12
+$detailblendfactor .25
+$detailblendmode 0
+}

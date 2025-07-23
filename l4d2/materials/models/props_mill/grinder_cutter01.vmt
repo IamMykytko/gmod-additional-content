@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_mill\grinder_cutter01"
+$envmap env_cubemap
+$envmapmask "models\props_mill\grinder_cutter_ref"
+$envmaptint "[.5 .5 .5]"
+}

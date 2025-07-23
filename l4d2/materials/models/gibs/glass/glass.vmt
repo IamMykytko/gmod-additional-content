@@ -1,0 +1,13 @@
+UnlitGeneric
+{
+
+
+
+$envmap env_cubemap
+$model 1
+$envmaptint "[1 1 1]"
+UnlitGeneric_HDR_dx9
+{
+$envmaptint "[.25 .25 .25]"
+}
+}

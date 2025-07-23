@@ -1,0 +1,6 @@
+vertexlitgeneric
+{
+$baseTexture "concrete/highway_01"
+$surfaceprop concrete
+"%keywords" l4d2
+}

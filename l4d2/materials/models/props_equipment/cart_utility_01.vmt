@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_equipment/Cart_Utility_01"
+$Envmap env_cubemap
+$EnvmapMask "models\props_equipment\Cart_Utility_01_ref"
+$detail "detail\dt_metal1"
+$detailscale "[ 5 5 ]"
+$detailblendfactor 1
+$detailblendmode 0
+}

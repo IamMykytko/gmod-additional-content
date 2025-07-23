@@ -1,0 +1,7 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/round_table_umbrella001.vtf"
+$allowdiffusemodulation 1
+$blendtintbybasealpha 1
+}

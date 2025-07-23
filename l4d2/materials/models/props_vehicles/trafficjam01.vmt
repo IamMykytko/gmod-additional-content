@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/TrafficJam01"
+$Envmap env_cubemap
+$EnvmapMask "models\props_vehicles\TrafficJam01_ref"
+$envmaptint "[.5 .5 .5]"
+}

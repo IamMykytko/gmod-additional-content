@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles\police_car"
+$envmap env_cubemap
+$envmapmask "models\props_vehicles\police_car_ref"
+$envmaptint "[ .8 .8 .8 ]"
+$envmapcontrast ".5"
+$envmapsaturation 1
+}

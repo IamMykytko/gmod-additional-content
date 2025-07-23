@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/Airplane_PiperGlassWrecked"
+$envmap env_cubemap
+$envmapmask "models\props_vehicles\Airplane_PiperGlassWrecked_ref"
+}

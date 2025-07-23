@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$basetexture "models\DeadBodies\charger\rope"
+$phong "0.2"
+$phongexponent 4
+$phongtint "[1 1 1]"
+$phongboost 1
+$phongfresnelranges "[1 1 1]"
+$bumpmap "models\DeadBodies\charger\rope_normal"
+}

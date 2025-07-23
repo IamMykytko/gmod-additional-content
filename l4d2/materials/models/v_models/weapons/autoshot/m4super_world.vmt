@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\v_models\Weapons\autoshot/m4Super"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost 1
+$phongexponent 10
+$phongfresnelranges "[5 5 20]"
+$BASEMAPLUMINANCEPHONGMASK 1
+$color2 "[ 3 3 3 ]"
+$ambientocclusion 1
+}

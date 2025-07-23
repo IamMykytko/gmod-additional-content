@@ -1,0 +1,31 @@
+VertexLitGeneric
+{
+$baseTexture "models\w_models\50cal\50cal"
+$bumpmap "effects\flat_normal"
+$phong 1
+$phongboost 10
+$phongexponent 20
+$phongfresnelranges "[.1 .4 1]"
+$basemapalphaphongmask 1
+
+
+
+
+$detail "models/w_models/50cal/50cal_detail" 
+$detailscale 1
+$detailblendfactor 0.001 
+$detailblendmode 5
+$HeatAmount 0
+Proxies
+{
+MountedGunHeat 
+{
+resultVar $HeatAmount
+}
+Equals
+{
+srcVar1 $HeatAmount
+resultVar $detailblendfactor
+}
+}
+}

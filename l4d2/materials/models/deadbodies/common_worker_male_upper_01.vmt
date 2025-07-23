@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\DeadBodies/common_worker_male_upper_01"
+}

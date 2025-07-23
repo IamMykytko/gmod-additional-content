@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Lighting/AirportObstacleLight01"
+$selfillum 1
+
+
+}

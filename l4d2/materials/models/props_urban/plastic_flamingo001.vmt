@@ -1,0 +1,10 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/plastic_flamingo001.vtf"
+$phong 1
+$phongexponent 10
+$phongboost ".5"
+$phongfresnelranges "[.7 15 20]"
+$bumpmap "models/props_urban/plastic_flamingo001_normal.vtf"
+}

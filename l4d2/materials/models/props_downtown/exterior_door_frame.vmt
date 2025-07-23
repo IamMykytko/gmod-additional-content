@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_downtown/exterior_door_frame"
+}

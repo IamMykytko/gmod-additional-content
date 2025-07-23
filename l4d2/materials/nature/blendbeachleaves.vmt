@@ -1,0 +1,10 @@
+WorldVertexTransition
+{
+$basetexture "nature/maple_leaves01"
+$basetexture2 "nature/beach"
+
+
+
+$surfaceprop dirt
+$surfaceprop2 dirt
+}

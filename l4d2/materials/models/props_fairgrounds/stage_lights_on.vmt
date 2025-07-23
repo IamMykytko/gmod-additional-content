@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_fairgrounds/stage_lights.vtf"
+$envmap env_cubemap
+$envmapmask "models/props_fairgrounds/stage_lights_envmap_mask"
+$envmaptint "[1 1 1]"
+$selfillum_envmapmask_alpha 1
+$selfillummask "models/props_fairgrounds/stage_lights_envmap_mask"
+$selfillumtint "[4 4 5]"
+}

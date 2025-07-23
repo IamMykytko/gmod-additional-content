@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_fairgrounds/toggle_switch.vtf"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost 2
+$phongexponent 15
+$basemapluminancephongmask 1
+$phongfresnelranges "[0.5 1 2]"
+}

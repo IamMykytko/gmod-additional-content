@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+$basetexture "models/props_collectables/alch_table"
+$translucent 1
+$bumpmap "models/props_collectables/alch_table_normal"
+$envmap env_cubemap
+
+
+
+$BasemapLuminancePhongMask 1
+
+
+$normalmapalphaenvmapmask 1
+$phong 1
+$phongboost 50
+$phongexponent 200
+$phongfresnelranges "[.1 0.5 2]"
+$envmap env_cubemap
+$envmapfresnel 1
+$envmapFresnelMinMaxExp "[2 5 .4]"
+}

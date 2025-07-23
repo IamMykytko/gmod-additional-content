@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "tile/tile_ceiling_01a"
+
+
+
+$surfaceprop tile
+"%keywords" l4d2
+}

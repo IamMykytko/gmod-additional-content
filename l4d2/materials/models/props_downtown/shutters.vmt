@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_downtown/shutters"
+$allowdiffusemodulation 1
+$blendtintbybasealpha 1
+}

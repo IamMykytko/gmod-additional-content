@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique\airport/carousel"
+$envmap env_cubemap
+$EnvmapMask "models\props_unique\airport\carousel_ref"
+$surfaceprop metal
+}

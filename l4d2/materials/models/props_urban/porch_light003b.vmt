@@ -1,0 +1,7 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/porch_light003b.vtf"
+$selfillum 1
+$selfillumtint "[ .25 .25 .25 ]"
+}

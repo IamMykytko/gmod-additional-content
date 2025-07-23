@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_mill\walkways01"
+$envmap env_cubemap
+$envmapmask "models\props_mill\walkways01_ref"
+$envmaptint "[.4 .4 .4]"
+"%keywords" l4d2
+}

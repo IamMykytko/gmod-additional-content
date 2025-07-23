@@ -1,0 +1,6 @@
+unlitGeneric
+{
+$basetexture "Models/hybridPhysx/hospitalTextureLow"
+$color2 "[.275 .275 .275]"
+$selfillum 0
+}

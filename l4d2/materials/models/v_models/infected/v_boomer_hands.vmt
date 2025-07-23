@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\v_models\Infected/v_Boomer_hands"
+$bumpmap "models\v_models\Infected/v_Boomer_hands_normal"
+$halflambert 1
+$phong 1
+$phongexponent 20
+$phongfresnelranges "[1 5 5]"
+$phongboost 1
+}

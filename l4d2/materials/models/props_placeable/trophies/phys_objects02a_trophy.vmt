@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_placeable/trophies/phys_objects02a_trophy"
+
+
+$halflambert 1
+$phong 1
+
+$phongboost ".3"
+
+$phongexponent 45
+$basemapalphaphongmask 1
+
+$phongfresnelranges "[5 5 30]"
+
+
+
+}

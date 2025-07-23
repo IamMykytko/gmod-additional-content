@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_exteriors/Concrete_Plant01_Conveyor02"
+$detail "detail\dt_metalgalv"
+$detailscale 20
+$detailblendfactor .7
+$detailblendmode 0
+}

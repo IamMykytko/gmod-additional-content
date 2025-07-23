@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_fairgrounds\entrance_sign"
+$selfillum 1
+}

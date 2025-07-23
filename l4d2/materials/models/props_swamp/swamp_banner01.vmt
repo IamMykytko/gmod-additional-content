@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$basetexture "models/props_swamp/swamp_banner01"
+$surfaceprop default
+$envmap env_cubemap
+$envmaptint "[.3 .3 .3]"
+$envmapcontrast ".2"
+}

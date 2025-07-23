@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_industrial/Pallet_Barrel_Fuel01"
+$envmap env_cubemap
+$envmaptint "[.3 .3 .3]"
+$envmapcontrast ".6"
+$envmapsaturation ".4"
+}

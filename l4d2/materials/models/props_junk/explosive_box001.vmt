@@ -1,0 +1,11 @@
+VertexlitGeneric
+{
+$basetexture "models\props_junk\explosive_box001.vtf"
+$phong 1
+$bumpmap "effects/flat_normal"
+$phongexponent 4
+$phongtint "[1 1 1]"
+$phongboost 1
+$phongfresnelranges "[0.4 0.8 1]"
+$basemapalphaphongmask 1
+}

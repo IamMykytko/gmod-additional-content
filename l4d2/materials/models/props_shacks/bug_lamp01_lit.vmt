@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_shacks\bug_lamp01"
+$envmapmask "Models/props_shacks/bug_lamp01_lit"
+$selfillum_envmapmask_alpha 1
+$model 1
+"%keywords" l4d2
+}

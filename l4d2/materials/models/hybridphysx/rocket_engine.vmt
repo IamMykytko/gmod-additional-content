@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$basetexture "Models/hybridPhysx/rocket_engine"
+$bumpmap "Models/hybridPhysx/rocket_engine_normal"
+$selfillum 0
+$phong 1
+$phongexponent 2
+$phongboost 2
+$phongfresnelranges "[0.6 1 1]"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/Front_Loader01_Glass"
+$Envmap env_cubemap
+$EnvmapMask "models\props_vehicles\Front_Loader01_Glass_ref"
+}

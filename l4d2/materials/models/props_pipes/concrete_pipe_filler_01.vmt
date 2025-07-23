@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$basetexture "models\props_pipes\concrete_pipe_filler"
+$detail "concrete\concrete_ext_03"
+$detailscale 6
+$detailblendmode 0
+$color2 "[0.5 0.5 0.5]"
+}

@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$baseTexture "concrete/concrete_ext_02"
+$surfaceprop concrete
+$color2 "[.9 .9 .9]"
+
+
+$model 1
+
+
+
+}

@@ -1,0 +1,7 @@
+
+VertexLitGeneric
+{
+
+$basetexture "Models/props_pipes/InteriorPipe002a"
+$surfaceprop metal
+}

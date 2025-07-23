@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "nature/urbanhedges01"
+$surfaceprop dirt
+$alphatest 1
+$alphatestreference "0.500000"
+$nocull 1
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\w_models\eq_laser_sights\w_laser_sights"
+$envmap env_cubemap
+$basealphaenvmapmask 1
+$envmapfresnel 1
+$envmapfresnelMinMaxExp "[0.4 1 3]"
+}

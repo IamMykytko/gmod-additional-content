@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_buildables/small_cabinet"
+$AlphaTest 1
+}

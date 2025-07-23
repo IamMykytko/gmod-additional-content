@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/CoalFreighter_Hull"
+$detail "detail/dt_metalgalv"
+$detailscale 36
+$detailblendfactor 1
+$detailblendmode 0
+}

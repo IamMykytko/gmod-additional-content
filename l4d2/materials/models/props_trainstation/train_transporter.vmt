@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_trainstation/train_transporter_col"
+}

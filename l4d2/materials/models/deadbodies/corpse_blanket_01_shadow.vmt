@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\DeadBodies/Corpse_Blanket_01_Shadow"
+$translucent 1
+}

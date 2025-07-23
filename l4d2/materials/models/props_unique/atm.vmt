@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique/atm"
+
+
+$envmap env_cubemap
+$envmaptint "[ 1 1 1 ]"
+$envmapcontrast ".5"
+$envmapmask "models\props_unique\atm_ref"
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_fairgrounds/slide_color"
+$envmap env_cubemap
+$basealphaenvmapmask 1
+$envmaptint "[.175 .175 .175]"
+}

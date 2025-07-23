@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_industrial/PumpVertical01"
+
+
+
+
+
+$detail "detail\dt_metal2"
+$detailscale 16
+$detailblendfactor .5
+$detailblendmode 0
+$bumpmap "effects/flat_normal"
+$color2 "[.7 .6 .5]"
+$halflambert 1
+$phong 1
+$phongboost ".05"
+$phongexponent 20
+
+$phongfresnelranges "[3 8 60]"
+}

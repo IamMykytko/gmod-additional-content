@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$basetexture "models\props\cs_office\table_meeting"
+$envmap env_cubemap
+$envmapmask "FX\white25_ref"
+$envmaptint "[1 .6 .5]"
+$envmapsaturation .75
+}

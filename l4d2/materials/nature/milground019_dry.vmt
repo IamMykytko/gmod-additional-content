@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "nature/milground019_dry"
+$surfaceprop dirt
+}

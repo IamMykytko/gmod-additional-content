@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/helicopter_news_downed"
+$detail "detail/dt_metal1"
+$detailscale 32
+$detailblendfactor .9
+$detailblendmode 0
+}

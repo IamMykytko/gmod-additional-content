@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models/military2/air/air_rfl_cokp09"
+$alphatest 1
+}

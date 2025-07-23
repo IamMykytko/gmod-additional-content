@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Lighting/Light_Flares_01"
+}

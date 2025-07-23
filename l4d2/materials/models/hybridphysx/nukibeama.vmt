@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$basetexture "de_nuke\nukibeama"
+$bumpmap "de_nuke\nukibeama_normal"
+$color2 "[0.4 0.4 0.4]"
+$surfaceprop metal
+$selfillum 0
+$phong 1
+$phongexponent 10
+$phongboost "0.5"
+$phongfresnelranges "[0.6 1 1]"
+}

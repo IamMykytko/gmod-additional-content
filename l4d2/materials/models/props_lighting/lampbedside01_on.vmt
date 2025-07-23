@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Lighting/LampBedside01_ON"
+$selfillum 1
+$selfillumtint "[ .3 .3 .3 ]"
+$envmap env_cubemap
+$envmapmask "models\Props_Lighting\LampBedside01_ref"
+$envmapcontrast ".7"
+}

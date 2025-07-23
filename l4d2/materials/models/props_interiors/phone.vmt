@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/phone"
+$envmap env_cubemap
+$envmapmask "models\props_interiors\phone_ref"
+}

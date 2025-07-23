@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_critters/Crow01"
+$alphatest 1
+$alpha 1
+}

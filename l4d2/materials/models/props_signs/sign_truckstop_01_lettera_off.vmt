@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "signs/sign_truckstop_01"
+$surfaceprop metal
+$MaxFogDensityScalar "0.95"
+"%keywords" l4d2
+}

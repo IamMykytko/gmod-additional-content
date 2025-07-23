@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+$baseTexture "models\props_unique\spawn_apartment/lantern_glass_on"
+$translucent 1
+$envmap env_cubemap
+$envmapmask "models\props_unique\spawn_apartment\lantern_glass_ref"
+$model 1
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/Pickup_Glass"
+$Envmap env_cubemap
+$EnvmapMask "models\props_vehicles\Pickup_Glass_ref"
+}

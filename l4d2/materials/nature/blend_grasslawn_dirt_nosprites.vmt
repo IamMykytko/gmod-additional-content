@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "nature/grasslawn_dry01"
+$basetexture2 "nature/mud_ext_01"
+$surfaceprop grass
+$surfaceprop2 dirt
+"%keywords" l4d2
+}

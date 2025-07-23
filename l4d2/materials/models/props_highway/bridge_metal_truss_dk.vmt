@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "models\props_highway\bridge_metal_truss_dk"
+$surfaceprop metal
+$alphatest 1
+}

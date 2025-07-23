@@ -1,0 +1,10 @@
+WorldVertexTransition
+{
+$basetexture "nature/swamp_roots01"
+$basetexture2 "nature/swamp_mudfloor01"
+"%detailtype" urban_overgrown
+$bumpmap "Nature/roots01-ssbump"
+$ssbump 1
+$surfaceprop dirt
+$surfaceprop2 dirt
+}

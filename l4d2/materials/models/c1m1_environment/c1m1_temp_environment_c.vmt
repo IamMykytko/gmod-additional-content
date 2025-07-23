@@ -1,0 +1,6 @@
+unlitGeneric
+{
+$basetexture "Models/c1m1_environment/Vista_CNEW"
+$color2 "[1 1 1]"
+$selfillum 1
+}

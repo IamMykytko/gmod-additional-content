@@ -1,0 +1,5 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/closet_shelves001.vtf"
+}

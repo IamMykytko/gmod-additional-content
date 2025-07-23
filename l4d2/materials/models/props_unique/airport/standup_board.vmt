@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique\airport/standup_board"
+$envmap env_cubemap
+$envmaptint "[0.25 0.25 0.25]"
+}

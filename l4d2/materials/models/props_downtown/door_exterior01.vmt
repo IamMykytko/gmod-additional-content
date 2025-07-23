@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_downtown/door_exterior01"
+$Envmap env_cubemap
+$EnvmapMask "models\props_downtown\door_exterior01_spec"
+$EnvmapTint "[0.35 0.35 0.35]"
+}

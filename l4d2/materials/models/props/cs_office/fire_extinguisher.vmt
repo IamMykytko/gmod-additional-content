@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$basetexture "models\props\cs_office\fire_extinguisher"
+$envmap env_cubemap
+$envmapmask "FX\white50_ref"
+$envmaptint "[.6 .5 .5]"
+$envmapcontrast .6
+$envmapsaturation .4
+}

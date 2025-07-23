@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/chair_cafeteria_atrium"
+$Surfaceprop plastic
+$detail "detail\dt_leather1"
+$detailscale 12
+$detailblendfactor ".25"
+$detailblendmode 0
+}

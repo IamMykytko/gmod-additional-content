@@ -1,0 +1,5 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/porch_light001.vtf"
+}

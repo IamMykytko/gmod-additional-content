@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\DeadBodies/Corpse_06_Legs"
+$halflambert 1
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/bottles_shelf"
+$envmap env_cubemap
+$envmapmask "models\props_interiors\bottles_shelf_ref"
+$envmaptint "[.5 .5 .5]"
+}

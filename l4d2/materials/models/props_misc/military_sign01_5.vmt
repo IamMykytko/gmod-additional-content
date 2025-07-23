@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "models/props_misc/military_sign01_5"
+$surfaceprop default
+}

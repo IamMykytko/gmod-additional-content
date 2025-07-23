@@ -1,0 +1,11 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/tire001.vtf"
+$bumpmap "models/props_urban/tire001_normal.vtf"
+$phong 1
+$phongexponent 10
+$phongboost ".025"
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[10 10 60]"
+}

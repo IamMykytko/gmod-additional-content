@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_signs/clipps_classic_cuts.vtf"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost 3
+$phongexponent 64
+$basemapalphaphongmask 1
+$phongfresnelranges "[1 2 5]"
+}

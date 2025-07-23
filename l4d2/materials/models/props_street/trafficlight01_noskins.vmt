@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street\trafficlight01_main_off"
+$detail "detail\dt_metalgalv"
+$detailscale 10
+$detailblendfactor 1
+$detailblendmode 0
+}

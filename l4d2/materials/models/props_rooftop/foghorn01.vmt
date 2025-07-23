@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_rooftop/FogHorn01"
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 1
+$phongexponent 10
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[1 10 60]"
+$detail "detail\dt_metalgalv"
+$detailscale "[ 5 10 ]"
+$detailblendfactor 1
+$detailblendmode 0
+}

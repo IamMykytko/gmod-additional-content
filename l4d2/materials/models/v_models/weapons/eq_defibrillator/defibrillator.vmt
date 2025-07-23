@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\v_models\Weapons\eq_defibrillator/defibrillator"
+$bumpmap "effects/flat_normal"
+$selfillum 1
+$phong 1
+$phongboost 1
+$phongexponent 10
+$phongfresnelranges "[0 2 30]"
+}

@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/Bridge_Ironwork_01"
+$alphatest 1
+$model 1
+$FlashlightNoLambert 1
+$AlphaTestReference "0.3"
+$detail "detail/dt_metal2"
+$detailscale 64
+$detailblendfactor .5
+$detailblendmode 0
+}

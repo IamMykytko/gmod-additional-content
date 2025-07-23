@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "models/props_fairgrounds/strongman_puck"
+$surfaceprop default
+}

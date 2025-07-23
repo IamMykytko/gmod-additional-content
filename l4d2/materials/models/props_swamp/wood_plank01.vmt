@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_swamp/wood_plank01"
+$surfaceprop default
+}

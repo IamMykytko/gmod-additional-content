@@ -1,0 +1,7 @@
+VertexlitGeneric
+{
+$basetexture "models\props_waterfront\poolhall_sign"
+$selfillummask "models\props_waterfront\poolhall_sign_selfillum"
+$selfillum 1
+$selfillumtint "[.3 .3 .3]"
+}

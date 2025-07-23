@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\cs_assault/Vents"
+$envmap env_cubemap
+$envmapmask "models\props\cs_assault\Vents_ref"
+}

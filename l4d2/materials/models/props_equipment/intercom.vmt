@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_equipment/intercom.vtf"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost 2
+$phongexponent 15
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[1 2.5 5]"
+}

@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+$basetexture "metal/elevatordoors01"
+$envmap env_cubemap
+$envmapmask "metal\elevatordoors01_ref"
+$envmapcontrast ".5"
+$envmapsaturation 0
+$envmaptint "[.5 .5 .5]"
+$surfaceprop metal
+$detail "detail\dt_ssteel1"
+$detailscale "[ 18 18 ]"
+$detailblendfactor ".3"
+$detailblendmode 0
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_furniture/inn_chandelier1"
+$envmapmask "models\props_furniture/inn_chandelier1_envmask"
+$envmap env_cubemap
+$envmaptint "[.5 .42 .18]"
+}

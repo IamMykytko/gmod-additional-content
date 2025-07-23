@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/Bridge_Ironwork_docks"
+$alphatest 1
+$AlphaTestReference "0.3"
+}

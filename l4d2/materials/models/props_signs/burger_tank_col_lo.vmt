@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_signs/burger_tank_col_lo"
+$Selfillum 1
+}

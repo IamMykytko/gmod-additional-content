@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_mall/mall_escalator.vtf"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost "0.4"
+$phongexponent 8
+$phongfresnelranges "[0.5 1 2]"
+}

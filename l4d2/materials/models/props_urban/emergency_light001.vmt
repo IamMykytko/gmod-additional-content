@@ -1,0 +1,6 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/emergency_light001.vtf"
+$selfillum 1
+}

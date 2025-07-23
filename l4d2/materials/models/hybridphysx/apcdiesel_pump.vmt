@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\hybridPhysx/APCdiesel_pump"
+$envmap env_cubemap
+$envmapmask "models\hybridPhysx\APCdiesel_pump_ref"
+$envmapsaturation ".2"
+$envmapcontrast ".5"
+}

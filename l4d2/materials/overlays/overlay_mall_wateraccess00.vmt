@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "overlays/overlay_mall_wateraccess00"
+$surfaceprop metal
+$translucent 1
+$decal 1
+"%keywords" l4d2
+}

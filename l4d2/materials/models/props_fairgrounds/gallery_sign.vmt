@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "models/props_fairgrounds/gallery_sign"
+$surfaceprop wood
+$selfillum 1
+}

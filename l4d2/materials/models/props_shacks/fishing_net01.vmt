@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_shacks\fishing_net01"
+$model 1
+$nocull 1
+"%keywords" l4d2
+
+$AllowFenceRenderStateHack 1
+$AlphaTest 1
+$AlphaTestReference 0.2 
+$Translucent 1
+$FlashlightNoLambert 1
+}

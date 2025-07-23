@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "models\props_mall\ceiling_box_00"
+$surfaceprop sheetrock
+}

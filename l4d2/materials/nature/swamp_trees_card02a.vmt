@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "nature/Swamp_Trees_card02a"
+$AlphaTest 1
+$AlphaTestReference ".45"
+$AllowAlphaToCoverage 1
+
+}

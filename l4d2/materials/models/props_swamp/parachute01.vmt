@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_swamp/parachute01"
+$nocull 1
+$alphatest 1
+$surfaceprop default
+"%keywords" l4d2
+$treeSway 1
+$treeSwayHeight 100
+$treeSwayStartHeight "0.15"
+$treeSwayRadius 100
+$treeSwayStartRadius "0.15"
+$treeSwaySpeed ".95"
+$treeSwayStrength ".8"
+$treeSwayScrumbleSpeed ".15"
+$treeSwayScrumbleStrength ".7"
+$treeSwayScrumbleFrequency ".15"
+$treeSwayFalloffExp 1
+$treeSwayScrumbleFalloffExp "1.5"
+$treeSwaySpeedHighWindMultiplier "1.0" 
+$treeSwaySpeedLerpStart "3.0"
+$treeSwaySpeedLerpEnd "6.0"
+}

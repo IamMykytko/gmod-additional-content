@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$basetexture "models/props_collectables/piepan"
+$bumpmap "models/props_collectables/alch_table_normal"
+$phong 1
+$phongexponent 15
+$BasemapLuminancePhongMask 1
+$phongboost 6
+$phongfresnelranges "[1 1 1]"
+}

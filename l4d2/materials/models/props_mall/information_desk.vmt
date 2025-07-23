@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+
+$basetexture "Dev/reflectivity_50b"
+$surfaceprop concrete
+}

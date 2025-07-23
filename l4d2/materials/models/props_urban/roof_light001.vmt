@@ -1,0 +1,10 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/roof_light001.vtf"
+$phong 1
+$phongexponent 50
+$phongboost ".5"
+$phongfresnelranges "[.7 15 20]"
+$bumpmap "models/props_fortifications/orangecone001_normal"
+}

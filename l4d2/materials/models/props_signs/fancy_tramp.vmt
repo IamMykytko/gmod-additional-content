@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_signs/fancy_tramp.vtf"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost 3
+$phongexponent 10
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[0.5 1 5]"
+}

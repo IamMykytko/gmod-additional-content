@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_waterfront\tattoo_chair_client_01"
+$envmap env_cubemap
+$envmapmask "models\props_waterfront\tattoo_chair_client_01_ref"
+
+
+
+
+
+
+}

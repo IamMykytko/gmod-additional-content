@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Doors/emergency_exit_sign"
+}

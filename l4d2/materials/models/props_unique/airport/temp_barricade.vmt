@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique\airport/Temp_Barricade"
+$envmap env_cubemap
+$envmaptint "[0.3 0.3 0.3]"
+}

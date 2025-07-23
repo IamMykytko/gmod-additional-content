@@ -1,0 +1,15 @@
+WorldVertexTransition
+{
+$basetexture2 "Nature/mud_ext_01"
+$basetexture "concrete/concrete_floor_02"
+$bumptransform "center .75 .75 scale .4 .4 rotate 0 translate 0 0"
+$bumpmap "concrete/pavement2_height-ssbump"
+$ssbump 1
+$SSBumpMathFix 1
+
+
+
+$surfaceprop2 dirt
+$surfaceprop concrete
+"%keywords" l4d2
+}

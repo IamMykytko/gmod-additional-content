@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "models/props_fairgrounds/arcadegame01"
+$surfaceprop default
+
+}

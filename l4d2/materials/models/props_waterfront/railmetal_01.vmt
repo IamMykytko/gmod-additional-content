@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "metal\metal_plate01"
+$envmap env_cubemap
+$envmapmask "metal\metal_plate01_ref"
+$envmaptint "[.4 .4 .4]"
+$surfaceprop metalvent
+"%keywords" l4d2
+}

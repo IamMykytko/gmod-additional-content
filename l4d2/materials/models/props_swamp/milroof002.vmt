@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "metal/milroof002"
+$surfaceprop metal
+}

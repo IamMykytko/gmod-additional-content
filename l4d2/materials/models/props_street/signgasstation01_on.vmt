@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/SignGasStation01_On"
+$selfillum 1
+$selfillumtint "[1 1 1]"
+VertexLitGeneric_HDR_dx9
+{
+$selfillumtint "[.25 .25 .25]"
+}
+}

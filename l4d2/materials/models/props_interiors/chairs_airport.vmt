@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/chairs_airport"
+$envmap env_cubemap
+$envmapmask "models\props_interiors\chairs_airport_ref"
+$envmaptint "[1 1 1]"
+$envmapcontrast ".7"
+$envmapsaturation ".6"
+vertexlitgeneric_HDR_dx9
+{
+$envmaptint "[1 1 1]"
+}
+}

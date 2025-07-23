@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "models\props_downtown\metal_door02"
+$Surfaceprop metal
+"%keywords" l4d2
+}

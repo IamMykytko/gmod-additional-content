@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_industrial/Kiln_Cart_Tracks"
+$envmap env_cubemap
+$envmapmask "models\props_industrial\Kiln_Cart_Tracks_ref"
+$detail "detail\dt_metal1"
+$detailscale "[ 8 8 ]"
+$detailblendfactor 1
+$detailblendmode 0
+}

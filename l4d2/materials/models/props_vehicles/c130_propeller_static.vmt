@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/c130_propeller_static"
+}

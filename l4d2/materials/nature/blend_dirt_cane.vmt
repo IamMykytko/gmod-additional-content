@@ -1,0 +1,16 @@
+WorldVertexTransition
+{
+$basetexture2 "nature/dirt_ext_02"
+$baseTexture "nature/ground_cane01"
+$surfaceprop sugarcane
+$surfaceprop2 dirt
+"%detailtype" urban_dry_overgrown
+$bumptransform "center .75 .75 scale .4 .4 rotate 0 translate 0 0"
+$bumpmap "concrete/pavement2_height-ssbump"
+$ssbump 1
+$SSBumpMathFix 1
+
+
+
+"%keywords" l4d2
+}

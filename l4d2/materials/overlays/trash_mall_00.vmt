@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "overlays/trash_mall_00"
+$translucent 1
+$decal 1
+$decalscale "0.15000"
+"%keywords" l4d2
+}

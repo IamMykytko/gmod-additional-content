@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$basetexture "Models/bunny/b_Signboard01_bydonking"
+$translucent 1
+model 1
+$envmapmode 1
+}

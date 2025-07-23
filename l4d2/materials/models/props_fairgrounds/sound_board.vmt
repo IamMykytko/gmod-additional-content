@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_fairgrounds\sound_board"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost 3
+$phongexponent 20
+$basemapluminancephongmask 1
+$phongfresnelranges "[0.5 1 2]"
+}

@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$basetexture "models\props_vehicles\boxcar_tanktrap_interior_01"
+$envmap env_cubemap
+$envmapmask "models\props_vehicles\boxcar_tanktrap_interior_01_ref"
+$envmaptint "[.75 0 0]"
+$detail "detail\dt_metal2"
+$detailscale 18
+$detailblendfactor ".4"
+$detailblendmode 0
+}

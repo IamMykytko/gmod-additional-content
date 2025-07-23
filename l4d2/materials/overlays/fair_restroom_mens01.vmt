@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "overlays\Fair_restroom_mens01"
+$surfaceprop wood
+"%keywords" l4d2
+$translucent 1
+$decal 1
+}

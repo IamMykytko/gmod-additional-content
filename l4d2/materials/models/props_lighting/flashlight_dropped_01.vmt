@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Lighting/Flashlight_dropped_01"
+$Selfillum 1
+}

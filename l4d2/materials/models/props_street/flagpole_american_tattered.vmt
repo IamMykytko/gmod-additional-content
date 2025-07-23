@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/Flagpole_American_Tattered"
+$alphatest 1
+$alphatestreference ".3"
+$Envmap env_cubemap
+$EnvmapMask "models\props_street\flagpole_ref"
+
+
+
+}

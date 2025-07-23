@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_signs/ladyshoes.vtf"
+$envmap env_cubemap
+$basealphaenvmapmask 1
+$envmaptint "[ .7 .8 .95 ]"
+}

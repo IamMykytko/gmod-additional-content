@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique\hospital/IV_pole"
+$envmap env_cubemap
+$envmapmask "models\props_unique\hospital\IV_pole_ref"
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_destruction/plaster14_burning"
+$selfillum 1
+$surfaceprop sheetrock
+"%keywords" l4d2
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_foliage/leaf_ncweeping02de_de"
+$alphatest 1
+$nocull 1
+}

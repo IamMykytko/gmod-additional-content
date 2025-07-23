@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique/HospitalCurtain01"
+$nocull 1
+$FlashlightNoLambert 1
+}

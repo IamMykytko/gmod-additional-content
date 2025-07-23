@@ -1,0 +1,12 @@
+VertexlitGeneric
+{
+$basetexture "models\props_waterfront\dance_sign"
+
+
+
+
+
+$selfillummask "models\props_waterfront\dance_sign_selfillum"
+$selfillum 1
+$selfillumtint "[.3 .3 .3]"
+}

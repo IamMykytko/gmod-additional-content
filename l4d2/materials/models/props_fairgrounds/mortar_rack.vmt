@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$basetexture "models/props_fairgrounds/mortar_rack.vtf"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost "1.5"
+$phongexponent 25
+$basemapluminancephongmask 1
+$phongfresnelranges "[0.25 0.5 1]"
+}

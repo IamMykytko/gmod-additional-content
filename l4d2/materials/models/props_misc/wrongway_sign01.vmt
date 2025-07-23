@@ -1,0 +1,31 @@
+UnlitGeneric
+{
+$basetexture "models\props_misc\wrongway_sign01"
+$translucent 1
+
+$proxRange 0.0
+
+$proxTeam 1.0
+
+$one 1.0
+Proxies
+{
+PlayerTeam
+{
+team 3 
+resultVar $proxTeam
+}
+Subtract
+{
+srcVar1 $one
+srcVar2 $proxRange
+resultVar $alpha
+}
+Multiply
+{
+srcVar1 $alpha
+srcVar2 $proxTeam
+resultVar $alpha
+}
+}
+}

@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+$baseTexture "models\props_vehicles/helicopter_bg_flightpath"
+$model 1
+$nofog 1
+}

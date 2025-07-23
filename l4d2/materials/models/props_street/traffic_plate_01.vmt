@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/Traffic_Plate_01"
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 1
+$phongexponent 10
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[15 15 15]"
+$detail "detail\dt_metal2"
+$detailscale 16
+$detailblendfactor ".6"
+$detailblendmode 0
+}

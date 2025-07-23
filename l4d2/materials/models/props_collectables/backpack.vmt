@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$basetexture "models/props_collectables/backpack"
+$phong 1
+$selfillum 1
+$selfillumfresnel 1
+$selfillumfresnelminmaxexp 1
+$EYEGLOWFLASHLIGHTBOOST 10
+}

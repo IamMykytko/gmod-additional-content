@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+
+$baseTexture "models/props_foliage/ivy01a"
+
+
+
+$nocull 1
+$alphatest 1
+}

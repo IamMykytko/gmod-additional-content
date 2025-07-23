@@ -1,0 +1,5 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_mall/mall_display_04.vtf"
+}

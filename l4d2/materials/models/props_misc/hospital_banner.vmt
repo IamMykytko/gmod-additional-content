@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$basetexture "models/props_misc/hospital_banner"
+$surfaceprop default
+$bumpmap "models/props_misc/hospital_banner_normal"
+$envmap env_cubemap
+$envmaptint "[.3 .3 .3]"
+$envmapcontrast ".2"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_downtown/windows_interior"
+$Selfillum 1
+$Selfillumtint "0.2 0.2 0.2"
+}

@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "concrete/concrete_ext_03"
+$surfaceprop concrete
+$ssbump 1
+$bumpmap "concrete/concrete_ext_04_height-ssbump"
+$SSBumpMathFix 1
+"%keywords" l4d2
+}

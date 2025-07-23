@@ -1,0 +1,12 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_signs/lynns_cards_gifts.vtf"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost 4
+$phongexponent 25
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[1 2 5]"
+}

@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\w_models\w_HE_grenade/w_HE_grenade"
+$bumpmap "models\w_models\w_HE_grenade/w_HE_grenade_normal"
+$phong 1
+$phongexponent 120
+$phongfresnelranges "[1 0.5 8]"
+$phongboost 5
+}

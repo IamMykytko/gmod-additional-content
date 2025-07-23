@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_equipment/OxygenTank01"
+
+
+
+
+
+$bumpmap "effects/flat_normal"
+$basemapalphaphongmask 1
+$halflambert 1
+$phong 1
+$phongboost "0.5"
+$phongexponent 15
+
+$phongfresnelranges "[5 5 30]"
+}

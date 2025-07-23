@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_fortifications/Burning_Barricade_01"
+$Selfillum 1
+}

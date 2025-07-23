@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "buildings/shingles_ext_02"
+$surfaceprop rubber
+
+
+"%keywords" l4d2
+}

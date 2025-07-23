@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+
+$basetexture "Models/props_wasteland/controlroom_tables001"
+$surfaceprop metal
+}

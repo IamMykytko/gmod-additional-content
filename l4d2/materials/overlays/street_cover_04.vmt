@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+$baseTexture "overlays/street_cover_04"
+$surfaceprop concrete
+$translucent 1
+$decal 1
+$vertexcolor 1
+$vertexalpha 1
+$decalscale "0.15000"
+"%keywords" l4d2
+}

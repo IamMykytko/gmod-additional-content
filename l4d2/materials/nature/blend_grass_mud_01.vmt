@@ -1,0 +1,11 @@
+WorldVertexTransition
+{
+$basetexture "nature/ground_grass03"
+$basetexture2 "nature/mud_ext_01"
+
+
+$surfaceprop2 dirt
+$surfaceprop dirt
+"%keywords" l4d2
+"%detailtype" urban_grass_overgrown
+}

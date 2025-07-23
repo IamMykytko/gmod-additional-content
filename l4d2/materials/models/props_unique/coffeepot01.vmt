@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique/CoffeePot01"
+$envmap env_cubemap
+$envmapmask "models\props_unique\CoffeePot01_ref"
+$envmapsaturation ".5"
+$envmapcontrast ".8"
+}

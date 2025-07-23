@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_rooftop/Gutter_Pipe"
+$surfaceprop metal
+}

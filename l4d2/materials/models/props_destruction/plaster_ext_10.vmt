@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "plaster/plaster_ext_10"
+$surfaceprop sheetrock
+"%keywords" l4d2
+}

@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_downtown/windows_exterior_05"
+$Envmap env_cubemap
+$Selfillum 1
+$selfillumtint "0.8 0.8 0.8"
+$selfillummask "models\props_downtown\windows_exterior_04_spec"
+$EnvmapMask "models\props_downtown\windows_exterior_04_spec"
+$EnvmapTint "[0.35 0.35 0.35]"
+}

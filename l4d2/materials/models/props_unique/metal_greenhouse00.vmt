@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "Models\props_unique/metal_greenhouse00"
+$surfaceprop metal
+}

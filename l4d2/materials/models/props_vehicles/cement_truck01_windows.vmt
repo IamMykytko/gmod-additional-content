@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/Cement_Truck01_Windows"
+$Envmap env_cubemap
+$EnvmapMask "models\props_vehicles\Cement_Truck01_Windows_ref"
+$EnvmapTint "[.5 .5 .5]"
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "models/props_trailers/trailer_details01"
+$surfaceprop default
+}

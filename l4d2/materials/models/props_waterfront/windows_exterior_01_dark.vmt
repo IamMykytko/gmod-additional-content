@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$basetexture "models\props_waterfront\windows_exterior_01_dark"
+
+$Envmap env_cubemap
+$EnvmapMask "models\props_waterfront\windows_exterior_01_dark_spec"
+$EnvmapTint "[0.5 0.5 0.5]"
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique\guncabinet_self_illum"
+$selfillum 1
+}

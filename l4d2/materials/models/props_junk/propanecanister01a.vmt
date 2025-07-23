@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_junk/propaneCanister01a"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost 1
+$phongexponent 30
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[5 5 30]"
+
+
+}

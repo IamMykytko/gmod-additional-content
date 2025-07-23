@@ -1,0 +1,5 @@
+VertexlitGeneric
+{
+$baseTexture "models\props_mill\brick_process_room"
+"%keywords" l4d2
+}

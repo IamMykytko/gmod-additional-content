@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$basetexture "models\props_waterfront\liquor_sign"
+
+
+
+
+
+$selfillummask "models\props_waterfront/liquor_sign_selfillum"
+$selfillum 1
+$selfillumtint "[.6 .6 .6]"
+}

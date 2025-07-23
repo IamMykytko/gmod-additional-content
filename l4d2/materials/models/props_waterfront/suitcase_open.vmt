@@ -1,0 +1,12 @@
+VertexlitGeneric
+{
+$basetexture "models\props_waterfront\suitcase_open"
+$envmap env_cubemap
+$envmapmask "models\props_waterfront\suitcase_open_spec"
+$envmaptint "[ 0.5 0.5 0.5 ]"
+
+
+
+
+
+}

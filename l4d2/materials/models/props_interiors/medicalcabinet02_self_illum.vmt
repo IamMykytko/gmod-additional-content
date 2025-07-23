@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors\MedicalCabinet02_self_illum"
+$envmap env_cubemap
+$envmapmask "models\props_interiors\MedicalCabinet02_ref"
+$envmapsaturation ".2"
+$selfillum 1
+}

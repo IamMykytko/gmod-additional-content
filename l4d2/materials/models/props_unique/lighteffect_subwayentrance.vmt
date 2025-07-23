@@ -1,0 +1,13 @@
+UnlitGeneric
+{
+$baseTexture "models\props_unique/lighteffect_subwayentrance"
+$translucent 1
+$additive 1
+$nocull 1
+$model 1
+$color2 "[.3 .3 .3]"
+
+
+
+
+}

@@ -1,0 +1,11 @@
+WorldVertexTransition
+{
+$basetexture "nature/ground_grass03"
+$basetexture2 "tools/toolsblack"
+$bumpmap "nature/ground_grass03_height-ssbump"
+$ssbump 1
+$surfaceprop2 gravel
+$surfaceprop dirt
+"%keywords" l4d2
+$SSBumpMathFix 1
+}

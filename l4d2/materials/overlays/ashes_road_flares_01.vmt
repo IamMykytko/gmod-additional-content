@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$baseTexture "overlays/Ashes_Road_Flares_01"
+$Translucent 1
+$Decal 1
+$DecalScale "0.250000"
+}

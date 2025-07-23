@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$basetexture "models\props\de_train\de_train_horizontalcoolingtank"
+
+
+
+
+$detail "detail\dt_metal_pipe"
+$detailscale "[ 7 7 ]"
+$detailblendfactor "0.5"
+$detailblendmode 0
+}

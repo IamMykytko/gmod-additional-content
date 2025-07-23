@@ -1,0 +1,14 @@
+Unlitgeneric
+{
+$basetexture "dev/water_moving_beneath"
+$bumpmap "nature/water_frame01_normal"
+$refractamount 0
+$reflectamount 0
+$surfaceprop water
+"%compilewater" 1
+$abovewater 0
+$fogenable 1
+$fogcolor "{.63 .57 .42}"
+$fogstart 0
+$fogend 32
+}

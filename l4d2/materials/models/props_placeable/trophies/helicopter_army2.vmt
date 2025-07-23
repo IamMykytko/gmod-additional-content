@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\hybridPhysx/helicopter_army2"
+}

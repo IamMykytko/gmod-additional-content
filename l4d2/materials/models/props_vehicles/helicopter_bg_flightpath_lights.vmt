@@ -1,0 +1,10 @@
+UnlitGeneric
+{
+$baseTexture "models\props_vehicles/helicopter_bg_flightpath_lights"
+$translucent 1
+$nofog 1
+$additive 1
+$nocull 1
+$alpha 1
+$model 1
+}

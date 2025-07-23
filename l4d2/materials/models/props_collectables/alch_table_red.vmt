@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$basetexture "models/props_collectables/alch_table_red"
+$bumpmap "models/props_collectables/alch_table_normal"
+$phong 1
+$phongexponent 3
+$BasemapLuminancePhongMask 1
+$phongboost 1
+$phongfresnelranges "[1 1 1]"
+}

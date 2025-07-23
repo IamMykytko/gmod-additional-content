@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_plants/PlantHanging01_C"
+$alphatest 1
+$nocull 1
+$flashlightnolambert 1
+$AlphaTestReference "0.4"
+}

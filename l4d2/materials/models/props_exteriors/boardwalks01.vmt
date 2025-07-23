@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_swamp/boardwalks01"
+$surfaceprop default
+"%keywords" l4d2
+}

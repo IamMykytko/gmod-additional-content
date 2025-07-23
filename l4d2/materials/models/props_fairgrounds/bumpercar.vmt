@@ -1,0 +1,13 @@
+VertexlitGeneric
+{
+$basetexture "models\props_fairgrounds\bumpercar.vtf"
+$envmap env_cubemap
+$basealphaenvmapmask 1
+$envmapsaturation ".4"
+$EnvmapTint "[0.7 0.7 0.7]"
+
+
+
+
+
+}

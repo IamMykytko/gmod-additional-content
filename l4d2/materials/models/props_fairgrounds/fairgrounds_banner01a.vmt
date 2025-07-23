@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$basetexture "models/props_fairgrounds/fairgrounds_banner01a"
+$surfaceprop default
+
+$envmap env_cubemap
+$envmaptint "[.3 .3 .3]"
+$envmapcontrast ".2"
+}

@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_fortifications/barricade001.vtf"
+$nocull 1
+
+$AllowFenceRenderStateHack 1
+$AlphaTest 1
+$AlphaTestReference 0.35 
+$Translucent 1
+$FlashlightNoLambert 1
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique/ZombieBreakWall2x4Core_Steel"
+$envmap env_cubemap
+$envmapmask "models\props_unique\ZombieBreakWall2x4Core_Steel_ref"
+}

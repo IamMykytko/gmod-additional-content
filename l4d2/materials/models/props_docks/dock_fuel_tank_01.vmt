@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_docks/Dock_Fuel_Tank_01"
+$detail "detail\dt_metal1"
+$detailscale "[ 12 12 ]"
+$detailblendfactor ".7"
+$detailblendmode 0
+}

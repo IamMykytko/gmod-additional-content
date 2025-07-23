@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models/generic/roof_ac"
+}

@@ -1,0 +1,8 @@
+WorldVertexTransition
+{
+$basetexture "concrete/concretefloor008a"
+$basetexture2 "nature/dirtfloor004a"
+"%tooltexture" "nature/blendconcrete_dirt_tooltexture"
+$surfaceprop concrete
+$surfaceprop2 dirt
+}

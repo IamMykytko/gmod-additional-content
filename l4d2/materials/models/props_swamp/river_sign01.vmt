@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "models/props_swamp/river_sign01"
+$surfaceprop default
+}

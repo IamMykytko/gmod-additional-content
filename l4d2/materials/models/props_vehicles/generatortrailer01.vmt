@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$basetexture "models\props_vehicles\generatortrailer01"
+$surfaceprop metal
+$envmap env_cubemap
+$envmapmask "models/props_vehicles/generatortrailer01_ref"
+$envmaptint "[.76 .53 .21]"
+$envmapcontrast ".5"
+vertexlitgeneric_HDR_dx9
+{
+$envmaptint "[.76 .53 .21]"
+}
+}

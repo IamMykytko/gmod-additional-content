@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/TankerTrailer"
+$envmap env_cubemap
+$envmapmask "models\props_vehicles\TankerTrailer_ref"
+}

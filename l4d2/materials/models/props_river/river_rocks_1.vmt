@@ -1,0 +1,11 @@
+VertexlitGeneric
+{
+$baseTexture "models\props_river\river_rocks_1"
+$surfaceprop stone
+$detail "detail\dt_stone1"
+$detailscale 23
+$detailblendfactor ".7"
+$detailblendmode 0
+$model 1
+"%keywords" l4d2
+}

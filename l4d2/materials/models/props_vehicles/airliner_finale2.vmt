@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/airliner_finale2"
+$detail "detail\dt_texture01"
+$detailscale 50
+$detailblendfactor ".6"
+$detailblendmode 0
+}

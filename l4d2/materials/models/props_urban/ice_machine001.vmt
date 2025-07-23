@@ -1,0 +1,8 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/ice_machine001.vtf"
+$envmap env_cubemap
+$basealphaenvmapmask 1
+$envmaptint "[.5 .5 .5]"
+}

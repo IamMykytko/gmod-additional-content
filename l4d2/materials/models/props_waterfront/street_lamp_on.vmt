@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$basetexture "models\props_waterfront\street_lamp_on"
+$selfillummask "models\props_waterfront/street_lamp_on_selfillum"
+$selfillum 1
+$selfillumtint "[.09 .09 .09]"
+}

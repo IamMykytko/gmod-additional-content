@@ -1,0 +1,10 @@
+WorldVertexTransition
+{
+"%tooltexture" "nature\blenddirtleaves_docks_tooltexture"
+$basetexture "nature\roots01_sm"
+$basetexture2 "nature\dirtfloor004a"
+"%detailtype" urban_overgrown_docks
+$bumpmap "concrete\pavement_height_low-ssbump"
+$ssbump 1
+$surfaceprop dirt
+}

@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$basetexture "brick/colortintwall01"
+$color2 "[.78 .75 .78]"
+$detail "detail\dt_brick03"
+$detailscale "8.5"
+$detailblendfactor ".6"
+$detailblendmode 7
+}

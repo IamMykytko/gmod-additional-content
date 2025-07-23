@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models/c2m5_helicopter_extraction/Searchlight_Small_01"
+$envmap env_cubemap
+$envmaptint "[.25 .25 .25]"
+
+}

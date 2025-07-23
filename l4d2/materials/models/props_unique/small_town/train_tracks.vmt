@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique\small_town/train_tracks"
+$model 1
+$alphatest 1
+$bumpmap "models\props_unique\small_town/train_tracks_normal"
+}

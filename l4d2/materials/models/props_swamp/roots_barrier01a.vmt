@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_swamp/roots_barrier01a"
+$translucent 1
+$surfaceprop wood
+}

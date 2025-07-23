@@ -1,0 +1,4 @@
+VertexlitGeneric
+{
+$baseTexture "models\props_buildings\Bus_Stop"
+}

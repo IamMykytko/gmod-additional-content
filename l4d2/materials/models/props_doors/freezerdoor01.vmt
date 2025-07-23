@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "metal\freezerdoor01"
+$envmap env_cubemap
+$envmaptint "[ .8 .8 .8 ]"
+$envmapcontrast ".7"
+$envmapsaturation ".7"
+
+}

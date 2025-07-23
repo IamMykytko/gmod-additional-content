@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "concrete/charred_rubble"
+$surfaceprop concrete
+}

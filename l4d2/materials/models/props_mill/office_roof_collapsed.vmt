@@ -1,0 +1,6 @@
+VertexlitGeneric
+{
+$baseTexture "models\props_mill\Office_roof_collapsed"
+$FlashlightNoLambert 1
+"%keywords" l4d2
+}

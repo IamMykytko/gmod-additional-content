@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+
+$basetexture "Dev/reflectivity_70b"
+$surfaceprop wood
+$phong 1
+$phongexponent 150
+$phongboost 1
+$phongfresnelranges "[.7 15 20]"
+$bumpmap "models/props_fortifications/orangecone001_normal"
+}

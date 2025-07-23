@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+
+$basetexture "Models/props_vehicles/tanker_wrecked"
+$surfaceprop metal
+$model 1
+$envmap env_cubemap
+$envmapmask "Models/props_vehicles/tanker_wrecked_envmask"
+$envmapfresnel 1
+$envmapFresnelMinMaxExp "[.2 2.5 3]"
+}

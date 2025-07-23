@@ -1,0 +1,12 @@
+patch
+{
+include "materials/models/infected/common/l4d2/ci_body_include.vmt"
+insert
+{
+$basetexture "models/infected/common/cif_formal"
+$GRADIENTTEXTURE "models/infected/common/ci_gradient_palette_bridesmaids"
+$DEFAULTPHONGEXPONENT 45
+$phongboost "0.6"
+$wounded 1
+}
+}

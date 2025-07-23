@@ -1,0 +1,6 @@
+UnLitGeneric
+{
+$basetexture "Models/c1m1_environment/GroundPlane"
+
+$nofog 1
+}

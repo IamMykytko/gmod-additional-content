@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Doors/DoorMetal_Double_Boarded01"
+$Envmap env_cubemap
+$EnvmapMask "models\Props_Doors\DoorMetal_Double_Boarded01_ref"
+$envmaptint "[.5 .5 .5]"
+}

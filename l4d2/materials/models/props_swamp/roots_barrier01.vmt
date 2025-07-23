@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_swamp/roots_barrier01"
+$surfaceprop default
+}

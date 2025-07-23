@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/rent_sign2"
+$envmap env_cubemap
+$envmapmask "models\props_street\rent_sign_ref"
+$envmaptint "[1 1 1]"
+$envmapcontrast ".7"
+$envmapsaturation ".5"
+}

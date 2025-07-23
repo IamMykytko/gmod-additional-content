@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_signs/Kappels_store_exterior.vtf"
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 5
+$phongexponent 4
+$phongtint "[1 .8 .3]"
+$phongfresnelranges "[0.7 0.9 1]"
+$basemapalphaphongmask 1
+$envmap env_cubemap
+$envmaptint "[.05 .04 .005]"
+}

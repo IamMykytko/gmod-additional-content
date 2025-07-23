@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+$baseTexture "models\v_models\Weapons\eq_Cola/v_Cola_glass"
+$translucent 1
+
+$bumpmap "models\v_models\Weapons\eq_Cola/v_Cola_glass_normal"
+$normalmapalphaenvmapmask 1
+$phong 1
+$phongboost 50
+$phongexponent 200
+$phongfresnelranges "[.1 0.5 2]"
+$envmap env_cubemap
+$envmapfresnel 1
+$envmapFresnelMinMaxExp "[2 5 .4]"
+}

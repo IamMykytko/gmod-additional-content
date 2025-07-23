@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_fortifications/Concrete_Barrier01"
+$detail "detail/dt_stone3"
+$detailscale 15
+$detailblendfactor .2
+$detailblendmode 0
+}

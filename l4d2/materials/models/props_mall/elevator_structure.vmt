@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "metal/metal_ext_trim02"
+$surfaceprop metal
+$phong 1
+$phongexponent 50
+$phongboost ".5"
+$phongfresnelranges "[.7 15 20]"
+$bumpmap "models/props_fortifications/orangecone001_normal"
+}

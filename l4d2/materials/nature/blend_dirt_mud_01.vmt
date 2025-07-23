@@ -1,0 +1,13 @@
+WorldVertexTransition
+{
+$basetexture "nature/milground019_dry"
+$basetexture2 "decals/sewer_slime01_decal"
+\\$bumpmap "nature/ground_grass03_height-ssbump"
+\\$bumpmap2 "nature/ground_grass04_height-ssbump"
+
+$surfaceprop2 dirt
+$surfaceprop dirt
+"%keywords" l4d2
+
+
+}

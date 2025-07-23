@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_vehicles/boat_fishing02"
+$surfaceprop default
+}

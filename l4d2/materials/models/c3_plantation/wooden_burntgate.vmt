@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "wood/white02"
+$surfaceprop wood
+
+
+
+
+
+$color2 "[.5 .5 .5]"
+}

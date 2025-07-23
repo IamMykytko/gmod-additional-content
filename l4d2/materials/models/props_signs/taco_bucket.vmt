@@ -1,0 +1,5 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_signs/taco_bucket.vtf"
+}

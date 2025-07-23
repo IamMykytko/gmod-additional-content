@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$basetexture "models\props_waterfront\tattooist_sign"
+
+
+
+$selfillummask "models\props_waterfront\tattooist_sign_selfillum"
+$selfillum 1
+$selfillumtint "[.3 .3 .3]"
+}

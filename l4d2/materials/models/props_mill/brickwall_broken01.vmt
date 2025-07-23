@@ -1,0 +1,6 @@
+VertexlitGeneric
+{
+$baseTexture "models\props_mill\brickwall_broken01"
+$FlashlightNoLambert 1
+"%keywords" l4d2
+}

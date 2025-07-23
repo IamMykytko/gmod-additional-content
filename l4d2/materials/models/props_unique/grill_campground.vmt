@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique/grill_campground"
+$envmap env_cubemap
+$envmapmask "models\props_unique\grill_campground_ref"
+$envmaptint "[1 1 1]"
+}

@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_waterfront/door_exterior01_redlight"
+
+
+
+$selfillummask "models\props_waterfront/door_exterior01_redlight_selfillum"
+$selfillum 1
+$selfillumtint "[.3 .3 .3]"
+}

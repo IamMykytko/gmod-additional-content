@@ -1,0 +1,16 @@
+WorldVertexTransition
+{
+$basetexture "nature/corn_ground01"
+$basetexture2 "nature/dirt02"
+$bumpmap "concrete/pavement_height-ssbump"
+$ssbump 1
+
+
+
+
+
+
+
+$surfaceprop dirt
+$surfaceprop2 dirt
+}

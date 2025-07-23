@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$basetexture "models\props_fairgrounds\kiddyland_ridetrain"
+$blendtintbybasealpha 1
+$envmap env_cubemap
+$envmapmask "models\props_fairgrounds\kiddyland_ridetrain_specmask"
+$envmapsaturation ".4"
+$EnvmapTint "[0.7 0.7 0.7]"
+}

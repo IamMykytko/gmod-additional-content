@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\w_models\eq_ammopack/w_eq_ammopack"
+}

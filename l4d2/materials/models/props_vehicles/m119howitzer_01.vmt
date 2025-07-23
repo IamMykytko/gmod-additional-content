@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/M119Howitzer_01"
+}

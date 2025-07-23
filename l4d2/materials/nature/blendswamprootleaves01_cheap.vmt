@@ -1,0 +1,10 @@
+WorldVertexTransition
+{
+$basetexture "nature/swamp_roots01"
+$basetexture2 "nature/swamp_leaves01"
+
+
+
+$surfaceprop dirt
+$surfaceprop2 dirt
+}

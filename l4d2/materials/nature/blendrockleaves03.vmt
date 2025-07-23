@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+$basetexture "nature/cliffface003a"
+$basetexture2 "nature/maple_leaves01"
+"%tooltexture" "nature/blendrockleaves_tooltexture"
+$blendmodulatetexture "nature/leavesblendtexture"
+$basetexturetransform2 "center 0.5 0.5 scale 0.5 0.5 rotate 0 translate 0 0"
+$surfaceprop rock
+$surfaceprop2 dirt
+$detail "detail\rock_detail_01"
+$detailscale 11
+$detailblendfactor 1
+$detailblendmode 0
+}

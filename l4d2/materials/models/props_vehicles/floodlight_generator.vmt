@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/floodlight_generator"
+$blendtintbybasealpha 1
+}

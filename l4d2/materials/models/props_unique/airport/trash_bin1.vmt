@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique\airport/trash_bin1"
+$envmap env_cubemap
+$envmaptint "[ .2 .2 .2 ]"
+$envmapcontrast ".5"
+$envmapsaturation ".5"
+
+}

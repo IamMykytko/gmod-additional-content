@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+$basetexture "models\props_downtown\horse_statue"
+$bumpmap "models\props_downtown\horse_statue_normal"
+$color2 "[.88 .95 1]" 
+$phong 1
+$phongexponent 4
+$phongtint "[.3 .5 .8]"
+$phongboost 8
+$phongfresnelranges "[.06 1 2]"
+
+$rimlight 1
+$rimlightboost 10
+$rimlightexponent 12
+}

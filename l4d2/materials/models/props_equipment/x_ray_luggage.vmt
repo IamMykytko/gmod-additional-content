@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_equipment/X_Ray_Luggage"
+$envmap env_cubemap
+$envmapmask "models\props_equipment\X_Ray_Luggage_ref"
+$envmapsaturation ".4"
+$envmapcontrast ".7"
+$detail "detail\dt_ssteel1"
+$detailscale 96
+$detailblendfactor .6
+$detailblendmode 0
+}

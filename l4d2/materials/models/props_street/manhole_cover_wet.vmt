@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/manhole_cover"
+$surfaceprop metal
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$bumpmap "models\props_street\manhole_cover_normal"
+}

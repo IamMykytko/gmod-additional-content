@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+$basetexture "models/props_c17/lamppost03a"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost 1
+$phongexponent 10
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[10 10 60]"
+$detail "detail\dt_metalgalv"
+$detailscale 10
+$detailblendfactor 1
+$detailblendmode 0
+}

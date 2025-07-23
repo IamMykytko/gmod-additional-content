@@ -1,0 +1,6 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/carnival_sign002b.vtf"
+$selfillum 1
+}

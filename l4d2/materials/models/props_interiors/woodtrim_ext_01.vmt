@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "wood/woodtrim_ext_01"
+$surfaceprop wood
+$phong 1
+$phongexponent 50
+$phongboost ".25"
+$phongfresnelranges "[.7 15 20]"
+$bumpmap "models/props_fortifications/orangecone001_normal"
+"%keywords" l4d2
+}

@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$baseTexture "wood/wood_burned_med"
+$surfaceprop wood
+
+$phong 1
+$phongboost ".3"
+$phongexponent 45
+$basemapalphaphongmask 1
+$phongfresnelranges "[5 5 30]"
+"%keywords" l4d2
+}

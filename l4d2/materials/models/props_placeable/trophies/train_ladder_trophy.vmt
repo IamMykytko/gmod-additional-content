@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$basetexture "models/props_placeable/trophies/train_ladder_trophy"
+}

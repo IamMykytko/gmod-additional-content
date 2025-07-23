@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_docks/Docks_TireBumper_01"
+$detail "detail\dt_metal1"
+$detailscale "[ 10 10 ]"
+$detailblendfactor 1
+$detailblendmode 0
+}

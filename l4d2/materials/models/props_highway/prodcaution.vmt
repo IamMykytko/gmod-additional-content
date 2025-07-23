@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "metal\prodcaution"
+$surfaceprop metal
+}

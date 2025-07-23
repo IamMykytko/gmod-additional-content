@@ -1,0 +1,8 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_furniture/hotel_chair.vtf"
+$envmap env_cubemap
+$envmaptint "{ 124 121 74 }"
+$basealphaenvmapmask 1
+}

@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$basetexture "Nature/dirt_ext_02"
+$surfaceprop dirt
+}

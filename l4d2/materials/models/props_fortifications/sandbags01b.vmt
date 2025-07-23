@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_fortifications\sandbags01b"
+$detail "detail\dt_fabric2"
+$detailscale "[ 14 7]"
+$detailblendfactor "0.3"
+$detailblendmode 0
+}

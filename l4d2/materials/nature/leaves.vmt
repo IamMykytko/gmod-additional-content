@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "nature/leaves"
+$surfaceprop dirt
+$seamless_scale 0.002
+}

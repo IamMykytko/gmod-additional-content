@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/Front_Loader01"
+$Envmap env_cubemap
+$EnvmapMask "models\props_vehicles\Front_Loader01_ref"
+$envmapfresnel 1
+$envmapFresnelMinMaxExp "[.5 1.5 4]"
+$EnvmapTint "[.5 .5 .5]"
+}

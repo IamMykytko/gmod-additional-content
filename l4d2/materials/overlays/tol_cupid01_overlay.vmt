@@ -1,0 +1,6 @@
+LightMappedGeneric
+{
+$basetexture "overlays/TOL_cupid01_overlay"
+$surfaceprop default
+$translucent 1
+}

@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$basetexture "models\props_mall\atrium_stair"
+$surfaceprop metalvent
+$phong 1
+$basemapalphaphongmask 1
+$phongexponent 150
+$phongboost 1
+$phongfresnelranges "[.7 15 20]"
+}

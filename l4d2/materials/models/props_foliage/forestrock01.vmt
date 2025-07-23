@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_foliage/forestrock01"
+
+$surfaceprop rock
+$detail "detail\rock_detail_01"
+$detailscale "1.565"
+$detailblendfactor .7
+$detailblendmode 0
+}

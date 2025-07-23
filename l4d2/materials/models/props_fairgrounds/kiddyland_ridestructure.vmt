@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_fairgrounds/kiddyland_ridestructure"
+$envmap env_cubemap
+$envmapmask "models\props_fairgrounds\kiddyland_ridestructure_specmask"
+$envmapsaturation ".4"
+$EnvmapTint "[0.7 0.7 0.7]"
+}

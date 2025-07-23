@@ -1,0 +1,7 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/boat002.vtf"
+$allowdiffusemodulation 1
+$blendtintbybasealpha 1
+}

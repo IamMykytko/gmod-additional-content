@@ -1,0 +1,13 @@
+patch
+{
+include "materials/models/infected/common/l4d2/ci_body_include.vmt"
+insert
+{
+$basetexture "models/infected/common/cim_biker"
+$GRADIENTTEXTURE "models/infected/common/ci_gradient_palette_bikers"
+$DETAIL "models/infected/common/cim_tats"
+$DETAILSCALE 1
+$WOUNDED 1
+$BURNING 1
+}
+}

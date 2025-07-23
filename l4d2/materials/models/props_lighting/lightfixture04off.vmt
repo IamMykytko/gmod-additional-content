@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Lighting/LightFixture04off"
+$envmap env_cubemap
+$envmapmask "models\Props_Lighting\LightFixture04off_ref"
+}

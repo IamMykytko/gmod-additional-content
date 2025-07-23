@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Lighting/Searchlight_Small_01"
+$selfillum 1
+}

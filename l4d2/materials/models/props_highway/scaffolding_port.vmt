@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "plaster/plaster_ceiling_02"
+$color2 "[.78 .78 .78]"
+$detail "detail\dt_metalgalv"
+$detailscale 10
+$detailblendfactor 1
+$detailblendmode 0
+}

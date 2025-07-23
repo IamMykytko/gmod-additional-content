@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$basetexture "models\props_downtown\metal_door"
+$blendtintbybasealpha 1
+
+
+
+
+
+}

@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "nature/roaddirt03trans"
+$translucent 1
+$decal 1
+}

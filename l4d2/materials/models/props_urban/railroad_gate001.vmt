@@ -1,0 +1,5 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/railroad_gate001.vtf"
+}

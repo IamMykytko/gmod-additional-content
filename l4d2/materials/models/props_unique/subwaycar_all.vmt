@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique/SubwayCar_All"
+$Selfillum 1
+
+
+$selfillummask "models\props_unique\SubwayCar_All_illum"
+}

@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$basetexture "models\props_mall\male_mannequin"
+$phong 1
+$phongexponent 3
+$phongtint "[1 1 1]"
+$phongboost 1
+$phongfresnelranges "[0 0.5 1]"
+$bumpmap "effects/flat_normal"
+}

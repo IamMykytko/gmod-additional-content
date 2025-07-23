@@ -1,0 +1,10 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/outhouse001.vtf"
+$phong 1
+$phongexponent 30
+$phongboost ".125"
+$phongfresnelranges "[.7 15 20]"
+$bumpmap "models/props_fortifications/orangecone001_normal"
+}

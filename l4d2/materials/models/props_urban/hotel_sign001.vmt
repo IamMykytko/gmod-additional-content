@@ -1,0 +1,7 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/hotel_sign001.vtf"
+$selfillum 1
+$selfillumtint "[.15 .15 .15]"
+}

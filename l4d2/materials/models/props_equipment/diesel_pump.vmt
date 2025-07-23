@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_equipment/diesel_pump"
+$envmap env_cubemap
+$envmapmask "models\props_equipment\diesel_pump_ref"
+$envmapsaturation ".2"
+$envmapcontrast ".5"
+}

@@ -1,0 +1,6 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/exit_sign001.vtf"
+$selfillum 1
+}

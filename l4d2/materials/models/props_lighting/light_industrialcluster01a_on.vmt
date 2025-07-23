@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Lighting/Light_IndustrialCluster01a"
+$selfillum 1
+$envmap env_cubemap
+$envmapmask "models\props_lighting\light_industrialCluster01a_ref"
+$envmapcontrast ".5"
+$envmapsaturation ".2"
+$envmaptint "[ .6 .6 .6 ]"
+}

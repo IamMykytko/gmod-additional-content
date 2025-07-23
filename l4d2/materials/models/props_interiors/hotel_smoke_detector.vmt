@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/Hotel_smoke_detector"
+$bumpmap "effects/flat_normal"
+$phongboost 1
+$phongexponent 1
+$phongfresnelranges "[0 2 30]"
+$BASEMAPLUMINANCEPHONGMASK 1
+$halflambert 1
+$phong 0
+"GPU>=2?$phong" 1
+}

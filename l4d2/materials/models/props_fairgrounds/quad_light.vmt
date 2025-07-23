@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_fairgrounds/quad_light.vtf"
+$envmap env_cubemap
+$envmapmask "models/props_fairgrounds/quad_light_envmap_mask"
+$envmaptint "[1 1 1]"
+}

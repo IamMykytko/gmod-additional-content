@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors\foldingchair"
+$envmapmask "models\props_interiors\foldingchair_ref"
+$envmap env_cubemap
+$envmapcontrast ".5"
+$envmapsaturation ".5"
+$envmaptint "[ 1 1 1]"
+}

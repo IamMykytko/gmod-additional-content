@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$basetexture "Lights/fluorescentcool003a"
+$bumpmap "Lights/fluorescentcool003a_normal"
+$selfillum 0
+$surfaceprop glass
+
+$phong 1
+$phongexponent 10
+$phongboost "0.5"
+$phongfresnelranges "[0.6 1 1]"
+}

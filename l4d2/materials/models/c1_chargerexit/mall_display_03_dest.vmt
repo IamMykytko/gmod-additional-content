@@ -1,0 +1,6 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_mall/mall_display_03.vtf"
+$color2 "[.467 .408 .361]"
+}

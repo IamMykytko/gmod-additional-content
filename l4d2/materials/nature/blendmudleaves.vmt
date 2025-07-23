@@ -1,0 +1,9 @@
+WorldVertexTransition
+{
+$basetexture "nature/mudfloor001a"
+$basetexture2 "nature/maple_leaves01"
+"%tooltexture" "nature/blendmudleaves_tooltexture"
+
+$surfaceprop rock
+$surfaceprop2 dirt
+}

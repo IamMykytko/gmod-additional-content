@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Lighting/Spotlight_dropped_01"
+$selfillum 1
+}

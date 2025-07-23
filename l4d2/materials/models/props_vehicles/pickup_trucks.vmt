@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/pickup_trucks"
+$blendtintbybasealpha 1
+$surfaceprop metal
+$model 1
+$envmap env_cubemap
+$envmapfresnel 1
+$envmapFresnelMinMaxExp "[.7 1 4]"
+$envmapmask "Models/props_vehicles/pickup_trucks_ref"
+}

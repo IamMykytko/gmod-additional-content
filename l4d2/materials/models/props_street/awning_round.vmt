@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/Awning_round"
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_destruction/composite_concrete"
+$color2 "[.5 .5 .5]"
+}

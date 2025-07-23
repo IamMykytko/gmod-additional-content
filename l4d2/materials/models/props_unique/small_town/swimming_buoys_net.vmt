@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$basetexture "models/props_unique/small_town/swimming_buoys_net"
+$alphatest 1
+"%compilepassbullets" 1
+$surfaceprop grate
+$AlphaTestReference "0.2"
+$nocull 1
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/TablesCafe01"
+$envmap env_cubemap
+$envmapmask "models\props_interiors/TablesCafe01_ref"
+$envmapcontrast ".8"
+$envmaptint "[.5 .5 .5]"
+}

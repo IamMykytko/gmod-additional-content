@@ -1,0 +1,12 @@
+UnlitGeneric
+{
+$baseTexture "models\props_unique/lighteffect_warehouse"
+$translucent 1
+$nocull 1
+$model 1
+$color2 "[.8 .8 .8]"
+UnlitGeneric_HDR_dx9
+{
+$color2 "[.5 .5 .5]"
+}
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_industrial\Plywood_leaning"
+$detail "detail\dt_wood2"
+$detailscale "[26 20]"
+$detailblendfactor ".3"
+$detailblendmode 0
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/Boat_Cabin35_Glass"
+$translucent 1
+}

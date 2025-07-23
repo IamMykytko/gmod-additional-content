@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_street/Railway_Overpass01_small"
+$detail "detail/dt_asphalt"
+$detailscale 12
+$detailblendfactor .5
+$detailblendmode 0
+}

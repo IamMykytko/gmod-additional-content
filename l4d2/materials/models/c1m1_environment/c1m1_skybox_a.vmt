@@ -1,0 +1,8 @@
+UnLitGeneric
+{
+$basetexture "Models/c1m1_environment/SkyBoxPlate_A_RGBA"
+
+$translucent 1
+
+$nofog 1
+}

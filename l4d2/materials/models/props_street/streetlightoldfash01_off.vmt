@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_street/StreetLightOldFash01"
+$surfaceprop default
+$envmap env_cubemap
+$envmapmask "models\props_street\StreetLightOldFash01_ref"
+$envmaptint ".5"
+}

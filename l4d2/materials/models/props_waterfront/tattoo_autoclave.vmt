@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_waterfront/Tattoo_Autoclave"
+$envmap env_cubemap
+$envmapmask "models\props_waterfront\Tattoo_Autoclave_ref"
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_mill\Tank_large"
+$envmap env_cubemap
+$envmapmask "models\props_mill\Tank_large_ref"
+$envmaptint "[.8 .8 .8]"
+"%keywords" l4d2
+}

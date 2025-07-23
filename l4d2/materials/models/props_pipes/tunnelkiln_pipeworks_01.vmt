@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_pipes/TunnelKiln_pipeworks_01"
+$detail "detail\dt_metal2"
+$detailscale 16
+$detailblendfactor ".6"
+$detailblendmode 0
+}

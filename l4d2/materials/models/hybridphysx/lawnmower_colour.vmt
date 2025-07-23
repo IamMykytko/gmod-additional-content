@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$shinyblood 1
+$shinybloodexponent 10
+
+$bumpmap "effects/flat_normal"
+$phong 1
+$phongboost 3
+$phongexponent 1
+
+$phongfresnelranges "[1 0 .05]"
+$baseTexture "models/hybridPhysx/lawnmower_colour"
+}

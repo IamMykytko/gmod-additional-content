@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$basetexture "Models/hybridPhysx/gasStationFront_post"
+$bumpmap "Models/hybridPhysx/gasStationFront_normal"
+$selfillum 0
+$phong 1
+$phongexponent 10
+$phongboost "0.5"
+$phongfresnelranges "[0.6 1 1]"
+$color2 "[1.25 1.25 1.25]"
+$shaderSrgbRead360 1
+}

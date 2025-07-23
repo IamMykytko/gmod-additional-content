@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$basetexture "models\props_unique/skybox_buildings_01"
+$surfaceprop concrete
+
+$MaxFogDensityScalar "0.9"
+}

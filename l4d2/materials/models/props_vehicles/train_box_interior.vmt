@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/Train_Box_Interior"
+}

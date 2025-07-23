@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "models\props\cs_office\coffee_mug2"
+$envmap env_cubemap
+$envmapmask "fx/white25_ref"
+}

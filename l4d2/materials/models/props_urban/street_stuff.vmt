@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$basetexture "models/props_urban/street_stuff"
+$surfaceprop default
+$basemapalphaphongmask 1
+
+$phong 1
+$phongboost 1
+$phongexponent 10
+$phongfresnelranges "[.1 .5 2]"
+}

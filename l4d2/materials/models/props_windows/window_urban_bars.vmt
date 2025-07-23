@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "models/props_windows/window_urban_bars"
+$surfaceprop default
+}

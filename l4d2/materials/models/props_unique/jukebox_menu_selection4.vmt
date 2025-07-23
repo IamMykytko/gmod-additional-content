@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_unique/jukebox_menu_selection4"
+$surfaceprop default
+$selfillum 1
+}

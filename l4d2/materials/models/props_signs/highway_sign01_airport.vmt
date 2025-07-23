@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_signs/Highway_Sign01_Airport"
+$Envmap env_cubemap
+$EnvmapMask "models\props_signs\Highway_Sign01_Airport_ref"
+$envmapfresnel 1
+$envmapFresnelMinMaxExp "[.5 1.5 4]"
+$envmaptint "[.5 .5 .5]"
+}

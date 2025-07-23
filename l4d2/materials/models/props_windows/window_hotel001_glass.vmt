@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_windows/window_hotel001_glass"
+$surfaceprop glass
+$translucent 1
+
+$envmapsaturation .7
+$envmaptint "[ .4 .4 .4]"
+$envmap env_cubemap
+}

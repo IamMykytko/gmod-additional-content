@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+$basetexture "models/props_lighting/lightfixture05_docks"
+$envmap env_cubemap
+$envmapmask "models/props_lighting/lightfixture05_ref"
+$selfillum 1
+$selfillumtint "[.25 .25 .25]"
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "wood\milsteps001"
+$surfaceprop wood_plank
+}

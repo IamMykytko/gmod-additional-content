@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "models/props_fairgrounds/arcadegame01_screen_on"
+$surfaceprop default
+$selfillum 1
+}

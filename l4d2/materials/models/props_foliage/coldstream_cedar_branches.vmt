@@ -1,0 +1,14 @@
+patch
+{
+include "materials/models/props_foliage/tree_include.vmt"
+insert
+{
+$baseTexture "models\props_foliage\coldstream_cedar_branches_mip0"
+$AlphaTest 1
+$AllowAlphaToCoverage 1
+$nocull 1
+$model 1
+$FlashlightNoLambert 1
+"%keywords" l4d2
+}
+}

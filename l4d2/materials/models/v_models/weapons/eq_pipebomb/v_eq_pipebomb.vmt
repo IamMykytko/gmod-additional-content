@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+$baseTexture "models\v_models\weapons\eq_pipebomb\v_eq_pipebomb"
+$bumpmap "effects/flat_normal"
+$basemapalphaphongmask 1
+
+$phongboost "0.2"
+$phongexponent 15
+$phongfresnelranges "[10 10 40]"
+$ambientocclusion 1
+
+$halflambert 1
+$phong 0
+"GPU>=2?$phong" 1
+}

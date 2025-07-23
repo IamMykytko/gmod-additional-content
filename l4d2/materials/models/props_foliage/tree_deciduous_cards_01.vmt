@@ -1,0 +1,10 @@
+UnlitGeneric
+{
+
+
+$translucent 1
+$basetexture "models/props_foliage/tree_deciduous_cards_01"
+$model 1
+$nocull 1
+$nodecal 1
+}

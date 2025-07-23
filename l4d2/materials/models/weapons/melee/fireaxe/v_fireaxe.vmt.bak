@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+    $basetexture models\weapons\fireaxe\v_fireaxe.vtf
+    $model 1
+}

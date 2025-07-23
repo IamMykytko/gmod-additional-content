@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$basetexture "models\props\de_prodigy\wood_pallet_01"
+$detail "detail\dt_wood1"
+$detailscale "[ 5 5]"
+$detailblendfactor ".7"
+$detailblendmode 0
+}

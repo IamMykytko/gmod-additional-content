@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_unique\spawn_apartment/ammocan"
+$envmap env_cubemap
+$envmapmask "models\props_unique\spawn_apartment/ammocan_ref"
+}

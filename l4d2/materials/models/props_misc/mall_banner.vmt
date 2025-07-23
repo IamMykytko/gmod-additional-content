@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$basetexture "models\props_misc\mall_banner"
+
+
+
+
+$bumpmap "models\props_misc\hospital_banner_normal"
+}
