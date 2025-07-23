@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_ingame/window_frame_system"
+}

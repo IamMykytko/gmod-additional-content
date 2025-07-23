@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_map_editor/exit_door_stair"
+$translucent 1
+}

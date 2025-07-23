@@ -1,0 +1,6 @@
+VertexlitGeneric
+{
+$baseTexture "models/props_map_editor/glass_blue"
+$translucent 1
+$nocull 1
+}

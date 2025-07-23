@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_ingame/circle_shield_glass"
+$translucent 1
+$nocull 1
+}

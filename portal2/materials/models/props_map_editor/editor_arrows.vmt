@@ -1,0 +1,6 @@
+VertexlitGeneric
+{
+$baseTexture "models/props_map_editor/editor_arrows"
+
+$model 1
+}

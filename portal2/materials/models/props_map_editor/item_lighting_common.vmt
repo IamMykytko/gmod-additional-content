@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+
+
+$phong 1
+$phongexponent 0
+$phongboost 0
+$lightwarptexture "models\props_map_editor\model_lightwarp"
+
+
+$rimlight 1
+$rimlightexponent 1
+$rimlightboost ".5"
+$glowcolor 1
+}

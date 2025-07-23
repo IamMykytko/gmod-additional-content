@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_map_editor/under_stairs_ghost"
+$selfillum 1
+}

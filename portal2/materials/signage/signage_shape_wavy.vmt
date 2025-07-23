@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+$basetexture "signage/signage_shape_wavy"
+$surfaceprop default
+$selfillum 1
+$decal 1
+"%keywords" portal2
+}

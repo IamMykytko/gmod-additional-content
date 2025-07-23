@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models/handles_map_editor/handles"
+$selfillum 1
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_map_editor/arm_undeployed_glass"
+$selfillum 1
+}

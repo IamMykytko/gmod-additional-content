@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_map_editor/observationroom_glass"
+$translucent 1
+
+$envMap "paint\paint_envmap_hdr"
+$nocull 1
+}

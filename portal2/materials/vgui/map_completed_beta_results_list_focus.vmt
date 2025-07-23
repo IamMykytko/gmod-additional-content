@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+$basetexture "VGUI\map_completed_beta_results_list_focus"
+$vertexcolor 1
+$vertexalpha 1
+$no_fullbright 1
+$ignorez 1
+}
