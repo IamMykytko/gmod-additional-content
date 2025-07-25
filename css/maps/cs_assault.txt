@@ -1,0 +1,23 @@
+Laundery Assault - Hostage Rescue
+
+The Marr Freight Company has fallen 
+victim to a band of Terrorists hell bent 
+on using their operation to launder money.
+The Harper Appliance Company is
+unwittingly shipping out more than they
+bargained for.
+ 
+Counter-Terrorists: Enter the Terrorist
+stronghold and rescue the hostages. 
+Take out the Terrorists without 
+jeopardizing the hostages.
+
+Terrorists: Prevent Counter-Terrorist
+force from rescuing the hostages. 
+ 
+Other Notes: There are 4 hostages in 
+this mission.
+
+Credits:
+Source Version by Valve
+Original Version by CryptR

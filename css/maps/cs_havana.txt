@@ -1,0 +1,10 @@
+Havana- Hostage Rescue
+
+Terrorists: You are holding political hostages
+in Habana Vieja, awaiting a chopper lift which
+will arrive to evacuate you immediately after the
+round ends.
+
+Counter-Terrorists:  You have control of the perimeter
+and must now rescue all of the surviving hostages before
+the terrorists manage to escape.
