@@ -1,0 +1,7 @@
+vertexlitgeneric
+{
+	"$basetexture"        "models/props_survival/cash/prop_cash_stack"
+	"$selfillummask"      "models/props_survival/cash/prop_cash_stack"
+	"$selfillum"          "1"
+	"$selfillummaskscale" "0.2"
+}

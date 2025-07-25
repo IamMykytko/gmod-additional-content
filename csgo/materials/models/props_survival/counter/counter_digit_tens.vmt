@@ -1,0 +1,13 @@
+unlitgeneric
+{
+	"$basetexture"        "models/props_survival/counter/counter_numerals"
+	"$translucent" "1"
+	"$writez" "0"
+	"proxies"
+	{
+		counterproxy
+		{
+			"displaydigit"        "1"
+		}
+	}
+}

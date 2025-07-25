@@ -1,0 +1,45 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models\props_survival\parachute\parachute_color"
+	"$bumpmap" 			"models\props_survival\parachute\parachute_normal"
+	
+	"$basemapluminancephongmask" "1"
+	"$phong"                     "1"
+	"$phongboost"                "2.2"
+	"$phongexponent"             "10"
+	"$phongdisablehalflambert"   "1"
+	
+	"$nocull"			"1"
+
+	$translucent 1
+	$alpha 1
+	
+	proxies
+	{
+		AnimCycle
+		{
+			sequence "0" // idle
+			invert "1"
+			noopfallback "1"
+			remaprangemin "1"
+			remaprangemax "1"
+			resultvar "$alpha" 
+		}
+		AnimCycle
+		{
+			sequence "1" // open
+			invert "1"
+			noopfallback "1"
+			bias "0.4"
+			resultvar "$alpha" 
+		}
+		AnimCycle
+		{
+			sequence "2" // collapse
+			invert "0"
+			noopfallback "1"
+			bias "0.4"
+			resultvar "$alpha" 
+		}
+	}
+}

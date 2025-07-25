@@ -1,0 +1,51 @@
+"vertexlitgeneric"
+{
+	"$basetexture"             "models/props_survival/cases/case_weapon_heavy_color"
+	"$bumpmap"                 "models/props_survival/cases/case_weapon_heavy_damaged_normal"
+	"$phong"                   "1"
+	"$phongfresnelranges"      "[.83 .83 1]"
+	"$phongexponenttexture"    "models/props_survival/cases/case_weapon_heavy_exponent"
+	"$envmap"                  "env_cubemap"
+	"$phongalbedotint"         "1"
+	"$phongdisablehalflambert" "1"
+	"$detail"                  "models/props_survival/cases/case_large_damaged"
+	"$detailscale"             "1"
+	"$detailblendmode"         "4"
+	"$layereddamageblend"      "1"
+	"$detailblendfactor"       "0.0"
+	"$health"                  "1.0"
+	"$rangemin"					"0.9"
+	"$blendtarget"				"0.0"
+	
+	"GPU<2"
+	{
+			"$detail"	"models\props_survival\cases\damage_low"
+			"$detailtexturetransform" "center 0 0 scale 2 1 rotate 0 translate 0 0"
+			"$detailblendmode" "7"
+			"$rangemin" "1.1"
+	}
+	
+	"proxies"
+	{
+		"health"
+		{
+			"resultvar"                "$health"
+		}
+		"remapvalclamp"
+		{
+			"srcVar1"                 "$health"
+			"range_in_min"             "0.0"
+			"range_in_max"             "1.0"
+			"range_out_min"            "$rangemin"
+			"range_out_max"            "0.3"
+			"resultvar"                "$blendtarget"
+		}
+		"approachvalue"
+		{
+			"srcVar1"                 "$detailblendfactor"
+			"srcVar2"                 "$blendtarget"
+			"speed"						"3.5"
+			"resultvar"                "$detailblendfactor"
+		}
+	}
+}

@@ -1,0 +1,29 @@
+
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "Models/props_vehicles/truck003a_new_color"
+	"$surfaceprop" "solidmetal"
+	"$bumpmap" "Models/props_vehicles/truck003a_new_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "3"
+        "$phongExponent" "135"
+//      "$phongfresnelranges" "[0.8 0.8 1]"
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[6 6 6]"
+	"$detailblendfactor" 	"1"
+
+		
+
+
+	"$envmaptint" 		"[.38 .38 .38]"
+//	"$envmapcontrast" "1.21"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+}

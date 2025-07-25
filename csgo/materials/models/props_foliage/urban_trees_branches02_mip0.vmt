@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+//$baseTexture "models\props_foliage/urban_trees_branches02_mip0"
+$baseTexture "models\props_foliage/urban_trees_branches02"
+$alphatest 1
+$nocull 1
+"%compilepassbullets" "1"
+}

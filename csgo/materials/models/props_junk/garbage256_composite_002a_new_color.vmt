@@ -1,0 +1,25 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\props_junk/garbage256_composite_002a_new_color"
+	//"$bumpmap" "models\props_junk/garbage256_composite_002a_new_normal"
+	//"$phong" "1"
+	
+	//"$phongboost" "1"
+
+//	"$phongfresnelranges" "[.2 0.5 1]"
+	//"$phongexponent" "200"
+//	"$nocull" "1"
+	
+//	"$translucent" "1"
+
+	//"$normalmapalphaenvmapmask" 1
+
+
+		
+	//"$envmap" "env_cubemap"
+
+	//"$envmaptint" 		"[.5 .5 .5]"
+
+	//"$phongalbedotint" "1"
+	//"$phongdisablehalflambert" "1"
+}

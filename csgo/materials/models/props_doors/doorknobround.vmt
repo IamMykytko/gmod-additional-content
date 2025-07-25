@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_Doors/DoorKnobRound"
+$envmap env_cubemap
+$envmapmask "models\Props_Doors\DoorKnobRound_ref"
+$envmaptint "[1 1 1]"
+vertexlitgeneric_HDR_dx9
+{
+$envmaptint "[.5 .5 .5]"
+}
+}

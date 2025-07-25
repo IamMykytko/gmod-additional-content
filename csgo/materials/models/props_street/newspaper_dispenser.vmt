@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_street/newspaper_dispenser"
+$envmap env_cubemap
+$envmapmask "models\props_street\newspaper_dispenser_ref"
+$envmaptint "[.4 .4 .4]"
+$envmapcontrast ".7"
+$envmapsaturation ".4"
+}

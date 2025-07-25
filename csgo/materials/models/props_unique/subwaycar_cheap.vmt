@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_unique\subwaycar_cheap"
+	"$phongexponent" 20
+	"$phongalbedotint" "1"
+	"$phongtint" "[.1 .1 .1]"
+	"$phongdisablehalflambert" "1"
+	"$phongboost" "45"
+	"$phongfresnelranges" "[.8 0.5 1]"
+	"$bumpmap" "models\props_unique\subwaycar_cheap_normal"
+	
+	"$basemapalphaphongmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.2 .2 .2]"	
+	"$envmapfresnel" "1"
+
+}
+
+

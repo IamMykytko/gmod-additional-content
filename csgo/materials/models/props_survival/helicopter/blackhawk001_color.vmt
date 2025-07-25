@@ -1,0 +1,14 @@
+"vertexlitgeneric"
+{
+	"$basetexture"               "models/props_survival/helicopter/blackhawk001_color.vtf"
+	"$bumpmap"                   "models/props_survival/helicopter/blackhawk001_normal.vtf"
+	"$basemapluminancephongmask" "1"
+	"$phong"                     "1"
+	"$phongboost"                ".35"
+	"$phongexponent"             "10"
+	"$phongdisablehalflambert"   "1"
+	"$surfaceprop"               "metal"
+	"$detail"                    "models/props/de_dust/hr_dust/dust_detail/dust_detail_metal_01"
+	"$detailscale"               "[10 10]"
+	"$detailblendfactor"         ".5"
+}

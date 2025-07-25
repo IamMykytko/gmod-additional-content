@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "wood/plywood_ext_01"
+	"$surfaceprop" "wood"
+
+	//"$ssbump" "1"
+	//"$bumpmap" "plaster/urban_plasterwall_height-ssbump"
+	
+	"%keywords" "l4d2"
+	
+}

@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/alarm_clock_off"
+$envmap env_cubemap
+$envmapmask "models\props_interiors\alarm_clock_ref"
+$envmaptint "[1 1 1]"
+vertexlitgeneric_HDR_dx9
+{
+$envmaptint "[.1 .1 .1]"
+}
+}

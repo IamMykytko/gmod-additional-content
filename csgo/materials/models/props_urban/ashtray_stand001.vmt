@@ -1,0 +1,12 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/ashtray_stand001.vtf"
+$phong 1
+$phongexponent 75
+$phongboost ".75"
+$phongfresnelranges "[.7 15 20]"
+$bumpmap "models/props_fortifications/orangecone001_normal"
+$basemapalphaphongmask 1
+
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_signs/Sign_Horizontal_01"
+$Surfaceprop metal
+}

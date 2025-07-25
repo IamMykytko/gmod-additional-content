@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/Painting_Portrait_E"
+$envmap env_cubemap
+$envmapmask "models\props_interiors\Painting_Portrait_A_ref"
+}

@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$basetexture"              "models/props_survival/upgrades/exojump"
+	"$bumpmap"                  "models/props_survival/upgrades/exojump_normal"
+	"$surfaceprop"              "metal"
+	"$phong"                    "1"
+	"$phongexponent"            "60"
+	"$phongalbedotint"          "1"
+	"$phongtint"                "[.5 .5 .5]"
+	"$phongdisablehalflambert"  "1"
+	"$phongboost"               "6"
+	"$envmap"                   "models/props/de_dust/hr_dust/dust_cubemap/dust_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapfresnel"            "1"
+	"$envmaptint"               "[.15 .15 .15]"
+	"$nodecal"                  "1"
+}

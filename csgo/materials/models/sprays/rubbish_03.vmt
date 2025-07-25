@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$baseTexture" "decals/rubbish_03"
+	"$translucent" 1
+}

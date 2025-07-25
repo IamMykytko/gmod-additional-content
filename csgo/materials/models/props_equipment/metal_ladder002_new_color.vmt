@@ -1,0 +1,28 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_equipment\metal_ladder002_new_color"
+$bumpmap	"models\props_equipment\metal_ladder002_new_normal"
+
+	"$phong" "1"
+	"$phongboost" "2"
+	"$phongalbedoboost" "1"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" "80"
+	"$blendtintbybasealpha" "1"
+	
+
+	"$normalmapalphaenvmapmask" "1"
+
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[4 4 4]"
+	"$detailblendfactor" 	"1"
+
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[.01 .01 .01]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+}

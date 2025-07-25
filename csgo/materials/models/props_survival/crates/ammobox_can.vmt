@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture"               "models/props_survival/crates/ammobox_can"
+	"$bumpmap"                   "dev/flat_normal"
+	"$basemapluminancephongmask" "1"
+	"$phong"                     "1"
+	"$phongboost"                "20"
+	"$phongexponent"             "20"
+	"$phongdisablehalflambert"   "1"
+	"$rimlight"                  "1"
+}

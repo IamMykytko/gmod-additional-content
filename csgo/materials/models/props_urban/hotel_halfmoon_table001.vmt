@@ -1,0 +1,8 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/hotel_halfmoon_table001.vtf"
+$envmap env_cubemap
+$basealphaenvmapmask 1
+$envmaptint "[.35 .35 .35]"
+}

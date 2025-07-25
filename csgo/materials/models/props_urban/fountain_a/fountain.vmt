@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/fountain_a/fountain"
+$phong 1
+$phongexponent 50
+$phongboost ".01"
+$phongfresnelranges "[.7 15 20]"
+$bumpmap "models/props_urban/fountain_a/fountain_normal"
+
+
+
+}

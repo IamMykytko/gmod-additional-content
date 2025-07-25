@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_rooftop/Hotel_rooftop_equip001"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost ".5"
+$phongexponent 20
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[15 15 15]"
+
+
+
+
+
+
+}

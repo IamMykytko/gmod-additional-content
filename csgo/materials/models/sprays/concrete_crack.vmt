@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models/sprays/concrete_crack"
+	"$translucent" 1
+	$color2 "[2.25 2.25 2.25]"
+	$alpha 4
+}

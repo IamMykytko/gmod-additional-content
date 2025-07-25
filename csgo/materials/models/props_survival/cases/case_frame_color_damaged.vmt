@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\props_survival\cases\case_frame_color"
+	"$bumpmap"                  "models\props_survival\cases\case_frame_normal"
+	"$phong"                    "1"
+	"$phongfresnelranges"       "[.83 .83 1]"
+	"$phongexponenttexture"     "models\props_survival\cases\case_frame_exponent"
+	"$envmap"                   "env_cubemap"
+	"$envmaptint"               "[.3 .3 .3]"
+	"$normalmapalphaenvmapmask" "1"
+	"$phongalbedotint"          "1"
+	"$phongalbedoboost"         "30"
+	"$phongdisablehalflambert"  "1"
+
+	"$alphatest"                "1"
+	"$nocull"             "1"
+
+
+}

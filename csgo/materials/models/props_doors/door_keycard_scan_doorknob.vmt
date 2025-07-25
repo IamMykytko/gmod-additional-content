@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_doors/door_keycard_scan_doorknob.vtf"
+	"$surfaceprop" "Metal"
+	$envmap env_cubemap
+	$envmapmask "models/props_doors/door_keycard_scan_doorknob_ref.vtf"
+}

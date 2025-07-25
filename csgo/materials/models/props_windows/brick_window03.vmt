@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_windows/brick_window03"
+	"$detail" "detail\dt_plaster01"
+	"$detailscale" "12"
+	"$detailblendfactor" ".6"
+	"$detailblendmode" "0"
+}

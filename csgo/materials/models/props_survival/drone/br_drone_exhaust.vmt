@@ -1,0 +1,28 @@
+"refract"
+{
+	"$translucent"              "1"
+	"$model"                    "1"
+	"$refractamount"            ".02"
+	"$scale"                    "[1 1]"
+	"$dudvmap"                  "models/props_survival/drone/br_drone_exhaust"
+	"$normalmap"                "models/props_survival/drone/br_drone_exhaust"
+	"$mirroraboutviewportedges" "1"
+	"$writez"                   "0"
+	"$angle"                    "0.0"
+	"$translate"                "[0.0 0.0]"
+	"$center"                   "[0.5 0.5]"
+	"proxies"
+	{
+		"uniformnoise"
+		{
+			"resultvar"                 "$translate[0]"
+		}
+		"texturetransform"
+		{
+			"translatevar"              "$translate"
+			"rotatevar"                 "$angle"
+			"centervar"                 "$center"
+			"resultvar"                 "$bumptransform"
+		}
+	}
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\Props_lighting\LightBulb01a"
+$selfillum 1
+}

@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_interiors/phone_motel_new_color"
+	"$bumpmap" "models\props_interiors/phone_motel_new_normal"
+	"$blendtintbybasealpha" "1"
+
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "2"
+        "$phongExponent" "35"
+        "$phongfresnelranges" "[0.8 0.8 1]"
+}

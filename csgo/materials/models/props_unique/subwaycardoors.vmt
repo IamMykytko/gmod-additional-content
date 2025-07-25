@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_unique/SubwayCarDoors"
+	"$Envmap" "env_cubemap"
+	"$EnvmapTint" "[.15.15.15]"
+}

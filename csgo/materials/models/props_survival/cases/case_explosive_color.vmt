@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props_survival\cases\case_explosive_color"
+
+	//"$bumpmap"                 "models\props_survival\cases\case_regular_damaged_normal"
+	"$bumpmap"                 "models\props_survival\cases\case_tools_normal"
+	"$phong"                   "1"
+	"$phongfresnelranges"      "[.83 .83 1]"
+	"$phongexponenttexture"    "models\props_survival\cases\case_explosive_exponent"
+	"$envmap"                  "env_cubemap"
+	"$phongalbedotint"         "1"
+	"$phongdisablehalflambert" "1"
+}

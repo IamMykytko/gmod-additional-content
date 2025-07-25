@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"decals\graffiti_germany_05"
+	"$translucent" "1"
+	"$decalscale" "0.500"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+}

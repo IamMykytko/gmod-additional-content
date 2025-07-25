@@ -1,0 +1,9 @@
+unlitgeneric
+{
+	"$basetexture" "models/props_survival/dronegun/dronegun_laser"
+	"$nocull"      "1"
+	"$additive"    "1"
+	"$translucent" "1"
+	"$writez"      "0"
+	"$nocsmwrite"  "1"
+}

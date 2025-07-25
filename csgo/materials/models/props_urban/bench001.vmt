@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/bench001.vtf"
+$phong 1
+$phongexponent 50
+$phongboost ".125"
+$phongfresnelranges "[.7 15 20]"
+$bumpmap "models/props_fortifications/orangecone001_normal"
+$nocull 1
+
+$AllowFenceRenderStateHack 1
+$AlphaTest 1
+$AlphaTestReference 0.3 
+$Translucent 1
+$FlashlightNoLambert 1
+}

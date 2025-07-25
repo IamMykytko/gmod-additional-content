@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/props_vehicles/cement_truck01_windows"
+	"$envmap"      "env_cubemap"
+	"$envmapmask"  "models/props_vehicles/cement_truck01_windows_ref"
+	"$envmaptint"  "[.5 .5 .5]"
+}

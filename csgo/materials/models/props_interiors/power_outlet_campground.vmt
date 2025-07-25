@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_interiors/power_outlet_campground"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props_interiors\power_outlet_campground_ref"
+	"$envmaptint" "[1 1 1]"
+}

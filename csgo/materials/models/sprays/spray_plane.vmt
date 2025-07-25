@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$basetexture decals\sprays\community_mix01\winged_defuser
+	$translucent 1
+	$detail decals\sprays\alpha
+	$detailblendmode 9
+	$detailblendfactor 0
+	$detailscale 1
+	$alpha 1
+}

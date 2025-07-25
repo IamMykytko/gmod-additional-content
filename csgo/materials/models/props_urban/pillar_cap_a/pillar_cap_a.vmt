@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/pillar_cap_a/pillar_cap_a"
+$phong 1
+$phongexponent 1
+$phongboost ".01"
+$phongfresnelranges "[.7 15 20]"
+
+
+
+
+}

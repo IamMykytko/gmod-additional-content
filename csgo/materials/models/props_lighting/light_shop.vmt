@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "models\props_lighting\light_shop"
+$selfillum 1
+$selfillumtint "[ 2 2 2 ]"
+}

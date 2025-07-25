@@ -1,0 +1,5 @@
+unlitGeneric
+{
+	"$baseTexture" "models/sprays/ceiling_ao"
+	"$translucent" 1
+}

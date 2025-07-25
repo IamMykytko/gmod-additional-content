@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture"               "models/props_survival/helicopter/rotor_tail"
+	"$translucent"               "1"
+	"$bumpmap"                   "dev/flat_normal"
+	"$basemapluminancephongmask" "1"
+	"$phong"                     "1"
+	"$phongboost"                "5"
+	"$phongexponent"             "180"
+	"$phongdisablehalflambert"   "1"
+}

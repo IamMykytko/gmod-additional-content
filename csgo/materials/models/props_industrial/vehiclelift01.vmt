@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_industrial/VehicleLift01"
+//	"$Envmap" "env_cubemap"
+//	"$EnvmapMask" "models\props_industrial\VehicleLift01_ref"
+}

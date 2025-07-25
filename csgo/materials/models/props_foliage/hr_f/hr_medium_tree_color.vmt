@@ -1,0 +1,29 @@
+VertexlitGeneric
+{
+"$baseTexture" "models\props_foliage\hr_f\hr_medium_tree_color"
+//"$bumpmap" "models\props_foliage\hr_f\hr_medium_tree_normal"
+
+
+//"$normalmapalphaenvmapmask" 1
+//"$phong" "1"
+"$phongBoost" "10"
+"$phongExponent" "30"
+"$phongfresnelranges" "[0.8 0.8 1]"
+"$phongalbedotint" "1"
+//"$phongtint" "[.9 1 1]"
+"$phongdisablehalflambert" "1"
+
+$AlphaTest 1
+$AlphaTestReference ".3"
+$nocull 1
+$model 1 
+
+$vertexfog 1
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[3 3 3]"
+	"$detailblendfactor" 	"1"
+	
+
+
+}

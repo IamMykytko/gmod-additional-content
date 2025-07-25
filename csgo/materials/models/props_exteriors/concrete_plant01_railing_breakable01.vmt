@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture"       "models/props_exteriors/concrete_plant01_railing_breakable01"
+	"$detail"            "detail/dt_metalgalv"
+	"$detailscale"       "[9 18]"
+	"$detailblendfactor" .7
+	"$detailblendmode"   0
+}

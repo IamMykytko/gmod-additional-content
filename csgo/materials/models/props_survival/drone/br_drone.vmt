@@ -1,0 +1,16 @@
+vertexlitgeneric
+{
+	$basetexture "models/props_survival/drone/br_drone"
+	$bumpmap "dev\flat_normal"
+	
+	$basemapluminancephongmask 1
+	
+	"$phong" "1"
+	"$phongboost" "3"
+	"$phongexponent" "16"
+	
+	//"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+	
+	"$nodecal" "1"
+}

@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "metal/metal_corrugated03a"
+$surfaceprop metalvent
+$nocull 1
+
+
+
+
+
+}

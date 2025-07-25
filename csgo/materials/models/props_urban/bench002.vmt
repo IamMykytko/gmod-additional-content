@@ -1,0 +1,8 @@
+// ### This basic VMT was written based on the e:\dev\tools\python\templateStrings.py script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_urban/bench002.vtf"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[.4 .4 .4]" 
+}

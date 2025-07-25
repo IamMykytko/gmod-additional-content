@@ -1,0 +1,27 @@
+
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "Models/props_vehicles/car003a_new"
+	"$bumpmap" "Models/props_vehicles/car003a_normal"
+	"$surfaceprop" "solidmetal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "20"
+        "$phongExponent" "135"
+//      "$phongfresnelranges" "[0.8 0.8 1]"
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[6 6 6]"
+	"$detailblendfactor" 	"1"
+
+		
+
+
+	"$envmaptint" 		"[.3 .3 .3]"
+//	"$envmapcontrast" "1.21"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+}

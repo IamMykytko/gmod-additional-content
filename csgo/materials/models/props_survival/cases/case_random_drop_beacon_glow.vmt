@@ -1,0 +1,44 @@
+"unlitgeneric"
+{
+	"$basetexture" "particle\particle_flares\particle_flare_orange"
+	$color "[1.5 1.5 1.5]"
+	
+	$additive 1
+	
+	$alpha 1
+	
+	$pseudotranslucent 1
+	
+	"$hide_if_override"  "1"
+	"$nocsmwrite"  "1"
+	
+	$glowVar 0
+	$glowBrightness 0
+	$randVal 0
+    
+	"Proxies"
+	{
+		"EntityRandom"
+		{
+			"scale" 1
+			"resultVar" "$randVal"
+		}
+	
+		"Sine"
+		{
+			"resultVar"	"$glowVar"
+			"sineperiod"	.75
+			"sinemin"	-2.5
+			"sinemax"	4
+			"timeoffset" "$randVal"
+		}
+		
+		"Clamp"
+		{
+			"srcVar1" "$glowVar"
+			"min" 0
+			"max" 1
+			"resultVar" "$alpha"
+		}		
+	}
+}

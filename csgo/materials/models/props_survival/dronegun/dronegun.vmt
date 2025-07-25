@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"               "models/props_survival/dronegun/dronegun"
+	"$selfillummask"             "models/props_survival/dronegun/dronegun_selfillum"
+	"$selfillum"                 "1"
+	"$bumpmap"                   "dev/flat_normal"
+	"$basemapluminancephongmask" "1"
+	"$phong"                     "1"
+	"$phongboost"                "2.7"
+	"$phongexponent"             "25"
+	"$phongdisablehalflambert"   "1"
+}

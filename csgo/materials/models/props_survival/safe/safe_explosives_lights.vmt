@@ -1,0 +1,14 @@
+unlitgeneric
+{
+	"$basetexture"     "models/props_survival/safe/safe_explosives_lights"
+	"$additive"        "1"
+	proxies
+	{
+		texturescroll
+		{
+			texturescrollvar   "$basetexturetransform"
+			texturescrollrate  "1"
+			texturescrollangle "90"
+		}
+	}
+}

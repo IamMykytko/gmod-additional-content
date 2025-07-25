@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props_survival\cases\case_tools_color"
+
+	"$bumpmap"                 "models\props_survival\cases\case_regular_damaged_normal"
+	"$phong"                   "1"
+	"$phongfresnelranges"      "[.83 .83 1]"
+	"$phongexponenttexture"    "models\props_survival\cases\case_tools_exponent"
+	"$envmap"                  "env_cubemap"
+	"$phongalbedotint"         "1"
+	"$phongdisablehalflambert" "1"
+
+	$detail "models\props_survival\cases\case_regular_damaged"
+	$detailscale 1
+	$detailblendmode 4
+	$LAYEREDDAMAGEBLEND 1
+	$detailblendfactor 0.8
+	
+	"GPU<2"
+	{
+			"$detail"	"models\props_survival\cases\damage_low"
+			"$detailblendmode" "7"
+			$detailblendfactor 1.1
+	}
+
+}

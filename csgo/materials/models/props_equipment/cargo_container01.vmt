@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+"$baseTexture" "models\props_equipment/Cargo_container01"
+"$blendtintbybasealpha"	"1"
+}

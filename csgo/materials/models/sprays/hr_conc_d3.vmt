@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	$basetexture concrete\hr_c\hr_conc_d3
+	$surfaceprop concrete
+	$bumpmap "concrete/hr_c/hr_conc_d_normals"
+	"$detail" 				"models/sprays/base_grime"
+	"$detailtexturetransform" "center 1 1 scale .3 .6 rotate 0 translate 0 -.760"
+	"$detailblendfactor" 	"1"
+	"$detailblendmode" "2"
+	$color2 "[.8 .8 .8]"
+
+}

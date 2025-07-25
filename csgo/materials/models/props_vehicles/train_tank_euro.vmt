@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/train_tank_euro_color"
+$envmap env_cubemap
+//$basealphaenvmapmask 1
+$envmapmask "models\props_vehicles\train_tank_euro_envmask"
+$envmaptint "[.3 .3 .3]"
+$blendtintbybasealpha 1
+
+
+}

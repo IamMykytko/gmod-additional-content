@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture"              "models/props_survival/briefcase/briefcase_color"
+	"$bumpmap"                  "models/props_survival/briefcase/briefcase_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong"                    "1"
+	"$phongboost"               "2"
+	"$phongexponent"            "40"
+	"$selfillummask"            "models/props_survival/briefcase/briefcase_selfillum"
+	"$selfillum"                "1"
+}

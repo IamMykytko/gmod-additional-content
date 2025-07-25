@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_rooftop/Scaffolding01a"
+$surfaceprop metal
+
+
+
+}

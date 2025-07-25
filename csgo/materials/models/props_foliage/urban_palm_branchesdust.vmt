@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+
+{
+$baseTexture "models\props_foliage\Urban_Palm_BranchesDust"
+$AlphaTest 1
+$AlphaTestReference ".3"
+$nocull 1
+$model 1
+$FlashlightNoLambert 1
+"%compilepassbullets" "1"
+"%keywords" l4d2
+
+"$DISABLECSMLOOKUP" "1"
+
+}
+

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "concrete/concrete_ext_12"
+	//"$detail" "detail/detailconcrete001a"
+	//"$detailscale" 4
+	"$surfaceprop" "concrete"
+}

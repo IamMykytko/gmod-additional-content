@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\props_holidays\snowball\snowball_color"
+	"$bumpmap"	"models\props_holidays\snowball\snowball_normal"
+
+
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "2"
+        "$phongExponent" "35"
+        "$phongfresnelranges" "[0.8 0.8 1]"
+	
+}

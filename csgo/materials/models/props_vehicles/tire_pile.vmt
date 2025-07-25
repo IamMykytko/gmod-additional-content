@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+"$baseTexture" 	"models\props_vehicles/tire_pile"
+"$bumpmap"	"models\props_vehicles/tire_pile_normal"
+"$surfaceprop" 	"rubber"
+
+
+}

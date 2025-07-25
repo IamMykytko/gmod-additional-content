@@ -1,0 +1,48 @@
+vertexlitgeneric
+{
+	$basetexture "models\props_survival\cases\case_random_drop_beacon_color"
+	$additive 1
+	$selfillum 1
+	$color "[0 0 0]"
+	$selfillumtint "[0 0 0]"
+	$bumpmap "models\props_survival\cases\case_random_drop_beacon_normal"
+	$envmap "env_cubemap"
+	"$phong"                   "1"
+	"$phongfresnelranges"      "[.83 .83 1]"
+	$envmaptint					"[.96 .25 .05]"
+	$ENVMAPCONTRAST 8
+	$envmapsaturation 0
+	$phongtint					"[.96 .25 .05]"
+	$phongexponent 4
+	$phongboost 1
+	
+	$glowVar 0
+	$randVal 0
+	
+	"Proxies"
+	{
+		"EntityRandom"
+		{
+			"scale" 1
+			"resultVar" "$randVal"
+		}
+		
+		"Sine"
+		{
+			"resultVar"	"$glowVar"
+			"sineperiod"	.75
+			"sinemin"	-1
+			"sinemax"	2
+			"timeoffset" $randVal
+		}
+		
+		"Clamp"
+		{
+			"srcVar1" "$glowVar"
+			"min" 0
+			"max" 1
+			"resultVar" "$selfillumtint"
+		}
+		
+	}
+}

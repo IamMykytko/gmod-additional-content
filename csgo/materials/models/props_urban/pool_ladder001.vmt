@@ -1,0 +1,7 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/pool_ladder001.vtf"
+$envmap env_cubemap
+$basealphaenvmapmask 1
+}

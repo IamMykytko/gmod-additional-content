@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/Humvee"
+$selfillum 1
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongboost 1
+$phongexponent 10
+$BASEMAPLUMINANCEPHONGMASK 1
+$phongfresnelranges "[5 5 30]"
+}
