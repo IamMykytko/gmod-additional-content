@@ -1,0 +1,70 @@
+"character"
+{
+	"$basetexture"            "models/player/custom_player/econ/body/tm_jumpsuit/jumpsuit_pants_color"
+	"$bumpmap"                "models/player/custom_player/econ/body/tm_jumpsuit/jumpsuit_pants_normal"
+	"$masks1"                 "models/player/custom_player/econ/body/tm_jumpsuit/jumpsuit_pants_masks1"
+	"$basealphaselfillummask" "1"
+	"$selfillumboost"         "0"
+	"$phongwarptexture"       "models/player/custom_player/shared/ctm_specwarp_v2"
+	"$fresnelrangestexture"   "models/player/custom_player/shared/ctm_fresnelwarp_v2"
+	"$phongboost"             "0.4"
+	"$phongalbedoboost"       "1"
+	"$phongexponent"          "20"
+	"$rimlightexponent"       "4"
+	"$rimlightboost"          "1"
+	"$rimlightalbedo"         "0.0"
+	"$fakerimtint"            "[0.5 0.7 1]"
+	"$fakerimboost"           "9"
+	"$shadowsaturation"       "0.20"
+	"$shadowsaturationbounds" "[-1 0 0.2 1.5]"
+	"$shadowcontrast"         "0.4"
+	"$shadowtint"             "[0 0.5 1 0.2]"
+	"$ambientreflectionboost" "0.2"
+	"$model"                  "1"
+	"$glowvar"                "0"
+	"$glowvar2"               "0"
+	"$glowbrightness"         "32"
+	"$randval"                "0"
+	"$hueshiftamount"         "0"
+	"$teammatehueshift"       "0.5"
+	"$teammatevar"            "0"
+	"proxies"
+	{
+		"entityrandom"
+		{
+			"scale"                   "1"
+			"resultvar"               "$randval"
+		}
+		"sine"
+		{
+			"resultvar"               "$glowvar"
+			"sineperiod"              "1"
+			"sinemin"                 "-3.5"
+			"sinemax"                 "4"
+			"timeoffset"              "$randval"
+		}
+		"clamp"
+		{
+			"srcvar1"                 "$glowvar"
+			"min"                     "0"
+			"max"                     "2"
+			"resultvar"               "$glowvar2"
+		}
+		"multiply"
+		{
+			"srcvar1"                 "$glowvar2"
+			"srcvar2"                 "$glowbrightness"
+			"resultvar"               "$selfillumboost"
+		}
+		"survivalteammate"
+		{
+			"resultvar"               "$teammatevar"
+		}
+		"multiply"
+		{
+			"srcvar1"                 "$teammatevar"
+			"srcvar2"                 "$teammatehueshift"
+			"resultvar"               "$hueshiftamount"
+		}
+	}
+}

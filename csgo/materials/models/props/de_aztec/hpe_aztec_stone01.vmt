@@ -1,0 +1,7 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "de_aztec/hpe_aztec_stone01"
+	"$surfaceprop" "rock"
+//	"$bumpmap" "de_aztec/hpe_aztec_stone01_normal"
+	"%keywords" "cstrike" 
+}

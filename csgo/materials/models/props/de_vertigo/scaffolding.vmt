@@ -1,0 +1,20 @@
+
+"VertexLitGeneric"
+{
+	     "$basetexture"	"models\props\De_Vertigo\scaffolding"
+
+
+	 // Suraface type
+	      $surfaceprop "metal"
+
+	 // add phong specularity
+            $basemapalphaphongmask "1"
+            $phong 1
+            $phongBoost 1 
+            $phongExponent 45
+            $phongfresnelranges "[0.8 0.8 1]"
+            $phongTint "{160 190 231}" 
+
+
+}
+

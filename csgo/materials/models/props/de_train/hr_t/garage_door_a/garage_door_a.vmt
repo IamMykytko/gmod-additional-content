@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\garage_door_a\garage_door_a.vtf"
+
+//$bumpmap "models\props\de_train\hr_t\i_beam_a\i_beam_a_normals.vtf"
+
+
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[8 8 8]"
+	"$detailblendfactor" 	"1"
+
+
+
+
+}

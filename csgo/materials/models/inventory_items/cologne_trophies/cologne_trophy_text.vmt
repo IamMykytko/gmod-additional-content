@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$color" "[ 1.8 1.8 1.8 ]"
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmapsaturation" "0.1"
+}

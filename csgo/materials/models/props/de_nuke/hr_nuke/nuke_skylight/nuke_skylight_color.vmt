@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_skylight/nuke_skylight_color"
+	"$detail"                 "metal/hr_metal/hr_metal_detail_001"
+	"$detailscale"            "2"
+	"$detailblendfactor"      "0.65"
+	"$envmaplightscaleminmax" "[0 2]"
+	"$surfaceprop"            "metal"
+}

@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_reactor_vessel_head/nuke_reactor_vessel_head_color"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "1.57"
+	"$detailblendfactor"      ".65"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_reactor_vessel_head/nuke_reactor_vessel_head_color"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1]"
+	"$surfaceprop"            "metal"
+}

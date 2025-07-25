@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\doge_prison_door\doge_prison_door"
+
+	"$basealphaenvmapmask" 1
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[12 12]"
+	"$detailblendfactor" 	".4"
+	"$detailblendmode" "0"
+
+	"$nodecal" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.35 .35 .35]"
+
+
+
+}

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include" "materials/models/hostage/hostage_shared.vmt"
+	"insert"
+	{	
+		"$baseTexture" "models\hostage\hostage_lowerbody_variantA"
+		"$bumpmap" "models\hostage\hostage_lowerbody_normal"
+		"$phongexponenttexture" "models\hostage\hostage_lowerbody_exponent"
+		"$rimmask" "1"
+	}
+}

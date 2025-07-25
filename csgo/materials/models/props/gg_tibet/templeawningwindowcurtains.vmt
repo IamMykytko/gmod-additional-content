@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/gg_tibet/templeawningwindowcurtains"
+                "$surfaceprop" "carpet"
+	"$nocull" 1
+                "$blendtintbybasealpha" "1"
+}

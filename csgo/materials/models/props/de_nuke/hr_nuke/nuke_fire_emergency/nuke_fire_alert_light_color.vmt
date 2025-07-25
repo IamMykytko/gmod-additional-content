@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_fire_emergency/nuke_fire_alert_light_color"
+	"$blendtintbybasealpha"   "1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1]"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_fire_emergency/nuke_fire_alert_light_color"
+	"$envmap"                 "environment maps/metal_generic_004"
+	"$surfaceprop"            "metal"
+}

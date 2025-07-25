@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	$baseTexture 			models\inventory_items\cologne_prediction\cologne_ak
+	$bumpmap				effects\flat_normal
+	$phong 1
+	$color "[ 1 0.65 0 ]"
+	$phongtint "[ 1 0.65 0 ]"
+	$basemapalphaphongmask 1
+	$phongexponent 150
+	$phongboost 16
+	$phongfresnelranges "[.7 .8 1]"
+	$envmap		Editor\cube_vertigo
+	$envmapcontrast 16
+	$envmaptint "[.1 .1 .1]"
+	$basealphaenvmapmask 1
+}
+

@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_massive\survival_phone_booth\survival_phone_booth_color"
+
+//	"$bumpmap" 	"models\props\hr_massive\survival_phone_booth\survival_phone_booth_normal"
+	
+
+
+}

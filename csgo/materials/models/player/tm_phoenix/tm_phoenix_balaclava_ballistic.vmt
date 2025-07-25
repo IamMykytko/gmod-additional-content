@@ -1,0 +1,21 @@
+"vertexlitgeneric"
+{
+	"$basetexture"        "models/player/tm_phoenix/tm_phoenix_balaclava_ballistic_color"
+	"$bumpmap"            "models/player/tm_phoenix/tm_phoenix_balaclava_ballistic_normal"
+	"$model"              "1"
+	"$phong"              "1"
+	"$nodecal"            1
+	"$phongboost"         "5"
+	"$phongexponent"      "22"
+	"$phongfresnelranges" "[0.05 0.5 1]"
+	"$rimlight"           "1"
+	"$rimlightexponent"   "12"
+	"$rimlightboost"      "1"
+	"$halflambert"        1
+	"proxies"
+	{
+		"teamidmaterialproxy"
+		{
+		}
+	}
+}

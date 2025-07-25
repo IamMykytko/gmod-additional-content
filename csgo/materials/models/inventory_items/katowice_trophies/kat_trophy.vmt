@@ -1,0 +1,28 @@
+vertexlitgeneric
+{
+
+	$color "[0.1 0.1 0.1]"
+	$bumpmap "models/inventory_items/katowice_trophies/kat_trophy_normal"
+	
+	$bumpscale 0.5
+
+	$envmap "Editor\cube_vertigo"
+	$envmaptint "[0.08 0.08 0.08]"
+	
+	"$phong" "1"
+	"$phongboost" "0.1"
+	"$phongexponent" "250"
+	
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+	
+	
+
+
+
+
+
+
+	
+	
+}

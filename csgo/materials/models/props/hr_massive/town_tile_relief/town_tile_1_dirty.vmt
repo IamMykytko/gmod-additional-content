@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "hr_massive\town_tile_1_dirty"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "hr_massive\town_tile_1_dirty_normal"
+
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$baseTexture" 		"models\props\de_aztec\hr_aztec\aztec_scaffolding\aztec_scaffolding_plywood_01_color_ao"
+	"$bumpmap" 			"models\props\de_aztec\hr_aztec\aztec_scaffolding\aztec_scaffolding_plywood_01_normal"
+	"$surfaceprop" 			"Wood_Panel"
+                                                          	
+}

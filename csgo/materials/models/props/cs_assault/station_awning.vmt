@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\cs_assault\Station_Awning.vtf"
+}

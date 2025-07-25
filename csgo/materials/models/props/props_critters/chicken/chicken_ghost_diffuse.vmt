@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "models\props\props_critters\chicken\chicken_ghost_diffuse"
+	$bumpmap "models\props\props_critters\chicken\chicken_ghost_diffuse"
+	$detail 				"detail\dt_fabric2"
+	$detailscale 			"[ 5 5 ]"
+	$detailblendfactor 	"0.3"
+}

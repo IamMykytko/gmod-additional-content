@@ -1,0 +1,16 @@
+"patch"
+{
+	"include" "materials/models/player/tm_pirate/tm_pirate_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_pirate\tm_pirate_head_variantD"
+	"$bumpmap" "models\player\tm_pirate\tm_pirate_head_normal_variantD"
+		
+	"$phongexponenttexture" "models\player\tm_pirate\tm_pirate_head_exponent_variantb"
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "300"
+
+	"$rimmask" "1"
+"$nodecal" 1
+	}	
+}

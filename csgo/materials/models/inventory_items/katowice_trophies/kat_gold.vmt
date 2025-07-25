@@ -1,0 +1,7 @@
+vertexlitgeneric
+{
+	$color "[.25 .197 .035]"
+	$bumpmap "models\inventory_items\katowice_trophies\kat_trophy_normal"	
+	$envmap		"Editor\cube_vertigo"
+	$envmaptint "[1 .79 .14]"
+}

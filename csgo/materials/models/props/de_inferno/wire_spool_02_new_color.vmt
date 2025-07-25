@@ -1,0 +1,25 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_inferno\wire_spool_02_new_color"
+	"$bumpmap"	"models\props\de_inferno\wire_spool02_new_normal"
+	"$surfaceprop" "brick"
+	"$phongexponent" "15"
+	"$phongalbedotint" "1"
+	"$phongtint" "[.1 .15 .1]"
+	"$phongdisablehalflambert" "1"
+	"$phong" "1"
+	"$phongboost" "8"
+//	"$phongfresnelranges" "[.8 0.5 1]"
+
+	 
+	"$normalmapalphaenvmapmask" "1"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	"0.2"
+	
+	"$envmap" "env_cubemap"
+	
+	"$envmapfresnel" "1"
+	//"$baseAlphaEnvMapMaskMinMaxExp" "[1 1 3]" 
+	"$envmaptint" 		"[.1 .1 .1]"		
+}

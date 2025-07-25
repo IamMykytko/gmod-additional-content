@@ -1,0 +1,19 @@
+
+"VertexLitGeneric"
+{
+	   "$basetexture"	"models\props\De_Vertigo\cardboard_barrel"
+	    $bumpmap 	        "models\props\De_Vertigo\cardboard_barrel_N.vtf"
+
+	 // Suraface type
+	    $surfaceprop "cardboard"
+ 
+	 // add phong specularity
+	    $basemapalphaphongmask "1"
+	    $phong 1
+	    $phongBoost 2
+	    $phongExponent 45
+	    $phongTint "{196 232 253}" 
+
+
+}
+

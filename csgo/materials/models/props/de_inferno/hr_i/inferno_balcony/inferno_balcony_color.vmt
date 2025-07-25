@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_inferno\hr_i\inferno_balcony\inferno_balcony_color"
+	$AlphaTest 1
+	$AlphaTestReference ".3"
+//	"$allowalphatocoverage"	"1"
+	$nocull 1
+	$model 1
+        "$surfaceprop" 		"wood"
+
+}

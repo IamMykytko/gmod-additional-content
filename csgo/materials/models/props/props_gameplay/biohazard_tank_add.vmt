@@ -1,0 +1,20 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/props_gameplay/biohazard_tank_add"
+	"$surfaceprop" "metal"
+	//"$envmap" "env_cubemap"
+	//"$color" "[.2 .2 .2]"
+
+	//"$phong" "1"
+	//"$phongexponent" "5"
+	//"$phongboost"	"6"
+	//"$phongfresnelranges"	"[.3 .6 4]"
+	//"$basealphaenvmapmask" "1"
+	//"$basemapalphaphongmask" "1"	
+	//"$envmapcontrast" 1
+	//"$envmapsaturation" .01
+	//"$envmaptint" "[1 1 1 ]"
+	//"$normalmapalphaenvmapmask" 1
+	//"$envmaplightscale" .6
+	
+}

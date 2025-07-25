@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\roll_up_metal_door_1\roll_up_metal_door_1"
+
+	"$bumpmap" "models\props\hr_massive\roll_up_metal_door_1\roll_up_metal_door_1_normal"
+
+	"$phong" 1
+	"$phongexponent" "25"
+	"$phongtint" "[1 1 1]"
+	"$phongboost" "4"
+	"$phongfresnelranges" "[.3 .6 1]"
+
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[4 4]"
+	"$detailblendfactor"      "1.25"
+
+//	"$blendtintbybasealpha"   "1"
+
+//	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" "1"
+//	"$envmaplightscale"       "1"
+//	"$envmaplightscaleminmax" "[0 2]"
+//	"$envmapsaturation"       ".75"
+//	"$envmapcontrast"         "0.30"
+
+}

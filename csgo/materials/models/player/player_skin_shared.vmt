@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$halflambert" 1
+	"$phong" 1
+	"$phongfresnelranges" "[0.3 0.7 1]"
+	"$phongalbedotint" 1
+	"$phongtint" "[.6 .8 1.02]"
+	"$phongboost" 1.25
+	"$rimlight" 1
+	"$rimlightboost" 0.5
+	"$rimlightexponent" 4
+	"$rimmask" 1
+	"$lightwarptexture" "models\player\gen_custom_parts\gen_skin_lightwarp"
+}

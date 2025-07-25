@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\standing_rock_2\standing_rock_2"
+
+	"$bumpmap" "models\props\hr_massive\standing_rock_2\standing_rock_2_normal"
+
+//	"$detail" 				"detail\dt_texture01"
+//	"$detailscale" 			"[18 9]"
+//	"$detailblendfactor" 	"1.1"
+//	"$detailblendmode" "0"
+
+
+	"$tintmasktexture"	"models\props\hr_massive\standing_rock_2\standing_rock_2_tint"
+
+	"$detail" 				"detail\detail_rock001"
+	"$detailscale" 			"[5 2.5]"
+	"$detailblendfactor" 	".95"
+	"$detailblendmode" "0"
+	"$surfaceprop" 			"rock"
+
+
+}

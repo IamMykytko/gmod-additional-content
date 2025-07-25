@@ -1,0 +1,36 @@
+"UnlitTwoTexture"
+{
+	"$basetexture" "models\props\coop_autumn\autumn_blast_door\blast_door_breach_glow_01_color"
+
+	"$texture2"    		"models\props\coop_autumn\autumn_blast_door\blast_door_breach_glow_02_color"
+	"$additive" 1
+	"$vertexfog" "1"
+	"$recieveflashlight" 0
+	"$nocull" 1
+	"$model" 1
+
+
+
+
+	"Proxies"
+	{
+
+		TextureScroll
+		{
+			texturescrollvar $basetexturetransform
+			texturescrollrate 	0
+			texturescrollangle	0
+			texturescale 		1
+		}
+
+		TextureScroll
+		{
+			texturescrollvar $texture2transform
+			texturescrollrate 	.01
+			texturescrollangle 	45
+			texturescale 		1
+		}
+	}
+
+
+}

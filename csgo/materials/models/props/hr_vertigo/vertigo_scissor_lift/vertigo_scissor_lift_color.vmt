@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_vertigo\vertigo_scissor_lift\vertigo_scissor_lift_color"
+
+	"$bumpmap" 	"models\props\hr_vertigo\vertigo_scissor_lift\vertigo_scissor_lift_normal"
+
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+	"$envmap" 	"env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+
+	"$envmaplightscaleminmax" 	"[0 1]"
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "30"
+        "$phongExponent" "100"
+        "$phongfresnelranges" "[0.8 0.8 1]"
+
+
+}

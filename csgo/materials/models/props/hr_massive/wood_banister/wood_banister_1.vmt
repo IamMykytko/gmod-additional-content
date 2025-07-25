@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\lighthouse_bridge\lighthouse_bridge_wood"
+
+//	"$bumpmap" "models\props\hr_massive\lighthouse_bridge\lighthouse_bridge_wood_normal"
+
+	"$detail" 				"models\props\hr_massive\wood_banister\wood_banister_1_detail"
+	"$detailscale" 			"[.5 1]"
+	"$detailblendfactor" 	"2"
+
+}

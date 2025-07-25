@@ -1,0 +1,13 @@
+"vertexlitgeneric"
+{
+	"$basetexture"            "concrete/hr_c/hr_concrete_trim_001_color"
+	"$surfaceprop"            "concrete"
+	"$detail"                 "concrete/hr_c/hr_concrete_wall_painted_002_detail"
+	"$detailscale"            "[.06125 .125 .06125]"
+	"$detailblendfactor"      "-3"
+	"$basealphaenvmapmask"    "1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 0.5]"
+	"$envmapsaturation"       ".8"
+	"$envmapcontrast"         ".5"
+}

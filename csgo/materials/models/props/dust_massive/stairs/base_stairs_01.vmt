@@ -1,0 +1,7 @@
+// ### This basic VMT was written based on the e:\valvegames\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/dust_massive/stairs/base_stairs_01.vtf"
+//	"$bumpmap" "models\props\dust_massive\stairs\base_stairs_01_normal.vtf"
+	"$surfaceprop" 			"metal"
+}

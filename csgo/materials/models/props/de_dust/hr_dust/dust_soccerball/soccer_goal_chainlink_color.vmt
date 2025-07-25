@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\dust_soccerball\soccer_goal_chainlink_color"
+
+	"$alphatest"            "1"
+	"$allowalphatocoverage" "1"
+	"$alphatestreference"   "0.4"
+	"$nodecal"              "1"
+	"$nocull"		"1"
+	"$model"                "1"
+	"$surfaceprop"          "chainlink"
+
+
+}

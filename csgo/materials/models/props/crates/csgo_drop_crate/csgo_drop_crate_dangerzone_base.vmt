@@ -1,0 +1,4 @@
+patch
+{
+	include materials\models\props\crates\csgo_drop_crate\csgo_drop_crate_base_dangerzone.vmt
+}

@@ -1,0 +1,14 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_lifering/nuke_lifering_color"
+	"$blendtintbybasealpha"   "1"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[1 0.5]"
+	"$detailblendfactor"      ".55"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2.35]"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_lifering/nuke_lifering_mask"
+	"$envmapsaturation"       ".5"
+	"$surfaceprop"            "metal"
+}

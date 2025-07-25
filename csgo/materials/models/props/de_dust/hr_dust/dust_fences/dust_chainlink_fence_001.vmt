@@ -1,0 +1,14 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_dust/hr_dust/dust_fences/dust_chainlink_fence_001.vtf"
+	//"$detail"                 "models/props/de_dust/hr_dust/dust_detail/dust_detail_metal_01.vtf"
+	//"$detailscale"            "3"
+	//"$detailblendfactor"      "0.75"
+	//"$envmaplightscale"       "1"
+	//"$envmaplightscaleminmax" "[0 1]"
+	//"$envmapcontrast"         "0.25"
+	//"$envmap"                 "models/props/de_dust/hr_dust/dust_cubemap/dust_cubemap.vtf"
+	//"$envmapmask"             "models/props/de_dust/hr_dust/dust_fences/dust_chainlink_fence_001.vtf"
+	"$surfaceprop"            "metal"
+	$notint 1
+}

@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	$basetexture "models\inventory_items\pins_alyx\07a"
+	$bumpmap "models\inventory_items\pins_series_3\glitter_normal"
+	$normalmapalphaenvmapmask 1
+
+	$alphatest 1
+	$additive 1
+
+	$envmap		"models\inventory_items\pins_alyx\sparkle_color_cube_hdr"
+	
+	$phong 1
+	$phongexponent 800
+	$phongtint "[ .28 1 0 ]"
+	$phongboost 1
+	$bumptransform "scale 0.6300000 0.6300000 translate 0.000000 0.000000 rotate 0.000000"
+}

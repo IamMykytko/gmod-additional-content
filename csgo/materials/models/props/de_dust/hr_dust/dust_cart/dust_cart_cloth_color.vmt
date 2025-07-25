@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\props\de_dust\hr_dust\dust_cart\dust_cart_cloth_color"
+	"$nocull"		"1"
+
+}

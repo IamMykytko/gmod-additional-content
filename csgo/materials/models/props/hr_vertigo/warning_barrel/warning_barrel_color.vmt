@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_vertigo\warning_barrel\warning_barrel_color"
+
+	"$envmapmask"			"models\props\hr_vertigo\warning_barrel\warning_barrel_mask"
+	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+
+//	"$envmapcontrast"		"0.40"
+
+	"$surfaceprop" 			"metal"
+
+
+}

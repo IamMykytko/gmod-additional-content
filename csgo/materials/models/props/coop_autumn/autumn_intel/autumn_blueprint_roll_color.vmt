@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\autumn_intel\autumn_blueprint_roll_color"
+
+	"$envmapmask"	"models\props\coop_autumn\autumn_intel\autumn_blueprint_roll_mask"
+//	"$envmap"				"environment maps\metal_generic_003"
+//	"$envmap"				"env_cubemap"
+	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+	
+	
+	
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+
+	"$envmapcontrast" 		"1.1"
+
+
+}

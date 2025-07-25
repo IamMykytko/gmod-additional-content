@@ -1,0 +1,21 @@
+
+"VertexLitGeneric"
+{
+	    $basetexture "models\props\De_Vertigo\scaffoldingGrate"
+	    $bumpmap 	"models\props\De_Vertigo\scaffoldingGrate_N.vtf"
+
+	    $surfaceprop "metalgrate"
+
+            $AlphaTest 1
+	    $AlphaTestReference 0.3 
+            $nodecal "1"
+
+	 // adds phong specularity
+            $nocull 1
+	    $phong 1
+	    $phongBoost 2
+	    $phongExponent 45
+	    $phongTint "{152 196 241}"
+
+}
+

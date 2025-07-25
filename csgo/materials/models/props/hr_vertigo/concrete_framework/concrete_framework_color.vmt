@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models\props\hr_vertigo\concrete_framework\concrete_framework_color"
+
+	"$detail"		"models\props\de_dust\hr_dust\dust_detail\dust_detail_metal_01"
+	"$detailscale"		"[30 20]"
+	"$detailblendfactor" 	"1"
+
+
+}

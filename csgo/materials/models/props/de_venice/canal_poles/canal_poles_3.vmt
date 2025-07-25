@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\canal_poles\canal_poles_3"
+
+	"$detail" 				"detail\dt_wood2"
+	"$detailscale" 			"[24 24]"
+	"$detailblendfactor" 	"1"
+	"$detailblendmode" "0"
+
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

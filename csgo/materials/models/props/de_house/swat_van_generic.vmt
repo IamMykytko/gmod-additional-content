@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 				"models\props\de_house/SWAT_Van_generic"
+	"$envmap" 					"env_cubemap"
+	"$envmapmask" 				"models\props\de_house\SWAT_Van_ref"
+	"$srgbtint"					"[1.5 1.5 1.5]"
+	"$envmapfresnel"			"1"
+	"$envmapfresnelminmaxexp"	"[0.02 2 1.0]"
+	"$detail"					"models\props\de_nuke\hr_nuke\metal_crate_001\metal_crate_001_detail"
+	"$detailscale"				"2.63"
+	"$detailblendfactor" 		".65"	
+	
+}

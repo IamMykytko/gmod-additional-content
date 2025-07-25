@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\venice_museum\venice_exhibition_stand_color"
+
+	"$envmap"					"env_cubemap"
+	"$envmapmask" 			"models\props\de_venice\venice_museum\venice_exhibition_stand_mask"
+
+	"$envmaptint" 		"[.7 .7 .7]"
+	"$envmapcontrast" 		".3"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" "[0 1]"
+
+	
+
+
+}

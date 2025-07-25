@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"black"
+	"$bumpmap"				"effects\flat_normal"
+	//"$translucent" 1
+	//"$alpha" 1.0
+	
+	
+	"$envmap"		"models\effects\crystal_cube_vertigo_hdr"
+	"$envmaptint" "[0.1 0.1 .5]"
+	//"$envmaptint" "[0.8 1.2 1.5]"
+	//"$envmapcontrast" "1.2"
+	"$envmapsaturation" "0.1"
+	"$envmapfresnel" "0"
+	"$phong" 1
+	"$phongexponent" 128
+	"$phongtint" "[0.1 0.3 1]"
+	
+	"$nocull" 1
+	
+}
+

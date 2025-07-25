@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_doors\dust_door_arch_01_color"
+    "$bumpmap" 				"models\props\de_dust\hr_dust\dust_doors\dust_door_arch_01_normal"
+	"GPU>=2?$decaltexture"			"models\props\de_dust\hr_dust\dust_wall_braces\dust_wall_braces_ao"
+	"GPU>=2?$decalblendmode "		"1"
+	"$surfaceprop" 			"Wood_Plank"
+}

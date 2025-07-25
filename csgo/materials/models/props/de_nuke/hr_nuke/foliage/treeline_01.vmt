@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	"$basetexture"          "models/props/de_nuke/hr_nuke/foliage/treeline_01"
+	"$alphatest"            1
+	"$alphatestreference"   ".2"
+	"$allowalphatocoverage" "1"
+	"$model"                1
+	"$surfaceprop"          "wood"
+}

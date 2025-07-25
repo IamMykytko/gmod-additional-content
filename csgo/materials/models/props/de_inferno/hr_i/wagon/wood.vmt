@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+$baseTexture "wood/hr_w/inferno/hr_wood_b"
+	"$basetexturetransform" "center .5 .5 scale 6 6 rotate 0 translate 0 0" 
+$surfaceprop wood
+
+$blendtintbybasealpha 1
+
+
+	
+	"$detail" 				"models\props\de_inferno\hr_i\wagon\wagon_ao.vtf"
+	"$detailscale" 			"[1 1]"
+	"$detailblendfactor" 	"1"
+}

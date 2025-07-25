@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_mirage/broken_corner_a/broken_corner_a"
+	"$surfaceprop" "stone"
+	"$nocull" "1"
+	"$bumpmap"	"de_mirage/base/base_top_ver1_normal"
+	"$alphatest" "1"
+"$detail" 				"detail\noise_detail_01"
+"$detailblendfactor" 	"0.5"
+
+	"$detailscale" 			"[ 8 8 ]"
+
+	
+}

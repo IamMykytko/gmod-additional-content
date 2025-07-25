@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_inferno\hr_i\inferno_water_heater\inferno_water_heater_color"
+	"$bumpmap"	"models\props\de_inferno\hr_i\inferno_water_heater\inferno_water_heater_normal"
+	"$surfaceprop" "metal"
+	"$phongexponent" "90"
+	"$phongalbedotint" "1"
+	"$phongtint" "[.1 .15 .1]"
+	"$phongdisablehalflambert" "1"
+	"$phong" "1"
+	"$phongboost" "25"
+//	"$phongfresnelranges" "[.8 0.5 1]"
+
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" "[0 1]"
+
+	 
+	"$normalmapalphaenvmapmask" "1"
+//	"$detail" 				"detail\noise_detail_01"
+//	"$detailscale" 			"[ 6 6 ]"
+//	"$detailblendfactor" 	"0.2"
+	
+	"$envmap" "env_cubemap"
+	
+	"$envmapfresnel" "1"
+	//"$baseAlphaEnvMapMaskMinMaxExp" "[1 1 3]" 
+	"$envmaptint" 		"[.1 .1 .1]"	
+
+
+}

@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_massive\survival_junk\survival_bucket_color"
+
+//	"$bumpmap" 	"models\props\hr_massive\survival_junk\survival_bucket_normal"
+
+//	"$phong" "1"
+//	"$phongexponent" "200"
+	
+//	"$phongboost" "20"
+
+
+//	"$envmap"	"env_cubemap"
+//	"$normalmapalphaenvmapmask" "1"
+
+
+}

@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$envmap"        "env_cubemap"
+	"$envmapfresnel" "1"
+}

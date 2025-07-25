@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\S2_reference_geo\s2_reference_temp"
+	
+	"$basealphaenvmapmask"	"1"
+	"$envmap"				"models\props\de_nuke\hr_nuke\airduct_hvac_001\airduct_hvac_001_cube"
+//	"$envmap"				"environment maps\metal_generic_004"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_door_001\metal_door_001_glass_cube"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+//	"$detail"				"models\props\de_nuke\hr_nuke\chainlink_fence_001\chainlink_fence_detail_001"
+//	"$detailscale"			"5"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" "[0 1]"
+//	"$envmapsaturation"		".75"
+	"$envmapcontrast"		"0.25"
+//	"$envmapfresnel"		"1"
+
+	"$surfaceprop" 			"metal"
+}

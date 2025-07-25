@@ -1,0 +1,14 @@
+"patch"
+{
+	"include" "materials/models/player/tm_balkan/tm_balkan_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_balkan\tm_balkan_head_variantC"
+	"$bumpmap" "models\player\tm_balkan\tm_balkan_head_variantC_normal"
+		
+	"$phongexponenttexture" "models\player\tm_balkan\tm_balkan_head_variantC_exponent"
+//	"$rimmask" "1"
+	"$rimlight" "0"	
+"$nodecal" 1
+	}	
+}

@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models\props\de_dust\hr_dust\dust_garbage_container\dust_trash_bag_02_color"
+ 	"$bumpmap" 			"models\props\de_dust\hr_dust\dust_garbage_container\dust_trash_bag_02_normal"
+	//"$tintmasktexture"	"models\props\de_dust\hr_dust\dust_garbage_container\dust_trash_bag_02_tint"
+	
+	//"$envmap" "env_cubemap"
+	//"$envmapmaskintintmasktexture" "1"	
+	
+	//"$envmaptint" 		"[.3 .3 .3`]"
+	//"$envmaplightscale"		"1"
+	//"$envmaplightscaleminmax" 	"[0 1]"
+	
+	"$phong" "1"
+	"$phongboost" ".15"
+	"$phongexponent" "70"	
+}

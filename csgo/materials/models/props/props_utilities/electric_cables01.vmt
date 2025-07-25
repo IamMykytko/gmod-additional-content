@@ -1,0 +1,7 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/props_utilities/electric_cables01"
+	"$surfaceprop" "metal"
+	
+	
+}

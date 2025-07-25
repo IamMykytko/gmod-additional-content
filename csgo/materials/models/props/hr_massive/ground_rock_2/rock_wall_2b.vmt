@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "hr_massive\rock_wall_2b"
+	"$bumpmap" "models\props\hr_massive\ground_rock_2\rock_wall_2_normal"
+
+	"$detail" 				"detail\dt_texture01"
+	"$detailscale" 			"[20 20]"
+	"$detailblendfactor" 	"1.8"
+	"$detailblendmode" "0"
+
+
+
+}

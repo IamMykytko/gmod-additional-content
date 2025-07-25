@@ -1,0 +1,12 @@
+"patch"
+{
+	"include" "materials/models/player/tm_separatist/tm_separatist_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_separatist\tm_separatist_head_variantA"
+	"$bumpmap" "models\player\tm_separatist\tm_separatist_head_normal"
+	
+		"$rimlight" "0"
+"$nodecal" 1
+	}	
+}

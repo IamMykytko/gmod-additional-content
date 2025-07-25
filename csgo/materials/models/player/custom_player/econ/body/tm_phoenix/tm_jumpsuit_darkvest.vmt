@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture"               "models/player/custom_player/econ/body/tm_jumpsuit/jumpsuit_vest_dark"
+	"$bumpmap"                   "models/player/custom_player/econ/body/tm_phoenix/tm_phoenix_body_normal"
+	"$basemapluminancephongmask" "1"
+	"$phong"                     "1"
+	"$phongboost"                "0.1"
+	"$phongexponent"             "10"
+	"$phongdisablehalflambert"   "1"
+}

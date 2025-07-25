@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\bed\matress.vtf"
+	//"$bumpmap" "models\props\de_inferno\hr_i\bed\matress_normals.vtf"
+$blendtintbybasealpha 1
+	"$detail" 				"detail\dt_fabric2"
+	"$detailscale" 			"[20 20 20]"
+	"$detailblendfactor" 	"1"
+	"$detailblendmode" 0
+
+
+
+}

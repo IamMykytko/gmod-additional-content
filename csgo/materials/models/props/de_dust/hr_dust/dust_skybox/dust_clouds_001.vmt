@@ -1,0 +1,30 @@
+"UnlitTwoTexture"
+{
+	"$nofog" 1
+
+	"$basetexture" 		"models\props\de_dust\hr_dust\dust_skybox\dust_clouds_001"
+	"$texture2"		"models\props\de_dust\hr_dust\dust_skybox\dust_clouds_001"
+	"$alpha"		".35"
+//	"$ignorez"		"1"
+//	"$textureblendmode"	"3"
+	"$translucent"		"1"
+//	"$additive"			"1"
+
+//	"Proxies"
+//	{
+//		"TextureScroll"
+//		{
+//			"texturescrollvar" "$baseTextureTransform"
+//			"texturescrollrate" 0.00209
+//			"texturescrollangle" 80
+//			"texturescale" 3.5
+//		}
+//		"TextureScroll"
+//		{
+//			"texturescrollvar" "$texture2Transform"
+//			"texturescrollrate" 0.0
+//			"texturescrollangle" 0
+//			"texturescale" 1
+//		}
+//	}
+}

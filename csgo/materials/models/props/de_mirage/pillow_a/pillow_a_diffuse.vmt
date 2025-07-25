@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_mirage/pillow_a/pillow_a_diffuse"
+	"$surfaceprop" "stone"
+	//"$nocull" "1"
+"$detail" 				"detail\dt_fabric2"
+	"$detailscale" 			"[ 4 4 ]"
+	"$detailblendfactor" 	"1"
+
+	"$bumpmap"	"models/props/de_mirage/pillow_a/pillow_a_normal"
+	"$phong" "1"
+	"$phongboost" ".02"
+	"$phongexponent" "250"
+	
+}

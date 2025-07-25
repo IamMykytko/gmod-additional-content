@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\palace_arch_small\palace_arch_small.vtf"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	".5"
+	//$bumpmap "models\props\de_venice\palace_arch_small\palace_arch_small_normal.vtf"
+}

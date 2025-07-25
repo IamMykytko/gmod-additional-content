@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_inferno\stone_pillar_108_new_color"
+	"$bumpmap"	"models\props\de_inferno\stone_pillar_108_new_normal"
+	"$surfaceprop" "brick"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	".4"
+
+}

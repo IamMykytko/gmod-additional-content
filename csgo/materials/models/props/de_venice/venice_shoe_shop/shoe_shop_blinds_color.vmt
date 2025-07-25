@@ -1,0 +1,8 @@
+// ### This basic VMT was written based on the H:\dev\ivan\ValveGames\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/de_venice/venice_shoe_shop/shoe_shop_blinds_color.vtf"
+	
+
+}
+

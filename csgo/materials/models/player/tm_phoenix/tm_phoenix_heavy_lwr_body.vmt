@@ -1,0 +1,20 @@
+"vertexlitgeneric"
+{
+	"$basetexture"             "models/player/tm_phoenix/tm_phoenix_heavy_lwr_body_color"
+	"$bumpmap"                 "models/player/tm_phoenix/tm_phoenix_heavy_lwr_body_normal"
+	"$phong"                   "1"
+	"$phongboost"              "90"
+	"$phongtint"               "[1 1 1.4]"
+	"$phongfresnelranges"      "[0 .1 1]"
+	"$phongdisablehalflambert" "1"
+	"$rimlight"                "1"
+	"$rimlightexponent"        "2"
+	"$rimlightboost"           "0.4"
+	"$matcap"                  "models/player/tm_phoenix/matcap_phoenix"
+	"proxies"
+	{
+		"teamidmaterialproxy"
+		{
+		}
+	}
+}

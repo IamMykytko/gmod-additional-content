@@ -1,0 +1,6 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_aztec/aztec_danger_sign"
+	"$surfaceprop" "wood"
+	"$bumpmap" "models/props/de_aztec/aztec_danger_sign_normal"
+}

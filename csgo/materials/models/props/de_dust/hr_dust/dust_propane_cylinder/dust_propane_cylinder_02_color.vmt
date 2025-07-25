@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_propane_cylinder\dust_propane_cylinder_02_color"
+
+	"$tintmasktexture"		"models\props\de_dust\hr_dust\dust_propane_cylinder\dust_propane_cylinder_02_tint"
+	
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmapmaskintintmasktexture"	"1"		
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 6]"
+
+
+	"$surfaceprop" 			"metal"
+
+	
+
+}

@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+
+	"$baseTexture" "models\props\crates\military_case_02_lid_color"
+	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 2]"
+	
+
+	"$envmap"			"env_cubemap"
+	"$envmapmask" 			"models\props\crates\military_case_02_lid_mask"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+//	"$envmapcontrast" 		".2"
+
+	"$surfaceprop" 			"metal"
+
+
+
+
+
+}

@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_vertigo/lighteffects"
+	"$additive" "1"
+	"$nocull" "1"
+	"$color2" "[.7 .57 .55]"
+}

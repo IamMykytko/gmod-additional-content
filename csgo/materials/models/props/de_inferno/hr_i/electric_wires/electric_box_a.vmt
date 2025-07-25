@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+
+"$basetexture"  "models\props\de_inferno\hr_i\roll_up_door\metal"
+
+	"$basetexturetransform" "center .5 .5 scale 5 5 rotate 0 translate 0 0" 
+	
+		"$detail" 				 "models\props\de_inferno\hr_i\electric_wires\electric_wires_ao"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1"
+$envmap "env_cubemap"
+$envmaptint		"[.7 .7 .7]"	
+	$basealphaenvmapmask 1
+$blendtintcoloroverbase 1	
+$blendTintByBaseAlpha 1
+	
+	}

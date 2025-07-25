@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\bridge_of_sighs_window\bridge_of_sighs_window"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[12 6]"
+	"$detailblendfactor" 	".4"
+	"$detailblendmode" "0"
+
+
+}

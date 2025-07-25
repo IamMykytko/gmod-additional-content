@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+$baseTexture "models\props\de_inferno\hr_i\drop_cloth\drop_cloth.vtf"
+	"$basetexturetransform" "center .5 .5 scale 6 6 rotate 0 translate 0 0" 
+$bumpmap "models\props\de_inferno\hr_i\drop_cloth\drop_cloth_normals.vtf"
+
+
+
+
+"$detail" 				"models\props\de_inferno\hr_i\drop_cloth\drop_cloth_ao.vtf"
+"$detailscale" 			"[1 1 1]"
+"$detailblendfactor" 	"1"
+"$basealphaenvmapmask" "1"
+	"$phong" "1"
+	"$phongboost" "8"
+	"$phongalbedotint" "5"
+	$basemapalphaphongmask 1
+//"$phongfresnelranges" "[.9 .9 1]"
+"$phongexponent" "50"
+//	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "0"
+	"$envmaptint" 		"[.7 .7 .7]"
+	"$PhongWarpTexture" "models\props\de_inferno\hr_i\drop_cloth\drop_cloth_warp.vtf"
+	
+}
+

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{	
+	"$basetexture"		"models\props\de_dust\hr_dust\dust_windows\dust_windows_low_color"
+	"$surfaceprop" 			"metal"
+}

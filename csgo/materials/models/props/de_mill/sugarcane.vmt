@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\De_Mill/Sugarcane"
+	"$bumpmap" "models\props\De_Mill\Sugarcane_Normal"
+}

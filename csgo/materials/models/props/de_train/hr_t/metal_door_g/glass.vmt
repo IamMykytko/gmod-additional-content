@@ -1,0 +1,35 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\window_b\glass_b.vtf"
+$basetexturetransform "center .5 .5 scale .4 .4 rotate 0 translate 0 .2"
+
+
+	"$phong" "1"
+	"$phongboost" "16"
+	"$phongalbedoboost" "1"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 180
+
+	$translucent 1
+
+//$nocull 1
+
+
+
+
+	"$detail" 				"detail/dt_smooth1"
+	"$detailscale" 			"[4 4]"
+	"$detailblendfactor" 	".5"
+
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[1 1 1]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+
+
+}

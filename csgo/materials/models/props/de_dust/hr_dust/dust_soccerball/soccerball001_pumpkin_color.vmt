@@ -1,0 +1,14 @@
+// ### This basic VMT was written based on the e:\valvegames\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/de_dust/hr_dust/dust_soccerball/soccerball001_pumpkin_color.vtf"
+    	"$bumpmap"   "models/props/de_dust/hr_dust/dust_soccerball/soccerball001_normal"
+	$nodecal 1
+
+	"$phong" "1"
+		"$phongexponent" "200"
+		"$phongalbedotint" "1"
+		"$phongtint" "[.1 .1 .1]"
+		"$phongdisablehalflambert" "1"
+		"$phongboost" "10"
+}

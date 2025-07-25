@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_inferno\inferno_fence_01_color"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\de_inferno\inferno_fence_01_ref"
+	"$envmapcontrast" "1.01"
+
+	"$surfaceprop" "brick"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	"0.3"
+
+}

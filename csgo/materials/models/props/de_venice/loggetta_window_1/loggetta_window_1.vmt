@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\loggetta_window_1\loggetta_window_1"
+
+	"$bumpmap" "models\props\de_venice\loggetta_window_1\loggetta_window_1_normal"
+	"$normalmapalphaenvmapmask" 1		
+
+	"$envmap" "env_cubemap"
+//	"$envmapmask" "models\props\de_venice\loggetta_window_1\loggetta_window_1_illum"
+	"$envmaptint" "[.73 .75 .72]"
+	
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	$color "[255 0 0]"
+	"$selfillum" 1
+	"$surfaceprop" "glass"
+	"$nodecal" "1"
+}

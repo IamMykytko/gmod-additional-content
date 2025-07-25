@@ -1,0 +1,6 @@
+vertexlitgeneric
+{
+	"$basetexture"          "models/props/de_nuke/hr_nuke/metal_trim_001/metal_trim_001"
+	"$surfaceprop"          "concrete"
+	"$blendtintbybasealpha" "1"
+}

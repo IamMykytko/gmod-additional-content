@@ -1,0 +1,10 @@
+"patch"
+{
+	"include" "materials/models/player/tm_anarchist/tm_anarchist_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_anarchist\tm_anarchist_lowerbody_variantD"
+	"$bumpmap" "models\player\tm_anarchist\tm_anarchist_lowerbody_normal"
+
+	}	
+}

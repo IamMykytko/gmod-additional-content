@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_aztec\hr_aztec\aztec_wood_formwork\aztec_wood_formwork_01_color"
+    "$bumpmap" 		"models\props\de_aztec\hr_aztec\aztec_wood_formwork\aztec_wood_formwork_01_normal"
+	"$surfaceprop" 			"wood"
+}

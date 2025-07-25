@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture"            "models/props/coop_cementplant/furniture/coop_wooden_table_color"
+	"$basealphaenvmapmask"    "1"
+	"$envmap"                 "env_cubemap"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.5]"
+	"$envmapcontrast"         ".6"
+}

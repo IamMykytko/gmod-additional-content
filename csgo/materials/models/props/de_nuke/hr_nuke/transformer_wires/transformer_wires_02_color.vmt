@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/transformer_wires/transformer_wires_02_color"
+	"$detail"                 "metal/hr_metal/hr_metal_detail_001"
+	"$detailscale"            "[2 4]"
+	"$detailblendfactor"      "0.75"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 0.5]"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/transformer_wires/transformer_wires_02_color"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$surfaceprop"            "metal"
+}

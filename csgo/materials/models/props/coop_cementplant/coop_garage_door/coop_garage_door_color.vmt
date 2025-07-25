@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/coop_cementplant/coop_garage_door/coop_garage_door_color"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1]"
+	"$detail"                 "detail/detailconcrete001a"
+	"$detailscale"            "[6 6 6]"
+	"$detailblendfactor"      "1"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapmask"             "models/props/coop_cementplant/coop_garage_door/coop_garage_door_mask"
+	"$envmapcontrast"         ".2"
+}

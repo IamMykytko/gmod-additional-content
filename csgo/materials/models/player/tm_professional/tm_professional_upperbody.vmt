@@ -1,0 +1,10 @@
+"patch"
+{
+	"include" "materials/models/player/tm_professional/tm_professional_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_professional\tm_professional_upperbody"
+	"$bumpmap" "models\player\tm_professional\tm_professional_upperbody_normal"
+	"$rimlight" "1"
+	}	
+}

@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_dust\hr_dust\dust_lights\street_lantern_02\street_lantern_02_color"
+	"$bumpmap"	"models\props\de_dust\hr_dust\dust_lights\street_lantern_02\street_lantern_02_normal"
+	"$selfillum" "1"
+	"$selfillumtint"		"[3 3 3]"
+	"$normalmapalphaenvmapmask" 	"1"
+	
+	"$phongexponent" 		"120"
+	"$phongtint" 			"[.1 .13 .1]"
+	"$phong" 			"1"
+	"$phongboost" 			"8"
+	 	
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmaptint" 			"[.01 .01 .01]"
+
+	"$surfaceprop" 			"metal"
+
+
+
+	
+
+}

@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\palace_dome_1\palace_dome_1_small"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$detail" 				"models\props\de_venice\palace_dome_1\palace_dome_1_detail"
+	"$detailscale" 			"[ .5 1 ]"
+	"$detailblendfactor" 	"1"
+
+
+}

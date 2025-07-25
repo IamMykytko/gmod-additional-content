@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+"$basetexturetransform" "center 1 1 scale 4 4 rotate 0 translate 15 15" 
+	"$baseTexture" "models\props\de_inferno\hr_i\bench\bench_wood.vtf"
+	"$bumptransform" "center 1 1 scale 4 4 rotate 0 translate 15 15" 
+	//	"$bumpmap"   "models\props\de_inferno\hr_i\bench\bench_wood_normals.vtf"
+		//"$tintbybasealpha" 1
+	"$detail" 				"models\props\de_inferno\hr_i\bench\bench_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1.2"
+	"$detailblendmode" 0
+}

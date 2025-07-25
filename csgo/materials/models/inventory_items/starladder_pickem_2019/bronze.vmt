@@ -1,0 +1,15 @@
+"vertexlitgeneric"
+{
+	"$basetexture"              "models/inventory_items/starladder_pickem_2019/bronze"
+	"$bumpmap"                  "models/inventory_items/starladder_pickem_2019/bronze_normal"
+	"$phongexponenttexture"     "models/inventory_items/starladder_pickem_2019/bronze_exponent"
+	"$envmap"                   "editor/cube_vertigo"
+	"$envmaptint"               "[.1 .14 .08]"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong"                    "1"
+	"$phongboost"               "0.1"
+	"$phongfresnelranges"       "[.7 .8 1]"
+	"$phongalbedotint"          "1"
+	"$phongalbedoboost"         "40"
+	"$phongdisablehalflambert"  "1"
+}

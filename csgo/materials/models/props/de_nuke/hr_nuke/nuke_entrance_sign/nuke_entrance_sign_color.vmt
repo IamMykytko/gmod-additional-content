@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+	"$basetexture"          "models/props/de_nuke/hr_nuke/nuke_entrance_sign/nuke_entrance_sign_color"
+	"$blendtintbybasealpha" "1"
+	"$detailscale"          "[3 2 2]"
+	"$detailblendfactor"    "1"
+	"$surfaceprop"          "metal"
+}

@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+	$basetexture "models/inventory_items/katowice_trophies/kat_border"
+	
+	$envmap "Editor\cube_vertigo"
+	$envmaptint "[0.137 0.435 0.623]"
+
+}

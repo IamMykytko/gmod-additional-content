@@ -1,0 +1,7 @@
+
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\props\De_Vertigo\support_jack"
+	    $surfaceprop "metal"
+}
+

@@ -1,0 +1,17 @@
+vertexlitgeneric
+{
+	$basetexture models\player\holiday\facemasks\facemask_evil_clown\facemask_evil_clown.vtf
+	$bumpmap models\player\holiday\facemasks\facemask_evil_clown\facemask_evil_normals.vtf
+	$envmap "env_cubemap"
+	$envmaptint 		"[.2 .2 .2]"
+	"$phong" "1"
+	"$phongboost" "2"
+	"$phongalbedoboost" "60"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 60
+	"$normalmapalphaenvmapmask" 1
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[5 5 5]"
+	"$detailblendfactor" 	"1"
+
+}

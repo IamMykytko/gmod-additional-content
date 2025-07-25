@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"white"
+	"$bumpmap"				"effects\flat_normal"
+	"$color2"				"[.18 .15 .06]"
+	
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmapcontrast" "32"
+	"$envmaptint" "[.6 .5 .2]"
+	"$envmapfresnel" ".6"
+	//"$basemapalphaenvmapmask" "1"
+	//"$normalmapalphaenvmapmask" 1
+
+	"$phong" "1"
+
+	"$phongfresnelranges" "[.7 .8 1]"
+
+	"$phongtint" "[.6 .5 .2]"
+	"$phongboost" "6"
+	"$phongexponent" 128
+	
+
+	"$phongdisablehalflambert" "1"
+	
+}
+

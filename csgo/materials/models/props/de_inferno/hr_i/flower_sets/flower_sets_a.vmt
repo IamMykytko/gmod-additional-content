@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_inferno\hr_i\flower_sets\flower_sets_a.vtf"
+$blendtintbybasealpha "1"
+
+
+	"$alphatest" 		"1"
+	"$alphatestreference"	"0.9"
+	$nocull 1
+	$model 1
+
+}

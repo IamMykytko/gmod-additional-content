@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_roof_ac/nuke_roof_ac05_color"
+	"$detail"                 "metal/hr_metal/hr_metal_detail_001"
+	"$detailscale"            "2"
+	"$detailblendfactor"      "0.65"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 0.75]"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_roof_ac/nuke_roof_ac05_color"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapcontrast"         ".5"
+	"$surfaceprop"            "metal"
+}

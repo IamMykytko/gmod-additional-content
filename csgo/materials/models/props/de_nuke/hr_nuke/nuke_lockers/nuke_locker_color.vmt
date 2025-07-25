@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_lockers/nuke_locker_color"
+	"$blendtintbybasealpha"   "1"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[2 4]"
+	"$detailblendfactor"      ".4"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1]"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_lockers/nuke_locker_color"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$surfaceprop"            "metal"
+}

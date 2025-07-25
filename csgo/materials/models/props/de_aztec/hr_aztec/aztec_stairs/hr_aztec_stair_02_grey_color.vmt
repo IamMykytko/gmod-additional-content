@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_aztec\hr_aztec\aztec_stairs\hr_aztec_stair_02_grey_color"
+	"$bumpmap" 				"models\props\de_aztec\hr_aztec\aztec_stairs\hr_aztec_stair_02_grey_normal"
+	"$surfaceprop" 			"rock"
+}
+  

@@ -1,0 +1,9 @@
+patch
+{
+	include "materials\models\player\player_skin_shared.vmt"
+	insert
+	{
+		"$gen_face" "1"
+		"$atlas_group" "2"
+	}
+}

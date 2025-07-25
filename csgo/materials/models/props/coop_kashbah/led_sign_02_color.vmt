@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_kashbah\led_sign_02_color"
+
+	"$selfillum"              "1"
+	"$selfillumtint"          "[2 2 2]"
+
+
+}

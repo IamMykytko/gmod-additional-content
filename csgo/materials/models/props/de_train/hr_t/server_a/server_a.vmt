@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+
+$basetexture "models\props\de_train\hr_t\server_a\server_a.vtf"
+$bumpmap "models\props\de_train\hr_t\server_a\server_a_normals.vtf"
+	"$phong" "1"
+	"$phongboost" "3"
+	"$phongalbedoboost" "1"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 500
+	$blendtintbybasealpha 1
+	"$nocull" "1"
+
+"$normalmapalphaenvmapmask" 1
+
+
+	"$detail" 				"detail\metal_detail_01"
+	"$detailscale" 			"[6 6 6]"
+	"$detailblendfactor" 	".5"
+
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[.3 .3 .2]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+}

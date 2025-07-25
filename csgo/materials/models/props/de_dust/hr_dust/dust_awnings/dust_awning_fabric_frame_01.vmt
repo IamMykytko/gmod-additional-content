@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_dust\hr_dust\dust_awnings\dust_awning_fabric_frame_01_color"
+	"$notint" "1"
+	"$surfaceprop" 			"metal"
+}

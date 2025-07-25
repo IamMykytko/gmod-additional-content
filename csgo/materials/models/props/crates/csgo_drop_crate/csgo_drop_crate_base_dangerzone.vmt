@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	"$basetexture"             "models/props/crates/csgo_drop_crate/csgo_drop_crate_dangerzone"
+	"$bumpmap"                 "models/props/crates/csgo_drop_crate/csgo_drop_crate_normal"
+	"$phong"                   "1"
+	"$envmap"                  "env_cubemap"
+	"$basealphaenvmapmask"     "1"
+	"$phongfresnelranges"      "[.83 .83 1]"
+	"$phongexponent"           "35"
+	"$phongboost"              "4"
+	"$phongalbedotint"         "1"
+	"$phongalbedoboost"        "30"
+	"$phongdisablehalflambert" "1"
+	"$basemapluminancephongmask" "1"
+}

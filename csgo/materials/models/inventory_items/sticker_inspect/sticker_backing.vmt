@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	$basetexture "models/inventory_items/sticker_inspect/sticker_backing"
+	
+	$color "[ .7 .7 .7 ]"
+	
+	$alphatest 1
+	
+	$envmap		"Editor\cube_vertigo"
+	$envmaptint "[ .3 .3 .3 ]"
+	
+}

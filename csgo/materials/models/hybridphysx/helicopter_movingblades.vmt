@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\hybridphysx/helicopter_movingblades"
+	"$translucent" "1"
+	"$nocull" "1"
+}

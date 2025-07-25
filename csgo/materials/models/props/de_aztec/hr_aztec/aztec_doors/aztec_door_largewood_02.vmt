@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	"$baseTexture" 		"models\props\de_aztec\hr_aztec\aztec_doors\aztec_door_largewood_02_color"
+	"$bumpmap" 			"models\props\de_aztec\hr_aztec\aztec_doors\aztec_door_largewood_02_normal"
+
+	"$surfaceprop" 			"metal"
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongalbedotint" "1"
+	"$phongtint" "[.13 .13 .1]"
+	"$phongdisablehalflambert" "1"
+	"$phongboost" "4"
+                                                  
+	"%keywords" "door,metal,aztec" 	
+}

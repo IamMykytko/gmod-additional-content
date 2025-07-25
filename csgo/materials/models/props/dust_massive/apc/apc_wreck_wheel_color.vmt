@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/dust_massive/apc/apc_wreck_wheel_color.vtf"
+	
+	"$surfaceprop" 			"metal"
+}

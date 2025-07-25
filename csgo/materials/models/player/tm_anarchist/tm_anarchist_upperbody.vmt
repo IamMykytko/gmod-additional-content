@@ -1,0 +1,19 @@
+"patch"
+{
+	"include" "materials/models/player/tm_anarchist/tm_anarchist_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_anarchist\tm_anarchist_upperbody"
+	"$bumpmap" "models\player\tm_anarchist\tm_anarchist_upperbody_normal"
+
+	//$selfillum 1
+	//$selfillumfresnel 1
+	//$SELFILLUMFRESNELMINMAXEXP "[ 0 20 8 ]" // scale max with distance in shader 1-x
+	//$SELFILLUMTINT "[ .4 .3 .08 ]"
+	//$SELFILLUMMASK "models/player/tm_anarchist/tm_anarchist_upperbody_selfillummask"
+
+// Proxies
+//"$SelfIllumFresnelEnabledThisFrame" "0"
+
+	}	
+}

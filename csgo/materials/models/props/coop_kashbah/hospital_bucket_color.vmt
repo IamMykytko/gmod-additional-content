@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_kashbah\hospital_bucket_color"
+
+//	"$envmap"				"environment maps\metal_generic_003"
+//	"$envmap"				"env_cubemap"
+	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+	"$envmapmask" "models\props\coop_kashbah\hospital_bucket_mask"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+	"$envmapcontrast"	".7"
+//	"$envmapsaturation"	".2"
+
+
+}

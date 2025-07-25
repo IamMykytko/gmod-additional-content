@@ -1,0 +1,14 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_office_desk/nuke_office_desk_color"
+	"$blendtintbybasealpha"   "1"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "1.97"
+	"$detailblendfactor"      ".25"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.0]"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_office_desk/nuke_office_desk_color"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$envmapsaturation"       ".25"
+	"$surfaceprop"            "metal"
+}

@@ -1,0 +1,7 @@
+vertexlitgeneric
+{
+	"$basetexture"       "models/props/de_nuke/hr_nuke/nuke_circuit_breaker/nuke_circuit_breaker_color"
+	"$detail"            "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"       "2.27"
+	"$detailblendfactor" "1"
+}

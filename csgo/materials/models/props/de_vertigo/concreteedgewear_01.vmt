@@ -1,0 +1,13 @@
+
+"VertexLitGeneric"
+{
+	$basetexture	"models\props\De_Vertigo\concreteEdgeWear_01.vtf"
+	$bumpmap 	"models\props\De_Vertigo\concreteEdgeWear_01_N.vtf"
+
+
+	//$translucent 1 
+        $alphatest 1
+        //$alphatestreference 0.5
+
+}
+

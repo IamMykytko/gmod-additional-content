@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\props\dust_massive\bridges\bridge_pier_color"
+	"$bumpmap"	"models\props\dust_massive\bridges\bridge_pier_normal"	
+	     
+	"$surfaceprop" 			"rock"
+
+}

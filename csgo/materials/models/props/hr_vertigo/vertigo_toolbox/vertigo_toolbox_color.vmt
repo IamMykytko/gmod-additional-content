@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models\props\hr_vertigo\vertigo_toolbox\vertigo_toolbox_color"
+	"$tintmasktexture"	"models\props\hr_vertigo\vertigo_toolbox\vertigo_toolbox_tint"
+
+	"$envmapmask"	"models\props\hr_vertigo\vertigo_toolbox\vertigo_toolbox_mask"
+	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+	
+//	"$detail"					"models\props\de_nuke\hr_nuke\metal_crate_001\metal_crate_001_detail"
+//	"$detailscale"				"[3 3]"
+//	"$detailblendfactor" 		"1"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+//	"$envmapcontrast" 		".8"
+
+	
+	"$surfaceprop" 			"metal"
+
+
+}

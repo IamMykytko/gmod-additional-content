@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_security_cam\survival_security_cam_color"
+
+	"$bumpmap" "models\props\hr_massive\survival_security_cam\survival_security_cam_normal"
+
+	
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "3"
+        "$phongExponent" "32"
+
+	
+
+	
+
+}

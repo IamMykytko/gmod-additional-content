@@ -1,0 +1,23 @@
+
+"VertexLitGeneric"
+{
+	     "$basetexture"	"models\props\cs_assault\warehouseRailing.vtf"
+	      $bumpmap 	        "models\props\cs_assault\warehouseRailing_N.vtf"
+
+
+	 // Suraface type
+	      $surfaceprop "metal"
+
+	 // add phong specularity
+            $basemapalphaphongmask "1"
+            $phong 1
+            $phongBoost 5 
+            $phongExponent 45
+            $phongfresnelranges "[0.8 0.8 1]"
+            $phongTint "{160 190 231}" 
+
+         //   $blendtintbybasealpha 1
+
+
+}
+

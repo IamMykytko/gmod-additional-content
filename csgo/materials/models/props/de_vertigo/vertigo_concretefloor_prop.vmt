@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "concrete/vertigo_concretefloora"
+	"$surfaceprop" "Concrete"
+
+}

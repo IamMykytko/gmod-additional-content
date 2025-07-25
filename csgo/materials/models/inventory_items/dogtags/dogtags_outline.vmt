@@ -1,0 +1,17 @@
+"unlitgeneric"
+{
+	"$additive"  "1"
+	"$color"     "[1 1 1]"
+	
+	"proxies"
+	{
+		"sine"
+		{
+			"sineperiod"    0.8
+			"sinemin"		0
+			"sinemax"		0.8
+			"resultvar"     "$color"
+		}
+	}
+	
+}

@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+//"$basetexturetransform" "center .5 .5 scale 3 3 rotate 0 translate 0 0" 
+$baseTexture "models\props\de_train\hr_t\ladder_door_a\ladder_door_a.vtf"
+
+//$bumpmap "models\props\de_train\hr_t\ladder_door_a\ladder_door_a.vtf"
+//	"$phong" "1"
+//	"$phongboost" "1"
+//	"$phongalbedoboost" "1"
+//	"$phongfresnelranges" "[.9 .9 1]"
+//	"$phongexponent" 180
+//	$blendtintbybasealpha 1
+	
+
+//"$normalmapalphaenvmapmask" 1
+
+
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[1 1 1]"
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[8 8 8]"
+	"$detailblendfactor" 	"1"
+"$envmapmask" "models\props\de_train\hr_t\ladder_door_a\ladder_door_a_env"
+
+
+
+}

@@ -1,0 +1,7 @@
+vertexlitgeneric
+{
+	"$basetexture"          "models/props/de_nuke/hr_nuke/nuke_skybox_buildings/nuke_skybox_powerline_color"
+	"$alphatest"            "1"
+	"$alphatestreference"   ".4"
+	"$allowalphatocoverage" "1"
+}

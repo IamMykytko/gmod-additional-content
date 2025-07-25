@@ -1,0 +1,32 @@
+
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\props\De_Vertigo\cement_bucket_metal_lrg_01"
+
+
+
+      // Basic Phong specular highlight with Static Exponent
+      //	
+      // "$phong" "1"
+      // "$phongexponent" 15
+      // "$phongboost" 8
+      // "$phongfresnelranges" "[.8 .8 1]"
+      // "$basemapalphaphongmask" "1"
+
+      // Add specular exponent variance via Map
+      //
+      // "$phongalbedoboost" "35"
+      // "$phongexponenttexture" "models\props\De_Vertigo\cement_bucket_metal_lrg_01_exponent"
+
+
+
+      // EnvMap Setup
+      //
+        "$envmap" "env_cubemap"
+         $envmapmask "models\props\De_Vertigo\cement_bucket_metal_lrg_01_ref"
+         $envmaptint "[.4 .4 .4]"
+        "$envmapfresnel" "1"
+        "$envmapFresnelMinMaxExp" "[.4 .75 1]"
+
+}
+

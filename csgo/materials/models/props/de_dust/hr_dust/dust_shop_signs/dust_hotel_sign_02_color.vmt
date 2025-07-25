@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\props\de_dust\hr_dust\dust_shop_signs\dust_hotel_sign_02_color"
+
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmapmask" 			"models\props\de_dust\hr_dust\dust_shop_signs\dust_hotel_sign_02_mask"
+	"$envmapcontrast" 		".3"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+
+}

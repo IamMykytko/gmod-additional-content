@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/gg_vietnam/vietnam_corrugated_01"
+	"$surfaceprop" "metal"
+	//"$envmap" "env_cubemap"
+	//"$envmapmask"		"models/props/gg_vietnam/vietnam_corrugated_01_spec"
+}

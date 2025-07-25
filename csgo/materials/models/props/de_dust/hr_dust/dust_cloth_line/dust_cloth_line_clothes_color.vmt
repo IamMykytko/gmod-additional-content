@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models\props\de_dust\hr_dust\dust_cloth_line\dust_cloth_line_clothes_color"
+	"$tintmasktexture" 	"models\props\de_dust\hr_dust\dust_cloth_line\dust_cloth_line_clothes_tint"
+
+
+}

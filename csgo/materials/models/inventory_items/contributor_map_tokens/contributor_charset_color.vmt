@@ -1,0 +1,15 @@
+VertexlitGeneric
+{
+	$basetexture	"models\inventory_items\contributor_map_tokens\contributor_charset_color"
+	$bumpmap		"models\inventory_items\contributor_map_tokens\contributor_charset_normal"
+	$alphatest 1
+	
+	"$phongExponentTexture"		"models\inventory_items\contributor_map_tokens\maptoken_exponent"
+	
+	"$phong" "1"
+	"$phongfresnelranges" "[.7 .8 1]"
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "90"
+	"$phongdisablehalflambert" "1"
+	
+}

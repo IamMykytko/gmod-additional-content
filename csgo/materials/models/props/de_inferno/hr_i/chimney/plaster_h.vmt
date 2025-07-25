@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+
+$baseTexture "brick/hr_brick/inferno/brick_d"
+
+"$detail" 				"detail\dt_plaster01"
+
+"$detailscale" 			"[3 3]"
+"$detailblendfactor" 	"1"
+}
+

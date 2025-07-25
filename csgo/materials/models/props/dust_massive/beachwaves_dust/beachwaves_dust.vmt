@@ -1,0 +1,7 @@
+unlittwotexture
+{
+	"$beachfoam"   "1"
+	"$basetexture" "models/props/dust_massive/beachwaves_dust/beachwaves_dust"
+	"$texture2"    "models/props/dust_massive/beachwaves_dust/beachwaves_dust"
+	"$additive"    "1"
+}

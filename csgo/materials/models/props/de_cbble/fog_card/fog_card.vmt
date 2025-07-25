@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_cbble\fog_card\fog_card"
+	//"$detail" 				"detail\noise_detail_01"
+	//"$detailscale" 			"[ 6 6 ]"
+	"$translucent" 1
+
+}

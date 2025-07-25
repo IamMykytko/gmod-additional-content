@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\ar_lunacy\moon_consoles\console_01_color"
+	
+	"$envmap"	"environment maps/metal_generic_001"
+	"$envmapmask" 	"models\props\ar_lunacy\moon_consoles\console_01_mask"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[5 8]"
+	"$detailblendfactor"      ".8"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2]"
+//	"$envmapcontrast" 		"2"
+	"$envmaptint"               "[.75 .73 .71]"
+
+
+	
+
+
+
+}

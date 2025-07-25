@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$basetexture"              "models/inventory_items/service_medal_2019/service_medal_2019_lvl1"
+	"$bumpmap"                  "models/inventory_items/service_medal_2019/service_medal_2019_normal"
+	"$envmap"                   "models/effects/crystal_cube_vertigo_hdr"
+	"$envmapcontrast"           "1.2"
+	"$envmaptint"               "[.02 .05 .06]"
+	//$envmaptint "[10 10 10]"
+	"$envmapfresnel"            ".6"
+	"$phong"                    "1"
+	"$phongboost"               "1"
+	"$phongtint"				"[.76 .87 1]"
+	"$phongfresnelranges"       "[.7 .8 1]"
+	"$phongexponent" 32
+	"$phongdisablehalflambert"  "1"
+}

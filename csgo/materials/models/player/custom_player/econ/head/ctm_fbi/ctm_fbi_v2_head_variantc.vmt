@@ -1,0 +1,32 @@
+"character"
+{
+	"$basetexture"                   "models/player/custom_player/econ/head/ctm_fbi/ctm_fbi_v2_head_variantc_color"
+	"$bumpmap"                       "models/player/custom_player/econ/head/ctm_fbi/ctm_fbi_v2_head_variantc_normal"
+	"$fresnelrangestexture"          "models/player/custom_player/shared/ctm_fresnelwarp_v2"
+	"$phongwarptexture"              "models/player/custom_player/shared/ctm_specwarp_v2"
+	"$masks2"                        "models/player/custom_player/econ/head/ctm_fbi/ctm_fbi_v2_head_varianta_masks2"
+	"$masks1"                        "models/player/custom_player/econ/head/ctm_fbi/ctm_fbi_v2_head_variantc_masks1"
+	"$phongboost"                    "0.9"
+	"$phongexponent"                 "64"
+	"$phongalbedoboost"              "15"
+	"$rimlightexponent"              "6"
+	"$rimlightboost"                 "1"
+	"$rimlightalbedo"                "0.6"
+	"$shadowsaturation"              "0.02"
+	"$shadowsaturationbounds"        "[-0.1 0.3 0.4 0.7]"
+	"$shadowcontrast"                "0.02"
+	"$fakerimtint"                   "[0.5 0.7 1]"
+	"$fakerimboost"                  "6"
+	"$ambientreflectionboost"        "0.2"
+	"$ambientreflectionbouncecenter" "[0 20 0]"
+	"$ambientreflectionbouncecolor"  "[7.3 7 8 100.4]"
+	"$anisotropyamount"              "0.92"
+	"$model"                         "1"
+	"$nodecal"                       "1"
+	"proxies"
+	{
+		"entityorigin"
+		{
+		}
+	}
+}

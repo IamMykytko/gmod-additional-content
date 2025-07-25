@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\dust_electric_panel\dust_electric_panel_color"
+
+	"$surfaceprop" 			"metal"
+
+
+}

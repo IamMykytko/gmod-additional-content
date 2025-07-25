@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	$baseTexture 			models\inventory_items\cologne_prediction\cologne_pick_plaque
+	$bumpmap				models\inventory_items\cologne_prediction\cologne_pick_plaque_normal
+	$phong 1
+	$color "[ 1 0.65 0 ]"
+	$phongtint "[ 1 0.65 0 ]"
+	$basemapalphaphongmask 1
+	$phongexponent 280
+	$phongboost 10
+	$phongfresnelranges "[.7 .8 1]"
+	$envmap		Editor\cube_vertigo
+	$envmaptint "[ .1 .1 .1 ]"
+}
+

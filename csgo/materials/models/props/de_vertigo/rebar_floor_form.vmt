@@ -1,0 +1,18 @@
+
+"VertexLitGeneric"
+{
+	    $basetexture "models\props\De_Vertigo\rebar_floor_form"
+
+	 // Suraface type
+	    $surfaceprop "wood"
+
+
+	 // add phong specularity
+	    $basemapalphaphongmask 1
+	    $phong 1
+	    $phongBoost 4
+	    $phongExponent 60
+	    $phongTint "{109 98 84}"
+
+}
+

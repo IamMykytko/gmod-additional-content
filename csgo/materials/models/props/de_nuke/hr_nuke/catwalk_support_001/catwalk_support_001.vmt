@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/catwalk_support_001/catwalk_support_001"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001_cubemap"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/catwalk_support_001/catwalk_support_001"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 1]"
+	"$envmapcontrast"         ".5"
+	"$surfaceprop"            "metal"
+}

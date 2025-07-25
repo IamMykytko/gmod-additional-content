@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			"models\inventory_items\dreamhack_trophies\dreamhack_trophy_text"
+	
+	"$basealphaenvmapmask" 1
+	
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmaptint" "[1 0.9 0.6]"
+	
+	"$envmapsaturation" "0.3"
+	
+}

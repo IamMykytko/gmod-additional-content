@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_inferno\hr_i\hay_bale\hay_bale_straw"
+
+
+	$nocull 1
+	"$alphatest" 			"1"
+	"$allowalphatocoverage"	".1"
+	"$alphatestreference"	".8"
+	
+
+
+}

@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+$baseTexture "wood/hr_w/inferno/hr_wood_planks_a"
+
+$surfaceprop wood
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.2 .2 .2]"	
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[2 2 2]"
+	"$detailblendfactor" 	".8"
+}

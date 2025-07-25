@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/ct_st6/st6_helmet"
+	"$bumpMap" "models/player/ct_st6/st6_helmet_normal"
+	"$phong" "1"
+	"$phongBoost" "1"
+	"$phongExponent" "5"
+	"$phongTint" "[1 1 1.5]"
+	"$phongFresnelRanges" "[0 .1 1]"
+	"$phongdisablehalflambert" "1"
+	"$rimlight" "1"
+                 "$phongexponenttexture" "models/player/ct_st6/st6_helmet_exponent"
+	"$rimlightexponent" "5"
+	"$rimlightboost" "1"
+	"$rimmask" "1"
+
+	$selfillum 1
+	$selfillumfresnel 1
+	$SELFILLUMFRESNELMINMAXEXP "[ 0 20 8 ]" // scale max with distance in shader 1-x
+	$SELFILLUMTINT "[ .1 .2 1 ]"
+	$SELFILLUMMASK "models/player/ct_st6/st6_helmet_selfillummask"
+
+// Proxies
+"$SelfIllumFresnelEnabledThisFrame" "0"
+	"Proxies"
+	{
+            "TeamIdMaterialProxy"
+            {
+            }
+	}
+
+
+}

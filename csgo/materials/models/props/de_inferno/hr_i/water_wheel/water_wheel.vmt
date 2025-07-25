@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+$baseTexture "wood/hr_w/inferno/hr_wood_e"
+	"$basetexturetransform" "center .5 .5 scale 5 5 rotate 0 translate 0 0" 
+$surfaceprop wood
+$basealphaenvmapmask 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.5 .5 .5]"	
+
+	
+	"$detail" 				"models\props\de_inferno\hr_i\water_wheel\water_wheel_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1"
+
+	  
+}

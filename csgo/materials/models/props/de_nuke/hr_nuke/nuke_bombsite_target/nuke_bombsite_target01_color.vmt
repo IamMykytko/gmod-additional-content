@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_bombsite_target/nuke_bombsite_target01_color"
+	"$srgbtint"               "[1.35 1.35 1.35]"
+	"$alphatest"              "1"
+	"$alphatestreference"     ".3"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_bombsite_target/nuke_bombsite_target01_mask"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[1.5 3]"
+	"$detailblendfactor"      ".75"
+	"$envmap"                 "environment maps/metal_generic_006"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 5]"
+	"$surfaceprop"            "metal"
+}

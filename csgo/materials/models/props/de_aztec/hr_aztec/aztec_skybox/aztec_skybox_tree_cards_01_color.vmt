@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_aztec\hr_aztec\aztec_skybox\aztec_skybox_tree_cards_01_color"
+	"$bumpmap" 				"models\props\de_aztec\hr_aztec\aztec_skybox\aztec_skybox_tree_cards_01_normal"
+	"$surfaceprop" 			"wood"
+	 //$vertexcolorpower "1.7"
+	
+	$AlphaTest 1
+	$AlphaTestReference ".3"
+	//"$allowalphatocoverage"	"1"
+	$nocull 0
+	$model 1
+}
+ 

@@ -1,0 +1,16 @@
+"character"
+{
+	"$basetexture"             "models/inventory_items/service_medal_2021/service_medal_2021_lvl3"
+	"$masks1"		           "models/inventory_items/service_medal_2021/service_medal_2021_masks1"
+	"$envmap"                  "editor/cube_vertigo"
+	"$phongwarptexture"       "models/player/custom_player/shared/ctm_specwarp_v2"
+	"$fresnelrangestexture"   "models/player/custom_player/shared/ctm_fresnelwarp_v2"
+	"$phongboost"             "0.1"
+	"$phongalbedoboost"       "4"
+	"$rimlightboost"          "0"
+	"$fakerimboost"			"0"
+	"$basealphaenvmask" 1
+	"$basealphaphongmask" 1
+	"$envmapsaturation" -0.6
+	"$envmaptint" "[ 3 2.6 1.2 ]"
+}

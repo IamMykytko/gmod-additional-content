@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+ 	"$baseTexture" 		"de_aztec\hr_aztec\hr_aztec_roof_thatch_01_color"
+	//"$baseTexture" 		     "models\props\de_aztec\hr_aztec\aztec_roofs\hr_aztec_roof_thatch_01_color_ao"
+	"$bumpmap" 			"de_aztec\hr_aztec\hr_aztec_roof_thatch_01_normal"
+	"$decaltexture"		"models\props\de_aztec\hr_aztec\aztec_scaffolding\aztec_scaffolding_01_ao"
+	"$decalblendmode"	"1"
+	"$surfaceprop" 			"dirt"
+                                                          
+	"%keywords" "roof,thatch,grass,aztec" 	
+}

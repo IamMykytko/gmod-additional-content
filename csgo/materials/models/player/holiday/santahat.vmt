@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\holiday\santahat"
+	"$bumpmap" "dev\flat_normal"
+	"$halflambert" "0"
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" "1.0"
+	"$phongalbedotint" "1"
+	"$nodecal" 1
+}

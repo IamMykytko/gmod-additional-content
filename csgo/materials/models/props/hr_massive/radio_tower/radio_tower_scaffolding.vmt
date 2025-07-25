@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/hr_massive/radio_tower/radiO_tower_scaffolding"
+	
+	"$surfaceprop" 			"metal"
+
+//	"$detail"      "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+//	"$detailscale"            "[5 4 4]"
+//	"$detailblendfactor"      "1"
+	"$alphatest" 1
+//	"$nocull" 1	
+//	"$translucent" 1
+	"$model" 1
+
+
+
+}

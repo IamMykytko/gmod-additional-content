@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models\props\dust_massive\cargo_container_square\cargo_container_paint"
+
+	"$AlphaTest" "1"
+	"$AlphaTestReference" ".3"
+	"$model" "1"
+	"$FlashlightNoLambert" "1"
+	"$detail"		"models\props\de_dust\hr_dust\dust_detail\dust_detail_metal_01"
+	"$detailscale"				"[6 3]"
+	"$detailblendfactor" 		"1"
+
+	"$DISABLECSMLOOKUP" "1"
+}

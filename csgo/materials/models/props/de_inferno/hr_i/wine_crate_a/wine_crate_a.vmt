@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+$baseTexture "models\props\de_inferno\hr_i\wine_crate_a\wine_crate_a.vtf"
+"$basetexturetransform" "center .5 .5 scale 6 6 rotate 0 translate 0 0" 
+//$decaltexture "models\props\de_inferno\hr_i\wine_crate_a\wine_crate_a_decals.vtf"
+	
+"$detail" 				"models\props\de_inferno\hr_i\wine_crate_a\wine_crate_a_ao.vtf"
+"$detailscale" 			"[1 1]"
+"$detailblendfactor" 	".85"
+
+}

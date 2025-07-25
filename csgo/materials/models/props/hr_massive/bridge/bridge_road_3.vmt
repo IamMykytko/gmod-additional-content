@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "hr_massive\concrete_floor_2"
+
+	"$bumpmap" "hr_massive\concrete_floor_2_normal"
+
+//	"$envmap"			"env_cubemap"
+//	"$envmapmask"			"hr_massive\broken_road_1_envmap"
+
+//	"$normalmapalphaenvmapmask" 	"1"  
+//	"$basealphaenvmapmask" 		"1"
+
+//	"$envmaplightscale"		".15"
+//	"$envmaplightscaleminmax" 	"[0 .3]"
+//	"$envmapcontrast"		".8"
+//	"$envmapsaturation"		".1"
+
+
+}

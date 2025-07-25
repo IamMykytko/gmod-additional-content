@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models\props\hr_massive\survival_gas_pump\survival_gas_pump_color"
+	"$tintmasktexture"	"models\props\hr_massive\survival_gas_pump\survival_gas_pump_tint"
+
+	
+
+
+}

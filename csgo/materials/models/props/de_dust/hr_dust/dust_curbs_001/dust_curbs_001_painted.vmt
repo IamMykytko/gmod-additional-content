@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_curbs_001\dust_curbs_001_painted"
+	"$tintmasktexture" 		"models\props\de_dust\hr_dust\dust_curbs_001\dust_curbs_001_painted_tint"
+	"$surfaceprop" 			"concrete"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\dust_massive\front_loader\front_loader_02_color"
+	
+	"$envmap" "env_cubemap"
+	"$envmapMask" "models\props\dust_massive\front_loader\front_loader_02_mask"
+}

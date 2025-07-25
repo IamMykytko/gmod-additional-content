@@ -1,0 +1,7 @@
+UnLitGeneric
+{
+	$basetexture models\effects\ghosts\ghost3
+	$additive 1
+	$color 0.005
+	$ENABLESHADOWS 0
+}

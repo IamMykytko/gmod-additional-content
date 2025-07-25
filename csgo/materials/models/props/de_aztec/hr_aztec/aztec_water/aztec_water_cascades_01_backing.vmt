@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+"$model" 1
+
+"$basetexture" "models\props\de_aztec\hr_aztec\aztec_water\aztec_water_cascades_01_color"
+"$translucent" 1
+
+Proxies
+{
+	TextureScroll
+		{
+		texturescrollvar $basetexturetransform
+		texturescrollrate 1 
+		texturescrollangle 90
+		}
+}
+}

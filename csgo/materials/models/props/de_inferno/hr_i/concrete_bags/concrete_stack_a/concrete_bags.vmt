@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center .5 .5 scale 3 3 rotate 0 translate 0 0" 
+	"$basetexture" "models\props\de_inferno\hr_i\concrete_bags\concrete_bags.vtf"
+	"$bumpmap"  "models\props\de_inferno\hr_i\concrete_bags\concrete_bags_normals.vtf"
+
+
+	"$detail" 				"models\props\de_inferno\hr_i\concrete_bags\concrete_bags_ao_b.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	".7"
+	"$detailblendmode" 0
+
+}

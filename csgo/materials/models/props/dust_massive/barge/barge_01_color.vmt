@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/dust_massive/barge/barge_01_color.vtf"
+
+	
+	"$detail"		"models\props\de_dust\hr_dust\dust_detail\dust_detail_metal_01"
+	"$detailscale"		"[5 5]"
+	"$detailblendfactor" 	"1"
+	
+	"$surfaceprop" 			"metal"
+}

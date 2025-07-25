@@ -1,0 +1,7 @@
+// ### This basic VMT was written based on the game/sdktools/python/site-packages/templateStrings.py script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_fortifications/concrete_wall001.vtf"
+	"$color2" "[0.4 .4 .4]"
+	
+}

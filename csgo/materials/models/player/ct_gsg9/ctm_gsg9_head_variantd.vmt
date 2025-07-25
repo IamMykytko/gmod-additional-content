@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/models/player/ct_gsg9/ctm_gsg9_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\ct_gsg9\ctm_gsg9_head_variantD"
+	"$bumpmap" "models\player\ct_gsg9\ctm_gsg9_head_normal_variantD"
+	
+	"$phongexponenttexture" "models\player\ct_gsg9\ctm_gsg9_head_exponent"
+	"$rimmask" "1"
+"$nodecal" 1
+	}	
+}

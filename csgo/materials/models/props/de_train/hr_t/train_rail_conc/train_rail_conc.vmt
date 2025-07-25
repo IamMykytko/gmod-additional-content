@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\train_rail_conc\train_rail_conc.vtf"
+
+//$bumpmap "models\props\de_train\hr_t\train_cratestack\train_cratestack_normal.vtf"
+
+	$envmapmask "models\props\de_train\hr_t\train_rail_conc\train_rail_conc_env.vtf"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.8 .8 .8]"	
+
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[5 1 1]"
+	"$detailblendfactor" 	"1"
+
+
+
+}

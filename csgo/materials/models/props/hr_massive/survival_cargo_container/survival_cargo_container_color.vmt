@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_cargo_container\survival_cargo_container_color"
+
+	"$tintmasktexture"	"models\props\hr_massive\survival_cargo_container\survival_cargo_container_tint"
+
+
+}

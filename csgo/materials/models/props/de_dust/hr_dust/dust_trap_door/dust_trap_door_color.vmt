@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\props\de_dust\hr_dust\dust_trap_door\dust_trap_door_color"
+
+	
+	"$tintmasktexture"		"models\props\de_dust\hr_dust\dust_trap_door\dust_trap_door_tint"
+
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmapmaskintintmasktexture"	"1"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+	"$envmapcontrast" 		"0.7"
+
+
+}

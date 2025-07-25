@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+	"$basetexture"               "models/inventory_items/skillgroups/skillgroups"
+	"$bumpmap"                   "dev/flat_normal"
+	"$envmap"                    "env_cubemap"
+	"$envmaptint"                "0.1"
+	"$phong"                     "1"
+	"$basemapluminancephongmask" "1"
+	"$phongboost"                "2"
+}

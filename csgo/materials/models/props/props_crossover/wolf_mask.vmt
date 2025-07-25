@@ -1,0 +1,7 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/props_crossover/wolf_mask.vtf"
+	"$bumpmap"	"models/props/props_crossover/wolf_mask_nm.vtf"
+	//"$translucent" "1"
+	//"$alphatest" "1"
+}

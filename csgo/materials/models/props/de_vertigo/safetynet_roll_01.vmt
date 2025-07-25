@@ -1,0 +1,18 @@
+
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\props\De_Vertigo\safetynet_roll_01"
+	 $bumpmap 	"models\props\De_Vertigo\safetynet_roll_01_N.vtf"
+
+	 // Suraface type
+	 $surfaceprop "plastic"
+
+	 // add phong specularity
+	 $phong 1
+	 $phongBoost 1
+	 $phongExponent 60
+	 $phongTint "[1 .1 .1]"
+
+
+}
+

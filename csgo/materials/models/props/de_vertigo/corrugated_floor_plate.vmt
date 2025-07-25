@@ -1,0 +1,29 @@
+
+"VertexLitGeneric"
+{
+
+
+	    $basetexture "models\props\De_Vertigo\corrugated_metal_plate"
+	    $bumpmap 	"models\props\De_Vertigo\corrugated_metal_plate_N.vtf"
+
+	 // Suraface type
+	    $surfaceprop "metalvent"
+	    $nocull 1
+
+	 // adds cubemap reflactions
+	 // $envmap "env_cubemap"
+	 // $normalmapalphaenvmapmask "1"
+	 // $envmapcontrast	1
+         // $envmapsaturation	0.5
+	 // $envmaptint		"[3 3 3]"
+
+
+	 // adds phong specularity
+	    $basemapalphaphongmask "1"
+	    $phong 1
+	    $phongBoost 5
+	    $phongExponent 60
+	    $phongTint "[.8 1 1]"
+
+}
+

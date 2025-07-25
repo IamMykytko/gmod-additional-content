@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\protest_debris\ribbon_1"
+
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.35 .35 .35]"
+	"$envmapmask" "models\props\de_venice\protest_debris\ribbon_1_env"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

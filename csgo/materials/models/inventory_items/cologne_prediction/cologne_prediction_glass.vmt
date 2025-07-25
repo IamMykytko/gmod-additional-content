@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+	$baseTexture 			detail\dt_metal1
+	$color "[ .05 .05 .05 ]"
+	"$additive" "1"
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmaptint" "[.6 .6 .6]"
+}

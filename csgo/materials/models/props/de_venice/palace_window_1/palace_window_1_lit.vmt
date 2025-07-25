@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\palace_window_1\palace_window_1"
+
+	//"$bumpmap" "models\props\de_venice\palace_window_1\palace_window_1_normal"
+	//"$phong" "1"	
+	//"$phongexponent" "75"
+
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "2"
+	//"$phongfresnelranges" "[0.45 0.85 1.25]"
+
+	"$selfillum" "1"
+	"$selfillummask" "models\props\de_venice\palace_window_1\palace_window_1_illum"
+
+
+
+}

@@ -1,0 +1,16 @@
+
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_edges_color.vtf"
+    "$bumpmap" 				"models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_edges_normal.vtf"
+	"GPU>=2?$decaltexture"			"models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_tower_02_dirt.vtf"
+	"GPU>=2?$decalblendmode "		"1"
+	"GPU<2?$color2"   "[.85 .85 .85]"
+		"$surfaceprop" 			"concrete"
+		"$phong" "1"
+		"$phongexponent" "5"
+		"$phongalbedotint" "0"
+		"$phongtint" "[.05 .05 .05]"
+		"$phongdisablehalflambert" "1"
+		"$phongboost" "0"
+}

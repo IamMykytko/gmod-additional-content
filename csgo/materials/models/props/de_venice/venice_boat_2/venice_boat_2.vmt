@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\venice_boat_2\venice_boat_2"
+
+	"$bumpmap" "models\props\de_venice\venice_boat_2\venice_boat_2_normal"
+
+	"$blendTintByBaseAlpha" "1"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

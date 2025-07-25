@@ -1,0 +1,14 @@
+"patch"
+{
+	"include" "materials/models/player/tm_balkan/tm_balkan_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_balkan\BalkanTerroristUpperBody_d5"
+	"$bumpmap" "models\player\tm_balkan\BalkanTerroristUpperBody_n"
+		
+	"$phongexponenttexture" "models\player\tm_balkan\BalkanTerroristUpperBody_exponent"
+	"$rimmask" "1"
+	
+//	"$phongBoost" "25"
+	}	
+}

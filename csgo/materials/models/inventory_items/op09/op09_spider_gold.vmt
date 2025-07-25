@@ -1,0 +1,17 @@
+vertexlitgeneric
+{
+	"$basetexture"         "models/inventory_items/op09/op09_spider"
+	"$color"               "{ 512 480 0 }"
+	"$envmap"              "models/props/de_nuke/hr_nuke/airduct_hvac_001/airduct_hvac_001_cube"
+	"$envmaptint"          "{ 255 240 0 }"
+	"$basealphaenvmapmask" "1"
+	"$envmapsaturation"    "2.5"
+	"$detail"              "detail/dt_brushed"
+	"$detailscale"         "10"
+	"$detailblendfactor"   "0.8"
+	"$bumpmap"             "effects/flat_normal"
+	"$phong"               "1"
+	"$phongboost"          "8"
+	"$phongexponent"       "30"
+	"$phongtint"           "{ 255 240 0 }"
+}

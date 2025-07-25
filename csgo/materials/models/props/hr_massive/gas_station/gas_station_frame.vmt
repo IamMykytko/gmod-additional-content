@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\gas_station\gas_station_metal_2"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+	"$detail" 				"models\props\hr_massive\gas_station\gas_station_frame"
+	"$detailscale" 			"[.25 .25]"
+	"$detailblendfactor" 	"1.4"
+	"$detailblendmode" "0"
+
+
+}

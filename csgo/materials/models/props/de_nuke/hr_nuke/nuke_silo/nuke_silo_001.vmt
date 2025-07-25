@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_silo/nuke_silo_001"
+	"$decaltexture"           "models/props/de_nuke/hr_nuke/nuke_silo/nuke_silo_001_detail"
+	"$decalblendmode          " "1"
+	"$detailscale"            "[.2 .1]"
+	"$detailblendfactor"      ".35"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1]"
+	"$surfaceprop"            "metal"
+}

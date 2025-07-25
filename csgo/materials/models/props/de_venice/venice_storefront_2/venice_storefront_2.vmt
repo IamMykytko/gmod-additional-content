@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\venice_storefront_2\venice_storefront_2"
+	"$bumpmap" "models\props\de_venice\venice_storefront_2\venice_storefront_2_normal"
+
+
+	//"$envmap" "env_cubemap"
+
+
+	$phong 1
+	"$phongexponent" "75"
+	"$phongtint" "[1 1 1]"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[.4 0.7 1]"
+
+
+
+
+	//"$envmaptint" 		"[.3 .3 .3]"	
+
+$nodecal 1
+
+
+
+
+}

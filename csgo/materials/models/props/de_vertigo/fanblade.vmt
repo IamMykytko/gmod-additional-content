@@ -1,0 +1,30 @@
+
+"VertexLitGeneric"
+{
+
+
+	    $basetexture "models\props\De_Vertigo\fanBlade"
+	    $bumpmap 	 "models\props\De_Vertigo\fanBlade_N.vtf"
+
+	    $surfaceprop "metalvent"
+
+            $AlphaTest 1
+	    $AlphaTestReference 0.3 
+
+	 // add cubemap specularity
+	      $envmap "env_cubemap"
+	      $envmapcontrast	"1"
+              $envmapsaturation	".5"
+	      $envmaptint		"{36 43 52}" 
+
+	 // add phong specularity
+              $phong 1
+              $phongBoost 1
+              $phongExponent 45
+              $phongfresnelranges "[0.8 0.8 1]"
+              $phongTint "{160 190 231}" 
+
+              $blendtintbybasealpha 0
+
+}
+

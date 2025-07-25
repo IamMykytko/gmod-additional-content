@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_curbs_001\dust_curbs_001_painted"
+	"$notint"				"1"
+	"$surfaceprop" 			"concrete"
+	"$blendtintbybasealpha"	"1"
+
+}

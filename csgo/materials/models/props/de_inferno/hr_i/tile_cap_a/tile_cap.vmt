@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\tile_set_a\tile_set_a.vtf"
+
+//	"$detail" 				"detail\detailconcrete001a"
+//	"$detailscale" 			"[4 4]"
+//	"$detailblendfactor" 	"1"
+  
+}

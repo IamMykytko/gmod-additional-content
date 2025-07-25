@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\5_year_coin\5_year_coin"
+	"$bumpmap"				"models\inventory_items\5_year_coin\5_year_coin_normal"
+	
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmapcontrast" "3"
+	"$envmaptint" "[.24 .25 .15]"
+	"$envmapfresnel" ".8"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" "1"
+
+	"$phongboost" "8"
+	"$phongfresnelranges" "[.7 .8 1]"
+
+	"$phongtint" "[.9 .9 .9]"
+
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "400"
+	"$phongexponent" "80"
+	"$basemapalphaphongmask" "1"
+
+	"$phongdisablehalflambert" "1"
+	
+}
+

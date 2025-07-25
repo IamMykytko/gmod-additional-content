@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/cs_italy/light_orange2"
+	"$model" 1
+	"$surfaceprop" "glass"
+}

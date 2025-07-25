@@ -1,0 +1,11 @@
+"patch"
+{
+	"include" "materials/models/player/tm_phoenix/tm_phoenix_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_phoenix\tm_phoenix_head"
+	"$bumpmap" "models\player\tm_phoenix\tm_phoenix_head_normal"
+	"$rimlight" "0"
+"$nodecal" 1
+	}	
+}

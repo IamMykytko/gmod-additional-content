@@ -1,0 +1,5 @@
+// ### This basic VMT was written based on the e:\valvegames\tools\python\templateStrings.py script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/dust_massive/buoy/buoy001_normal.vtf"
+}

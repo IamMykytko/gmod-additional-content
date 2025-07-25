@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_mirage\towertop_d\towertop_d"
+//	"$bumpmap" "models\props\de_mirage\towertop_d\towertop_d_normal"
+
+	"$nofog" "1"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$detail"                                                  "detail\dt_plaster01"
+	"$detailscale"                                         "[ 8 8 ]"
+	"$detailblendfactor"               "0.65"
+
+
+
+}

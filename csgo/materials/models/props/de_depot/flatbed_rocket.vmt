@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_depot/flatbed_rocket"
+	//"$bumpMap" "models/props/de_depot/flatbed_rocket_normal"
+	"$phong" "1"
+	"$phongBoost" "90"
+	"$phongExponent" "40"
+	"$phongTint" "[1 1 1.5]"
+	"$phongFresnelRanges" "[0 .1 1]"
+	"$phongdisablehalflambert" "1"
+	//"$rimlight" "1"
+	//"$rimlightexponent" "20"
+                //"$phongexponenttexture" "models/props/de_depot/flatbed_rocket_exponent"
+	//"$rimlightboost" ".8"
+               // "$rimmask" "1"
+}

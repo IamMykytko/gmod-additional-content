@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\trophy_majors\granite2"
+	"$bumpmap"				"models\inventory_items\trophy_majors\granite_normal"
+	//"$bumpmap"				"effects\flat_normal"
+	"$phongexponenttexture" "models\inventory_items\trophy_majors\granite_exponent"
+	"$color2"				"[0.15 0.15 0.15]"
+	"$basetexturetransform" 		"center .5 .5 scale 2 2 rotate 0 translate 0 0"
+	
+	//"$envmap"		"models\effects\crystal_cube_vertigo_hdr"
+	//"$envmapcontrast" "32"
+	"$envmaptint" "[.01 .01 .01]"
+	//"$envmapsaturation" "[.1 .1 .1]"
+	//"$envmapfresnel" ".9"
+	//"$basemapalphaenvmapmask" "1"
+	"$envmaplightscale" 1
+	"$normalmapalphaenvmapmask" 1
+
+	"$phong" "1"
+
+	//"$phongfresnelranges" "[.7 .8 1]"
+
+	"$phongalbedoboost" 10
+	"$phongexponent" 12
+	"$phongalbedotint" 1
+
+	//"$phongdisablehalflambert" "1"
+	
+}
+

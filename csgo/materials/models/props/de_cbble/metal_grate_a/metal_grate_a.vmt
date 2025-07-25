@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_cbble\metal_grate_a\metal_grate_a.vtf"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	".5"
+	"$bumpmap" "models\props\de_cbble\metal_grate_a\metal_grate_a_normals.vtf"
+	
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+	"$phong" "1"
+	"$phongboost" "12"
+	"$phongfresnelranges" "[.2 0.5 1]"
+	"$phongexponent" 80
+	"$basemapalphaphongmask" "1"
+
+	
+	"$envmap" "env_cubemap"
+ 
+	"$envmapfresnel" "1"
+	
+	"$envmaptint" 		"[.8 .8 .8]"
+}
+

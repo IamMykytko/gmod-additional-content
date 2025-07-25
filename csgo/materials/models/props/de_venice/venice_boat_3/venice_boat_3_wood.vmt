@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\venice_boat_3\venice_boat_3_wood"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$detail" 				"detail\dt_wood2"
+	"$detailscale" 			"[5 10]"
+	"$detailblendfactor" 	".55"
+	"$detailblendmode" "0"
+
+
+}

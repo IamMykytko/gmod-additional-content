@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "de_mirage/plaster_worn/plaster_brick1_diffuse"
+	"$surfaceprop" "stone"
+	//"$nocull" "1"
+	"$bumpmap"	"models/props/de_mirage/roof_corner_a/roof_corner_a_normal"
+	
+}

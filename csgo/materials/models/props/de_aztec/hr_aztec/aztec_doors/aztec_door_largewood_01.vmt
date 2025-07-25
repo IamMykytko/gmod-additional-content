@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$baseTexture" 		"models\props\de_aztec\hr_aztec\aztec_doors\aztec_door_largewood_01_color"
+	"$bumpmap" 			"models\props\de_aztec\hr_aztec\aztec_doors\aztec_door_largewood_01_normal"
+	
+	"$surfaceprop" 			"rock"
+                                                          
+	"%keywords" "door,wood,aztec" 	
+}

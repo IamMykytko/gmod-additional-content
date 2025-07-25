@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture" "models\props\de_inferno\hr_i\hay_bale\hay_bale"
+	"$basetexturetransform" "center .5 .5 scale 2 2 rotate 90 translate 0 0" 
+	"$surfaceprop" "grass"
+
+}

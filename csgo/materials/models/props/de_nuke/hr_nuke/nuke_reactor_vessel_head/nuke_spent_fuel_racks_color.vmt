@@ -1,0 +1,5 @@
+vertexlitgeneric
+{
+	"$basetexture" "models/props/de_nuke/hr_nuke/nuke_reactor_vessel_head/nuke_spent_fuel_racks_color"
+	"$surfaceprop" "metal"
+}

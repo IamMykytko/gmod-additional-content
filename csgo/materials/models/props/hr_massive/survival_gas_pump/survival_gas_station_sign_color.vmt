@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_gas_pump\survival_gas_station_sign_color"
+
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[3 2 2]"
+	"$detailblendfactor"      "1"
+
+
+}

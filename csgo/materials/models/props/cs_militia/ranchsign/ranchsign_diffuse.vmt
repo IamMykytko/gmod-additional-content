@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\CS_Militia\ranchsign\ranchsign_diffuse"
+	"$bumpmap"	"models\props\CS_Militia\ranchsign\ranchsign_normal"
+	"$detail"	"detail\dt_stone1"
+	"$detailscale"	10
+	"$detailblendfactor" 0.8
+	"$phong" "1"
+	"$phongboost" ".35"
+	"$phongexponent" "130"
+
+
+}

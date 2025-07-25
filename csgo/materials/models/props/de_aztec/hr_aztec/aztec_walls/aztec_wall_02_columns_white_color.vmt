@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$baseTexture" 		"models\props\de_aztec\hr_aztec\aztec_walls\aztec_wall_02_columns_white_color"
+	"$bumpmap" 			"models\props\de_aztec\hr_aztec\aztec_walls\aztec_wall_02_columns_normal"
+	
+	"$surfaceprop" 			"rock"
+                                                          
+	"%keywords" "wall,stone,rock,grey,aztec" 	
+}

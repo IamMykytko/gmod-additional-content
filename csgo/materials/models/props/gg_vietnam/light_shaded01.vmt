@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/props/gg_Vietnam/light_shaded01"
+	"$selfillum" "1"
+//	"$envmapmask" "models/props/de_prodigy/light_shaded01_ref"
+
+}

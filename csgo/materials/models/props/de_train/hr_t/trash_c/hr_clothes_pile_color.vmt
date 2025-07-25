@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\trash_c\hr_clothes_pile_color.vtf"
+
+$bumpmap "models\props\de_train\hr_t\trash_c\hr_clothes_pile_normal.vtf"
+"$blendtintbybasealpha" "1"
+
+"$normalmapalphaenvmapmask" 1
+"$phong" "1"
+"$phongBoost" "1"
+"$phongExponent" "30"
+"$phongfresnelranges" "[0.8 0.8 1]"
+"$phongalbedotint" "1"
+"$phongtint" "[.9 1 1]"
+"$phongdisablehalflambert" "1"
+
+$AlphaTest 1
+$AlphaTestReference ".3"
+$nocull 1
+$model 1 
+
+$vertexfog 1
+
+
+}

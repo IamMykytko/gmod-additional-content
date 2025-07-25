@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models\props\de_dust\hr_dust\dust_detruis_sacks\dust_detruis_sacks_02_color"
+	"$tintmasktexture"	"models\props\de_dust\hr_dust\dust_detruis_sacks\dust_detruis_sacks_02_tint"
+	"$bumpmap" 			"models\props\de_dust\hr_dust\dust_detruis_sacks\dust_detruis_sacks_02_normal"
+}

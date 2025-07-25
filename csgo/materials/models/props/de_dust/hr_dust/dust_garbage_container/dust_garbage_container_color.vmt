@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\dust_garbage_container\dust_garbage_container_color"
+
+	"$tintmasktexture"	"models\props\de_dust\hr_dust\dust_garbage_container\dust_garbage_container_tint"
+
+	"$detail"						"models\props\de_dust\hr_dust\dust_detail\dust_detail_metal_01"
+	"$detailscale"				"[8 4]"
+	"$detailblendfactor" 		"1"
+
+	"$surfaceprop" 			"metal"
+
+}

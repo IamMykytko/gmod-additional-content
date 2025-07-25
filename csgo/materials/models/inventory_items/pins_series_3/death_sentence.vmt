@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\pins_series_3\death_sentence"
+	"$bumpmap"			"models\inventory_items\pins_series_3\death_sentence_normal"
+	"$phongexponenttexture" 	"models\inventory_items\pins_series_3\death_sentence_exponent"
+
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmapcontrast" "50"
+	"$envmapsaturation" "0.5"
+	"$envmaptint" "[0.4 0.4 0.4]"
+	"$envmapfresnel" "1"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" 550
+
+	"$phongboost" "2.5"
+	"$phongfresnelranges" "[.3 .8 1]"
+
+
+	"$phongdisablehalflambert" "1"
+	
+	"$color2" "[0.8 0.8 0.8]"
+
+}
+

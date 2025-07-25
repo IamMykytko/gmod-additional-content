@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\dust_overlay_cards\crates_dishes_color"
+	"$AlphaTest" "1"
+	"$AlphaTestReference" ".5"
+//	"$translucent"	"1"
+	"$nocull"	"1"
+
+
+}

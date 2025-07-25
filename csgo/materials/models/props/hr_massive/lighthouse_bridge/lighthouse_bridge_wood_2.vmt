@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\lighthouse_bridge\lighthouse_bridge_wood"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "models\props\hr_massive\lighthouse_bridge\lighthouse_bridge_wood_normal"
+
+	"$detail" 				"models\props\hr_massive\lighthouse_bridge\lighthouse_bridge_wood_2_detail"
+	"$detailscale" 			"[.5 .5]"
+	"$detailblendfactor" 	"1.3"
+
+}

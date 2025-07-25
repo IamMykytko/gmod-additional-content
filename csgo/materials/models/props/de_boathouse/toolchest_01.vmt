@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_boathouse/Toolchest_01"
+	"$Envmap" "env_cubemap"
+	"$EnvmapMask" "models\props\de_boathouse/Toolchest_01_ref"
+}

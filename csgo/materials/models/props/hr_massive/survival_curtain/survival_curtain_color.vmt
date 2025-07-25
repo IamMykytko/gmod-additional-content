@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_curtain\survival_curtain_color"
+
+	"$tintmasktexture"	"models\props\hr_massive\survival_curtain\survival_curtain_tint"
+
+}

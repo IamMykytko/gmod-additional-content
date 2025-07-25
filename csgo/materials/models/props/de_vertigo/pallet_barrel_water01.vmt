@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_vertigo/Pallet_Barrel_Water01"
+//	"$envmap" "env_cubemap"
+//	"$envmapmask" "models/props/de_vertigo/Pallet_Barrel_Water01_REF"
+//	"$envmaptint" "[.5 .5 .5]"
+//	"$envmapcontrast" 	1
+//	"$envmapsaturation" .25
+//	"$bumpmap" "effects/flat_normal" 
+//	"$phong" "1" 
+//	"$phongboost" "1" 
+//	"$phongexponent" "10" 
+//	"$BASEMAPLUMINANCEPHONGMASK" "1"
+//	"$phongfresnelranges" "[.1 .1 .1]"
+//	"$rimlight" "1"
+}

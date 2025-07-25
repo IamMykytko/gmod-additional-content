@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\ar_lunacy\moon_habitat\habitat_window_color"
+	"$envmapmask"  "models\props\ar_lunacy\moon_habitat\habitat_window_mask"
+
+	"$envmap"	"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+	
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" "[0 1]"
+
+	"$envmapcontrast"		"0.4"
+
+
+	"$surfaceprop" 			"metal"
+
+
+}

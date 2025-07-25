@@ -1,0 +1,36 @@
+Unlitgeneric
+{
+	$basetexture models\props\holiday_light\holiday_light
+	$frame 0
+	
+	$instancerandom 0
+	$modulovalue 5
+	
+	Proxies
+	{
+		EntityRandom
+		{
+			scale 5
+			resultVar "$instancerandom"
+		}
+		AnimatedTexture
+		{
+			animatedtexturevar "$basetexture"
+			animatedtextureframenumvar "$frame"
+			animatedtextureframerate 1
+		}
+		Add
+		{
+			srcVar1 "$frame"
+			srcVar2 "$instancerandom"
+			resultVar "$frame"
+		}
+		Modulo
+		{
+			srcVar1 "$frame"
+			srcVar2 "$modulovalue"
+			resultVar "$frame"
+		}
+	}
+	
+}

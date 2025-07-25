@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+
+	"$basetexture" "models\props\de_inferno\hr_i\bush_a\bush.vtf"
+	//"$bumpmap"  "models\props\de_inferno\hr_i\concrete_bags\concrete_bags_normals.vtf"
+
+
+	"$detail" 				"models\props\de_inferno\hr_i\concrete_bags\concrete_bags_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	".7"
+	"$detailblendmode" 0
+
+}

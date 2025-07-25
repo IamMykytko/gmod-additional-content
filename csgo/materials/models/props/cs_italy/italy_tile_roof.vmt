@@ -1,0 +1,7 @@
+"vertexlitGeneric"
+{
+	$baseTexture "models/props/cs_italy/italy_tile_roof"
+	"%keywords" "cstrike"
+	$surfaceprop "metal"
+	$bumpmap "models/props/cs_italy/italy_tile_roof_normal"
+}

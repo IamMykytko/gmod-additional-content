@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "hr_massive\wood_planks_4"
+	"$bumpmap" "hr_massive\wood_planks_4_normal"
+
+	"$detail"                 "models/props/hr_massive/boardwalk_fence/boardwalk_fence_detail"
+	"$detailscale"            "[1 1]"
+	"$detailblendfactor"      "1"
+
+
+}

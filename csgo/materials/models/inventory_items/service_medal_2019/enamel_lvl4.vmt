@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$basetexture"              "models/inventory_items/service_medal_2019/service_medal_2019_lvl4"
+	"$bumpmap"                  "models/inventory_items/service_medal_2019/service_medal_2019_normal"
+	"$envmap"                   "editor/cube_vertigo"
+	"$envmaptint"				"[.05 .05 .05]"
+	"$envmapcontrast"           "1.2"
+	"$envmapfresnel"            ".6"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong"                    "1"
+	"$phongboost"               "1"
+	"$phongexponent"			"2048"
+	"$phongfresnelranges"       "[.7 .8 1]"
+	"$phongalbedoboost"         "120"
+	"$phongdisablehalflambert"  "1"
+}

@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_inferno\hr_i\inferno_window_guard\inferno_window_guard_color"
+	$AlphaTest 1
+	$AlphaTestReference ".3"
+	"$allowalphatocoverage"	".5"
+//	$nocull 1
+	$model 1
+        "$surfaceprop" 		"metal"
+
+}

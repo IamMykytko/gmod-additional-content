@@ -1,0 +1,28 @@
+VertexLitGeneric
+{
+
+	"$baseTexture" "models\props\de_inferno\hr_i\parachute_a\parachute_a.vtf"
+	"$surfaceprop" 			"cloth"
+	"$bumpmap" "models\props\de_inferno\hr_i\parachute_a\parachute_a_normals.vtf"
+	"$blendtintbybasealpha"	"1"
+
+	"$detail" 				"detail\dt_fabric2"
+	"$detailscale" 			"[12 12 12]"
+	"$detailblendfactor" 	".5"
+	"$envmap"			"env_cubemap"
+	"$nocull" "1"
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongalbedoboost" "5"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 35
+	
+
+
+	"$envmaptint" 		"[.1 .1 .1]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+	
+
+}

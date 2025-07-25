@@ -1,0 +1,29 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\standing_rock_1\standing_rock_1"
+	"$bumpmap" "models\props\hr_massive\standing_rock_1\standing_rock_1_normal"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+//	"$detail" 				"detail\dt_walltexture01"
+//	"$detail" 				"detail\dt_stone2"
+//	"$detail" 				"detail\noise_detail_01"
+
+//	"$detail" 				"detail\dt_texture01"
+//	"$detailscale" 			"[18 9]"
+//	"$detailblendfactor" 	"1.3"
+//	"$detailblendmode" "0"
+
+	"$tintmasktexture"	"models\props\hr_massive\standing_rock_1\standing_rock_1_tint"
+
+	"$detail" 				"detail\detail_rock001"
+	"$detailscale" 			"[5 2.5]"
+	"$detailblendfactor" 	".95"
+	"$detailblendmode" "0"
+	"$surfaceprop" 			"rock"
+
+
+}

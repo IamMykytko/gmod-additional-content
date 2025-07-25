@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\store_front\store_front.vtf"
+		"$basetexturetransform" "center .5 .5 scale 6 6 rotate 0 translate 0 0" 
+	"$surfaceprop" 			"wood"
+
+	"$basealphaenvmapmask"	"1"
+	"$detail" 				"models\props\de_inferno\hr_i\store_front\store_front_a_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	".6"
+	"$blendtintbybasealpha" 1
+	
+}

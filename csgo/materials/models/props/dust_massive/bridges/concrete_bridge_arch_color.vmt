@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\props\dust_massive\bridges\concrete_bridge_arch_color"
+	     
+	"$surfaceprop" 			"rock"
+
+}

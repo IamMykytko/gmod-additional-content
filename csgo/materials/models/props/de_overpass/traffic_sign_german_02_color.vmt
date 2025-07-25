@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_overpass/traffic_sign_german_02_color"
+	"$surfaceprop" "metal"
+	"$detail" 	"detail\noise_detail_01"
+	"$detailscale" 			"[ 4 4 ]"
+	"$detailblendfactor" 	"0.2"
+
+}

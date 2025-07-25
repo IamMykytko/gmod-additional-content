@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_inferno\confessional_new_color"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\de_inferno\confessional_new_ref"
+	"$envmapcontrast" "0.51"
+
+	"$surfaceprop" "brick"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	"0.3"
+
+}

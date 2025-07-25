@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"              "metal/hr_metal/hr_metal_duct_001_color"
+	"$srgbtint"                 "[1.5 1.5 1.5]"
+	"$bumpmap"                  "metal/hr_metal/hr_metal_duct_001_normals"
+	"$surfaceprop"              "metalvent"
+	"$detailscale"              "4"
+	"$detailblendfactor"        "2.45"
+	"$envmap"                   "environment maps/metal_generic_003"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint"               "[.35 .33 .31]"
+}

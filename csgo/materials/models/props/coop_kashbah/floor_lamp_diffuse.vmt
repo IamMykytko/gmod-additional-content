@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_kashbah\floor_lamp_diffuse"
+
+	"$selfillum" 	"1"
+	
+	
+	"$envmapmask"			"models\props\coop_kashbah\floor_lamp_mask"
+	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+	
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+	"$envmapcontrast" 		".8"
+
+
+
+}

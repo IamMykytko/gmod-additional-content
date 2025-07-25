@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$basetexture" "tile/hr_t/inferno/roofing_tile_a"
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[5 5]"
+	"$detailblendfactor" 	".9"
+	
+
+
+
+}

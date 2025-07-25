@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_overpass/playground_sign_color"
+	"$surfaceprop" "metal"
+	"$detail" 	"detail\noise_detail_01"
+	"$detailscale" 			"[ 4 4 ]"
+	"$detailblendfactor" 	"0.2"
+
+}

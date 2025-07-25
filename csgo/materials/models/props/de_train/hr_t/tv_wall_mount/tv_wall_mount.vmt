@@ -1,0 +1,32 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\tv_wall_mount\tv_wall_mount.vtf"
+
+$bumpmap "models\props\de_train\hr_t\tv_wall_mount\tv_wall_mount_normals.vtf"
+	"$phong" "1"
+	"$phongboost" "6"
+	"$phongalbedoboost" "30"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 180
+	$blendtintbybasealpha 1
+	
+
+ "$normalmapalphaenvmapmask" 1
+
+
+	"$detail" 				"detail\metal_detail_01"
+	"$detailscale" 			"[6 6 6]"
+	"$detailblendfactor" 	"1"
+
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[.3 .3 .3]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+
+
+}

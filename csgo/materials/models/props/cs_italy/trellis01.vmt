@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+
+{
+// Original shader: BaseTextureAlphaBlend
+$baseTexture "models\props\cs_italy\trellis01"
+$AlphaTest 1
+$AlphaTestReference ".3"
+$nocull 1
+$model 1
+$FlashlightNoLambert 1
+"%keywords" l4d2
+
+}

@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_arches\dust_arch_01_color"
+    "$bumpmap" 				"models\props\de_dust\hr_dust\dust_arches\dust_arch_01_normal"
+	"$surfaceprop" 			"concrete"
+		"$phong" "1"
+		"$phongexponent" "5"
+		"$phongalbedotint" "0"
+		"$phongtint" "[.05 .05 .05]"
+		"$phongdisablehalflambert" "1"
+		"$phongboost" "0"
+
+}

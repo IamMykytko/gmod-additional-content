@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_vertigo\vertigo_tools\toolbox_small_color"
+
+	
+	"$envmapmask"	"models\props\hr_vertigo\vertigo_tools\toolbox_small_mask"
+//	"$envmap"	"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+	"$envmap" 	"env_cubemap"
+
+
+	
+	
+	
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+	"$envmapcontrast" 		"1.1"
+//	"$envmaptint" 		"[.7 .7 .7]"
+
+
+}

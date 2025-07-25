@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "concrete/concrete_ext_02"
+	"$surfaceprop" "concrete"
+	"$color2"	"[.9 .9 .9]"
+
+
+//      "$bumpmap"      "Dev\dev_normal"
+//        "$surfaceprop" "metal"
+        "$model"        "1"
+
+
+//        "$phong" "1"
+//        "$phongexponent" "30"
+//        "$phongboost"   "2"
+
+        
+	
+}

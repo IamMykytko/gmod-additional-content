@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_cbble\ornate_door_a\metal_a.vtf"
+	"$surfaceprop" 			"metal"
+	$basealphaenvmapmask 1
+	//"$envmapmask"			"models\props\de_inferno\hr_i\door_a\door_a_env.vtf"
+	"$fresnelreflection" ".2"		
+	"$envmaptint" 		"[.9 .9 .9]"
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[5 5 5]"
+	"$detailblendfactor" 	"1"
+	$envmap			env_cubemap
+}

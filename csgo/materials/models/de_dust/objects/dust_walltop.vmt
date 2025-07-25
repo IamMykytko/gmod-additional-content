@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/de_dust/objects/dust_walltop"
+	"$surfaceprop" "rock"
+
+}

@@ -1,0 +1,20 @@
+// ### This basic VMT was written based on the H:\dev\ivan\ValveGames\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/de_venice/venice_shoe_shop/shoe_shop_counter_color.vtf"
+	"$detail"					"models\props\de_nuke\hr_nuke\metal_crate_001\metal_crate_001_detail"
+	"$detailscale"				"[12 10]"
+	"$detailblendfactor" 		".6"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+	
+	"$envmap"		"env_cubemap"
+	"$envmapmask" 		"models\props\de_venice\venice_shoe_shop\shoe_shop_counter_mask"
+//	"$envmap" 			"environment maps\metal_generic_006"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+//	"$envmaptint" 		"[.7 .7 .7]"
+	"$envmapcontrast" 	".8"
+
+}
+

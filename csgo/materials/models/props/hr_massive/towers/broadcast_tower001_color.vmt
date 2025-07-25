@@ -1,0 +1,6 @@
+// ### This basic VMT was written based on the e:\valvegames\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/hr_massive/towers/broadcast_tower001_color.vtf"
+	"$surfaceprop" 			"metal"
+}

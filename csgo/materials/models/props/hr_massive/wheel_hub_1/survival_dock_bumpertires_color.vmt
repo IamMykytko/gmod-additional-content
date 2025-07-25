@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_massive\survival_dock_bumpertires\survival_dock_bumpertires_color"
+	"$bumpmap" 	"models\props\hr_massive\survival_dock_bumpertires\survival_dock_bumpertires_normal"
+
+	"$nodecal" "1"
+
+
+}

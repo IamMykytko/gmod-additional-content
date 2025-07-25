@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/props/de_dust/dust_aid_crate_tethers"
+	$AlphaTest 1
+	$nocull 1
+	$model 1
+	$FlashlightNoLambert 1
+}

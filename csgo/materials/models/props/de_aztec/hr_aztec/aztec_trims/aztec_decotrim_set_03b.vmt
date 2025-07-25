@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	"$baseTexture" 		"models\props\de_aztec\hr_aztec\aztec_trims\aztec_decotrim_set_03_color"
+	"$bumpmap" 			"models\props\de_aztec\hr_aztec\aztec_trims\aztec_decotrim_set_03_normal"
+
+	"$surfaceprop" 			"metal"
+	"$phong" "1"
+	"$phongexponent" "45"
+	"$phongalbedotint" "1"
+	"$phongtint" "[.13 .13 .1]"
+	"$phongdisablehalflambert" "1"
+	"$phongboost" "1"
+                                                          
+	"%keywords" "wall,metal,chain,aztec" 	
+}

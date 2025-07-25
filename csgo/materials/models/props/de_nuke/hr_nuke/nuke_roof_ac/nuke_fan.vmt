@@ -1,0 +1,26 @@
+"vertexlitgeneric"
+{
+	"$basetexture"          "models/props/de_nuke/hr_nuke/nuke_roof_ac/nuke_fan_001_color"
+	"$alphatest"            "1"
+	"$allowalphatocoverage" "1"
+	"$alphatestreference"   "0.3"
+	"$angle"                0.0
+	"$translate"            "[0.0 0.0]"
+	"$center"               "[.5 .5]"
+	"proxies"
+	{
+		"linearramp"
+		{
+			"rate"                  500
+			"initialvalue"          0.0
+			"resultvar"             "$angle"
+		}
+		"texturetransform"
+		{
+			"translatevar"          "$translate"
+			"rotatevar"             "$angle"
+			"centervar"             "$center"
+			"resultvar"             "$basetexturetransform"
+		}
+	}
+}

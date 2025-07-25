@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\props\de_dust\hr_dust\dust_patio_set\dust_patio_umbrella_color"
+	"$tintmasktexture"		"models\props\de_dust\hr_dust\dust_patio_set\dust_patio_umbrella_tint"
+
+	"$envmapmaskintintmasktexture"	"1"
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+	"$envmapcontrast" 		".8"
+
+	"$surfaceprop" 			"metal"
+
+}

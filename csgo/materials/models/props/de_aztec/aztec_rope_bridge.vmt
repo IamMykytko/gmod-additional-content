@@ -1,0 +1,6 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_aztec/aztec_rope_bridge"
+	"$surfaceprop" "rock"
+	"$bumpmap" "models/props/de_aztec/aztec_rope_bridge_normal"
+}

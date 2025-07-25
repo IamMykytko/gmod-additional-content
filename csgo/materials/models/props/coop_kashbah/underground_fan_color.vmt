@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_kashbah\underground_fan_color"
+
+	"$envmap" 	"env_cubemap"
+	"$envmapmask"   "models\props\coop_kashbah\underground_fan_color"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+//	"$envmaptint" 		"[.5 .5 .5]"
+
+	"$envmapcontrast" 		".7"
+
+	
+	"$surfaceprop" 			"metal"
+
+
+}

@@ -1,0 +1,17 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models\props\de_venice\gondola_1\gondola_1"
+	"$bumpmap" "models/props/de_venice/gondola_1/gondola_1_normal"
+
+	"$normalmapalphaenvmapmask" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.2 .2 .2]"	
+
+
+        "$phong" "1"
+        "$phongexponent" "8.0"
+	"$phongboost" ".2"
+//        "$phongAmount" "[1 1 1 1]"
+
+}

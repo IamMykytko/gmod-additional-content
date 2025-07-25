@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"black"
+	"$bumpmap"				"models\inventory_items\trophy_majors\matte_metal_normal"
+	"$additive" 1
+
+	
+		"$envmap"		"Editor\cube_vertigo"
+	"$envmapcontrast" "16"
+	"$envmaptint" "[.2 .2 .2]"
+	"$envmapsaturation" "[.5 .5 .5]"
+	"$envmapfresnel" "1"
+	//"$basemapalphaenvmapmask" "1"
+	"$normalmapalphaenvmapmask" 1
+
+	"$phong" "1"
+
+	"$phongfresnelranges" "[.1 .4 1]"
+
+	"$phongboost" "20"
+	"$phongtint" "[.8 .9 1]"
+	"$phongexponent" 3000
+	
+
+	"$phongdisablehalflambert" "1"
+}

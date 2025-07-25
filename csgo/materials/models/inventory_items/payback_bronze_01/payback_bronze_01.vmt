@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\payback_bronze_01\payback_bronze_01"
+	"$bumpmap"				"models\inventory_items\payback_gold_01\payback_gold_01_normal"
+	"$phongexponenttexture" "models\inventory_items\payback_gold_01\payback_gold_01_exponent"
+	
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmapcontrast" "1.2"
+	"$envmaptint" "[.12 .13 .08]"
+	"$envmapfresnel" ".6"
+	//"$basemapalphaenvmapmask" "1"
+	"$normalmapalphaenvmapmask" 1
+
+	"$phong" "1"
+
+	"$phongboost" "0.01"
+	"$phongfresnelranges" "[.7 .8 1]"
+
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "400"
+
+	"$phongdisablehalflambert" "1"
+	
+}
+

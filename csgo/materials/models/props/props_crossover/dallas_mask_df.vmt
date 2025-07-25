@@ -1,0 +1,7 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/props_crossover/dallas_mask_df"
+	"$bumpmap"	"models/props/props_crossover/dallas_mask_nm"
+	//"$translucent" "1"
+	//"$alphatest" "1"
+}

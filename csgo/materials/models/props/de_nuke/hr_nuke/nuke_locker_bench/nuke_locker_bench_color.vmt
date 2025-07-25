@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_locker_bench/nuke_locker_bench_color"
+	"$blendtintbybasealpha"   "1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 .4]"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_locker_bench/nuke_locker_bench_color"
+	"$surfaceprop"            "metal"
+}

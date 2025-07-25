@@ -1,0 +1,20 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/props_utilities/hr_wall_cables_color"
+	"$surfaceprop" "metal"
+
+	"$blendtintbybasealpha" "1"
+
+	
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props/props_utilities/hr_wall_cables_mask"
+	"$envmapcontrast" "0.2"
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[4 4 4]"
+	"$detailblendfactor" 	"1"
+	
+
+	
+	
+}

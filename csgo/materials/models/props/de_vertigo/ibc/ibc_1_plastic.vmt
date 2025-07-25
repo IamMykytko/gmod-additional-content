@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\de_vertigo\ibc\ibc_1_plastic"
+
+	"$blendTintByBaseAlpha" "1"
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongtint" "[.5 .5 .5]"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "models\props\de_vertigo\ibc\ibc_1_plastic_normal"
+
+
+"$detail" 				"detail\dt_smooth1"
+"$detailscale" 			"[24 12]"
+"$detailblendfactor" 	"1.5"
+
+
+}

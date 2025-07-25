@@ -1,0 +1,60 @@
+"character"
+{
+	"$basetexture"            "models/player/custom_player/econ/body/tm_jumpsuit/jumpsuit_body_color"
+	"$bumpmap"                "models/player/custom_player/econ/body/tm_jumpsuit/jumpsuit_body_normal"
+	"$masks1"                 "models/player/custom_player/econ/body/tm_jumpsuit/jumpsuit_body_masks1"
+	"$masks2"                 "models/player/custom_player/econ/body/tm_jumpsuit/jumpsuit_body_masks2"
+	"$phongwarptexture"       "models/player/custom_player/shared/ctm_specwarp_v2"
+	"$fresnelrangestexture"   "models/player/custom_player/shared/ctm_fresnelwarp_v2"
+	"$fresnelranges"          "[1 1 1]"
+	"$anisotropyamount"       "0.7"
+	"$phongboost"             "1"
+	"$phongalbedoboost"       "1"
+	"$phongexponent"          "20"
+	"$rimlightexponent"       "4"
+	"$rimlightboost"          "1"
+	"$rimlightalbedo"         "0.0"
+	"$fakerimtint"            "[0.5 0.7 1]"
+	"$fakerimboost"           "9"
+	"$shadowsaturation"       "0.27"
+	"$shadowsaturationbounds" "[-1 0 0.2 1.5]"
+	"$shadowcontrast"         "0.4"
+	"$shadowtint"             "[0 0.5 1 0.2]"
+	"$ambientreflectionboost" "0.2"
+	"$model"                  "1"
+	"$hueshiftamount"         "0"
+	"$teammatehueshift"       "0.5"
+	"$teammatevar"            "0"
+	"proxies"
+	{
+		"survivalteammate"
+		{
+			"resultvar"               "$teammatevar"
+		}
+		"multiply"
+		{
+			"srcvar1"                 "$teammatevar"
+			"srcvar2"                 "$teammatehueshift"
+			"resultvar"               "$hueshiftamount"
+		}
+	}
+
+	// character patch data
+	"$econ_patches_enabled" 1
+	"$decal0coordx" "-0.305000"
+	"$decal0coordy" "0.095000"
+	"$decal0scale" "8.902370"
+	"$decal0camerapreset" "chest"
+	"$decal1coordx" "-0.360000"
+	"$decal1coordy" "-0.080000"
+	"$decal1scale" "13.779392"
+	"$decal1camerapreset" "leftarm"
+	"$decal2coordx" "0.186000"
+	"$decal2coordy" "0.210000"
+	"$decal2scale" "8.504589"
+	"$decal2camerapreset" "back"
+	"DecalFindReplaceValue"
+	{
+		"@teamctt@"  "t"
+	}
+}

@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$color"         "0"
+	"$translucent"   "1"
+	"$additive"      "1"
+	"$envmap"        "editor/cube_vertigo"
+	"$envmapfresnel" "1"
+}

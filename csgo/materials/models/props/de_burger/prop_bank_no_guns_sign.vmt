@@ -1,0 +1,5 @@
+// ### This basic VMT was written based on the D:\delete me\tools\python\templateStrings.py script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/de_burger/prop_bank_no_guns_sign.vtf"
+}

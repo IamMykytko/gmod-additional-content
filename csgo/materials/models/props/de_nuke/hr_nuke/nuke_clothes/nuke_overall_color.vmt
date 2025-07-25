@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	"$basetexture"          "models/props/de_nuke/hr_nuke/nuke_clothes/nuke_overall_color"
+	"$bumpmap"              "models/props/de_nuke/hr_nuke/nuke_clothes/nuke_overall_normal"
+	"$blendtintbybasealpha" "1"
+	"$envmap"               "environment maps/metal_generic_003"
+	"$envmapcontrast"       "1"
+	"$envmaptint"           "[.5 .5 .5]"
+}

@@ -1,0 +1,7 @@
+vertexlitgeneric
+{
+	"$basetexture"          "models/props/de_nuke/hr_nuke/nuke_cooling_tower/nuke_cooling_tower_color"
+	"$alphatest"            1
+	"$alphatestreference"   ".3"
+	"$allowalphatocoverage" "1"
+}

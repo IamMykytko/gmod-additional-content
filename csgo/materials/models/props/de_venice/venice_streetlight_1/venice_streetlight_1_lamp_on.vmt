@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\venice_streetlight_1\venice_streetlight_1_lamp_on"
+
+//	"$bumpmap" "models\props\de_venice\venice_streetlight_1\venice_streetlight_1_lamp_normal"
+//	"$phongexponent" "1"
+//	"$phongtint" "[1 1 1]"
+//	"$phongboost" "18"
+//	"$phongfresnelranges" "[0 0.5 1]"
+
+	"$selfillum" "1"
+	"$selfillummask" "models\props\de_venice\venice_streetlight_1\venice_streetlight_1_lamp_on_selfillum"
+
+	$nodecal 1
+
+
+}

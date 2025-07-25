@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props/gg_vietnam/palm_treeline01"
+	//"$translucent" 1
+	"$alphatest" 1
+	"$model" 1
+	"$nocull" 1
+	"$surfaceprop" "grass"
+
+	"$DISABLECSMLOOKUP" "1"
+}

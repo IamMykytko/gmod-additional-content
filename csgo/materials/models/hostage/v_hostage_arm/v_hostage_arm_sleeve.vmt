@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\hostage\v_hostage_arm\v_hostage_arm_sleeve"
+	"$bumpmap" "models\hostage\v_hostage_arm\v_hostage_arm_sleeve_normal"
+	"$phongexponenttexture" "models\hostage\v_hostage_arm\v_hostage_arm_sleeve_exp"
+	"$phong" "1"
+	"$phongdisablehalflambert" "1"
+	"$phongBoost" ".8"
+	"$phongalbedotint" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "16"
+	"$rimlightboost" "1"
+	"$rimmask" "1"
+	"$phongfresnelranges" "[0.3 0.7 1]"
+	"$phongTint" "[0.95 0.95 1.0]"
+}

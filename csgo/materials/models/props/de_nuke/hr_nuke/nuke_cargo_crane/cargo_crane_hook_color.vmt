@@ -1,0 +1,5 @@
+vertexlitgeneric
+{
+	"$basetexture" "models/props/de_nuke/hr_nuke/nuke_cargo_crane/cargo_crane_hook_color"
+	"$surfaceprop" "metal"
+}

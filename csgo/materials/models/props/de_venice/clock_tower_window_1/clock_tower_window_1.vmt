@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+"$basetexture" "models\props\de_venice\clock_tower_window_1\clock_tower_window_1"
+
+
+	"$bumpmap" "models\props\de_venice\clock_tower_window_1\clock_tower_window_1_normal"
+$envmap env_cubemap
+//$envmapmask "models\props\de_venice\clock_tower_window_1\clock_tower_window_1_envmap"
+$envmapsaturation ".8"
+//$envmapcontrast ".5"
+$envmaptint "[.65 .70 .80]"
+
+$normalmapalphaenvmapmask 1
+
+
+
+//                "$detail"                                                              "detail\plaster_detail_01"
+//                "$detailscale"                                    "[8 8 8]"
+//                "$detailblendfactor"       ".8"
+
+                                
+
+
+
+
+}

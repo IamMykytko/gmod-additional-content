@@ -1,0 +1,12 @@
+"patch"
+{
+	"include" "materials/models/player/tm_separatist/tm_separatist_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_separatist\tm_separatist_upperbody"
+	"$bumpmap" "models\player\tm_separatist\tm_separatist_upperbody_normal"
+
+	"$phongexponenttexture" "models\player\tm_separatist\tm_separatist_upperbody_exponent"
+	"$rimmask" "1"
+	}	
+}

@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_bell_light_color"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "2"
+	"$selfillum"              "1"
+	"$selfillumtint"          "[5 5 5]"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_bell_light_color"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2]"
+	"$envmapcontrast"         "0.5"
+}

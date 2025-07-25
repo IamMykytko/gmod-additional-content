@@ -1,0 +1,12 @@
+"patch"
+{
+	"include" "materials/models/player/ct_gign/ctm_gign_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\ct_gign\ctm_gign_upperbody_variantD"
+	"$bumpmap" "models\player\ct_gign\ctm_gign_upperbody_normal"
+	
+	"$phongexponenttexture" "models\player\ct_gign\ctm_gign_upperbody_exponent"
+	"$rimmask" "1"
+	}	
+}

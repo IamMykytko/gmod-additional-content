@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/coop_cementplant/coop_weapon_rack/coop_weapon_rack_color"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1]"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[2 2 2]"
+	"$detailblendfactor"      "1"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapmask"             "models/props/coop_cementplant/coop_weapon_rack/coop_weapon_rack_mask"
+	"$envmapcontrast"         ".2"
+}

@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture"              "models/inventory_items/op10/op10_color"
+	"$bumpmap"                  "models/inventory_items/op10/op10_normal"
+	"$phongexponenttexture"     "models/inventory_items/op10/op10_exponent"
+	"$envmap"                   "editor/cube_vertigo_blurred_hdr"
+	"$envmaptint"               "16"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong"                    "1"
+	"$phongalbedotint"          "1"
+	"$phongalbedoboost"         "4"
+}

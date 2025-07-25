@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\steps_b\steps_b"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0" 
+	$detailblendmode 0
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[8 8 8]"
+	"$detailblendfactor" 	".8"
+	
+}

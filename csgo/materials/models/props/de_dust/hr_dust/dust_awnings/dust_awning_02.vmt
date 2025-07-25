@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\props\de_dust\hr_dust\dust_awnings\dust_awning_02_color"
+    "$bumpmap" 			"models\props\de_dust\hr_dust\dust_awnings\dust_awning_02_normal"
+	"$tintmasktexture"	"models\props\de_dust\hr_dust\dust_awnings\dust_awning_02_tint"
+	"$surfaceprop" 		"Wood_Panel"
+}

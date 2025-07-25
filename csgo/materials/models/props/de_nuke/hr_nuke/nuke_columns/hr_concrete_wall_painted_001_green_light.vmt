@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture"       "concrete/hr_c/hr_concrete_wall_painted_001_color"
+	"$bumpmap"           "concrete/hr_c/hr_concrete_wall_painted_001_normals"
+	"$envmap"            "environment maps/metal_generic_001"
+	"$envmapcontrast"    ".2"
+	"$envmaptint"        "[.15 .17 .15]"
+	"$detail"            "concrete/hr_c/hr_concrete_wall_painted_002_detail"
+	"$detailscale"       ".24"
+	"$detailblendfactor" ".5"
+	"$srgbtint"          "{209 223 176}"
+}

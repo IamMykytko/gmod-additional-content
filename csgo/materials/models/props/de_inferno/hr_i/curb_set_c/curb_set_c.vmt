@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+$baseTexture "concrete/hr_c/inferno/concrete_b"
+"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0" 
+"$bumpmap"  "models\props\de_inferno\hr_i\curb_set_c\curb_set_c_normals.vtf"
+
+$surfaceprop concrete
+
+//$phong 1
+//$phongboost .6
+//$phongexponent			2
+
+$normalmapalphaenvmapmask 1
+"$envmap" "env_cubemap"
+"$envmaptint" 		"[.2 .2 .2]"	
+
+"$detail" 				"models\props\de_inferno\hr_i\curb_set_c\curb_set_c_ao.vtf"
+"$detailscale" 		"[1 1]"
+"$detailblendfactor" 	"1"
+
+}
+

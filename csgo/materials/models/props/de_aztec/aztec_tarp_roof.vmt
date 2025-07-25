@@ -1,0 +1,16 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_aztec/aztec_tarp_roof"
+	"$surfaceprop" "plastic"
+
+//	"$envmap" "env_cubemap"
+
+//	"$basealphaenvmapmask" "1"
+//	"$envmapcontrast" 1
+
+//	"$envmaplightscale" .6
+
+
+	
+	
+}

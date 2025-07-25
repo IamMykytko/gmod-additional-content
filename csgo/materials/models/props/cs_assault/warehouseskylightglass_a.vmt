@@ -1,0 +1,19 @@
+
+"VertexLitGeneric"
+{
+	   "$basetexture"	"models\props\cs_assault\warehouseSkylightGlass"
+	    $translucent 1
+
+	 // Suraface type
+	    $surfaceprop "glass"
+
+
+	 // add phong specularity
+	    $envmap "env_cubemap"
+	 // $envmapmask "models/props/de_vertigo/fencePost_constructionMetal_01_ref.vtf"
+	    $envmapcontrast	"1"
+            $envmapsaturation	"1"
+	    $envmaptint		"[1 1 1]"
+
+}
+

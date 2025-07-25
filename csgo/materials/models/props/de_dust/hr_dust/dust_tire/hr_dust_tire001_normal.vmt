@@ -1,0 +1,5 @@
+// ### This basic VMT was written based on the e:\valvegames\tools\python\templateStrings.py script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/de_dust/hr_dust/dust_tire/hr_dust_tire001_normal.vtf"
+}

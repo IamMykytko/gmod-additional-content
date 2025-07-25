@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props/cs_italy/hpe_italy_pipe_wall"
+	"%keywords" "cstrike"
+	"$surfaceprop" "metal"
+}

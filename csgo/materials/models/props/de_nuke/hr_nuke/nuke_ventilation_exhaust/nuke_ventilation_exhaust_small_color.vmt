@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_ventilation_exhaust/nuke_ventilation_exhaust_small_color"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "2.27"
+	"$detailblendfactor"      "1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 0.5]"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_ventilation_exhaust/nuke_ventilation_exhaust_small_color"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$envmapcontrast"         ".2"
+	"$surfaceprop"            "metal"
+}

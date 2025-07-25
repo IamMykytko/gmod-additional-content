@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/ar_lunacy/moon_bigdome/moon_bigdome_subframe"
+	"$surfaceprop" "metal"
+
+}

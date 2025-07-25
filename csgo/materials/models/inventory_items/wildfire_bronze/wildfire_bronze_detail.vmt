@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$basetexture"             "models/inventory_items/wildfire_bronze/wildfire_bronze_detail"
+	"$bumpmap"                 "effects/flat_normal"
+	"$phongexponenttexture"    "models/inventory_items/wildfire_bronze/wildfire_detail_exponent"
+	"$envmap"                  "editor/cube_vertigo"
+	"$envmapcontrast"          "16"
+	"$envmaptint"              "[.032 .016 .00]"
+	"$envmapfresnel"           ".6"
+	"$phong"                   "1"
+	"$phongboost"              "0.1"
+	"$phongfresnelranges"      "[.7 .8 1]"
+	"$phongalbedotint"         "1"
+	"$phongalbedoboost"        "60"
+	"$phongdisablehalflambert" "1"
+}

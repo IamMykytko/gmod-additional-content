@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+	"$basetexture"        "models/props/de_nuke/hr_nuke/foliage/cedar_bark_01"
+	"$alphatest"          1
+	"$alphatestreference" ".3"
+	"$model"              1
+	"$surfaceprop"        "wood"
+}

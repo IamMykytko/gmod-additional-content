@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\flower_pots\flower_pot_copper.vtf"
+		"$basetexturetransform" "center .5 .5 scale 4 4 rotate 0 translate 0 0" 
+	"$surfaceprop" 			"tile"
+	"$basealphaenvmapmask"	"1"
+	"$detail" 				"models\props\de_inferno\hr_i\flower_pots\flower_pot_c.vtf"
+	"$detailscale" 			"[1 1]"
+	"$detailblendfactor" 	"1"
+	
+	"$envmaptint" 		"[.3 .3 .3]"
+	$envmap env_cubemap
+			
+}

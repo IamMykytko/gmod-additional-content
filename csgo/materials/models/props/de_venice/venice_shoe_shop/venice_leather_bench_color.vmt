@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\props\de_venice\venice_shoe_shop\venice_leather_bench_color"
+	"$bumpmap" "models\props\de_venice\venice_shoe_shop\venice_leather_bench_normal"
+
+
+	
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+       "$phongBoost" "3"
+        "$phongExponent" "140"
+//        "$phongfresnelranges" "[0.8 0.8 1]"
+	
+
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+"$basetexturetransform" "center 1 1 scale 4 4 rotate 0 translate 30 15" 
+$baseTexture "wood/hr_w/inferno/hr_wood_planks_a"
+"$blendtintbybasealpha" 1
+$surfaceprop wood
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.1 .1 .1]"	
+	"$detail" 				"models\props\de_inferno\hr_i\door_collection\door_d_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	".7"
+}

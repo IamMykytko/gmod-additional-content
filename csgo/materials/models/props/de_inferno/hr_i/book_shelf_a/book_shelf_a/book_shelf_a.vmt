@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\book_shelf_a\book_shelf_a.vtf"
+	
+	"$basetexturetransform" "center .5 .5 scale 4 4 rotate 0 translate 0 0" 
+		"$surfaceprop" "wood"
+
+	"$detail" 				"models\props\de_inferno\hr_i\book_shelf_a\book_shelf_a\book_shelf_a_ao.vtf"
+	"$detailscale" 			"[1 1]"
+	"$detailblendfactor" 	"1"
+	"$detailblendmode" 0
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.5 .5 .5]"
+	"$basealphaenvmapmask" "1"
+}

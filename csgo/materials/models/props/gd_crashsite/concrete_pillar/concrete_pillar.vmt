@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+"$basetexture" concrete\hr_c\hr_conc_i
+
+
+"$basetexturetransform" "center .5 .5 scale 4 4 rotate 0 translate 0 0" 
+	
+
+$surfaceprop concrete
+
+"$detail" 				"models\props\gd_crashsite\concrete_pillar\concrete_pillar_ao"
+
+
+"$detailscale" 			"[1 1 1]"
+"$detailblendfactor" 	"1.1"
+
+	
+}

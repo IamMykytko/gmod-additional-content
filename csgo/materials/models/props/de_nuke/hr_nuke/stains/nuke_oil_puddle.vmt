@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	"$basetexture"      "models/props/de_nuke/hr_nuke/stains/nuke_oil_puddle"
+	"$translucent"      "1"
+	"$envmaplightscale" "1"
+	"$envmapcontrast"   ".5"
+	"$envmap"           "env_cubemap"
+	"$surfaceprop"      "water"
+}

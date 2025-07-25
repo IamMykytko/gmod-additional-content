@@ -1,0 +1,24 @@
+vertexlitgeneric
+{
+	"$basetexture"                     "models/props/de_nuke/hr_nuke/foliage/cedar_branch_01"
+	"$alphatest"                       1
+	"$alphatestreference"              ".3"
+	"$nocull"                          1
+	"$model"                           1
+	"$surfaceprop"                     "wood"
+	"$treesway"                        "1"
+	"$treeswayheight"                  "100"
+	"$treeswaystartheight"             ".5"
+	"$treeswayradius"                  "200"
+	"$treeswaystartradius"             "0.0"
+	"$treeswayspeed"                   ".2"
+	"$treeswaystrength"                "0.25"
+	"$treeswayscrumblespeed"           "1.2"
+	"$treeswayscrumblestrength"        "0.5"
+	"$treeswayscrumblefrequency"       "2"
+	"$treeswayfalloffexp"              "2"
+	"$treeswayscrumblefalloffexp"      "3"
+	"$treeswayspeedhighwindmultiplier" "0"
+	"$treeswayspeedlerpstart"          "200.0"
+	"$treeswayspeedlerpend"            "600.0"
+}

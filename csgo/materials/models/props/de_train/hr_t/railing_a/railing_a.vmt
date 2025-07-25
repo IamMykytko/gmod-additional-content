@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\railing_a\railing_a.vtf"
+
+//$bumpmap "models\props\de_train\hr_t\railing_arailing_a_normals.vtf"
+	
+	$blendtintbybasealpha 1
+	
+
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[6 6 6]"
+	"$detailblendfactor" 	"1"
+
+		
+
+
+
+
+}

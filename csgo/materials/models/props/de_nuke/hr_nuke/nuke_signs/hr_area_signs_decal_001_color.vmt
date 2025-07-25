@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"            "de_nuke/hr_nuke/hr_area_signs_decal_001_color"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[1.5 3]"
+	"$detailblendfactor"      ".5"
+	"$blendtintbybasealpha"   "1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 .5]"
+	"$surfaceprop"            "metal"
+}

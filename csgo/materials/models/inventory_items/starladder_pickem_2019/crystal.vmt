@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$basetexture"      "white"
+	"$color2"           "[0.1 0.1 0.1]"
+	"$bumpmap"          "models/inventory_items/starladder_pickem_2019/crystal_normal"
+	"$translucent"      "1"
+	"$alpha"            ".45"
+	"$envmap"           "models/effects/crystal_cube_vertigo_hdr"
+	"$envmapcontrast"   "1.25"
+	"$envmaptint"       "[1 1 1]"
+	"$envmapfresnel"    "0"
+	"$envmapsaturation" "1"
+	"$phong"            "1"
+	"$phongboost"       ".22"
+	"$phongexponent"    "512"
+}

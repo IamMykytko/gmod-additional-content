@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\bridge\bridge_road_1"
+
+//	"$bumpmap" "hr_massive\broken_road_1_normal"
+
+//	"$envmap"			"env_cubemap"
+//	"$envmapmask"			"hr_massive\broken_road_1_envmap"
+
+//	"$normalmapalphaenvmapmask" 	"1"  
+//	"$basealphaenvmapmask" 		"1"
+
+//	"$envmaplightscale"		".15"
+//	"$envmaplightscaleminmax" 	"[0 .3]"
+//	"$envmapcontrast"		".8"
+//	"$envmapsaturation"		".1"
+
+
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"					"models\props\de_dust\hr_dust\dust_skybox\hr_dust_skybox_buildings_02"
+	//"GPU>1?$decaltexture"			"models\props\de_dust\hr_dust\dust_skybox\hr_dust_skybox_lighting_01"
+	//"GPU>1?$decalblendmode "		"1"
+	"$surfaceprop" 			"sand"
+}

@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\weapon_crate_a\weapon_crate_a1.vtf"
+	"$bumpmap" "models\props\de_inferno\hr_i\weapon_crate_a\weapon_crate_a_normals.vtf"
+$blendtintbybasealpha 1
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[20 20 20]"
+	"$detailblendfactor" 	".3"
+	"$detailblendmode" 0
+	"$phong" "1"
+	"$phongboost" "4"
+	"$phongalbedoboost" "1"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 30
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[.03 .03 .03]"
+$envmapfresnel 1
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+	
+}

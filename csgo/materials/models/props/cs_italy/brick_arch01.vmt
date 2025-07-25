@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/cs_italy/brick_arch01"
+	"$surfaceprop" "rock"
+	//"$bumpmap" "models/props/cs_italy/brick_arch01_normal"
+}

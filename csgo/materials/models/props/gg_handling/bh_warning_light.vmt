@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/props/gg_handling/bh_warning_light"
+	$transparent 1
+	$nocull 1
+	$alpha 1
+}

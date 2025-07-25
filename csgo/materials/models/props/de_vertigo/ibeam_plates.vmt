@@ -1,0 +1,19 @@
+
+"VertexLitGeneric"
+{
+	   "$basetexture"	"models\props\De_Vertigo\iBeam_plates"
+	    $bumpmap 	        "models\props\De_Vertigo\iBeam_plates_N.vtf"
+
+	 // Suraface type
+	    $surfaceprop "metal"
+ 
+	 // add phong specularity
+	    $basemapalphaphongmask "1"
+	    $phong 1
+	    $phongBoost 6
+	    $phongExponent 60
+	    $phongTint "{196 232 253}" 
+
+
+}
+

@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\contributor_map_tokens\maptoken"
+	"$phongExponentTexture"		"models\inventory_items\contributor_map_tokens\maptoken_exponent"
+	"$bumpmap"				"models\inventory_items\contributor_map_tokens\contributor_normal"
+	
+	//"$envmap"		"env_cubemap"
+	"$envmapcontrast" "1.7"
+	"$envmaptint" "[.15 .14 .05]"
+	"$envmapfresnel" ".5"
+
+	"$phong" "1"
+
+	"$phongfresnelranges" "[.7 .8 1]"
+
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "90"
+
+	"$phongdisablehalflambert" "1"
+}
+

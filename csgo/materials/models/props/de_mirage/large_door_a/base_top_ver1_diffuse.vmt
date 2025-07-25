@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "de_mirage/base/base_top_ver1_diffuse"
+	"$surfaceprop" "stone"
+	//"$nocull" "1"
+	"$bumpmap"	"de_mirage/base/base_top_ver1_normal"
+	//"$phong" "1"
+	//"$phongboost" ".25"
+	//"$phongexponent" "100"
+	
+}

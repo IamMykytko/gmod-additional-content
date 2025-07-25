@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/gg_tibet/vostok_plaster03"
+	"$translucent" 1
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_overpass/dangerous_vehicle_sign_color"
+	"$surfaceprop" "metal"
+	"$detail" 	"detail\noise_detail_01"
+	"$detailscale" 	"[ 6 6 ]"
+	"$detailblendfactor" 	"1"
+
+
+}

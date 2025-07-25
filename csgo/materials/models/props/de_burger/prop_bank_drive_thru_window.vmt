@@ -1,0 +1,11 @@
+// ### This basic VMT was written based on the D:\delete me\tools\python\templateStrings.py script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/de_burger/prop_bank_drive_thru_window.vtf"
+
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1 ]"
+	"$basealphaenvmapmask" "1"
+	
+}

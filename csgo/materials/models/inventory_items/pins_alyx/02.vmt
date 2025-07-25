@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\pins_alyx\02"
+	"$bumpmap"				"models\inventory_items\pins_alyx\02_normal"
+	"$phongexponenttexture" "models\inventory_items\pins_alyx\02_exponent"
+	
+	"$envmap"		"Editor\cube_lookout_hdr"
+	"$envmapcontrast" "50"
+	"$envmapsaturation" "0.5"
+	"$envmaptint" "[0.4 0.4 0.4]"
+	"$envmapfresnel" "1"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" "1"
+
+	"$phongboost" "0.05"
+	"$phongfresnelranges" "[.3 .8 1]"
+
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "500"
+
+	"$phongdisablehalflambert" "1"
+}
+

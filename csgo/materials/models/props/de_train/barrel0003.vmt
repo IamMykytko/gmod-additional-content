@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_train\barrel0003"
+
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	//"$color" "[.2 .2 .2]"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost"	"15"
+	"$phongfresnelranges"	"[.3 .6 4]"
+	"$basealphaenvmapmask" "1"
+	"$basemapalphaphongmask" "1"	
+	"$envmapcontrast" 1
+	"$envmapsaturation" .01
+	"$envmaptint" "[.5 .5 .5 ]"
+	//"$normalmapalphaenvmapmask" 1
+	"$envmaplightscale" .6
+
+}

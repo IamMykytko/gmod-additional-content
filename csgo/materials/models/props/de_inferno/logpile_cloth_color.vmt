@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_inferno\logpile_cloth_color"
+	"$bumpmap"	"models\props\de_inferno\logpile_cloth_normal"
+	
+	"$nocull" "1"
+	"$phong" "1"
+	"$phongboost" "2"
+//	"$phongalbedoboost" "60"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" "31"	 
+	"$normalmapalphaenvmapmask" "1"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	"0.2"
+	
+	"$envmap" "env_cubemap"
+
+//	"$envmaptint" 		"[.4 .4 .4]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+}

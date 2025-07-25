@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_vertigo/De_Vertigo_Skybox01"
+//	"$envmap" "env_cubemap"
+//	"$envmapmask" "models/props/de_vertigo/De_Vertigo_Skybox01_ref"
+//	"$envmapsaturation" "1.5"
+}

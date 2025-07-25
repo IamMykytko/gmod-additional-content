@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+$baseTexture "models\props\de_inferno\hr_i\ground_stone\ground_stone"
+//$bumpmap	"models\props\de_inferno\hr_i\ground_stone\ground_stone_normals"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0" 
+$surfaceprop wood
+
+
+
+
+	
+	//"$detail" 				"models\props\de_inferno\hr_i\gate_b\gate_b_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1"
+}

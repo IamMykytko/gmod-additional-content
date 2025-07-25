@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_lighting\ceiling_lamp_color"
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\hr_massive\survival_lighting\ceiling_lamp_mask"
+	"$envmaptint" "[.4 .4 .4]"
+
+
+
+}

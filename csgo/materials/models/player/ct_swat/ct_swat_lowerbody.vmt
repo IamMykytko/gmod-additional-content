@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/models/player/ct_swat/ct_swat_shared.vmt"
+	"insert"
+	{	
+		"$baseTexture" "models/player/ct_swat/ct_swat_lowerbody"
+		"$bumpMap" "models/player/ct_swat/ct_swat_lowerbody_normal"
+		
+		"$phongexponenttexture" "models/player/ct_swat/ct_swat_lowerbody_exponent"
+		"$rimmask" "1"
+	}	
+}
+

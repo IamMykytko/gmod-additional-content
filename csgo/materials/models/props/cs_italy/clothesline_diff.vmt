@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/cs_italy/ClothesLine_DIFF"
+	"$nodecal" "1"
+}

@@ -1,0 +1,9 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/cs_assault/security_fence01"
+
+        "$alphatest" 1
+
+
+
+}

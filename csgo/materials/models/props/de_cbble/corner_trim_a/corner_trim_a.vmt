@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	//"$basetexture" "de_cbble/stone_alt/brick_a_corner_stone"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	".5"
+	//$bumpmap "de_cbble/stone_alt/brick_a_normal"
+	"$translucent" "1"
+}

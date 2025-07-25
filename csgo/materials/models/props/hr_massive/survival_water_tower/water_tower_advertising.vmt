@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_water_tower\water_tower_advertising"
+
+	$AlphaTest 1
+	$AlphaTestReference ".3"
+	$model 1
+	$FlashlightNoLambert 1
+	"%keywords" l4d2
+
+	"$DISABLECSMLOOKUP" "1"
+}

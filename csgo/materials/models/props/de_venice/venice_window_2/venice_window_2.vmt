@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\venice_window_2\venice_window_2"
+
+	"$bumpmap" "models\props\de_venice\venice_window_2\venice_window_2_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$blendTintByBaseAlpha" "1"
+
+	"$nodecal" "1"
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[12 12]"
+	"$detailblendfactor" 	".35"
+	"$detailblendmode" "0"
+
+
+}

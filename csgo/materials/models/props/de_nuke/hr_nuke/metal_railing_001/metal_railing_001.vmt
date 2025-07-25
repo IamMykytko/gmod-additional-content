@@ -1,0 +1,14 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_001b"
+	"$detail"                 "models/props/de_nuke/hr_nuke/chainlink_fence_001/chainlink_fence_detail_001"
+	"$detailscale"            "[5 2.5]"
+	"$detailblendfactor"      "0.85"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_001b"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$envmaplightscale"       "1"
+	"$envmapsaturation"       ".65"
+	"$envmaplightscaleminmax" "[0 1.0]"
+	"$surfaceprop"            "metal"
+	"$blendtintbybasealpha"   "1"
+}

@@ -1,0 +1,25 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_inferno\hr_i\inferno_drinking_fountain\inferno_drinking_fountain_color"
+	"$bumpmap"	"models\props\de_inferno\hr_i\inferno_drinking_fountain\inferno_drinking_fountain_normal"
+
+	"$surfaceprop" "metal"
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongalbedotint" "1"
+	"$phongtint" "[.1 .13 .1]"
+	"$phongdisablehalflambert" "1"
+	"$phongboost" "4"
+
+
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	"0.2"
+	
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.1 .1 .1]"		
+}

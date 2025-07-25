@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_massive\hr_foliage\hr_deadwood_floor_color"
+	"$bumpmap" 	"models\props\hr_massive\hr_foliage\hr_deadwood_floor_normal"
+	
+
+}

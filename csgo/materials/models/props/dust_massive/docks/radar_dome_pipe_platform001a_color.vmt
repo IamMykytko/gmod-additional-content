@@ -1,0 +1,5 @@
+// ### This basic VMT was written based on the e:\valvegames\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/dust_massive/docks/radar_dome_pipe_platform001a_color.vtf"
+}

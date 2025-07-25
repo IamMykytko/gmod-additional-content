@@ -1,0 +1,22 @@
+// ### This basic VMT was written based on the D:\dev\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/de_shacks/buoy_02.vtf"
+
+	"$surfaceprop" "metal"
+
+	"$envmap" "env_cubemap"
+	//"$color" "[.2 .2 .2]"
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost"	"12"
+	"$phongfresnelranges"	"[.7 .7 .7]"
+	"$basealphaenvmapmask" "1"
+	"$basemapalphaphongmask" "1"	
+	"$envmapcontrast" 1
+	"$envmapsaturation" .01
+	//"$envmaptint" "[1 1 1 ]"
+	//"$normalmapalphaenvmapmask" 1
+	"$envmaplightscale" .6
+}

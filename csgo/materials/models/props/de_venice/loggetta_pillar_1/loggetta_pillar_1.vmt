@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\loggetta_pillar_1\loggetta_pillar_1"
+
+//	"$bumpmap" "models\props\de_venice\loggetta_pillar_1\loggetta_pillar_1_normal"
+
+
+//	"$phongexponent" 20
+//	"$phongalbedotint" "1"
+//	"$phongtint" "[.1 .1 .1]"
+//	"$phongdisablehalflambert" "1"
+//	"$phongexponenttexture" "models\props\de_cbble\bomb_site_stat_a\bomb_site_stat_a_exp.vtf"
+//	"$phong" "1"
+//	"$phongboost" "2"
+//	"$phongfresnelranges" "[.8 0.5 1]"
+//	"$basemapalphaphongmask" "1"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 3 3 ]"
+	"$detailblendfactor" 	"0.4"
+//	"$envmap" "env_cubemap"
+//	"$envmapfresnel" ".2"
+//	"$envmaptint" 		"[.2 .2 .2]"	
+
+}

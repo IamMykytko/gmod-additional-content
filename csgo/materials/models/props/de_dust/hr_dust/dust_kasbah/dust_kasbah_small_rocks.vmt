@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_dust\hr_dust\dust_kasbah\dust_kasbah_small_rocks_color"
+    "$bumpmap" "models\props\de_dust\hr_dust\dust_kasbah\dust_kasbah_small_rocks_normal"
+	"$surfaceprop" 			"stone"
+}

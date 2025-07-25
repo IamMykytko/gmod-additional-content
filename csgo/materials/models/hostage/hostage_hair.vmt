@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/models/hostage/hostage_shared.vmt"
+	"insert"
+	{	
+		"$baseTexture" "models/hostage/hostage_hair"
+		"$translucent" "1"	
+		"$nocull" "1"	
+		"$bumpmap" "models\hostage\hostage_hair_normal"
+		"$rimlight" "0"
+		"$phongBoost" "40"
+	}
+}

@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models\props\de_dust\hr_dust\dust_lights\dome_light_03\dome_light_03_color"
+
+	"$tintmasktexture"	"models\props\de_dust\hr_dust\dust_lights\dome_light_03\dome_light_03_tint"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.1]"
+	
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmapmaskintintmasktexture"	"1"
+	"$envmapcontrast" 		"0.7"
+
+	"$surfaceprop" 			"metal"
+
+
+}

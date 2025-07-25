@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+
+{
+
+"$basetexture" "models\player\t_guerilla\t_guerilla"
+"$bumpmap"  "models\player\t_guerilla\t_guerilla_normal"
+"$model"             1              //tells that this material is explicitlly for a model
+"$nodecal"          1              //states that this is not a decal     
+"$halflambert"  1              //wraps the lighting further around model to prevent definition loss
+"$phong" 1                         //activates the phong specular instead of the envmap system
+"$phongexponenttexture"    "models\player\t_guerilla\t_guerilla_gloss"             //this is basiclly your specular map
+"$phongboost" 5         //boosts the effect of the map above
+"$phongfresnelranges" "[0.05 0.5 1]"      //these are the defaults, you not should half to mess with them
+
+ 
+}
+

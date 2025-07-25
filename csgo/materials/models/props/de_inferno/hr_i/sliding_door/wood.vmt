@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	$baseTexture "wood/hr_w/inferno/hr_wood_e"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0" 
+	$surfaceprop wood
+
+
+
+	
+	"$detail" 				"models\props\de_inferno\hr_i\sliding_door\sliding_door_ao.vtf"
+	"$detailscale" 			"[1 1]"
+	"$detailblendfactor" 	"1"
+}

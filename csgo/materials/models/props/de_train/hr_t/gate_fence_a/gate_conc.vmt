@@ -1,0 +1,24 @@
+VertexLitGeneric
+{
+
+$baseTexture "concrete/hr_c/hr_conc_g"
+
+$surfaceprop concrete
+
+
+	
+
+ "$normalmapalphaenvmapmask" 1
+
+
+"$detail" 				"models\props\de_train\hr_t\gate_fence_a\gate_fence_a_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1"
+
+
+
+
+
+}
+
+

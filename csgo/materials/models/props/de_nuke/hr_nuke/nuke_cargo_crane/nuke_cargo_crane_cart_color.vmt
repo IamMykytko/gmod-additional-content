@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_cargo_crane/nuke_cargo_crane_cart_color"
+	"$detailscale"            "[3 3]"
+	"$detailblendfactor"      "1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1]"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_cargo_crane/nuke_cargo_crane_cart_color"
+	"$envmapcontrast"         ".1"
+	"$surfaceprop"            "metal"
+}

@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/coop_cementplant/coop_ammo_stash/coop_ammo_stash_color"
+	"$detail"                 "models/props/de_nuke/hr_nuke/chainlink_fence_001/chainlink_fence_detail_001"
+	"$detailscale"            "[12 5 5]"
+	"$detailblendfactor"      ".7"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.5]"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$envmapmask"             "models/props/coop_cementplant/coop_ammo_stash/coop_ammo_stash_mask"
+	"$envmapcontrast"         ".2"
+	"$surfaceprop"            "metal"
+}

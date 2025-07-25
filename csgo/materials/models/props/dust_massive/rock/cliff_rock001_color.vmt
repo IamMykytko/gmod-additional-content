@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture"       "models/props/dust_massive/rock/cliff_rock001_color.vtf"
+	"$bumpmap"           "models/props/dust_massive/rock/cliff_rock001_normal.vtf"
+	"$detail"            "detail/detail_rock001"
+	"$detailscale"       "[5 5]"
+	"$detailblendfactor" ".65"
+	"$detailblendmode"   "0"
+}

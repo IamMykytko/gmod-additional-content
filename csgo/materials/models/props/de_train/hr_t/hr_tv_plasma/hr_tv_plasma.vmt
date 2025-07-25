@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture"    "models/props/de_train/hr_t/hr_tv_plasma/hr_tv_plasma.vtf"
+	"$envmap"         "env_cubemap"
+	"$envmapmask"     "models/props/de_train/hr_t/hr_tv_plasma/hr_tv_plasma_mask.vtf"
+	"$envmapcontrast" "1.01"
+}

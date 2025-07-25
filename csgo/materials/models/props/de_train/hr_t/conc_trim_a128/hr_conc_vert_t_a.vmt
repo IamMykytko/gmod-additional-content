@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+$baseTexture "concrete/hr_c/hr_conc_vert_t_a"
+
+$surfaceprop concrete
+
+	
+
+
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[4 4 4]"
+	"$detailblendfactor" 	"1"
+
+
+}

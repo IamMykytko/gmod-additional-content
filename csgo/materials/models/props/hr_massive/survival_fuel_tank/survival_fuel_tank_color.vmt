@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_massive\survival_fuel_tank\survival_fuel_tank_color"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\hr_massive\survival_fuel_tank\survival_fuel_tank_mask"
+	"$envmapcontrast" "1.01"
+}

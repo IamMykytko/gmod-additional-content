@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_office_props/nuke_office_props_001"
+	"$translucent"            "1"
+	"$nocull"                 "1"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_office_props/nuke_office_props_001"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2.0]"
+	"$surfaceprop"            "glass"
+}

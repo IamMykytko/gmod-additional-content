@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "decals/vostok_door01"
+	"$surfaceprop" "concrete"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	"0.5"
+}

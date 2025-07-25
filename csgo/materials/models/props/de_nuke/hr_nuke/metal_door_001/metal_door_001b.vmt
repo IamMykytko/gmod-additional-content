@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/metal_door_001/metal_door_001"
+	"$detail"                 "models/props/de_nuke/hr_nuke/chainlink_fence_001/chainlink_fence_detail_001"
+	"$detailscale"            "[10 5 5]"
+	"$detailblendfactor"      ".55"
+	"$basealphaenvmapmask"    "1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1]"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_door_001/metal_door_001_cubemap"
+	"$surfaceprop"            "metal"
+}

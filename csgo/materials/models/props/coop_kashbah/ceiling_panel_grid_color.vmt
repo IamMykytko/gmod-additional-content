@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_kashbah\ceiling_panel_grid_color"
+	"$surfaceprop"            "concrete"
+	"$envmap"                 "environment maps/metal_generic_001"
+	"$envmapmask"             "models\props\coop_kashbah\ceiling_panel_grid_color"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.25]"
+	"$envmapsaturation"       ".65"
+	"$envmapcontrast"         ".8"
+
+
+}

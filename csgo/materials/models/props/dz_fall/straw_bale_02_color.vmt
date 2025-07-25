@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\dz_fall\straw_bale_02_color"
+
+
+	"$nocull" "1"
+	"$alphatest" 			"1"
+	"$allowalphatocoverage"	".1"
+	"$alphatestreference"	".8"
+
+
+}

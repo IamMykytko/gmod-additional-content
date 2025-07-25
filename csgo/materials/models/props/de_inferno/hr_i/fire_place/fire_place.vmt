@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\fire_place\fire_place.vtf"
+	$bumpmap"models\props\de_inferno\hr_i\fire_place\fire_place_normals.vtf"
+	$detailblendfactor 	"1"
+		"$detailscale" 			"[12 12 12]"
+		"$detail" 				"detail\plaster_detail_01"
+}

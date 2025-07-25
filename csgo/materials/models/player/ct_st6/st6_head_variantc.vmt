@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/ct_st6/st6_head_variantC"
+	"$bumpMap" "models/player/ct_st6/st6_head_normal"
+	"$phong" "1"
+	"$phongBoost" "90"
+	"$phongExponent" "40"
+	"$phongTint" "[1 1 1]"
+	"$phongFresnelRanges" "[0 .1 1]"
+	"$phongdisablehalflambert" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "20"
+	"$rimlightboost" ".8"
+	"$nodecal" 1
+}

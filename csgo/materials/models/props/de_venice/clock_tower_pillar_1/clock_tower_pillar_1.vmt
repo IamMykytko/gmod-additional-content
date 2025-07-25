@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\clock_tower_pillar_1\clock_tower_pillar_1"
+
+	"$bumpmap" "models\props\de_venice\clock_tower_pillar_1\clock_tower_pillar_1_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[6 12]"
+	"$detailblendfactor" 	".35"
+	"$detailblendmode" "0"
+
+
+
+}

@@ -1,0 +1,14 @@
+vertexlitgeneric
+{
+	$basetexture models/props/de_train/vending/vending_machine_old.vtf	
+	$bumpmap models/props/de_train/vending/vending_machine_old_normal.vtf
+	
+	$envmap env_cubemap
+	$basealphaenvmapmask 1
+	
+	$basemapalphaphongmask 1
+	
+	$phong 1
+	$phongexponent 100
+	$phongboost 10
+}

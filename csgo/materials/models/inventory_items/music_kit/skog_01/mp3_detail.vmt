@@ -1,0 +1,90 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\inventory_items\music_kit\skog_01\mp3_detail"
+	"$additive" 1
+	"$scrollpos" "[0.0 0.0]"
+	"$x1" "0.0"
+	"$x2" "0.0"
+	"$x3" "0.0"
+	"$div" "3.0"
+	"$half" "0.5"
+	"$zero" "0.0"
+	"$rescale" "0.667"
+	"$offset1" "0.0"
+	"$offset2" "0.333"
+	"$offset3" "0.667"
+	"$offset_temp" "0.0"
+	"$offset" "0.0"
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"rate" "0.08"
+			"initialValue"	"0"
+			"resultVar"	"$x1"
+		}
+		"Frac"
+		{
+			"srcVar1" "$x1"
+			"resultVar" "$x2"
+		}
+		"LessOrEqual"
+		{
+			"srcVar1"	"$x2"
+			"srcVar2"	"$offset2"
+			"lessequalVar" "$offset1"
+			"greaterVar" "$offset2"
+			"resultVar" "$offset_temp"
+		}
+		"LessOrEqual"
+		{
+			"srcVar1"	"$x2"
+			"srcVar2"	"$offset3"
+			"lessequalVar" "$offset_temp"
+			"greaterVar" "$offset3"
+			"resultVar" "$offset"
+		}
+		"Multiply"
+		{
+			"srcVar1"	"$x2" // between 0 and 1
+			"srcVar2"	"$div"
+			"resultVar"	"$x1" // x1*3
+		}
+		"Frac"
+		{
+			"srcVar1" "$x1"
+			"resultVar" "$x3"
+		}
+		"Subtract"
+		{
+			"srcVar1" "$x3"
+			"srcVar2" "$half"
+			"resultVar" "$x2"
+		}
+		"LessOrEqual" // x3 cycles three times between 0 and 1 before the whole system resets
+		{
+			"srcVar1"	"$x3"
+			"srcVar2"	"$half"
+			"lessequalVar" "$zero" // 0.0 - 0.5, stomps to 0
+			"greaterVar" "$x2" // 0.5 - 1.0, 0-0.5
+			"resultVar" "$x1"
+		}
+		"Multiply"
+		{
+			"srcVar1"	"$x1"
+			"srcVar2"	"$rescale"
+			"resultVar" "$x2"
+		}
+		"Add"
+		{
+			"srcVar1" "$x2"
+			"srcVar2" "$offset"
+			"resultVar" "$scrollpos[0]"
+		}
+		"TextureTransform"
+		{
+			"translateVar" "$scrollpos"
+			"resultVar"	"$basetexturetransform"
+		}
+	}
+}

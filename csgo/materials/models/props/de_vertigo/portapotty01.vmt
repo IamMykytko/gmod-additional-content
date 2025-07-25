@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_vertigo/PortaPotty01"
+//	"$envmap" "env_cubemap"
+//	"$envmapmask" "models/props/de_vertigo/PortaPotty01_REF"
+//	"$envmaptint" "[.7 .7 .7]" 
+//	"$envmapsaturation" .25
+}

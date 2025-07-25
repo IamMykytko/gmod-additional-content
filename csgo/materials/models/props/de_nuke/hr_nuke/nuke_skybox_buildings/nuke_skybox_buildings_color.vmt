@@ -1,0 +1,5 @@
+vertexlitgeneric
+{
+	"$basetexture"          "models/props/de_nuke/hr_nuke/nuke_skybox_buildings/nuke_skybox_buildings_color"
+	"$blendtintbybasealpha" "1"
+}

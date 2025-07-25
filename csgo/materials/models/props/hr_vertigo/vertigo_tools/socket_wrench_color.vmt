@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_vertigo\vertigo_tools\socket_wrench_color"
+
+	"$envmapmask"	"models\props\hr_vertigo\vertigo_tools\socket_wrench_mask"
+	"$envmap"	"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+
+	
+	
+	
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+	"$envmapcontrast" 		".9"
+//	"$envmaptint" 		"[.7 .7 .7]"
+
+
+}

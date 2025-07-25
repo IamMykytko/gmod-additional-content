@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_cart\dust_cart_color"
+	
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmapmask" 			"models\props\de_dust\hr_dust\dust_cart\dust_cart_mask"
+	"$envmapcontrast" 		".5"
+
+	"$surfaceprop" 			"metal"
+
+	
+
+}

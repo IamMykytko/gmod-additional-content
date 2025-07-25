@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_dust\hr_dust\dust_kasbah\dust_kasbah_window_insets_01_color"
+    "$bumpmap" "models\props\de_dust\hr_dust\dust_kasbah\dust_kasbah_window_insets_01_normal"
+	"$surfaceprop" 			"concrete"
+	"$alphatest" "1"
+	"$alphatestreference"   "0.1"
+}

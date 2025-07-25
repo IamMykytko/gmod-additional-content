@@ -1,0 +1,7 @@
+vertexlitgeneric
+{
+	"$basetexture"       "models/props/de_nuke/hr_nuke/nuke_cargo_crane/nuke_cargo_crane_base_ao"
+	"$detail"            "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"       "5"
+	"$detailblendfactor" "1"
+}

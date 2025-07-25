@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\autumn_tarp\autumn_curtain_rod_color"
+
+//	"$envmap" 	"env_cubemap"
+	"$envmapmask"   "models\props\coop_autumn\autumn_tarp\autumn_curtain_rod_color"
+	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+	"$notint"      "1"
+
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+	"$envmapcontrast" 		".7"
+
+	
+	"$surfaceprop" 			"metal"
+
+
+
+}

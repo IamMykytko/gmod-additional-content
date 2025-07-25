@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_inferno\hr_i\inferno_single_door\inferno_single_door_color"
+//	"$envmapmask"  "models\props\de_inferno\hr_i\inferno_single_door\inferno_single_door_mask"
+	"$blendtintbybasealpha"		"1"
+
+//	"$envmap"				"env_cubemap"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" "[0 1]"
+
+//	"$envmapcontrast"		"0.40"
+
+
+	"$surfaceprop" 			"wood"
+
+
+
+
+}

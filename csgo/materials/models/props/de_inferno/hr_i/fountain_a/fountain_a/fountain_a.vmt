@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center .5 .5 scale 4 4 rotate 0 translate 0 0" 
+	"$basetexture" "models\props\de_inferno\hr_i\fountain_a\fountain_a_bronze.vtf"
+	"$bumpmap"  "models\props\de_inferno\hr_i\fountain_a\fountain_a_normals"
+
+	"$surfaceprop" "metal"
+
+	$basealphaenvmapmask 1
+
+	"$detail" 				"models\props\de_inferno\hr_i\fountain_a\fountain_a_ao.vtf"
+	"$detailscale" 			"[1 1]"
+	"$detailblendfactor" 	"1"
+	"$detailblendmode" 0
+
+	"$phong" "1"
+	"$phongboost" "6"
+	"$phongfresnelranges" "[.8 .5 1]"
+	"$phongexponent" 40
+	"$phongalbedotint" "1"
+	"$phongtint" "[.1 .2 .1]"
+	"$phongdisablehalflambert" "1"
+
+
+
+	"$envmaptint" 		"[.15 .25 .15]"
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" ".2"
+}

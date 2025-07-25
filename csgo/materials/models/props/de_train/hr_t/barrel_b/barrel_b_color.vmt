@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	     "$basetexture"	"models\props\de_train\hr_t\barrel_b\barrel_b_color"
+	      $bumpmap   	"models\props\de_train\hr_t\barrel_b\barrel_b_normal"
+
+
+            $phong 1
+            $phongBoost 4 
+            $phongExponent 45
+//          $phongfresnelranges "[0.8 0.8 1]"
+//          $phongTint "{160 190 231}" 
+
+            $blendtintbybasealpha 1 
+
+}

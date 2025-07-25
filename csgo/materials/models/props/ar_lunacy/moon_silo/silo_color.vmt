@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\ar_lunacy\moon_silo\silo_color"
+
+//	"$bumpmap" 	"models\props\ar_lunacy\moon_silo\silo_normal"
+	"$envmap"	"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+
+	"$envmapcontrast" 		".95"
+	"$envmaptint" 		"[.9 .9 .9]"	
+
+	"$surfaceprop" 			"metal"
+
+
+}

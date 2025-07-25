@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/props/gg_handling/gate_doorframe"
+	$surfaceprop "metal"
+}

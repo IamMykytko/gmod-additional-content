@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\autumn_skybox\autumn_skybox_trees_color"
+
+		$AlphaTest 1
+	$AlphaTestReference ".5"
+//	"$allowalphatocoverage"	"1"
+	$nocull 1
+	$model 1
+	$FlashlightNoLambert 1
+	"%compilepassbullets" "1"
+	$vertexfog 1
+
+
+}

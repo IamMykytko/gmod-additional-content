@@ -1,0 +1,1 @@
+unlittwotexture{	"$moondome"   "1"	"$basetexture" "models/props/ar_lunacy/moon_bigdome/moon_bigdome_detail"	"$basetexturetransform" "center .5 .5 scale 100 87 rotate 0 translate 0 0"	"$cubeparallax" "0.00005"	"$texture2"    "models/props/ar_lunacy/moon_bigdome/cube_lunacy"}

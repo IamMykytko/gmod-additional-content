@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\stone_window_frame_1\stone_window_frame_1"
+
+	"$bumpmap" "models\props\de_venice\stone_window_frame_1\stone_window_frame_1_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$detail" 				"detail\dt_stone1"
+	"$detailscale" 			"[12 12]"
+	"$detailblendfactor" 	".4"
+	"$detailblendmode" "0"
+
+
+}

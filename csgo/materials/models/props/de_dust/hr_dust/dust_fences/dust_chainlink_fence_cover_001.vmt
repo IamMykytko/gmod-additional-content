@@ -1,0 +1,6 @@
+// ### This basic VMT was written based on the e:\valvegames\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/de_dust/hr_dust/dust_fences/dust_chainlink_fence_cover_001.vtf"
+	"$tintmasktexture" "models\props\de_dust\hr_dust\dust_fences/dust_chainlink_fence_cover_001_tint"
+}

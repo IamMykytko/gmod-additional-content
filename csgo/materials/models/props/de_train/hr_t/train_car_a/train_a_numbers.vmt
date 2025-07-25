@@ -1,0 +1,17 @@
+ 
+"VertexLitGeneric"
+{
+
+	$alphatest 1
+	
+               $baseTexture "models\props\de_train\hr_t\train_car_a\train_a_numbers"
+               
+                $AlphaTestReference "4"
+                $nocull 1
+                $model 1
+               // $FlashlightNoLambert 1
+               // "%keywords" l4d2
+$decalsecondpass 1
+ //               "$DISABLECSMLOOKUP" "1"
+				
+}

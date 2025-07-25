@@ -1,0 +1,8 @@
+patch
+{
+	include materials\models\props\crates\csgo_drop_crate\csgo_drop_crate_base_yellow.vmt
+	insert
+	{
+		"$decaltexture" "models/props/crates/csgo_drop_crate/csgo_drop_crate_chroma2_decal"
+	}
+}

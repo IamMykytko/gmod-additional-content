@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/window_001/window_001"
+	"$detailscale"            "[10 5 5]"
+	"$detailblendfactor"      ".55"
+	"$basealphaenvmapmask"    "1"
+	"$envmapfresnel"          "1"
+	"$envmapfresnelminmaxexp" "[0.05 1 1.5]"
+	"$envmaptint"             "[.55 .75 1.25]"
+	"$envmap"                 "environment maps/nuke2"
+	"$surfaceprop"            "metal"
+}

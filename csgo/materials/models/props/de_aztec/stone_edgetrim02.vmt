@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_aztec/stone_edgetrim02_color"
+//	"$bumpmap" "models/props/de_aztec/stone_edgetrim02_normal"
+}

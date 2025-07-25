@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "hr_massive\wood_planks_2"
+	"$bumpmap" "hr_massive\wood_planks_2_normal"
+
+
+	"$detail"                 "models\props\hr_massive\birdhouse\birdhouse_overlay"
+	"$detailscale"            "[1 1]"
+	"$detailblendfactor"      "1.5"
+}

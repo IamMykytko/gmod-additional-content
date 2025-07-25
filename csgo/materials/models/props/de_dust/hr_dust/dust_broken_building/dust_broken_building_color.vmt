@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models\props\de_dust\hr_dust\dust_broken_building\dust_broken_building_color"
+    	"$bumpmap" 		"models\props\de_dust\hr_dust\dust_broken_building\dust_broken_building_normal"
+
+	"$allowalphatocoverage" "1"
+	"$surfaceprop" 		"plaster"
+	"$alphatest" 		"1"
+	
+
+}

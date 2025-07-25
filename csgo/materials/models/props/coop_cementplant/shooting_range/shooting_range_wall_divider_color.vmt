@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/coop_cementplant/shooting_range/shooting_range_wall_divider_color"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1]"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[3 3 3]"
+	"$detailblendfactor"      "1"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapmask"             "models/props/coop_cementplant/shooting_range/shooting_range_wall_divider_mask"
+	"$envmapcontrast"         ".8"
+}

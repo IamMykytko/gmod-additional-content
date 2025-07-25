@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\car_a\car_a.vtf"
+	"$bumpmap" "models\props\de_inferno\hr_i\car_a\car_a_normals.vtf"
+	"$basetexturetransform" "center .5 .5 scale 4 4 rotate 0 translate 0 0" 
+
+	"$detailblendmode" 0
+	"$detail" 				"models\props\de_inferno\hr_i\car_a\car_ao.vtf"
+	"$detailscale" 			"[1 1]"
+	"$detailblendfactor" 	"1"
+	"$basealphaenvmapmask" "1"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.15 .15 .15]"
+}

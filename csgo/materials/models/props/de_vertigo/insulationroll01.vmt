@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_vertigo/InsulationRoll01"
+	 $surfaceprop "upholstery"
+}

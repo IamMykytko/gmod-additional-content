@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+	"$basetexture"          "models/props/de_nuke/hr_nuke/foliage/tree_beech_card_01"
+	"$alphatest"            1
+	"$alphatestreference"   ".5"
+	"$allowalphatocoverage" "1"
+	"$nocull"               1
+	"$model"                1
+	"$surfaceprop"          "wood"
+}

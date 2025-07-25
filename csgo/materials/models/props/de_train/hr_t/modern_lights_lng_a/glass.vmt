@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	//"$baseTexture" "models\weapons\v_models\reflex_sight_a\reflex_sight_a_glass"
+
+
+	
+	"$additive" 1
+	"$envmap" "env_cubemap"
+ 
+	"$envmapfresnel" "1"
+	
+	"$envmaptint" 		"[60 60 60]"
+	
+
+}
+
+
+
+

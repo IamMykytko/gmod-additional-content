@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\tennis_ball_launcher\tennis_ball_launcher_color"
+
+	"$bumpmap" "models\props\coop_autumn\tennis_ball_launcher\tennis_ball_launcher_normal"
+	"$surfaceprop" 			"metal"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+	
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "3"
+        "$phongExponent" "300"
+        "$phongfresnelranges" "[0.8 0.8 1]"
+
+
+
+}

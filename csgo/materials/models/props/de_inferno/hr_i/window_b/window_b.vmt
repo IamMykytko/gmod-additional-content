@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\window_b\window_b.vtf"
+	"$envmapmask"   "models\props\de_inferno\hr_i\window_b\window_b_env_mask.vtf"
+	"$blendtintbybasealpha"	"1"
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[8 8 8]"
+	"$detailblendfactor" 	".9"
+	//"$envmapfresnel"		"1"
+	"$envmaptint" 		"[.55 .55 .55]"
+	$envmap env_cubemap
+	
+}

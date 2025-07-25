@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\dust_flour_sacks\dust_flour_sack_color"
+
+ 	"$bumpmap" "models\props\de_dust\hr_dust\dust_flour_sacks\dust_flour_sack_normal"
+
+
+
+}

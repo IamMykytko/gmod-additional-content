@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props/cs_assault/assault_subway_tunnel_ring"
+	"$surfaceprop" "concrete"
+	
+       	"$detail" "detail\detailconcrete001a"
+	"$detailscale" "7.345"
+	"$detailblendfactor" .6
+	"$detailblendmode" 0
+}

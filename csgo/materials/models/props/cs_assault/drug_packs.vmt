@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/cs_assault/drug_packs"
+        "$envmap" "env_cubemap"
+   //   "$envmapmask" "models/props/cs_assault/drug_packs1_ref"
+	 $envmapcontrast	"1"
+         $envmapsaturation	"1"
+	 $envmaptint		"[.5 .5 .5]"
+
+
+}

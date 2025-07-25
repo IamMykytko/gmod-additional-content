@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	
+	"$baseTexture" "models/props/de_cbble/cobble_pavilion_color"
+	"$bumpmap" "models/props/de_cbble/cobble_pavilion_normal"
+	"$surfaceprop" "wood"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	"0.2"
+	"$blendtintbybasealpha" "1"
+
+
+}

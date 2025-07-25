@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\barrel_a\barrel_a.vtf"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0" 
+
+	$detailblendmode 0
+	"$detail" 				"detail\dt_wood1"
+	"$detailscale" 			"[10 10]"
+	"$detailblendfactor" 	"1"
+	
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "de_mirage/plaster_worn/plaster_brick1_diffuse"
+	"$bumpmap" "de_mirage/plaster_worn/plaster_brick1_diffuse_normal"
+	"$surfaceprop"  "stone"
+	"$detail" "detail\detail_concrete_02"
+	"$detailscale" "6"
+	"$detailblendfactor" .2
+	
+	"$detailblendmode" "0"
+
+	
+}

@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+
+{
+	// Original shader: BaseTextureAlphaBlend
+	"$alphatest" 1
+	"$basetexture" "models/props/cs_italy/weed_tuft01"
+	"$model" 1
+	"$nocull" 1
+}

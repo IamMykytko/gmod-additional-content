@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\clock_tower_window_2\clock_tower_window_2"
+
+
+	"$bumpmap" "models\props\de_venice\clock_tower_window_2\clock_tower_window_2_normal"
+	$envmap env_cubemap
+	$envmapsaturation ".8"
+	$envmaptint "[.65 .70 .80]"
+
+	$normalmapalphaenvmapmask 1
+
+
+
+}

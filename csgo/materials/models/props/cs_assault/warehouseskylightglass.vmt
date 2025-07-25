@@ -1,0 +1,21 @@
+
+"VertexLitGeneric"
+{
+	   "$basetexture"	"models\props\cs_assault\warehouseSkylightGlass"
+	    $translucent 1
+            $mostlyopaque 1
+
+	 // Suraface type
+	      $surfaceprop "glass"
+
+
+	 // add phong specularity
+              $bumpmapalphaphongmask "1"
+              $phong 1
+              $phongBoost 6
+              $phongExponent 45
+              $phongfresnelranges "[0.8 0.8 1]"
+              $phongTint "{160 190 231}" 
+
+}
+

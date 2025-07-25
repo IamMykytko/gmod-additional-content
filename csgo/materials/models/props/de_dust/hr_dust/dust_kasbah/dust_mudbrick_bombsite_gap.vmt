@@ -1,0 +1,9 @@
+
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_bombsite_gap_color.vtf"
+    "$bumpmap" 		"models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_bombsite_gap_normal.vtf"
+	"$surfaceprop" 	"dirt"
+	"$color2"   "[.92 .92 .92]"
+
+}

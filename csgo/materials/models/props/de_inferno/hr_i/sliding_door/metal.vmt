@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "metal/hr_metal/inferno/metal_a"
+//	"$bumpmap"  "metal/hr_metal/inferno/metal_a_normals"
+	"$surfaceprop" "Metal"
+	
+	"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0" 
+	"$bumptransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0" 
+
+//	"$normalmapalphaenvmapmask" "1"
+	"$fresnelreflection" ".5"
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.25 .25 .25]"	
+
+	"$detail" 				"models\props\de_inferno\hr_i\sliding_door\sliding_door_ao.vtf"
+	"$detailscale" 			"[1 1]"
+	"$detailblendfactor" 	"1"
+
+//	"$phong" "1"
+//                "$phongexponent" "35.0"
+//                "$phongMaskContrastBrightness" "[2 3]"
+//                "$phongAmount" "[.93 .9 1.0 1.0]"
+
+}

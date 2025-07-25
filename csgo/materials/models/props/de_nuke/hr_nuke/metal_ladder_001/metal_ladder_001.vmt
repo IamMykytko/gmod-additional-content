@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/metal_ladder_001/metal_ladder_001"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/metal_ladder_001/metal_ladder_001"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$blendtintbybasealpha"   "1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 0.75]"
+	"$envmapsaturation"       ".85"
+	"$surfaceprop"            "metal"
+}

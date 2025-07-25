@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_dust/dust_large_sign"
+	"$surfaceprop" "metal"
+	$envmap env_cubemap
+	$envmapmask "models/props/de_dust/dust_large_sign_ref"
+}

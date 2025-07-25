@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_boathouse/StealthBoat"
+	"$envmap" "env_cubemap"
+
+	"$nocull"	"1"
+	"$envmapmask" "models\props\de_boathouse\StealthBoat_ref"
+	"$envmapfresnel" "1"
+	"$envmapFresnelMinMaxExp" "[.2 1 1]"
+	"$envmaptint" 		"[.4 .4 .4]"
+}

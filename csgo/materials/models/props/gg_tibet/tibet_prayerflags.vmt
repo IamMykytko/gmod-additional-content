@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/gg_Tibet/Tibet_PrayerFlags"
+	"$nocull" 1
+}

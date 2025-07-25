@@ -1,0 +1,25 @@
+
+"VertexLitGeneric"
+{
+	 // Textures
+	    $basetexture	"models\props\De_Vertigo\rebar_tiled_mesh"
+	    $bumpmap 	"models\props\De_Vertigo\rebar_tiled_mesh_N.vtf"
+
+	 // Suraface type
+	    $surfaceprop "metal"
+
+         // add alpha test, remove decal
+	    $nocull 1
+	    $AlphaTest 1
+	    $AlphaTestReference 0.3 
+	    $nodecal 1
+
+	 // add phong specularity
+	    $normalmapalphaphongmask "1"
+	    $phong 1
+	    $phongBoost 2
+	    $phongExponent 60
+	    $phongTint "[.8 1 1]"
+
+}
+

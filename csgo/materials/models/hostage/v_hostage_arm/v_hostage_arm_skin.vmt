@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\hostage\v_hostage_arm\v_hostage_arm_skin"
+	"$bumpmap" "models\hostage\v_hostage_arm\v_hostage_arm_skin_normal"
+	"$phongexponenttexture" "models\hostage\v_hostage_arm\v_hostage_arm_skin_exp"
+	"$lightwarptexture" "models\hostage\v_hostage_arm\v_hostage_arm_skin_warp"
+	"$halflambert" 1
+	"$phong" 1
+	"$phongfresnelranges" "[0.3 0.7 1]"
+	"$phongalbedotint" 1
+	"$phongtint" "[.6 .8 1.02]"
+	"$phongboost" 0.8
+	"$rimlight" 1
+	"$rimlightboost" 0.5
+	"$rimlightexponent" 4
+	"$rimmask" 1
+}

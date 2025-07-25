@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\dust_massive\elevator_platform\elevator_platform_1"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+	"$detail"		"models\props\de_dust\hr_dust\dust_detail\dust_detail_metal_01"
+	"$detailscale"		"[12 12]"
+	"$detailblendfactor" 	"1.5"
+
+
+}

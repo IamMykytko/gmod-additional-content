@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	$basetexture models\player\holiday\facemasks\facemask_tiki\facemask_tiki.vtf
+	$bumpmap models\player\holiday\facemasks\facemask_tiki\facemask_tiki_normal.vtf
+
+	$phong 1
+	$phongexponent 64
+	$phongboost 0.4
+}

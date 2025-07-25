@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$baseTexture" 		"models\props\de_aztec\hr_aztec\aztec_scaffolding\aztec_scaffolding_pipejack_01_color"
+//	"$bumpmap" 			"models\props\de_aztec\hr_aztec\aztec_scaffolding\aztec_scaffolding_pipejack_01_normal"
+	"$surfaceprop" 			"metal"
+}

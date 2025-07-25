@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\props\de_venice\venice_shoe_shop\venice_shoe_shop_windows_color"
+	
+	"$envmap"					"env_cubemap"
+	"$envmapmask" 			"models\props\de_venice\venice_shoe_shop\venice_shoe_shop_windows_mask"
+
+	"$envmaptint" 		"[.7 .7 .7]"
+	"$envmapcontrast" 		".8"
+	
+	"$detail"					"models\props\de_nuke\hr_nuke\metal_crate_001\metal_crate_001_detail"
+	"$detailscale"				"[6 4]"
+	"$detailblendfactor" 		"1"
+
+	
+
+}

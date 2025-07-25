@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_dust\hr_dust\dust_lights\dust_ceiling_light_01_color"
+	"$surfaceprop" 			"glass"	
+}
+
+
+ 

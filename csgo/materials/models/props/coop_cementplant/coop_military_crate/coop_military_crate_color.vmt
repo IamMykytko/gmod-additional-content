@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/coop_cementplant/coop_military_crate/coop_military_crate_color"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.5]"
+	"$envmap"                 "environment maps/metal_generic_003"
+	"$envmapmask"             "models/props/coop_cementplant/coop_military_crate/coop_military_crate_mask"
+	"$envmapcontrast"         ".8"
+	"$surfaceprop"            "wood"
+}

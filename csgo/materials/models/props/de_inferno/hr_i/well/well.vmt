@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture" "models\props\de_inferno\hr_i\well\well.vtf"
+	"$bumpmap" "models\props\de_inferno\hr_i\well\well_normals.vtf"
+	"$blendtintbybasealpha"	"1"
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[3 8 8]"
+	"$detailblendfactor" 	"1"
+}

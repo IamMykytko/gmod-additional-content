@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\apc\apc_rack_color"
+
+	"$detail"		"models\props\de_dust\hr_dust\dust_detail\dust_detail_metal_01"
+
+	"$detailscale"				"[3 2]"
+	"$detailblendfactor" 		"1"
+	"$envmapmask"			"models\props\coop_autumn\apc\apc_rack_color"
+	"$envmap"			"env_cubemap"
+	"$envmaptint" 			.3 .3 .3
+//	"$envmapcontrast"		"0.40"
+
+	"$envmaplightscale"		"1"
+
+
+}

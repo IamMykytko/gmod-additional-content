@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\autumn_tarp\autumn_tarp_02_color"
+
+	"$bumpmap" 	"models\props\coop_autumn\autumn_tarp\autumn_tarp_01_normal"
+
+	"$tintmasktexture"	"models\props\coop_autumn\autumn_tarp\autumn_tarp_01_tint"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+
+	"$envmapcontrast"		"1"
+
+	"$surfaceprop" 			"metal"
+	"$nocull" "1"
+
+
+}

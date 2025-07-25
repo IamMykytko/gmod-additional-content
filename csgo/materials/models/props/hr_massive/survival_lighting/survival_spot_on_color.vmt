@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture"  "models\props\hr_massive\survival_lighting\survival_spot_on_color"
+	"$bumpmap"	"models\props\hr_massive\survival_lighting\survival_spot_normal"
+
+	"$selfillum" "1"
+
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "8"
+        "$phongExponent" "35"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_mirage\window_a\window_a_diffuse"
+	//"$surfaceprop" "metal"
+	//"$nocull" "1"
+	"$bumpmap"	"models\props\de_mirage\window_a\window_a_normal"
+	//"$phong" "1"
+	//"$phongboost" ".25"
+	//"$phongexponent" "100"
+		"$detail" 				"detail\detail_concrete_02"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	"0.5"
+	
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	$baseTexture "concrete/hr_c/inferno/concrete_a"
+	"$basetexturetransform" "center .5 .5 scale 6 6 rotate 0 translate 0 0" 
+		"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[8 8 8]"
+	"$detailblendfactor" 	".5"
+}

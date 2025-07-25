@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center .5 .5 scale 3 3 rotate 270 translate 0 0 0" 
+$baseTexture "concrete/hr_c/inferno/concrete_a"
+
+$surfaceprop concrete
+//$bumpmap "concrete/hr_c/inferno/concrete_a"
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[8 8 8]"
+	"$detailblendfactor" 	".5"
+
+	"$normalmapalphaenvmapmask" "1"
+
+
+}

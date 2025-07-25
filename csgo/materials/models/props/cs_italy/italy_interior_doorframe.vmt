@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props/cs_italy/italy_interior_doorframe"
+	"%keywords" "cstrike"
+	"$surfaceprop" "wood"
+}

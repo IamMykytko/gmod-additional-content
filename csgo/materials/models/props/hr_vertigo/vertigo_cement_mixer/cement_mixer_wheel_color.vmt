@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_vertigo\vertigo_cement_mixer\cement_mixer_wheel_color"
+
+	"$bumpmap" 	"models\props\hr_vertigo\vertigo_cement_mixer\cement_mixer_wheel_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "metal"
+	"$phongexponent" "70"
+	"$phongalbedotint" "1"
+	"$phongtint" "[.3 .31 .3]"
+	"$phong" "1"
+	"$phongboost" "4"
+	
+//	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+//	"$envmaptint" 		"[.05 .05 .05]"
+
+
+}

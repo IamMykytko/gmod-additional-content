@@ -1,0 +1,27 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_dust\hr_dust\dust_windows\dust_window_bars_metal_01_colorb"
+    "$bumpmap" "models\props\de_dust\hr_dust\dust_windows\dust_window_bars_metal_01_normal"
+    "$tintmasktexture"		"models\props\de_dust\hr_dust\dust_windows\dust_window_bars_metal_01_tint"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$surfaceprop" 			"metal"
+
+	//"$phong" "1"
+		//"$phongexponent" "60"
+		//"$phongalbedotint" "1"
+		//"$phongtint" "[.1 .1 .1]"
+		//"$phongdisablehalflambert" "1"
+		//"$phongboost" "1"
+
+
+	//$envmap" "env_cubemap"
+	//"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+	//"$envmap"				"environment maps\metal_generic_002"
+	//"$envmap"				"models\props\de_nuke\hr_nuke\web_joist_001\web_joist_001_cubemap"
+
+		//"$normalmapalphaenvmapmask" "1"
+		//"$envmapfresnel" "1"
+		//"$envmaptint" 		"[.80 .80 .65]"
+	
+}

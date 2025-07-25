@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_mirage\bomb_site_tarp\bomb_site_tarp"
+	"$surfaceprop" "metal"
+	"$nocull" "1"
+	"$bumpmap"	"models\props\de_mirage\bomb_site_tarp\bomb_site_tarp_normals"
+	
+	"$detail" 				"detail\dt_fabric2"
+	"$detailscale" 			"[ 15 15 ]"
+	"$detailblendfactor" 	"1"
+		"$phong" "1"
+	"$phongboost" ".5"
+	"$phongexponent" "20"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmapsaturation"	".1"
+	"$EnvmapTint" "[.03 .03 .03]"
+	//"$EnvmapTint" "[0.01 0.01 0.01]"
+}

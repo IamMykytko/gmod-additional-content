@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_dust\hr_dust\dust_doors\dust_door_80x128_01_bars_color"
+    "$bumpmap" "models\props\de_dust\hr_dust\dust_doors\dust_door_80x128_01_bars_normal"
+
+	"$surfaceprop" 			"metal"
+	
+	"$alphatest" 			"1"
+	"$allowalphatocoverage"	"1"
+	"$alphatestreference"	"0.3"
+	"$notint" 1
+}

@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture"              "models/inventory_items/atlanta2017_prediction/atlanta2017_prediction"
+	"$color"                    "[1 .65 .45]"
+	"$bumpmap"                  "models/inventory_items/atlanta2017_prediction/atlanta2017_prediction_normal"
+	"$envmap"                   "editor/cube_vertigo"
+	"$envmaptint"               "[1 .65 .45]"
+	"$normalmapalphaenvmapmask" "1"
+}

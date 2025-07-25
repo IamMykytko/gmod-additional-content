@@ -1,0 +1,20 @@
+
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\outlets_a\outlets_a.vtf"
+
+
+
+//"$normalmapalphaenvmapmask" 1
+
+	$detailblendmode 0
+
+"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[5 5 5]"
+	"$detailblendfactor" 	"1"
+	$blendtintbybasealpha 1
+
+
+
+}

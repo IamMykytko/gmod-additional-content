@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\cs_assault\Car_tarp.vtf"
+$nocull 1
+$blendtintbybasealpha 1
+$surfaceprop cloth
+$model 1
+}

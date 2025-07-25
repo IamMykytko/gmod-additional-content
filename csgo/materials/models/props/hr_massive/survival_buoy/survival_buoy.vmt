@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_buoy\survival_buoy"
+
+//	"$bumpmap" "models\props\hr_massive\survival_buoy\survival_buoy_normal"
+
+//	"$phong" "1"
+//	"$phongexponent" "1"
+//	"$phongtint" "[1 1 1]"
+//	"$phongboost" "1"
+//	"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	
+	"$basetexture" 	"ar_dizzy\dizzy_drywall_color"
+	"$bumpmap" 	"ar_dizzy\dizzy_drywall_normal"
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[4 4 4]"
+	"$detailblendfactor" 	"1"
+
+
+
+	"$surfaceprop"         "sheetrock"
+
+
+}

@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\campanile_window\campanile_window"
+//	"$bumpmap" "models\props\de_venice\campanile_window\campanile_window_normal"
+
+
+//	"$phong" "1"
+//	"$phongexponent" "1"
+//	"$phongtint" "[1 1 1]"
+//	"$phongboost" "1"
+//	"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

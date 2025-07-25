@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/props/cs_italy/chicken"
+	"$bumpmap" 	"models/props/cs_italy/chicken_normal"
+	//"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+
+
+	"$surfaceprop" "flesh"
+}

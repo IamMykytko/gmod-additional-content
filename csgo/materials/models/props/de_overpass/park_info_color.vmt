@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_overpass/park_info_color"
+	"$surfaceprop" "metal"
+	
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props/de_overpass/park_info_mask"
+	"$envmapcontrast" "1.01"
+
+
+}

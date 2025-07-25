@@ -1,0 +1,14 @@
+"patch"
+{
+	"include" "materials/models/player/ct_idf/ctm_idf_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\ct_idf\ctm_idf_head_variantD"
+	"$bumpmap" "models\player\ct_idf\ctm_idf_head_variantD_normal"
+		
+	"$phongexponenttexture" "models\player\ct_idf\ctm_idf_head_variantb_exponent"
+	"$rimmask" "1"
+	
+"$nodecal" 1
+	}	
+}

@@ -1,0 +1,30 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\guard_rail_a\guard_rail_a.vtf"
+
+//$bumpmap "models\props\de_train\hr_t\tension_cables\tension_cables_normals.vtf"
+	"$phong" "1"
+	"$phongboost" "10"
+	"$phongalbedoboost" "20"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 30
+	"$basemapalphaphongmask" 1
+	"$basealphaenvmapmask" 1
+	$nocull 1
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[8 8 8]"
+	"$detailblendfactor" 	".3"
+
+		//$envmaplightscale 1
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[.4 .4 .4]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+	"$envmaplightscale" 1
+
+
+}

@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/gg_Vietnam/gg_vietnam_fence"
+	"$surfaceprop" "wood_plank"
+}

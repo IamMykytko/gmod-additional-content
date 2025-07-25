@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\cs_assault\torn_autobox"
+	"$translucent" "1"
+	"$alphatest" "1"
+
+}

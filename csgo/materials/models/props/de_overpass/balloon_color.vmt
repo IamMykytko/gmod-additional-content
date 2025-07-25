@@ -1,0 +1,42 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_overpass/balloon_color"
+	
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props/de_overpass/balloon_mask"
+//	"$envmapcontrast" "1.01"
+	"$blendtintbybasealpha" "1"
+//	"$phong" "1"
+//	"$phongexponent" "12"
+//	"$phongboost"	"1"
+//	"$phongfresnelranges"	"[.3 .6 4]"
+//	"$basealphaenvmapmask" "1"
+	"$basemapalphaphongmask" "1"	
+//	"$envmapcontrast" 1
+//	"$envmapsaturation" .01
+	//"$envmaptint" "[1 1 1 ]"
+	//"$normalmapalphaenvmapmask" 1
+//	"$envmaplightscale" .6
+
+	$treeSway			"1"	// height at which the effect is on fully (in world units)
+	$treeSwayHeight			"24"	// radius at which the effect is on fully (in world units)
+	$treeSwayStartHeight		".1"	// portion of height at which the effect starts to fade in (0-1)
+	$treeSwayRadius			"32"	// radius at which the effect is on fully (in world units)
+	$treeSwayStartRadius		"0"	// portion of radius at which the effect starts to fade in (0-1)
+	$treeSwaySpeed			".3"	// how quickly the tree sways (as a multiplier of time)
+	$treeSwayStrength		".1"	// how much the tree sways (as a multiplier of position)
+	$treeSwayScrumbleSpeed		".7"	// how quickly the leaves move (as a multiplier of time)
+	$treeSwayScrumbleStrength	".4"	// how much the leaves move( as a multiplier of position)
+	$treeSwayScrumbleFrequency	"2"	// spatial frequency of sine wave applied to leaves.  Typically high-ish (10-25)
+	$treeSwayFalloffExp		"32"	// falloff parameter for wave motion on branches/trunk, higher means core of tree is more stable
+	$treeSwayScrumbleFalloffExp	"32"	// falloff parameter for scrumble motion on leaves, higher means the core of the tree is more stable
+	$treeSwaySpeedHighWindMultiplier "0"  	// multiplier of movement speed at higher wind
+	$treeSwaySpeedLerpStart 	"200.0"	// wind speed at which high wind multiplier begins to have effect
+	$treeSwaySpeedLerpEnd 		"600.0"	// wind speed at which high wind multiplier is fully on
+
+
+
+
+	
+
+}

@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"              "models/props/coop_cementplant/coop_bunk_bed/coop_bunk_bed_color"
+	"$bumpmap"                  "models/props/coop_cementplant/coop_bunk_bed/coop_bunk_bed_normal"
+	"$blendtintbybasealpha"     "1"
+	"$envmaplightscale"         "1"
+	"$envmaplightscaleminmax"   "[0 1]"
+	"$envmap"                   "environment maps/metal_generic_003"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast"           "1"
+	"$envmaptint"               "[.5 .5 .5]"
+}

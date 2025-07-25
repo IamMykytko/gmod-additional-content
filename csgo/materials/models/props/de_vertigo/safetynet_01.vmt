@@ -1,0 +1,24 @@
+
+"VertexLitGeneric"
+{
+	 // Textures
+	    $basetexture	"models\props\De_Vertigo\safetynet_01"
+	    $bumpmap 	"models\props\De_Vertigo\safetynet_01_N.vtf"
+
+	 // Suraface type
+	    $surfaceprop "plastic"
+
+         // add alpha test, remove decal
+	    $nocull 1
+	    $AlphaTest 1
+	    $AlphaTestReference 0.3 
+	    $nodecal 1
+
+	 // add phong specularity
+	    $phong 1
+	    $phongBoost 2
+	    $phongExponent 60
+	    $phongTint "[.8 1 1]"
+
+}
+

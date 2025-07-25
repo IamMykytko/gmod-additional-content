@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0" 
+	"$baseTexture" "models\props\gd_crashsite\bricks_damaged\bricks_damaged.vtf"
+	"$bumpmap" "models\props\gd_crashsite\bricks_damaged\bricks_damaged_normals.vtf"
+	"$blendtintbybasealpha"	"1"
+	"$detail" 			"models\props\gd_crashsite\bricks_damaged\bricks_damaged_ao.vtf	"
+	
+	//"detail\plaster_detail_01"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1"
+}

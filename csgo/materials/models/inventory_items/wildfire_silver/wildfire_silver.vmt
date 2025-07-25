@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$basetexture"              "models/inventory_items/wildfire_silver/wildfire_silver"
+	"$bumpmap"                  "models/inventory_items/wildfire_bronze/wildfire_bronze_normal"
+	"$phongexponenttexture"     "models/inventory_items/wildfire_bronze/wildfire_bronze_exponent"
+	"$envmap"                   "editor/cube_vertigo"
+	"$envmapcontrast"           "1.2"
+	"$envmaptint"               "[.05 .07 .04]"
+	"$envmapfresnel"            ".6"
+	"$normalmapalphaenvmapmask" 1
+	"$phong"                    "1"
+	"$phongboost"               "0.01"
+	"$phongfresnelranges"       "[.7 .8 1]"
+	"$phongalbedotint"          "1"
+	"$phongalbedoboost"         "60"
+	"$phongdisablehalflambert"  "1"
+}

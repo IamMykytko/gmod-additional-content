@@ -1,0 +1,35 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_aztec\hr_aztec\aztec_foliage\hr_aztec_fern_01_color"
+	//"$bumpmap" 				"models\props\de_aztec\hr_aztec\aztec_foliage\hr_aztec_fern_01_normal"
+	"$surfaceprop" 			"wood"
+	
+	$AlphaTest 1
+	$AlphaTestReference ".3"
+	//"$allowalphatocoverage"	"1"
+	$nocull 1
+	$model 1
+
+	$treeSway			"1"	// on or off
+	
+	$treeSwayHeight			"10"	// The height in which the effect is fully applied
+	$treeSwayStartHeight	"1"	// The height from the origin in which the effect starts blending in
+	
+	$treeSwayRadius			"100"	// The radius from the origin in which the effect is applied.
+	$treeSwayStartRadius	"1"	// The radius from the origin in which the effect starts blending in.
+	
+	$treeSwaySpeed			".7"	// how quickly the tree sways (as a multiplier of time)
+	$treeSwayStrength		".06"	// how much the tree sways (as a multiplier of position)
+	
+	$treeSwayScrumbleSpeed		".7"	// how quickly the leaves move (as a multiplier of time)
+	$treeSwayScrumbleStrength	".10"	// how much the leaves move( as a multiplier of position)
+	$treeSwayScrumbleFrequency	"10"	// spatial frequency of sine wave applied to leaves.  Typically high-ish (10-25)
+	
+	$treeSwayFalloffExp			"2"	// falloff parameter for wave motion on branches/trunk, higher means core of tree is more stable
+	$treeSwayScrumbleFalloffExp	"3"	// falloff parameter for scrumble motion on leaves, higher means the core of the tree is more stable
+	
+	$treeSwaySpeedHighWindMultiplier "0"  	// multiplier of movement speed at higher wind
+	$treeSwaySpeedLerpStart 	"200.0"	// wind speed at which high wind multiplier begins to have effect
+	$treeSwaySpeedLerpEnd 		"800.0"	// wind speed at which high wind multiplier is fully on
+}
+ 

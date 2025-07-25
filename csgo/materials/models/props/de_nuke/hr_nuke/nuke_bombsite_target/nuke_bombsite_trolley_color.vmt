@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_bombsite_target/nuke_bombsite_trolley_color"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_bombsite_target/nuke_bombsite_trolley_mask"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 4]"
+	"$envmapcontrast"         "0.6"
+	"$surfaceprop"            "metal"
+}

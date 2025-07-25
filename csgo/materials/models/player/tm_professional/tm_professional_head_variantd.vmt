@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/models/player/tm_professional/tm_professional_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_professional\tm_professional_Head_variantD"
+	"$bumpmap" "models\player\tm_professional\tm_professional_Head_variantc_normal"
+	
+//	"$phongexponenttexture" "models\player\tm_professional\tm_professional_Head_variantD_exponent"
+	"$rimlight" "0"
+"$nodecal" 1
+	}	
+}

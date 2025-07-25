@@ -1,0 +1,4 @@
+vertexlitgeneric
+{
+	$basetexture models\player\holiday\facemasks\facemask_template\facemask_template.vtf
+}

@@ -1,0 +1,30 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\props\de_venice\venice_power_box\venice_power_box_color"
+
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+
+		
+	
+	
+//	"$envmaptint" 		"[.8 .8 .8]"
+
+	"$envmap"			"env_cubemap"
+
+//	"$envmap" 			"environment maps\metal_generic_006"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+	"$envmapmask" 			"models\props\de_venice\venice_power_box\venice_power_box_mask"
+	"$envmapcontrast" 		".5"
+
+	
+	"$detail"					"models\props\de_nuke\hr_nuke\metal_crate_001\metal_crate_001_detail"
+	"$detailscale"				"[3 3]"
+	"$detailblendfactor" 		".6"
+
+	"$surfaceprop" 			"metal"
+
+	
+
+}

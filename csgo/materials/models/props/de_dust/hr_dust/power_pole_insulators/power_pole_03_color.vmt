@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\power_pole_insulators\power_pole_03_color"
+
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmapmask" 			"models\props\de_dust\hr_dust\power_pole_insulators\power_pole_03_mask"
+	"$envmapcontrast" 		".6"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.3]"
+
+
+}

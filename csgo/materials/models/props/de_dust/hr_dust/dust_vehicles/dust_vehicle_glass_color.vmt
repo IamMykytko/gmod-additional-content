@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\dust_vehicles\dust_vehicle_glass_color"
+	"$notint"	"1"
+	"$translucent" "1"
+	"$envmap" "models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmapmask" "models\props\de_dust\hr_dust\dust_vehicles\dust_vehicle_glass_mask"
+
+	"$envmapcontrast" ".6"
+	
+}

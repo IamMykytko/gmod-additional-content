@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_inferno\head_sculpture_color"
+	"$bumpmap"	"models\props\de_inferno\head_sculpture_normal"
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	"0.5"
+		
+	
+}

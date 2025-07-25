@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture"               "models/player/custom_player/econ/body/tm_professional/tm_professional_parts_varf"
+	"$bumpmap"                   "models/player/custom_player/econ/body/tm_professional/tm_professional_parts_normal_varf"
+	"$basemapluminancephongmask" "1"
+	"$phong"                     "1"
+	"$phongboost"                "0.1"
+	"$phongexponent"             "10"
+	"$phongdisablehalflambert"   "1"
+}

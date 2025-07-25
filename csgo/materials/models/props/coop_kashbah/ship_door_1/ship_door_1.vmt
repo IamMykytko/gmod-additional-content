@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\coop_kashbah\ship_door_1\ship_door_1"
+
+	"$bumpmap" "models\props\coop_kashbah\ship_door_1\ship_door_1_normal"
+//	"$normalmapalphaenvmapmask" "1"
+
+//	"$envmap" "env_cubemap"
+//	"$envmaptint" 		"[1.5 1.5 1.5]"	
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 1]"
+
+}

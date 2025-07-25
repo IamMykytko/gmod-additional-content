@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+    "$basetexture"          "Models/destruction_tanker/blackCable"
+//	"$bumpmap" "Models/hybridPhysx/cable_normal"
+	"$selfillum" "0"
+
+//	"$halflambert" "1"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.5"	
+	"$phongfresnelranges" "[0.6 1 1]"
+}

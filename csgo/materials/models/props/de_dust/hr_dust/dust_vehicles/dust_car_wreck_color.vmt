@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 					"models\props\de_dust\hr_dust\dust_vehicles\dust_car_wreck_color"
+	"$tintmasktexture" 				"models\props\de_dust\hr_dust\dust_vehicles\dust_car_wreck_mask"
+	"$envmapmaskintintmasktexture" "1"	
+
+	"$surfaceprop" 			"metalvehicle"
+	
+	"$detail"						"models\props\de_dust\hr_dust\dust_detail\dust_detail_metal_01"
+	"$detailscale"				"[10 6]"
+	"$detailblendfactor" 		"1"
+	
+	"$envmap"			"env_cubemap"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+	"$envmapcontrast" 		".7"
+}

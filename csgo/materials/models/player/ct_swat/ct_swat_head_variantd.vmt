@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+                "$phongdisablehalflambert" "1"
+	"$baseTexture" "models/player/ct_swat/ct_swat_head_variantD"
+	"$bumpMap" "models/player/ct_swat/ct_swat_head_normal_variantD"
+	"$phong" "1"
+	"$phongBoost" "1"
+	"$phongExponent" "5"
+	"$phongTint" "[1 1 1]"
+	"$phongFresnelRanges" "[0 .1 1]"
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" "1"
+	"$nodecal" 1
+}

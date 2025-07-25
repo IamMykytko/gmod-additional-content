@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_c17/fence_alpha"
+	"%compilepassbullets" 1
+	"$surfaceprop" "chainlink"
+	"$nodecal" 1
+	"$nolod" 1
+
+	//$AllowFenceRenderStateHack 1
+	$AlphaTest 1
+	$AlphaTestReference 0.3 // Set based on the contents of $baseTexture above
+	$Translucent 1
+	$FlashlightNoLambert 1
+}

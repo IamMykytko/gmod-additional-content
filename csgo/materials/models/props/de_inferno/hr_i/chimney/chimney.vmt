@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexturetransform" "center 1 1 scale 2 2 rotate 0 translate 0 0" 
+	"$basetexture" "models\props\de_inferno\hr_i\chimney\chimney.vtf"
+}

@@ -1,0 +1,39 @@
+"character"
+{
+	"$basetexture"            "models/player/custom_player/econ/body/tm_leet/tm_leet_v2_body_variantg_color"
+	"$bumpmap"                "models/player/custom_player/econ/body/tm_leet/tm_leet_v2_body_variantg_normal"
+	"$fresnelrangestexture"   "models/player/custom_player/shared/ctm_fresnelwarp"
+	"$phongwarptexture"       "models/player/custom_player/shared/ctm_specwarp"
+	"$masks1"                 "models/player/custom_player/econ/body/tm_leet/tm_leet_v2_body_variantd_masks1"
+	"$phongboost"             "1"
+	"$phongalbedoboost"       "6"
+	"$rimlightexponent"       "6"
+	"$rimlightboost"          "1"
+	"$rimlightalbedo"         "0.6"
+	"$ambientreflectionboost" "0.1"
+	"$model"                  "1"
+	"$nodecal"                "1"
+	
+	// character patch data
+	"$econ_patches_enabled" 1
+	"$decalbackingtexture" "models/weapons/customization/patches/default/patch_backing_yellowcloth"
+	"$decalmasktexture" "models/player/custom_player/econ/body/tm_leet/tm_leet_v2_body_variantf_decalmask"
+	"$decal0coordx" "-0.195000"
+	"$decal0coordy" "-0.300000"
+	"$decal0scale" "11.457920"
+	"$decal1coordx" "0.135000"
+	"$decal1coordy" "-0.310000"
+	"$decal1scale" "5.204547"
+	"$decal1backingscale" "1.216841"
+	"$decal2coordx" "0.407000"
+	"$decal2coordy" "-0.430000"
+	"$decal2scale" "11.070686"
+	"$decal2squash" "1.100000"
+	"$decal0camerapreset" "chest"
+	"$decal1camerapreset" "back"
+	"$decal2camerapreset" "rightside"
+	"DecalFindReplaceValue"
+	{
+		"@teamctt@"  "t"
+	}
+}

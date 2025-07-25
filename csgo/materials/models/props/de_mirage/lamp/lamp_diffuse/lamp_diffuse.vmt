@@ -1,0 +1,34 @@
+"VertexlitGeneric"
+{
+	"$phong" "1"
+
+	"$basetexture" "models\props\de_mirage\lamp\lamp_diffuse"
+	"$surfaceprop" "metal"
+	"$bumpmap" "models\props\de_mirage\lamp\lamp_normals" 
+	
+	"$phongexponenttexture" "models\props\de_mirage\lamp\lamp_exp"
+	"$nocull" "1"
+	"$phongalbedotint" "1"
+	"$phongexponent" "90"
+	"$phongboost" "1"
+		"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 12 12 ]"
+	"$detailblendfactor" 	"0.5"
+	"$envmaptint" "[ .56 .56 .56 ]"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+
+"$casttextureshadows" "1"
+"$FlashlightNoLambert" "1"
+
+
+	
+	
+	"$alphatest" "1"
+
+
+	
+
+}

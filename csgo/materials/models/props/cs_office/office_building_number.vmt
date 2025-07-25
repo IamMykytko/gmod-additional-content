@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\cs_office\office_building_number"
+$envmap env_cubemap
+$envmapmask "models\props\cs_office\office_building_number_ref"
+}

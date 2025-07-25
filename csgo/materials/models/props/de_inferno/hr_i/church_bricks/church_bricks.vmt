@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+"$basetexturetransform" "center 1 2 scale 1 1 rotate 0 translate 5 15" 
+	"$baseTexture"  "brick/hr_brick/inferno/brick_g1"
+
+}

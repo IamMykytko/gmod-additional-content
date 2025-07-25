@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\props\de_aztec\hr_aztec\aztec_lighting\aztec_lighting_candle_flame_01"
+	"$surfaceprop" "Default"
+	"$additive" "1"
+
+	"Proxies"
+	{
+	"AnimatedTexture"
+		{
+		"animatedTextureVar" "$basetexture"
+		"animatedTextureFrameNumVar" "$frame"
+		"animatedTextureFrameRate" "45"
+		}
+	}
+}

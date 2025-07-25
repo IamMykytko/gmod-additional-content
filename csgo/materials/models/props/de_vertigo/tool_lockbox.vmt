@@ -1,0 +1,26 @@
+
+"VertexLitGeneric"
+{
+	   "$basetexture"	"models\props\De_Vertigo\tool_lockbox"
+
+	 // Suraface type
+	    $surfaceprop "metal"
+ 
+	    $envmap "env_cubemap"
+	    $envmapmask "models/props/de_vertigo/tool_lockbox_ref.vtf"
+	    $envmapcontrast	"1"
+            $envmapsaturation	".5"
+	    $envmaptint		"[.6 .6 .6]"
+
+	 // add phong specularity
+	 //   $basemapalphaphongmask "1"
+	 //   $phong 1
+	 //   $phongBoost 2
+	 //   $phongExponent 45
+	 //   $phongTint "{196 232 253}" 
+
+            $blendtintbybasealpha 1
+
+
+}
+

@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$basetexture"             "models/inventory_items/service_medal_2020/service_medal_2020"
+	"$bumpmap"                 "effects/flat_normal"
+	"$envmap"                  "editor/cube_vertigo"
+	"$color"                   "{ 154 170 200 }"
+	"$envmaptint"              "{ 154 170 200 }"
+	"$phongtint"               "{ 154 170 200 }"
+	"$envmapfresnel"           ".6"
+	"$phong"                   "1"
+	"$phongboost"              "2"
+	"$phongfresnelranges"      "[.7 .8 1]"
+	"$phongdisablehalflambert" "1"
+	"$phongexponent"           "32"
+	"$basemapalphaphongmask"   "1"
+}

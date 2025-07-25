@@ -1,0 +1,32 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\window_b\glass_b.vtf"
+
+$bumpmap "models\props\de_train\hr_t\window_b\glass_b_normals.vtf"
+	"$phong" "1"
+	"$phongboost" "16"
+	"$phongalbedoboost" "1"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 180
+	//$blendtintbybasealpha 1
+	$translucent 1
+
+ "$normalmapalphaenvmapmask" 1
+
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[4 4 4]"
+	"$detailblendfactor" 	"1"
+
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[2 2 2]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+
+
+}

@@ -1,0 +1,7 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/props_gameplay/capture_flag_ct"
+	"$bumpmap"	"models/props/props_gameplay/capture_flag_normal"
+	"$translucent" "1"
+	//"$alphatest" "1"
+}

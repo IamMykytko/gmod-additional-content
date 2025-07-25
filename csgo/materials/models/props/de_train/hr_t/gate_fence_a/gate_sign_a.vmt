@@ -1,0 +1,33 @@
+VertexLitGeneric
+{
+
+ 
+$baseTexture "models\props\de_train\hr_t\gate_fence_a\gate_sign_a.vtf"
+
+//$bumpmap "models\props\de_train\hr_t\gate_fence_a\gate_sign_a.vtf"
+	//"$phong" "1"
+	//"$phongboost" "1"
+//	"$phongalbedoboost" "1"
+//	"$phongfresnelranges" "[.9 .9 1]"
+//	"$phongexponent" 180
+//	$blendtintbybasealpha 1
+	
+$envmapmask "models\props\de_train\hr_t\gate_fence_a\gate_sign_a_env.vtf"
+
+
+"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[5 5 5]"
+	"$detailblendfactor" 	".8"
+
+		
+"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[.2 .2 .2]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+
+
+
+}

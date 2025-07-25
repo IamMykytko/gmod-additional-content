@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+$baseTexture "concrete/hr_c/inferno/concrete_b"
+"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0" 
+$surfaceprop concrete
+
+"$bumpmap"  "models\props\de_inferno\hr_i\curb_set_b\curb_set_b_normals.vtf"
+
+"$detail" 				"models\props\de_inferno\hr_i\curb_set_b\curb_set_b_ao.vtf"
+
+
+"$detailscale" 			"[1 1 1]"
+"$detailblendfactor" 	"1.2"
+
+}
+

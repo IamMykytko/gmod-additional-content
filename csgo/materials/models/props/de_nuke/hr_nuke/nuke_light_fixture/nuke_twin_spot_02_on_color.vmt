@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_twin_spot_02_color"
+	"$blendtintbybasealpha"   "1"
+	"$selfillum"              "1"
+	"$selfillummask"          "models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_twin_spot_02_illum"
+	"$selfillumtint"          "[3.5 3.5 3.5]"
+	"$envmap"                 "environment maps/metal_generic_001"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1]"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_twin_spot_02_mask"
+	"$surfaceprop"            "metal"
+}

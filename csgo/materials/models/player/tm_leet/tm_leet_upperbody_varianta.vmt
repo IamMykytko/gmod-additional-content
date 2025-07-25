@@ -1,0 +1,21 @@
+"patch"
+{
+	"include" "materials/models/player/tm_leet/tm_leet_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_leet\tm_leet_upperbody_variantA"
+	"$bumpmap" "models\player\tm_leet\tm_leet_upperbody_variantA_normal"
+			
+	"$phongexponenttexture" "models\player\tm_leet\tm_leet_upperbody_variantA_exponent"
+	"$rimmask" "1"
+
+	//$selfillum 1
+	//$selfillumfresnel 1
+	//$SELFILLUMFRESNELMINMAXEXP "[ 0 20 8 ]" // scale max with distance in shader 1-x
+	//$SELFILLUMTINT "[ .4 .3 .08 ]"
+	//$SELFILLUMMASK "models/player/tm_leet/tm_leet_upperbody_varianta_selfillummask"
+
+	//"$SelfIllumFresnelEnabledThisFrame" "0"
+
+	}	
+}

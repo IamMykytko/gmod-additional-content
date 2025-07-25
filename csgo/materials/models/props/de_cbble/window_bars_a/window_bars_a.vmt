@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_cbble\window_bars_a\window_bars_a.vtf"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 7 7 ]"
+	"$detailblendfactor" 	".3"
+	"$bumpmap" "models\props\de_cbble\window_bars_a\window_bars_normal.vtf"
+	
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+	"$phong" "1"
+	"$phongboost" "12"
+	"$phongfresnelranges" "[.2 0.5 1]"
+	"$phongexponent" 80
+	"$basemapalphaphongmask" "1"
+
+	
+	"$envmap" "env_cubemap"
+ 
+	"$envmapfresnel" "1"
+	
+	"$envmaptint" 		"[.8 .8 .8]"
+}
+

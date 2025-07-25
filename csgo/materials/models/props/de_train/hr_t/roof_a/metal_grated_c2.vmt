@@ -1,0 +1,28 @@
+VertexLitGeneric
+{
+$basetexture "metal/hr_metal/metal_grated_c2"
+
+$surfaceprop "metal"
+
+$bumpmap "metal/hr_metal/metal_grated_c_normals"
+
+	//"$blendmodulatetexture" "brick/hr_brick/brick_a_blend"
+
+
+
+ "$normalmapalphaenvmapmask" 1
+
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[6 6 6]"
+	"$detailblendfactor" 	"1"
+
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[.3 .3 .3]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+}

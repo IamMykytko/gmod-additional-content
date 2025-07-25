@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$baseTexture" 		"models\props\de_aztec\hr_aztec\aztec_skybox\aztec_skybox_bldg_a_color"
+	//"$bumpmap" 			"models\props\de_aztec\hr_aztec\aztec_skybox\aztec_skybox_bldg_a_normal"
+	"$surfaceprop" 			"rock"
+                                                          	
+}

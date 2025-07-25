@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_dust/dust_balcony02"
+	"$surfaceprop" "concrete"
+}

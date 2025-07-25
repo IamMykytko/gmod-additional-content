@@ -1,0 +1,16 @@
+"character"
+{
+	"$basetexture"            "models/player/custom_player/econ/body/tm_leet/tm_leet_v2_lower_body_varianti_color"
+	"$bumpmap"                "models/player/custom_player/econ/body/tm_leet/tm_leet_v2_lower_body_variantb_normal"
+	"$masks1"                 "models/player/custom_player/econ/body/tm_leet/tm_leet_v2_lower_body_varianta_masks1"
+	"$fresnelrangestexture"   "models/player/custom_player/shared/ctm_fresnelwarp"
+	"$phongwarptexture"       "models/player/custom_player/shared/ctm_specwarp"
+	"$phongboost"             "1"
+	"$phongalbedoboost"       "6"
+	"$rimlightexponent"       "6"
+	"$rimlightboost"          "1"
+	"$rimlightalbedo"         "0.6"
+	"$ambientreflectionboost" "0.1"
+	"$model"                  "1"
+	"$nodecal"                "1"
+}

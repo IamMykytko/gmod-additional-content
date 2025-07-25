@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\ar_dizzy\dizzy_insulation\dizzy_insulation_bundle_wrap_color"
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\ar_dizzy\dizzy_insulation\dizzy_insulation_bundle_wrap_mask"
+	"$nocull" "1"
+	 $surfaceprop "plastic"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+
+	"$envmapcontrast" 		".5"
+
+
+}

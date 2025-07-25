@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_vertigo\company_banner\company_banner_color"
+
+	"$bumpmap" 	"models\props\hr_vertigo\company_banner\company_banner_normal"
+
+	"$normalmapalphaenvmapmask"	"models\props\hr_vertigo\company_banner\company_banner_color"
+	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+//	"$envmapcontrast" 		"1.1"
+	"$envmaptint" 	 	"[.1 .1 .15]"
+
+
+
+}

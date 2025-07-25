@@ -1,0 +1,5 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/props_gameplay/capture_flag_post"
+	"$surfaceprop" "metal"
+}

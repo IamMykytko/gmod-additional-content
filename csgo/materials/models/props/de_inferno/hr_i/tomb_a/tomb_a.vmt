@@ -1,0 +1,15 @@
+
+"VertexLitGeneric"
+{
+	
+	"$basetexture" "concrete/hr_c/inferno/concrete_b"
+	"$bumpmap" "concrete/hr_c/inferno/concrete_b_normals"
+	"$detail""models\props\de_inferno\hr_i\tomb_a\tomb_a_ao.vtf"
+
+	"$basetexturetransform" "center .5 .5 scale 4 4 rotate 90 translate 0 0" 
+	"$bumptransform" "center .5 .5 scale 4 4 rotate 0 translate 0 0" 
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1"
+	$blendtintbybasealpha "1"
+}
+

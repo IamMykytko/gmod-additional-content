@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\curtain_1\curtain_1"
+	"$nodecal" "1"
+
+	"$bumpmap" "models\props\de_venice\curtain_1\curtain_1_normal"
+
+//	"$selfillum" "1"
+//	"$selfillummask" "models\props\de_venice\curtain_1\curtain_1_selfillum"
+
+
+}

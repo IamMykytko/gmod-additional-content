@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_dust\hr_dust\dust_awnings\dust_awning_fabric_01_color"
+    "$bumpmap" "models\props\de_dust\hr_dust\dust_awnings\dust_awning_fabric_01_normal"
+	"$nocull" "1"
+	"$nodecal" "1"
+	"$surfaceprop" 			"carpet"
+}

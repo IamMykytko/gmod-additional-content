@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\trophy_majors\trophy_winners"
+	"$bumpmap"				"models\inventory_items\trophy_majors\trophy_winners_normal"
+	"$color2"				"[.12 .1 .04]"
+	
+	
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmaptint" "[.6 .5 .2]"
+	"$envmapfresnel" ".6"
+
+	"$phong" "1"
+
+	"$phongfresnelranges" "[.7 .8 1]"
+
+	"$phongtint" "[.6 .5 .2]"
+	"$phongboost" "3"
+	"$phongexponent" 4
+	
+
+	"$phongdisablehalflambert" "1"
+	
+}
+

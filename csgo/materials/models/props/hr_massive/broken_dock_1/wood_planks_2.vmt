@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "hr_massive\wood_planks_2"
+
+	"$bumpmap" "hr_massive\wood_planks_2_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

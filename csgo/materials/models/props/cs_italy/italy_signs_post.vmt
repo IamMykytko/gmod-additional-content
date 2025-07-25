@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props/cs_italy/italy_signs_post"
+	"%keywords" "cstrike"
+	"$surfaceprop" "metal"
+}

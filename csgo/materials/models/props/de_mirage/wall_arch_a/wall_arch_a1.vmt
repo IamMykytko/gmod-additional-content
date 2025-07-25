@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_mirage\wall_arch_a\wall_arch_a1"
+	"$bumpmap" "models\props\de_mirage\wall_arch_a\wall_arch_a1_normal"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+//	"$detail" 				"detail\noise_detail_01"
+//	"$detailblendfactor" 	"0.3"
+//	"$detailscale" 			"[ 16 16 ]"
+
+}

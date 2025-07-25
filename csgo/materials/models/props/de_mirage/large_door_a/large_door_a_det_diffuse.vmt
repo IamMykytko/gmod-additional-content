@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_mirage\large_door_a\large_door_a_det_diffuse"
+	"$surfaceprop" "stone"
+	
+	"$bumpmap"	"models\props\de_mirage\large_door_a\large_door_a_det_normal"
+	
+	
+}

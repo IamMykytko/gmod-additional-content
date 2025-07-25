@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\basilica_door_1\basilica_door_1"
+
+	"$bumpmap" "models\props\de_venice\basilica_door_1\basilica_door_1_normal"
+	"$phong" "1"	
+	"$phongexponent" "75"
+
+	//"$phongtint" "[1 1 1]"
+	"$phongboost" "2"
+	//"$phongfresnelranges" "[0.45 0.85 1.25]"
+
+
+}

@@ -1,0 +1,21 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_aztec/aztec_door"
+	"$surfaceprop" "wood"
+
+	"$envmap" "env_cubemap"
+	//"$color" "[.2 .2 .2]"
+
+	"$phong" "1"
+	"$phongexponent" "12"
+	"$phongboost"	"20"
+	"$phongfresnelranges"	"[.3 .6 4]"
+	"$basealphaenvmapmask" "1"
+	"$basemapalphaphongmask" "1"	
+	"$envmapcontrast" 1
+	"$envmapsaturation" .01
+	//"$envmaptint" "[1 1 1 ]"
+	//"$normalmapalphaenvmapmask" 1
+	"$envmaplightscale" .6
+	
+}

@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\cs_militia\rocka\Rock_A_diffuse"
+	"$bumpmap"	"models\props\cs_militia\rocka\Rock_A_normals"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	".5"
+
+
+}

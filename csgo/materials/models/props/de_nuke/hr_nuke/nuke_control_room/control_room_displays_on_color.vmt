@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_control_room/control_room_displays_color"
+	"$selfillum"              "1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2]"
+	"$envmap"                 "env_cubemap"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_control_room/control_room_displays_mask"
+	"$envmapcontrast"         ".8"
+	"$surfaceprop"            "metal"
+}

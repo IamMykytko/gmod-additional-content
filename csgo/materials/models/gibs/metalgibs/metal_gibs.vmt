@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models/gibs/metalgibs/metal_gibs"
+$envmap env_cubemap
+$envmapsaturation ".5"
+$envmapcontrast ".5"
+}

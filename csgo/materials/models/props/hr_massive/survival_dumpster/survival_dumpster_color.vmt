@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_dumpster\survival_dumpster_color"
+
+
+	"$tintmasktexture"	"models\props\hr_massive\survival_dumpster\survival_dumpster_tint"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[5 4 4]"
+	"$detailblendfactor"      "1"
+
+
+}

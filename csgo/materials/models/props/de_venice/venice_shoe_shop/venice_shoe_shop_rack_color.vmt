@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\props\de_venice\venice_shoe_shop\venice_shoe_shop_rack_color"
+	
+	"$envmap"					"env_cubemap"
+	"$envmapmask" 			"models\props\de_venice\venice_shoe_shop\venice_shoe_shop_rack_mask"
+
+	"$envmaptint" 		"[.7 .7 .7]"
+	"$envmapcontrast" 		".8"
+
+	
+
+}

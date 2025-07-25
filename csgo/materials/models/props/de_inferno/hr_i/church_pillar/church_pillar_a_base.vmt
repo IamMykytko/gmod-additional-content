@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	
+		"$basetexture" "concrete/hr_c/inferno/concrete_b"
+	"$detail""models\props\de_inferno\hr_i\church_pillar\church_pillar_a_base"
+	//"$bumpmap""models\props\de_inferno\hr_i\church_pillar\church_pillar_a_normals"
+	"$basetexturetransform" "center .5 .5 scale 6 2 rotate 0 translate 0 0" 
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	".5"
+	//$blendtintbybasealpha "1"
+}

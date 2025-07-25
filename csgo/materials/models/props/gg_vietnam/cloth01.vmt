@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/gg_Vietnam/cloth01"
+	"$alphatest" 1
+	"$nocull" 1
+	"$translucent" 1
+}

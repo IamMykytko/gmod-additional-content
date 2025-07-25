@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/coop_cementplant/coop_pipe_set/coop_pipe_set_color"
+	"$envmapmask"             "models/props/coop_cementplant/coop_pipe_set/coop_pipe_set_mask"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2]"
+	"$envmapsaturation"       ".5"
+	"$envmapcontrast"         "0.4"
+	"$surfaceprop"            "metal"
+}

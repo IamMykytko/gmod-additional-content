@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_mirage\shutter_window\shutter_window_diffuse"
+	"$detail" 				"detail\dt_wood1"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	"0.5"
+}

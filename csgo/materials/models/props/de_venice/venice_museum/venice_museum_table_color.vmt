@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\venice_museum\venice_museum_table_color"
+	"$bumpmap"	"models\props\de_venice\venice_museum\venice_museum_table_normal"
+
+	"$envmap"	"env_cubemap"
+
+
+	"$envmaptint" 		"[.3 .3 .3]"
+	"$envmapcontrast" 	".8"
+
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "4"
+        "$phongExponent" "80"
+//        "$phongfresnelranges" "[0.8 0.8 1]"
+
+	
+
+
+}

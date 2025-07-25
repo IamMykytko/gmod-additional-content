@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"              "models/inventory_items/patch_inspect/patch_inspect"
+	"$bumpmap"                  "models/inventory_items/patch_inspect/patch_inspect_normal"
+	"$translucent"              "1"
+	"$envmap"                   "editor/cube_vertigo_blurred_hdr"
+	"$envmaptint"               ".25"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong"                    "1"
+	"$phongboost"               "0.5"
+	"$phongexponent"            "25"
+	$nocull 1
+}

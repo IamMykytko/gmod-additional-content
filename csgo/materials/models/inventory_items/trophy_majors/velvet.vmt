@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"white"
+	"$bumpmap"				"models\inventory_items\trophy_majors\velvet_normal"
+	"$color2"				"[0.045 0.055 0.105]"
+	"$bumptransform" "center .5 .5 scale 5 5 rotate 90 translate 0 0"
+	
+	"$envmap"		"models\effects\cube_white"
+	//"$envmap"		"Editor\cube_vertigo_blurred_hdr"
+	"$envmaptint" "[0.0012 0.0012 0.0028]"
+	"$envmapfresnel" "1.0"
+	"$normalmapalphaenvmapmask" 1
+	
+	"$phong" 1
+	"$phongfresnelranges" "[0.01 0.7 1]"
+
+}
+

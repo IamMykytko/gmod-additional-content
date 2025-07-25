@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+	$basetexture	"models\inventory_items\contributor_map_tokens\contributor_charset_color"
+	$alphatest 1
+	"$color" "[2550 2550 2550]"	
+}

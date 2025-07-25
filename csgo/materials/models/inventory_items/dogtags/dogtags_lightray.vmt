@@ -1,0 +1,42 @@
+"unlitgeneric"
+{
+	"$basetexture" "models/inventory_items/dogtags/dogtags_lightray"
+	"$additive"    "1"
+    "$nodecal" "1"
+    "$color" "[0.68 0.68 0.68]"
+
+    "$localTeamNumber" "0"
+//    "$localBrightnessScale" "0.68"
+
+    "proxies"
+    {
+        "GetTeamNumber"
+        {
+            "resultVar" "$localTeamNumber"
+        }
+
+        "select"
+        {
+            "srcVar1"       "$localTeamNumber"
+            "resultVar"     "$color"
+
+            //"default"       "[1.000000 1.000000 1.000000]"
+            //"2"             "[1.000000 0.800000 0.200000]"  // T  255 204  51
+            // //"3"             "[0.349020 0.615686 0.882353]"  // CT  89 157 225
+            //"3"             "[0.395556 0.697975 1.000000]"  // scale up to match brightness of t color better
+
+            // pre-multiply with tuned brightness scale
+            "default"       "[0.680000 0.680000 0.680000]"
+            "2"             "[0.680000 0.544000 0.136000]"
+            "3"             "[0.268978 0.474263 0.680000]"
+        }
+
+//        "multiply"
+//        {
+//            "srcVar1"       "$color"
+//            "srcVar2"       "$localBrightnessScale"
+//            "resultVar"     "$color"
+//        }
+    }
+
+}

@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			"models\inventory_items\dreamhack_trophies\dreamhack_trophy"
+	"$bumpmap"				"models\inventory_items\dreamhack_trophies\dreamhack_trophy_normal"
+	"$normalmapalphaenvmapmask" 1
+	
+	"$phong" "1"
+	"$phongboost" "0.1"
+	"$phongexponent" "250"
+	
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+	
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmaptint" "[.8 .8 .8]"
+	
+	"$additive" 1	
+}

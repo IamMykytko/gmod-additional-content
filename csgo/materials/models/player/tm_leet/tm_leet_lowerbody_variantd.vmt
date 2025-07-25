@@ -1,0 +1,12 @@
+"patch"
+{
+	"include" "materials/models/player/tm_leet/tm_leet_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_leet\tm_leet_lowerbody_variantD"
+	"$bumpmap" "models\player\tm_leet\tm_leet_lowerbody_variantD_normal"
+			
+	"$phongexponenttexture" "models\player\tm_leet\tm_leet_lowerbody_variantD_exponent"
+	"$rimmask" "1"
+	}	
+}

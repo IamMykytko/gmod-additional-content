@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "models\props_office\vending_machine01"
+$surfaceprop default
+$selfillumtint .65
+}

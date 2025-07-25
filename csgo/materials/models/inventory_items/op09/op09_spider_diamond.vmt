@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	"$basetexture"              "models/inventory_items/op09/op09_spider"
+	"$color"                    "6"
+	"$envmap"                   "models/effects/crystal_cube_vertigo_hdr"
+	"$envmapsaturation"         "1.3"
+	"$bumpmap"                  "models/inventory_items/op09/op09_spider_diamond_normal"
+	"$normalmapalphaenvmapmask" "1"
+}

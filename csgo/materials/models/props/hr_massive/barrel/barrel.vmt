@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\barrel\barrel"
+	"$bumpmap" "models\props\hr_massive\barrel\barrel_normal"
+
+//	"$blendtintbybasealpha" "1"
+
+//	"$phong" "1"
+//	"$phongexponent" "75"
+//	"$phongtint" "[1 1 1]"
+//	"$phongboost" "1.3"
+//	"$phongfresnelranges" "[.1 .5 1]"
+
+
+}

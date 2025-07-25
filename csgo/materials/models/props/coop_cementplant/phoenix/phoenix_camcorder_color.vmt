@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture"              "models/props/coop_cementplant/phoenix/phoenix_camcorder_color"
+	"$bumpmap"                  "models/props/coop_cementplant/phoenix/phoenix_camcorder_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap"                   "environment maps/metal_generic_003"
+	"$envmaplightscale"         "1"
+	"$envmaplightscaleminmax"   "[0 1]"
+	"$envmapcontrast"           "1"
+}

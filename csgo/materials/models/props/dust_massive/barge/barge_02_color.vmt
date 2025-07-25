@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/dust_massive/barge/barge_02_color.vtf"
+	
+	"$surfaceprop" 			"metal"
+}

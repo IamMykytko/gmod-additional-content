@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\picnic_table_1\picnic_table_1"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+//	"$bumpmap" "models\props\hr_massive\picnic_table_1\picnic_table_1_normal"
+
+	"$detail" 				"detail\dt_texture01"
+	"$detailscale" 			"[12 12]"
+	"$detailblendfactor" 	".6"
+	"$detailblendmode" "0"
+
+}

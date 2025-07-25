@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	
+	"$blendTintByBaseAlpha" "1"
+	
+	"$basetexture" "models\props\de_mirage\hanging_cloth_a\hanging_cloth_wood_a"
+	"$surfaceprop" "wood"
+	//"$nocull" "1"
+	"$bumpmap"	"de_mirage/base/base_top_ver1_normal"
+	//"$phong" "1"
+	//"$phongboost" ".25"
+	//"$phongexponent" "100"
+	
+}

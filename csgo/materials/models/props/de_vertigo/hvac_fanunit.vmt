@@ -1,0 +1,31 @@
+
+"VertexLitGeneric"
+{
+	   "$basetexture"	"models\props\De_Vertigo\HVAC_fanUnit"
+	    $bumpmap 	        "models\props\De_Vertigo\HVAC_fanUnit_N.vtf"
+
+
+	 // Suraface type
+	      $surfaceprop "metalvent"
+
+	 // add cubemap specularity
+	 //   $envmap "env_cubemap"
+         //   $basealphaenvmapmask "1"
+	 //   $envmapcontrast	"1"
+         //   $envmapsaturation	".5"
+	 //   $envmaptint		"{62 74 90}" 
+
+
+	 // add phong specularity
+              $basemapalphaphongmask "1"
+              $phong 1
+              $phongBoost 6
+              $phongExponent 45
+              $phongfresnelranges "[0.8 0.8 1]"
+              $phongTint "{160 190 231}" 
+
+         //   $blendtintbybasealpha 1
+
+
+}
+

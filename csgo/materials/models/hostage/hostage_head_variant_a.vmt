@@ -1,0 +1,12 @@
+"patch"
+{
+	"include" "materials/models/hostage/hostage_shared.vmt"
+	"insert"
+	{
+		"$baseTexture" "models\hostage\hostage_head_variant_a"
+		"$bumpmap" "models\hostage\hostage_head_normal"
+		"$phongexponenttexture" "models\hostage\hostage_head_exponent"
+		"$rimmask" "1"
+//		"$phongBoost" "95"
+	}
+}	

@@ -1,0 +1,25 @@
+"patch"
+{
+	"include" "materials/models/player/tm_balkan/tm_balkan_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_balkan\BalkanTerroristUpperBody_d1"
+	"$bumpmap" "models\player\tm_balkan\BalkanTerroristUpperBody_n"
+		
+	"$phongexponenttexture" "models\player\tm_balkan\BalkanTerroristUpperBody_exponent"
+	"$rimmask" "1"
+	
+//	"$phongBoost" "25"
+
+	//$selfillum 1
+	//$selfillumfresnel 1
+	//$SELFILLUMFRESNELMINMAXEXP "[ 0 20 8 ]" // scale max with distance in shader 1-x
+	//$SELFILLUMTINT "[ .4 .3 .08 ]"
+	//$SELFILLUMMASK "models/player/tm_balkan/balkanterroristupperbody_selfillummask"
+
+	// Proxies
+	//"$SelfIllumFresnelEnabledThisFrame" "0"
+
+
+	}	
+}

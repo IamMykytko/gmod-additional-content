@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture"            "models/props/coop_cementplant/furniture/coop_wooden_table_deco_color"
+	"$basealphaenvmapmask"    "1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.5]"
+	"$envmapcontrast"         ".6"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+}

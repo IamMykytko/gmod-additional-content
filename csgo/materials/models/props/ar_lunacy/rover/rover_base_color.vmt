@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\ar_lunacy\rover\rover_base_color"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[48 32]"
+	"$detailblendfactor"      ".4"
+
+	
+
+
+}

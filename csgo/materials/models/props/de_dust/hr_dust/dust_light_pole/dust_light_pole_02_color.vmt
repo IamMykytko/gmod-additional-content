@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\props\de_dust\hr_dust\dust_light_pole\dust_light_pole_02_color"
+	"$envmapmask" 			"models\props\de_dust\hr_dust\dust_light_pole\dust_light_pole_02_mask"
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$surfaceprop" 			"metal"
+	"$envmapcontrast" 		".6"
+	"$envmaptint" 			"[.4 .4 .4]"
+}

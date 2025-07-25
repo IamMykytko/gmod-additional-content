@@ -1,0 +1,30 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\dumpster_a\dumpster_a.vtf"
+
+	"$phong" "1"
+	"$phongboost" "20"
+	"$phongalbedoboost" "12"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 150
+	"$basemapalphaphongmask" 1
+	"$basealphaenvmapmask" 1
+
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[8 8 8]"
+	"$detailblendfactor" 	".8"
+
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[.2 .2 .2]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+	"$envmaplightscale" 1
+
+}
+
+

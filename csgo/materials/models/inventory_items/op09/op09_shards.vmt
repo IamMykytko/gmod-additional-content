@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+	"$basetexture"             "models/inventory_items/op09/op09_shards"
+	"$envmap"                  "models/props/de_nuke/hr_nuke/airduct_hvac_001/airduct_hvac_001_cube"
+	"$envmapsaturation"        "0.75"
+	"$envmaptint"              "{ 153 105 255 }"
+	"$basealphaenvmapmask"     "1"
+}

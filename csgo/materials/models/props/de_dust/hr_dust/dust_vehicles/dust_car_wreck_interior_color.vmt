@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\dust_vehicles\dust_car_wreck_interior_color"
+
+	"$bumpmap"     "models\props\de_dust\hr_dust\dust_vehicles\dust_car_wreck_interior_normal"
+
+	"$detail"						"models\props\de_dust\hr_dust\dust_detail\dust_detail_metal_01"
+	"$detailscale"				"[3 2]"
+	"$detailblendfactor" 		"1"
+}

@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\warehouse_windows\warehouse_windows"
+
+//	$envmap			env_cubemap
+//	$envmapmask		"models\props\hr_massive\warehouse_windows\warehouse_windows_spec"
+
+	"$selfillum" "1"
+	"$selfillummask" "models\props\hr_massive\warehouse_windows\warehouse_windows_spec"
+	
+	"$nodecal" "1"
+
+//	"$phong" 1
+//	"$phongexponent" "25"
+//	"$phongtint" "[1 1 1]"
+//	"$phongboost" "4"
+//	"$phongfresnelranges" "[.3 .6 1]"
+//	"$basemapalphaphongmask" "1"
+
+
+}

@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\service_medal_2019\service_medal_2019_lvl2"
+	//"$bumpmap"				"models\inventory_items\service_medal_2019\service_medal_2019_normal"
+	"$bumpmap" "effects/flat_normal"
+	"$alpha"		0.5
+	"$envmap"		"env_cubemap"
+	"$envmaptint" "[.2 .5 .3]"
+	"$envmapfresnel" 1
+
+	"$phong" "1"
+
+	"$phongboost" "4"
+	"$phongfresnelranges" "[.5 .8 1]"
+	"$phongexponent" "5000"
+
+	"$basemapalphaphongmask" "1"
+
+	"$phongdisablehalflambert" "1"
+}

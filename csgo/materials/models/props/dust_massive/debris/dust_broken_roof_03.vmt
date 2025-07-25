@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_plaster_12b_color"
+	"$bumpmap" "de_dust/hr_dust/hr_dust_plaster_12_normal"
+	"$surfaceprop" "dirt"
+	"%keywords" "ground,dirt" 	
+	
+} 

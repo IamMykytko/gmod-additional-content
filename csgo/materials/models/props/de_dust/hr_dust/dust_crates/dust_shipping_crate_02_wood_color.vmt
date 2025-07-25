@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_crates\dust_shipping_crate_02_wood_color"
+    "$bumpmap" 			"models\props\de_dust\hr_dust\dust_crates\dust_shipping_crate_02_wood_normal"
+	"$surfaceprop" 			"Wood_Panel"
+}

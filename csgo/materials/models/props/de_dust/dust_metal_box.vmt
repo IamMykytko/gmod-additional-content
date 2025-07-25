@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_dust/dust_metal_box"
+	"$surfaceprop" "metal"
+}

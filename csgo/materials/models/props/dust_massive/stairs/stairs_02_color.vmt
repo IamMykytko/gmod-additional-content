@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props/dust_massive/stairs/stairs_02_color"
+    	"$bumpmap" 	"models/props/dust_massive/stairs/stairs_02_normal"
+}

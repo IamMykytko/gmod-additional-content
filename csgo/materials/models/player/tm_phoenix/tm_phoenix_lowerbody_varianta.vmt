@@ -1,0 +1,10 @@
+"patch"
+{
+	"include" "materials/models/player/tm_phoenix/tm_phoenix_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_phoenix\tm_phoenix_lowerbody_variantA"
+	"$bumpmap" "models\player\tm_phoenix\tm_phoenix_lowerbody_normal"
+
+	}	
+}

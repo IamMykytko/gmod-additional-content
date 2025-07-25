@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\props\de_dust\hr_dust\dust_manholes\dust_manhole_01_color"
+	"$bumpmap" 			"models\props\de_dust\hr_dust\dust_manholes\dust_manhole_01_normal"
+
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmaptint" 			"[.6 .6 .6]"
+	"$phong" 			"1"
+	"$phongboost" 			"5"
+	"$phongexponent" 		"150"
+
+	"$normalmapalphaenvmapmask" 	"1"
+	
+}

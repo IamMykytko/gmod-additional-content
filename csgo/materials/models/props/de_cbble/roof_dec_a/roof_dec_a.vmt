@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_cbble\roof_dec_a\roof_dec_a.vtf"
+	"$bumpmap" "models\props\de_cbble\roof_dec_a\roof_dec_a_normals.vtf"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	".5"
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+	"$phong" "1"
+	"$phongboost" "2"
+	"$phongfresnelranges" "[.2 0.5 1]"
+	"$phongexponent" 80
+
+	
+	 
+	"$basemapalphaphongmask" "1"
+
+	
+	
+}
+

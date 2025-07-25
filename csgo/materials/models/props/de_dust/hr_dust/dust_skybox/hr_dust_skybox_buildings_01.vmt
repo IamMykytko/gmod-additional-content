@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\props\de_dust\hr_dust\dust_skybox\hr_dust_skybox_buildings_01"
+        "$model" 1
+        "$surfaceprop" 		"sand"
+	
+
+}

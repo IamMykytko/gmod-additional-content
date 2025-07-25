@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_vending_machine/nuke_snacks_color"
+	"$notint"                 "1"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_vending_machine/nuke_snacks_color"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2.5]"
+	"$envmapcontrast"         ".75"
+	"$surfaceprop"            "metal"
+}

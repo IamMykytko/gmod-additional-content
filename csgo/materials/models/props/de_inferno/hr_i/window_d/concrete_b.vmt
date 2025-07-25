@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center 1 1 scale 2 2 rotate 0 translate 0 0" 
+
+$baseTexture "concrete/hr_c/inferno/concrete_b"
+
+
+$surfaceprop concrete
+
+"$detail" 				"detail\plaster_detail_01"
+"$detailscale" 			"[9 9]"
+"$detailblendfactor" 	"1"
+}
+

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\props\de_train\train_oldbrick_01_prop"
+	"$surfaceprop" "brick"
+}

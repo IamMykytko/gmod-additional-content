@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\autum_pipe_clamps\autumn_pipe_clamps_color"
+	"$blendtintbybasealpha"   "1"
+	"$envmapmask"             "models\props\coop_autumn\autum_pipe_clamps\autumn_pipe_clamps_mask"
+
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2]"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+
+	"$envmapcontrast" 		".8"
+
+
+}

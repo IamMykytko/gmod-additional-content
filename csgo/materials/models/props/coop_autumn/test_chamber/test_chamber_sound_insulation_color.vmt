@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\test_chamber\test_chamber_sound_insulation_color"
+
+	"$bumpmap" "models\props\coop_autumn\test_chamber\test_chamber_sound_insulation_normal"
+
+
+
+}

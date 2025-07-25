@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\dust_massive\front_loader\front_loader_color"
+	
+
+	"$surfaceprop" 			"metal"
+	"$detail"      "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[12 8 8]"
+	"$detailblendfactor"      ".8"
+
+
+
+
+}

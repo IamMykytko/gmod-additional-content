@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailblendfactor"      "1"
+	"$detailscale"            "2"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001_cubemap"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.0]"
+	"$envmapsaturation"       ".90"
+	"$surfaceprop"            "metal"
+}

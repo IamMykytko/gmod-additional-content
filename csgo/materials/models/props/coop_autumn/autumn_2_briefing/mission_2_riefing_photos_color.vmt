@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\autumn_2_briefing\mission_2_riefing_photos_color"
+
+	
+	"$envmapmask"	"models\props\coop_autumn\autumn_2_briefing\mission_2_riefing_photos_mask"
+	"$envmap"                 "environment maps/metal_generic_001"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.5]"
+	"$envmapcontrast"         ".9"
+
+
+
+}

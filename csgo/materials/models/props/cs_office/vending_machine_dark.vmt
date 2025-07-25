@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\cs_office\vending_machine_dark"
+	"$selfillum" "1"
+	"$envmapmask" "models\props\cs_office\vending_machine_ref"
+
+}

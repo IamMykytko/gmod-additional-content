@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\cs_assault\Tool_cages_Props1.vtf"
+}

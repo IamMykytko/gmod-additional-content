@@ -1,0 +1,8 @@
+
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props/de_dust/hr_dust/dust_skybox/dust_kasbah_wood_crane.vtf"
+        "$model" 1
+	"$surfaceprop" 		"sand"
+        
+}

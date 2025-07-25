@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\prime_badge\prime_badge"
+	"$bumpmap"				"models\inventory_items\prime_badge\prime_badge_normal"
+	//"$phongexponenttexture" "models\inventory_items\prime_badge\prime_badge_exponent"
+	$phongexponent 200
+	
+	//"$envmap"		"Editor\cube_vertigo"
+	"$envmapcontrast" "2.2"
+	"$envmaptint" "[.12 .13 .08]"
+	"$envmapfresnel" ".6"
+	//"$basemapalphaenvmapmask" "1"
+	//"$normalmapalphaenvmapmask" 1
+
+	"$phong" "1"
+	"$phongboost" "0.5"
+
+	"$phongfresnelranges" "[.7 .8 1]"
+
+	"$phongdisablehalflambert" "1"
+	
+}
+

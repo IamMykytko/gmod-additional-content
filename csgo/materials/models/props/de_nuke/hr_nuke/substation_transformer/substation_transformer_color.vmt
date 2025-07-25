@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/substation_transformer/substation_transformer_color"
+	"$blendtintbybasealpha"   "1"
+	"$detail"                 "metal/hr_metal/hr_metal_detail_001"
+	"$detailscale"            "[5 2.5]"
+	"$detailblendfactor"      "0.6"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/substation_transformer/substation_transformer_color"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 0.5]"
+	"$surfaceprop"            "metal"
+}

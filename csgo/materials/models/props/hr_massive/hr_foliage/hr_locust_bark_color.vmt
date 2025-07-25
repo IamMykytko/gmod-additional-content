@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_massive\hr_foliage\hr_locust_bark_color"
+
+	"$bumpmap"	"models\props\hr_massive\hr_foliage\hr_locust_bark_normal"
+
+	
+
+
+}

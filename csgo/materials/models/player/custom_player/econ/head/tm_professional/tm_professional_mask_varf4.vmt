@@ -1,0 +1,21 @@
+"character"
+{
+	"$basetexture"               "models/player/custom_player/econ/head/tm_professional/tm_professional_mask_varf4"
+	"$bumpmap"                   "models/player/custom_player/econ/head/tm_professional/tm_professional_mask_varf3_normal"
+	"$phongwarptexture"       "models/player/custom_player/shared/ctm_specwarp_v2"
+	"$fresnelrangestexture"   "models/player/custom_player/shared/ctm_fresnelwarp_v2"
+	"$basealphaphongmask" 1
+	"$warpindex"              "0.41"
+	"$phongboost"             "1"
+	"$rimlightexponent"       "4"
+	"$rimlightboost"          "0.7"
+	"$rimlightalbedo"         "0.6"
+	"$rimlighttint"           "[0.8 1.0 1.2]"
+	"$fakerimtint"            "[0.5 0.7 1]"
+	"$fakerimboost"           "9"
+	"$ambientreflectionboost" "0.2"
+	"$model"                  "1"
+	"$shadowcontrast"         "0.4"
+	"$shadowtint"             "[0 0.5 1 0.2]"
+	"$nodecal"                       "1"
+}

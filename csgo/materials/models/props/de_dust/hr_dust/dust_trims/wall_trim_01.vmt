@@ -1,0 +1,24 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_trims\wall_trim_01"
+
+//	"$detail"				"models\props\de_nuke\hr_dust\dust_curbs_001\curbs_detail_001"
+//	"$detailscale"			"8"
+
+//	"$basealphaenvmapmask"	"1"
+//	"$envmapmask"			"models\props\de_dust\hr_dust\dust_curbs_001\dust_curbs_001"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\airduct_hvac_001\airduct_hvac_001_cube"
+//	"$envmap"				"environment maps\metal_generic_001"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_door_001\metal_door_001_glass_cube"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" "[0 1.5]"
+//	"$envmapsaturation"		".75"
+//	"$envmapcontrast"		"0.25"
+//	"$envmapfresnel"		"1"
+
+	"$notint"				"1"
+	"$surfaceprop" 			"concrete"
+//	"$blendtintbybasealpha"	"1"
+
+}

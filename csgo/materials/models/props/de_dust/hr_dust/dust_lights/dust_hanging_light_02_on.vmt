@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\props\de_dust\hr_dust\dust_lights\dust_hanging_light_02_color"
+   	"$bumpmap" 			"models\props\de_dust\hr_dust\dust_lights\dust_hanging_light_02_normal"
+	"$tintmasktexture" 	"models\props\de_dust\hr_dust\dust_lights\dust_hanging_light_02_tint"
+	"$envmapmaskintintmasktexture" 		"1"	
+	"$selfillum" "1"
+	"$selfillumtint"		"[4 4 3]"
+	
+	"$envmap" 				"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmaplightscale"				"1"
+	"$envmaplightscaleminmax" 		"[0 1]"
+	"$envmapcontrast" 			"0.15"
+	"$envmaptint" 				"[0.6 0.6 0.6]"
+	"$surfaceprop" 				"metal"
+}

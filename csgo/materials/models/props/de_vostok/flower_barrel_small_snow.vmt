@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_vostok/Flower_Barrel_Small_Snow"
+	"$AlphaTest" "1"
+	"$AlphaTestReference" ".45"
+	"$AllowAlphaToCoverage" "1"
+	"$nocull" 1	
+}

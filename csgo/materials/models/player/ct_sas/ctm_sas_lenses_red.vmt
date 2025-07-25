@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/ct_sas/ctm_sas_lenses"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.8 0.4 0.4]"
+//	"$envmapcontrast" "1"
+}

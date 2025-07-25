@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$basetexture"			"metal/hr_metal/metal_wall_b"
+	"$basetexturetransform"	"center .5 .5 scale 6 6 rotate 0 translate 0 0" 
+	
+	"$bumpmap"				"metal/hr_metal/metal_wall_b_normals"
+	
+	"$surfaceprop"			"brick"
+	
+	"$detailscale"			"[1 1 1 ]"
+	"$detailblendfactor"	"1"
+	"$detailblendmode"		"0"
+}

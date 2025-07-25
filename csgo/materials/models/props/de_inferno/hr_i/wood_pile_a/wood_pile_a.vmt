@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center 1 1 scale 1 1 rotate 0 translate 0 0" 
+	"$basetexture" "wood/hr_w/inferno/hr_wood_b"
+	"$bumptransform" "center 1 1 scale 1 1 rotate 0 translate 0 0" 
+	"$bumpmap"  "models\props\de_inferno\hr_i\wood_pile_a\wood_shell_ao.vtf"
+	"$surfaceprop" "brick"
+
+	//"$detail" 				"models\props\de_inferno\hr_i\pillar_b\pillar_b_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1"
+	"$detailblendmode" 0
+
+}

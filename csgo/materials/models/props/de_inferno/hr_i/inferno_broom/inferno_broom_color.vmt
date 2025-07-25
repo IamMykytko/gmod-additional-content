@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_inferno\hr_i\inferno_broom\inferno_broom_color"
+//	"$envmapmask"			"models\props\de_inferno\hr_i\inferno_phone_pole\inferno_phone_pole_mask"
+//	"$envmap"				"environment maps\metal_generic_004"
+//	"$envmap"				"env_cubemap"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+
+
+
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" "[0 2]"
+
+	"$envmapcontrast"		"0.30"
+
+
+	"$surfaceprop" 			"wood"
+}

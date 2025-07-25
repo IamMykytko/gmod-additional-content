@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_dust\hr_dust\dust_wood_pallet\dust_wood_pallet_color"
+    "$bumpmap" "models\props\de_dust\hr_dust\dust_wood_pallet\dust_wood_pallet_normal"
+	"$surfaceprop" 			"Wood_Panel"
+}

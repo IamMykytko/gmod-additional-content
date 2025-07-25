@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			"models\inventory_items\dreamhack_trophies\dreamhack_earth"
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmaptint" "[.3 .3 .3]"
+}

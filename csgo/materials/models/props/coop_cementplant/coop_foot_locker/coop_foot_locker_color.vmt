@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/coop_cementplant/coop_foot_locker/coop_foot_locker_color"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[4 3]"
+	"$detailblendfactor"      ".8"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.1]"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$envmapmask"             "models/props/coop_cementplant/coop_foot_locker/coop_foot_locker_mask"
+	"$envmapcontrast"         ".8"
+	"$surfaceprop"            "wood"
+}

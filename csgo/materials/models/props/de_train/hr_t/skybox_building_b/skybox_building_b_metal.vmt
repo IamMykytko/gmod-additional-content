@@ -1,0 +1,32 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center .5 .5 scale 15 15 rotate 0 translate 0 0" 
+
+
+$baseTexture "metal\hr_metal\metal_grated_d"
+$bumpmap "metal\hr_metal\metal_grated_d_normals"
+//	"$phong" "1"
+//	"$phongboost" "1"
+//	"$phongalbedoboost" "12"
+//	"$phongfresnelranges" "[.9 .9 1]"
+//	"$phongexponent" 60
+
+
+
+//"$normalmapalphaenvmapmask" 1
+
+
+	"$detail" 				"\models\props\de_train\hr_t\skybox_building_a\skybox_building_a_ao"
+	"$detailscale" 			"[1 1 1]"
+	//"$detailblendfactor" 	"1"
+
+		
+//	"$envmap" "env_cubemap"
+
+	//"$envmaptint" 		"[.2 .2 .23]"
+
+
+	//"$phongdisablehalflambert" "1"
+
+
+}

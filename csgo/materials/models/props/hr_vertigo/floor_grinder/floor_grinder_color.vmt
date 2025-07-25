@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_vertigo\floor_grinder\floor_grinder_color"
+
+	"$bumpmap" "models\props\hr_vertigo\floor_grinder\floor_grinder_normal"
+	
+	
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "2"
+        "$phongExponent" "40"
+        "$phongfresnelranges" "[0.8 0.8 1]"
+
+
+}

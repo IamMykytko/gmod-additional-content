@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	$basetexture models\player\holiday\facemasks\porcelain_doll\porcelain_doll_kabuki.vtf
+	$bumpmap models\player\holiday\facemasks\porcelain_doll\porcelain_doll_normal.vtf
+	
+	$phong 1
+	$phongexponent 64
+	$phongboost 0.4
+}

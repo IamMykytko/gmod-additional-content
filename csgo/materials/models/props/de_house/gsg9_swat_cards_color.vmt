@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_house\gsg9_swat_cards_color"
+	$AlphaTest 1
+	$AlphaTestReference ".3"
+	$nocull 1
+	$model 1
+	$FlashlightNoLambert 1
+	"%keywords" l4d2
+
+	"$DISABLECSMLOOKUP" "1"
+}

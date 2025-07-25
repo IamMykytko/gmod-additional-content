@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "de_mirage/plaster_worn/plaster_brick1_diffuse"
+	"$surfaceprop" "stone"
+	//"$nocull" "1"
+	"$bumpmap"	"de_mirage/plaster_worn/plaster_brick1_diffuse_normal"
+	
+	
+}

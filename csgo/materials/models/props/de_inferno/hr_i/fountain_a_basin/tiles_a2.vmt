@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center .5 .5 scale 6 6 rotate 0 translate 0 0"
+
+"$basetexture" "tile/hr_t/tiles_a2"
+
+"$surfaceprop" "tile"
+}

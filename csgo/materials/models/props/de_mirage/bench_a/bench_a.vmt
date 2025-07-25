@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props/de_mirage/bench_a/bench_a"
+	"$bumpmap" "models/props/de_mirage/bench_a/bench_a_normals"
+	"$surfaceprop"  "stone"
+	"$detail" "detail\detail_concrete_02"
+	"$detailscale" "2"
+	"$detailblendfactor" .2
+	
+	"$detailblendmode" "0"
+
+	
+}

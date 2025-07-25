@@ -1,0 +1,39 @@
+
+VertexLitGeneric
+{
+"$basetexturetransform" "center .5 .5 scale 5 5 rotate 0 translate 0 0" 
+$baseTexture "models\props\de_train\hr_t\nuclear_engine_a\nuclear_engine_a.vtf"
+
+ 
+
+//$bumpmap "models\props\de_train\hr_t\nuclear_engine_a\nuclear_engine_a_normals.vtf"
+
+	$blendTintByBaseAlpha 1
+	
+	"$phong" "1"
+	"$phongboost" "35"
+	"$phongalbedoboost" "60"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 150
+	
+
+//"$normalmapalphaenvmapmask" 1
+
+	$detailblendmode 0
+
+	"$detail" 				"models\props\de_train\hr_t\nuclear_engine_a\nuclear_engine_a_detail"
+	"$detailscale" 			"[1 1 1]"
+	
+
+	
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[.2 .2 .2]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+
+
+}

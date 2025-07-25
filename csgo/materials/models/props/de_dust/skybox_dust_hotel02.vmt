@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_dust/skybox_dust_hotel02"
+	"$surfaceprop" "concrete"
+	$envmap env_cubemap
+	$envmapmask "models/props/de_dust/skybox_dust_hotel02_ref"
+}

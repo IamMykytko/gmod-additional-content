@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_fluorescent_light_on_color"
+	"$blendtintbybasealpha"   "1"
+	"$detailscale"            "4"
+	"$detailblendfactor"      ".55"
+	"$selfillum"              "1"
+	"$selfillummask"          "models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_fluorescent_light_illum"
+	"$envmap"                 "environment maps/metal_generic_001"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 2.0]"
+	"$envmapsaturation"       ".65"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_fluorescent_light_color"
+	"$surfaceprop"            "metal"
+}

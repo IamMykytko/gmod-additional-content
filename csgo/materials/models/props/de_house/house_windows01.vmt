@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_house/House_Windows01"
+	"$translucent" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\de_house\House_Windows01_ref"
+}

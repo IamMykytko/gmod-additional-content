@@ -1,0 +1,7 @@
+vertexlitgeneric
+{
+	"$basetexture"       "models/props/de_nuke/hr_nuke/nuke_concrete_barrier/nuke_concrete_barrier_color"
+	"$detail"            "models/props/de_nuke/hr_nuke/nuke_concrete_barrier/nuke_concrete_block_detail"
+	"$detailscale"       "[8 4]"
+	"$detailblendfactor" "1"
+}

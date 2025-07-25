@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_kashbah\partition_wall_color"
+
+	"$bumpmap" "models\props\coop_kashbah\partition_wall_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong" "1"
+        "$phongBoost" "2"
+        "$phongExponent" "35"
+        "$phongfresnelranges" "[0.8 0.8 1]"
+
+
+}

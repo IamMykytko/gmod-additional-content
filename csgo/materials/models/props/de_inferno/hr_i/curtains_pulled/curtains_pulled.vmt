@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	$baseTexture "models\props\de_inferno\hr_i\curtains_pulled\curtains_pulled.vtf"
+
+	"$detail" 				"detail\dt_fabric2"
+	"$detailscale" 			"[24 24]"
+}

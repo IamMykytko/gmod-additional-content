@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_paint_bucket/nuke_paint_bucket_color"
+	"$blendtintbybasealpha"   "1"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 0.5]"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_paint_bucket/nuke_paint_bucket_color"
+}

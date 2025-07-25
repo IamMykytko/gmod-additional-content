@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_aztec\hr_aztec\aztec_ceilings\aztec_wood_ceiling_edges_01_color"
+	"$bumpmap" 				"models\props\de_aztec\hr_aztec\aztec_ceilings\aztec_wood_ceiling_edges_01_normal"
+	"$surfaceprop" 			"rock"
+}
+  

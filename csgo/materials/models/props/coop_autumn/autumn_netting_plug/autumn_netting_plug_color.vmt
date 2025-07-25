@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\coop_autumn\autumn_netting_plug\autumn_netting_plug_color"
+
+	"$bumpmap" 	"models\props\coop_autumn\autumn_netting_plug\autumn_netting_plug_normal"
+	"$surfaceprop" 			"metal"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+	
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "3"
+        "$phongExponent" "100"
+        "$phongfresnelranges" "[0.8 0.8 1]"
+
+
+}

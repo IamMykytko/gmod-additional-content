@@ -1,0 +1,14 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/security_barrier/security_barrier_base_color"
+	"$blendtintbybasealpha"   "1"
+	"$detail"                 "metal/hr_metal/hr_metal_detail_001"
+	"$detailscale"            "2"
+	"$detailblendfactor"      "0.55"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 0.5]"
+	"$envmap"                 "environment maps/metal_generic_005"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/security_barrier/security_barrier_base_color"
+	"$envmapcontrast"         ".4"
+	"$surfaceprop"            "metal"
+}

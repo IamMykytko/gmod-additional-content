@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_cbble\bomb_site_stat_base\bomb_site_stat_base.vtf"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	".5"
+	$bumpmap "models\props\de_cbble\bomb_site_stat_base\bomb_site_stat_base_normal.vtf"
+}

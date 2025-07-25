@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\palace_window_3\palace_window_3"
+	
+	"$selfillum" "1"
+	"$selfillummask" "models\props\de_venice\palace_window_3\palace_window_3_illum"
+
+
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\props\de_dust\hr_dust\dust_wires\dust_wires_01_color"
+    "$bumpmap" 			"models\props\de_dust\hr_dust\dust_wires\dust_wires_01_normal"
+	"$tintmasktexture" 	"models\props\de_dust\hr_dust\dust_wires\dust_wires_01_tint"
+	"$surfaceprop" 			"plastic"
+}

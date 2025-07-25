@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_aztec\hr_aztec\aztec_walls\aztec_wall_stone_01_individual_bricks_grey_color_ao"
+    "$bumpmap" 				"models\props\de_aztec\hr_aztec\aztec_walls\aztec_wall_stone_01_individual_bricks_grey_normal"
+	"$decaltexture"			"models\props\de_aztec\hr_aztec\aztec_walls\aztec_wall_stone_01_set_ao"
+	"$decalblendmode"		"1"
+	"$surfaceprop" 			"rock"
+}
+ 

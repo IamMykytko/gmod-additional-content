@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\de_dust\rock_tint"
+$blendtintbybasealpha 1
+$surfaceprop rock
+$model 1
+}

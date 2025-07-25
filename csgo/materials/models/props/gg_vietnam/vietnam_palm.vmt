@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/gg_Vietnam/vietnam_palm"
+	"$nocull" 1
+
+	"$DISABLECSMLOOKUP" "1"
+}

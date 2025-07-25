@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_boathouse/Table_Drafting"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\de_boathouse\Table_Drafting_ref"
+}

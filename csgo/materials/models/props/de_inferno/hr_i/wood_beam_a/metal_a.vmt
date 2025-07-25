@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "metal/hr_metal/inferno/metal_a"
+
+	"$surfaceprop" "Metal"
+	
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.2 .2 .2]"	
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[2 2]"
+	"$detailblendfactor" 	"1"
+
+
+}

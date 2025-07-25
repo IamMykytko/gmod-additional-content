@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/props/de_dust/dust_food_crates"
+$nocull 1
+$model 1
+}

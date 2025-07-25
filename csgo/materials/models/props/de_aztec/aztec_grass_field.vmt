@@ -1,0 +1,15 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_aztec/aztec_grass_field"
+//	"$translucent" 1
+//	"$alpha" 1
+	"$model" 1
+	"$nocull" 1
+//	"$surfaceprop" "paper"
+
+         $AlphaTest 1
+         $AlphaTestReference ".5"
+
+	"$DISABLECSMLOOKUP" "1"
+
+}

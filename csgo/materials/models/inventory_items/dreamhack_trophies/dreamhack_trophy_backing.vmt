@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmaptint" "[.15 .15 .15]"
+}

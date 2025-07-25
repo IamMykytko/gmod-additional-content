@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/custom_player/econ/head/ctm_swat/ctm_swat_gasmask_helmet_visor_color"
+	"$translucent" "1"	
+	"$envmap"	env_cubemap
+	"$envmaptint" "[1.3 1.1 0]"	
+//	"$envmapcontrast" "1"
+//	"$envmapsaturation" ".5" 
+//	"$mostlyopaque" 1
+	"$additive" 1`
+}

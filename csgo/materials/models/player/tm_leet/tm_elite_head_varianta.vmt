@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/models/player/tm_leet/tm_leet_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_leet\tm_elite_head_variantA"
+	"$bumpmap" "models\player\tm_leet\tm_elite_head_variantA_normal"
+				
+	"$phongexponenttexture" "models\player\tm_leet\tm_elite_head_variantA_exponent"
+	"$rimlight" "0"
+"$nodecal" 1
+	}	
+}

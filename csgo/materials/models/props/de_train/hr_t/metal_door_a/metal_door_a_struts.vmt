@@ -1,0 +1,30 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\metal_door_a\metal_door_a_struts.vtf"
+
+	"$phong" "1"
+	"$phongboost" "18"
+	"$phongalbedoboost" "12"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 90
+	"$basemapalphaphongmask" 1
+	"$basealphaenvmapmask" 1
+
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[12 12 12]"
+	"$detailblendfactor" 	".5"
+
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[.3 .3 .3]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+
+
+
+}

@@ -1,0 +1,25 @@
+"character"
+{
+	"$basetexture"               "models/player/custom_player/econ/head/tm_professional/tm_professional_mask_varf"
+	"$bumpmap"                   "models/player/custom_player/econ/head/tm_professional/tm_professional_mask_varf_normal"
+	"$fresnelrangestexture"          "models/player/custom_player/shared/ctm_fresnelwarp_v2"
+	"$phongwarptexture"              "models/player/custom_player/shared/ctm_specwarp_v2"
+	"$warpindex"              "0.41"
+	"$phongboost"                    "1"
+	"$rimlightexponent"              "6"
+	"$rimlightboost"                 "1"
+	"$rimlightalbedo"                "0.6"
+	"$fakerimtint"                   "[0.5 0.7 1]"
+	"$fakerimboost"                  "6"
+	"$ambientreflectionboost"        "0.1"
+	"$ambientreflectionbouncecenter" "[0 20 0]"
+	"$ambientreflectionbouncecolor"  "[.91 .62 .69 ]"
+	"$model"                         "1"
+	"$nodecal"                       "1"
+	"proxies"
+	{
+		"entityorigin"
+		{
+		}
+	}
+}

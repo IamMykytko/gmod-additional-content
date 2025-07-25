@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+	$basetexture models\player\holiday\facemasks\facemask_tf2\facemask_tf2_engi.vtf
+	
+	$phong 1
+	$phongexponent 64
+	$phongboost 0.4
+}

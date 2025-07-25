@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\venice_window_3\venice_window_3_lit"
+
+	"$selfillum" "1"
+	"$selfillummask" "models\props\de_venice\venice_window_3\venice_window_3_lit_selfillum"
+
+
+	"$blendTintByBaseAlpha" "1"
+
+	"$nodecal" "1"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

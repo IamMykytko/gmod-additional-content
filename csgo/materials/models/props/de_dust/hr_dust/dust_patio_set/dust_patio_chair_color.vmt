@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\props\de_dust\hr_dust\dust_patio_set\dust_patio_chair_color"
+	
+	"$tintmasktexture"		"models\props\de_dust\hr_dust\dust_patio_set\dust_patio_chair_tint"	
+
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmapmaskintintmasktexture"	"1"		
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 2]"
+	"$envmapcontrast" 		".5"
+
+
+}

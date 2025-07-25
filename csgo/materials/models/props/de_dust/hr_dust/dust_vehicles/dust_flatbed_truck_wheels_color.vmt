@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\de_dust\hr_dust\dust_vehicles\dust_flatbed_truck_wheels_color"
+	"$bumpmap"		"models\props\de_dust\hr_dust\dust_vehicles\dust_flatbed_truck_wheels_normal"
+	//"$envmapmask" 	"models\props\de_dust\hr_dust\dust_vehicles\dust_flatbed_truck_wheels_mask"
+	"$notint"	"1"
+
+	"$surfaceprop" "metal"
+	"$phongexponent" "15"
+	"$phongalbedotint" "1"
+	"$phongtint" "[.1 .11 .1]"
+	"$phong" "1"
+	"$phongboost" ".8"
+	
+	//"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	//"$envmaptint" 		"[.05 .05 .05]"
+}

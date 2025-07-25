@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\F18/thrust_tiled"
+	"$Translucent" "1"
+	"$alpha" "1"
+}

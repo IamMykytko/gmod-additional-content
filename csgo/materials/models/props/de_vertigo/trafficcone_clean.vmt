@@ -1,0 +1,12 @@
+
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture"	"models\props\De_Vertigo\TrafficCone_Clean"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$surfaceprop" "plastic"
+	"$envmaptint" .3 .3 .3
+	
+}
+

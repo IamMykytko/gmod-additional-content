@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/models/player/ct_gsg9/ctm_gsg9_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\ct_gsg9\ctm_gsg9_upperbody_variantD"
+	"$bumpmap" "models\player\ct_gsg9\ctm_gsg9_upperbody_normal"
+	
+	"$phongexponenttexture" "models\player\ct_gsg9\ctm_gsg9_upperbody_exponent"
+	"$rimmask" "1"
+	
+	}	
+}

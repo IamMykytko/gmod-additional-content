@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_power_pole/nuke_power_pole_color"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "3.57"
+	"$detailblendfactor"      "1.1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 0.7]"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_power_pole/nuke_power_pole_color"
+	"$surfaceprop"            "metal"
+}

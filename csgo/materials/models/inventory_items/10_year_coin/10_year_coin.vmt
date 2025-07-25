@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\10_year_coin\10_year_coin"
+	"$bumpmap"				"models\inventory_items\10_year_coin\10_year_coin_normal"
+
+	"$phong" "1"
+
+	"$phongboost" "2"
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "200"
+	"$phongexponenttexture" "models\inventory_items\10_year_coin\10_year_coin_exponent"
+	"$phongfresnelranges" "[.7 .8 1]"
+
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmapcontrast" "3"
+	"$envmaptint" "[.048 .05 .03]"
+	"$envmapfresnel" ".8"
+	"$normalmapalphaenvmapmask" "1"
+	"$basemapalphaphongmask" "1"
+}
+

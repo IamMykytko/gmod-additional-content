@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\ar_lunacy\moon_rocks\moon_rock_04_color"
+	"$bumpmap" 	"models\props\hr_massive\rock_wall_4\rock_wall_4_normal"
+
+	"$detail" 				"detail\detail_rock001"
+	"$detailscale" 			"[10 10]"
+	"$detailblendfactor" 	".25"
+	"$detailblendmode" "0"
+	"$surfaceprop" 			"rock"
+
+	
+
+
+}

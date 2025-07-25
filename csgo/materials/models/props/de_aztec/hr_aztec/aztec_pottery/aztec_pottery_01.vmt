@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$baseTexture" 		"models\props\de_aztec\hr_aztec\aztec_pottery\aztec_pottery_01_color"
+	"$surfaceprop" 			"pottery"
+}

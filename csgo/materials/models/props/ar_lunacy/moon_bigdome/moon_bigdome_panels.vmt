@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props/ar_lunacy/moon_bigdome/moon_bigdome_panels"
+	"$translucent" 1
+	"$basetexturetransform" "center .5 .5 scale 100 87 rotate 0 translate 0 0"
+	"%compileNoLight" 1
+
+}

@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/wall_bumper_001/wall_bumper_001"
+	"$basealphaenvmapmask"    "1"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$detail"                 "concrete/hr_c/hr_concrete_wall_painted_002_detail"
+	"$detailscale"            ".24"
+	"$detailblendfactor"      "2"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2]"
+	"$surfaceprop"            "metal"
+}

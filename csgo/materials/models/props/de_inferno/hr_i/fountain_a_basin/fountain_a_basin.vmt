@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0" 
+	"$basetexture" "models\props\de_inferno\hr_i\fountain_a\fountain_a.vtf"
+
+	"$surfaceprop" "brick"
+
+	"$detail" 				"models\props\de_inferno\hr_i\fountain_a_basin\fountain_a_basin.vtf"
+	"$detailscale" 			"[1 1]"
+	"$detailblendfactor" 	"1"
+	"$detailblendmode" 0
+
+}

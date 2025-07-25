@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_aztec/grasstuft01"
+	"$translucent" 1
+	"$alpha" 1
+	"$model" 1
+	"$nocull" 1
+	"$surfaceprop" "wood"
+}

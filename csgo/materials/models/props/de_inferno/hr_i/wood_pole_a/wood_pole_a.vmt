@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\wood_pole_a\wood_pole_a.vtf"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0" 
+
+	"$detail" 				"detail\dt_wood1"
+	"$detailscale" 			"[8 8]"
+	"$detailblendfactor" 	"1"
+	$detailblendmode 0
+}

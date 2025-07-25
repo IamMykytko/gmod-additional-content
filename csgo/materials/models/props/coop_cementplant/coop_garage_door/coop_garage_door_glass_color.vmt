@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	"$basetexture"              "models/props/coop_cementplant/coop_garage_door/coop_garage_door_glass_color"
+	"$translucent"              "1"
+	"$bumpmap"                  "models/props/coop_cementplant/coop_garage_door/coop_garage_door_glass_normal"
+	"$envmap"                   env_cubemap
+	"$envmapsaturation"         ".8"
+	"$normalmapalphaenvmapmask" 1
+}

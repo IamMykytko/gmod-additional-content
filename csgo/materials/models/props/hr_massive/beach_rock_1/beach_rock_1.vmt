@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "hr_massive\rock_wall_2"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "hr_massive\rock_wall_2_normal"
+
+
+//	"$detail" 				"detail\dt_texture01"
+//	"$detailscale" 			"[24 24]"
+//	"$detailblendfactor" 	"1.3"
+//	"$detailblendmode" "0"
+
+	"$detail" 				"detail\detail_rock001"
+	"$detailscale" 			"[8 8]"
+	"$detailblendfactor" 	".95"
+	"$detailblendmode" "0"
+	"$surfaceprop" 			"rock"
+
+
+}

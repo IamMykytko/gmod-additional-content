@@ -1,0 +1,33 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\metal_door_d\metal_door_d.vtf"
+$bumpmap "models\props\de_train\hr_t\metal_door_d\metal_door_d_normals.vtf"
+
+//	"$phong" "1"
+//	"$phongboost" "24"
+//	"$phongalbedoboost" "12"
+//	"$phongfresnelranges" "[.9 .9 1]"
+//	"$phongexponent" 90
+
+//	"$basemapalphaphongmask" 1
+	"$basealphaenvmapmask" 1
+	
+
+ //"$normalmapalphaenvmapmask" 1
+
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[6 6]"
+	"$detailblendfactor" 	".5"
+
+		
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.6 .6 .6]"
+
+//	"$phongalbedotint" "1"
+//	"$phongdisablehalflambert" "1"
+
+
+
+}

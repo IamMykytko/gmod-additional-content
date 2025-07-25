@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_dust/palace_bigdome"
+	//"$bumpMap" "models/props/de_dust/palace_bigdome_normal"
+                "$surfaceprop" "metal"
+
+                "$blendtintbybasealpha" "1"
+}

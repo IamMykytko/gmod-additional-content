@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "tile/hr_t/inferno/herringbone_b"
+	"$bumpmap"  "tile/hr_t/inferno/herringbone_b_normals"
+
+		"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.03 .03 .03]"	
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[5 5 5]"
+	"$detailblendfactor" 	".4"
+	
+                "$phong" "1"
+                "$phongexponent" "95.0"
+
+}
+
+

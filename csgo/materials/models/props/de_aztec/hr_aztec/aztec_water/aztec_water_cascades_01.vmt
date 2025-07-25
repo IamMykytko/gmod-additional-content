@@ -1,0 +1,24 @@
+"Refract"
+{
+"$model" 1
+
+"$bluramount" "1"
+"$refractamount" ".28"
+"$refracttinttexture" "models\props\de_aztec\hr_aztec\aztec_water\aztec_water_cascades_01_refractint"
+"$refracttint" "[ .9 .9 .9 ]"
+$reflect2dskybox 1
+"$alpha" "0.1"
+
+"$normalmap" "models\props\de_aztec\hr_aztec\aztec_water\aztec_water_cascades_01_normal"
+"$translucent" 1
+
+Proxies
+{
+	TextureScroll
+		{
+		texturescrollvar $bumpTransform
+		texturescrollrate 1.5 
+		texturescrollangle 90
+		}
+}
+}

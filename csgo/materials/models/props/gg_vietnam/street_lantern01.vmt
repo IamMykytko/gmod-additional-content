@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/props/gg_Vietnam/street_lantern01"
+	"$selfillum" "1"
+}

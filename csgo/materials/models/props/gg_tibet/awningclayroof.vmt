@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models/props/gg_tibet/awningclayroof"
+"$bumpmap" "models/props/gg_tibet/awningclayroof_normal"
+"$surfaceprop" "concrete"
+"$blendtintbybasealpha" "1"
+}

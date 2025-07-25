@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_vertigo\vertigo_metal_fence\vertigo_metal_fence_color"
+
+	"$bumpmap" 	"models\props\hr_vertigo\vertigo_metal_fence\vertigo_metal_fence_normal"
+
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+	"$surfaceprop" 			"metal"
+
+
+}

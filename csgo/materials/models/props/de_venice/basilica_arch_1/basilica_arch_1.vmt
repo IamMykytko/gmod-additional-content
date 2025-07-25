@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\basilica_arch_1\basilica_arch_1"
+
+	"$bumpmap" "models\props\de_venice\basilica_arch_1\basilica_arch_1_normal"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

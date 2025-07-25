@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "brick/hr_brick/inferno/brick_g1"
+	"$bumpmap"  "brick/hr_brick/inferno/brick_g_normals"
+
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[9 9 9]"
+	"$detailblendfactor" 	"1"
+
+}

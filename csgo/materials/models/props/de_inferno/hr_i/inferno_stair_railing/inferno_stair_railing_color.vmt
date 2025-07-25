@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_inferno/hr_i/inferno_stair_railing/inferno_stair_railing_color"
+	"$surfaceprop"  	"glass"
+
+//	"$blendtintbybasealpha" "1"
+
+	
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props/de_inferno/hr_i/inferno_stair_railing/inferno_stair_railing_mask"
+	"$envmapcontrast" ".5"
+	
+}

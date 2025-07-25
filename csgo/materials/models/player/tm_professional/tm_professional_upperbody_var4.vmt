@@ -1,0 +1,12 @@
+"patch"
+{
+	"include" "materials/models/player/tm_professional/tm_professional_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_professional\tm_professional_upperbody_var4"
+	"$bumpmap" "models\player\tm_professional\tm_professional_upperbody_normal"
+
+	"$phongexponenttexture" "models\player\tm_professional\tm_professional_upperbody_exponent"
+	"$rimmask" "1"
+	}	
+}

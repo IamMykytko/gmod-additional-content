@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture"            "models/props/coop_cementplant/exploding_barrel_color.vtf"
+	"$basealphaenvmapmask"    "1"
+	"$envmap"                 "environment maps/metal_generic_004"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.5]"
+	"$envmapcontrast"         "0.3"
+}

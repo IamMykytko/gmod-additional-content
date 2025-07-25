@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_crates\plastic_crate_01_color"
+	"$tintmasktexture"		"models\props\de_dust\hr_dust\dust_crates\plastic_crate_01_tint"
+
+	"$detail"				"models\props\de_dust\hr_dust\dust_detail\dust_detail_metal_01"
+	"$detailscale"			"[2 2]"
+	"$detailblendfactor" 		"1"
+	
+	"$surfaceprop" 			"metal"
+
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_inferno\hr_i\inferno_window_overhang\inferno_window_overhang_color"
+
+	"$surfaceprop" 			"rock"
+}

@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\door_a\door_a.vtf"
+	"$surfaceprop" 			"wood"
+	"$blendtintbybasealpha"	"1"
+	"$envmapmask"			"models\props\de_inferno\hr_i\door_a\door_a_env.vtf"
+	"$fresnelreflection" ".2"		
+	"$envmaptint" 		"[.6 .6 .6]"
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[12 12 12]"
+	"$detailblendfactor" 	".5"
+	$envmap			env_cubemap
+			
+}

@@ -1,0 +1,33 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\foliage_ported\helmlock_branch_1"
+	//"$bumpmap" "models\props\hr_massive\foliage_ported\helmlock_branch_1_normal"
+
+	"$alphatest" 			"1"
+	"$alphatestreference" 		".3"
+//	"$allowalphatocoverage"		"1"
+	"$nocull" 			"1"
+	"$model" 			"1"
+        "$surfaceprop" 			"wood"
+
+
+
+	$treeSway			"1"	// Turns the effect on or off.
+	$treeSwayHeight			"256"	// The height in which the effect is applied.
+	$treeSwayStartHeight		".6"	// The height from the origin in which the effect starts blending in.
+	$treeSwayRadius			"96"	// The radius from the origin in which the effect is applied.
+	$treeSwayStartRadius		".1"	// The radius from the origin in which the effect starts blending in.
+	$treeSwaySpeed			".2"	// The speed multiplier of large movement such as the trunk.
+	$treeSwayStrength		".6"	// The distance multiplier of large movement such as the trunk.
+	$treeSwayScrumbleSpeed		".2"	// The speed multiplier of the small movement such as the leaves.
+	$treeSwayScrumbleStrength	".6"	// The distance multiplier of the small movement such as the leaves.
+	$treeSwayScrumbleFrequency	"2"	// The frequency of the rippling of a sine wave in small movement such as the leaves.
+	$treeSwayFalloffExp		"64"	// The falloff of the effect on small movement such as the trunk. Higher means a more stable center.
+	$treeSwayScrumbleFalloffExp	"64"	// The falloff of the effect on small movement such as the leaves. Higher means a more stable center.
+	$treeSwaySpeedHighWindMultiplier "0"  	// Speed multiplier when env_wind triggers a gust.
+	$treeSwaySpeedLerpStart 	"200.0"	// Minimum wind speed in which a gust triggered by env_wind will start affecting the material.
+	$treeSwaySpeedLerpEnd 		"600.0"	// Minimum wind speed in which a gust triggered by env_wind will fully affect the material.
+	
+
+
+}

@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/airduct_hvac_001/airduct_hvac_001b"
+	"$basealphaenvmapmask"    "1"
+	"$envmap"                 "environment maps/metal_generic_003"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.25]"
+	"$envmapcontrast"         "0.25"
+	"$surfaceprop"            "metal"
+}

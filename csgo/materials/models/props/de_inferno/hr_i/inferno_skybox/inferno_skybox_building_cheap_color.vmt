@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_inferno\hr_i\inferno_skybox\inferno_skybox_building_cheap_color"
+
+	"$blendtintbybasealpha" "1"
+
+}

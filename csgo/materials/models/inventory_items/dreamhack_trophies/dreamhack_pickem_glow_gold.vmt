@@ -1,0 +1,5 @@
+unlitgeneric
+{
+	$basetexture	models\inventory_items\dreamhack_trophies\dreamhack_pickem_glow_gold
+	$additive 1
+}

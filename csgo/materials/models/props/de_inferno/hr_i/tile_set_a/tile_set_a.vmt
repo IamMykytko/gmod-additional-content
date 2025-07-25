@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\tile_set_a\tile_set_a.vtf"
+	
+		"$bumpmap" "models\props\de_inferno\hr_i\tile_set_a\tile_set_a_normals.vtf"
+
+"$phong" "1"
+"$phongboost" "1"
+"$phongalbedoboost" "60"
+"$phongfresnelranges" "[.9 .9 1]"
+"$phongexponent" 90
+
+
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[4 4]"
+	"$detailblendfactor" 	"1"
+
+		
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.1 .1 .1]"
+
+$BasemapAlphaPhongMask 1
+	"$phongalbedotint" "1"
+"$basealphaenvmapmask" 1
+	  
+}

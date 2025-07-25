@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\bridge_railing\bridge_railing_1"
+
+
+	"$bumpmap" "models\props\de_venice\bridge_railing\bridge_railing_1_normal"
+
+	$phong 1
+	"$phongexponent" "35"
+	"$phongtint" "[1 1 1]"
+	"$phongboost" "4"
+	"$phongfresnelranges" "[.1 .5 1]"
+
+
+}

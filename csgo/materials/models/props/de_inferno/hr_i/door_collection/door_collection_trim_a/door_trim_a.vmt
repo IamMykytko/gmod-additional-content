@@ -1,0 +1,13 @@
+
+"VertexLitGeneric"
+{
+	
+	$basetexture concrete\hr_c\hr_conc_d
+	//"$bumpmap" "concrete/hr_c/inferno/concrete_a_normals"
+	"$detail""models\props\de_inferno\hr_i\door_collection\door_collection_trim_a\door_trim_a_ao.vtf"
+
+	"$basetexturetransform" "center .5 .5 scale 4 4 rotate 0 translate 0 0" 
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1"
+	$blendtintbybasealpha "1"
+}

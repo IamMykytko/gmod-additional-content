@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_vertigo\traffic_cone\vertigo_traffic_cone_color"
+
+	"$envmapmask"			"models\props\hr_vertigo\traffic_cone\vertigo_traffic_cone_color"
+	"$envmap"			"env_cubemap"
+	"$envmaptint" 			.3 .3 .3
+//	"$envmapcontrast"		"0.40"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+
+
+	"$surfaceprop" "plastic"
+	
+	
+
+
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/ct_fbi/ct_fbi_glass"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.4 0.6 0.7]"
+}

@@ -1,0 +1,14 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/coop_cementplant/cementplant_forklift/cementplant_forklift_color"
+	"$blendtintbybasealpha"   "1"
+	"$detail"                 "models/props/de_nuke/hr_nuke/chainlink_fence_001/chainlink_fence_detail_001"
+	"$detailscale"            "[12 5 5]"
+	"$detailblendfactor"      ".7"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.5]"
+	"$envmap"                 "environment maps/metal_generic_006"
+	"$envmapmask"             "models/props/coop_cementplant/cementplant_forklift/cementplant_forklift_mask"
+	"$envmapcontrast"         ".6"
+	"$surfaceprop"            "metal"
+}

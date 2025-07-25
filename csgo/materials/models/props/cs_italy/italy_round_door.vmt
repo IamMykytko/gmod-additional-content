@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props/cs_italy/italy_round_door"
+	"%keywords" "cstrike"
+	"$surfaceprop" "concrete"
+}

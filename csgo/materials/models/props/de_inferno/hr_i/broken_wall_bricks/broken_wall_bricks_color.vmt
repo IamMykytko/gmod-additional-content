@@ -1,0 +1,16 @@
+
+VertexLitGeneric
+{
+//	"$basetexturetransform" "center 1 1 scale 2 3 rotate 0 translate 30 15" 
+	"$baseTexture" 	"models\props\de_inferno\hr_i\broken_wall_bricks\broken_wall_bricks_color"
+	"$bumpmap"  	"models\props\de_inferno\hr_i\broken_wall_bricks\broken_wall_bricks_normal"
+	"$surfaceprop" "brick"
+//	"$tintbybasealpha" 1
+	
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[7 7 7]"
+	"$detailblendfactor" 	"1"
+//	"$detailblendmode" 0
+
+}
+

@@ -1,0 +1,29 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models\props\hr_massive\rock_wall_4\rock_wall_4"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "models\props\hr_massive\rock_wall_4\rock_wall_4_normal"
+
+
+//	"$detail" 				"detail\dt_texture01"
+//	"$detailscale" 			"[40 40]"
+//	"$detailblendfactor" 	"1.3"
+//	"$detailblendmode" "0"
+
+//	"$detail" 				"models\props\hr_massive\rock_wall_1\tiling_rock_1"
+//	"$detailscale" 			"[4 4]"
+//	"$detailblendfactor" 	"2"
+//	"$detailblendmode" "0"
+
+	"$detail" 				"detail\detail_rock001"
+	"$detailscale" 			"[10 10]"
+	"$detailblendfactor" 	".95"
+	"$detailblendmode" "0"
+	"$surfaceprop" 			"rock"
+
+}

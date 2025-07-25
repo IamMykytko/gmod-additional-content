@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\venice_stone\venice_stone_2"
+
+
+	"$bumpmap" "models\props\de_venice\venice_stone\venice_stone_2_normal"
+
+
+//	"$detail" 				"detail\noise_detail_01"
+//	"$detailscale" 			"[ 10 10 ]"
+//	"$detailblendfactor" 	"0.4"
+//	"$detailblendmode" "0"
+
+
+}

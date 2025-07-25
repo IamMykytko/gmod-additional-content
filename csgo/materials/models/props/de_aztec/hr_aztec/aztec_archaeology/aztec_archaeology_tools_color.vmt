@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$baseTexture" 		"models\props\de_aztec\hr_aztec\aztec_archaeology\aztec_archaeology_tools_color"
+	"$bumpmap" 			"models\props\de_aztec\hr_aztec\aztec_archaeology\aztec_archaeology_tools_normal"
+	//"$decaltexture"		"models\props\de_aztec\hr_aztec\aztec_scaffolding\aztec_scaffolding_01_ao"
+	//"$decalblendmode"	"1"
+	
+	"$surfaceprop" 			"wood"
+                                                          	
+}

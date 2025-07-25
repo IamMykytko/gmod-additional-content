@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+
+	"$basetexture" "models\props\de_cbble\window_d\window_d_glow.vtf"
+	"$translucent" "1"
+	
+}

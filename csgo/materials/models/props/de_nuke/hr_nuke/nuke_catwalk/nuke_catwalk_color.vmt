@@ -1,0 +1,5 @@
+vertexlitgeneric
+{
+	"$basetexture" "models/props/de_nuke/hr_nuke/nuke_catwalk/nuke_catwalk_color"
+	"$surfaceprop" "metal"
+}

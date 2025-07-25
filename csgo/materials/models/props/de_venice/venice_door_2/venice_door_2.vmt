@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\venice_door_2\venice_door_2"
+
+	"$bumpmap" "models\props\de_venice\venice_door_2\venice_door_2_normal"
+
+	"$blendTintByBaseAlpha" "1"
+
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongalbedoboost" "1"
+	"$phongfresnelranges" "[.35 .65 1]"
+	"$phongexponent" "30"
+
+
+}

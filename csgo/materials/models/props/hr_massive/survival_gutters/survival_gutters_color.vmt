@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_gutters\survival_gutters_color"
+
+	"$tintmasktexture"	"models\props\hr_massive\survival_gutters\survival_gutters_tint"
+
+
+
+}

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/gg_Vietnam/vietnam_palm_detail"
+	"$alphatest" 1
+	"$nocull" 1
+}

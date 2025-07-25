@@ -1,0 +1,27 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0" 
+ $basetexture "brick/hr_brick/brick_h"
+
+ 
+
+$bumpmap "brick/hr_brick/brick_h_normals"
+
+
+	
+
+"$normalmapalphaenvmapmask" 1
+
+	$detailblendmode 0
+
+	"$detail" 				"models\props\de_train\hr_t\gate_fence_a\gate_fence_a_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	
+
+	
+		
+	
+
+
+
+}

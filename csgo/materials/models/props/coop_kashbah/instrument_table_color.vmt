@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_kashbah\instrument_table_color"
+
+	"$envmap"				"env_cubemap"
+	"$envmapmask" "models\props\coop_kashbah\instrument_table_mask"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+	"$envmapcontrast"	".7"
+//	"$envmapsaturation"	".2"
+
+
+}

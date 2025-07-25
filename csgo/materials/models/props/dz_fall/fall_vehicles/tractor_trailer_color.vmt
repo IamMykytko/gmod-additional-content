@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\dz_fall\fall_vehicles\tractor_trailer_color"
+
+	"$tintmasktexture"	"models\props\dz_fall\fall_vehicles\tractor_trailer_mask"
+
+	"$surfaceprop" 			"metal"
+	"$detail"      "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[8 4 4]"
+	"$detailblendfactor"      "1"
+
+
+}

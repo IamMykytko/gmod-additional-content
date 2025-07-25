@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models/props/gg_vietnam/bambooBundles"
+"$bumpmap" "models/props/gg_vietnam/bambooBundles_normal"
+"$surfaceprop" "wood"
+"$blendtintbybasealpha" "1"
+}

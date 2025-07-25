@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\dust_garbage_container\dust_garbage_dumpster_signage"
+//		"$AlphaTest" "1"
+//	"$AlphaTestReference" ".5"
+	"$translucent"	"1"
+//	"$nocull"	"1"
+
+	
+
+
+}

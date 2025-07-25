@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	   "$basetexture"	"models\props\de_aztec\hr_aztec\aztec_lighting\aztec_lighting_lantern_glass_01_color"
+	    $translucent 1
+	    $surfaceprop "glass"
+	    $envmap "env_cubemap"
+	    $envmapmask "models\props\de_aztec\hr_aztec\aztec_lighting\aztec_lighting_lantern_glass_01_mask"
+	    $envmapcontrast	"1"
+        $envmapsaturation	"1"
+	    $envmaptint		"[1.5 1.6 1.7]"
+
+}

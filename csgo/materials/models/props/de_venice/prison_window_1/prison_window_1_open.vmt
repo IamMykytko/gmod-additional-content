@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\prison_window_1\prison_window_1_open"
+
+	"$selfillum" "1"
+	"$selfillummask" "models\props\de_venice\prison_window_1\prison_window_1_selfillum"
+
+	//"$nodecal" "1"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

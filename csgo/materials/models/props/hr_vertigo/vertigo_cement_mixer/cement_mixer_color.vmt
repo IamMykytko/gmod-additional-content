@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_vertigo\vertigo_cement_mixer\cement_mixer_color"
+
+//	"$bumpmap" 	"models\props\hr_vertigo\vertigo_cement_mixer\cement_mixer_normal"
+	"$envmapmask"	"models\props\hr_vertigo\vertigo_cement_mixer\cement_mixer_mask"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+	"$envmap"	"env_cubemap"
+
+	
+	
+	"$detail"					"models\props\de_nuke\hr_nuke\metal_crate_001\metal_crate_001_detail"
+	"$detailscale"				"[7 6]"
+	"$detailblendfactor" 		"1"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+	"$envmapcontrast" 		".5"
+	"$envmaptint" 		"[.7 .7 .7]"
+
+}

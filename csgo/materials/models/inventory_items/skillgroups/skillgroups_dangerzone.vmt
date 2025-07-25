@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"               "models/inventory_items/skillgroups/skillgroups_dangerzone"
+	"$bumpmap"                   "dev/flat_normal"
+	"$envmap"                  "models/props/de_nuke/hr_nuke/airduct_hvac_001/airduct_hvac_001_cube"
+	"$envmaptint"                "0.05"
+	"$phong"                     "1"
+	"$basemapluminancephongmask" "1"
+	"$phongboost"                "1.5"
+	"$phongexponent"             "800"
+	"$alphatest"                 "1"
+	"$alphatestreference"        "0.1"
+}

@@ -1,0 +1,31 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\trim_b\trim_b.vtf"
+
+	"$phong" "1"
+	"$phongboost" "6"
+	"$phongalbedoboost" "12"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 300
+	"$basemapalphaphongmask" 1
+	"$basealphaenvmapmask" 1
+
+
+
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"15"
+	"$detailblendfactor" 	".6"
+
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		".3"
+
+	"$phongalbedotint" "1"
+
+
+
+
+}

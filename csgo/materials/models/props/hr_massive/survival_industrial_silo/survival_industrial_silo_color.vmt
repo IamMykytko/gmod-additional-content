@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_industrial_silo\survival_industrial_silo_color"
+
+	"$bumpmap" "models\props\hr_massive\survival_industrial_silo\survival_industrial_silo_normal"
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongtint" "[1 1 1]"
+	"$phongboost" "8"
+
+}

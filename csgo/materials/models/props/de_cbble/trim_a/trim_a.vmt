@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_cbble\trim_a\trim_a.vtf"
+	//"$bumpmap" "models\props\de_cbble\trim_a\trim_a_normal.vtf"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	".5"
+	
+}

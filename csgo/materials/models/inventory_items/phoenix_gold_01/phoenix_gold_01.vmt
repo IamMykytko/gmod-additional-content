@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\phoenix_gold_01\phoenix_gold_01"
+	"$bumpmap"				"models\inventory_items\phoenix_gold_01\phoenix_gold_01_normal"
+	"$phongexponenttexture" "models\inventory_items\phoenix_gold_01\phoenix_gold_01_exponent"
+	"$envmap"				"Editor\cube_vertigo"
+	"$envmapcontrast" "8"
+	"$envmaptint" "[.35 .37 .33]"
+	"$envmapfresnel" ".6"
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+	"$phongboost" "0.1"
+	"$phongfresnelranges" "[.7 .8 1]"
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "160"
+	"$phongdisablehalflambert" "1"
+}

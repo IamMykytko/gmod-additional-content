@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_office_desk/nuke_office_desk_monitor_color"
+	"$blendtintbybasealpha"   "1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.3]"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_office_desk/nuke_office_desk_monitor_color"
+	"$envmap"                 "environment maps/metal_generic_003"
+	"$surfaceprop"            "metal"
+}

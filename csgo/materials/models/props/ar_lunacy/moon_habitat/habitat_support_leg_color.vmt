@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\ar_lunacy\moon_habitat\habitat_support_leg_color"
+
+	
+	"$envmap" 	"env_cubemap"
+	"$envmapmask"   "models\props\ar_lunacy\moon_habitat\habitat_support_leg_color"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+	"$envmapcontrast" 		".7"
+//	"$envmaptint" 		"[.5 .5 .5]"	
+
+
+	
+	"$surfaceprop" 			"metal"
+
+
+}

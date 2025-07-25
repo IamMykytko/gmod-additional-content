@@ -1,0 +1,14 @@
+
+"UnlitGeneric"
+{
+	"$basetexture"			"white"
+
+	"$gradientmodulation" "1"
+	"$GRADIENTCOLORSTOP0" "{179 210 230 160}"
+	"$GRADIENTCOLORSTOP1" "{205 231 247 230}"
+	"$GRADIENTCOLORSTOP2" "{233 239 241 255}"
+	
+	"$nofog"				"1"
+
+
+}

@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\palace_arch_5\palace_arch_5"
+
+	//"$bumpmap" "models\props\de_venice\palace_pillar_1\palace_pillar_1_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+//	"$detail" 				"models\props\de_venice\palace_arch_5\palace_arch_5_detail"
+//	"$detailscale" 			"[.5 1]"
+//	"$detailblendfactor" 	"1.1"
+//	"$detailblendmode" "0"
+
+
+
+}

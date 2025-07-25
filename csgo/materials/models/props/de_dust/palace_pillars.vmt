@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_dust/palace_pillars"
+	//"$bumpMap" "models/props/de_dust/palace_pillars_normal"
+    "$blendtintbybasealpha" "1"
+	"$surfaceprop" "concrete"
+	"$detail" "detail/dt_stone1"
+	"$detailscale" "[12 10]"
+	"$detailblendfactor" "0.4"
+}

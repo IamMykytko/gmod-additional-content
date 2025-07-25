@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\lighthouse_bridge\lighthouse_bridge_rope"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+//	"$bumpmap" "models\props\hr_massive\lighthouse_bridge\lighthouse_bridge_rope_normal"
+
+}

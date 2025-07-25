@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\gutters\gutters_b.vtf"
+	"$basealphaenvmapmask"	"1"
+
+	"$detail" 				"models\props\de_inferno\hr_i\gutters\gutters_b_ao.vtf"
+	"$detailscale" 			"[1 1]"
+	"$detailblendfactor" 	"2"
+
+	"$envmapfresnel"		".5"
+	"$envmaptint" 		"[.5 .5 .5]"
+	$envmap env_cubemap
+	
+}

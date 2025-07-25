@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_inferno\hr_i\wine_vines\grapes_a.vtf"
+$BasemapAlphaPhongMask 1
+
+
+
+	//"$detail" 				 "models\props\de_inferno\hr_i\ivy_a\ivy_bark_a_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1"
+
+"$phong" "1"
+"$phongboost" ".5"
+"$phongalbedoboost" "60"
+"$phongfresnelranges" "[.9 .9 1]"
+"$phongexponent" 20
+
+
+}

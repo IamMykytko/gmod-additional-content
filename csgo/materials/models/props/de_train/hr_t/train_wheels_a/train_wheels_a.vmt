@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+
+	"$basetexture" "models\props\de_train\hr_t\train_wheels_a\train_wheels_a"
+	
+	"$bumpmap"  "models\props\de_train\hr_t\train_wheels_a\train_wheels_a_normals"
+	"$surfaceprop" "Metal"
+	$nocull 1
+
+		"$phong" "1"
+	"$phongboost" "12"
+	"$phongalbedoboost" "1"
+	"$phongfresnelranges" "[.7 .7 1]"
+	"$phongexponent" 280
+	
+
+		"$normalmapalphaenvmapmask" "1"
+	
+
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.3 .3 .3]"	
+	"$detail" 				"detail\dt_metal1"
+	"$detailscale" 			"[15 15 15]"
+	"$detailblendfactor" 	"1"
+
+
+
+}

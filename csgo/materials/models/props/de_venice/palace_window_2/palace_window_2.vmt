@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\palace_window_2\palace_window_2"
+
+	"$bumpmap" "models\props\de_venice\palace_window_2\palace_window_2_normal"
+
+	"$phong" "1"	
+	"$phongexponent" "75"
+
+	//"$phongtint" "[1 1 1]"
+	"$phongboost" "2"
+	//"$phongfresnelranges" "[0.45 0.85 1.25]"
+
+
+}

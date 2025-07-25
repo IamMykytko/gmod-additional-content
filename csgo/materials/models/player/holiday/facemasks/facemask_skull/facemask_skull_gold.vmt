@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	$basetexture models\player\holiday\facemasks\facemask_skull\facemask_skull_gold.vtf
+	$bumpmap models\player\holiday\facemasks\facemask_skull\facemask_skull_normal.vtf
+	$color "[.65 .61 .34]"
+	$phong 1
+	$phongtint "[.31 .16 .01]"
+	$phongexponent 40
+	$phongboost 20
+	$envmap "env_cubemap"
+	$envmaptint 		"[.61 .5 .2]"
+}

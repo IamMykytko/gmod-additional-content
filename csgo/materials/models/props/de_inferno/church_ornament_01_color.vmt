@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_inferno\church_ornament_01_color"
+	"$bumpmap"	"models\props\de_inferno\church_ornament_01_normal"
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	"0.5"
+		
+	
+}

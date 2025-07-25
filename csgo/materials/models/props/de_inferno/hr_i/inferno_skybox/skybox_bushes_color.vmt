@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_inferno\hr_i\inferno_skybox\skybox_bushes_color"
+
+	$translucent 1
+	$AlphaTest 1
+	$AlphaTestReference ".5"
+	"$allowalphatocoverage"	"1"
+//	$nocull 1
+	$model 1
+        "$surfaceprop" 		"wood"
+
+
+}

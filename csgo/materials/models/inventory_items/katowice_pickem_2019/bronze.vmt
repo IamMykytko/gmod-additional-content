@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\katowice_pickem_2019\bronze"
+	"$bumpmap"				"models\inventory_items\katowice_pickem_2019\bronze_normal"
+	"$phongexponenttexture" "models\inventory_items\katowice_pickem_2019\bronze_exponent"
+	
+	"$envmap"		"Editor\cube_vertigo"
+	//$envmap "black"
+	"$envmaptint" "[.1 .14 .08]"
+	//"$basemapalphaenvmapmask" "1"
+	"$normalmapalphaenvmapmask" 1
+
+	"$phong" "1"
+
+	"$phongboost" "0.1"
+	"$phongfresnelranges" "[.7 .8 1]"
+
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "40"
+
+	"$phongdisablehalflambert" "1"
+	
+}
+

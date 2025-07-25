@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/de_mirage/small_door_b/small_door_b_diffuse"
+	"$surfaceprop" "stone"
+	//"$nocull" "1"
+	"$bumpmap"	"models/props/de_mirage/small_door_b/small_door_b_normal"
+	"$phong" "1"
+	"$phongboost" ".02"
+	"$phongexponent" "250"
+	
+}

@@ -1,0 +1,30 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\blue_floor_mat\blue_floor_mat.vtf"
+
+	"$phong" "1"
+	"$phongboost" "8"
+	"$phongalbedoboost" "12"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 200
+	"$basemapalphaphongmask" 1
+	"$basealphaenvmapmask" 1
+
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[4 4 4]"
+	"$detailblendfactor" 	".3"
+
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[.7 .7 .7]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+
+
+
+}

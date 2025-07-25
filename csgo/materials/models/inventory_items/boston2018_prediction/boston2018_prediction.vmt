@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture"              "models/inventory_items/boston2018_prediction/boston2018_prediction"
+	"$bumpmap"                  "models/inventory_items/boston2018_prediction/boston2018_prediction_normal"
+	"$envmap"                   "editor/cube_vertigo"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong"                    "1"
+}

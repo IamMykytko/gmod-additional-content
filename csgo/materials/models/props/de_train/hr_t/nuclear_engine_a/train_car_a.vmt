@@ -1,0 +1,39 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center .5 .5 scale 10 10 rotate 0 translate 0 0" 
+$baseTexture "models\props\de_train\hr_t\train_car_a\train_car_a.vtf"
+
+ 
+
+$bumpmap "models\props\de_train\hr_t\train_car_a\train_car_a_normals"
+
+	$blendTintByBaseAlpha 1
+	
+	"$phong" "1"
+	"$phongboost" "24"
+	"$phongalbedoboost" "60"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" 300
+	
+	
+
+"$normalmapalphaenvmapmask" 1
+
+	$detailblendmode 8
+
+	"$detail" 				"models\props\de_train\hr_t\train_car_a\train_car_a_ao_detail.vtf"
+	"$detailscale" 			"[1 1 1]"
+	
+
+	
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		"[.2 .2 .2]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+
+
+}

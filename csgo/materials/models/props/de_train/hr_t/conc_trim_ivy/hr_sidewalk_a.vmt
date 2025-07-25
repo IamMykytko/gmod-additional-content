@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "concrete/hr_c/hr_sidewalk_a"
+	"$surfaceprop"  	"concrete"
+//	"$bumpmap" 	"concrete/hr_c/hr_sidewalk_a_bump"
+	$blendTintByBaseAlpha 1
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[4 4 4]"
+	"$detailblendfactor" 	"1"
+}

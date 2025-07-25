@@ -1,0 +1,22 @@
+"patch"
+{
+	"include" "materials/models/player/tm_professional/tm_professional_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_professional\tm_professional_upperbody_var3"
+	"$bumpmap" "models\player\tm_professional\tm_professional_upperbody_normal"
+
+	"$phongexponenttexture" "models\player\tm_professional\tm_professional_upperbody_exponent"
+	"$rimmask" "1"
+
+	//$selfillum 1
+	//$selfillumfresnel 1
+	//$SELFILLUMFRESNELMINMAXEXP "[ 0 20 8 ]" // scale max with distance in shader 1-x
+	//$SELFILLUMTINT "[ .4 .3 .08 ]"
+	//$SELFILLUMMASK "models/player/tm_professional/tm_professional_upperbody_selfillummask"
+
+	// Proxies
+	//"$SelfIllumFresnelEnabledThisFrame" "0"
+
+	}	
+}

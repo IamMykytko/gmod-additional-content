@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/ar_lunacy/moon_plantdome/moon_plantdome_frame"
+	"$surfaceprop" "metal"
+
+}

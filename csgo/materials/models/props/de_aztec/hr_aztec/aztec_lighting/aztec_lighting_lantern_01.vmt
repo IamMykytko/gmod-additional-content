@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$baseTexture" 		"models\props\de_aztec\hr_aztec\aztec_lighting\aztec_lighting_lantern_01_color"
+	"$bumpmap" 			"models\props\de_aztec\hr_aztec\aztec_lighting\aztec_lighting_lantern_01_normal"
+	"$surfaceprop" 		"metal"
+	
+	 "$envmap" "env_cubemap"
+	 "$normalmapalphaenvmapmask" "1"
+	 "$envmaplightscale" "0"
+	 "$envmapcontrast"	"1"
+     "$envmapsaturation"	"1"
+	 "$envmaptint"		"[2 2 1.5]"
+}

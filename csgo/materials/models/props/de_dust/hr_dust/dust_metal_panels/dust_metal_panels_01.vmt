@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_dust\hr_dust\dust_metal_panels\dust_metal_panels_01_color"
+    "$bumpmap" 		"models\props\de_dust\hr_dust\dust_metal_panels\dust_metal_panels_01_normal"
+	"$surfaceprop" 	"metalpanel"
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\book_set\book_set_a"
+		
+	    "$detail"              "detail\noise_detail_01"
+    "$detailscale"         "[ 8 8 ]"
+    "$detailblendfactor"   "1"
+	
+}

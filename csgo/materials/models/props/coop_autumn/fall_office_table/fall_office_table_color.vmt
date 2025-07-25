@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\fall_office_table\fall_office_table_color"
+
+	"$envmapmask"	"models\props\coop_autumn\fall_office_table\fall_office_table_mask"
+//	"$envmap"				"environment maps\metal_generic_003"
+	"$envmap"				"env_cubemap"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+
+	
+	
+//	"$detail"					"models\props\de_nuke\hr_nuke\metal_crate_001\metal_crate_001_detail"
+//	"$detailscale"				"[6 5]"
+//	"$detailblendfactor" 		"1"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+
+	"$envmapcontrast" 		".5"
+
+
+}

@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\inventory_items\music_kit\mordfustang_01\mp3_screen"
+	"$additive" 1
+	"$detail" "models\inventory_items\music_kit\mp3_screen_detail"
+	"$detailscale" .8
+	"$detailblendfactor" 0.6
+	"$detailtexturetransform" "center 0 0 scale 1 1.27 rotate 0 translate 0 0"
+	"$color" "[1.1 1.15 1.3]"
+}

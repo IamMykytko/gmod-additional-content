@@ -1,0 +1,28 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center .5 .5 scale 6 6 rotate 90 translate 0 0" 
+
+	"$basetexture" "models\props\de_inferno\hr_i\rock_collection\rock_b"
+	"$bumpmap"  "models\props\de_inferno\hr_i\rock_collection\rock_b_normals"
+	"$surfaceprop" "stone"
+
+	"$detail" 				"models\props\de_inferno\hr_i\rock_collection\rock_b_ao"
+	"$detailscale" 			"[1 1]"
+	"$detailblendfactor" 	"1.1"
+	"$detailblendmode" 0	
+
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongalbedoboost" "50"
+	"$phongfresnelranges" "[.9 .9 1]"
+	"$phongexponent" "30"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.2 .2 .2]"
+
+}
+
+
+

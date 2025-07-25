@@ -1,0 +1,6 @@
+// ### This basic VMT was written based on the D:\dev\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/props_gameplay/prop_bomb_blast_wall.vtf"
+
+}

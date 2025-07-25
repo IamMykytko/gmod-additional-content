@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\de_vertigo\ibeam_plates_clean_color"
+	"$bumpmap" 	"models\props\de_vertigo\ibeam_plates_clean_normal"
+
+	"$surfaceprop" "metal"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong" "1"
+	"$phongBoost" "6
+	"$phongExponent" "60"
+	"$phongTint" "{196 232 253}" 
+
+
+}

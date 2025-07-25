@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\coop_kashbah\windtunnel_catwalk_color"
+
+	"$bumpmap" 	"models\props\coop_kashbah\windtunnel_catwalk_normal"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1]"
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "2"
+        "$phongExponent" "20"
+        "$phongfresnelranges" "[0.8 0.8 1]"
+	
+
+}

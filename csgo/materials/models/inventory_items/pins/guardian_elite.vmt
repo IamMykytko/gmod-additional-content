@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\pins\guardian_elite"
+	"$bumpmap"				"models\inventory_items\pins\guardian_elite_normal"
+	"$normalmapalphaenvmapmask" 1
+	
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmapcontrast" "1"
+	"$envmapsaturation" "0.0"
+	"$envmaptint" "[0.18 0.13 0.11]"
+	"$envmapfresnel" "1"
+
+	"$phong" "1"
+	"$phongexponent" 400
+
+	"$phongboost" "2.5"
+	"$phongfresnelranges" "[.3 .8 1]"
+	"$phongtint" "[1 0.95 0.98]"
+
+	"$phongdisablehalflambert" "1"
+}
+

@@ -1,0 +1,10 @@
+// ### This basic VMT was written based on the e:\valvegames\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture 			"models/props/dust_massive/boats/row_boat002.vtf"
+	"$tintmasktexture"		"models/props/dust_massive/boats/row_boat002_tint.vtf"
+	"$detail"						"detail\dt_wood1"
+	"$detailscale"				"[50 50]"
+	"$detailblendfactor" 		"1"
+	"$surfaceprop" 			"wood"
+}

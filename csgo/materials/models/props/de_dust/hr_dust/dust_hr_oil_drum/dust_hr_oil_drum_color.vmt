@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\dust_hr_oil_drum\dust_hr_oil_drum_color"
+	"$bumpmap"	"models\props\de_dust\hr_dust\dust_hr_oil_drum\dust_hr_oil_drum_normal"
+	"$tintmasktexture" "models\props\de_dust\hr_dust\dust_hr_oil_drum\dust_hr_oil_drum_tint"
+	"$surfaceprop" "metal_barrel"
+
+
+
+}

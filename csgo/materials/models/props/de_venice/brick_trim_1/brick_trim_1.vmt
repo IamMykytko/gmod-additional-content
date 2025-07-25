@@ -1,0 +1,25 @@
+"Vertexlitgeneric"
+{
+
+
+	"$basetexture" "models\props\de_venice\brick_trim_1\brick_trim_1"
+	//"$bumpmap" "models\props\de_venice\brick_trim_1\brick_trim_1_normal"
+
+	"$surfaceprop" "concrete_block"
+
+//	"$envmap" "env_cubemap"
+//	"$envmaptint" 		"[.02 .02 .02]"	
+
+//        "$phong" "1"
+  //      "$phongexponent" "75.0"
+	//"$phongboost" "1"
+      	//"$phongAmount" "[1 1 1 1]"
+
+	"$detail" 				"detail\dt_stone2"
+	"$detailscale" 			"[20 10]"
+	"$detailblendfactor" 	".4"
+	"$detailblendmode" "0"
+
+	"$halflambert" "1"
+
+}

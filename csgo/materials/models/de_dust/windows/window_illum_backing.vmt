@@ -1,0 +1,6 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models/de_dust/windows/window_illum_backing"
+	"$translucent" "1"
+	"$additive" "1"
+}

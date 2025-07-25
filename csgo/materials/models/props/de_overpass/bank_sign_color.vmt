@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_overpass/bank_sign_color"
+	
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props/de_overpass/bank_sign_mask"
+	"$envmapcontrast" "1.01"
+
+
+
+
+	
+
+}

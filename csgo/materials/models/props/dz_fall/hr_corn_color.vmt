@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\dz_fall\hr_corn_color"
+
+	$AlphaTest 1
+	$AlphaTestReference ".3"
+//	"$allowalphatocoverage"	"1"
+	$nocull 1
+	$model 1
+
+
+}

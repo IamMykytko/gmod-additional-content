@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_mill/smokestacks"
+	//"$bumpMap" "models/props/de_mill/smokestacks_normal"
+                "$surfaceprop" "metal"
+
+                "$blendtintbybasealpha" "1"
+}

@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"         "models/inventory_items/op09/op09_spider"
+	"$color"               "{ 200 130 0 }"
+	"$envmap"              "editor/cube_vertigo_blurred_hdr"
+	"$envmaptint"          "{ 200 130 0 }"
+	"$basealphaenvmapmask" "1"
+	"$envmapsaturation"    "0.68"
+	"$detail"              "detail/dt_brushed"
+	"$detailscale"         "10"
+	"$detailblendfactor"   "0.8"
+}

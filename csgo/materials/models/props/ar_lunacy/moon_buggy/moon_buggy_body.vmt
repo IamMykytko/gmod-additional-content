@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/ar_lunacy/moon_buggy/moon_buggy_body"
+	"$surfaceprop" "metal"
+
+}

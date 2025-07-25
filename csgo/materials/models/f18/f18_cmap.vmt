@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models\F18\F18_cmap"
+	"$bumpmap" "Models\F18\F18_normal"
+
+        "$vertexfog" "1"
+	"$color2" "[.66 .66 .66]"
+	"$halflambert" "1"
+	"$phong" "1"
+        "$phongexponent" "4"
+	"$phongboost" "4"       
+	"$phongfresnelranges" "[.2 .5 1]"
+	"$MaxFogDensityScalar" "0.25"
+}

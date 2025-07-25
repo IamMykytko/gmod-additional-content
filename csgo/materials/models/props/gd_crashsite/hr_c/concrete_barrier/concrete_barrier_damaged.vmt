@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexturetransform" "center 1 1 scale 4 4 rotate 0 translate 30 15" 
+	"$baseTexture" "models\props\gd_crashsite\hr_c\concrete_barrier\concrete_barrier.vtf"
+	"$bumpmap" "models\props\gd_crashsite\hr_c\concrete_barrier\concrete_barrier_damaged_normals.vtf"
+
+	"$detail" 				"models\props\gd_crashsite\hr_c\concrete_barrier\concrete_barrier_damaged_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1"
+}

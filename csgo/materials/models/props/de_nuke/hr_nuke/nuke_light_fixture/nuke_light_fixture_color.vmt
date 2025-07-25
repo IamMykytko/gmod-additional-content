@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_light_fixture_color"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.0]"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_light_fixture_color"
+	"$surfaceprop"            "metal"
+}

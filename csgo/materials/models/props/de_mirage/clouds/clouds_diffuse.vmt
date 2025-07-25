@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_mirage\clouds\clouds_diffuse"
+	//"$detail" 				"detail\noise_detail_01"
+	//"$detailscale" 			"[ 8 8 ]"
+	//"$detailblendfactor" 	"0.5"
+	"$translucent" "1"
+	"$alphablend" "1"
+}

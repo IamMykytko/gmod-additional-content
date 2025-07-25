@@ -1,0 +1,25 @@
+"Refract"
+{
+"$model" 1
+"$refractamount" ".3"
+"$bluramount" "1"
+"$scale" "[10 1]"
+$reflecttint .5 .5 .7
+$reflect2dskybox 1
+
+"$dudvmap" "models\props\de_inferno\hr_i\fountain_a\fountain_a_water_normals"
+"$normalmap" "models\props\de_inferno\hr_i\fountain_a\fountain_a_water_normals"
+"$translucent" 1
+
+Proxies
+{
+	TextureScroll
+		{
+		texturescrollvar $bumpTransform
+		texturescrollrate .4
+		texturescrollangle 90
+		}
+}
+
+
+}

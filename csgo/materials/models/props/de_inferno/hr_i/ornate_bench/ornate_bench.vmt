@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center .5 .5 scale 4 4 rotate 90 translate 0 0" 
+	"$basetexture" "concrete/hr_c/inferno/concrete_b"
+	"$bumpmap" "models\props\de_inferno\hr_i\ornate_bench\ornate_bench_normals.vtf"
+	"$surfaceprop" "brick"
+
+	"$detail" 				"models\props\de_inferno\hr_i\ornate_bench\ornate_bench_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1"
+	"$detailblendmode" 0
+
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	$baseTexture "models\props\de_inferno\hr_i\rug_set\rug_set1"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0" 
+		"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[8 8 8]"
+	"$detailblendfactor" 	".5"
+}

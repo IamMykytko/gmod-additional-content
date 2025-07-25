@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/gg_Tibet/townrooftopoverhang"
+	//"$bumpmap" "models/props/gg_Tibet/townrooftopoverhang_normal"
+        "$surfaceprop" "concrete" 
+        "$blendtintbybasealpha" "1"
+}

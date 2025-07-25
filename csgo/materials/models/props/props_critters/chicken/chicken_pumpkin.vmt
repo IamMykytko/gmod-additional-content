@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture"             "models/props/props_critters/chicken/chicken_pumpkin"
+	"$selfillum"               "1"
+	"$selfillummask"           "models/props/props_critters/chicken/chicken_pumpkin_selfillum"
+	"$phong"                   "1"
+	"$phongboost"              "0.5"
+	"$basemapalphaphongmask"   "1"
+	"$phongexponent"           10
+	"$phongtint"               "[1 .7 0]"
+	"$phongalbedotint"         "1"
+	"$phongdisablehalflambert" "1"
+}

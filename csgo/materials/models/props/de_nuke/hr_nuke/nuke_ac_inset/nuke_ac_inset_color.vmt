@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_ac_inset/nuke_ac_inset_color"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 .8]"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_ac_inset/nuke_ac_inset_color"
+	"$envmapsaturation"       ".75"
+}

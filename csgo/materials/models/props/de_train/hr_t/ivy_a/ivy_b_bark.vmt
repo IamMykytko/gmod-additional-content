@@ -1,0 +1,34 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\props\de_train\hr_t\ivy_a\ivy_b_bark.vtf"
+//$alphatest 1
+//$bumpmap "models\props\de_train\hr_t\ivy_a\ivy_a_bark_normals.vtf"
+	//"$phong" "1"
+//	"$phongboost" ".3"
+	//"$phongalbedoboost" "60"
+	//"$phongfresnelranges" "[.9 .9 1]"
+//	"$phongexponent" 60
+	
+//	$nocull 1
+	
+	
+
+//"$normalmapalphaenvmapmask" 1
+
+
+	"$detail" 				"detail\dt_wood1"
+	"$detailscale" 			"[6 6 6]"
+	"$detailblendfactor" 	"3"
+
+		
+	//"$envmap" "env_cubemap"
+
+	//"$envmaptint" 		"[.1 .1 .1]"
+
+	//"$phongalbedotint" "1"
+"$phongdisablehalflambert" "1"
+
+
+
+}

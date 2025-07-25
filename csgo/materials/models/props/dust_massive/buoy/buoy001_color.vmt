@@ -1,0 +1,15 @@
+// ### This basic VMT was written based on the e:\valvegames\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/dust_massive/buoy/buoy001_color.vtf"
+//	"$bumpmap" "models\props\dust_massive\buoy\buoy001_normal.vtf"
+	"$surfaceprop" 			"metal"
+	"$detail"						"models\props\de_dust\hr_dust\dust_detail\dust_detail_metal_01"
+	"$detailscale"				"[10 10]"
+	"$detailblendfactor" 		".5"
+//	"$basemapluminancephongmask" "1"
+//	"$phong"                     "1"
+//	"$phongboost"                ".35"
+//	"$phongexponent"             "10"
+//	"$phongdisablehalflambert"   "1"
+}

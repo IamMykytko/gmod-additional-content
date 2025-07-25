@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\cluj_prediction\cluj_fantasy_2015_silver"
+	"$bumpmap" 				"models\inventory_items\cluj_prediction\cluj_fantasy_2015_normal"
+	"$phongexponenttexture" "models\inventory_items\cluj_prediction\cluj_fantasy_2015_exponent"
+	
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmapcontrast" "50"
+	"$envmapsaturation" "0.5"
+	"$envmaptint" "[0.2 0.2 0.2]"
+	"$envmapfresnel" "1"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" "1"
+
+	"$phongboost" "1"
+	"$phongfresnelranges" "[.3 .8 1]"
+
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "300"
+
+	"$phongdisablehalflambert" "1"
+}
+

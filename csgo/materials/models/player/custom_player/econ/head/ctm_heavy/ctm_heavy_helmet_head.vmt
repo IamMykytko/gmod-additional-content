@@ -1,0 +1,12 @@
+"patch"
+{
+	"include"               "materials/models/player/ct_gign/ctm_gign_shared.vmt"
+	"insert"
+	{
+		"$basetexture"          "models/player/custom_player/econ/head/ctm_heavy/ctm_heavy_helmet_head_color"
+		"$bumpmap"              "models/player/custom_player/econ/head/ctm_heavy/ctm_heavy_helmet_head_normal"
+		"$phongexponenttexture" "models/player/ct_gign/ctm_gign_head_exponent"
+		"$rimmask"              "1"
+		"$nodecal"              "1"
+	}
+}

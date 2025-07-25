@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_cbble\tent_a\tent_a_wood_shutter.vtf"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	".5"
+	$bumpmap "models\props\de_cbble\tent_a\tent_a_wood_shutter_normal.vtf"
+}

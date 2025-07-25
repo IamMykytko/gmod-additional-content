@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	$basetexture black
+	$bumpmap "models\inventory_items\pins_series_3\glitter_normal"
+	$normalmapalphaenvmapmask 1
+
+	$additive 1
+
+	$envmap		"models\inventory_items\pins_series_3\sparkle_color_cube_hdr"
+	
+	$phong 1
+	$phongexponent 800
+	$phongtint "[ .28 0 1 ]"
+	$phongboost 1
+
+}

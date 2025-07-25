@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\props\de_dust\hr_dust\foliage\palm_bark_01"
+        "$model" 1
+        "$surfaceprop" 		"wood"
+	
+
+}

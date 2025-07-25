@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\props\de_dust\hr_dust\dust_electric_panel\dust_electric_panel_cover_color"
+	"$translucent" 			"1"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 2]"
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmapmask" 			"models\props\de_dust\hr_dust\dust_electric_panel\dust_electric_panel_cover_color"
+	
+
+	
+
+
+}

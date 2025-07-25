@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\de_vertigo\garbage_chute\garbage_chute_1"
+
+	$phong 1
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "models\props\de_vertigo\garbage_chute\garbage_chute_1_normal"
+
+}

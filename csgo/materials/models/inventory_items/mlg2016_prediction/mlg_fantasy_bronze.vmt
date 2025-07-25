@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"             "models/inventory_items/mlg2016_prediction/mlg_fantasy_bronze"
+	"$phong"                   "1"
+	"$phongexponenttexture"    "models/inventory_items/mlg2016_prediction/mlg_prediction_exp"
+	"$phongalbedotint"         "1"
+	"$phongalbedoboost"        "8"
+	"$phongdisablehalflambert" "1"
+	"$basemapalphaphongmask"   "1"
+	"$envmap"                  "environment maps/metal_generic_001"
+	"$basealphaenvmapmask"     "1"
+}

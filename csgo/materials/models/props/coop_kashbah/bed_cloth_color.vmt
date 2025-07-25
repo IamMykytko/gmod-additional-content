@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\coop_kashbah\bed_cloth_color"
+
+	"$bumpmap" 	"models\props\coop_kashbah\bed_cloth_normal"
+	"$nocull"	"1"
+	
+
+
+}

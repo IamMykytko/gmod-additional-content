@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_massive\survival_industrial_silo\survival_industrial_silo_lid_color"
+
+	"$bumpmap" 	"models\props\hr_massive\survival_industrial_silo\survival_industrial_silo_lid_normal"
+
+	"$phong" "1"
+	"$phongexponent" "200"
+	
+	"$phongboost" "12"
+
+
+	"$envmap"				"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	
+
+}

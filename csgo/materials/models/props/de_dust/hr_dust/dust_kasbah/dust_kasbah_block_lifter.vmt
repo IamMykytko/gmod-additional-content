@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_dust\hr_dust\dust_kasbah\dust_kasbah_block_lifter_color"
+    "$bumpmap" "models\props\de_dust\hr_dust\dust_kasbah\dust_kasbah_block_lifter_normal"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$surfaceprop" 			"metalpanel"
+
+}

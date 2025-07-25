@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\coop_wall_breach\coop_wall_breach_color"
+
+	"$bumpmap" "models\props\coop_autumn\coop_wall_breach\coop_wall_breach_normal"
+	"$phongalbedotint"         "1"
+	"$phongdisablehalflambert" "1"
+	"$phongexponenttexture"    "models\props\coop_autumn\coop_wall_breach\coop_wall_breach_exponent"
+	"$phong" "1"
+	"$phongboost" "13"
+	"$phongfresnelranges" "[.2 0.5 1]"
+	"$phongalbedoboost" "80"
+
+	
+	 
+	"$basemapalphaphongmask" "1"
+
+	
+	"$envmap" "env_cubemap"
+ 
+	"$envmapfresnel" "1"
+	
+	"$envmaptint" 		"[.7 .7 .7]"
+
+
+}

@@ -1,0 +1,19 @@
+"patch"
+{
+	"include" "materials/models/player/tm_phoenix/tm_phoenix_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_phoenix\tm_Phoenix_Upperbody"
+	"$bumpmap" "models\player\tm_phoenix\tm_Phoenix_Upperbody_normal"
+
+	//$selfillum 1
+	//$selfillumfresnel 1
+	//$SELFILLUMFRESNELMINMAXEXP "[ 0 20 8 ]" // scale max with distance in shader 1-x
+	//$SELFILLUMTINT "[ .4 .3 .08 ]"
+	//$SELFILLUMMASK "models/player/tm_phoenix/tm_phoenix_upperbody_selfillummask"
+
+	//"$SelfIllumFresnelEnabledThisFrame" "0"
+
+
+	}	
+}

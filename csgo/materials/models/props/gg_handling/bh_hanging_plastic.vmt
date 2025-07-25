@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/props/gg_handling/bh_hanging_plastic"
+	$translucent 1
+	$envmap env_cubemap
+	$nocull 1
+}

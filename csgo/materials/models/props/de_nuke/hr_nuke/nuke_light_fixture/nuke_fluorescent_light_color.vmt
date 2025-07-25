@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_fluorescent_light_color"
+	"$blendtintbybasealpha"   "1"
+	"$envmap"                 "environment maps/metal_generic_001"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 2.0]"
+	"$envmapsaturation"       ".65"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_light_fixture/nuke_fluorescent_light_color"
+	"$surfaceprop"            "metal"
+}

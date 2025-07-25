@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\st_mark_window_1\st_mark_window_1"
+
+	"$envmapmask" "models\props\de_venice\st_mark_window_1\st_mark_window_1_spec"
+
+
+	$envmap env_cubemap
+	$envmapsaturation ".8"
+	$envmaptint "[.65 .70 .80]"
+
+
+}

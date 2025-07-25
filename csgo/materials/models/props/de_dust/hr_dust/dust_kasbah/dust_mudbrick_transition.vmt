@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_kasbah\dust_mudbrick_transition_color"
+    "$bumpmap" 				"models\props\de_dust\hr_dust\dust_kasbah\dust_mudbrick_transition_normal"
+	"$color2"   "[.90 .90 .90]"
+	"$allowalphatocoverage" "1"
+	"$surfaceprop" 			"dirt"
+	"$alphatest" 			"1"
+}

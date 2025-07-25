@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\railing_wheel\railing_wheel_color"
+
+	"$envmapmask"			"models\props\coop_autumn\railing_wheel\railing_wheel_color"
+	"$envmap"			"env_cubemap"
+	"$envmaptint" 			.75 .75 .75
+	"$envmapcontrast"		"1.05"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+
+
+}

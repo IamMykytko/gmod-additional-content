@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$phong" "1"
+	"$phongBoost" "90"
+//	"$phongExponent" "5"
+	"$phongTint" "[1 1 1.4]"
+	"$phongFresnelRanges" "[0 .1 1]"
+	"$phongdisablehalflambert" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "0.4"
+
+	"Proxies"
+	{
+            "TeamIdMaterialProxy"
+            {
+            }
+	}
+
+}

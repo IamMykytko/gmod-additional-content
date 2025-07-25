@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_forklift/nuke_forklift_small_color"
+	"$blendtintbybasealpha"   "1"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[5 2.5]"
+	"$detailblendfactor"      ".8"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 0.5]"
+	"$envmap"                 "environment maps/metal_generic_006"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_forklift/nuke_forklift_small_color"
+	"$envmapcontrast"         ".2"
+	"$envmapsaturation"       ".25"
+	"$surfaceprop"            "metal"
+}

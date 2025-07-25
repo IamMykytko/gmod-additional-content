@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\bridge_arch_1\bridge_arch_1"
+
+	"$bumpmap" "models\props\de_venice\bridge_arch_1\bridge_arch_1_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$detail" 				"detail\dt_stone2"
+	"$detailscale" 			"[16 16 16]"
+	"$detailblendfactor" 	".35"
+
+}

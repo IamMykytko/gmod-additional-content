@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center .5 .5 scale 6 6 rotate 0 translate 0 0" 
+$basetexture "concrete/hr_c/hr_conc_d2"
+			
+$surfaceprop "brick"
+	$detailblendmode 0
+
+	"$detail" 				"models\props\de_train\hr_t\roof_a\roof_a_ao.vtf"
+
+$bumpmap "concrete/hr_c/hr_conc_d2_normals"
+
+
+
+	
+	
+	"$detailscale" 			"[1 1 1 ]"
+	"$detailblendfactor" 	"1"
+
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_aztec\hr_aztec\aztec_foliage\hr_aztec_tree_dead_color"
+	"$bumpmap" 				"models\props\de_aztec\hr_aztec\aztec_foliage\hr_aztec_tree_dead_normal"
+	"$surfaceprop" 			"wood"
+}
+ 

@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+
+	"$basetexture" concrete/hr_c/hr_conc_k
+
+
+	
+
+$surfaceprop concrete
+
+
+
+
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"4"
+	"$detailblendfactor" 	".9"
+
+		
+	"$envmap" "env_cubemap"
+
+	"$envmaptint" 		".1"
+
+
+
+
+
+
+}

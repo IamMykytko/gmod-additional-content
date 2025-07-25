@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture"  "models\props\hr_massive\survival_loudspeaker\survival_loudspeaker_color"
+//	"$bumpmap"	"models\props\hr_massive\survival_loudspeaker\survival_loudspeaker_normal"
+
+
+//	"$normalmapalphaenvmapmask" 1
+//	"$phong" "1"
+//      "$phongBoost" "8"
+//      "$phongExponent" "35"
+
+
+}

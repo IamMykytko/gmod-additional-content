@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\foliage_ported\trees_farm_1"
+	"$bumpmap" "models\props\hr_massive\foliage_ported\trees_farm_1_normal"
+}

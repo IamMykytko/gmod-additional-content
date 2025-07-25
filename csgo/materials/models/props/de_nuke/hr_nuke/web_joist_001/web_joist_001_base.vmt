@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	"$basetexture"       "models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001_base"
+	"$notint"            "1"
+	"$detail"            "models/props/de_nuke/hr_nuke/nuke_concrete_barrier/nuke_concrete_block_detail"
+	"$detailscale"       "[3 3]"
+	"$detailblendfactor" "2"
+	"$surfaceprop"       "concrete"
+}

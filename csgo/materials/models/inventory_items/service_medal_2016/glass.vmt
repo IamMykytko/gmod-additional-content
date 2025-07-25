@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\service_medal_2016\service_medal_2016"
+	"$bumpmap"				"models\inventory_items\service_medal_2016\service_medal_2016_normal"
+	"$alpha"		0.7
+	"$envmap"		"env_cubemap"
+	//"$envmapcontrast" "2"
+	//Level1, Level2
+	//"$envmaptint" "[.8 1 1]"
+	//Level3
+	//"$envmaptint" "[0.2 0.2 1]"
+	//Level4
+	"$envmaptint" "[.6 .2 .8]"
+	//Level5
+	//"$envmaptint" "[0.8 0.2 0.5]"
+	//Level6
+	//"$envmaptint" "[1 .2 .2]"
+	//Level7
+	//"$envmaptint" "[0.1 0.1 0.1]"
+	//"$envmapsaturation" 0
+	//"$envmapfresnel" "1"
+
+	"$phong" "1"
+
+	"$phongboost" "0.5"
+	"$phongfresnelranges" "[.5 .8 1]"
+	"$phongexponent" "100"
+
+	"$basemapalphaphongmask" "1"
+
+	"$phongdisablehalflambert" "1"
+}

@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_inferno\hr_i\inferno_curtain_closed\inferno_curtain_closed_on_color"
+
+	"$blendtintbybasealpha" "1"
+	"$selfillum"		"1"
+	"$selfillummask"		"models\props\de_inferno\hr_i\inferno_curtain_closed\inferno_curtain_closed_illum"	
+
+	"$surfaceprop" 			"curtain"
+}

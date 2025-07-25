@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/cs_office/bankglass"
+	"$translucent" 1
+}

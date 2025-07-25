@@ -1,0 +1,5 @@
+"unlitgeneric"
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_skydome_001/nuke_skydome_001"
+	"$nofog"                  "1"
+}

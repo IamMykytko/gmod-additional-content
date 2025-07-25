@@ -1,0 +1,11 @@
+// ### This basic VMT was written based on the D:\dev\ValveGames\tools\python\templateStrings.py script ###
+"VertexLitGeneric"
+{
+$baseTexture "wood/hr_w/inferno/hr_wood_planks_a"
+
+$surfaceprop wood
+
+	"$detail" 				"detail\dt_wood1"
+	"$detailscale" 			"[10 10]"
+	"$detailblendfactor" 	".7"
+}

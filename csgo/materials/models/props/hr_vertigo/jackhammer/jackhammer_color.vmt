@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_vertigo\jackhammer\jackhammer_color"
+
+	"$bumpmap" "models\props\hr_vertigo\jackhammer\jackhammer_normal"
+	
+	
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "4"
+        "$phongExponent" "70"
+        "$phongfresnelranges" "[0.8 0.8 1]"
+
+
+}

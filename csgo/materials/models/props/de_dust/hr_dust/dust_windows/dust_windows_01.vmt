@@ -1,0 +1,11 @@
+VertexLitGeneric
+{	
+	"$basetexture"		"models\props\de_dust\hr_dust\dust_windows\dust_windows_01_color"
+    "$bumpmap" 			"models\props\de_dust\hr_dust\dust_windows\dust_windows_01_normal"
+	"$tintmasktexture"	"models\props\de_dust\hr_dust\dust_windows\dust_windows_01_tint"
+	"$surfaceprop" 			"glass"
+	//"$envmap" "env_cubemap"
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmaptint" 		"[1 1 1]"
+	"$envmapmaskintintmasktexture" "1"	
+}

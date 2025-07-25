@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\wheel_hub_1\wheel_hub_1"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "models\props\hr_massive\wheel_hub_1\wheel_hub_1_normal"
+
+	"$nodecal" "1"
+
+}

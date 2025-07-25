@@ -1,0 +1,6 @@
+// ### This basic VMT was written based on the e:\valvegames\tools\python\templateStrings.py script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_stairs001_color.vtf"
+    	"$bumpmap" "models\props\de_dust\hr_dust\dust_trims\hr_dust_kasbah_stairs001_normal.vtf"
+}

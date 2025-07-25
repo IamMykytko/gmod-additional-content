@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\de_inferno\hr_i\barrel_a\barrel_metal_a.vtf"
+
+	"$detail" 				"detail\dt_metal2"
+	"$detailscale" 			"[8 8]"
+	"$detailblendfactor" 	".5"
+	
+	"$envmaptint" 		"[.25 .25 .25]"
+	$envmap env_cubemap
+}

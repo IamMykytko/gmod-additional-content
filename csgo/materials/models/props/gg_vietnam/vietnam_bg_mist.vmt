@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props/gg_vietnam/vietnam_bg_mist"
+	"$translucent" "1"
+}

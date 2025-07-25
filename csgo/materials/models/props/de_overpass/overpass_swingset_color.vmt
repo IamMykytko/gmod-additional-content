@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_overpass/overpass_swingset_color"
+	"$surfaceprop" "metal"
+	
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props/de_overpass/overpass_swingset_mask"
+	"$envmapcontrast" "1.01"
+
+
+}

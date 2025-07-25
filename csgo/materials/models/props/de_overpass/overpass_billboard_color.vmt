@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_overpass/overpass_billboard_color"
+	"$surfaceprop" "metal"
+	"$detail" 	"detail\noise_detail_01"
+	"$detailscale" 			"[ 4 4 ]"
+	"$detailblendfactor" 	"0.2"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props/de_overpass/overpass_billboard_mask"
+	"$envmapcontrast" "1.1"
+
+}

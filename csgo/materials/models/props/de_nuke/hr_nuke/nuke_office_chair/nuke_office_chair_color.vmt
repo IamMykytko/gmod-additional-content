@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_office_chair/nuke_office_chair_color"
+	"$blendtintbybasealpha"   "1"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/nuke_office_chair/nuke_office_chair_mask"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/metal_railing_001/metal_railing_cube"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.5]"
+	"$surfaceprop"            "metal"
+}

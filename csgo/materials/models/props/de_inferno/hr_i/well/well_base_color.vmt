@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\de_inferno\hr_i\well\well_base_color"
+
+	"$bumpmap"	"models\props\de_inferno\hr_i\well\well_base_normal"
+
+}

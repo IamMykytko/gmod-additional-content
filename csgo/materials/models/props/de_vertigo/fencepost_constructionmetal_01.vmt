@@ -1,0 +1,29 @@
+
+"VertexLitGeneric"
+{
+	$basetexture	"models\props\De_Vertigo\fencePost_constructionMetal_01.vtf"
+
+	// Surface type
+	$surfaceprop "metal"
+
+        $AlphaTest 1
+	$AlphaTestReference 0.3 
+
+	$envmap "env_cubemap"
+	$envmapmask "models/props/de_vertigo/fencePost_constructionMetal_01_ref.vtf"
+	$envmapcontrast	"1"
+        $envmapsaturation	".5"
+	$envmaptint		"[.9 .9 1]"
+
+
+        // Phong Specularity
+	// "$phong" "1"
+	// "$phongboost" "3"
+	// "$phongfresnelranges" "[.83 .83 1]"
+	// "$phongexponent" "35"
+	// "$basemapalphaphongmask" "1"
+
+
+
+}
+

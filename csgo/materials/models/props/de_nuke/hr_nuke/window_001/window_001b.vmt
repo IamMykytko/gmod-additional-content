@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture"                "models/props/de_nuke/hr_nuke/window_001/window_001"
+	"$envmap"                     "environment maps/metal_generic_004"
+	"$envmapmask"                 "models/props/de_nuke/hr_nuke/window_001/window_001_selfillum"
+	"$selfillumtint"              "[1.3 1.57 2.3]"
+	"$selfillum_envmapmask_alpha" "1"
+	"$surfaceprop"                "metal"
+}

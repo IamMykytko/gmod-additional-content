@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\autumn_small_speakers\autumn_small_speakers_color"
+
+	"$bumpmap" "models\props\coop_autumn\autumn_small_speakers\autumn_small_speakers_normal"
+	"$envmap"	"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+	"$envmapcontrast" 		"1.1"
+	"$envmaptint" 		"[.5 .5 .5]"
+
+
+}

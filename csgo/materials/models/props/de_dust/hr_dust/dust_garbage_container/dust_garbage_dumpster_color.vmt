@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\props\de_dust\hr_dust\dust_garbage_container\dust_garbage_dumpster_color"
+
+	"$tintmasktexture"		"models\props\de_dust\hr_dust\dust_garbage_container\dust_garbage_dumpster_tint"
+	
+	"$detail"			"models\props\de_dust\hr_dust\dust_detail\dust_detail_metal_01"
+	"$detailscale"			"[4 2]"
+	"$detailblendfactor" 		"1"
+	
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmapmask" 			"models\props\de_dust\hr_dust\dust_garbage_container\dust_garbage_dumpster_color"
+	"$envmapcontrast" 		".8"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 2]"
+
+
+	"$surfaceprop" 			"metal"
+
+
+}

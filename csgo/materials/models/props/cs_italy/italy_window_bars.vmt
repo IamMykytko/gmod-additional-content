@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props/cs_italy/italy_window_bars"
+	"%keywords" "cstrike"
+	"$surfaceprop" "metal"
+}

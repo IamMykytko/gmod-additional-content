@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_crates\dust_shipping_crate_tarp_02_color"
+    "$bumpmap" 			"models\props\de_dust\hr_dust\dust_crates\dust_shipping_crate_tarp_02_normal"
+	"$surfaceprop" 			"carpet"
+}

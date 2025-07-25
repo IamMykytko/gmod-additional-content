@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/models/player/ct_fbi/ctm_fbi_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\ct_fbi\ct_fbi_head_variantB"
+	"$bumpmap" "models\player\ct_fbi\ct_fbi_head_normal_variantB"
+	
+	"$phongexponenttexture" "models\player\ct_fbi\ct_fbi_head_exponent_variantB"
+	"$rimmask" "1"
+"$nodecal" 1
+	}	
+}

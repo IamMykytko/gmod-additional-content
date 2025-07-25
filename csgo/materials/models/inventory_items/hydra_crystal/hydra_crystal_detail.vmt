@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\hydra_silver\hydra_silver_detail_diffuse"
+	"$bumpmap"				"models\inventory_items\hydra_gold\hydra_gold_detail_normal"
+	"$phongexponenttexture" "models\inventory_items\hydra_gold\hydra_detail_exponent"
+	
+	"$translucent" 1
+	"$allowfencerenderstatehack" 1
+	"$alpha" .55
+		
+	"$envmap"		"models\effects\crystal_cube_vertigo_hdr"
+	"$envmaptint" "[0.7 0.92 0.6]"
+	"$envmapsaturation" "0.1"
+	"$envmapfresnel" "0"
+
+	"$phong" 1
+	"$phongexponent" 36
+	"$phongtint" "[0.2 0.5 0.5]"
+	"$phongboost" 7
+	
+	
+}
+
+

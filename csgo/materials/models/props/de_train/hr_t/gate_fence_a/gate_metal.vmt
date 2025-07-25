@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center .5 .5 scale 3 3 rotate 0 translate 0 0" 
+$baseTexture "metal\metal_plate01"
+$envmap env_cubemap
+$envmapmask "metal\metal_plate01_ref"
+$envmaptint "[.4 .4 .4]"
+$surfaceprop metalvent
+
+
+"$detail" 				"models\props\de_train\hr_t\gate_fence_a\gate_fence_a_ao.vtf"
+	"$detailscale" 			"[1 1 1]"
+	"$detailblendfactor" 	"1"
+
+		
+	
+
+
+
+
+}
+
+

@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/models/player/tm_pirate/tm_pirate_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tm_pirate\tm_pirate_upperbody"
+	"$bumpmap" "models\player\tm_pirate\tm_pirate_upperbody_normal"
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "400"
+	"$phongexponenttexture" "models\player\tm_pirate\tm_pirate_upperbody_exponent"
+	"$rimmask" "1"
+	}	
+}

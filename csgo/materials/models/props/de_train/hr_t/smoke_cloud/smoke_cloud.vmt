@@ -1,0 +1,20 @@
+unlitgeneric
+{              
+	$basetexture		effects/smoke/smoke_cloud
+	$translucent		1
+	$detail				effects/smoke/smoke_cloud_detail
+	$detailscale		"[ 2 4 ]"
+	$detailblendmode	0
+	$detailblendfactor	1
+	
+	proxies
+	{
+		texturescroll
+		{
+			textureScrollVar	$detailtexturetransform
+			textureScrollRate	0.03
+			textureScrollAngle	90
+		}
+	
+	}
+}

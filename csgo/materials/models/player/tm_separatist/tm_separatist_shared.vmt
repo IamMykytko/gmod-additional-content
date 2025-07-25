@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$phong" "1"
+	"$phongBoost" "1.7"
+	"$phongalbedoBoost" "96"
+	"$phongFresnelRanges" "[.3 .3 1]"
+	"$phongdisablehalflambert" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "6"
+	"$rimlightboost" "0.6"
+}

@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_cbble\tapestry_c\tapestry_c"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 9 9 ]"
+	"$detailblendfactor" 	".5"
+	//"$bumpmap" "models\props\de_cbble\tapestry_c\tapestry_c_normal"
+
+}

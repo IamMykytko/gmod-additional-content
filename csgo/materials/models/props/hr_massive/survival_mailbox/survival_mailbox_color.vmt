@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models\props\hr_massive\survival_mailbox\survival_mailbox_color"
+
+	"$tintmasktexture"	"models\props\hr_massive\survival_mailbox\survival_mailbox_tint"
+
+
+}

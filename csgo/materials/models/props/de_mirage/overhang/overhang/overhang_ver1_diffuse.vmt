@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_mirage\overhang\overhang\overhang_ver1_diffuse"
+	"$surfaceprop" "metal"
+	"$nocull" "1"
+	"$bumpmap"	"models\props\de_mirage\overhang\overhang\overhang_ver1_normal"
+	"$phong" "1"
+	"$phongboost" ".25"
+	"$phongexponent" "100"
+	
+}

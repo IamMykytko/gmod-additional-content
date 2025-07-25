@@ -1,0 +1,4 @@
+unlitgeneric
+{
+$nodraw 1 //replaced at runtime
+}

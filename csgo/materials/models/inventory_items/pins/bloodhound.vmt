@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\pins\bloodhound"
+	"$bumpmap"				"models\inventory_items\pins\bloodhound_normal"
+	"$phongexponenttexture" "models\inventory_items\pins\bloodhound_exponent"
+	
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmapcontrast" "50"
+	"$envmapsaturation" "0.5"
+	"$envmaptint" "[0.4 0.4 0.4]"
+	"$envmapfresnel" "1"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" "1"
+
+	"$phongboost" "0.05"
+	"$phongfresnelranges" "[.3 .8 1]"
+
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "140"
+
+	"$phongdisablehalflambert" "1"
+	
+	"$color2" "[0.8 0.8 0.8]"
+}
+

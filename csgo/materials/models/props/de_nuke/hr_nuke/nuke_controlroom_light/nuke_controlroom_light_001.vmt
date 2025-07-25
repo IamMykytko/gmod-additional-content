@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_controlroom_light/nuke_controlroom_light_001"
+	"$basealphaenvmapmask"    "1"
+	"$envmap"                 "environment maps/metal_generic_006"
+	"$detail"                 "models/props/de_nuke/hr_nuke/nuke_controlroom_light/nuke_controlroom_light_001_detail"
+	"$detailscale"            ".5"
+	"$detailblendfactor"      ".5"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 .75]"
+	"$surfaceprop"            "metal"
+}

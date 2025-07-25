@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\balcony_railing_set\balcony_railing_set_color"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+	"$envmapmask" 			"models\props\de_dust\hr_dust\balcony_railing_set\balcony_railing_set_color"
+	"$envmapcontrast" 		".7"
+
+	"$surfaceprop" 			"metal"
+
+}

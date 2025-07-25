@@ -1,0 +1,5 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "de_aztec/aztec_stone_bulge"
+	"$surfaceprop" "rock"
+}

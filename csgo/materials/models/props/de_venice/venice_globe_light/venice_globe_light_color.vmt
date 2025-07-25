@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_venice\venice_globe_light\venice_globe_light_color"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\de_venice\venice_globe_light\venice_globe_light_mask"
+	"$envmaptint" "[.4 .4 .4]"
+
+	"$detail"	"models\props\de_nuke\hr_nuke\metal_crate_001\metal_crate_001_detail"
+	"$detailscale"				"[5 3]"
+	"$detailblendfactor" 		".6"
+}

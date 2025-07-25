@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_house/SWAT_Van"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\de_house\SWAT_Van_ref"
+}

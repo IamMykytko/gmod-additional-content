@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.25 0.25 0.25]"
+	"$basetexture" "models/props/de_inferno/hazard_ribbons"
+	"$detail" "detail\dt_tape"
+	"$detailscale" "[3.0 6.0]"
+	"$detailblendfactor" "1.0"
+}
