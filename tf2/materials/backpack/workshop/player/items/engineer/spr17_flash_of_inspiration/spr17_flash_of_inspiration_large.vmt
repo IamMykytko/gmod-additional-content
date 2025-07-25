@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/spr17_flash_of_inspiration/spr17_flash_of_inspiration_large"
+	"$translucent"		"1"
+}

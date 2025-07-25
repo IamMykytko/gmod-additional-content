@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/robo_heavy_chief/robo_heavy_chief_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

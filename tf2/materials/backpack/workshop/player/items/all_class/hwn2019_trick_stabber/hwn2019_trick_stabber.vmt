@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hwn2019_trick_stabber/hwn2019_trick_stabber"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

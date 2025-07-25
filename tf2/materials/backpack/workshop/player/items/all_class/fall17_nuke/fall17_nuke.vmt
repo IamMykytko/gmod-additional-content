@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/fall17_nuke/fall17_nuke"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

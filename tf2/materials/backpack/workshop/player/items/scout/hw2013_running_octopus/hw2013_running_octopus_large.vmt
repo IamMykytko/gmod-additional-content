@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/hw2013_running_octopus/hw2013_running_octopus_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

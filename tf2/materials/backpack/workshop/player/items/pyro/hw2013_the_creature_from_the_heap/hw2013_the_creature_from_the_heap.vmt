@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hw2013_the_creature_from_the_heap/hw2013_the_creature_from_the_heap"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

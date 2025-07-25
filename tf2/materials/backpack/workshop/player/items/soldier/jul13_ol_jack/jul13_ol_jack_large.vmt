@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/jul13_ol_jack/jul13_ol_jack_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

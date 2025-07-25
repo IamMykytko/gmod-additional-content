@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/6v9_medal/6v9_medal"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

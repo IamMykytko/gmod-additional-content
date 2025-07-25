@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/cph_participant_2019/cph_participant_2019"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

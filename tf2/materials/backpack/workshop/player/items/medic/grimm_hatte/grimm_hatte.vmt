@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/grimm_hatte/grimm_hatte"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

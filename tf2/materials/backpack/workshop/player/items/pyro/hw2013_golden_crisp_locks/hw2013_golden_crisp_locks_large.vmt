@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hw2013_golden_crisp_locks/hw2013_golden_crisp_locks_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

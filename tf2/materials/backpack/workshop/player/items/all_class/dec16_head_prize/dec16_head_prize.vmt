@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/dec16_head_prize/dec16_head_prize"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

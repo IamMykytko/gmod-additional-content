@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/spr17_hawk_eyed_hunter/spr17_hawk_eyed_hunter_large"
+	"$translucent"		"1"
+}

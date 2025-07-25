@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/canteen_crasher_bronze/canteen_crasher_bronze"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

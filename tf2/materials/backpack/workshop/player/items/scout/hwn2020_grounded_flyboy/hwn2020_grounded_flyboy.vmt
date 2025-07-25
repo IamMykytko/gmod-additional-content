@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/hwn2020_grounded_flyboy/hwn2020_grounded_flyboy"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

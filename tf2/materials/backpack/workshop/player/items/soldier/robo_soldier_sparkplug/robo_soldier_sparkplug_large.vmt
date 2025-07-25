@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/robo_soldier_sparkplug/robo_soldier_sparkplug_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

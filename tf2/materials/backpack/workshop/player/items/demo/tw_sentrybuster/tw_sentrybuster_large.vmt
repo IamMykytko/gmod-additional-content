@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/tw_sentrybuster/tw_sentrybuster_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

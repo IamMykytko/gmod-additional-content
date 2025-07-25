@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/dec2014_torchers_tabard/dec2014_torchers_tabard"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

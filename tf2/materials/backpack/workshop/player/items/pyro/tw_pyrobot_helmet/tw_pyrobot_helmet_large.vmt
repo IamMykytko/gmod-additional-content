@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/tw_pyrobot_helmet/tw_pyrobot_helmet_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hwn2020_fire_tooth/hwn2020_fire_tooth"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop/cases/invasion_case/invasion_case"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

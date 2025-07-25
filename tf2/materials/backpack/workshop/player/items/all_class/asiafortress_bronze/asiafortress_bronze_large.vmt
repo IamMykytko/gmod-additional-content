@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/asiafortress_bronze/asiafortress_bronze_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

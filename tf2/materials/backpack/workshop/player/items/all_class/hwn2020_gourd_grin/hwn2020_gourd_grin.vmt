@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hwn2020_gourd_grin/hwn2020_gourd_grin"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

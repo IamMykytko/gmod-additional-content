@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/sbox2014_trash_man/sbox2014_trash_man_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

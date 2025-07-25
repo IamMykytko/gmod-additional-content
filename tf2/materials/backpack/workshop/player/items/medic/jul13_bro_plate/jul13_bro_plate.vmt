@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/jul13_bro_plate/jul13_bro_plate"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

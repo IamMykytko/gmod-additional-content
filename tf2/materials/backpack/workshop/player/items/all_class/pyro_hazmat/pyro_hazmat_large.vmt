@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/pyro_hazmat/pyro_hazmat_large"
+	"$translucent"		"1"
+}

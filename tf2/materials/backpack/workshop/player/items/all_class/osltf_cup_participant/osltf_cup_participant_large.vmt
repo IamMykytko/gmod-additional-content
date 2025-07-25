@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/osltf_cup_participant/osltf_cup_participant_large"
+	"$translucent"		"1"
+}

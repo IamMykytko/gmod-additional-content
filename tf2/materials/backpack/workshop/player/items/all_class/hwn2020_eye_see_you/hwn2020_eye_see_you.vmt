@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hwn2020_eye_see_you/hwn2020_eye_see_you"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

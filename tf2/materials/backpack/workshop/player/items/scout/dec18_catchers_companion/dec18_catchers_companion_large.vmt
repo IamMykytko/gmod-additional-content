@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/dec18_catchers_companion/dec18_catchers_companion_large"
+	"$translucent"		"1"
+}

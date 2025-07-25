@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/eumixes_participant/eumixes_participant"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

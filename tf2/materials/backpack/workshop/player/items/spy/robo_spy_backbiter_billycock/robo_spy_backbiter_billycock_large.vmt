@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/robo_spy_backbiter_billycock/robo_spy_backbiter_billycock_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

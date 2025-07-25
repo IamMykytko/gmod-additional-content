@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/hw2013_jupiter_jumpers/hw2013_jupiter_jumpers"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/robo_demo_glengarry_botnet/robo_demo_glengarry_botnet_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

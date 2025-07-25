@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/fall17_crit_cloak/fall17_crit_cloak_large"
+	"$translucent"		"1"
+}

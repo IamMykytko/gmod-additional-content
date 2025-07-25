@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/taunt_the_boston_boarder/taunt_the_boston_boarder"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

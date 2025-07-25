@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/demo_beardpipe_s2/demo_beardpipe_s2_large"
+	"$translucent"		"1"
+}

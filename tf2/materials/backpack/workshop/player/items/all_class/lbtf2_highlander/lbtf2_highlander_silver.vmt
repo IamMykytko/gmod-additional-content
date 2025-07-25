@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/lbtf2_highlander/lbtf2_highlander_silver"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/eotl_flat_cap/eotl_flat_cap_large"
+	"$translucent"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/jul13_red_army_robin/jul13_red_army_robin_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

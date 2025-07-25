@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/72hr_jamheart/72hr_jamheart"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

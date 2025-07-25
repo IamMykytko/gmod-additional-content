@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/dec20_sandmanns_brush/dec20_sandmanns_brush"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

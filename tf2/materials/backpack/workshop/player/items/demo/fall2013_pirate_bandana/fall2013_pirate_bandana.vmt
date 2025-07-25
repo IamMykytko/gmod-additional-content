@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/fall2013_pirate_bandana/fall2013_pirate_bandana"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

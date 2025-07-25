@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/gunpointcoilhat/gunpointcoilhat"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

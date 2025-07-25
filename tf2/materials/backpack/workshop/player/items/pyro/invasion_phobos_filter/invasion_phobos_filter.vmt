@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/invasion_phobos_filter/invasion_phobos_filter"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

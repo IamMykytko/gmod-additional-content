@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/sf14_talon_trotters/sf14_talon_trotters"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

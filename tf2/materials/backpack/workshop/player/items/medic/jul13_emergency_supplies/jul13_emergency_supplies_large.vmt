@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/jul13_emergency_supplies/jul13_emergency_supplies_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

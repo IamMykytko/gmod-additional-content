@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/sf14_demo_cyborg/sf14_demo_cyborg_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

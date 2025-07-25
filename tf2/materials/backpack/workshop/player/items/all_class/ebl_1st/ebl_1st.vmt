@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/ebl_1st/ebl_1st"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

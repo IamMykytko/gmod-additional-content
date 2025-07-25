@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/jul13_heavy_defender/jul13_heavy_defender_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

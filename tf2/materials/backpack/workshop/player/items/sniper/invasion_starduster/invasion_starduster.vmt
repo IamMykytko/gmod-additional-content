@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/invasion_starduster/invasion_starduster"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

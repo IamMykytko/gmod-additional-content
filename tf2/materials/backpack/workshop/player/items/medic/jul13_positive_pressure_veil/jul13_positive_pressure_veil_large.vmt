@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/jul13_positive_pressure_veil/jul13_positive_pressure_veil_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

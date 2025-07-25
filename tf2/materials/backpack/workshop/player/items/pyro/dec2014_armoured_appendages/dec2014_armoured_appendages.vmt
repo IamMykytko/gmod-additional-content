@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/dec2014_armoured_appendages/dec2014_armoured_appendages"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hw2013_py40_automaton/hw2013_py40_automaton_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

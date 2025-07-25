@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/spectral_snowflake/spectral_snowflake_large"
+	"$translucent"		"1"
+}

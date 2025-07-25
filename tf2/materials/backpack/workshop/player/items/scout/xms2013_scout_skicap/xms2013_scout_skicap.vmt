@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/xms2013_scout_skicap/xms2013_scout_skicap"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

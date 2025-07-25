@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/pocket_protector/pocket_protector_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

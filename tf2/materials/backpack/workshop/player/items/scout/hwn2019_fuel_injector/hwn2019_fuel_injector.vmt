@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/hwn2019_fuel_injector/hwn2019_fuel_injector"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

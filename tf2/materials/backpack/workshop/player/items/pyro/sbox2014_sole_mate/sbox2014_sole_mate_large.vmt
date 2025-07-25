@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/sbox2014_sole_mate/sbox2014_sole_mate_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

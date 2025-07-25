@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/iseries_silver/iseries_silver_large"
+	"$translucent"		"1"
+}

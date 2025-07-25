@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/taunt_the_pooped_deck/taunt_the_pooped_deck"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

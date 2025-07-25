@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/cc_summer2015_support_spurs/cc_summer2015_support_spurs"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

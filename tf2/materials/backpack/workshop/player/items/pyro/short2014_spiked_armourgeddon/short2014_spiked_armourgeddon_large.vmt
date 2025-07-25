@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/short2014_spiked_armourgeddon/short2014_spiked_armourgeddon_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

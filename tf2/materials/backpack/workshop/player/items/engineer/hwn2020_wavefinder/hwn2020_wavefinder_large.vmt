@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/hwn2020_wavefinder/hwn2020_wavefinder_large"
+	"$translucent"		"1"
+}

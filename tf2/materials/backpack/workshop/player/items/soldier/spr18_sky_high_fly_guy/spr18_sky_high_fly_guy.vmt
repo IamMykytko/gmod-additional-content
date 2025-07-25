@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/spr18_sky_high_fly_guy/spr18_sky_high_fly_guy"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

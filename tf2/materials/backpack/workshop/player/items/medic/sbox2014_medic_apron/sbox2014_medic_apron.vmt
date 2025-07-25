@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/sbox2014_medic_apron/sbox2014_medic_apron"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

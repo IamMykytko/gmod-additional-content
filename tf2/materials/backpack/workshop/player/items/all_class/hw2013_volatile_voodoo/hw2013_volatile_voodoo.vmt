@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hw2013_volatile_voodoo/hw2013_volatile_voodoo"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

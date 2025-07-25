@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/jtte_gold/jtte_gold_large"
+	"$translucent"		"1"
+}

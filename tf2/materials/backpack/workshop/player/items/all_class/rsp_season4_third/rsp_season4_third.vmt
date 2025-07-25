@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/rsp_season4_third/rsp_season4_third"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

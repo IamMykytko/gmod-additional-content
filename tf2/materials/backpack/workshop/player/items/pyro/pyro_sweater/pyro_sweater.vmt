@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/pyro_sweater/pyro_sweater"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

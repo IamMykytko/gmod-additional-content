@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/dec19_provisions_cap/dec19_provisions_cap"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

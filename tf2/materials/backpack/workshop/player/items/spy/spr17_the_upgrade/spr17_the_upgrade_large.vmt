@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/spr17_the_upgrade/spr17_the_upgrade_large"
+	"$translucent"		"1"
+}

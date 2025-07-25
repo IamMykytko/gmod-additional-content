@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/dec18_catchers_companion_style/dec18_catchers_companion_style"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

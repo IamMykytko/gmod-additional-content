@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/fall2013_popeyes/fall2013_popeyes_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

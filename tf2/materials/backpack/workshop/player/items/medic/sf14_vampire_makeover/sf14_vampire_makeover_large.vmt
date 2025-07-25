@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/sf14_vampire_makeover/sf14_vampire_makeover_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

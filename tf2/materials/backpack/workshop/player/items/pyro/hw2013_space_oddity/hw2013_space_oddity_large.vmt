@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hw2013_space_oddity/hw2013_space_oddity_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

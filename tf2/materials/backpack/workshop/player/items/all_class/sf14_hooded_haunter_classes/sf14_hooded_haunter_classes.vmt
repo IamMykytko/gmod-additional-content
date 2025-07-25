@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/sf14_hooded_haunter_classes/sf14_hooded_haunter_classes"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/spr17_messengers_mail_bag/spr17_messengers_mail_bag_large"
+	"$translucent"		"1"
+}

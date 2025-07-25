@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/tw_demobot_helmet/tw_demobot_helmet_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

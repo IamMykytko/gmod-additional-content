@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/sum19_brain_interface/sum19_brain_interface_large"
+	"$translucent"		"1"
+}

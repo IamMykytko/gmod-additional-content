@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/tw_medibot_chariot/tw_medibot_chariot"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

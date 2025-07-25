@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/cardiologists_camo/cardiologists_camo"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

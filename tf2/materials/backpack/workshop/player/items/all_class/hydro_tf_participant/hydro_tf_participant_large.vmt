@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hydro_tf_participant/hydro_tf_participant_large"
+	"$translucent"		"1"
+}

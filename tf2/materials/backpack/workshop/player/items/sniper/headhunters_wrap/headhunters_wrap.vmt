@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/headhunters_wrap/headhunters_wrap"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

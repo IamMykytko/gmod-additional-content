@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/sbox2014_law/sbox2014_law"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

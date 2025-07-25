@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/hwn2019_el_mostacho/hwn2019_el_mostacho"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

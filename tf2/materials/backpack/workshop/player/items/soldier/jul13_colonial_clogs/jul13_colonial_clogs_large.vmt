@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/jul13_colonial_clogs/jul13_colonial_clogs_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

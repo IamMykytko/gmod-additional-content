@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/fall17_jungle_ops/fall17_jungle_ops"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/dec20_blitzen_bowl/dec20_blitzen_bowl_large"
+	"$translucent"		"1"
+}

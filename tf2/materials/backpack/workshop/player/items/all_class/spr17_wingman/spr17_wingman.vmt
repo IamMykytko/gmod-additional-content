@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/spr17_wingman/spr17_wingman"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

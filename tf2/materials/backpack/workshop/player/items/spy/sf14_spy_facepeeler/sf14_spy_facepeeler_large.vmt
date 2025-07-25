@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/sf14_spy_facepeeler/sf14_spy_facepeeler_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

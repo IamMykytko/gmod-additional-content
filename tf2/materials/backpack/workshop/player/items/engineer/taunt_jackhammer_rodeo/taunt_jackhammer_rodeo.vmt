@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/taunt_jackhammer_rodeo/taunt_jackhammer_rodeo"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

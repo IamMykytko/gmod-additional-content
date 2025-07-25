@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/robo_dogger/robo_dogger"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

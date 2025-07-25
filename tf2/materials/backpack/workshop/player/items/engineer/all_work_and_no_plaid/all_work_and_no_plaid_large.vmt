@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/all_work_and_no_plaid/all_work_and_no_plaid_large"
+	"$translucent"		"1"
+}

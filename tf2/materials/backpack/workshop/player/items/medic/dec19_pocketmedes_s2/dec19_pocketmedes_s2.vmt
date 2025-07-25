@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/dec19_pocketmedes_s2/dec19_pocketmedes_s2"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

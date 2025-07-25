@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/dec16_packable_provisions/dec16_packable_provisions"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

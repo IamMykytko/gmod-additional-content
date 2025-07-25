@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/robo_medic_physician_mask/robo_medic_physician_mask"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

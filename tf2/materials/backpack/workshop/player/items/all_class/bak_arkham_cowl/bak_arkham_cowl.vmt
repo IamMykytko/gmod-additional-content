@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/bak_arkham_cowl/bak_arkham_cowl"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

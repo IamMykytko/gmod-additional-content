@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/invasion_life_support_system/invasion_life_support_system_large"
+	"$translucent"		"1"
+}

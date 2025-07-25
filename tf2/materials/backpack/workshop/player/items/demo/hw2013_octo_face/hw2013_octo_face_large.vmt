@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/hw2013_octo_face/hw2013_octo_face_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

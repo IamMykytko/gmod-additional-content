@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/cc_summer2015_sheriffs_stetson/cc_summer2015_sheriffs_stetson"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

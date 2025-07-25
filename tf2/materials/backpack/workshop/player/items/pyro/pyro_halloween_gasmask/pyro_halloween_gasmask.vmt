@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/pyro_halloween_gasmask/pyro_halloween_gasmask"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/hw2013_the_hell_runner/hw2013_the_hell_runner_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

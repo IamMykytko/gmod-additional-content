@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/gamers_assembly_participant/gamers_assembly_participant_large"
+	"$translucent"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/copenhagen_staff/copenhagen_staff"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

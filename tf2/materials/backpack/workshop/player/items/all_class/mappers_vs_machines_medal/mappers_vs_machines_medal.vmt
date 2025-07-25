@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/mappers_vs_machines_medal/mappers_vs_machines_medal"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

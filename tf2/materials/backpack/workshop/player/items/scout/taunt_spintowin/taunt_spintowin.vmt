@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/taunt_spintowin/taunt_spintowin"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

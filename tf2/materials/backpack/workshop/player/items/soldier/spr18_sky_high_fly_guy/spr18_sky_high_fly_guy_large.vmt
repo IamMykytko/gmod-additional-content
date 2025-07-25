@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/spr18_sky_high_fly_guy/spr18_sky_high_fly_guy_large"
+	"$translucent"		"1"
+}

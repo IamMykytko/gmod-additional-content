@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/dec18_polar_pal_bamboo/dec18_polar_pal_bamboo"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

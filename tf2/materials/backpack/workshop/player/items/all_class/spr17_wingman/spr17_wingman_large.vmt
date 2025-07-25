@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/spr17_wingman/spr17_wingman_large"
+	"$translucent"		"1"
+}

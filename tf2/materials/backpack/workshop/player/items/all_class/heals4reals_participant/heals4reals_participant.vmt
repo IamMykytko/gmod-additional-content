@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/heals4reals_participant/heals4reals_participant"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

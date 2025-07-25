@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop/player/items/sniper/croc_shield/croc_shield_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

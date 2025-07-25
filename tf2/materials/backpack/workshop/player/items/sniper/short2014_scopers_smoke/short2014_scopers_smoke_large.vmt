@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/short2014_scopers_smoke/short2014_scopers_smoke_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

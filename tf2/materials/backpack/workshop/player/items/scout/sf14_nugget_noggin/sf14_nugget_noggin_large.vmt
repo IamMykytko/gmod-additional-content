@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/sf14_nugget_noggin/sf14_nugget_noggin_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

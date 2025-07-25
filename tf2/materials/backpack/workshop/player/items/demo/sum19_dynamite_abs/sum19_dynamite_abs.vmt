@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/sum19_dynamite_abs/sum19_dynamite_abs"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

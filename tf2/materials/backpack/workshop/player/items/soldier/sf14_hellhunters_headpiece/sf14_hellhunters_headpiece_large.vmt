@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/sf14_hellhunters_headpiece/sf14_hellhunters_headpiece_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

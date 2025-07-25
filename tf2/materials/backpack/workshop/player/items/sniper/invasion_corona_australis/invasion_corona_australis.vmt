@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/invasion_corona_australis/invasion_corona_australis"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

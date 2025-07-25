@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hw2013_corpsemopolitan/hw2013_corpsemopolitan"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

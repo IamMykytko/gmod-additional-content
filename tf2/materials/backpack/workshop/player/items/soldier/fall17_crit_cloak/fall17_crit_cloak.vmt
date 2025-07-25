@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/fall17_crit_cloak/fall17_crit_cloak"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

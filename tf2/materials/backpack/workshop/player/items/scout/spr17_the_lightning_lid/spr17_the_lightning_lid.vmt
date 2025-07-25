@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/spr17_the_lightning_lid/spr17_the_lightning_lid"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

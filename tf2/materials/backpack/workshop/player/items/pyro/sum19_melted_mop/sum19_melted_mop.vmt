@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/sum19_melted_mop/sum19_melted_mop"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

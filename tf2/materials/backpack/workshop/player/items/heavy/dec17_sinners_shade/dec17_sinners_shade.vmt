@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/dec17_sinners_shade/dec17_sinners_shade"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

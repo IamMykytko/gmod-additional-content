@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/fall2013_eod_suit/fall2013_eod_suit_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

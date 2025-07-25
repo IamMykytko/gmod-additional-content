@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/robo_pyro_electric_escorter/robo_pyro_electric_escorter_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

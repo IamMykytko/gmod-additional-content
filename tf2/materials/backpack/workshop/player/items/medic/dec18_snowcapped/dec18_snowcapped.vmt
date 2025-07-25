@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/dec18_snowcapped/dec18_snowcapped"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

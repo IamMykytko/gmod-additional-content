@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/dec20_elf_care_provider/dec20_elf_care_provider_large"
+	"$translucent"		"1"
+}

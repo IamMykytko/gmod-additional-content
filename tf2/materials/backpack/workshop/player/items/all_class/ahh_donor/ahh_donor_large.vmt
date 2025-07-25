@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/ahh_donor/ahh_donor_large"
+	"$translucent"		"1"
+}

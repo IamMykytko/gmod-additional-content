@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/edgegamers_ultiduo_participant/edgegamers_ultiduo_participant"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/hw2013_blackguards_bicorn/hw2013_blackguards_bicorn_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

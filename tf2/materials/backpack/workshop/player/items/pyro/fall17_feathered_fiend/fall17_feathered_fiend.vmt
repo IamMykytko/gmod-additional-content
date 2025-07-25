@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/fall17_feathered_fiend/fall17_feathered_fiend"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

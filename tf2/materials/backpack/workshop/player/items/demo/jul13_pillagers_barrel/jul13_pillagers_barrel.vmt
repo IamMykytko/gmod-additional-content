@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/jul13_pillagers_barrel/jul13_pillagers_barrel"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

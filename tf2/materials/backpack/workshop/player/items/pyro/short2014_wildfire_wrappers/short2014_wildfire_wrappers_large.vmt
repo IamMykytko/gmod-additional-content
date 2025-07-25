@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/short2014_wildfire_wrappers/short2014_wildfire_wrappers_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

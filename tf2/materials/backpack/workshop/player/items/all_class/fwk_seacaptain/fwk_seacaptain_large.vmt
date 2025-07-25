@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_large"
+	"$translucent"		"1"
+}

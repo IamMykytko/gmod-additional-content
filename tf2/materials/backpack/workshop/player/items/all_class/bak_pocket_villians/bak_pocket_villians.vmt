@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/bak_pocket_villians/bak_pocket_villians"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/tf2connexion_medal_participant/tf2connexion_medal_participant"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/sa_vanilla_first/sa_vanilla_first_large"
+	"$translucent"		"1"
+}

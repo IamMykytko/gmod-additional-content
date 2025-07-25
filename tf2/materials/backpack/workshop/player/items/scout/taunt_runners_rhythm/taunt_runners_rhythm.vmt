@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/taunt_runners_rhythm/taunt_runners_rhythm"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

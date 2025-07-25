@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/hw2013_medic_undertaker_vest/hw2013_medic_undertaker_vest_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

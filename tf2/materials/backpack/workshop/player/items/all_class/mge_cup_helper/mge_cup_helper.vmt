@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/mge_cup_helper/mge_cup_helper"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/taunt_soviet_strongarm/taunt_soviet_strongarm"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

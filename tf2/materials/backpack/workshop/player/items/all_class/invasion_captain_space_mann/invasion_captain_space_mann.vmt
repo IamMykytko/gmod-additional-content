@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/invasion_captain_space_mann/invasion_captain_space_mann"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

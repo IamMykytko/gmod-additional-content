@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/mvm_memes_player/mvm_memes_player_large"
+	"$translucent"		"1"
+}

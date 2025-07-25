@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/fruit_mixes_gold/fruit_mixes_gold_large"
+	"$translucent"		"1"
+}

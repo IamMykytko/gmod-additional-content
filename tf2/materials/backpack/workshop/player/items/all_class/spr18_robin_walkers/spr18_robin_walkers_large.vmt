@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/spr18_robin_walkers/spr18_robin_walkers_large"
+	"$translucent"		"1"
+}

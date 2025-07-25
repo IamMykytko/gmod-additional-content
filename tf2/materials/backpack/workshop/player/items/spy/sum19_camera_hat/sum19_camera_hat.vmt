@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/sum19_camera_hat/sum19_camera_hat"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

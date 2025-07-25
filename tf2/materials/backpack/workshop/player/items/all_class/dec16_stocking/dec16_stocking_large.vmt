@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/dec16_stocking/dec16_stocking_large"
+	"$translucent"		"1"
+}

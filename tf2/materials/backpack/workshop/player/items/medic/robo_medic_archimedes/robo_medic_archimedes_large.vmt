@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/robo_medic_archimedes/robo_medic_archimedes_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

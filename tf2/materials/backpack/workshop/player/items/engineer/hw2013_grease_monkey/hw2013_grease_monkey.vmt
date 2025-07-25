@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/hw2013_grease_monkey/hw2013_grease_monkey"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

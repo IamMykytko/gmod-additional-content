@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/soldier_garrison/soldier_garrison"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

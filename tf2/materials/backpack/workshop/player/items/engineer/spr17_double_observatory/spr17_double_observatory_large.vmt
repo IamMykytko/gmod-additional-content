@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/spr17_double_observatory/spr17_double_observatory_large"
+	"$translucent"		"1"
+}

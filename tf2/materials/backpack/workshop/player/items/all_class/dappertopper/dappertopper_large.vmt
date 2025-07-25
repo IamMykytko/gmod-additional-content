@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/dappertopper/dappertopper_large"
+	"$translucent"		"1"
+}

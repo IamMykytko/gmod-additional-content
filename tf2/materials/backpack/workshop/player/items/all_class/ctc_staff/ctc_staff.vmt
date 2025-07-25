@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/ctc_staff/ctc_staff"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

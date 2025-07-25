@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/sf14_scout_hunter_head/sf14_scout_hunter_head_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

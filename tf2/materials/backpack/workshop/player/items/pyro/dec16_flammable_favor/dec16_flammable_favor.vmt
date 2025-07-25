@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/dec16_flammable_favor/dec16_flammable_favor"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/bak_hood_of_sorrows/bak_hood_of_sorrows_large"
+	"$translucent"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/rglgg_hl_invite_3rd/rglgg_hl_invite_3rd"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

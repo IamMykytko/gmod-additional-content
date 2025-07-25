@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hw2013_head_of_the_lake_monster/hw2013_head_of_the_lake_monster"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

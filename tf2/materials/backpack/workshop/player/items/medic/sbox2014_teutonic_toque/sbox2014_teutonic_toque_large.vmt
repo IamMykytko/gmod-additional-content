@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/sbox2014_teutonic_toque/sbox2014_teutonic_toque_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

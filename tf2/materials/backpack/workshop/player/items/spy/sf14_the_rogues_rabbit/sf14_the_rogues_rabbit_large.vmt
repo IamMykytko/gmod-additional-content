@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/sf14_the_rogues_rabbit/sf14_the_rogues_rabbit_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

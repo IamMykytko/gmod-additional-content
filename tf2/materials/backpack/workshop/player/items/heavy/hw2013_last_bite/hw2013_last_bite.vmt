@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/hw2013_last_bite/hw2013_last_bite"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

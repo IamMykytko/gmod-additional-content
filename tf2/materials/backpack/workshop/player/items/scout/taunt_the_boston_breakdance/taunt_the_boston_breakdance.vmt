@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/taunt_the_boston_breakdance/taunt_the_boston_breakdance"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

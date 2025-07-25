@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/short2014_honnoji_helm/short2014_honnoji_helm_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

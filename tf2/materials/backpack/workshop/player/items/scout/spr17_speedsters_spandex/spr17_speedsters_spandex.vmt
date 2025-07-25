@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/spr17_speedsters_spandex/spr17_speedsters_spandex"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

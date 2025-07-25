@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/riflemans_rallycap/riflemans_rallycap_large"
+	"$translucent"		"1"
+}

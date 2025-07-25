@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/sf14_deadking_head/sf14_deadking_head_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

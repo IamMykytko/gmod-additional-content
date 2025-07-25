@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/hw2013_faux_manchu/hw2013_faux_manchu_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

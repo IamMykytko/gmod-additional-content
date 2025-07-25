@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/dec15_shin_shredders/dec15_shin_shredders"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

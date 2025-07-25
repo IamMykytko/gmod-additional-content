@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/dec19_mislaid_sweater/dec19_mislaid_sweater"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

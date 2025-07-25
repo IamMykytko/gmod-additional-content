@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/hw2013_ramses_regalia/hw2013_ramses_regalia"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

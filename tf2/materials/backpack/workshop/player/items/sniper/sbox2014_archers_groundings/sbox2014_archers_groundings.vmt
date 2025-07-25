@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/sbox2014_archers_groundings/sbox2014_archers_groundings"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

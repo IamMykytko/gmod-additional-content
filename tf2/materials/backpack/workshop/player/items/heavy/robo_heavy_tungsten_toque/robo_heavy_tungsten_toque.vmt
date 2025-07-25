@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/robo_heavy_tungsten_toque/robo_heavy_tungsten_toque"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

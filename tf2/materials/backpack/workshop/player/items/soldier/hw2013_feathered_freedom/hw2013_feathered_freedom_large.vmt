@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/hw2013_feathered_freedom/hw2013_feathered_freedom_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/jul13_katyusha/jul13_katyusha"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

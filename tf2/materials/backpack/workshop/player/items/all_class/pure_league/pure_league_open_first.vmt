@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/pure_league/pure_league_open_first"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

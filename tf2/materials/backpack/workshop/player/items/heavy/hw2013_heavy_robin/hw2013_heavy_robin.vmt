@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/hw2013_heavy_robin/hw2013_heavy_robin"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

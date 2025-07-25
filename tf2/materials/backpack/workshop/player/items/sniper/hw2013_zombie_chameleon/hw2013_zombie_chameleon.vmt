@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/hw2013_zombie_chameleon/hw2013_zombie_chameleon"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

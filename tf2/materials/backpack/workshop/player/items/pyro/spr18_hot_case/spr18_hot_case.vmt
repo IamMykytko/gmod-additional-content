@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/spr18_hot_case/spr18_hot_case"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

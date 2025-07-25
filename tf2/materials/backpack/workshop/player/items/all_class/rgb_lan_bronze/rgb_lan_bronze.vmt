@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/rgb_lan_bronze/rgb_lan_bronze"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/fwk_hotdog/fwk_hotdog"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

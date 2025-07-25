@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/sum20_flatliner/sum20_flatliner"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hw2013_handhunter/hw2013_handhunter"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

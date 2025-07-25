@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/dec18_millennial_mercenary/dec18_millennial_mercenary"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

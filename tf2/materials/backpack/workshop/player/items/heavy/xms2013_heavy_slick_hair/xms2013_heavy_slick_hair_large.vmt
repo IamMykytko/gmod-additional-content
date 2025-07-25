@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/xms2013_heavy_slick_hair/xms2013_heavy_slick_hair_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

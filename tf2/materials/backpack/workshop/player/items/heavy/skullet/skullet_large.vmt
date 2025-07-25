@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/skullet/skullet_large"
+	"$translucent"		"1"
+}

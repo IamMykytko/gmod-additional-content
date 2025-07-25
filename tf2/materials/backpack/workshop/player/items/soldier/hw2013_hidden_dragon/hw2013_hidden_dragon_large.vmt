@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/hw2013_hidden_dragon/hw2013_hidden_dragon_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/bi_washington_mask/bi_washington_mask_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

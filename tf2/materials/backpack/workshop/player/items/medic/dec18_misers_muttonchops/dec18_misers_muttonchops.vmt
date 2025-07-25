@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/dec18_misers_muttonchops/dec18_misers_muttonchops"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hlpugs_bronze/hlpugs_bronze"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

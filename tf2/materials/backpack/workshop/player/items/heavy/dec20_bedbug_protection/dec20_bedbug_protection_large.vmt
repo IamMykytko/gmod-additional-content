@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/dec20_bedbug_protection/dec20_bedbug_protection_large"
+	"$translucent"		"1"
+}

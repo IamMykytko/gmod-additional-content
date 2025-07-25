@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/dec18_wise_whiskers/dec18_wise_whiskers"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

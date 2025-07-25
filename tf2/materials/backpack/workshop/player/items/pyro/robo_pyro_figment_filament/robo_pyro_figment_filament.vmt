@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/robo_pyro_figment_filament/robo_pyro_figment_filament"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

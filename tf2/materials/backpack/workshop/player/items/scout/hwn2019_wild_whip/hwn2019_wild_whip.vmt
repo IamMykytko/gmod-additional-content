@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/hwn2019_wild_whip/hwn2019_wild_whip"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

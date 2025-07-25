@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/sbox2014_killers_kit/sbox2014_killers_kit"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

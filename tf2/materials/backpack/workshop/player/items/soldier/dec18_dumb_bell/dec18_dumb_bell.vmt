@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/dec18_dumb_bell/dec18_dumb_bell"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/invasion_community_update_medal/invasion_community_update_medal"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/xms_scout_elf_hat/xms_scout_elf_hat"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

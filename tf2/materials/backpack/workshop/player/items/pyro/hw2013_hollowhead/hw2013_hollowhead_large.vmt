@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hw2013_hollowhead/hw2013_hollowhead_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

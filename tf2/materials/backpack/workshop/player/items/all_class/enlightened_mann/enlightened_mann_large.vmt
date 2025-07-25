@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/enlightened_mann/enlightened_mann_large"
+	"$translucent"		"1"
+}

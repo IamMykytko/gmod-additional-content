@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/zoomin_broom/zoomin_broom"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hw2013_maniacs_manacles/hw2013_maniacs_manacles"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

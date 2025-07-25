@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/bg5_silver/bg5_silver"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

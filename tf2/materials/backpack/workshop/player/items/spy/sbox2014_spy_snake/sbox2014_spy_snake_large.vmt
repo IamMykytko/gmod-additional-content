@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/sbox2014_spy_snake/sbox2014_spy_snake_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

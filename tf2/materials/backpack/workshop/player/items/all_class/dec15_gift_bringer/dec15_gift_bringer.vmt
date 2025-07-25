@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/dec15_gift_bringer/dec15_gift_bringer"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

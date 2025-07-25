@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/taunt_the_grilled_gunman/taunt_the_grilled_gunman"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

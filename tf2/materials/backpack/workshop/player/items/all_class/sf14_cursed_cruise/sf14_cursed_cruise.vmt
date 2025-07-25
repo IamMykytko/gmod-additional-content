@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/sf14_cursed_cruise/sf14_cursed_cruise"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

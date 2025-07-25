@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/passtime_federation_2nd/passtime_federation_2nd"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

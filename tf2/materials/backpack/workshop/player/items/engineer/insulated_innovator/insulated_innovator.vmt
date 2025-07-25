@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/insulated_innovator/insulated_innovator"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

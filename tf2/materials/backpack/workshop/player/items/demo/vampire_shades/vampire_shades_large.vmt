@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/vampire_shades/vampire_shades_large"
+	"$translucent"		"1"
+}

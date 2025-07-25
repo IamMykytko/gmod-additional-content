@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/fall2013_air_raider/fall2013_air_raider_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

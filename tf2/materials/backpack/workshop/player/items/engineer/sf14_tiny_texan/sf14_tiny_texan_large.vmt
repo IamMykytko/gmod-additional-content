@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/sf14_tiny_texan/sf14_tiny_texan_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

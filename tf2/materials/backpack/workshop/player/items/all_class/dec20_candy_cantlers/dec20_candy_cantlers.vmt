@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/dec20_candy_cantlers/dec20_candy_cantlers"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

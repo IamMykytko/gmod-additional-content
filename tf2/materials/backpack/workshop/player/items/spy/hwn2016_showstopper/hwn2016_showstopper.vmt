@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/hwn2016_showstopper/hwn2016_showstopper"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

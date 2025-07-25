@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/hw2013_demo_cape/hw2013_demo_cape"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

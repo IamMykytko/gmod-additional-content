@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/xms2013_medic_robe/xms2013_medic_robe"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/spr17_guilden_guardian/spr17_guilden_guardian"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

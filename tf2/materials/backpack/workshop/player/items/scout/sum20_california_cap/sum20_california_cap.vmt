@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/sum20_california_cap/sum20_california_cap"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

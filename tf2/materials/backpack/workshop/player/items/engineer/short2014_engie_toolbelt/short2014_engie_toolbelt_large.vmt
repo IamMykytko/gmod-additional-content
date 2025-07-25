@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/short2014_engie_toolbelt/short2014_engie_toolbelt_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

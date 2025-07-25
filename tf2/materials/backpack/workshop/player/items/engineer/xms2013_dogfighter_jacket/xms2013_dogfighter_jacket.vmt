@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/xms2013_dogfighter_jacket/xms2013_dogfighter_jacket"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

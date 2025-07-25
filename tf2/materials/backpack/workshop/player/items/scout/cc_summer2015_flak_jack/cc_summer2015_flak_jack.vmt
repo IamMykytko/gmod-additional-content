@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/cc_summer2015_flak_jack/cc_summer2015_flak_jack"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/fall17_vitals_vest/fall17_vitals_vest"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

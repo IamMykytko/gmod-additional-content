@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/robotarm_creator/robotarm_creator_large"
+	"$translucent"		"1"
+}

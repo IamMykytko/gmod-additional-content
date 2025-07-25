@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/short2014_the_gas_guzzler/short2014_the_gas_guzzler_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

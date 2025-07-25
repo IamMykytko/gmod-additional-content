@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/spr17_airtight_arsonist/spr17_airtight_arsonist"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

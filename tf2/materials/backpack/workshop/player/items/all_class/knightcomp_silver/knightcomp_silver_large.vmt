@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/knightcomp_silver/knightcomp_silver_large"
+	"$translucent"		"1"
+}

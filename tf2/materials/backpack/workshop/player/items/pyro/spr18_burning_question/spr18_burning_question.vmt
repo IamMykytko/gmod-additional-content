@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/spr18_burning_question/spr18_burning_question"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

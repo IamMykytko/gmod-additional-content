@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/spr18_wipe_out_wraps/spr18_wipe_out_wraps_large"
+	"$translucent"		"1"
+}

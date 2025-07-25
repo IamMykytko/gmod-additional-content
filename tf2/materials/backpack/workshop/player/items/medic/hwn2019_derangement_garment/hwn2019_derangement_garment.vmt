@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/hwn2019_derangement_garment/hwn2019_derangement_garment"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

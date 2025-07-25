@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/hw2013_moon_boots/hw2013_moon_boots"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

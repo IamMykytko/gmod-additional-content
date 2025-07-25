@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/xms2013_soldier_marshal_beard/xms2013_soldier_marshal_beard_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

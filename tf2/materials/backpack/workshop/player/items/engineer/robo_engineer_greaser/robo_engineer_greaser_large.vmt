@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/robo_engineer_greaser/robo_engineer_greaser_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

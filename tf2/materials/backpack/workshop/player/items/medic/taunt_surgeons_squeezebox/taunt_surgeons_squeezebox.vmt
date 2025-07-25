@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/taunt_surgeons_squeezebox/taunt_surgeons_squeezebox"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

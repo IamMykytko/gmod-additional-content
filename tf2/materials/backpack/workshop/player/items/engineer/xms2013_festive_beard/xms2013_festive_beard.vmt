@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/xms2013_festive_beard/xms2013_festive_beard"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

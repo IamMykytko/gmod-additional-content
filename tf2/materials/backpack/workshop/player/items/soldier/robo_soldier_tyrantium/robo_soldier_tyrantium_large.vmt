@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/robo_soldier_tyrantium/robo_soldier_tyrantium_large"
+	"$translucent"		"1"
+}

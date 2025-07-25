@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/hawaiian_shirt/hawaiian_shirt"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

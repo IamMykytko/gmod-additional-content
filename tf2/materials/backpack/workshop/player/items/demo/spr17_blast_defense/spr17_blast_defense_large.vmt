@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/spr17_blast_defense/spr17_blast_defense_large"
+	"$translucent"		"1"
+}

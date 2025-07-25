@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/dec2014_engineer_detectiveradio/dec2014_engineer_detectiveradio"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

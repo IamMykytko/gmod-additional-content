@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\workshop\player\items\demo\dec19_spiky_viking\dec19_spiky_viking"
+	$translucent 1
+	$vertexcolor 1
+}

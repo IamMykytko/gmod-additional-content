@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/demolitionists_dustcatcher/demolitionists_dustcatcher"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

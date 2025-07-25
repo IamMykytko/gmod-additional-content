@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/udl_silver_2/udl_silver_2"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

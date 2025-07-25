@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/sf14_roo_rippers/sf14_roo_rippers"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

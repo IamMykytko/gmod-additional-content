@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/sbox2014_chefs_coat/sbox2014_chefs_coat_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

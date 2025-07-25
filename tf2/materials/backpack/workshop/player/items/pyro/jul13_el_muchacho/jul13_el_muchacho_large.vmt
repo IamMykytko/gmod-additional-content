@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/jul13_el_muchacho/jul13_el_muchacho_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

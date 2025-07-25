@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hwn2019_pyro_lantern/hwn2019_pyro_lantern"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

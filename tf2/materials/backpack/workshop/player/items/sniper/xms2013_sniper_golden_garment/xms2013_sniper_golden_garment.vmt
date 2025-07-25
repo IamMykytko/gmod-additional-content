@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/xms2013_sniper_golden_garment/xms2013_sniper_golden_garment"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

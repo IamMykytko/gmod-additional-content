@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/bi_big_daddy_doll/bi_big_daddy_doll"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

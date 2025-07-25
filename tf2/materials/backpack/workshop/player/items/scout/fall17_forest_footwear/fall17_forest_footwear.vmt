@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/fall17_forest_footwear/fall17_forest_footwear"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

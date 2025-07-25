@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/halloweenjacket/halloweenjacket"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

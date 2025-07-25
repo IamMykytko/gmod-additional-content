@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/coldfront_curbstompers/coldfront_curbstompers_large"
+	"$translucent"		"1"
+}

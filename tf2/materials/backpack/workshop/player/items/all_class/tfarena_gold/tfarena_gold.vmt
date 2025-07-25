@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/tfarena_gold/tfarena_gold"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/invasion_jupiter_jetpack/invasion_jupiter_jetpack"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/fall17_commando_elite/fall17_commando_elite"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

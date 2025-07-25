@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hw2013_the_creeps_cowl/hw2013_the_creeps_cowl_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

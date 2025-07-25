@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/sum20_jarmaments/sum20_jarmaments"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

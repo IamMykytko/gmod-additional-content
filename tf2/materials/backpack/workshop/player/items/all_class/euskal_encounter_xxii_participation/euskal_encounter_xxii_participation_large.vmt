@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/euskal_encounter_xxii_participation/euskal_encounter_xxii_participation_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

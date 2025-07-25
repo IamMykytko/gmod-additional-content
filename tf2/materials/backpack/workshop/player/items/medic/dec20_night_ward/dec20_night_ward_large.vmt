@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/dec20_night_ward/dec20_night_ward_large"
+	"$translucent"		"1"
+}

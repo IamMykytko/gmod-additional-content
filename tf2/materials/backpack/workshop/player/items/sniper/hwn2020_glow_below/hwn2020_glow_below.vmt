@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/hwn2020_glow_below/hwn2020_glow_below"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

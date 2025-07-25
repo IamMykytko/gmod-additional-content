@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/robo_medic_otolaryngologists_mirror/robo_medic_otolaryngologists_mirror"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

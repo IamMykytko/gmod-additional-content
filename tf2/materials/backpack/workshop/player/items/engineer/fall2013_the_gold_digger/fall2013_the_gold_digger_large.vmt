@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/fall2013_the_gold_digger/fall2013_the_gold_digger_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

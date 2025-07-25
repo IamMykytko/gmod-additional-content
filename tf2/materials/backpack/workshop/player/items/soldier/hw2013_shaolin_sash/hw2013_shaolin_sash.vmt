@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/hw2013_shaolin_sash/hw2013_shaolin_sash"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

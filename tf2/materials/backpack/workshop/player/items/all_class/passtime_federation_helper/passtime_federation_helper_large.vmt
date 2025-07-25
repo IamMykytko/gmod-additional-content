@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/passtime_federation_helper/passtime_federation_helper_large"
+	"$translucent"		"1"
+}

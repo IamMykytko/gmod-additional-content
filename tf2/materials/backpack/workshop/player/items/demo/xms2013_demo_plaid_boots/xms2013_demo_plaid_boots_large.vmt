@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/xms2013_demo_plaid_boots/xms2013_demo_plaid_boots_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

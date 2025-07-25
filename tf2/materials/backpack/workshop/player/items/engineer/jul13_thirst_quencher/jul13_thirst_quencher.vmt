@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/jul13_thirst_quencher/jul13_thirst_quencher"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

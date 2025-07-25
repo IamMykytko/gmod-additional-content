@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/late_night_gold/late_night_gold_large"
+	"$translucent"		"1"
+}

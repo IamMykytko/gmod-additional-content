@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/thermal_sleeves/thermal_sleeves"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

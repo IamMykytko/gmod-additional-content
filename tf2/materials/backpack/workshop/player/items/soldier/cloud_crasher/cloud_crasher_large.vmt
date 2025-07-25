@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/cloud_crasher/cloud_crasher_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

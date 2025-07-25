@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/short2014_sengoku_scorcher/short2014_sengoku_scorcher_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

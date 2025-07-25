@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/invasion_space_hamster_hammy/invasion_space_hamster_hammy"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

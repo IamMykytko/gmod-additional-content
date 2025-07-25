@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/spr17_blast_defense/spr17_blast_defense"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

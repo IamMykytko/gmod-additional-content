@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/dec2014_pyromancers_raiments/dec2014_pyromancers_raiments"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

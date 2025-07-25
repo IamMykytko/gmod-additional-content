@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/invasion_cadet_visor/invasion_cadet_visor_large"
+	"$translucent"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hwn2019_mister_bones/hwn2019_mister_bones"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

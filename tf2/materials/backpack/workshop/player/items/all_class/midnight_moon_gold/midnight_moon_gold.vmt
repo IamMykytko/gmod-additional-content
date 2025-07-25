@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/midnight_moon_gold/midnight_moon_gold"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/kritz_or_treat_canteen/kritz_or_treat_canteen_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

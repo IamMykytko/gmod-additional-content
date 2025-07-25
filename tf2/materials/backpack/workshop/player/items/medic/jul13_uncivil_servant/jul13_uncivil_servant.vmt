@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/jul13_uncivil_servant/jul13_uncivil_servant"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

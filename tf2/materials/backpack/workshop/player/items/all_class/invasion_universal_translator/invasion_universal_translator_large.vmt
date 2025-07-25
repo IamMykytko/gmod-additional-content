@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/invasion_universal_translator/invasion_universal_translator_large"
+	"$translucent"		"1"
+}

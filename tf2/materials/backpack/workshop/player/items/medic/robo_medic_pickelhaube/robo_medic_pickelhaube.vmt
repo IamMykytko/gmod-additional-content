@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/robo_medic_pickelhaube/robo_medic_pickelhaube"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

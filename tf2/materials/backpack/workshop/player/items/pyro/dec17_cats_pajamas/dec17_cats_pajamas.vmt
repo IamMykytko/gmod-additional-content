@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/dec17_cats_pajamas/dec17_cats_pajamas"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

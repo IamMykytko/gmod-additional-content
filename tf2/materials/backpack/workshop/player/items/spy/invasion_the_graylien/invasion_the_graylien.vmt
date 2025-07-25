@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/invasion_the_graylien/invasion_the_graylien"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/chapelaria_6v6_participant/chapelaria_6v6_participant"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

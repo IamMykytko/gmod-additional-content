@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/sf14_marsupial_man/sf14_marsupial_man"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

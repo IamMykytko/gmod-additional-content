@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/hwn2015_hellmet/hwn2015_hellmet"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

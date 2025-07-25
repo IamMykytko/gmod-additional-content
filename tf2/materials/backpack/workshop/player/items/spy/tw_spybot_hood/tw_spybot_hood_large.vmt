@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/tw_spybot_hood/tw_spybot_hood_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

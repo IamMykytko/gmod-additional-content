@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/hw2013_demo_executioner_hood/hw2013_demo_executioner_hood_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

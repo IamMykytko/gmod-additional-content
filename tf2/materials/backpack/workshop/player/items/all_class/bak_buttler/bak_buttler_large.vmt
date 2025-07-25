@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/bak_buttler/bak_buttler_large"
+	"$translucent"		"1"
+}

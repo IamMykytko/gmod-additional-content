@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hwn2016_lil_bitey/hwn2016_lil_bitey"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

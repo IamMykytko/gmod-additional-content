@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/robo_all_mvm_canteen/robo_all_mvm_canteen"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

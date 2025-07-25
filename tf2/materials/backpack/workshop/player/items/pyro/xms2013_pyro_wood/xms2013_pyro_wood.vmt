@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/xms2013_pyro_wood/xms2013_pyro_wood"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

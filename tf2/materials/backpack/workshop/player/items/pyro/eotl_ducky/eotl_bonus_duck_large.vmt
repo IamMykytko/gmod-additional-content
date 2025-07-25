@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\workshop\player\items\pyro\eotl_ducky\eotl_bonus_duck_large"
+	$translucent 1
+}

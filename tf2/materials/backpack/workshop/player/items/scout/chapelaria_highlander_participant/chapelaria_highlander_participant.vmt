@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/chapelaria_highlander_participant/chapelaria_highlander_participant"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

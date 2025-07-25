@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/fall2013_superthief/fall2013_superthief"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

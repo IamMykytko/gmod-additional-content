@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_commandobackpack_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

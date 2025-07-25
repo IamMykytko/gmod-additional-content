@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/sf14_iron_fist/sf14_iron_fist_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

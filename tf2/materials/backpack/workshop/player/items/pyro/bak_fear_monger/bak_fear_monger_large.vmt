@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/bak_fear_monger/bak_fear_monger_large"
+	"$translucent"		"1"
+}

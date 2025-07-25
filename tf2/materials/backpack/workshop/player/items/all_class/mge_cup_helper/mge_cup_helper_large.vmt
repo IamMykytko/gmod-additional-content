@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/mge_cup_helper/mge_cup_helper_large"
+	"$translucent"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/dec20_killing_tree/dec20_killing_tree"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/udl_participant/udl_participant"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

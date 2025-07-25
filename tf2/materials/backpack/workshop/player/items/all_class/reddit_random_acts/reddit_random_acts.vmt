@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/reddit_random_acts/reddit_random_acts"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

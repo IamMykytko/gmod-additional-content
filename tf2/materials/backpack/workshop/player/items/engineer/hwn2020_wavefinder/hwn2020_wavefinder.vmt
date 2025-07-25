@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/hwn2020_wavefinder/hwn2020_wavefinder"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

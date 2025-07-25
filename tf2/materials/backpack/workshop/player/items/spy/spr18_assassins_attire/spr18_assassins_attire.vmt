@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/spr18_assassins_attire/spr18_assassins_attire"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/essentials_monthly_participant/essentials_monthly_participant"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

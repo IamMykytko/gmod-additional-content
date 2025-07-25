@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hwn2015_duckyhat/hwn2015_duckyhat"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

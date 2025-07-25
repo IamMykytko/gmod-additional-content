@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/taunt_time_out_therapy/taunt_time_out_therapy_large"
+	"$translucent"		"1"
+}

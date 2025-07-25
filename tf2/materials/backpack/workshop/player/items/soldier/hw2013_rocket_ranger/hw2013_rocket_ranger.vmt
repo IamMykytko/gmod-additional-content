@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/hw2013_rocket_ranger/hw2013_rocket_ranger"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

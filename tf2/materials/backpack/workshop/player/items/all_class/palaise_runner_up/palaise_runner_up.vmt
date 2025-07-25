@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/palaise_runner_up/palaise_runner_up"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

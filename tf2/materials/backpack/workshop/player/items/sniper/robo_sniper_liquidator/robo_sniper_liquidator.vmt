@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/robo_sniper_liquidator/robo_sniper_liquidator"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

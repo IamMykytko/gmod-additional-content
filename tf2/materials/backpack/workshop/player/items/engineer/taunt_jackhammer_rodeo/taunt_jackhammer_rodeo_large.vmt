@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/taunt_jackhammer_rodeo/taunt_jackhammer_rodeo_large"
+	"$translucent"		"1"
+}

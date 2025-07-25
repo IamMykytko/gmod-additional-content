@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/taunt_most_wanted/taunt_most_wanted"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

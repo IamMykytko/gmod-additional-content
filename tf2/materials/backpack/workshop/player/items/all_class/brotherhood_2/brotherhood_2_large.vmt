@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/brotherhood_2/brotherhood_2_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

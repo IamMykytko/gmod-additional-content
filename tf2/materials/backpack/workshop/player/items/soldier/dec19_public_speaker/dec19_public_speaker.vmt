@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/dec19_public_speaker/dec19_public_speaker"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/cc_summer2015_the_physicians_protector/cc_summer2015_the_physicians_protector"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

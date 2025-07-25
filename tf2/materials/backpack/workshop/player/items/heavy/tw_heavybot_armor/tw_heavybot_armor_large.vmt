@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/tw_heavybot_armor/tw_heavybot_armor_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/spr17_flakcatcher/spr17_flakcatcher"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

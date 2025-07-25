@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/medieval_glory_boots/medieval_glory_boots_large"
+	"$translucent"		"1"
+}

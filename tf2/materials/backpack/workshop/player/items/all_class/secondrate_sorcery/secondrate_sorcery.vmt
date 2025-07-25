@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/secondrate_sorcery/secondrate_sorcery"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

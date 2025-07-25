@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/sept2014_pyro_radioactive_mask/sept2014_pyro_radioactive_mask_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

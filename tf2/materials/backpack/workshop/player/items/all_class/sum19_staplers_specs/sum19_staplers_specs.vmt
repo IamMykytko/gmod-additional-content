@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/sum19_staplers_specs/sum19_staplers_specs"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

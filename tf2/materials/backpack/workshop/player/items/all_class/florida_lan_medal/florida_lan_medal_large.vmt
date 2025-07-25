@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/florida_lan_medal/florida_lan_medal_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

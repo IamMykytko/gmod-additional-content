@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/hwn2020_rolfe_copter/hwn2020_rolfe_copter"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/jul13_border_armor/jul13_border_armor"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

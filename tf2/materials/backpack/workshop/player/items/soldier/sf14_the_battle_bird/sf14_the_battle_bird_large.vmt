@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/sf14_the_battle_bird/sf14_the_battle_bird_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

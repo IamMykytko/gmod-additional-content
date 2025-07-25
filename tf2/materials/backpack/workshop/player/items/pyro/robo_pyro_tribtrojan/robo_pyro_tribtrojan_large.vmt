@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/robo_pyro_tribtrojan/robo_pyro_tribtrojan_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

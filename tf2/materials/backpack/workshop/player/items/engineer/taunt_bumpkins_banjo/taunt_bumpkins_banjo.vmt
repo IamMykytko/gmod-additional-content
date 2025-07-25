@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/taunt_bumpkins_banjo/taunt_bumpkins_banjo"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

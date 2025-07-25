@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/respawn_highlander_founder/respawn_highlander_founder_large"
+	"$translucent"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/fall2013_aichi_investigator/fall2013_aichi_investigator_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/heart_of_gold/heart_of_gold_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

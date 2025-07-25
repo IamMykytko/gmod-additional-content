@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/sf14_sniper_ostrich_legs/sf14_sniper_ostrich_legs"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

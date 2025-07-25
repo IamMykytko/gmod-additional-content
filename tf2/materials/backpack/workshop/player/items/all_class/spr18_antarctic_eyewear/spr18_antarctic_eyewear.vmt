@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/spr18_antarctic_eyewear/spr18_antarctic_eyewear"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

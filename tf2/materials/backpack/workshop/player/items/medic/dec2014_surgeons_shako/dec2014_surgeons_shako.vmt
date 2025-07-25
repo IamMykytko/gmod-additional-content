@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/dec2014_surgeons_shako/dec2014_surgeons_shako"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

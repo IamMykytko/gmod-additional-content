@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/ugc_wingy_medal/ugc_medal_gold_participant"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

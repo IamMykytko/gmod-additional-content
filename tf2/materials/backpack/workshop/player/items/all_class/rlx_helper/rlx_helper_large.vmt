@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/rlx_helper/rlx_helper_large"
+	"$translucent"		"1"
+}

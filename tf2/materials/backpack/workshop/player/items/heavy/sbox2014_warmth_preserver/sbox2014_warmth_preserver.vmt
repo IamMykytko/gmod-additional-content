@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/sbox2014_warmth_preserver/sbox2014_warmth_preserver"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

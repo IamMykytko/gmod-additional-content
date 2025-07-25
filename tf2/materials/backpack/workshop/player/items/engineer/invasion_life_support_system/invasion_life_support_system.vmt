@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/invasion_life_support_system/invasion_life_support_system"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

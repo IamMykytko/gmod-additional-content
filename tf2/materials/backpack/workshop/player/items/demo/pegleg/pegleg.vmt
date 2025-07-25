@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop/player/items/demo/pegleg/pegleg"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/spr18_frag_proof_fragger/spr18_frag_proof_fragger_large"
+	"$translucent"		"1"
+}

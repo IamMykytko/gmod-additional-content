@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/sum19_kapitans_kaftan/sum19_kapitans_kaftan"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

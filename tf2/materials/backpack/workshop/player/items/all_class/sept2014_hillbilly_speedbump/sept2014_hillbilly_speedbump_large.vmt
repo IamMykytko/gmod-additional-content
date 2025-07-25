@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/sept2014_hillbilly_speedbump/sept2014_hillbilly_speedbump_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/jtte_bronze/jtte_bronze"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\workshop\player\items\all_class\all_class_badge_bonusd\all_class_badge_bonusd_large"
+	$translucent 1
+}

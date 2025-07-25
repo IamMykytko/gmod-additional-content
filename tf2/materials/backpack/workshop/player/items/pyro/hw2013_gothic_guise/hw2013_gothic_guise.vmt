@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hw2013_gothic_guise/hw2013_gothic_guise"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

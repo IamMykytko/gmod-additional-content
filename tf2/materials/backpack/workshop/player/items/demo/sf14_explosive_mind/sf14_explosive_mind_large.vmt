@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/sf14_explosive_mind/sf14_explosive_mind_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

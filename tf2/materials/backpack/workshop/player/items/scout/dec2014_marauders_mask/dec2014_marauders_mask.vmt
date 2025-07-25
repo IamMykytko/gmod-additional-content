@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/dec2014_marauders_mask/dec2014_marauders_mask"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/dec20_particulate_protector/dec20_particulate_protector_large"
+	"$translucent"		"1"
+}

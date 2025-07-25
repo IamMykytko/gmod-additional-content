@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/ugc_season11_steel_second/ugc_season11_steel_second_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

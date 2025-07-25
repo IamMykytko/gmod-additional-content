@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/spr17_warhood/spr17_warhood"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

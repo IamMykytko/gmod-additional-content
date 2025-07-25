@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/fall2013_fancycoat/fall2013_fancycoat"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

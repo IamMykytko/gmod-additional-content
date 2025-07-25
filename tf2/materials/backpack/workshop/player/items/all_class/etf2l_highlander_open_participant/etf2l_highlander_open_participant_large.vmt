@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/etf2l_highlander_open_participant/etf2l_highlander_open_participant_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

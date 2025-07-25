@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/jogon/jogon_large"
+	"$translucent"		"1"
+}

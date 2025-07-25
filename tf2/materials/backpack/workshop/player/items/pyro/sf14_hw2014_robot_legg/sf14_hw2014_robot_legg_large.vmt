@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/sf14_hw2014_robot_legg/sf14_hw2014_robot_legg_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/jul13_madmans_mop/jul13_madmans_mop"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

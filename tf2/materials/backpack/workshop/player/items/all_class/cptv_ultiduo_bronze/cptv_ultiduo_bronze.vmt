@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/cptv_ultiduo_bronze/cptv_ultiduo_bronze"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

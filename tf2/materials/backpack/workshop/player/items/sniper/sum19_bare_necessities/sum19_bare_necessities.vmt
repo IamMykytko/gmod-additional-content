@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/sum19_bare_necessities/sum19_bare_necessities"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

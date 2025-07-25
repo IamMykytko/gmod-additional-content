@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/short2014_minja_vest/short2014_minja_vest_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

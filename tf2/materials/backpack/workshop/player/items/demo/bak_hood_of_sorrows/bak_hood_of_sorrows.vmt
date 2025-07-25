@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/bak_hood_of_sorrows/bak_hood_of_sorrows"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

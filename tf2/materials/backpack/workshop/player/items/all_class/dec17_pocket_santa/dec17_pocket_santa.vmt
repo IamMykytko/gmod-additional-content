@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/dec17_pocket_santa/dec17_pocket_santa"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

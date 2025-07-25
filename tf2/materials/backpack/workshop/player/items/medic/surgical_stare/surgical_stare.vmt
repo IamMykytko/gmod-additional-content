@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/surgical_stare/surgical_stare"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/dec2014_comforter/dec2014_comforter"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/invasion_sucker_slug/invasion_sucker_slug_large"
+	"$translucent"		"1"
+}

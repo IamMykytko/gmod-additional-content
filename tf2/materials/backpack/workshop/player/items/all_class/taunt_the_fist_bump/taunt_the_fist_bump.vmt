@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/taunt_the_fist_bump/taunt_the_fist_bump"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

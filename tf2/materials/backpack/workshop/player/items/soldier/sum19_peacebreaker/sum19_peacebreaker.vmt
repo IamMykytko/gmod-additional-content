@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/sum19_peacebreaker/sum19_peacebreaker"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

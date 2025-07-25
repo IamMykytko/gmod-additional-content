@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/jul13_furious_fryup/jul13_furious_fryup_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

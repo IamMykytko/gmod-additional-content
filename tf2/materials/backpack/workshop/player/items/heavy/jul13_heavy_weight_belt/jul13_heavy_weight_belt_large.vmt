@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/jul13_heavy_weight_belt/jul13_heavy_weight_belt_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

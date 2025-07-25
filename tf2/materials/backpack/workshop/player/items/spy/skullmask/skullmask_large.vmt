@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/skullmask/skullmask_large"
+	"$translucent"		"1"
+}

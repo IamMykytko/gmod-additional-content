@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/spr17_field_practice/spr17_field_practice"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

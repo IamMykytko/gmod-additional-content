@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/dec18_crack_pot/dec18_crack_pot"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

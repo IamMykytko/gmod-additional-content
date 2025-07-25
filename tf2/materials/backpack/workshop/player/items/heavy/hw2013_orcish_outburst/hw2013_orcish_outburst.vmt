@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/hw2013_orcish_outburst/hw2013_orcish_outburst"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/dec18_puggyback/dec18_puggyback_large"
+	"$translucent"		"1"
+}

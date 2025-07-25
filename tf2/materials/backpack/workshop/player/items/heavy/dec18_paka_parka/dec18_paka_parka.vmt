@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/dec18_paka_parka/dec18_paka_parka"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

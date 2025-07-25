@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/briskweather_beanie/briskweather_beanie"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

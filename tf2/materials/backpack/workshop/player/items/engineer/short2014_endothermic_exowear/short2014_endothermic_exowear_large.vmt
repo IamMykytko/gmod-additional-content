@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/short2014_endothermic_exowear/short2014_endothermic_exowear_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

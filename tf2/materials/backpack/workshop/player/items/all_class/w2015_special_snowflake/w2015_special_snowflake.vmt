@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/w2015_special_snowflake/w2015_special_snowflake"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

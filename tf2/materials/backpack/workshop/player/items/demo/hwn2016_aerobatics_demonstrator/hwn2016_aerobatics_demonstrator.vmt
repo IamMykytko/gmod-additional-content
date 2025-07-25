@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/hwn2016_aerobatics_demonstrator/hwn2016_aerobatics_demonstrator"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

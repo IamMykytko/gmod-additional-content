@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/fall2013_fire_bird/fall2013_fire_bird"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

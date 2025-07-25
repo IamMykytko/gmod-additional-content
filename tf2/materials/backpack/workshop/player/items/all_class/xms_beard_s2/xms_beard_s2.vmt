@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/xms_beard_s2/xms_beard_s2"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

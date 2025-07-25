@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/dec16_elf_esteem/dec16_elf_esteem"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

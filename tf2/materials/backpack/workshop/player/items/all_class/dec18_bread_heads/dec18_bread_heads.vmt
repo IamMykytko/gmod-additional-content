@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/dec18_bread_heads/dec18_bread_heads"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

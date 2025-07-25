@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/sbox2014_fashionable_megalomaniac/sbox2014_fashionable_megalomaniac_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

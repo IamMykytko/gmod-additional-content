@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/spr18_head_hedge/spr18_head_hedge"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

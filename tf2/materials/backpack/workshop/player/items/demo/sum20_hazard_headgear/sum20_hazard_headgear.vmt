@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/sum20_hazard_headgear/sum20_hazard_headgear"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

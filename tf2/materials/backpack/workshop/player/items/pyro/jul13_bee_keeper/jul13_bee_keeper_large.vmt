@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/jul13_bee_keeper/jul13_bee_keeper_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

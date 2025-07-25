@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/fall17_deyemonds/fall17_deyemonds"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/dec16_handy_canes/dec16_handy_canes"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

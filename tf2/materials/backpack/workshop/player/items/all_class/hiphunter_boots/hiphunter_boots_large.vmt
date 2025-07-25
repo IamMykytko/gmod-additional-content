@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hiphunter_boots/hiphunter_boots_large"
+	"$translucent"		"1"
+}

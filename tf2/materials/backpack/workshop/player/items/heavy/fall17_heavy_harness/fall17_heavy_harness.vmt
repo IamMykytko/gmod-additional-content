@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/fall17_heavy_harness/fall17_heavy_harness"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

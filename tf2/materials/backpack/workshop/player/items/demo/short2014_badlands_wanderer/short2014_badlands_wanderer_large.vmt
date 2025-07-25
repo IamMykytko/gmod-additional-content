@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/short2014_badlands_wanderer/short2014_badlands_wanderer_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/sf14_the_creatures_grin/sf14_the_creatures_grin_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

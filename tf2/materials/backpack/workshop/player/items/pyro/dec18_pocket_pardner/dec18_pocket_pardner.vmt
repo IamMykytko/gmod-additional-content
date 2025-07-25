@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/dec18_pocket_pardner/dec18_pocket_pardner"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

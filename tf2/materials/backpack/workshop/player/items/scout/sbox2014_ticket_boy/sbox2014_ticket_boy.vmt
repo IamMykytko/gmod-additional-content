@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/sbox2014_ticket_boy/sbox2014_ticket_boy"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

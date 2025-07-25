@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/spr18_cold_case/spr18_cold_case"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/invasion_rocket_operator/invasion_rocket_operator_large"
+	"$translucent"		"1"
+}

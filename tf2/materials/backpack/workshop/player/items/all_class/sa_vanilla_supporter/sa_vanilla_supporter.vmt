@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/sa_vanilla_supporter/sa_vanilla_supporter"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

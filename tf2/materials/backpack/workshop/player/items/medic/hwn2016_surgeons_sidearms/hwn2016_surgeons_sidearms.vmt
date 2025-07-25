@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/hwn2016_surgeons_sidearms/hwn2016_surgeons_sidearms"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

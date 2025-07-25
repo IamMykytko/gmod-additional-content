@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/dec15_hot_heels/dec15_hot_heels"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

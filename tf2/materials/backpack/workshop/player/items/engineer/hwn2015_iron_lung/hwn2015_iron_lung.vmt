@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/hwn2015_iron_lung/hwn2015_iron_lung"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

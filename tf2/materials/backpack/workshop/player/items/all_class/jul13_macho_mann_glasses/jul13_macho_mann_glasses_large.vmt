@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/jul13_macho_mann_glasses/jul13_macho_mann_glasses_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

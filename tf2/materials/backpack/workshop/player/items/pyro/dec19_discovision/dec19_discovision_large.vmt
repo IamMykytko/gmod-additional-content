@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/dec19_discovision/dec19_discovision_large"
+	"$translucent"		"1"
+}

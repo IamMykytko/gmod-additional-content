@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/fall17_battle_boonie/fall17_battle_boonie"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

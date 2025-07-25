@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/hw2013_blood_banker/hw2013_blood_banker"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

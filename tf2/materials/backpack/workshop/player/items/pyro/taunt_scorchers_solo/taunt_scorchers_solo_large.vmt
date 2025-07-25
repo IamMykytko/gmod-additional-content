@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/taunt_scorchers_solo/taunt_scorchers_solo_large"
+	"$translucent"		"1"
+}

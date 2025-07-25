@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/dec2014_thermal_insulation_layer/dec2014_thermal_insulation_layer_large"
+	"$translucent"		"1"
+}

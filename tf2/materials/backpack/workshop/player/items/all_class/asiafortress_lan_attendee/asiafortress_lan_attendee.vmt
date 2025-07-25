@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/asiafortress_lan_attendee/asiafortress_lan_attendee"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

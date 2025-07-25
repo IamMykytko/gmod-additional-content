@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hw2013_leather_face/hw2013_leather_face_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

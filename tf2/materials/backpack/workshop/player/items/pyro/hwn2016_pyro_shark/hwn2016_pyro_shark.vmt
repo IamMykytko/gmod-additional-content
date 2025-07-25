@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hwn2016_pyro_shark/hwn2016_pyro_shark"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

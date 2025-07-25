@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/pyro/hw2013_tin_can/hw2013_tin_can_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

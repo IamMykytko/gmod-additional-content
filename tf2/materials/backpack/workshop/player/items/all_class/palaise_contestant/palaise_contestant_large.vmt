@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/palaise_contestant/palaise_contestant_large"
+	"$translucent"		"1"
+}

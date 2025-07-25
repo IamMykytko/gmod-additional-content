@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/taunt_the_bunnyhopper/taunt_the_bunnyhopper"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

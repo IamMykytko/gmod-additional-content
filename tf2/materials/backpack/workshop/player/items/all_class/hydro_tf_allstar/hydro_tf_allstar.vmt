@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hydro_tf_allstar/hydro_tf_allstar"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

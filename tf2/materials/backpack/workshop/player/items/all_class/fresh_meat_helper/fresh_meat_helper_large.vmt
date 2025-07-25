@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/fresh_meat_helper/fresh_meat_helper_large"
+	"$translucent"		"1"
+}

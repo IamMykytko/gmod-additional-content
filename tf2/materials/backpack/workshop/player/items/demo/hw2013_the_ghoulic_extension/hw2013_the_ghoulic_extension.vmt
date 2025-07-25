@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/hw2013_the_ghoulic_extension/hw2013_the_ghoulic_extension"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

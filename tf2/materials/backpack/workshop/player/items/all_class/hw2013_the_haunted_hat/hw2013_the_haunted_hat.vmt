@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/hw2013_the_haunted_hat/hw2013_the_haunted_hat"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

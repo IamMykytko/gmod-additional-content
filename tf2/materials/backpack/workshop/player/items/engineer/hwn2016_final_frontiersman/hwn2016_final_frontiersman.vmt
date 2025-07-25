@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/hwn2016_final_frontiersman/hwn2016_final_frontiersman"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

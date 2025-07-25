@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/scout/hwn2016_wing_mann/hwn2016_wing_mann"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

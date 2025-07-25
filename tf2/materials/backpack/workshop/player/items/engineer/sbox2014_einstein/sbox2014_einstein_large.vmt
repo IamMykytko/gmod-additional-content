@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/sbox2014_einstein/sbox2014_einstein_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

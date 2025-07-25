@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/sbox2014_sniper_quiver/sbox2014_sniper_quiver"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

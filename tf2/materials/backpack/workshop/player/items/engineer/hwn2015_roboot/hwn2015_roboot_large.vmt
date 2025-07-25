@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/hwn2015_roboot/hwn2015_roboot_large"
+	"$translucent"		"1"
+}

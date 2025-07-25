@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/fall17_conaghers_utility_idol/fall17_conaghers_utility_idol"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

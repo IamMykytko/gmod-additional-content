@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/respawn_highlander_3rd/respawn_highlander_3rd"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

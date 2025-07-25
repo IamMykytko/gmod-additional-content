@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/jul13_scrap_reserve/jul13_scrap_reserve"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

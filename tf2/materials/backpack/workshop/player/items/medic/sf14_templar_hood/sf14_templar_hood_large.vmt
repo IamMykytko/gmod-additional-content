@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/sf14_templar_hood/sf14_templar_hood_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

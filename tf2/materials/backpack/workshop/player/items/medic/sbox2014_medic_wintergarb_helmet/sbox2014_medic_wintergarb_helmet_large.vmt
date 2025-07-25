@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/medic/sbox2014_medic_wintergarb_helmet/sbox2014_medic_wintergarb_helmet_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

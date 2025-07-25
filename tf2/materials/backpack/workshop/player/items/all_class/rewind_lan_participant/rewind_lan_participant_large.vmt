@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/rewind_lan_participant/rewind_lan_participant_large"
+	"$translucent"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/spy/taunt_luxury_lounge/taunt_luxury_lounge"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

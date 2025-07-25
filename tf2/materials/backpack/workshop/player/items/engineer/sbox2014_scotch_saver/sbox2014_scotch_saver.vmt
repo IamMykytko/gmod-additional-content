@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/engineer/sbox2014_scotch_saver/sbox2014_scotch_saver"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

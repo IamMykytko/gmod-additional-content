@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/all_class/bak_batarm/bak_batarm"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

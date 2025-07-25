@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/heavy/short2014_heavy_goatee/short2014_heavy_goatee_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}
