@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "mvm/mvm_bridges_cactus_card"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+	"$AlphaTest" "1"
+	"$AlphaTestReference" ".25"
+	"$AllowAlphaToCoverage" "1"
+}

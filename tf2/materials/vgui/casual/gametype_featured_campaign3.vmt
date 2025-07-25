@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\casual\gametype_featured_campaign3"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}

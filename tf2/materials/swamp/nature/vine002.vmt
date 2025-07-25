@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "swamp/Nature/vine002"
+	"$surfaceprop" "dirt"
+	"$translucent" "1"
+	"$nocull" 1
+	"%keywords" "tf"
+}
+
+// TF2Maps.net Swamp Theme
+// http://tf2maps.net

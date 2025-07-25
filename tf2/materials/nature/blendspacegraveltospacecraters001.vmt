@@ -1,0 +1,20 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/space_dirtground001"
+	"$basetexture2" "Nature/space_craterground001"
+//	"$bumpmap" "nature/rockground001_height-ssbump"
+	"$bumpmap" "Nature/space_craters_height-ssbump"
+//	"$envmapmask" "Nature/space_dirtground001_env"
+//	"$envmap" "effects/saxxy_gold"
+//	"$envmapcontrast" ".05"
+//	"$envmapsaturation" 1
+//	"$envmaptint" "[ .006 .004 .009]"
+		
+	"%keywords" "tf"
+	"$ssbump" "1"
+//	"$ssbump" "2"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "dirt"
+	"$blendmodulatetexture" "nature/space_craterblend"
+	"%tooltexture" "winter/blendgraveltogravel001_tooltexture"
+}

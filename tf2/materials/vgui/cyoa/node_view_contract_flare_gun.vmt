@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\cyoa\node_view_contract_flare_gun"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexalpha"	"1"
+}

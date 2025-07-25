@@ -1,0 +1,7 @@
+"SpriteCard"
+{
+	"$basetexture"	"particles/kaleido-scope_shapes_bg"
+	"$translucent"	1
+	"$additive"	1
+	"$blendframes"	"1"
+}

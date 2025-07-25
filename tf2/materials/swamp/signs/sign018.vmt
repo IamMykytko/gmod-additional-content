@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+"$basetexture" "signs/sign114"
+"$decal" 1
+"$decalscale" 0.25
+"$translucent" 1
+"%keywords" "tf"
+}
+
+//Please note, this is an official Valve texture without a VMT, and thus the VTF doesn't 'exist' as a custom texture. When embedding custom content, be sure to remember to pack this though, as it is needed for the sign to work properly.

@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\main_menu\motd_tough_break"
+
+	"$translucent" 1
+	"$ignorez" 1
+
+
+}

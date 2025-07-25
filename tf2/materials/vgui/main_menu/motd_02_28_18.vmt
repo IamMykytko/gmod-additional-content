@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\main_menu\motd_02_28_18"
+
+	"$translucent" 1
+	"$ignorez" 1
+
+
+}

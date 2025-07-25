@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "signs/death_wheel_off_0"
+	$translucent 1
+	$additive 1
+	"$surfaceprop" "metal"
+
+	"%keywords" "tf"
+}

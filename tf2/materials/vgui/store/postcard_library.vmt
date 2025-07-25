@@ -1,0 +1,6 @@
+"unlitGeneric"
+{
+	"$baseTexture" "vgui/store/postcard_library"
+	"$translucent" 1
+}
+

@@ -1,0 +1,9 @@
+"UnlitTwoTexture"
+{
+	"$baseTexture" "signs/death_wheel_7"
+	"$texture2" 	"signs/death_wheel_illum"
+	"%keywords" "tf"
+
+	$selfillum 1
+
+}

@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\main_menu\motd_arkhamcontest"
+
+	"$translucent" 1
+	"$ignorez" 1
+
+
+}

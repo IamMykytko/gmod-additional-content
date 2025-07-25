@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/steeldoor001"
+	"$surfaceprop" "metal"
+	"$decal" "1"
+	"%keywords" "tf"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

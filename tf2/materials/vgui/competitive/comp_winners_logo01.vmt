@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/competitive/comp_winners_logo01"
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$ignorez" 1
+	"$no_fullbright" "1"
+	"$nolod" "1"
+	"%keywords" "tf"
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\trade_ups\trade_ups_boxtop_01"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}

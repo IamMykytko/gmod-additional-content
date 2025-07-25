@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\item_carousel_bg.psd"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}

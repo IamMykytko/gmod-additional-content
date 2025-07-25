@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\cyoa\sold_out"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexalpha"	"1"
+}

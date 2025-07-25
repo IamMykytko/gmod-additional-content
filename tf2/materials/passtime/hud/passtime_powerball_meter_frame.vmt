@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "passtime\hud\passtime_powerball_meter_frame"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+}

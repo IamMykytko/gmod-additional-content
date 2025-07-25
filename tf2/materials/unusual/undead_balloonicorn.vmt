@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "unusual/undead_balloonicorn"
+	"$alphatest" 1
+	"$translucent" 1
+	"$nocull" 1
+}

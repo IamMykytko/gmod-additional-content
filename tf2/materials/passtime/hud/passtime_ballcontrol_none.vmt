@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "passtime/hud/passtime_ballcontrol_none"
+	"$translucent" 1
+}

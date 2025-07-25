@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+   "$baseTexture" "signs/wof_teamcolors_animate"
+   $translucent 1
+   $additive 1
+   "$surfaceprop" "metal"
+
+   "%keywords" "tf"
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" "1.2"
+      }
+   }
+}

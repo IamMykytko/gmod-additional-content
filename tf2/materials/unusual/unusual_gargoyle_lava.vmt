@@ -1,0 +1,6 @@
+SpriteCard
+{
+	$basetexture "unusual\unusual_gargoyle_lava"
+	$vertexcolor 1
+	$vertexalpha 1
+}

@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "swamp/nature/karst_rock001"
+	"%keywords" "tf"
+	"$surfaceprop" "rock"
+//	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" "1"	
+//	"$envmaptint" "[.1 .2 .1]""
+
+}
+
+// TF2Maps.net Swamp Theme
+// http://tf2maps.net

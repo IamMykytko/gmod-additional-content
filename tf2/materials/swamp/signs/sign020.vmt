@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+"$basetexture" "swamp/signs/sign020"
+"$decal" 1
+"$decalscale" 0.25
+"$translucent" 1
+"%keywords" "tf"
+}

@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\contracts\contracts_base4"
+	\\"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}

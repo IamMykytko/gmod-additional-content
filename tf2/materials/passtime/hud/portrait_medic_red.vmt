@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "passtime/hud/portrait_medic_red"
+	"$translucent" 1
+}

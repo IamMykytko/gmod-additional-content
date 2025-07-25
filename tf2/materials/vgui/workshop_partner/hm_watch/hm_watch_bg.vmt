@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/workshop_partner/hm_watch/hm_watch_BG"
+	"$translucent" "1"
+}

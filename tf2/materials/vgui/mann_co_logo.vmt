@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\mann_co_logo"
+	"$translucent" 1
+	"$ignorez" 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/ranked_background_widescreen"
+	"$translucent"	1
+	"$vertexcolor"	1
+}

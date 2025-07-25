@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\cyoa\cyoa_map_lvl2_bg_a"
+//	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "soho/WallTile_001"
+	"$color" "{100 100  120}" 
+	"$surfaceprop" "tile"
+	"%keywords" "tf"
+}

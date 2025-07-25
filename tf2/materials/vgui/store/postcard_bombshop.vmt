@@ -1,0 +1,6 @@
+"unlitGeneric"
+{
+	"$baseTexture" "vgui/store/postcard_bombshop"
+	"$translucent" 1
+}
+

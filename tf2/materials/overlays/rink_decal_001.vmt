@@ -1,0 +1,7 @@
+"DecalModulate"
+{
+	"$basetexture"	"decals/halloween_rink_decal_001"
+	"$decal"	1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

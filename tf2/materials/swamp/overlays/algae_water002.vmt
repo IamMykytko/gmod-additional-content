@@ -1,0 +1,54 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "swamp/Overlays/algae002"
+	"$decal" 1
+	"$decalscale" "1"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"%keywords" "tf"
+
+ "$temp" "[0 0]"
+ "$curr" 0.0
+ "$curr2" 0.0
+
+ "Proxies"
+ {
+		"Sine"
+		{
+			"sineperiod" "36"
+			"sinemin" -0.02
+			"sinemax" 0.02
+			"resultVar" "$curr"
+		}
+		"Sine"
+		{
+			"sineperiod" "40"
+			"sinemin" 0.07
+			"sinemax" -0.07
+			"resultVar" "$curr2"
+		}
+
+		"Equals"
+		{
+			"srcVar1" "$curr2"
+			"resultVar" "$temp[0]"
+		}
+		"Equals"
+		{
+			"srcVar1" "$curr"
+			"resultVar" "$temp[1]"
+		}
+
+ 
+		"TextureTransform"
+		{
+			"translateVar" "$temp"
+			"resultVar" "$basetexturetransform"
+		}
+	}  
+}
+
+
+// TF2Maps.net Swamp Theme
+// http://tf2maps.net

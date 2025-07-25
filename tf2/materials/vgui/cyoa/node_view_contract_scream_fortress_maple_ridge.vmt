@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\cyoa\node_view_contract_scream_fortress_maple_ridge"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexalpha"	"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "Nature/moon_large"
+	$translucent 1
+	$nofog 1
+}

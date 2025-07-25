@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\outer_shadow_border"
+	"$translucent" 1
+	"$ignorez" 1
+}

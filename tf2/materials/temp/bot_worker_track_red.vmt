@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "temp/bot_worker_track_red"
+	$translucent 1
+	$additive 1
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -2
+			"texturescrollangle" 0
+		}
+	}
+}

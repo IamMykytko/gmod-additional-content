@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "swamp/signs/sign016"
+	"$decal" 1
+	"$decalscale" "1"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"%keywords" "tf"
+}
+
+// TF2Maps.net Swamp Theme
+// http://tf2maps.net

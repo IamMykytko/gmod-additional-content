@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "temp/bot_worker_sign_blue"
+	$translucent 1
+}
