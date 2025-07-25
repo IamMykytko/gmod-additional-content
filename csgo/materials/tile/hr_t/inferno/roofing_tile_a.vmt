@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$basetexture"       "tile/hr_t/inferno/roofing_tile_a"
+	"$surfaceprop"       "tile"
+	"$detail"            "detail/noise_detail_01"
+	"$detailscale"       "[15 15]"
+	"$detailblendfactor" ".5"
+}

@@ -1,0 +1,38 @@
+ "WorldVertexTransition"
+{
+
+	"%tooltexture"			"hr_massive\gravel_1_blend_4_tooltexture"
+
+	"$baseTexture2" "hr_massive/gravel_1"
+	"$bumpmap2" "hr_massive/gravel_1_normal"
+	
+	"$blendmodulatetexture" "hr_massive/gravel_1_blendmod"
+
+	"$baseTexture" "hr_massive/broken_road_2"
+	"$bumpmap" "hr_massive/broken_road_2_normal"                                
+	
+	"$surfaceprop" "gravel"
+	"$surfaceprop2"         "gravel"
+
+//	"$dropshadowopacity" 			"1"		//How strong the highlights and shadows should be
+//	"$dropshadowscale" 				"0.0325" 	//The size in UV coordinates of the drop shadow
+//	"$dropshadowhighlightscale" 	"0.0325" 	//The size in UV coordinates of the drop highlight
+//	"$dropshadowdepthexaggeration" 	"3" 		//Use the depth in the blend modulation texture to vary 
+
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+//	"$envmaptint" 			"[.7 .7 .7]"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 0.1]"
+//	"$envmapcontrast"		"1"
+//	"$envmapsaturation"		"1"   
+	
+	$NEWLAYERBLENDING			1
+	$BLENDSOFTNESS				0.4
+//	$LAYERBORDERSTRENGTH		15
+//	$LAYERBORDEROFFSET			5
+//	$LAYERBORDERSOFTNESS		1	
+//	$LAYERBORDERTINT			"{255 0 0}"
+
+	
+} 

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays\coop_respirator"
+
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale"  ".125"
+
+
+}

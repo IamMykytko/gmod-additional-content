@@ -1,0 +1,25 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\metal_wall_1"
+	"$bumpmap" "hr_massive\metal_wall_1_normal"
+
+	"$surfaceprop" "metal"
+
+	//$envmap env_cubemap
+	//$normalmapalphaenvmapmask 1
+	//$vmaptint 			[1 1 1]
+	//$envmaplightscale		1
+	//$envmaplightscaleminmax 	[0 0.8]
+	//$envmapcontrast		1
+	//$envmapsaturation		.75
+
+//	$phong "1"
+//	$phongexponent "35"
+//	$phongamount "1.1"
+//	$phongfresnelranges "[.3 .65 1]"
+//	$basemapalphaphongmask "1"
+//	$phongtint "[1 1 1]"
+	
+
+
+}

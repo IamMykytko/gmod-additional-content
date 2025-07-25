@@ -1,0 +1,15 @@
+"lightmappedgeneric"
+{
+	"$basetexture"            "metal/hr_metal/hr_metal_grating_003_color"
+	"%compilepassbullets" 1
+	"$alphatest"              "1"
+	"$allowalphatocoverage"   "1"
+	"$alphatestreference"     "0.3"
+	"$nocull"                 "1"
+	"$envmapmask"             "metal/hr_metal/hr_metal_grating_002_specmask"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2.5]"
+	"$envmapcontrast"         ".5"
+	"$surfaceprop"            "metalgrate"
+}

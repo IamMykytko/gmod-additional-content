@@ -1,0 +1,17 @@
+ "WorldVertexTransition"
+{
+
+	"$baseTexture2" "hr_massive/gravel_1"
+	"$bumpmap2" "hr_massive/gravel_1_normal"
+	
+	"$blendmodulatetexture" "hr_massive/gravel_1_blendmod"
+
+	"$basetexture"         "ground/hr_g/hr_gravel_001_color"
+	"$bumpmap" "hr_massive/gravel_1_normal"                               
+	
+	"$basetexturetransform" "center 0 0 scale 1.5 1.5 rotate 0 translate 0 0"
+
+	"$surfaceprop" "gravel"
+	"$surfaceprop2"         "gravel"
+
+} 

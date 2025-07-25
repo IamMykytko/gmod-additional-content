@@ -1,0 +1,25 @@
+"unlittwotexture"
+{
+	"$basetexture"       "nature/coop_sea_foam01"
+	"$texture2"          "nature/coop_sea_foam02"
+	"$translucent"       "1"
+	"$additive"          "1"
+	"$nofog"             "1"
+	"proxies"
+	{
+		"texturescroll"
+		{
+			"texturescrollvar"   "$basetexturetransform"
+			"texturescrollrate"  0.06
+			"texturescrollangle" -80
+			"texturescale"       0.7
+		}
+		"texturescroll"
+		{
+			"texturescrollvar"   "$texture2transform"
+			"texturescrollrate"  0.035
+			"texturescrollangle" -110
+			"texturescale"       0.3
+		}
+	}
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/buymenu/auto-buy-panel"
+	"$translucent" 1
+}

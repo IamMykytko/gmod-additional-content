@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture" 			"nature/oldleaves01"
+	"$basetexture2" 		"nature/dirtleaves01"
+//	"$bumpmap"				"concrete/pavement_height_low-ssbump"
+//	"$ssbump"				"1"
+//	"%tooltexture" 			"nature/blend_oldleavesdirtleaves01_tooltexture"
+//	"$blendmodulatetexture" "nature/blendtexture01"
+//	"%detailtype" 			"house_leaves_grass"
+	"$surfaceprop" 			"grass"
+	"%keywords"				"house, de_house"
+}

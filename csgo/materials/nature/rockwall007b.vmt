@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/rockwall007"
+	"$basetexture2" "nature/dirtleaves01"
+
+	$blendmodulatetexture "nature/blend_texture_01"
+
+	"$surfaceprop" "concrete"
+}

@@ -1,0 +1,13 @@
+"spritecard"
+{
+	$basetexture "particle\playerping\playerping_ring"
+	$additive 1
+	$vertexcolor 1
+	$vertexalpha 1
+	$translucent 1
+
+	$overbrightfactor 2
+	$ignorez 1
+	$nofog 1
+	$depthblend 0
+}

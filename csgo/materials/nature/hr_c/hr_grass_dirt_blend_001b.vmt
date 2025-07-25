@@ -1,0 +1,10 @@
+"worldvertextransition"
+{
+	"$basetexture"          "nature/hr_c/hr_grass_001_color"
+	"$basetexture2"         "nature/hr_c/hr_dirt_001_color"
+	"$blendmodulatetexture" "nature/hr_c/hr_grass_001_blend"
+	"$detail"               "asphalt/hr_c/hr_asphalt_001_detail"
+	"$detailscale"          ".15"
+	"$detailblendfactor"    "1.0"
+	"$surfaceprop"          "grass"
+}

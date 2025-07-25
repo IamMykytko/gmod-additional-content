@@ -1,0 +1,13 @@
+"worldvertextransition"
+{
+	"$basetexture"                 "brick/hr_brick/venice/venice_brick_4g"
+	"$bumpmap"                     "brick/hr_brick/venice/venice_brick_4g_normal"
+	"$blendmodulatetexture"        "plaster/hr_p/venice/plaster_loam_1_blend_modulate"
+	"$basetexture2"                "plaster/hr_p/venice/plaster_brown_2_mid"
+	"$bumpmap2"                    "plaster/hr_p/venice/plaster_red_2_normal"
+	"$surfaceprop"                 "concrete"
+	"$dropshadowopacity"           ".4"
+	"$dropshadowscale"             "0.05"
+	"$dropshadowhighlightscale"    "0.01"
+	"$dropshadowdepthexaggeration" "1.5"
+}

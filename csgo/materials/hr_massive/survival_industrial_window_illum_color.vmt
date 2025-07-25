@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\survival_industrial_window_illum_color"
+
+	"$selfillum"	"1"
+
+
+}

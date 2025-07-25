@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "grass/hr_grass/grass_c"
+//$bumpmap "grass/hr_grass/grass_a_normals"
+
+}

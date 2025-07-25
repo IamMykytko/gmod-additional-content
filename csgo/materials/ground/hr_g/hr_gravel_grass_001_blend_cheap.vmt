@@ -1,0 +1,10 @@
+"worldvertextransition"
+{
+	"$basetexture2"         "ground/hr_g/hr_gravel_001_color"
+	"$basetexture"          "nature/hr_c/hr_grass_001_color"
+	"$basetexturetransform" "center 0 0 scale 1.125 1.125 rotate 0 translate 0 0"
+	"$detail"               "nature/hr_c/hr_terrain_001_detail"
+	"$detailscale"          ".2"
+	"$detailblendfactor"    "0.40"
+	"$surfaceprop"          "gravel"
+}

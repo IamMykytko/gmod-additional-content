@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays\coop_fall_acient_plant_02"
+
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale"  ".25"
+
+
+}

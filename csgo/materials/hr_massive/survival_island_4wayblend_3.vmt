@@ -1,0 +1,69 @@
+Lightmapped_4WayBlend
+{
+	"%tooltexture"			"hr_massive\survival_island_4wayblend_3_tooltexture"
+
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+//	"$envmaptint" 			"[.7 .7 .7]"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 0.1]"
+//	"$envmapcontrast"		"1"
+//	"$envmapsaturation"		"1"   
+
+    "$basetexture"              "hr_massive\rock_wall_2"
+    "$bumpmap"                  "hr_massive\rock_wall_2_normal"
+    "$texture1_lumstart"        "0"
+    "$texture1_lumend"          ".1"
+    "$surfaceprop"              "rock"
+
+
+
+    "$basetexture2"             "hr_massive\beach_sand_4"
+    "$bumpmap2"                 "hr_massive\beach_sand_4_normal"
+    "$surfaceprop2"              "dirt"
+    "$texture2_lumstart"        "0"
+    "$texture2_lumend"          "0.1"
+//    "$texture2_blendmode"       "1"
+    "$texture2_blendstart"      ".4"
+    "$texture2_blendend"        "1.0"
+//    "$texture2_uvscale"         "[1.0 1.0]"
+//    "$texture2_bumpblendfactor" "0.1"
+
+    "$basetexture3"             "hr_massive\broken_road_2"
+//    "$texture3_blendmode"       "1"
+//    "$texture3_uvscale"         "[2.0 2.0]"
+    "$texture3_lumstart"        "0"
+    "$texture3_lumend"          "0.1"
+    "$texture3_blendstart"      "0.4"
+    "$texture3_blendend"        "1.0"
+    "$texture3_bumpblendfactor" "0.1"
+    "$surfaceprop3"              "gravel"
+
+
+    "$basetexture4"             "hr_massive\dirt_ground_1b"
+//    "$texture4_blendmode"       "1"
+//    "$texture4_uvscale"         "[2.0 2.0]"
+    "$texture4_lumstart"        "0"
+    "$texture4_lumend"          "0.1"
+    "$texture4_blendstart"      "0.4"
+    "$texture4_blendend"        "1.0"
+    "$texture4_bumpblendfactor" "0.1"
+    "$surfaceprop4"              "grass"
+
+    "$detail"                   "detail\noise_detail_01"
+    "$detailscale"              "[ 32 32 ]"
+    "$detailblendfactor"        "0.1"
+    "$detailblendfactor2"       "0.1"
+    "$detailblendfactor3"       "0.1"
+    "$detailblendfactor4"       "0.1"
+
+    "$lumblendfactor2"          "0.1"
+    "$lumblendfactor3"          "0.1"
+    "$lumblendfactor4"          "0.1"
+
+//	"%detailtype"           "survival_grass"
+	"%detailtype"           "survival_grass_2"
+
+	"$surfacepropalpha" "slowgrass"
+
+}

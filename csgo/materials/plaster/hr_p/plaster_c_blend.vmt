@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+"$basetexture2" "plaster\hr_p\plaster_c"
+"$basetexture"	"plaster\hr_p\plaster_c1"  	
+"$bumpmap2"	"plaster\hr_p\plaster_c_normals" 
+"$bumpmap"	"plaster\hr_p\plaster_c1_normals" 
+"$blendmodulatetexture" "plaster\hr_p\plaster_c_blend"  
+	"$detail" 				"detail/noise_detail_01"
+	"$detailscale" 			"[ 4 4 ]"
+	"$detailblendfactor" 	".2"
+$surfaceprop dirt
+$surfaceprop2 concrete
+
+}

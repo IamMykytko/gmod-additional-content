@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	$basetexture heatmap/overviews/de_elysion
+	$translucent 1
+	$alphawrite 1
+}

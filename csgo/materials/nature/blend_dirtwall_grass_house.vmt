@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+	"$basetexture2" "nature/milground005"
+	"$basetexture" "nature/dirtleaves01"
+//	"%tooltexture" "nature/milground005_2_tooltexture"
+	"$surfaceprop2" "dirt"
+	"$surfaceprop" "grass"
+	"$blendmodulatetexture" "nature/leaves03_blendtexture"
+	"%keywords"				"house, de_house"
+}

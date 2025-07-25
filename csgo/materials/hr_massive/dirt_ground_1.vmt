@@ -1,0 +1,15 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\dirt_ground_1"
+	"$bumpmap" "hr_massive\dirt_ground_1_normal"
+	"$surfaceprop" "dirt"
+
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+//	"$envmaptint" 			"[.7 .7 .7]"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 0.1]"
+//	"$envmapcontrast"		"1"
+//	"$envmapsaturation"		"1"  
+
+}

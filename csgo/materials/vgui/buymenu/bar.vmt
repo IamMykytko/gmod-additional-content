@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/buymenu/bar"
+	"$translucent" 1
+}

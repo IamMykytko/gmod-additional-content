@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/buymenu/duffel-bag"
+	"$translucent" 1
+}

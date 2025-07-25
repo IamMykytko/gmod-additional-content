@@ -1,0 +1,27 @@
+"UnlitGeneric"
+{
+	"$basetexture"       "hr_massive/enclave_sea_foam_03"
+
+	"$translucent"       "1"
+	"$additive"          "1"
+	"$nofog"             "1"
+	"$scrollrateresult"  "1"
+	"proxies"
+	{
+		"sine"
+		{
+			"resultvar"          "$scrollrateresult"
+			"sineperiod"         5
+			"sinemin"            -.0001
+			"sinemax"            .0001
+		}
+		"texturescroll"
+		{
+			"texturescrollvar"   "$basetexturetransform"
+			"texturescrollrate"  "$scrollrateresult"
+			"texturescrollangle" 90
+			"texturescale"       1.5
+		}
+		
+	}
+}

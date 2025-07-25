@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+
+	   "$basetexture"	"plaster\vertigo_drywall_edges"
+	 //  $bumpmap 	        "plaster\vertigo_drywall_edges_N.vtf"
+
+	   "$surfaceprop"         "sheetrock"
+	
+	 // add envcube
+	    $envmap "env_cubemap"
+	    $basealphaenvmapmask "1" 
+	    $envmapcontrast	"1"
+            $envmapsaturation	"1 "
+	 //  $envmaptint		"[1 1 1]"
+	     $envmaptint		"[.15 .15 .17]"
+}

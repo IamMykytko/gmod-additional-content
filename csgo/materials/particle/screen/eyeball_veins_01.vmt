@@ -1,0 +1,6 @@
+"spritecard"
+{
+	"$baseTexture" "particle/screen/eyeball_veins_01"
+	//$additive 1
+	$translucent 1
+}

@@ -1,0 +1,10 @@
+WorldVertexTransition
+{
+//	$basetexture2 "nature/mud_ext_01"
+	$basetexture2 "nature/mudfloor001a"
+	$basetexture "nature/swamp_roots01_green"
+	$bumpmap "concrete/pavement_height-ssbump"
+	$ssbump 1
+	$surfaceprop dirt
+	$surfaceprop2 dirt
+}

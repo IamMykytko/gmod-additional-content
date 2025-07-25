@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "plaster/plaster_int_05"
+	"$surfaceprop" "sheetrock"
+	
+	//"$bumpmap" "plaster/urban_plasterwall_height-ssbump"
+	//"$ssbump" "1"
+
+	"%keywords" "l4d2"
+	
+}

@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+	"$baseTexture" 	"wood/housesiding01"
+	"$bumpmap" 		"wood/housesiding01-ssbump"
+	"$ssbump" 		"1"
+
+	"$detail" 				"detail\dt_wood2"
+	"$detailscale" 			"[ 8 7 ]"
+	"$detailblendfactor" 	".55"
+	"$detailblendmode" 		"0"
+	
+	"$surfaceprop" "wood"
+	
+	"%keywords"		"house, de_house"
+}

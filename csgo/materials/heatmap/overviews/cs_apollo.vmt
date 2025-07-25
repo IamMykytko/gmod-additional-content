@@ -1,0 +1,5 @@
+unlitgeneric
+{
+	$basetexture heatmap/overviews/cs_apollo
+	$translucent 1
+}

@@ -1,0 +1,34 @@
+"unlittwotexture"
+{
+	"$basetexture"       "hr_massive/enclave_sea_foam_01"
+	"$texture2"          "hr_massive/enclave_sea_foam_02"
+//	"$color"             "6 8.4 9" // "[1.0 1.4 1.5]"
+	"$color"		"{ 140 240 254}"
+	"$additive"          "1"
+	"$scrollrateresult"  "1"
+	"proxies"
+	{
+		"sine"
+		{
+			"resultvar"          "$scrollrateresult"
+			"sineperiod"         "20"
+			"sinemin"            "-0.3"
+			"sinemax"            "0.3"
+		}
+		"texturescroll"
+		{
+			"texturescrollvar"   "$basetexturetransform"
+			"texturescrollrate"  "-0.01"
+			"textureScrollOffsetY"  "$scrollrateresult"
+			"texturescrollangle" "90"
+			"texturescale"       ".2"
+		}
+		"texturescroll"
+		{
+			"texturescrollvar"   "$texture2transform"
+			"texturescrollrate"  "0.04"
+			"texturescrollangle" "-90"
+			"texturescale"       ".2"
+		}
+	}
+}

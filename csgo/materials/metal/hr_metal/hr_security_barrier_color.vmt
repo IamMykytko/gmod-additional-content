@@ -1,0 +1,5 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "metal/hr_metal/hr_security_barrier_color"
+	"$surfaceprop" "metal"
+}

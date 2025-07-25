@@ -1,0 +1,10 @@
+lightmappedgeneric
+{
+	"$basetexture" "overlays\marine_safety_signage"
+
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale"  ".25"
+
+
+}

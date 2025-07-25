@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays\survival_dust_accumulation_overlay"
+
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale" 0.25
+
+}

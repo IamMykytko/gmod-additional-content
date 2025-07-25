@@ -1,0 +1,10 @@
+"worldvertextransition"
+{
+	"$basetexture"          "concrete/blacktop_ext_01"
+	"$basetexture2"         "nature/dirtfloor004a"
+	"$blendmodulatetexture" "concrete/alley_blend"
+	"$bumpmap"              "nature/docks_gravel_height-ssbump"
+	"$ssbump"               "1"
+	"$surfaceprop"          "concrete"
+	"$surfaceprop2"         "dirt"
+}

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "road_markings/hr_m/road_markings_f"
+	$translucent 1
+	$decal 1
+	$decalscale ".25"
+	$vertexcolor 1
+	$vertexalpha 1
+}

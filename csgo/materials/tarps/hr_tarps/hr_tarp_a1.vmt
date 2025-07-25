@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+$baseTexture "tarps/hr_tarps/tarp_a1"
+
+$surfaceprop plastic
+$bumpmap "tarps/hr_tarps/tarp_a_normals"
+"$envmaplightscale" ".8"
+
+"$envmap" "env_cubemap"
+"$envmaptint" 		"[.1 .1 .1]"	
+	
+"$detail" 				"detail\dt_fabric2"
+"$detailscale" 			"[8 8 8 ]"
+"$detailblendfactor" 	".2"
+}
+

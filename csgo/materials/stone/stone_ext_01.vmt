@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "stone/stone_ext_01"
+"$surfaceprop" "rock"
+"%keywords" l4d2
+}

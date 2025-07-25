@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	// NOTE: This is a dummy material to cause the PS3 build to choose the .pwl.vtf
+	"$basetexture" "vgui/fonts/buttons_PS3_32"
+}

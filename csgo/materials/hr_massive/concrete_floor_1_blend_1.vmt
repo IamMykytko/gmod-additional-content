@@ -1,0 +1,33 @@
+"worldvertextransition"
+{
+	"%tooltexture"			"hr_massive\concrete_floor_1_blend_1_tooltexture"
+
+	"$basetexture"                 "hr_massive\concrete_floor_1"
+	"$bumpmap"                     "hr_massive\concrete_floor_1_normal"
+
+	"$blendmodulatetexture"        "hr_massive\concrete_floor_1_blend_1_modulate"
+
+	"$basetexture2"                "hr_massive\concrete_floor_2"
+	"$bumpmap2"                    "hr_massive\concrete_floor_2_normal"
+
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+//	"$envmaptint" 			"[.7 .7 .7]"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 0.1]"
+//	"$envmapcontrast"		"1"
+//	"$envmapsaturation"		"1"  
+
+//	"$dropshadowopacity"           ".4"
+//	"$dropshadowscale"             "0.05"
+//	"$dropshadowhighlightscale"    "0.01"
+//	"$dropshadowdepthexaggeration" "1.5"
+
+	"$surfaceprop"          "concrete"
+	"$surfaceprop2"         "concrete"
+
+    "$detail"                   "detail\noise_detail_01"
+    "$detailscale"              "[ 24 24 ]"
+    "$detailblendfactor"        "0.3"
+
+}

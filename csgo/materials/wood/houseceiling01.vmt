@@ -1,0 +1,21 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 			"wood\houseceiling01"
+	"$surfaceprop" 			"wood"
+	"$bumpmap"				"wood\houseceiling01-ssbump"
+	"$ssbump"				"1"
+//	"$ssbumpmathfix"		"1"
+	
+	"$detail" 				"detail\dt_wood1"
+	"$detailscale" 			"[ 8 6 ]"
+	"$detailblendfactor" 	".6"
+	"$detailblendmode" 		"0"
+
+//	"$envmap"					"env_cubemap"
+//	"$normalmapalphaenvmapmask" "1"
+//	"$envmaptint"				"[.4 .4 .4]"
+//	"$envmapcontrast"			".4"
+//	"$envmapsaturation"			"1"
+	
+	"%keywords"				"house, de_house"
+}

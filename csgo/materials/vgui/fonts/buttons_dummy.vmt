@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	// NOTE: This is a dummy material to cause the 360 build to choose the .pwl.vtf
+	"$basetexture" "vgui/fonts/buttons_32"
+}

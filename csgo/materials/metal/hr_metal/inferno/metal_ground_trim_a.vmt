@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/hr_metal/inferno/metal_ground_trim_a"
+	"$bumpmap"  "metal/hr_metal/inferno/metal_ground_trim_a_normals"
+
+	"$surfaceprop" "metal"
+	
+	"$envmaplightscale" "1"
+	"$normalmapalphaenvmapmask" "1"
+	"$fresnelreflection" ".5"
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.75 .75 .75]"
+	
+	"$detail" 				"detail\dt_metal1"
+	"$detailscale" 			"[6 6]"
+	"$detailblendfactor" 	"1"
+
+}

@@ -1,0 +1,12 @@
+"lightmappedgeneric"
+{
+	"$basetexture"       "plaster/hr_p/venice/venice_plaster_1_bottom"
+	"$bumpmap"           "plaster/hr_p/venice/venice_plaster_1_mid_normal"
+	"$surfaceprop"       "concrete"
+	"$detail"            "detail/plaster_detail_01"
+	"$detailscale"       "[9 9 9]"
+	"$detailblendfactor" "1"
+	"$phong"             "1"
+	"$phongexponent"     "85"
+	"$phongamount"       "[.5 .5 .5 1.0]"
+}

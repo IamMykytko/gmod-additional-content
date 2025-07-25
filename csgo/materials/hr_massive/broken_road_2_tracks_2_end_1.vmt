@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "hr_massive\broken_road_2_tracks_2_end_1"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "hr_massive\broken_road_2_tracks_2_end_1_normal"
+	"$translucent" "1"
+	"$decal" "1"
+
+
+}

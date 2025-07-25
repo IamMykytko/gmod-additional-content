@@ -1,0 +1,9 @@
+"worldvertextransition"
+{
+	"$basetexture"          "nature/dirtleaves01"
+	"$basetexture2"         "nature/dirt02"
+	"$blendmodulatetexture" "nature/leaves03_blendtexture"
+	"$surfaceprop"          "grass"
+	"$surfaceprop2"         "dirt"
+	"%detailtype"           "dry_grass_forestfloor"
+}

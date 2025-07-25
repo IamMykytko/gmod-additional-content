@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "tile/tile_int_01"
+$surfaceprop tile
+"%keywords" l4d2
+}

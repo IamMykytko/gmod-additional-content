@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\ground_tile_overlay_1"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "hr_massive\ground_tile_overlay_1_normal"
+
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.25"
+
+
+}

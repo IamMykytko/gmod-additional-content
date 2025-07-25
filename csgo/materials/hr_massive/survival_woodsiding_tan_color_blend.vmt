@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" 				"hr_massive\survival_woodsiding_color"
+ 	"$bumpmap" 					"hr_massive\survival_woodsiding_normal"
+
+	"$baseTexture2" 			"hr_massive\survival_woodsiding_worn_color"
+ 	"$bumpmap2" 					"hr_massive\survival_woodsiding_normal"
+
+	"$blendmodulatetexture" 	"hr_massive\concrete_floor_1_blend_1_modulate"
+
+
+	"$layertint1"				"{176 146 114}"
+//	"$layertint2"				"{165 138 120}"
+	"$layertint2"				"{176 146 114}"
+	
+	"$surfaceprop" 				"wood"
+}

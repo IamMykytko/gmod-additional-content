@@ -1,0 +1,53 @@
+Lightmapped_4WayBlend
+{
+    "$basetexture2"      	 "grass/hr_grass/grass_d"
+	"$bumpmap2"         		"grass/hr_grass/grass_d_normals"
+		"$surfaceprop" "concrete"
+    "$basetexture"        "grass/hr_grass/grass_a"
+    "$bumpmap"            "grass/hr_grass/grass_a_normals"
+	
+    "$texture2_uvscale"    "[1 1]"
+    "$texture2_lumstart"   "0.1"
+    "$texture2_lumend"     "0.3"
+    "$texture2_blendstart" "0.6"
+    "$texture2_blendend"   "1"
+	"$surfaceprop2" "concrete"
+
+
+    "$basetexture3"        "grass/hr_grass/grass_b"
+    "$texture3_blendmode"  "0"
+    "$texture3_uvscale"    "[2 2]"
+    "$texture3_lumstart"   "0.1"
+    "$texture3_lumend"     "0.3"
+    "$texture3_blendstart" "0.6"
+    "$texture3_blendend"   "1.0"
+	"$texture3_bumpblendfactor" "0.0"
+	"$surfaceprop3" "asphalt"
+
+    "$basetexture4"         "grass/hr_grass/grass_c"
+    "$texture4_blendmode"  "0"
+    "$texture4_uvscale"    "[4 4]"
+    "$texture4_lumstart"   "0.1"
+    "$texture4_lumend"     ".3"
+    "$texture4_blendstart" ".6"
+    "$texture4_blendend"   ".98"
+	"$texture4_bumpblendfactor" ".3"
+	"$surfaceprop4" "gravel"
+
+    "$detail"              "detail\noise_detail_01"
+    "$detailscale"         "[ 6 6 ]"
+    "$detailblendfactor"   ".1"
+    "$detailblendfactor2"  ".2"
+    "$detailblendfactor3"  ".1"
+    "$detailblendfactor4"  ".5"
+	
+
+	
+	"$lumblendfactor2"          "1"
+    "$lumblendfactor3"          "1"
+    "$lumblendfactor4"          "1"
+	
+}
+
+
+

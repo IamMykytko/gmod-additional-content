@@ -1,0 +1,14 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\concrete_fence_2"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "hr_massive\concrete_fence_1_normal"
+	"$surfaceprop" "concrete"
+
+
+}

@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+	"$baseTexture" 	"stone\wall_house02_clean"
+	"$surfaceprop" 	"rock"
+	"%keywords"		"house, de_house"
+}

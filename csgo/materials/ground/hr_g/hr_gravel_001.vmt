@@ -1,0 +1,9 @@
+"lightmappedgeneric"
+{
+	"$basetexture"          "ground/hr_g/hr_gravel_001_color"
+	"$basetexturetransform" "center 0 0 scale 1.125 1.125 rotate 0 translate 0 0"
+	"$detail"               "ground/hr_g/hr_gravel_001_detail"
+	"$detailscale"          ".24"
+	"$detailblendfactor"    ".55"
+	"$surfaceprop"          "gravel"
+}

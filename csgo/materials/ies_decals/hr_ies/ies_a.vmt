@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+
+	"$basetexture" "ies_decals/hr_ies/ies_a"
+
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	$decal 1
+
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/teamclass/panel-select-class"
+	"$translucent" 1
+}

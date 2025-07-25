@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "plaster/hr_p/venice/venice_plaster_1_bottom"
+	"$bumpmap"     "plaster/hr_p/venice/venice_plaster_1_mid_normal"
+	"$surfaceprop" "concrete"
+	"$color"       "{167 71 45}"
+}

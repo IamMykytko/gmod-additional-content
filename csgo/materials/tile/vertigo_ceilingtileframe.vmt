@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tile/vertigo_ceilingtileframe"
+	"$alphatest" 1
+	"$alphatestreference" .3
+//	"$translucent" 1
+}

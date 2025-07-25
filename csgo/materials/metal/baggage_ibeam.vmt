@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/baggage_ibeam"
+	"$surfaceprop" "Metal"
+	"$detail" 			"detail\dt_metalgalv"
+	"$detailscale" 		"[ 4 8 ]"
+	"$detailblendfactor" "1"
+	"$detailblendmode" 	"0"
+}

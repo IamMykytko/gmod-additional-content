@@ -1,0 +1,12 @@
+"lightmappedgeneric"
+{
+	"$basetexture"   "plaster/hr_p/venice/venice_plaster_7"
+	"$bumpmap"       "plaster/hr_p/venice/venice_plaster_7_normal"
+	"$surfaceprop"   "concrete_block"
+	"$envmap"        "env_cubemap"
+	"$envmaptint"    "[.02 .02 .02]"
+	"$phong"         "1"
+	"$phongexponent" "75.0"
+	"$phongboost"    "1"
+	"$phongamount"   "[1 1 1 1]"
+}

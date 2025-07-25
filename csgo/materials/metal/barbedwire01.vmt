@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$translucent"        1
+	"$alphatest"          "1"
+	"$basetexture"        "metal/barbedwire01"
+	"%compilepassbullets" 1
+	"$surfaceprop"        "chainlink"
+}

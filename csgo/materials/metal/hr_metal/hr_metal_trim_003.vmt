@@ -1,0 +1,10 @@
+lightmappedgeneric
+{
+	"$basetexture"            "metal/hr_metal/hr_metal_trim_003_color"
+	"$basealphaenvmapmask"    "1"
+	"$envmap"                 "models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001_cubemap"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 1.0]"
+	"$envmapcontrast"         ".5"
+	"$surfaceprop"            "metal"
+}

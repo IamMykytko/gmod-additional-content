@@ -1,0 +1,10 @@
+//This VMT inherits settings from the patch_test_shared.vmt, and inserts some new values
+
+patch
+{
+	include materials\hr_massive\patch_test_shared.vmt
+	insert
+	{
+		"$color"                  	"{0 0 100}"
+	}
+}

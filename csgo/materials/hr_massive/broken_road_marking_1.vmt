@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"hr_massive\broken_road_marking_1"
+//	"$bumpmap" "hr_massive\broken_road_pothole_1_normal"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.125"
+
+}

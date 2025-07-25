@@ -1,0 +1,25 @@
+"worldvertextransition"
+{
+	"%tooltexture"			"hr_massive\beach_sand_5_blend_2_tooltexture"
+
+	"$basetexture"                 "hr_massive\beach_sand_4"
+	"$bumpmap"                     "hr_massive\beach_sand_4_normal"
+
+//	"$blendmodulatetexture"        "hr_massive\beach_sand_4_blend_modulate"
+
+	"$basetexture2"                "hr_massive\beach_sand_3"
+	"$bumpmap2"                    "hr_massive\beach_sand_3_normal"
+
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+//	"$envmaptint" 			"[.7 .7 .7]"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 0.1]"
+//	"$envmapcontrast"		"1"
+//	"$envmapsaturation"		"1"  
+
+	"$surfaceprop"          "dirt"
+	"$surfaceprop2"         "dirt"
+//	"%detailtype"           "survival_scrubgrass"
+
+}

@@ -1,0 +1,14 @@
+worldvertextransition
+{
+	"$basetexture"          "stone/hr_stone/hr_stone_a"
+	"$basetexture2"         "snow/hr_snow_a"
+	"$surfaceprop"          "concrete"
+	"$bumpmap"              "stone/hr_stone/hr_stone_a_normals"
+	"$bumpmap2"             "snow/hr_snow_a_normals"
+	"$blendmodulatetexture" "stone/hr_stone/hr_stone_a_blend"
+	"$envmap"               "env_cubemap"
+	"$envmaptint"           "[.03 .03 .03]"
+	"$detail"               "detail/detailconcrete001a"
+	"$detailscale"          "[2 2 2 ]"
+	"$detailblendfactor"    "1"
+}

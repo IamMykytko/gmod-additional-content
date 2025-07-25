@@ -1,0 +1,10 @@
+lightmappedgeneric
+{
+	"$basetexture" "overlays\vertigo_sign_crane_overlay"
+
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale"  ".25"
+
+
+}

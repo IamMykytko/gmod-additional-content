@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/screens/btn-arrow-rt-sm_up"
+	"$translucent" 1
+}

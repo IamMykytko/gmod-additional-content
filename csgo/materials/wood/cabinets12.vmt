@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 		"wood\cabinets12"
+	"$surfaceprop" 		"wood"
+	"$bumpmap"			"wood\cabinets12-ssbump"
+	"$ssbump"			"1"
+	"%keywords"			"house, de_house"
+	
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmaptint" 		"[.6 .6 .6]"
+	"$envmapcontrast" 	".9"
+//	"$envmapsaturation" ".5"
+}

@@ -1,0 +1,34 @@
+"WorldVertexTransition"
+{
+
+"%tooltexture"	"hr_massive\town_plaster_2_blend_1_tooltexture"
+$baseTexture "hr_massive/town_plaster_2"
+$bumpmap "hr_massive/town_plaster_2_normal"
+
+$blendmodulatetexture "hr_massive/town_plaster_blend_modulate"
+
+$basetexture2 "hr_massive/town_plaster_damage_2"
+$bumpmap2  "hr_massive/town_plaster_damage_1_normal"
+
+$surfaceprop plaster
+$surfaceprop2 "plaster"
+
+//"$dropshadowopacity"           ".75"
+//"$dropshadowscale"             "0.007"
+//"$dropshadowhighlightscale"    "0.015"
+//"$dropshadowdepthexaggeration" "2"
+
+//"$detail"		"detail/plaster_detail_01"
+//"$detailscale"		"[12 12]"
+//"$detailblendfactor" 	".6"
+
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+//	"$envmaptint" 			"[.7 .7 .7]"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 0.1]"
+//	"$envmapcontrast"		"1"
+//	"$envmapsaturation"		"1"  
+
+}
+

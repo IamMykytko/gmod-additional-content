@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$basetexture"  "metal/hr_metal/hr_metal_corrugated_001_color"
+	"$surfaceprop"  "metal"
+	"$color"        "[0.85 0.5 0.2]"
+	"$reflectivity" "[0.6 0.6 0.6]"
+}

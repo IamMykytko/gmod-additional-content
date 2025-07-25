@@ -1,0 +1,8 @@
+"Spritecard"
+{
+	"$basetexture"	"particle/blood_splatter/bloodsplatter_light"
+	"$translucent" 1
+	"$addself" 1
+	"$overbrightfactor" "2"
+	$depthblend 0
+}

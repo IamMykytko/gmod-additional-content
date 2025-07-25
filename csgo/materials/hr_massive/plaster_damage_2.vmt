@@ -1,0 +1,15 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\plaster_damage_2"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "hr_massive\plaster_damage_2_normal"
+//	"$translucent" "1"
+	"$alphatest" "1"
+	$decal 1
+
+}

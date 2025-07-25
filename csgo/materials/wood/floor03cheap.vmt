@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "wood/floor03"
+	"$surfaceprop" "wood"
+
+	"$detail" 				"detail\dt_wood2"
+	"$detailscale" 			"[ 9 7 ]"
+	"$detailblendfactor" 	".5"
+	"$detailblendmode" 		"0"
+
+	"%keywords" "house, de_house"
+}

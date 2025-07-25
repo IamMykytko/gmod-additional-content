@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+$baseTexture "plaster/hr_p/plaster_c1"
+
+$surfaceprop plaster
+$bumpmap "plaster/hr_p/plaster_c1_normals"
+$color "{175 170 130}"
+
+
+"$envmap" "env_cubemap"
+"$envmaptint" 		"[.03 .03 .03]"	
+	
+"$detail" 				"detail\detailconcrete001a"
+"$detailscale" 			"[2 2 2 ]"
+"$detailblendfactor" 	"1"
+}
+

@@ -1,0 +1,5 @@
+unlitgeneric
+{
+	$basetexture heatmap/overviews/de_engage
+	$translucent 1
+}

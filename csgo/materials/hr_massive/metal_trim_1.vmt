@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "hr_massive\metal_trim_1"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "hr_massive\metal_trim_1_normal"
+
+}

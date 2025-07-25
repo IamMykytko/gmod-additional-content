@@ -1,0 +1,24 @@
+"WorldVertexTransition"
+{
+	"$basetexture" 	"ground/snowgrass01"
+	"$basetexture2" "ground/snow01"
+
+	"$surfaceprop" "snow"
+
+	"$bumpmap" "ground/snow01_normal"
+	"$bumpmap2" "ground/snow01_normal"
+
+//	"$normalmapalphaenvmapmask" 1
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+
+	"$envmaptint" "[ .7 .7 .7]"
+	"$envmap" "env_cubemap"
+//	 $envmapmask "ground\snow01_mask"
+	"$normalmapalphaenvmapmask" 1
+
+	"$blendmodulatetexture" "ground/snowgrassblendtexture"
+
+
+}
+

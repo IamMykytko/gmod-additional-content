@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "overlays/concrete_road02_forest"
+	"$translucent" 1
+	"$decal"       1
+}

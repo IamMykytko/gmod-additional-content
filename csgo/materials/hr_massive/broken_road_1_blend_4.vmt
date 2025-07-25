@@ -1,0 +1,51 @@
+"worldvertextransition"
+{
+	"%tooltexture"			"hr_massive\broken_road_1_blend_4_tooltexture"
+
+	"$basetexture"                 "hr_massive\broken_road_3"
+	"$bumpmap"                     "hr_massive\broken_road_3_normal"
+
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+//	"$envmaptint" 			"[.7 .7 .7]"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 0.1]"
+//	"$envmapcontrast"		"1"
+//	"$envmapsaturation"		"1"  
+
+
+
+	"$blendmodulatetexture"        "hr_massive\broken_road_1_blend_1_modulate"
+
+	"$basetexture2"                "hr_massive\broken_road_1"
+	"$bumpmap2"                    "hr_massive\broken_road_1_normal"
+
+//	$NEWLAYERBLENDING	1
+//	$BLENDSOFTNESS	.04
+//	$LAYERBORDERSTRENGTH	.55
+//	$LAYERBORDEROFFSET	0
+//	$LAYERBORDERSOFTNESS	.03
+//	$LAYERBORDERTINT	"{55 55 55}"
+
+//	$NEWLAYERBLENDING	1
+//	$BLENDSOFTNESS	.04
+//	$LAYERBORDERSTRENGTH	55
+//	$LAYERBORDEROFFSET	0
+//	$LAYERBORDERSOFTNESS	.06
+//	$LAYERBORDERTINT	"{254 254 254}"
+
+
+	"$dropshadowopacity"           "2"
+	"$dropshadowscale"             "2"
+	"$dropshadowhighlightscale"    ".01"
+	"$dropshadowdepthexaggeration" "1"
+
+	"$surfaceprop"          "gravel"
+	"$surfaceprop2"         "concrete"
+//	"%detailtype"           "survival_scrubgrass"
+
+    "$detail"                   "detail\noise_detail_01"
+    "$detailscale"              "[ 32 32 ]"
+    "$detailblendfactor"        "0.7"
+
+}

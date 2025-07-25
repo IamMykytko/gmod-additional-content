@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "windows/hr_w/inferno/stained_glass_a"
+
+	"$surfaceprop" "glass"
+}

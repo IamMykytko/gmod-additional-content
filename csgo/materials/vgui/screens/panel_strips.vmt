@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/screens/panel_strips"
+	"$vertexalpha" 1
+}

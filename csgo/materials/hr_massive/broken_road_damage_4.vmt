@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\broken_road_damage_4"
+
+	"$translucent" "1"
+	"$decal"       "1"
+
+   	"$detail"                   "detail\detail_pavement_1"
+    	"$detailscale"              "[6 6]"
+    	"$detailblendfactor"        "1.2"
+//	"$detailblendmode"	    "0"
+
+}

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "hr_massive\survival_woodsiding_chipped_overlay"
+
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale" 0.25
+
+
+}

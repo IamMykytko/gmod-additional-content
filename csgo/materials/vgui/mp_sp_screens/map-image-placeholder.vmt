@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/mp_sp_screens/map-image-placeholder"
+	"$translucent" 1
+}

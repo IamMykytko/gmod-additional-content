@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/screens/loading_dialog_progress_bar_bg"
+	"$vertexalpha" 1
+}

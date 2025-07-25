@@ -1,0 +1,18 @@
+//This VMT contains the envmap and detail texture settings
+
+"LightmappedGeneric"
+{
+	"$basetexture" 			"hr_massive\survival_corrugated_metal_color"
+	"$bumpmap"                	"hr_massive\survival_corrugated_metal_normal"
+
+	"$surfaceprop"            	"metal"
+
+	"$envmap"			"env_cubemap"
+	"$envmapmask"             	"hr_massive\survival_corrugated_metal_color"
+	"$envmaplightscale"       	"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+	"$envmapcontrast"         	"1.5"
+	"$noenvmapmip"           	"1"
+	"$fresnelreflection"      	"0.2"
+
+}

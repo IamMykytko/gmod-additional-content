@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"overlays\survival_riverbed_color"
+
+//	"$bumpmap" 	"overlays\survival_riverbed_normal"
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale" 0.25
+
+
+}

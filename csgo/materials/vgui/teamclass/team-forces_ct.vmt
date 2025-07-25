@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/teamclass/team-forces_ct"
+	"$translucent" 1
+}

@@ -1,0 +1,29 @@
+"water"
+{
+	"%compilewater"               1
+	"%tooltexture"                "dev/water_normal"
+	"$abovewater"                 1
+	"$surfaceprop"                "water"
+	"$bottommaterial"             "dev/dev_waterbeneath2"
+	"$normalmap"                  "dev/water_normal"
+	"$flowmap"                    "liquids/c3m2_hflowmap_a"
+	"$flow_normaluvscale"         185.0
+	"$flow_worlduvscale"          4
+	"$flow_timeintervalinseconds" 0.25
+	"$flow_uvscrolldistance"      0.175
+	"$flow_bumpstrength"          2
+	"$flow_timescale"             0.35
+	"$flow_noise_texture"         "liquids/water_noise"
+	"$flow_noise_scale"           .2
+	"$flow_debug"                 0
+	"$reflectonlymarkedentities"  1
+	"$reflecttexture"             "tools/toolsblack"
+	"$reflecttint"                "{ 170 170 170}"
+	"$reflectamount"              "0.9"
+	"$refract"                    0
+	"$fogenable"                  1
+	"$fogcolor"                   "{ 90 90 70 }"
+	"$fogstart"                   -128
+	"$fogend"                     32
+	"$lightmapwaterfog"           1
+}

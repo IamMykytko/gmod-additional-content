@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	$basetexture heatmap/overviews/de_dust2
+	$translucent 1
+	$alphawrite 1
+}

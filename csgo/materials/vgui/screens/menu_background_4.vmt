@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/screens/menu_background_4"
+	"$translucent" 1
+	"$vertexalpha" 1
+}

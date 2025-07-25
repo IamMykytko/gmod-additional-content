@@ -1,0 +1,22 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\wood_floor_1"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "hr_massive\wood_floor_1_normal"
+	"$surfaceprop" "wood"
+
+	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" 			"[.2 .2 .2]"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 0.5]"
+//	"$envmapcontrast"		"1"
+	"$envmapsaturation"		".5"   
+
+}

@@ -1,0 +1,19 @@
+"WorldVertexTransition" 
+{
+$basetexture "trash/hr_t/hr_trash_a"
+$basetexture2 "trash/hr_t/hr_trash_mud_a"
+$basealphaenvmapmask <1> 
+$bumpmap "trash/hr_t/hr_trash_a_normals"
+$bumpmap2 "trash/hr_t/hr_trash_mud_a_normals"
+	"$surfaceprop" 			"mud"
+	"$surfaceprop2" 			"mud"
+
+$blendmodulatetexture "trash/hr_t/hr_trash_a_blend"
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.02 .02 .02]"	
+		
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[8 8 8 ]"
+	"$detailblendfactor" 	"1"
+
+}

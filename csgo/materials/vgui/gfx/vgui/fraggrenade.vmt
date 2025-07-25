@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/gfx/VGUI/fraggrenade"
+	"$translucent" 1
+}

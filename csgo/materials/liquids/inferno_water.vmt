@@ -1,0 +1,66 @@
+"Water"
+{
+	"%compilewater" 1
+	"%tooltexture" "dev/water_normal"
+
+
+	"$abovewater" 1
+        "$surfaceprop" "water"
+	"$bottommaterial" "dev/dev_waterbeneath2"
+	"!gameconsole?$normalmap" "dev/water_normal"
+	"gameconsole?$normalmap" "dev/water_normal_low"
+	"!gameconsole?$bumpmap" "dev/water_dudv"
+	
+
+	"$scale" "[.5 .5]"
+	"$scroll1" "[.01 .01 .05]"
+	"$scroll2" "[-.025 .01 .075]"
+
+
+    // Reflection
+
+         // forceexpensive for both PC and console, forcecheap creates opaque water issues on PS3
+         // however RT reflections and refractions only on PC
+
+         $forceexpensive 1 
+
+          // for PC use real time reflections
+	 "!gameconsole?$reflectonlymarkedentities" 1
+	 "!gameconsole?$reflect2dskybox" 1
+	 "!gameconsole?$reflecttexture" "_rt_WaterReflection"
+	 "!gameconsole?$reflectamount" ".2"
+
+          // for console use simple skybox reflection not cubemap which is causing problems
+	"gameconsole?$reflecttexture" "skybox\italyup.vtf"
+	"gameconsole?$reflectamount" "4"
+        "gameconsole?$reflecttint" "[.4 .4 .42]"
+
+
+
+    // Fog stuff.
+	"$fogenable" 1
+	"$fogcolor" "{7 16 18}"
+	"$fogstart" 5
+	"$fogend" 64
+
+
+    // Refraction
+
+         // for console disable refractions
+         "gameconsole?refract" 0
+
+         // for PC RT refractions
+	 "!gameconsole?$refract" 1
+	 "!gameconsole?$refracttexture" "_rt_WaterRefraction"
+	 "!gameconsole?$refractamount" "0.5"
+
+	   "GPU<2"
+	   {
+	 	"$fallbackmaterial" "liquids/boathouse_water_cheap"
+	   }
+
+    // pseudo-translucent water only gets used on platforms which disable refract (as a cheaper substitute for refractive water)
+        "gameconsole?$pseudotranslucent" 1
+        "gameconsole?$waterblendfactor" 0.5
+
+}

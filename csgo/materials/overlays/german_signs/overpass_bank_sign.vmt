@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "overlays/german_signs/overpass_bank_sign"
+
+	$surfaceprop metal
+	$alphatest 1
+	$decal 1
+	
+}

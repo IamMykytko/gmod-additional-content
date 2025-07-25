@@ -1,0 +1,7 @@
+"unlitgeneric"
+{
+	"$basetexture" "sprites/nuke_sunflare_001"
+	"$additive"    "1"
+	"$vertexcolor" "1"
+	"$ignorez"     "1"
+}

@@ -1,0 +1,14 @@
+"lightmappedgeneric"
+{
+	"$basetexture"            "metal/hr_metal/hr_metal_corrugated_004_color"
+	"$surfaceprop"            "metal"
+	"$detail"                 "metal/hr_metal/hr_metal_corrugated_001_detail"
+	"$detailscale"            ".7"
+	"$detailblendfactor"      ".9"
+	"$basealphaenvmapmask"    "1"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2.5]"
+	"$fresnelreflection"      "0.3"
+	"$reflectivity"           "[0.25 0.25 0.25]"
+}

@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_plywood\survival_plywood_color"
+
+	"$surfaceprop" "wood_plank"
+
+}

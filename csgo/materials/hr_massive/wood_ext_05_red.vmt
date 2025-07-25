@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+	$baseTexture "hr_massive/wood_ext_05_red"
+	$surfaceprop wood
+
+}

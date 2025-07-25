@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"wood\hr_w\overpass\overpass_plywood_02_color"
+	"$surfaceprop" 	"wood"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

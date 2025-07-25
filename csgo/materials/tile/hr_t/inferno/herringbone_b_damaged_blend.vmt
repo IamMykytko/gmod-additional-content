@@ -1,0 +1,17 @@
+"worldvertextransition"
+{
+	"$basetexture"              "tile/hr_t/inferno/herringbone_b"
+	"$bumpmap"                  "tile/hr_t/inferno/herringbone_b_normals"
+	"$blendmodulatetexture"     "tile/hr_t/inferno/herringbone_a_blend"
+	"$basetexture2"             "tile/hr_t/inferno/herringbone_b_damaged"
+	"$bumpmap2"                 "tile/hr_t/inferno/herringbone_b_damaged_normals"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap"                   "env_cubemap"
+	"$envmaptint"               "[.8 .8 .8]"
+	"$detail"                   "detail/plaster_detail_01"
+	"$detailscale"              "[5 5 5]"
+	"$detailblendfactor"        ".8"
+	"$envmaplightscale"         ".5"
+	"$fresnelreflection"        ".4"
+	"$envmapanisotropyscale"    "1"
+}

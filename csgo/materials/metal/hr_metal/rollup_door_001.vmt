@@ -1,0 +1,13 @@
+"lightmappedgeneric"
+{
+	"$basetexture"              "metal/hr_metal/hr_rollup_door_001_color"
+	"$bumpmap"                  "metal/hr_metal/hr_rollup_door_001_normals"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaplightscale"         "1"
+	"$envmaplightscaleminmax"   "[0 2]"
+	"$envmap"                   "environment maps/metal_generic_002"
+	"$detail"                   "metal/hr_metal/hr_metal_corrugated_001_detail"
+	"$detailscale"              ".29"
+	"$detailblendfactor"        "0.6"
+	"$surfaceprop"              "metal"
+}

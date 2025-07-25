@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/vostok_snow"
+//	"$basetexture2" "de_cbble/cobbleroad01" 
+	"$basetexture2" "gg_tibet/cs_tibet_stone_10"
+	"$bumpmap" ""
+	"$bumpmap2" ""
+	"$blendmodulatetexture" "nature/tibet_blendmod_snow_rock"
+	"$surfaceprop" "snow"
+	"$surfaceprop2" "concrete"
+}

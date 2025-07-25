@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "models/props/gg_vietnam/vietnam_corrugated_01"
+	"$surfaceprop" "metal"
+}

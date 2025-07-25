@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" 			"hr_massive\wood_siding_1_grey"
+ 	"$bumpmap" 			"hr_massive\wood_siding_1_normal"
+
+	"$baseTexture2" 			"hr_massive\wood_siding_1_yellow_damaged"
+ 	"$bumpmap2" 			"hr_massive\wood_siding_1_normal"
+
+	"$blendmodulatetexture" 	"hr_massive\wood_siding_1_blend_modulate"
+
+	"$layertint1"                  	"{235 204 150}"
+//	"$layertint2"                  	"{230 200 150}"
+
+	
+	"$surfaceprop" 				"wood"
+}

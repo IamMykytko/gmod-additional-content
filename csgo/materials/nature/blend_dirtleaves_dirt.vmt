@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/dirtleaves01"
+	"$basetexture2" "nature/dirt02"
+
+//	$bumptransform "center .75 .75 scale .4 .4 rotate 0 translate 0 0"
+//	$bumpmap "concrete/pavement_height-ssbump"
+//	$ssbump 1
+//	$SSBumpMathFix 1
+
+	"$blendmodulatetexture" "nature/leaves03_blendtexture"
+	"$surfaceprop" "grass"
+	"$surfaceprop2" "dirt"	
+}

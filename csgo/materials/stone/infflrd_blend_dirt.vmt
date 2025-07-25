@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$basetexture"	"stone\infflrd"
+	"$basetexture2" "Nature/dirtfloor011a"
+	"$surfaceprop" "rock"
+	$blendmodulatetexture "nature/blend_texture_01"
+	
+
+
+
+//	"$basetexture"	"stone\infflrd"
+//	"$basetexture2" "Nature/dirtfloor013a"
+
+}

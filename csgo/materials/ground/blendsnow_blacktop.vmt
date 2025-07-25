@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "ground/snow01"
+	"$basetexture2" "concrete/blacktop_ext_01"
+//	 $envmap env_cubemap
+	 $envmapmask "ground\snow01_envmask"
+	"$surfaceprop" "snow"
+	"$surfaceprop2" "concrete"
+	$blendmodulatetexture "ground/office_snow_blacktop_blendmod"
+}

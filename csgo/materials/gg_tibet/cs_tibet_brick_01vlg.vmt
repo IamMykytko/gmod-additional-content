@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "gg_tibet/cs_tibet_brick_01"
+	"$surfaceprop" "concrete"
+}

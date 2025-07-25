@@ -1,0 +1,20 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tech/tech_panels_a"
+	"$bumpmap"  "tech/tech_panels_a_normals"
+	"$surfaceprop" "Metal"
+	"$envmaplightscale" .5
+
+	
+
+
+	
+	"$normalmapalphaenvmapmask" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.4 .4 .4]"	
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[5 5 5]"
+	"$detailblendfactor" 	"1"
+
+}

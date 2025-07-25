@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\wood_siding_1_tan"
+	"$surfaceprop" "wood"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "hr_massive\wood_siding_1_normal"
+
+}

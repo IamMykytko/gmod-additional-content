@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+$baseTexture "plaster/hr_p/inferno/plaster_i"
+
+"$blendmodulatetexture" "brick/hr_brick/inferno/flagstone_d_blend"
+
+$basetexture2 "concrete/hr_c/inferno/concrete_a"
+
+
+$surfaceprop concrete
+
+
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[12 12]"
+	"$detailblendfactor" 	".35"
+
+}
+

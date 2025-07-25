@@ -1,0 +1,20 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/hr_metal/metal_floor_a"
+	"$bumpmap"  "metal/hr_metal/metal_floor_a_normals"
+	"$surfaceprop" "Metal"
+	
+
+	
+
+
+	
+	"$normalmapalphaenvmapmask" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.6 .6 .6]"	
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[8 8 8]"
+	"$detailblendfactor" 	".5"
+
+}

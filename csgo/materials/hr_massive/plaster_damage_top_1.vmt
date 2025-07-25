@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\plaster_damage_top_1"
+	"$bumpmap" "hr_massive\plaster_damage_bottom_1_normal"
+
+	"$translucent" "1"
+//	"$alphatest" "1"
+
+	"$decal" "1"
+
+
+
+}

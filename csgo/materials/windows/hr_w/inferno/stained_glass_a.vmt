@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "windows/hr_w/inferno/stained_glass_a"
+	"$bumpmap"  "windows/hr_w/inferno/stained_glass_a_normals"
+	"$surfaceprop" "glass"
+	
+	"$envmaplightscale" "1"
+	"$normalmapalphaenvmapmask" "1"
+	"$fresnelreflection" ".5"
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[1 1 1]"	
+
+
+
+}

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays\coop_emergency"
+
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale"  ".125"
+
+
+}

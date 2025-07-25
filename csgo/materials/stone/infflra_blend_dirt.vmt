@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"stone\infflra"
+	"$surfaceprop" "concrete"
+	"$basetexture2" "Nature/dirtfloor011a"
+	"$surfaceprop2" "concrete"
+	$blendmodulatetexture "nature/blend_texture_01"
+
+}

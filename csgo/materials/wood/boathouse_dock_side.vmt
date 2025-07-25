@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "wood/boathouse_dock_side"
+$surfaceprop wood
+"%keywords" boathouse
+}

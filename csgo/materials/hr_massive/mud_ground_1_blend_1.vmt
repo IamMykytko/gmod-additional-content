@@ -1,0 +1,32 @@
+"worldvertextransition"
+{
+	"%tooltexture"			"hr_massive\mud_ground_1_blend_1_tooltexture"
+
+	"$basetexture"                 "hr_massive\mud_ground_2"
+	"$bumpmap"                     "hr_massive\mud_ground_2_normal"
+
+	"$blendmodulatetexture"        "hr_massive\mud_ground_1_blend_1_modulate"
+
+	"$basetexture2"                "hr_massive\mud_ground_1"
+	"$bumpmap2"                    "hr_massive\mud_ground_1_normal"
+
+
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+//	"$envmaptint" 			"[.7 .7 .7]"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 0.1]"
+//	"$envmapcontrast"		"1"
+//	"$envmapsaturation"		"1"  
+	
+//	"$dropshadowopacity"           ".4"
+//	"$dropshadowscale"             "0.05"
+//	"$dropshadowhighlightscale"    "0.01"
+//	"$dropshadowdepthexaggeration" "1.5"
+
+	"$surfaceprop"          "dirt"
+	"$surfaceprop2"         "mud"
+//	"%detailtype"           "survival_grass"
+
+
+}

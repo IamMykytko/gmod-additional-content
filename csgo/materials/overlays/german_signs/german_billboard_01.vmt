@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "overlays/german_signs/german_billboard_01"
+
+	"$alphatest" "1"
+	"$decal" "1"
+
+
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/screens/ready_up_bar"
+	"$vertexalpha" 1
+}

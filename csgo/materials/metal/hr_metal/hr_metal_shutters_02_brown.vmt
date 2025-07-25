@@ -1,0 +1,16 @@
+"lightmappedgeneric"
+{
+	"$basetexture"              "metal/hr_metal/hr_metal_shutters_02"
+	"$bumpmap"                  "metal/hr_metal/hr_metal_shutters_02_normal"
+	"$surfaceprop"              "metal"
+	"$color"                    "{145 127 100}"
+	"$phong"                    "1"
+	"$phongexponent"            "25.0"
+	"$phongamount"              "[.5 .5 .5 1.0]"
+	"$envmap"                   "env_cubemap"
+	"$envmaptint"               "[.05 .05 .05]"
+	"$normalmapalphaenvmapmask" "1"
+	"$detail"                   "metal/hr_metal/hr_metal_corrugated_001_detail"
+	"$detailscale"              "[4 4]"
+	"$detailblendfactor"        "1"
+}

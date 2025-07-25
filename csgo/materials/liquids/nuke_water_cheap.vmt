@@ -1,0 +1,35 @@
+"Water"
+{
+	"%compilewater" 1
+	"%tooltexture" "dev/water_normal"
+
+
+    //forceexpensive Must be set to 1 for Portal 2 water reflections to work.
+    //$forceexpensive 1
+	"$abovewater" 1
+	"$surfaceprop" "water"
+	"$bottommaterial" "dev/nuke_water_beneath"
+	"$normalmap" "de_nuke/hr_nuke/pool_water_normals_001"
+
+    // Reflection
+	$reflectonlymarkedentities 1
+	"$reflect2dskybox" 		"0"
+	"$reflecttexture" "tools/toolsblack"
+	"$reflecttint" "{ 174 221 247}"
+	"$reflectamount" "0.1"
+
+
+    // Refraction
+	$refract 0
+
+    // Fog stuff.
+	"$fogenable" 1
+	"$fogcolor" "{ 32 94 128 }"
+	"$fogstart" 0
+	"$fogend" 300
+	$lightmapwaterfog 1
+
+	"$pseudotranslucent" 1
+	"$waterblendfactor" 0.75
+}
+

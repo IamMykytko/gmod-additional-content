@@ -1,0 +1,39 @@
+"water"
+{
+	"%compilewater"               1
+	"%tooltexture"                "dev/water_normal"
+	"$forceexpensive"             1
+	"$abovewater"                 1
+	"$surfaceprop"                "water"
+	"$bottommaterial"             "dev/dev_waterbeneath2"
+	"$normalmap"                  "dev/water_normal"
+	"$flowmap"                    "ar_greece/greece_flowmap"
+	"$flow_normaluvscale"         400.0
+	"$flow_worlduvscale"          1
+	"$flow_timeintervalinseconds" 1
+	"$flow_uvscrolldistance"      0.01
+	"$flow_bumpstrength"          0.5
+	"$flow_timescale"             0.135
+	"$flow_noise_texture"         "liquids/water_noise"
+	"$flow_noise_scale"           .0005
+	"$flow_debug"                 0
+	"$reflecttexture"             "_rt_waterreflection"
+	"$reflecttint"                "{ 220 220 220 }"
+	"$reflectskyboxonly"          0
+	"$reflectonlymarkedentities"  1
+	"$reflect2dskybox"            1
+	"$reflectamount"              "1"
+	"$refract"                    1
+	"$refracttexture"             "_rt_waterrefraction"
+	"$refractamount"              "0.8"
+	"$refracttint"                "{ 100 100 100 }"
+	"$fogenable"                  1
+	"$fogcolor"                   "{ 0 10 30 }"
+	"$fogstart"                   "0"
+	"$fogend"                     "15"
+	"$lightmapwaterfog"           1
+	"gpu<2"
+	{
+		"$fallbackmaterial"           "liquids/shack_water_cheap"
+	}
+}

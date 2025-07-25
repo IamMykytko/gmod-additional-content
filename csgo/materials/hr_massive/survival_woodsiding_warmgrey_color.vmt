@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 			"hr_massive\survival_woodsiding_color"
+
+	"$bumpmap"                	"hr_massive\survival_woodsiding_normal"
+	"$surfaceprop"            	"wood"
+	"$color"                  	"{102 87 64}"
+
+}

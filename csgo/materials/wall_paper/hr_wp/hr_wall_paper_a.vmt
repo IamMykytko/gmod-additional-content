@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+$baseTexture "wall_paper/hr_wp/wall_paper_a"
+
+$surfaceprop wood
+$bumpmap "wall_paper/hr_wp/wall_paper_a_normals"
+	
+
+
+
+	"$normalmapalphaenvmapmask" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.05 .05 .05]"	
+	"$detail" 				"detail\dt_fabric2"
+	"$detailscale" 			"[10 10 10]"
+	"$detailblendfactor" 	".6"
+}

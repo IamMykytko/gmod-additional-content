@@ -1,0 +1,11 @@
+lightmappedGeneric
+{
+	$baseTexture "hr_massive/experiment_decals_04"
+	$translucent 1
+	$decal 1
+	$decalscale 0.25
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$bumpMap" "hr_massive/experiment_decals_04_normal"
+
+}

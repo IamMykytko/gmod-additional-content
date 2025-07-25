@@ -1,0 +1,64 @@
+"Water"
+{
+	"%compilewater" 1
+	"%tooltexture" "dev/water_normal"
+
+
+    //forceexpensive Must be set to 1 for Portal 2 water reflections to work.
+    $forceexpensive 1
+	"$abovewater" 1
+	"$surfaceprop" "water"
+	"$bottommaterial" "dev/dev_waterbeneath2"
+	"$normalmap" "dev/water_normal"
+
+
+    //Go with the flow!
+    $flowmap "liquids/c3m2_hflowmap_a"
+    $flow_normaluvscale 155.0
+    $flow_worlduvscale 3
+    $flow_timeintervalinseconds 0.2 // Amount of time before the change happens
+    $flow_uvscrolldistance 0.175 // Stretch of UV Distance before change over to second set of flow
+    $flow_bumpstrength 1
+    $flow_timescale 0.35
+    $flow_noise_texture "liquids/water_noise"
+    $flow_noise_scale .0005
+    $flow_debug 0
+
+
+
+    // Reflection
+	$reflectonlymarkedentities 1
+	$reflect2dskybox 1
+	"$reflecttexture" "_rt_WaterReflection"
+	"$reflecttint" "{ 100 100 100 }"
+//	"$reflectentities" 1
+	"$reflectamount" "1"
+
+
+    // Refraction
+    "gameconsole?refract" 0
+	"!gameconsole?$refract" 1
+	"!gameconsole?$refracttexture" "_rt_WaterRefraction"
+	"!gameconsole?$refractamount" "0.8"
+	"!gameconsole?$refracttint" "{ 200 200 200 }"
+
+
+
+    // Fog stuff.
+	"$fogenable" 1
+//	"$fogcolor" "{ 51 49 40 }"
+	"$fogcolor" "{ 50 60 60 }"
+	"$fogstart" -10
+	"$fogend" 32
+	$lightmapwaterfog 1
+	
+	"GPU<2"
+	{
+		"$fallbackmaterial" "liquids/boathouse_water_cheap"
+	}
+	
+    // pseudo-translucent water only gets used on platforms which disable refract (as a cheaper substitute for refractive water)
+    "gameconsole?$pseudotranslucent" 1
+    "gameconsole?$waterblendfactor" 0.75
+//	"gameconsole?$fallbackmaterial" "liquids/boathouse_water_cheap"
+}

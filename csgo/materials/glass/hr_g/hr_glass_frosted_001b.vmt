@@ -1,0 +1,9 @@
+lightmappedgeneric
+{
+	"$basetexture"       "glass/hr_g/hr_glass_frosted_001"
+	"$translucent"       "1"
+	"$alpha"             "0.85"
+	"$fresnelreflection" ".25"
+	"$envmapmask"        "glass/hr_g/hr_glass_frosted_001_specmask"
+	"$surfaceprop"       "glass"
+}

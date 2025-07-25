@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/screens/howtoplay_section_panel_selected"
+	"$translucent" 1
+	"$vertexalpha" 1
+}

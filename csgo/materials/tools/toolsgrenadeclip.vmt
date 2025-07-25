@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Tools/toolsgrenadeclip"
+	"$translucent" "1"
+	"%compilegrenadeclip" 1
+}

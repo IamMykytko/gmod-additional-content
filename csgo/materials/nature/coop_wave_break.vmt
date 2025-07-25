@@ -1,0 +1,32 @@
+"unlittwotexture"
+{
+	"$basetexture"       "nature/coop_sea_foam03"
+	"$texture2"          "nature/coop_sea_foam04"
+	"$translucent"       "1"
+	"$additive"          "1"
+	"$nofog"             "1"
+	"$scrollrateresult"  1
+	"proxies"
+	{
+		"sine"
+		{
+			"resultvar"          "$scrollrateresult"
+			"sineperiod"         6
+			"sinemin"            -.0001
+			"sinemax"            .0001
+		}
+		"texturescroll"
+		{
+			"texturescrollvar"   "$basetexturetransform"
+			"texturescrollrate"  "$scrollrateresult"
+			"texturescrollangle" 90
+		}
+		"texturescroll"
+		{
+			"texturescrollvar"   "$texture2transform"
+			"texturescrollrate"  0.04
+			"texturescrollangle" -90
+			"texturescale"       0.8
+		}
+	}
+}

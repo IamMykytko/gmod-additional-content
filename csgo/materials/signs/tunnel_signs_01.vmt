@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "signs/tunnel_signs_01"
+	"$selfillum" "1"
+//	"$selfillumtint"	"[ .5 .5 .5 ]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .1 .1 .1]"
+//	"$envmapmask" "signs\sign_storage01_ref"
+	"$surfaceprop" "metal"
+}

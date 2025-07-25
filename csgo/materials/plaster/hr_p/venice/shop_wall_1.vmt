@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$basetexture"       "plaster/hr_p/venice/shop_wall_1"
+	"$detail"            "detail/plaster_detail_01"
+	"$detailscale"       "[1.5 1.5]"
+	"$detailblendfactor" ".2"
+}

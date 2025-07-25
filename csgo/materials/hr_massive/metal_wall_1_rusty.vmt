@@ -1,0 +1,21 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\metal_wall_1_rusty"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "hr_massive\metal_wall_1_normal"
+
+	"$surfaceprop" "metal"
+
+//	$phong "1"
+//	$phongexponent "35"
+//	$phongamount "1.1"
+//	$phongfresnelranges "[.3 .65 1]"
+//	$basemapalphaphongmask "1"
+//	$phongtint "[1 1 1]"
+
+}

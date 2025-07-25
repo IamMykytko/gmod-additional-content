@@ -1,0 +1,12 @@
+lightmappedgeneric
+{
+$baseTexture "metal/metal_ext_10"
+$surfaceprop metal
+$ssbump 1
+$bumpmap "metal/metal_ext_09_height-ssbump"
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint "[.1 .1 .1]"
+"%keywords" l4d2
+$SSBumpMathFix 1
+}

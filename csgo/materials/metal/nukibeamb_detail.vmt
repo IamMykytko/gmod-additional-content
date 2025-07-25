@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"de_nuke\nukibeamb"
+	"$surfaceprop" "metal"
+	"$detail" 			"detail\dt_metalgalv"
+	"$detailscale" 		"[ 10 3 ]"
+	"$detailblendfactor" "1"
+	"$detailblendmode" 	"0"	
+}

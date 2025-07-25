@@ -1,0 +1,14 @@
+lightmappedgeneric
+{
+	"$basetexture"            "metal/hr_metal/hr_metal_floor_003_color"
+	"$envmapmask"             "metal/hr_metal/hr_metal_floor_003_color"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 1.0]"
+	"$envmapcontrast"         ".5"
+	"$fresnelreflection"      "0.5"
+	"$surfaceprop"            "metal"
+	"$detail"                 "concrete/hr_c/hr_concrete_wall_005_detail"
+	"$detailscale"            "[0.26 0.4]"
+	"$detailblendfactor"      ".35"
+}

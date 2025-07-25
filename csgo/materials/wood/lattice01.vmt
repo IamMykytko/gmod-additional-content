@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "wood/lattice01"
+	"$alphatest" "1"
+	"$surfaceprop" "wood"
+	"%compilepassbullets" "1"
+}

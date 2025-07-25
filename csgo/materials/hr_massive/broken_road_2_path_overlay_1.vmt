@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\broken_road_2_path_overlay_1"
+	"$bumpmap" "hr_massive\broken_road_2_path_overlay_1_normal"
+
+	"$translucent" "1"
+	"$decal" "1"
+
+}

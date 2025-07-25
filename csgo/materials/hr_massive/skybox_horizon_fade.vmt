@@ -1,0 +1,7 @@
+unlitgeneric
+{
+	"$basetexture" "hr_massive/skybox_horizon_fade"
+	"$translucent" 1
+//	"$color"       "[ .5 .5 .5 ]"
+	"$nofog"       0
+}

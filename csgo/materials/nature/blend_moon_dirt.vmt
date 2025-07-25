@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{	
+	"$basetexture" 	"nature/dirtfloor004a"
+	"$bumpmap"	"nature/dirtfloor004a_normal"	
+
+	"$basetexture2" "nature/moon_rock_color"
+	"$bumpmap2"	"nature/moon_rock_normal"  
+	"%tooltexture" "nature/blend_moon_dirt"	
+	//"%detailtype" "compound_gravelgrass"	
+	"$surfaceprop" "dirt"	
+	"$surfaceprop2" "rock"
+}

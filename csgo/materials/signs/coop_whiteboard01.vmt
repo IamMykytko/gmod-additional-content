@@ -1,0 +1,6 @@
+lightmappedgeneric
+{
+	"$basetexture" "signs/coop_whiteboard01"
+	"$surfaceprop" "plastic"
+	"$translucent" "1"
+}

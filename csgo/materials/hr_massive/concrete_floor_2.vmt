@@ -1,0 +1,26 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\concrete_floor_2"
+
+	"$bumpmap" "hr_massive\concrete_floor_2_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$surfaceprop" "concrete"
+
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+//	"$envmaptint" 			"[.7 .7 .7]"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 0.1]"
+//	"$envmapcontrast"		"1"
+//	"$envmapsaturation"		"1"  
+
+    "$detail"                   "detail\noise_detail_01"
+    "$detailscale"              "[ 24 24 ]"
+    "$detailblendfactor"        "0.3"
+
+
+}

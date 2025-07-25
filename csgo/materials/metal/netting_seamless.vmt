@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/netting_seamless"
+	"%compilepassbullets" 1
+	"$surfaceprop" "chainlink"
+	"$translucent" 1
+
+	"$seamless_scale" 0.0104125
+}

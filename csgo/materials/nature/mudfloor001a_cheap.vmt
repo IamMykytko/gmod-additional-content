@@ -1,0 +1,7 @@
+// envmaptint_fix
+"LightmappedGeneric"
+{
+	"$basetexture" "nature/mudfloor001a"
+	"$surfaceprop" "mud"
+	"%keywords" "wasteland"
+}

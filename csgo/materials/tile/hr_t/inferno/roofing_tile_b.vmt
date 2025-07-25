@@ -1,0 +1,9 @@
+"lightmappedgeneric"
+{
+	"$basetexture"       "tile/hr_t/inferno/roofing_tile_b"
+	"$bumpmap"           "tile/hr_t/inferno/roofing_tile_b_normals"
+	"$surfaceprop"       "wood"
+	"$detail"            "detail/dt_wood1"
+	"$detailscale"       "[9 9]"
+	"$detailblendfactor" ".7"
+}

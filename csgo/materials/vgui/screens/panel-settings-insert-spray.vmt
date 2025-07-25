@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/screens/panel-settings-insert-spray"
+	"$translucent" 1
+	"$vertexalpha" 1
+}

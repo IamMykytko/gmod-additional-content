@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+$baseTexture "tile/hr_concrete_tiles_01"
+$bumpmap "tile/hr_concrete_tiles_01_normal"
+
+$surfaceprop tile
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint 		"[1 1 1]"
+$envmapcontrast 	.5
+$envmapsaturation .5
+
+
+}

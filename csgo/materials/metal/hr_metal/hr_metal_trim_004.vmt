@@ -1,0 +1,9 @@
+lightmappedgeneric
+{
+	"$basetexture"            "metal/hr_metal/hr_metal_trim_004_color"
+	"$basealphaenvmapmask"    "1"
+	"$envmap"                 "environment maps/metal_generic_001"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 1.25]"
+	"$surfaceprop"            "metal"
+}

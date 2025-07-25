@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+$baseTexture "plaster/hr_p/inferno/plaster_i"
+
+$surfaceprop plaster
+$bumpmap "plaster/hr_p/inferno/plaster_a_normals"
+
+
+
+//"$detail" 				"detail\plaster_detail_01"
+"$detail" 				"detail\dt_stone2"
+"$detailscale" 			"[8 8]"
+"$detailblendfactor" 	".3"
+"$detailblendmode"		"0"
+}
+

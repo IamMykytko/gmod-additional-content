@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	    "$basetexture"	"metal\metal_tread_plate"
+
+            "$ssbump" "1"
+	     $bumpmap 	        "metal\metal_tread_plate-ssbump.vtf"
+
+            "$normalmapalphaenvmapmask" 1
+	     $envmap "env_cubemap"
+             $envmapcontrast	"1"
+             $envmapsaturation	"1 " 
+             $envmaptint		"[.7 .7 .8]"
+
+	    "$surfaceprop"         "metal"
+}

@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "overlays/military_stencil_font"
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale"  "0.25"
+}

@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\town_plaster_damage_1"
+
+	"$bumpmap" "hr_massive\town_plaster_damage_1_normal"
+	
+	"$surfaceprop" "plaster"
+
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+//	"$envmaptint" 			"[.7 .7 .7]"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 0.1]"
+//	"$envmapcontrast"		"1"
+//	"$envmapsaturation"		"1"  
+
+}

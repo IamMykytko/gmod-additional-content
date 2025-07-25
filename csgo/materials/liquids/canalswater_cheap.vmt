@@ -1,0 +1,48 @@
+"Water"
+{
+	"%compilewater" 1
+	"%tooltexture" "dev/water_normal"
+
+	// This is cheap fallback water
+	$forcecheap 1
+
+	"$abovewater" 1
+	"$surfaceprop" "water"
+	"$bottommaterial" "dev/dev_waterbeneath2"
+	"$normalmap" "dev/water_normal"
+		
+
+	$scroll1 "[0.01 0.02]"
+	$scroll2 "[-0.02 0.01]"
+
+    // Reflection
+//	$envmap env_cubemap
+	$envmap /maps/de_canals/c-512_-3072_32.hdr
+
+
+	//$reflectonlymarkedentities 1
+	//$reflect2dskybox 1
+	//"$reflecttexture" "_rt_WaterReflection"
+	//"$reflecttexture" "tools/toolsblack"
+	"$reflecttint" "{ 120 160 140}"
+	//"$reflectentities" 1
+	"$reflectamount" "0.9"
+
+
+    // Refraction
+	$refract 0
+	//"$refracttexture" "_rt_WaterRefraction"
+	//"$refracttexture" "tools/toolsblack"
+	//"$refractamount" "0.8"
+	//"$refracttint" "{ 100	100 100 }"
+
+
+
+    // Fog stuff.
+	"$fogenable" 0
+	"$fogcolor" "{ 45 60 53 }"
+	"$fogstart" -10
+	"$fogend" 15
+	$lightmapwaterfog 1
+
+}

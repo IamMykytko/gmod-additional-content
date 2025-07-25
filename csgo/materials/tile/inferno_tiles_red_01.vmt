@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "tile/inferno_tiles_red_01"
+	"$bumpmap" "tile/inferno_tiles_red_01_normal"
+ 	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" 		"[.15 .15 .15]"	
+	"$surfaceprop" "tile"
+}

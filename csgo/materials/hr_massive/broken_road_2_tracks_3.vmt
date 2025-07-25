@@ -1,0 +1,11 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\broken_road_2_tracks_3"
+
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.125"
+
+	"$bumpmap" "hr_massive\broken_road_2_tracks_3_normal"
+
+}

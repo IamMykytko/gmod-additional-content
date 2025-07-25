@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays\coop_fall_mirage_window"
+
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale"  ".25"
+
+
+}

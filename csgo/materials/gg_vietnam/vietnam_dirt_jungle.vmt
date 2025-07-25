@@ -1,0 +1,7 @@
+WorldVertexTransition
+{
+$basetexture "nature/dirtfloor009c"
+$basetexture2 "models/props/gg_Vietnam/Vietnam_HorizonMap"
+$surfaceprop grass
+$surfaceprop2 grass
+}

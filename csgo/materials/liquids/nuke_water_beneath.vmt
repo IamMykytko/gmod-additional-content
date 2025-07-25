@@ -1,0 +1,24 @@
+water
+{
+	"$normalmap"         "de_nuke/hr_nuke/pool_water_normals_001"
+	"$refract"           "1"
+	"$refracttexture"    "_rt_waterrefraction"
+	"$refractamount"     "0.15"
+	"$abovewater"        0
+	"$fogenable"         1
+	"$fogcolor"          "{32 94 128}"
+	"$fogstart"          "-100"
+	"$fogend"            "700"
+	"%compilewater"      1
+	"%tooltexture"       "de_nuke/hr_nuke/pool_water_normals_001"
+	"$surfaceprop"       water
+	"proxies"
+	{
+		"texturescroll"
+		{
+			"texturescrollvar"   "$bumptransform"
+			"texturescrollrate"  "0.1"
+			"texturescrollangle" "50"
+		}
+	}
+}

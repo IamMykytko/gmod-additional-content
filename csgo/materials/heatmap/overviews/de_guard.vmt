@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	$basetexture heatmap/overviews/de_guard
+	$translucent 1
+	$alphawrite 1
+}

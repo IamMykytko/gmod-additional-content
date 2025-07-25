@@ -1,0 +1,9 @@
+"lightmappedgeneric"
+{
+	"$basetexture"            "wood/hr_w/hr_wood_paneling_001"
+	"$surfaceprop"            "wood"
+	"$envmapmask"             "wood/hr_w/hr_wood_paneling_001"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 0.25]"
+}

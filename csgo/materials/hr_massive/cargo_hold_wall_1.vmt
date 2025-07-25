@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\cargo_hold_wall_1"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "hr_massive\cargo_hold_wall_1_normal"
+	"$surfaceprop" "metal"
+
+}

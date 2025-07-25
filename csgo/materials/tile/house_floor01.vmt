@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 		"tile\house_floor01"
+	"$surfaceprop" 		"tile"
+	"$bumpmap"			"tile\house_floor01-ssbump"
+	"$bumptransform"	"center 0 0 scale 2 2 rotate 0 translate 0 0"
+	"$ssbump"			"1"
+	"%keywords"			"house, de_house"
+	
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmaptint" 		"[1 1 1]"
+	"$envmapcontrast" 	".6"
+	"$envmapsaturation" ".5"
+}

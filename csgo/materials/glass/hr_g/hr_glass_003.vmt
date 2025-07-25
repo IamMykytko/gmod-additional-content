@@ -1,0 +1,10 @@
+lightmappedgeneric
+{
+	"$basetexture" "glass/hr_g/hr_glass_003"
+	"$translucent" "1"
+	"$srgbtint"    "[2 2 2]"
+	"$envmap"      "environment maps/metal_generic_004"
+	"$envmaptint"  "[3.5 4.5 6]"
+	"$envmapmask"  "glass/hr_g/hr_glass_003"
+	"$surfaceprop" "glass"
+}

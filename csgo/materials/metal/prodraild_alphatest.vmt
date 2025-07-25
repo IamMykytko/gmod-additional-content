@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\prodraild"
+//	"$translucent" "1"
+	"$alphatest" "1"
+	"$surfaceprop" "metal"
+
+}

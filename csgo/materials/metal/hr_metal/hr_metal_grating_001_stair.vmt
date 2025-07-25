@@ -1,0 +1,13 @@
+"lightmappedgeneric"
+{
+	"$basetexture"            "metal/hr_metal/hr_metal_grating_001_stair_color"
+	"%compilepassbullets" 1
+	"$alphatest"              "1"
+	"$allowalphatocoverage"   "1"
+	"$alphatestreference"     "0.3"
+	"$envmap"                 "environment maps/metal_generic_001"
+	"$envmapmask"             "metal/hr_metal/hr_metal_grating_001_stair_color"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 1.5]"
+	"$surfaceprop"            "metalgrate"
+}

@@ -1,0 +1,6 @@
+lightmappedgeneric
+{
+	"$basetexture" "stone/hr_stone/hr_pebbles_a"
+	"$bumpmap"     "stone/hr_stone/hr_pebbles_normals_a"
+	"$surfaceprop" "gravel"
+}

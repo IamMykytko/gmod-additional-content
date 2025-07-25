@@ -1,0 +1,13 @@
+weapondecal
+{	
+	$decalstyle 1 // standard paper-backed plastic sticker
+	$envmap "env_cubemap"
+	$envmaptint "[ .07 .07 .07 ]"
+	$phong 1
+	$phongexponent	2
+	$phongfresnelranges "[ .2 .5 1 ]"
+	$phongalbedotint 1.0
+	$phongboost 1.0
+	$phongalbedoboost 10.0
+	$hlmvallowedit 1
+}

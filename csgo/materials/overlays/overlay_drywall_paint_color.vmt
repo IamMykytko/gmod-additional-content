@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays\overlay_drywall_paint_color"
+
+	
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale"  ".5"
+
+
+}

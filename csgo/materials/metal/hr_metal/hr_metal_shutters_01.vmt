@@ -1,0 +1,32 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "metal\hr_metal\hr_metal_shutters_01"
+
+        "$phong"                                                            "1"                                         // to enable phong
+        "$phongexponent"                                        "7.0"                                    // phong exponent for basetexture, default is "5.0"
+//        "$phongMaskContrastBrightness"          "[2.0 0.1]"                           // contrast and brightness for basetexture phong mask generation, default is [1.0 0.0]
+//        "$phongBaseTint"                                          "0.0"                                     // tint phong using basetexture rgb, default is 0.0 (no tint with basetexture), 1.0 = full tint, default is "0.0"
+        "$phongAmount"                                           "[4.0 4.0 4.0 1.0]"            // rgb - tint/amount for phong on basetexture, a - is a diffuse component multiplier, default is [2.0 2.0 2.0 1.0]
+
+
+	"$bumpmap"  				"metal\hr_metal\hr_metal_shutters_01_normal"
+	"$surfaceprop" 				"Metal"
+
+	"$envmap" 				"env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"					
+
+	"$normalmapalphaenvmapmask" "1"
+
+
+//	"$envmaplightscale"			"1"
+//	"$envmaplightscaleminmax" 	"[0 2.5]"	
+//	"$envmapsaturation"			".85"
+//	"$envmapcontrast"			".5"	
+//	"$noenvmapmip"				"1"
+
+	"$detail" 					"metal/hr_metal/hr_metal_corrugated_001_detail"
+	"$detailscale" 				"[8 8]"
+	"$detailblendfactor" 		"2"
+
+
+}

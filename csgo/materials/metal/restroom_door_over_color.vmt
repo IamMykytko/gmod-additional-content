@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	$baseTexture "metal/restroom_door_over_color"
+	$bumpmap "metal/restroom_door_over_normal"
+
+	$surfaceprop metal
+	$envmap env_cubemap
+	$normalmapalphaenvmapmask 1
+}

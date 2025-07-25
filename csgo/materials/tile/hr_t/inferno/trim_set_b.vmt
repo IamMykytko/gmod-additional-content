@@ -1,0 +1,12 @@
+"lightmappedgeneric"
+{
+	"$basetexture"              "tile/hr_t/inferno/trim_set_b"
+	"$bumpmap"                  "tile/hr_t/inferno/trim_set_b_normals"
+	"$surfaceprop"              "tile"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap"                   "env_cubemap"
+	"$envmaptint"               "[.3 .3 .3]"
+	"$detail"                   "detail/noise_detail_01"
+	"$detailscale"              "[8 8]"
+	"$detailblendfactor"        ".45"
+}

@@ -1,0 +1,52 @@
+UnlitGeneric
+{
+	"$basetexture"	"tools\climb_alpha"
+	"$alphatest" 1
+	"$AlphaTestReference" "0.4"
+
+	"%compileTeam"	2
+	"%compilepassbullets" 1
+	"%compileladder" 1
+
+	// variable to hold scaled range to player
+	"$proxRange" 0.0
+
+	// variable to hold team result (0 or 1)
+	"$proxTeam" 1.0
+
+	// constant value of one
+	"$one"	1.0
+
+	"Proxies"
+	{
+
+		"PlayerTeam"
+		{
+			"team"	"3"	// 2 is survivor, 3 is infected
+			"resultVar" "$proxTeam"
+		}
+
+		"Subtract"
+		{
+			"srcVar1" "$one"
+			"srcVar2" "$proxRange"
+			"resultVar" "$alpha"
+		}
+
+		"Multiply"
+		{
+			"srcVar1" "$alpha"
+			"srcVar2" "$proxTeam"
+			"resultVar" "$alpha"
+		}
+		
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+		
+			"texturescrollrate" 1
+			
+			"texturescrollangle" 90.00
+		}
+	}
+}

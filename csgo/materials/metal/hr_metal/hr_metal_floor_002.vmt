@@ -1,0 +1,14 @@
+lightmappedgeneric
+{
+	"$basetexture"            "metal/hr_metal/hr_metal_floor_002_color"
+	"$envmapmask"             "metal/hr_metal/hr_metal_floor_002_color"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 0.5]"
+	"$envmapcontrast"         ".5"
+	"$fresnelreflection"      "0.5"
+	"$surfaceprop"            "metal"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "1.57"
+	"$detailblendfactor"      ".65"
+}

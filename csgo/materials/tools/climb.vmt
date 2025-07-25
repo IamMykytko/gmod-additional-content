@@ -1,0 +1,12 @@
+UnlitGeneric
+{
+	"$basetexture"	"tools\climb"
+	"$additive" "1"
+
+	"%compilenodraw" 1
+	"%compileTeam"	2
+	"%compilepassbullets" 1
+	"%compileladder" 1
+	
+	$alpha 0
+}

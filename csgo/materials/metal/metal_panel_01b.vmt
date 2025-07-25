@@ -1,0 +1,10 @@
+lightmappedgeneric
+{
+	$baseTexture "metal/metal_panel_01b"
+	$surfaceprop metal
+	$bumpmap "metal/metal_panel_01b_normal"
+//	$envmap env_cubemap
+//	$normalmapalphaenvmapmask 1
+//	$envmaptint "[.05 .05 .05]"
+	"%keywords" l4d2
+}

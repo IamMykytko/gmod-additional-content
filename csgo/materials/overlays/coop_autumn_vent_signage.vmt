@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays\coop_autumn_vent_signage"
+
+	
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale"  ".5"
+
+
+}

@@ -1,0 +1,72 @@
+"Water"
+{
+	"%compilewater" 		"1"
+	"%tooltexture" 			"de_nuke/hr_nuke/pool_water_normals_001"
+	
+//	"$pseudotranslucent" 1
+	"$depth_feather"		"50"
+	"$waterdepth"			"50"
+	"$waterblendfactor"		".75"
+	"$abovewater" 			"1"
+	"$surfaceprop" 			"water"
+	"$bottommaterial" 		"liquids/nuke_water_beneath"
+
+	"$normalmap" 			"de_nuke/hr_nuke/pool_water_normals_001"
+	"$bumpmap" 				"de_nuke/hr_nuke/pool_water_normals_001"
+//	"$nofresnel" 			"1"
+//	"$lightmapwaterfog"		 "1"
+//	"$forcefresnel"			"5"
+//	"$scale" 				"[2 2.15]"
+	"$scroll1" 				"[.02 .02 .03]"
+	"$scroll2" 				"[-.06 .08 .05]"
+//	$forcecheap 		"1"
+
+
+//	"$reflectonlymarkedentities" "1"
+	"$reflect2dskybox" 		"0"
+//	"$reflecttexture" 		"_rt_WaterReflection"
+//	"$reflecttexture" 		"environment maps\metal_generic_003"
+	"$reflectamount" 		".1"
+	
+	"$forceenvmap"			"1"
+	"$envmap"				"environment maps\metal_generic_006"
+	"$envmapcontrast"		".85"
+	// for console use simple skybox reflection not cubemap which is causing problems
+	//"$reflecttexture" 	"skybox\italyup.vtf"
+	//"$reflectamount" 		"1"
+//	"$reflecttint" 		"[.5 .65 .7]"
+	"$reflecttint" 		"{174 221 247}"
+
+
+	// Refraction
+	 "$refract" 			"1"
+	 "$refracttexture" 		"_rt_WaterRefraction"
+	 "$refractamount" 		"0.25"
+
+
+
+    // Fog stuff.
+	"$fogenable" 			"1"
+//	"$fogcolor" 			"{27 120 178}"
+	"$fogcolor" 			"{32 94 128}"
+	"$fogstart" 			"0"
+	"$fogend" 				"300"
+
+	"Proxies"
+	{
+
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$bumptransform"
+			"texturescrollrate" 	"0.1"
+			"texturescrollangle" 	"50"
+		}
+
+	}
+
+	"GPU<2"
+	{
+		"$fallbackmaterial" "liquids/nuke_water_cheap"
+	}
+
+}

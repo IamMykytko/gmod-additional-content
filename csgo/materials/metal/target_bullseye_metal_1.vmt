@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "metal/target_bullseye_metal_1"
+	"$surfaceprop" "metal"
+}

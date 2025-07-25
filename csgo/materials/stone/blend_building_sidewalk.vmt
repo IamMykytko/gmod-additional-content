@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+//	"$basetexture2" "stone/stone_floor_03_dark"
+	"$basetexture2" "de_nuke/nukfloorc"
+	"$basetexture" "stone/stone_floor_03"
+	"%tooltexture" "stone/stone_floor_03"
+	"$blendmodulatetexture" "stone/stonefloor003a_blend"
+
+}

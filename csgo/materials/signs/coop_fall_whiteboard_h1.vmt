@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "signs\coop_fall_whiteboard_h1"
+
+	"$surfaceprop" "plastic"
+	"$translucent" "1"
+
+
+}

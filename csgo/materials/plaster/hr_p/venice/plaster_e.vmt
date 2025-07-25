@@ -1,0 +1,10 @@
+"lightmappedgeneric"
+{
+	"$basetexture"       "plaster/hr_p/venice/plaster_e"
+	"$surfaceprop"       "concrete"
+	"$envmap"            "env_cubemap"
+	"$envmaptint"        "[.03 .03 .03]"
+	"$detail"            "detail/detailconcrete001a"
+	"$detailscale"       "[2 2 2 ]"
+	"$detailblendfactor" "1"
+}

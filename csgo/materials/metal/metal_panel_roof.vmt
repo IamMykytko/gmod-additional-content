@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+
+	   "$basetexture"	"metal\metal_panel_roof"
+	    $bumpmap 	        "metal\metal_panel_roof_N"
+         //  "$envmapmask"        "metal\metal_panel_roof_ref"
+	   "$surfaceprop"         "metal"
+	
+	 // add envcube
+	 //   $envmap "env_cubemap"
+         //   $envmapcontrast	"1"
+         //   $envmapsaturation	"1 "
+         // $envmaptint		"[1 1 1 ]"
+	 //   $envmaptint		"[.2 .2 .2]"
+}

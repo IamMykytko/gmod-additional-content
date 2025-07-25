@@ -1,0 +1,11 @@
+WorldVertexTransition
+{
+	$basetexture "nature/swamp_mudfloor01"
+	$basetexture2 "nature/proddirta"
+	//$basetexture2 "gg_vietnam/vietnam_mud"
+	$blendmodulatetexture "nature/blend_texture_01"
+//	$bumpmap "concrete/pavement_height-ssbump"
+//	$ssbump 1
+	$surfaceprop dirt
+//	$surfaceprop2 mud
+}

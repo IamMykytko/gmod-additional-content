@@ -1,0 +1,12 @@
+WorldVertexTransition
+{
+$basetexture "stone/stone_ext_01"
+$basetexture2	"stone/waterfront_cobblestone_01a"
+
+
+$surfaceprop concrete
+$surfaceprop2 concrete
+
+
+$blendmodulatetexture "nature/blend_texture_01"
+}

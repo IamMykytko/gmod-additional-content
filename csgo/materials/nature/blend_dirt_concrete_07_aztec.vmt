@@ -1,0 +1,19 @@
+WorldVertexTransition
+{
+	$basetexture "nature/ground_moss_aztec"
+	$basetexture2 "de_aztec/aztec_stone05"
+
+//	$bumpmap "de_aztec/aztec_stone05_normal"
+//	$bumpmap2 "de_aztec/nature/ground_moss_aztec_normal"
+//	$normalmapalphaenvmapmask 1
+//	$ssbump 1
+//	$SSBumpMathFix 1
+	$blendmodulatetexture "nature/blend_grass2"
+	$surfaceprop dirt
+	$surfaceprop2 concrete
+	
+//	$Envmap "env_cubemap"
+//	$EnvmapTint "[.33 .33 .33]"
+
+
+}

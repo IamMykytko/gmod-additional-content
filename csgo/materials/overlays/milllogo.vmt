@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays/Milllogo"
+	"$translucent" 1
+	"$decal" 1
+	"$surfaceprop" "metal"
+	"%keywords" "cstrike"
+}

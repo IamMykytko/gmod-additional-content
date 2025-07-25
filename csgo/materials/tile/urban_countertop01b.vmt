@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "tile/urban_countertop01b"
+$surfaceprop tile
+$envmap env_cubemap
+$envmapmask "tile\countertop01_ref"
+$envmaptint "[1 1 1]"
+}

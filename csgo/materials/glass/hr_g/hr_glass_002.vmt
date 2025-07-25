@@ -1,0 +1,10 @@
+lightmappedgeneric
+{
+	"$basetexture"            "glass/hr_g/hr_glass_002"
+	"$translucent"            "1"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 300]"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapmask"             "glass/hr_g/hr_glass_002"
+	"$surfaceprop"            "glass"
+}

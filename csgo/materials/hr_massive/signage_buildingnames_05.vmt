@@ -1,0 +1,8 @@
+"DecalModulate"
+{
+	"$basetexture"	"hr_massive\signage_buildingnames_05"
+	//"$fogscale" "2.5"
+	"$decal"	1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

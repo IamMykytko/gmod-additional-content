@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/mp_sp_screens/panel-mp-wide"
+	"$translucent" 1
+}

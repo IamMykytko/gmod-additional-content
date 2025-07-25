@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+	$basetexture hlmv/debugtext
+	$alphatest 1
+	$ignorez 1
+}

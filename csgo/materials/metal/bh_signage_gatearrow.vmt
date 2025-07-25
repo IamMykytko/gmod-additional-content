@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/bh_signage_gatearrow"
+	$surfaceprop metal
+}

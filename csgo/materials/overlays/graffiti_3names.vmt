@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays/graffiti_3Names"
+$surfaceprop concrete
+$translucent 1
+$decal 1
+}

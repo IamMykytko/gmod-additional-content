@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+$baseTexture "ground/hr_g/ground_a"
+
+$surfaceprop dirt
+
+
+
+"$envmap" "env_cubemap"
+"$envmaptint" 		"[.03 .03 .03]"	
+	
+"$detail" 				"detail\detailconcrete001a"
+"$detailscale" 			"[2 2 2 ]"
+"$detailblendfactor" 	"1"
+}

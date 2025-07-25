@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "signs/road_closed_french"
+$surfaceprop wood
+"%keywords" l4d2
+}

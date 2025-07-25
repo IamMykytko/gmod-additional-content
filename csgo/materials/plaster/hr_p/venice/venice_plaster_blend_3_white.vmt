@@ -1,0 +1,18 @@
+"worldvertextransition"
+{
+	"$basetexture"          "plaster/hr_p/venice/venice_plaster_1_mid"
+	"$bumpmap"              "plaster/hr_p/venice/venice_plaster_1_mid_normal"
+	"$blendmodulatetexture" "brick/hr_brick/venice/venice_brick_4_blend"
+	"$basetexture2"         "brick/hr_brick/venice/venice_brick_4c"
+	"$bumpmap2"             "brick/hr_brick/venice/venice_brick_4g_normal"
+	"$surfaceprop"          "concrete"
+	"$detail"               "detail/plaster_detail_01"
+	"$detail2"              "detail/plaster_detail_01"
+	"$detailscale"          "[9 9 9]"
+	"$detailblendfactor"    ".6"
+	"$phong"                "1"
+	"$phongexponent"        "85"
+	"$phongamount"          "[.5 .5 .5 1.0]"
+	"$phongexponent2"       "65.0"
+	"$phongamount2"         "[1.5 1.5 1.5 1]"
+}

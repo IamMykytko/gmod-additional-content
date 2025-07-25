@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$baseTexture" 		"metal/corrugatedroof03"
+	"$surfaceprop" 		"metalvent"
+//	"$bumpmap" 			"metal/corrugatedroof01-ssbump"
+//	"$ssbump" 			"1"
+	
+	"%keywords"			"mill, de_mill"
+}

@@ -1,0 +1,5 @@
+"SpriteCard"
+{
+	"$basetexture" "particle\money\cash_money_100bill"
+	$alphatest 1
+}

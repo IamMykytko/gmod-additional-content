@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Wood/target_bullseye_wood_1"
+	"$surfaceprop" "wood"
+}

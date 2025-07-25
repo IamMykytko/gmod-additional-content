@@ -1,0 +1,16 @@
+LightmappedGeneric
+{
+	"$baseTexture" 				"plaster/vostok_wall01b"
+	"$surfaceprop" 				"plaster"
+//	"$color" 					"[ .60 .51 .36]"
+	"$bumpmap" 					"plaster/vostok_wall01_ssbump"
+	"$ssbump" 					"1"
+	"$envmap" 					"env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" 				"[ .1 .1 .1 ]"
+	"$envmapcontrast"			".9"
+	"$detail" 					"detail/dt_walltexture01"
+	"$detailscale" 				"6"
+	"$detailblendfactor" 		".4"
+	"$detailblendmode" 			"0"
+}

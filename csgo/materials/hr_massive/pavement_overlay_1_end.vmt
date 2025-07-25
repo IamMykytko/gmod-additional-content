@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\pavement_overlay_1_end"
+//	"$bumpmap" "effects/flat_normal"
+
+//	"$additive" "1"
+	"$translucent" "1"
+	"$decal" "1"
+
+//	"$alpha"				"0.9"	
+
+}

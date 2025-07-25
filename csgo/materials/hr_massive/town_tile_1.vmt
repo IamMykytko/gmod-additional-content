@@ -1,0 +1,28 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\town_tile_1"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "hr_massive\town_tile_1_normal"
+
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+//	"$normalmapalphaenvmapmask" "1"
+//	"$envmaptint" 			"[.6 .6 .6]"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 0.1]"
+//	"$envmapcontrast"		"1"
+//	"$envmapsaturation"		"1"   
+
+//	$phong "1"
+//	$phongexponent "65"
+//	$phongamount "2"
+//	$phongfresnelranges "[.5 .8 1]"
+//	$basemapalphaphongmask "1"
+//	$phongtint "[1 1 1]"  
+
+}

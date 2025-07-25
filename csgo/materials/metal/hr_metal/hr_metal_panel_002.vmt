@@ -1,0 +1,10 @@
+"lightmappedgeneric"
+{
+	"$basetexture"            "metal/hr_metal/hr_metal_panel_002"
+	"$surfaceprop"            "metal"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapmask"             "metal/hr_metal/hr_metal_panel_002"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.0]"
+	"$envmapsaturation"       ".85"
+}

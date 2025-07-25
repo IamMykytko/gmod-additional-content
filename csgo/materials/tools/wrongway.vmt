@@ -1,0 +1,29 @@
+UnlitGeneric
+{
+	"$basetexture"	"tools\wrongway"
+	"$translucent" "1"
+
+	// variable to hold scaled range to player
+	"$proxRange" 0.0
+
+	// constant value of one
+	"$one"	1.0
+
+	"Proxies"
+	{
+		"PlayerProximity"
+		{
+			// scale is 1/(fade range)
+			"scale" .004
+			"resultVar" "$proxRange"
+		}
+
+		"Subtract"
+		{
+			"srcVar1" "$one"
+			"srcVar2" "$proxRange"
+			"resultVar" "$alpha"
+		}
+
+	}
+}

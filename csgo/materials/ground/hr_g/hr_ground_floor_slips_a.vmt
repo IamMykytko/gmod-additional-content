@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+$baseTexture "ground/hr_g/ground_floor_slips_a"
+$bumpmap "ground/hr_g/ground_floor_slips_a_normals"
+$surfaceprop rubber
+"$envmaplightscale" .5
+
+
+"$envmap" "env_cubemap"
+"$envmaptint" 		"[.2 .2 .2]"	
+	
+"$detail" 				"detail\detailconcrete001a"
+"$detailscale" 			"[2 2 2 ]"
+"$detailblendfactor" 	"1"
+}

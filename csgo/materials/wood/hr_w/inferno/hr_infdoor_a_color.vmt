@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+$baseTexture "wood/hr_w/inferno/hr_infdoor_a_color"
+
+$bumpmap "wood/hr_w/inferno/hr_infdoor_a_normal"
+
+
+$surfaceprop wood
+	"$envmap" "env_cubemap"
+	
+	"$envmaptint" "[.025 .025 .025]"
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[1.5 1.5]"
+	"$detailblendfactor" 	"1"
+
+
+}

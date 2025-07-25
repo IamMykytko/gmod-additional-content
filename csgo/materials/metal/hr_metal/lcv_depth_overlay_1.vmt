@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal\hr_metal\lcv_depth_overlay_1"
+
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "1.000"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

@@ -1,0 +1,39 @@
+LightmappedGeneric
+//UnlitGeneric
+
+{
+	"$basetexture"				"glass/hr_g/hr_glass_panel_001"
+	"$nocull"					"1"
+//	"$additive"					"1"
+	"$translucent"				"1"
+	"$alpha" "0.75"
+//	"$alphatest" 			"1"
+//	"$allowalphatocoverage"	"1"
+//	"$alphatestreference"	"0.5"
+	"$color"				"[0.3 0.65 1]"
+
+//	"$bumpmap" 					"glass/hr_g/hr_glass_panel_001_normals"
+	
+//	"$detail"					"models\props\de_nuke\hr_nuke\chainlink_fence_001\chainlink_fence_detail_001"
+//	"$detailscale"				"[10 5 5]"
+//	"$detailblendfactor" 		".55"
+
+//	"$basealphaenvmapmask"		"1"
+//	"$normalmapalphaenvmapmask" "1"
+	"$envmaplightscale"			"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+//	"$envmapsaturation"			".25"
+//	"$envmaptint"				"[.3 .6 1]"
+//	"$envmapcontrast"			".85"
+//	"$envmapmask"				"glass/hr_g/hr_glass_panel_001"
+//	"$envmap"					"environment maps\metal_generic_006"
+//	"$envmap"					"env_cubemap"
+//	"$envmap"					"models\props\de_nuke\hr_nuke\airduct_hvac_001\airduct_hvac_001_cube"
+//	"$envmap"					"models\props\de_nuke\hr_nuke\web_joist_001\web_joist_001_cubemap"
+//	"$envmap"					"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+//	"$envmap"					"models\props\de_nuke\hr_nuke\metal_door_001\metal_door_001_cubemap"
+	"$fresnelreflection"					"0.3"
+
+	"$surfaceprop" 				"glassfloor"
+
+}

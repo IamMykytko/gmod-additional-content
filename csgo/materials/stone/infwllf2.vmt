@@ -1,0 +1,10 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "stone/infwllf2"
+	"%keywords" "cstrike"
+	"$surfaceprop" "stone"
+	"$bumpmap" "stone/infwllf_normal"
+ 	"$envmap" "env_cubemap"
+	"$envmapcontrast" "1"
+	"$normalmapalphaenvmapmask" "1"
+}

@@ -1,0 +1,14 @@
+"worldvertextransition"
+{
+	"$basetexture" "hr_massive\rock_wall_3"
+	"$bumpmap" "hr_massive\rock_wall_3_normal"
+
+	"$basetexture2"         "hr_massive\gravel_1"
+	"$bumpmap2" "hr_massive\gravel_1_normal"
+
+	"$blendmodulatetexture" "hr_massive/gravel_1_blendmod"
+
+	"$surfaceprop" "concrete"
+	"$surfaceprop2"         "gravel"
+
+}

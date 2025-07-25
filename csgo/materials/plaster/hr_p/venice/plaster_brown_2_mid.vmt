@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$basetexture"       "plaster/hr_p/venice/plaster_brown_2_mid"
+	"$bumpmap"           "plaster/hr_p/venice/plaster_red_normal"
+	"$detail"            "detail/plaster_detail_01"
+	"$detailscale"       "[8 8 8]"
+	"$detailblendfactor" ".22"
+}

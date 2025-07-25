@@ -1,0 +1,22 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "plaster/urban_plasterwall_03a"
+	"$detail"				 "detail\detail_burned"
+	"$detailscale" 			"1"
+	"$detailblendfactor" 	".75"
+	"$detailblendmode" 		"0"
+	"$surfaceprop" "plaster"
+
+	"$bumpmap" "plaster/urban_plasterwall_height-ssbump"
+
+//	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" 1
+//	"$envmaptint" "[ .03 .03 .03 ]"
+//	"$envmapcontrast" 1
+//	"$envmapsaturation" 1
+
+	"$ssbump" "1"
+// 	"$height_scale" 20
+//	"$parallaxmap" 1
+
+}

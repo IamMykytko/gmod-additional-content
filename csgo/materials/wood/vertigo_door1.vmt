@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "wood/vertigo_door1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "wood/vertigo_door1_ref"
+}

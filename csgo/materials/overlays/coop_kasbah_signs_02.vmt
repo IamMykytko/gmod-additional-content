@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays\coop_kasbah_signs_02"
+
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale"  ".25"
+
+
+
+}

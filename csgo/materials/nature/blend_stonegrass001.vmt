@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "stone/stone_ext_01"
+	"$basetexture2" "nature/ground_grass03"
+
+	$surfaceprop rock
+	$surfaceprop2 grass
+	
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 			"hr_massive\survival_corrugated_roof_color"
+	"$bumpmap"                	"hr_massive\survival_corrugated_roof_normal"
+	"$surfaceprop"            	"metalpanel"
+//	"$color"                  	"{199 169 105}"
+
+}

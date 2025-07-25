@@ -1,0 +1,5 @@
+unlitgeneric
+{
+	$basetexture heatmap/overviews/de_swamp
+	$translucent 1
+}

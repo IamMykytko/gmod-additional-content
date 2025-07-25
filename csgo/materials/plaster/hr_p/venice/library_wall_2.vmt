@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "plaster/hr_p/venice/library_wall_2"
+	"$bumpmap"     "plaster/hr_p/venice/library_wall_2_normal"
+	"$envmap"      "env_cubemap"
+	"$envmaptint"  "[.03 .03 .03]"
+}

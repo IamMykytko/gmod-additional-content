@@ -1,0 +1,20 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "hr_massive\metal_wall_2_grime"
+
+
+	"$bumpmap" "hr_massive\metal_wall_2_bottom_normal"
+
+	"$surfaceprop" "metal"
+
+
+	$phong "1"
+	$phongexponent "35"
+//	$phongamount "1.1"
+	$phongfresnelranges "[.3 .65 1]"
+//	$basemapalphaphongmask "1"
+	$phongtint "[1 1 1]"
+	$normalmapalphaphongmask "1"
+
+
+}

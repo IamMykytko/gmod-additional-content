@@ -1,0 +1,19 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\broken_road_damage_1"
+	"$translucent" "1"
+	"$decal"       "1"
+
+   	"$detail"                   "detail\detail_pavement_1"
+    	"$detailscale"              "[6 6]"
+    	"$detailblendfactor"        "1.2"
+//	"$detailblendmode"	    "0"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

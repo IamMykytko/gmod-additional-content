@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$basetexture "overlays/urban_paintswatch_02a"
+$translucent 1
+$decal 1
+$vertexalpha 1
+$vertexcolor 1
+}

@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\tire_burnout_1"
+
+	"$translucent" "1"
+	"$decal" "1"
+
+
+}
