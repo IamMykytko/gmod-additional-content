@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "backpack/player/items/crafting/keyless_cosmetic_crate_medic_large"
+	"$translucent" "1"
+	$vertexcolor 1
+}

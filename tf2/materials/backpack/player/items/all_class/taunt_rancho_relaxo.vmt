@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/taunt_rancho_relaxo"
+	$translucent 1
+	"$vertexcolor" 1
+}

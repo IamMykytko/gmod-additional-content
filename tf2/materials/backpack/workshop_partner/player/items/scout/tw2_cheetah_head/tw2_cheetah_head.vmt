@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop_partner/player/items/scout/tw2_cheetah_head/tw2_cheetah_head"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/engineer/engineer_colored_lights_large"
+	$translucent 1
+	$vertexcolor 1
+}

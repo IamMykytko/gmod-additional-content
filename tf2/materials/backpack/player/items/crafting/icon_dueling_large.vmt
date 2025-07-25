@@ -1,0 +1,6 @@
+"unlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/icon_dueling_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

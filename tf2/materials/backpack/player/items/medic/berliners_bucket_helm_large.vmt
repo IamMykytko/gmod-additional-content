@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/medic/berliners_bucket_helm_large"
+	$translucent 1
+	$vertexcolor 1
+}

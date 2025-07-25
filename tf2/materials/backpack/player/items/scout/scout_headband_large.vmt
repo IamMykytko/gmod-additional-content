@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/scout/scout_headband_large"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/winter2013_naughty_key"
+	$translucent 1
+	$vertexcolor 1
+}

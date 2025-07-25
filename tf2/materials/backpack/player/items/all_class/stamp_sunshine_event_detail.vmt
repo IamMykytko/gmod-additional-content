@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/stamp_sunshine_event_detail"
+	$translucent 1
+	$vertexcolor 1
+}

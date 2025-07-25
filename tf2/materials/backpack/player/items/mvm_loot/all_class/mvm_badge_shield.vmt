@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/all_class/mvm_badge_shield"
+	$translucent 1
+	$vertexcolor 1
+}

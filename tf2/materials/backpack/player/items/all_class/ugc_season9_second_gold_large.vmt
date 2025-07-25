@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/UGC_SEASON9_SECOND_GOLD_LARGE"
+	$translucent 1
+	$vertexcolor 1
+}

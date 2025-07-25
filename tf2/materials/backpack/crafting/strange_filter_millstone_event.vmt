@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/strange_filter_millstone_event"
+	$translucent 1
+	$vertexcolor 1
+}

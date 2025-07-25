@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/grordborts_pyro_bundle"
+	$translucent 1
+	$vertexcolor 1
+}

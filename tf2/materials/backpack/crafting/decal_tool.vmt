@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/decal_tool"
+	$translucent 1
+	"$vertexcolor" "1"
+}

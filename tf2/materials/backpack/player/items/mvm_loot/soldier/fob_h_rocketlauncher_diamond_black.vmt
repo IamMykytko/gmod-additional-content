@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/soldier/fob_h_rocketlauncher_diamond_black"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/heavy/heavy_carl_medallion_shirt/heavy_carl_medallion_shirt"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/demo/battery_grenade"
+	$translucent 1
+	$vertexcolor 1
+}

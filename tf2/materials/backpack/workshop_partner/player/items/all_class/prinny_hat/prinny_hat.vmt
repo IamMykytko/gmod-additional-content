@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop_partner/player/items/all_class/prinny_hat/prinny_hat"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

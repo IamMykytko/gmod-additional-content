@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/all_domination_b_demo_large"
+	$translucent 1
+	$vertexcolor 1
+}

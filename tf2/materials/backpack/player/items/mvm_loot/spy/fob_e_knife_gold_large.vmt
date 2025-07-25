@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/spy/fob_e_knife_gold_large"
+	$translucent 1
+	$vertexcolor 1
+}

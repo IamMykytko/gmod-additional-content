@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/flask_tub_paintcolor"
+	$translucent 1
+	"$vertexcolor" 1
+}

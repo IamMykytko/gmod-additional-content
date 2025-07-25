@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/world_traveller"
+	$translucent 1
+	"$vertexcolor" 1
+}

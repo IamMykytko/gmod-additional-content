@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/parts/love_and_war_weapons_bundle"
+	$translucent 1
+	$vertexcolor 1
+}

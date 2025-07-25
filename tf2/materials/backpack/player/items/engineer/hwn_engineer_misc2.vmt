@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/engineer/hwn_engineer_misc2"
+	$translucent 1
+	$vertexcolor 1
+}

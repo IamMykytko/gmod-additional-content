@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop_partner/player/items/all_class/tomb_readers/tomb_readers_large"
+	"$translucent"		"1"
+}

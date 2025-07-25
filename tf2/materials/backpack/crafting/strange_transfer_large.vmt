@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "backpack/crafting/strange_transfer_large"
+	"$translucent" "1"
+	$vertexcolor 1
+}

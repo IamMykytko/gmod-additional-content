@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/hwn_crafting/w_nail_large"
+	$translucent 1
+	$vertexcolor 1
+}

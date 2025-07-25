@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/pyro/pyro_tripwire_mask"
+	$translucent 1
+	$vertexcolor 1
+}

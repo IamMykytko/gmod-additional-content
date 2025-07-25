@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/scout/mnc_mascot_outfit_large"
+	$translucent 1
+	"$vertexcolor"	1
+}

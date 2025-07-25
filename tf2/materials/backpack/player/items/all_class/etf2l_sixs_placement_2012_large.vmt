@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/etf2l_sixs_placement_2012_large"
+	$translucent 1
+	$vertexcolor 1
+}

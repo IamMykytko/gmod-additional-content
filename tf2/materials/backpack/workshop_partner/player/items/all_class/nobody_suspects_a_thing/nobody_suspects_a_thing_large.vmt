@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "backpack/workshop_partner/player/items/all_class/nobody_suspects_a_thing/nobody_suspects_a_thing_large"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

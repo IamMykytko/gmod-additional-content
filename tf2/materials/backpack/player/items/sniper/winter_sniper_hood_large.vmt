@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/sniper/winter_sniper_hood_large"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/flaregun_small"
+	$translucent 1
+	"$vertexcolor" 1
+}

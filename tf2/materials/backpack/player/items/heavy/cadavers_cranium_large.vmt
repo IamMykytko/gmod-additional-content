@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/heavy/cadavers_cranium_large"
+	$translucent 1
+	"$vertexcolor" 1
+}

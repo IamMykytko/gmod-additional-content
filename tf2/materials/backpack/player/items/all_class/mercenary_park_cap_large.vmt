@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\all_class\mercenary_park_cap_large"
+	$translucent 1
+}

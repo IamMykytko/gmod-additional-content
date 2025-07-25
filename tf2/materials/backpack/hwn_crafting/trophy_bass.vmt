@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/hwn_crafting/trophy_bass"
+	$translucent 1
+	$vertexcolor 1
+}

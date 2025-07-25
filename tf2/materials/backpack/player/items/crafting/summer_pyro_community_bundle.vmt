@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/summer_pyro_community_bundle"
+	$translucent 1
+	$vertexcolor 1
+}

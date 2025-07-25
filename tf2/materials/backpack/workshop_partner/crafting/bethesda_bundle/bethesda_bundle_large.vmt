@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "backpack/workshop_partner/crafting/bethesda_bundle/bethesda_bundle_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

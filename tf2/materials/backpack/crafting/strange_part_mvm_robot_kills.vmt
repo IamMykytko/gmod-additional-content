@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/strange_part_mvm_robot_kills"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/heavy/fob_h_minigun_rust_large"
+	$translucent 1
+	$vertexcolor 1
+}

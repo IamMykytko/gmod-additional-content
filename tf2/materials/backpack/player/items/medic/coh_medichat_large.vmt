@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/medic/coh_medichat_large"
+	$translucent 1
+	$vertexcolor 1
+}

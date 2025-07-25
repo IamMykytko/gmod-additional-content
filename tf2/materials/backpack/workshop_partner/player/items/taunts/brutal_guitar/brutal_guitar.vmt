@@ -1,0 +1,6 @@
+"unlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/taunts/brutal_guitar/brutal_guitar"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

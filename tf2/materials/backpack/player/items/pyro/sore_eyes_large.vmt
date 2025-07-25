@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/pyro/sore_eyes_large"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\crafting\eotl_duck_pile_of_tokens"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/noisemaker_gong"
+	$translucent 1
+	"$vertexcolor" "1"
+}

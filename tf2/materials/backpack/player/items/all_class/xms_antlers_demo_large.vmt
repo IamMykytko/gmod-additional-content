@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/xms_antlers_demo_large"
+	$translucent 1
+	$vertexcolor 1
+}

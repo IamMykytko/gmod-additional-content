@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/medic/medic_heroic_taunt_large"
+	$translucent 1
+	"$vertexcolor" 1
+}
+

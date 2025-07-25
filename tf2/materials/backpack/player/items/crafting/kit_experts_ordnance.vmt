@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/kit_experts_ordnance"
+	$translucent 1
+	$vertexcolor 1
+}

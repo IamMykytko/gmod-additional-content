@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+"$baseTexture" "backpack/player/items/all_class/taunt_freshbeats"
+	$translucent 1
+	"$vertexcolor" 1
+}

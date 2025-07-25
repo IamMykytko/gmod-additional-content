@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\weapons_key_tough_break"
+	$translucent 1
+	$vertexcolor 1
+}

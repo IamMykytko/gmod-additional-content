@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/equalizer_escape_bundle"
+	$translucent 1
+	$vertexcolor 1
+}

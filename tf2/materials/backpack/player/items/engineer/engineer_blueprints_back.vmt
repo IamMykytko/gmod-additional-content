@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/engineer/engineer_blueprints_back"
+	$translucent 1
+	$vertexcolor 1
+}

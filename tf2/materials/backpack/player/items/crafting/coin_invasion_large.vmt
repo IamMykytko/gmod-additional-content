@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\coin_invasion_large"
+	$translucent 1
+	$vertexcolor 1
+}

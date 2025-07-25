@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/heavy/pocket_medic"
+	$translucent 1
+	$vertexcolor 1
+}

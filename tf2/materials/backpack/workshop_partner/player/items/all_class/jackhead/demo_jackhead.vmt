@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\workshop_partner\player\items\all_class\jackhead\demo_jackhead"
+	$translucent 1
+	$vertexcolor 1
+}

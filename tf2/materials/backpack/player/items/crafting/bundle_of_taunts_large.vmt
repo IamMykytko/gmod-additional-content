@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/bundle_of_taunts_large"
+	$translucent 1
+	$vertexcolor 1
+}

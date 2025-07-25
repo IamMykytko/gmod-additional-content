@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/spy/hero_academy_spy/hero_academy_spy_large"
+	$translucent 1
+	$vertexcolor 1
+}

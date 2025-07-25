@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/soldier/ds_can_grenades"
+	$translucent 1
+	$vertexcolor 1
+}

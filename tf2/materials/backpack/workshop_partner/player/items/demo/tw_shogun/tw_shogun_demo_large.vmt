@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/demo/tw_shogun/tw_shogun_demo_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

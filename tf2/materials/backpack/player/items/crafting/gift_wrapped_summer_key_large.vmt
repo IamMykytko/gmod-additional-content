@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/gift_wrapped_summer_key_large"
+	$translucent 1
+	"$vertexcolor" 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/claimcheck_large"
+	$translucent 1
+	$vertexcolor 1
+}

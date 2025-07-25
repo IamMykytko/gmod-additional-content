@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/sniper/bio_sniper_songbird_large"
+	$translucent 1
+	$vertexcolor 1
+}

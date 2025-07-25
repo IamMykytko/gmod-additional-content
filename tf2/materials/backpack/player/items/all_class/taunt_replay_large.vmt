@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/taunt_replay_large"
+	$translucent 1
+	"$vertexcolor" 1
+}

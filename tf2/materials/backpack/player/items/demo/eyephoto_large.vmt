@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/demo/eyephoto_large"
+	$translucent 1
+	$vertexcolor 1
+}

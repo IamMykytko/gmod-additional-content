@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/teampaint_blu_mask"
+	$translucent 1
+	"$vertexcolor" 1
+}

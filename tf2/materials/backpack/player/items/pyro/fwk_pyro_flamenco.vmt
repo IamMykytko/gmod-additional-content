@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/pyro/fwk_pyro_flamenco"
+	$translucent 1
+	$vertexcolor 1
+}

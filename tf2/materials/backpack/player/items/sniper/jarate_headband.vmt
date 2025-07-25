@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/sniper/jarate_headband"
+	$translucent 1
+	"$vertexcolor" 1
+}
+

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\crafting\ticket_summer2015_large"
+	$translucent 1
+}

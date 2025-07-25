@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/strange_part_kill_while_uber"
+	$translucent 1
+	$vertexcolor 1
+}

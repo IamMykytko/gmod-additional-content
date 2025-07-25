@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/pyro/xcom_sectoid_mask"
+	$translucent 1
+	$vertexcolor 1
+}

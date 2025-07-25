@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/professional_grease_rare"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"unlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/backpack_expander_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

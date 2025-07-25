@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/pyro/fob_h_flamethrower_diamond"
+	$translucent 1
+	$vertexcolor 1
+}

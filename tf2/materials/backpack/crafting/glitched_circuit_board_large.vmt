@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/glitched_circuit_board_large"
+	$translucent 1
+	$vertexcolor 1
+}

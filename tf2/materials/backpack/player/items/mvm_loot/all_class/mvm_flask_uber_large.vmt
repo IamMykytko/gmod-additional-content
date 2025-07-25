@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/all_class/mvm_flask_uber_large"
+	$translucent 1
+	$vertexcolor 1
+}

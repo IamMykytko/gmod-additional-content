@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/ash_pile_haunted"
+	$translucent 1
+	$vertexcolor 1
+}

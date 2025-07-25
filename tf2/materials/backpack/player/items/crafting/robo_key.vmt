@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/robo_key"
+	$translucent 1
+	"$vertexcolor" 1
+}

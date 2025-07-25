@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/etf2l_highlander_medal_1_large"
+	$translucent 1
+	$vertexcolor 1
+}

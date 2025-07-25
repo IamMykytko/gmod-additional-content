@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/all_class/brutal_hair/brutal_hair_demo_large"
+	$translucent 1
+	$vertexcolor 1
+}

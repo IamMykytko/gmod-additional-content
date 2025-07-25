@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "backpack/player/items/crafting/medic_bundle_bag"
+	"$translucent" "1"
+	$vertexcolor 1
+}

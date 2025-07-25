@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/engineer/weldingmask"
+	$translucent 1
+	"$vertexcolor" 1
+}

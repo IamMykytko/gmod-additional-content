@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/ticket_invasion"
+	$translucent 1
+	$vertexcolor 1
+}

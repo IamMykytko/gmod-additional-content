@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/ugc8_medal_second_plat_large"
+	$translucent 1
+	$vertexcolor 1
+}

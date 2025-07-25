@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\cyoa_pda\cyoa_pda_gold_large"
+	$translucent 1
+}

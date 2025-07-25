@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\items\paintkit_bundle_03_large"
+	$translucent 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/demo/bio_demo_patch_large"
+	$translucent 1
+	$vertexcolor 1
+}

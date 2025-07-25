@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/heavy/sr3_heavy_mask"
+	$translucent 1
+	$vertexcolor 1
+}

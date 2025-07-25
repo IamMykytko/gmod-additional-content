@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop_partner/player/items/scout/ai_body/ai_body_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

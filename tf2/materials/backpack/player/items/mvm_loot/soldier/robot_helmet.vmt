@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/soldier/robot_helmet"
+	$translucent 1
+	$vertexcolor 1
+}

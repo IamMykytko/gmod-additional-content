@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/pocket_lint"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\stamp_winter2016_gold"
+	$translucent 1
+	$vertexcolor 1
+}

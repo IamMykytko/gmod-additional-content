@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/transmogrifier_pyro"
+	$translucent 1
+	$vertexcolor 1
+}

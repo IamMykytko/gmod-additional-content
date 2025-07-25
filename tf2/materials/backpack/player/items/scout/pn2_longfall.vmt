@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/scout/pn2_longfall"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/mvm_robits_01_large"
+	$translucent 1
+	$vertexcolor 1
+
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" "10"
+      }
+   }
+}

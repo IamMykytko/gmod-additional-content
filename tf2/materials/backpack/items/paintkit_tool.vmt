@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/items/paintkit_tool"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

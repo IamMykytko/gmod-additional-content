@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/all_class/as_robot_chicken/as_robot_chicken_demo"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/strongbox_crate_key_large"
+
+	$translucent 1
+	$vertexcolor 1
+}

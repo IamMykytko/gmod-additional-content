@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/giftapult_loaded"
+	$translucent 1
+	$vertexcolor 1
+}

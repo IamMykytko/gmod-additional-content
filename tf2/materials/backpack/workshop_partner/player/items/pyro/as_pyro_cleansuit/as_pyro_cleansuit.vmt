@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/pyro/as_pyro_cleansuit/as_pyro_cleansuit"
+	$translucent 1
+	$vertexcolor 1
+}

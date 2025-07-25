@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/pyro/shootmanyrobots_pyro_large"
+	$translucent 1
+	$vertexcolor 1
+}

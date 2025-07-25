@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\crafting\cosmetic_case_key_large"
+	$translucent 1
+}

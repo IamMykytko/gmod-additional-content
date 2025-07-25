@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/pyro/drg_pyro_bubblehelmet"
+	$translucent 1
+	$vertexcolor 1
+}

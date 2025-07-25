@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/tag_large"
+	$translucent 1
+	$vertexcolor 1
+}

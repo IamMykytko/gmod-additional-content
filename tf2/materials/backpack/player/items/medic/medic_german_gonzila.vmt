@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/medic/medic_german_gonzila"
+	$translucent 1
+	"$vertexcolor"	1
+}

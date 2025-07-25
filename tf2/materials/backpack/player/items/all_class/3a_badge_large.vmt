@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/3a_badge_large"
+	$translucent 1
+	$vertexcolor 1
+}

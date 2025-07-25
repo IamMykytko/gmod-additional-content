@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/3a_cube"
+	$translucent 1
+	$vertexcolor 1
+}

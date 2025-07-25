@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\weapons_case_paintkit_large"
+	$translucent 1
+}

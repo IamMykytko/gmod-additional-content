@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/all_class/hm_duck/hm_duck_demo"
+	$translucent 1
+	$vertexcolor 1
+}

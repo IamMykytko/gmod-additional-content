@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/token_spy"
+	$translucent 1
+	"$vertexcolor" 1
+}

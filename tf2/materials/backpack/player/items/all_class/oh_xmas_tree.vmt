@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/oh_xmas_tree"
+	$translucent 1
+	$vertexcolor 1
+}

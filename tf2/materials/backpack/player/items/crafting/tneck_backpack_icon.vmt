@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/tneck_backpack_icon"
+	$translucent 1
+	$vertexcolor 1
+}

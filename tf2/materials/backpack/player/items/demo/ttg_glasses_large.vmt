@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/demo/ttg_glasses_large"
+	$translucent 1
+	$vertexcolor 1
+}

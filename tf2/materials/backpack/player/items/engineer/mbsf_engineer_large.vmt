@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/engineer/mbsf_engineer_large"
+	$translucent 1
+	$vertexcolor 1
+}

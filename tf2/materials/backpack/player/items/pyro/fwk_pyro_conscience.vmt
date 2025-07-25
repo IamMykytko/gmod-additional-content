@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/pyro/fwk_pyro_conscience"
+	$translucent 1
+	$vertexcolor 1
+}

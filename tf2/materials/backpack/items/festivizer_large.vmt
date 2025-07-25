@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/items/festivizer_large"
+	$translucent 1
+}

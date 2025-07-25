@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/weiner_bomb_part"
+	$translucent 1
+	$vertexcolor 1
+}

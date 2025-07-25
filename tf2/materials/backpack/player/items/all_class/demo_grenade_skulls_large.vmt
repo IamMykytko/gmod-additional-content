@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/demo_grenade_skulls_large"
+	$translucent 1
+	$vertexcolor 1
+}

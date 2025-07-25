@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/heavy/hwn_heavy_misc1"
+	$translucent 1
+	$vertexcolor 1
+}

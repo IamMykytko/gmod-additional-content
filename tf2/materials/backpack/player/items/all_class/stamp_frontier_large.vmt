@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/stamp_frontier_large"
+	"$translucent"	1
+	"$vertexcolor"	1
+}

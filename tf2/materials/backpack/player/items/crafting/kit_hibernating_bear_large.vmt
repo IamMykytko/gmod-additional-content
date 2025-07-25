@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/kit_hibernating_bear_large"
+	$translucent 1
+	$vertexcolor 1
+}

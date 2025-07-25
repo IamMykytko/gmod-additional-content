@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/all_class_reddit_alt_demo"
+	$translucent 1
+	$vertexcolor 1
+}

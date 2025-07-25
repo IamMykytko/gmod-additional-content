@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/medic/fob_e_medigun"
+	$translucent 1
+	$vertexcolor 1
+}

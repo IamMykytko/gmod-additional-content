@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/heavy/heavy_shogun_topknot/heavy_shogun_topknot_large"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/engineer/xms_engineer_stocking_large"
+	$translucent 1
+	$vertexcolor 1
+}

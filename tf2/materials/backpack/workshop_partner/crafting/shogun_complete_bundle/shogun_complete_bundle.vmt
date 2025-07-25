@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/crafting/shogun_complete_bundle/shogun_complete_bundle"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

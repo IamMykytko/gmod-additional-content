@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/scout/scout_henchboy/scout_henchboy_wings_large"
+	$translucent 1
+	$vertexcolor 1
+}

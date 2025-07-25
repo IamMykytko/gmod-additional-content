@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/tomb_badge"
+	$translucent 1
+	$vertexcolor 1
+}

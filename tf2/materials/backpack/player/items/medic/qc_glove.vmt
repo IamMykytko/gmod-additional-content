@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/medic/qc_glove"
+	$translucent 1
+	$vertexcolor 1
+}

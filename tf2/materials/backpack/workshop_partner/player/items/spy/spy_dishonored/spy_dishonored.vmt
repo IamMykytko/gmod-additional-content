@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/spy/spy_dishonored/spy_dishonored"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/bad_winter_crate_large"
+	$translucent 1
+	$vertexcolor 1
+}

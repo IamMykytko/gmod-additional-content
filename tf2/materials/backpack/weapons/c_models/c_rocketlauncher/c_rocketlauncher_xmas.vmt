@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/c_models/c_rocketlauncher/c_rocketlauncher_xmas"
+	$translucent 1
+	$vertexcolor 1
+}

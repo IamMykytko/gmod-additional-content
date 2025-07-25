@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/sd_rocket_spy"
+	$translucent 1
+	$vertexcolor 1
+}

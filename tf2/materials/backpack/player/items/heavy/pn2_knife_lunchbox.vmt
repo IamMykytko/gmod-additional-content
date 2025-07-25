@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/heavy/pn2_knife_lunchbox"
+	$translucent 1
+	$vertexcolor 1
+}

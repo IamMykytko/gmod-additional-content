@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/sniper/sniper_nohat"
+	$translucent 1
+	"$vertexcolor" 1
+}
+

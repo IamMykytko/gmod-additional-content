@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/heavy/dex_sarifarm/dex_sarifarm_large"
+	$translucent 1
+	$vertexcolor 1
+}

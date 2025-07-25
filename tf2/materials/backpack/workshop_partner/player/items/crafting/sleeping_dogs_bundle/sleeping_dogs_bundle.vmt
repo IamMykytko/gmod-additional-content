@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "backpack/workshop_partner/player/items/crafting/sleeping_dogs_bundle/sleeping_dogs_bundle"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

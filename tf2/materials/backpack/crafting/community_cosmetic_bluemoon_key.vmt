@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\crafting\community_cosmetic_bluemoon_key"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/spy/spy_zombie_large"
+	$translucent 1
+	$vertexcolor 1
+}

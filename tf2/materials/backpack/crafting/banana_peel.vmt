@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/banana_peel"
+	$translucent 1
+	$vertexcolor 1
+}

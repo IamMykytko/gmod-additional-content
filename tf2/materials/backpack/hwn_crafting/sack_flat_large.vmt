@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/hwn_crafting/sack_flat_large"
+	$translucent 1
+	$vertexcolor 1
+}

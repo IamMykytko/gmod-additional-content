@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/pyro/pn2_evilash_large"
+	$translucent 1
+	$vertexcolor 1
+}

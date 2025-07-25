@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/token_pda_large"
+	$translucent 1
+	$vertexcolor 1
+}

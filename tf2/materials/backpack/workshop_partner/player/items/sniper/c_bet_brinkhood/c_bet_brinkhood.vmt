@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/sniper/c_bet_brinkhood/c_bet_brinkhood"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

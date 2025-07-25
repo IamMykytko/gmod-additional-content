@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\crafting\eotl_duck_token_gift"
+	$translucent 1
+}

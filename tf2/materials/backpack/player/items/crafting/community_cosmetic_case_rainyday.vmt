@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\community_cosmetic_case_rainyday"
+	$translucent 1
+	$vertexcolor 1
+}

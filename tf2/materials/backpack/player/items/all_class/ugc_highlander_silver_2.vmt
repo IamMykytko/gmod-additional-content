@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/ugc_highlander_silver_2"
+	$translucent 1
+	$vertexcolor 1
+}

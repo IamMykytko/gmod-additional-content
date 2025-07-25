@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/heavy/xms_heavy_sandvichsafe"
+	$translucent 1
+	$vertexcolor 1
+}

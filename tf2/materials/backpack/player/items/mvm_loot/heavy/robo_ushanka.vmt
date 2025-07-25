@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/heavy/robo_ushanka"
+	$translucent 1
+	$vertexcolor 1
+}

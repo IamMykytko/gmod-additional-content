@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/spy/acr_assassins_cowl"
+	$translucent 1
+	$vertexcolor 1
+}

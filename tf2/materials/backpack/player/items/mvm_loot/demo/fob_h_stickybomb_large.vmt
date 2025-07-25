@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/demo/fob_h_stickybomb_large"
+	$translucent 1
+	$vertexcolor 1
+}

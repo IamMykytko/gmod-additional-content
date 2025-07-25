@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/hwn_crafting/mvm_skeleton_arm_large"
+	$translucent 1
+	$vertexcolor 1
+}

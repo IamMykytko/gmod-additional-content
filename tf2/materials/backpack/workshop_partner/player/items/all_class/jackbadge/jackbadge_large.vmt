@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\workshop_partner\player\items\all_class\jackbadge\jackbadge_large"
+	$translucent 1
+}

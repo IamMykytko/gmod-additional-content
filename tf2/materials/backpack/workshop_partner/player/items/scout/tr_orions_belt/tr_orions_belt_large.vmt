@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop_partner/player/items/scout/tr_orions_belt/tr_orions_belt_large"
+	"$translucent"		"1"
+}

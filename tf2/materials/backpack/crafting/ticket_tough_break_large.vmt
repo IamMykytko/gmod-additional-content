@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\crafting\ticket_tough_break_large"
+	$translucent 1
+}

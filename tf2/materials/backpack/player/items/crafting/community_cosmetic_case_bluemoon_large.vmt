@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\community_cosmetic_case_bluemoon_large"
+	$translucent 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/crafting/noisemaker_harp/noisemaker_harp"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

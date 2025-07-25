@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/kit_scout"
+	$translucent 1
+	"$vertexcolor" 1
+}

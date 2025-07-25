@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/engineer/engy_earphones"
+	$translucent 1
+	"$vertexcolor" 1
+}

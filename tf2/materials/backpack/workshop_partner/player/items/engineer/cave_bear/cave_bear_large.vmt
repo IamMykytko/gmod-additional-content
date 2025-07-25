@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/engineer/cave_bear/cave_bear_large"
+	$translucent 1
+	$vertexcolor 1
+}

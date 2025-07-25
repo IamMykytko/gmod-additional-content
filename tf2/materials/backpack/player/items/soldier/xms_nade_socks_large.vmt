@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/soldier/xms_nade_socks_large"
+	$translucent 1
+	$vertexcolor 1
+}

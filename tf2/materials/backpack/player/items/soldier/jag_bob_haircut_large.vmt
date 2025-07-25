@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/soldier/jag_bob_haircut_large"
+	$translucent 1
+	$vertexcolor 1
+}

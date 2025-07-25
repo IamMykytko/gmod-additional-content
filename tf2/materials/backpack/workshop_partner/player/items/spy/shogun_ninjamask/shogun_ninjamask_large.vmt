@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/spy/shogun_ninjamask/shogun_ninjamask_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\stamp_winter2016_bronze_large"
+	$translucent 1
+}

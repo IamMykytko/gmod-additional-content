@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/pyro/pyro_candle"
+	$translucent 1
+	$vertexcolor 1
+}

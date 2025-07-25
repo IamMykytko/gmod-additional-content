@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/soldier/grenadier_softcap"
+	$translucent 1
+	"$vertexcolor" 1
+}

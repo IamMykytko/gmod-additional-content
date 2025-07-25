@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/engineer/robo_engy_hat"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/killstreakifier_generic"
+	$translucent 1
+	$vertexcolor 1
+}

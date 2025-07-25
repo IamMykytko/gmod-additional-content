@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/stamper_demo_large"
+	$translucent 1
+	$vertexcolor 1
+}

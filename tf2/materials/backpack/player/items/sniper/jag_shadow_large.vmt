@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/sniper/jag_shadow_large"
+	$translucent 1
+	$vertexcolor 1
+}

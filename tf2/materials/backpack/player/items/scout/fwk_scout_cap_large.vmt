@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/scout/fwk_scout_cap_large"
+	$translucent 1
+	$vertexcolor 1
+}

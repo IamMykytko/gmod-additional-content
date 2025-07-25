@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/engineer/fob_h_wrench"
+	$translucent 1
+	$vertexcolor 1
+}

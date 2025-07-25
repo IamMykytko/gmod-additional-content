@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/engineer/teddy_roosebelt_large"
+	$translucent 1
+	$vertexcolor 1
+}

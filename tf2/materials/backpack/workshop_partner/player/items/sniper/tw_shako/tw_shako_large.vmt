@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/sniper/tw_shako/tw_shako_large"
+	$translucent 1
+	$vertexcolor 1
+}

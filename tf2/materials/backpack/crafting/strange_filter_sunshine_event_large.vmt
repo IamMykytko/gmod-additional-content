@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/strange_filter_sunshine_event_large"
+	$translucent 1
+	$vertexcolor 1
+}

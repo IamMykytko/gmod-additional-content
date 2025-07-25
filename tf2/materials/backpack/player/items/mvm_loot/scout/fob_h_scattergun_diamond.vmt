@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/scout/fob_h_scattergun_diamond"
+	$translucent 1
+	$vertexcolor 1
+}

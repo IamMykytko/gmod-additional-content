@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\workshop_partner\player\items\all_class\passtime_medal\passtime_medal_gold"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/winter2013_stocking_stuffer_large"
+	$translucent 1
+	$vertexcolor 1
+}

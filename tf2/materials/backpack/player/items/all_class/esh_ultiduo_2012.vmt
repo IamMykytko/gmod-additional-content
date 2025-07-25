@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/esh_ultiduo_2012"
+	$translucent 1
+	$vertexcolor 1
+}

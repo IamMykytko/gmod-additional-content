@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/hwn_crafting/soldierbot_gib_arm2_large"
+	$translucent 1
+	$vertexcolor 1
+}

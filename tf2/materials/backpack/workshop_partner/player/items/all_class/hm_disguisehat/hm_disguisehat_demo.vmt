@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/all_class/hm_disguisehat/hm_disguisehat_demo"
+	$translucent 1
+	$vertexcolor 1
+}

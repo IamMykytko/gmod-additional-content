@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/sniper/fwk_sniper_corkhat_large"
+	$translucent 1
+	$vertexcolor 1
+}

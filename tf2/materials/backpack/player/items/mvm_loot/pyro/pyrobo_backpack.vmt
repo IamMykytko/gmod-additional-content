@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/mvm_loot/pyro/pyrobo_backpack"
+	$translucent 1
+	$vertexcolor 1
+}

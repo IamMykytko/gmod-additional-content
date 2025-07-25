@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/quest_folder_red_large"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\coin_summer2015_silver_large"
+	$translucent 1
+}

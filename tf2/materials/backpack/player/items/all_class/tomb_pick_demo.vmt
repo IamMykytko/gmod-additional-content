@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/tomb_pick_demo"
+	$translucent 1
+	$vertexcolor 1
+}

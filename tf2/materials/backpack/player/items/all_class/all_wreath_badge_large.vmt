@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/all_wreath_badge_large"
+	$translucent 1
+	$vertexcolor 1
+}

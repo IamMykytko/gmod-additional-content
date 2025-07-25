@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/crafting/scout_hair_icon"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\weapons_key_gun_mettle"
+	$translucent 1
+	$vertexcolor 1
+}

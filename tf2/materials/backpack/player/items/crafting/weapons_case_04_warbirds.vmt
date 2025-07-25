@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\weapons_case_04_warbirds"
+	$translucent 1
+	$vertexcolor 1
+}

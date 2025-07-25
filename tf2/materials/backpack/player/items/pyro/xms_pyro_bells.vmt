@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/pyro/xms_pyro_bells"
+	$translucent 1
+	$vertexcolor 1
+}

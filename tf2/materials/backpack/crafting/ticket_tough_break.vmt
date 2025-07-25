@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\crafting\ticket_tough_break"
+	$translucent 1
+	$vertexcolor 1
+}

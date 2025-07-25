@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/heavy/pugilist_protector_large"
+	$translucent 1
+	"$vertexcolor" 1
+}

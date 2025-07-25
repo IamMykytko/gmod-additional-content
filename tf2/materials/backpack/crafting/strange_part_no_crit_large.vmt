@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/strange_part_no_crit_large"
+	$translucent 1
+	$vertexcolor 1
+}

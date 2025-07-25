@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/spy/spy_private_eye"
+	$translucent 1
+	$vertexcolor 1
+}

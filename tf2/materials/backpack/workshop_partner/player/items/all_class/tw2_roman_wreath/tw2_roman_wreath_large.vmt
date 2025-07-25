@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop_partner/player/items/all_class/tw2_roman_wreath/tw2_roman_wreath_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

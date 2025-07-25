@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/props_halloween/hwn_spellbook_page"
+	$translucent 1
+	$vertexcolor 1
+}

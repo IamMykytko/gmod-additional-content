@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/strange_filter_slasher"
+	$translucent 1
+	$vertexcolor 1
+}

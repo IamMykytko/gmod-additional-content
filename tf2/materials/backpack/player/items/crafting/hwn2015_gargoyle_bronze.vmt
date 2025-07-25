@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\hwn2015_gargoyle_bronze"
+	$translucent 1
+	$vertexcolor 1
+}

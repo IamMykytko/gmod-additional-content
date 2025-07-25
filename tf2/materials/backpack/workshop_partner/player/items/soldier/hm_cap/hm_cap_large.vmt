@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/soldier/hm_cap/hm_cap_large"
+	$translucent 1
+	$vertexcolor 1
+}

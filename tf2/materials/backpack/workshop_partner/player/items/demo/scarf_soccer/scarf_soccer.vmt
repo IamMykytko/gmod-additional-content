@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/demo/scarf_soccer/scarf_soccer"
+	$translucent 1
+	$vertexcolor 1
+}

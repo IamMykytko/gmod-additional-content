@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop_partner/player/items/pyro/tw2_greek_helm/tw2_greek_helm_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

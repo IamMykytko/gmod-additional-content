@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\halloween2018_case"
+	$translucent 1
+	$vertexcolor 1
+}

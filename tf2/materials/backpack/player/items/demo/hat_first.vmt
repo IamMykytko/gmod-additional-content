@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/demo/hat_first"
+	$translucent 1
+	"$vertexcolor" 1
+}

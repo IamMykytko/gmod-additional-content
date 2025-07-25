@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/all_class/all_winter_scarf_engy_large"
+	$translucent 1
+	$vertexcolor 1
+}

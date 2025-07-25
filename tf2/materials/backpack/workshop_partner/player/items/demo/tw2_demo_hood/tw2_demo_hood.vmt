@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop_partner/player/items/demo/tw2_demo_hood/tw2_demo_hood"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

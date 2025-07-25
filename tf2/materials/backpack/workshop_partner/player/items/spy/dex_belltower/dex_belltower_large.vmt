@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/spy/dex_belltower/dex_belltower_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

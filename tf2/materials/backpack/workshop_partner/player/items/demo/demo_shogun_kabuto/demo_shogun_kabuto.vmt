@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/demo/demo_shogun_kabuto/demo_shogun_kabuto"
+	$translucent 1
+	$vertexcolor 1
+}

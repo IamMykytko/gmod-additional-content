@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/surplus_ticket_large"
+	$translucent 1
+	$vertexcolor 1
+}

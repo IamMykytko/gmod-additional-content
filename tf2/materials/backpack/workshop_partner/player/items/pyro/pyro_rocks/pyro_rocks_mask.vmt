@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/workshop_partner/player/items/pyro/pyro_rocks/pyro_rocks_mask"
+	$translucent 1
+	$vertexcolor 1
+}

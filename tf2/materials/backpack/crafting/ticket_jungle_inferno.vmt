@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/crafting/ticket_jungle_inferno"
+	$translucent 1
+	$vertexcolor 1
+}
