@@ -1,0 +1,35 @@
+LightmappedGeneric
+{
+
+$basetexture "Wood/woodwall035a"
+$surfaceprop wood
+"%keywords" c17downtown
+}
+}
+and"
+}
+ump"
+$ssbump 1
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint "[ .15 .15 .15 ]"
+$bumptransform "center .5 .5 scale 1 .25 rotate 0 translate 0 0"
+"%keywords" l4d
+}
+Range
+resultVar $alpha
+}
+Multiply
+{
+srcVar1 $alpha
+srcVar2 $proxTeam
+resultVar $alpha
+}
+TextureScroll
+{
+texturescrollvar $baseTextureTransform
+texturescrollrate 1
+texturescrollangle 90.00
+}
+}
+} "{105 8

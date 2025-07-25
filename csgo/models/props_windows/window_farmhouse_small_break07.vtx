@@ -1,0 +1,69 @@
+LightmappedGeneric
+{
+
+$basetexture "Wood/woodwall035a"
+$surfaceprop wood
+"%keywords" c17downtown
+}
+}
+and"
+}
+ump"
+$ssbump 1
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint "[ .15 .15 .15 ]"
+$bumptransform "center .5 .5 scale 1 .25 rotate 0 translate 0 0"
+"%keywords" l4d
+}
+Range
+resultVar $alpha
+}
+Multiply
+{
+srcVar1 $alpha
+srcVar2 $proxTeam
+resultVar $alpha
+}
+TextureScroll
+{
+texturescrollvar $baseTextureTransform
+texturescrollrate 1
+texturescrollangle 90.00
+}
+}
+} "{105 82 54}"
+}
+resultVar $detailblendfactor
+srcVar1 $one
+srcVar2 $animatedblend
+}
+}
+}}
+
+rescrollvar $bumptransform
+texturescrollrate $temp
+texturescrollangle $temp2
+}
+AnimatedTexture
+{
+animatedtexturevar $basetexture
+animatedtextureframenumvar $frame
+animatedtextureframerate 21.00
+}
+Sine
+{
+resultVar $temp
+sineperiod 317.5
+sinemin -0.0003
+sinemax 0.0003
+}
+Sine
+{
+resultVar $temp2
+sineperiod 400
+sinemin 0
+sinemax 360
+}
+Sine
+{
