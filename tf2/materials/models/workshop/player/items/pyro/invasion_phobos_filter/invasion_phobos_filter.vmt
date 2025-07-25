@@ -1,0 +1,73 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/workshop/player/items/pyro/invasion_phobos_filter/invasion_phobos_filter_1_color"
+	"$bumpmap"		"models/workshop/player/items/pyro/invasion_phobos_filter/invasion_phobos_filter_1_normal"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phongexponenttexture"		"models/workshop/player/items/pyro/invasion_phobos_filter/invasion_phobos_filter_1_phongexponent"
+	"$phong"		"1"
+	"$phongexponent"		"5.200000"
+	"$phongboost"		"2.100000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$phongalbedotint"		"1"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"2.000000"
+	"$rimlightboost"		"1.000000"
+	"$rimmask"		"1"
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0.000000"
+	"$colortint_base"		"{ 255 147 58 }"
+	"$color2"		"{ 255 147 58 }"
+	"$colortint_tmp"		"[0 0 0]"
+	"$bumpmapalphaphongmask"		"1"
+	"$envmap"		"effects/saxxy/saxxy_gold"
+	"$basealphaenvmapmask"		"0"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmaptint"		"[0.007843 0.007843 0.007843]"
+	"$cloakPassEnabled"		"1"
+	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale"		"5"
+	"$detailblendfactor"		"0"
+	"$detailblendmode"		"6"
+	"$yellow"		"0"
+	">=DX90"
+	{
+		"$selfillum"		"1"
+	}
+	"$selfillumtint"		"[2.176471 2.176471 2.176471]"
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"30"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		"$detailblendfactor"
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
+		}
+	}
+}

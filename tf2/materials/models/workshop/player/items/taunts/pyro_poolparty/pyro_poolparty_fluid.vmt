@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "dev/water"
+	"$bumpmap" "models\player\shared\shared_normal"
+	"$translucent" "1"
+
+	"$color2" "[.8 .8 .8]"
+
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "30"
+		}
+	}
+
+}
+

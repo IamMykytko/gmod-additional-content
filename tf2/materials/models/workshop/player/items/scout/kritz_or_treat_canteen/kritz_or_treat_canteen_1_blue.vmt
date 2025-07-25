@@ -1,0 +1,48 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/workshop/player/items/scout/kritz_or_treat_canteen/kritz_or_treat_canteen_color"
+	"$bumpmap"		"models/workshop/player/items/scout/kritz_or_treat_canteen/kritz_or_treat_canteen_1_normal"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"25"
+	"$phongboost"		"0.100000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
+	"$bumpmapalphaphongmask"		"1"
+	"$cloakPassEnabled"		"1"
+	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale"		"5"
+	"$detailblendfactor"		"0"
+	"$detailblendmode"		"6"
+	"$yellow"		"0"
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"30"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		"$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"		"$yellow"
+			"resultVar"		"$color2"
+		}
+	}
+	"$translucent"		"1"
+	"$alphatest"		"1"
+	"$color2"		"{ 255 255 255 }"
+}

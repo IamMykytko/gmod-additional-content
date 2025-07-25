@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/workshop/cases/invasion_case/invasion_key"
+	
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "2"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$basemapalphaphongmask" "1"
+	
+	"$phongalbedotint" "1"
+	"$phongtint" "[0.3 0.7 0.7]"
+}

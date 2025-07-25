@@ -1,0 +1,54 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/workshop/player/items/all_class/canteen_crasher_silver/canteen_crasher_silver_color"
+	"$lightwarptexture"		"models/weapons/c_items/c_ambassador_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"15.000000"
+	"$phongboost"		"6.000000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$basemapalphaphongmask"		"1"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"1.000000"
+	"$color2"		"{ 255 255 255 }"
+	"$bumpmapalphaphongmask"		"1"
+	"$envmap"		"env_cubemap"
+	"$basealphaenvmapmask"		"0"
+	"$normalmapalphaenvmapmask"		"0"
+	"$envmaptint"		"[0.333333 0.333333 0.470588]"
+	"$cloakPassEnabled"		"1"
+	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale"		"5"
+	"$detailblendfactor"		"0"
+	"$detailblendmode"		"6"
+	"$yellow"		"0"
+	">=DX90"
+	{
+		"$selfillum"		"0"
+	}
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"30"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		"$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"		"$yellow"
+			"resultVar"		"$color2"
+		}
+	}
+}

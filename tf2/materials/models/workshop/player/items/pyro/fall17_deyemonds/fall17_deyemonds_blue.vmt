@@ -1,0 +1,71 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/workshop/player/items/pyro/fall17_deyemonds/fall17_deyemonds_color"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"40.000000"
+	"$phongboost"		"30.000000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"150.000000"
+	"$rimlightboost"		"2.000000"
+	"$blendtintbybasealpha"		"0"
+	"$blendtintcoloroverbase"		"0.000000"
+	"$colortint_base"		"{ 50 123 171 }"
+	"$color2"		"{ 50 123 171 }"
+	"$colortint_tmp"		"[0 0 0]"
+	"$bumpmapalphaphongmask"		"1"
+	"$translucent"		"1"
+	"$alphatest"		"0"
+	"$envmap"		"env_cubemap"
+	"$basealphaenvmapmask"		"0"
+	"$normalmapalphaenvmapmask"		"0"
+	"$envmaptint"		"[0.898039 0.800000 1.000000]"
+	"$cloakPassEnabled"		"1"
+	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale"		"5"
+	"$detailblendfactor"		"0"
+	"$detailblendmode"		"6"
+	"$yellow"		"0"
+	">=DX90"
+	{
+		"$selfillum"		"1"
+	}
+	"$selfillumtint"		"[0.196078 0.482353 0.670588]"
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"30"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		"$detailblendfactor"
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
+		}
+	}
+}

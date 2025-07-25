@@ -1,0 +1,109 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/workshop/player/items/all_class/hwn2020_misfortune_fedora/hwn2020_misfortune_fedora_1_color"
+	"$angle"		"0.000000"
+	"$translate"		"[0.0 0.0]"
+	"$center"		"[0.5 0.5]"
+	"$scale"		"1"
+	"$lightwarptexture"		"models/lightwarps/weapon_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"80.000000"
+	"$phongboost"		"3.000000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
+	"$blendtintbybasealpha"		"0"
+	"$blendtintcoloroverbase"		"0.000000"
+	"$colortint_base"		"{ 195 120 120 }"
+	"$color2"		"{ 195 120 120 }"
+	"$colortint_tmp"		"[0 0 0]"
+	"$bumpmapalphaphongmask"		"1"
+	"$envmap"		"env_cubemap"
+	"$basealphaenvmapmask"		"0"
+	"$normalmapalphaenvmapmask"		"0"
+	"$envmaptint"		"[0.156863 0.156863 0.156863]"
+	"$cloakPassEnabled"		"1"
+	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale"		"5"
+	"$detailblendfactor"		"0"
+	"$detailblendmode"		"6"
+	"$yellow"		"0"
+	">=DX90"
+	{
+		"$selfillum"		"1"
+	}
+	"$selfillumtint"		"[4 4 4]"
+	"$selfillummask"		"models/workshop/player/items/all_class/hwn2020_misfortune_fedora/hwn2020_misfortune_fedora_1_illum"
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"30"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		"$detailblendfactor"
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"Sine"
+		{
+			"resultVar"		"$selfillumtint"
+			"sineperiod"		"6"
+			"sinemin"		"3.000000"
+			"sinemax"		"6.000000"
+		}
+		"Sine"
+		{
+			"resultVar"		"$angle"
+			"sineperiod"		"60"
+			"sinemin"		"-360"
+			"sinemax"		"360"
+		}
+		"Sine"
+		{
+			"resultVar"		"$scale"
+			"sineperiod"		"12"
+			"sinemin"		"0.500000"
+			"sinemax"		"3"
+		}
+		"LinearRamp"
+		{
+			"resultVar"		"$translate"
+			"rate"		"0.080000"
+			"initialValue"		"0"
+		}
+		"TextureTransform"
+		{
+			"centerVar"		"$center"
+			"scaleVar"		"$scale"
+			"rotateVar"		"$angle"
+			"translateVar"		"$translate"
+			"resultVar"		"$basetexturetransform"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
+		}
+	}
+}
