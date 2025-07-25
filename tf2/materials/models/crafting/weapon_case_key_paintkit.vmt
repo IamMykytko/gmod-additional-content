@@ -1,0 +1,36 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/crafting/weapon_case_key_paintkit"
+	"$phongexponenttexture" "models/crafting/weapon_case_key_exp"
+	
+	"$phong" "1"
+	//commented out to use the exponent mask
+	//"$phongexponent" "255"
+	"$phongboost" "25"	
+	
+	//scales up the exponent texture which usually only has about 120 levels of exponent
+	"$phongexponentfactor"  "55"
+	"$phongalbedotint" "1"
+	
+	"$lightwarptexture" "models/lightwarps/softened_weapon_lightwarp"
+			
+	"$phongfresnelranges"	"[.3 .5 3]"
+	"$halflambert" "1"
+	"$glowcolor" "1"
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.15 .15 .25]"
+
+	"$tempvar" "0"
+
+	//commented out to use the exponent mask
+	//"$basephongexponent" "15"
+	//"$basephongboost" "3"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "2"				
+	"$rimlightboost" "20"
+	"$rimmask" "0"
+}

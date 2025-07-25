@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/flag/ticket_case"
+	"$envmap" "env_cubemap"
+	"$basemapalphaphongmask" "1"
+	"$envmapsaturation"     ".4"
+	"$EnvmapTint" "[0.5 0.5 0.5]"
+
+	"$bumpmap" "models/flag/ticket_case_normal"
+		
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "1"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.5 1 2]"
+	
+	"$detail" "overlays/detail001"
+	"$detailscale" "4"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "50"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "3"										// Boost for ambient cube component of rim lighting
+	//"$rimmask" "1"                  // Use the alpha channel of the $phongexponenttexture as a rim mask.
+}

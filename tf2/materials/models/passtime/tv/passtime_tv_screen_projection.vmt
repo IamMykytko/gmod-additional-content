@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models/passtime/tv/passtime_tv_screen_projection"
+	$selfillum 1
+
+"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 10
+		}
+
+	}
+
+
+}

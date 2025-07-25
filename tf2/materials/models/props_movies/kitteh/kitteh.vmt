@@ -1,0 +1,7 @@
+"UnLitGeneric"
+{
+	"$basetexture"	"models/props_movies/kitteh/kitteh"
+	"$surfaceprop"	"default"
+	"$alphatest" 1
+	"$nocull" 1
+}

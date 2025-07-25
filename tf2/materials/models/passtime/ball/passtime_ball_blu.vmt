@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/passtime/ball/passtime_ball_blu"
+	$bumpmap "models/passtime/ball/passtime_ball_normal_spec"
+	
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmapsaturation"     ".4"
+	"$EnvmapTint" "[0.01 0.01 0.01]"
+	
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[1.25 .5 2]"
+	"$selfillum" 1
+	"$selfillummask" "models/passtime/ball/passtime_ball_illum"
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\buildables\sentry_shield/sentry_shield_blue"
+	"$translucent" "1"
+//	$nocull 1
+	$nodecal 1
+}

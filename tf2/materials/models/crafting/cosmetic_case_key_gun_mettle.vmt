@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/crafting/cosmetic_case_key_gun_mettle"
+	"$bumpmap" "models/crafting/cosmetic_case_key_gun_mettle_normal" 
+	
+	"$phongexponenttexture" "models/crafting/cosmetic_case_key_gun_mettle_exp"
+	"$phong" "1"
+	"$phongboost" "4"	
+	
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"	
+//"$lightwarptexture" "models/lightwarps/softened_weapon_lightwarp"
+			
+	"$phongfresnelranges"	"[.5 1 4]"
+	
+	"$envmap" "cubemaps/cubemap_sheen002"
+	"$envmaptint" "[1.3 .9 2]"
+	
+	// Rim lighting parameters
+	"$rimmask" 1
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "1"
+}

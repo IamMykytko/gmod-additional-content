@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/ol/blumain"
+	"$surfaceprop" "metal"
+	$model 1
+	"%keywords" "ol"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" .8
+	"$envmapmask" "models/ol/bluspecular"
+	 //"$envmapmasktransform" "center .5 .5 scale .25 .25 rotate 0 translate 0 0"	//dx9 only
+ 	// "$envmapmaskscale" .25			//duplicates dx9 transform/scale (25%) for dx8 GPUs	
+}

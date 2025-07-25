@@ -1,0 +1,6 @@
+"UnLitGeneric"
+{
+	"$basetexture"	"models/props_halloween/halloween_demoeye_lightwarp"
+	"$surfaceprop"	"flesh"
+	"$model"		1
+}

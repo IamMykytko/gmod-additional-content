@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\custom\dirty_bomb_cart"
+	"$surfaceprop" "metal"
+	"$envmapcontrast" 1
+     	"$model" 1
+	"$nocull" 1
+     	
+	
+	
+}

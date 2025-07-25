@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/ol/SignBase"
+	"$surfaceprop" "metal"
+	"%keywords" "ol"
+	$model 1
+}

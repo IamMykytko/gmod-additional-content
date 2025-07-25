@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/passtime/turbine/goal_turbine"
+	"$surfaceprop" "Metal"
+}

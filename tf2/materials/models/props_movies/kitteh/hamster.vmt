@@ -1,0 +1,7 @@
+"UnLitGeneric"
+{
+	"$basetexture"	"models/props_movies/kitteh/hamster"
+	"$surfaceprop"	"default"
+	"$translucent"	1
+	"$nocull" 1
+}

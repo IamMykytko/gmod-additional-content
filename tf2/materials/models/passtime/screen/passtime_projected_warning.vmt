@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/passtime/screen/passtime_projected_warning"
+	"$translucent" 1
+	"$surfaceprop" "Default"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+		"animatedTextureVar" "$basetexture"
+		"animatedTextureFrameNumVar" "$frame"
+		"animatedTextureFrameRate" "18"
+		}
+	}
+}
