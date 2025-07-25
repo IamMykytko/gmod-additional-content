@@ -1,0 +1,21 @@
+"WorldVertexTransition"
+{
+$baseTexture "cobblestone/hr_c/inferno/cobblestone_a"
+$bumpmap "cobblestone/hr_c/inferno/cobblestone_a_normals"
+
+$blendmodulatetexture "cobblestone/hr_c/inferno/cobblestone_a_blend"
+
+"$basetexture2" "nature\hr_c\hr_dirt_001_color"
+"$bumpmap2" "brick\hr_brick\inferno\empty_normals"
+
+$surfaceprop concrete
+$surfaceprop2 dirt
+	
+"$detail" 				"detail\noise_detail_01"
+"$detailscale" 			"[8 8]"
+"$detailblendfactor" 	".25"
+
+}
+
+
+

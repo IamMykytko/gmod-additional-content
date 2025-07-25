@@ -1,0 +1,29 @@
+WorldVertexTransition
+{
+$blendmodulatetexture "concrete/hr_C/hr_conc_k_blend"
+$baseTexture "concrete/hr_c/hr_conc_k"
+$basetexture2 "tile/hr_t/tiles_e"
+$surfaceprop concrete
+$bumpmap "concrete/hr_c/hr_conc_k_normals"
+$bumpmap2 "tile/hr_t/tiles_e_normals"
+	"$detail" 				"detail\plaster_detail_01"
+		 				
+	"$detailscale" 			"8"
+	"$detailblendfactor" 	".6"
+
+//"$envmap" "env_cubemap"
+"$envmaplightscale" 1 
+//$normalmapalphaenvmapmask 1
+//$envmaptint "[ .01 .01 .01 ]"
+                "$phong"                         "1"                                         
+
+                "$phongexponent"                   "45.0"                                    
+                "$phongMaskContrastBrightness"       "[3.0 2]"                           
+                "$phongBaseTint"                   "0.0"                                   
+                "$phongAmount"                   "[.5 .4 .2 1.0]"            
+
+                "$phongexponent2"                                      "60.0"                       
+                "$phongMaskContrastBrightness2"        "[4.0 0]"                       
+                "$phongBaseTint2"                                        "0.0"                                    
+                "$phongAmount2"  				 "[2 2 2 1.0]" 
+}

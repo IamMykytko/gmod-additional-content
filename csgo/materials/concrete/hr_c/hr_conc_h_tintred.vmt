@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+	"$basetexture" concrete\hr_c\hr_conc_h
+	"$bumpmap"         		"concrete\hr_c\hr_conc_h_normals"
+
+	$color "{130 90 75}"
+
+$surfaceprop concrete
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[8 8 8]"
+	"$detailblendfactor" 	".5"
+
+	
+}

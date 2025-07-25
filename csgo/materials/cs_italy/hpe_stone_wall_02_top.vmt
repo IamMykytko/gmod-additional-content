@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	$baseTexture "cs_italy/hpe_stone_wall_02_top"
+	$surfaceprop "concrete"
+	"$bumpmap" "cs_italy/hpe_stone_wall_02_top_normal"
+ 	"$envmap" "env_cubemap"
+	"$envmapcontrast" "1"
+	"$normalmapalphaenvmapmask" 1
+}

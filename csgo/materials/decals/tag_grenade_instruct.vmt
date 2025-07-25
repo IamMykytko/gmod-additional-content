@@ -1,0 +1,9 @@
+lightmappedgeneric
+{
+	"$basetexture" "decals/tag_grenade_instruct"
+	"$translucent" 1
+	"$decal"       1
+	"$decalscale"  0.25
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

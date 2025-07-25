@@ -1,0 +1,27 @@
+"worldvertextransition"
+{
+	"%tooltexture"			"christmas\metal_roof_snow_1_blend_1_tooltexture"
+
+	"$basetexture"                 "christmas\metal_roof_snow_1"
+	"$bumpmap"                     "christmas\metal_roof_snow_1_normal"
+
+//	"$blendmodulatetexture"        "christmas\metal_roof_snow_4_blend_modulate"
+
+	"$basetexture2"                "christmas\metal_roof_snow_2"
+	"$bumpmap2"                    "christmas\metal_roof_snow_2_normal"
+
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" "1"
+//	"$envmaptint" 			"[.7 .7 .7]"
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 0.1]"
+//	"$envmapcontrast"		"1"
+//	"$envmapsaturation"		"1"  
+
+	"$surfaceprop"          "metal"
+	"$surfaceprop2"         "metal"
+//	"%detailtype"           "survival_scrubgrass"
+
+
+
+}

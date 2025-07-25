@@ -1,0 +1,14 @@
+lightmappedgeneric
+{
+	"$decal"                  "1"
+	"$basetexture"            "decals/hr_decals/door_window_001"
+	"$alphatest"              "1"
+	"$allowalphatocoverage"   "1"
+	"$alphatestreference"     "0.3"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapmask"             "decals/hr_decals/door_window_001_specmask"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2.5]"
+	"$vertexcolor"            "1"
+	"$vertexalpha"            "1"
+}

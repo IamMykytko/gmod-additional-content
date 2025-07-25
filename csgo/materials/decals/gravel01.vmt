@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"ground\gravel01"
+	"$translucent" 	"1"
+	"$decal" 		"1"
+	"$decalscale" 	"0.25"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+	"%tooltexture"	"decals\gravel01_tooltexture"
+	"%keywords"		"house, de_house"
+}

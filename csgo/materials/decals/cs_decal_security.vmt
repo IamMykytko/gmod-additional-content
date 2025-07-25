@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\CS_Decal_SECURITY"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.500"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+}

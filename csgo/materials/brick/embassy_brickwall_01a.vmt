@@ -1,0 +1,23 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "brick/embassy_brickwall_01a"
+	"$surfaceprop" "brick"
+	"$bumpmap" "brick/embassy_brickwall_01_ssbump"
+
+	"$ssbump" "1"
+ 	
+//	"$envmap" "env_cubemap"
+	"$envmap" "cubemaps/urban_cube01"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ .07 .07 .07 ]"
+
+	"$detail" "detail\detail_brick_01"
+	"$detailscale" "7"
+	"$detailblendfactor" .6
+	"$detailblendmode" 7
+
+//	"$bumptransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+
+// 	"$parallaxmap" 1
+//	"$height_scale" 80
+}

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+ 	"$baseTexture" 		"de_aztec/hr_aztec/hr_aztec_ceiling_wood_01_color"
+	"$bumpmap" 			"de_aztec/hr_aztec/hr_aztec_ceiling_wood_01_normal"
+	
+	$surfaceprop "Wood_Plank"
+                                                          
+	"%keywords" "ceiling,wood,aztec" 	
+}

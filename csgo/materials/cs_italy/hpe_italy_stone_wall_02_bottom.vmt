@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "cs_italy/hpe_italy_stone_wall_02_bottom"
+	"$surfaceprop" "rock"
+	"$bumpmap" "cs_italy/hpe_italy_stone_wall_02_bottom_normal"
+}

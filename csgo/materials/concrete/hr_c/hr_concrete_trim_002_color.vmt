@@ -1,0 +1,5 @@
+lightmappedgeneric
+{
+	"$basetexture" "concrete/hr_c/hr_concrete_trim_002_color"
+	"$surfaceprop" "concrete"
+}

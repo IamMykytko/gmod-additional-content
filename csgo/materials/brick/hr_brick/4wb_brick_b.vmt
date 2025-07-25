@@ -1,0 +1,52 @@
+Lightmapped_4WayBlend
+{
+    "$basetexture"      	 "brick/hr_brick/brick_f"
+	"$bumpmap"         		"brick/hr_brick/brick_f_normals"
+	
+    "$basetexture2"        "brick/hr_brick/brick_f2"
+    "$bumpmap2"            "brick/hr_brick/brick_f2_normals"
+	
+    "$texture2_uvscale"    "[4 4]"
+    "$texture2_lumstart"   "0.1"
+    "$texture2_lumend"     "0.4"
+    "$texture2_blendstart" "0.9"
+    "$texture2_blendend"   "1"
+
+    "$basetexture3"        "brick/hr_brick/brick_f1"
+    "$texture3_blendmode"  "0"
+    "$texture3_uvscale"    "[1 1]"
+    "$texture3_lumstart"   "0.1"
+    "$texture3_lumend"     "0.9"
+    "$texture3_blendstart" "0.85"
+    "$texture3_blendend"   ".9"
+	"$texture3_bumpblendfactor" "1"
+
+    "$basetexture4"         "grime/hr_g/grime_a"
+    "$texture4_blendmode"  "0"
+    "$texture4_uvscale"    "[4 4]"
+    "$texture4_lumstart"   "0"
+    "$texture4_lumend"     ".3s"
+    "$texture4_blendstart" "0.98"
+    "$texture4_blendend"   ".99"
+	"$texture4_bumpblendfactor" ".5"
+
+    "$detail"              "detail\detail_concrete_02"
+    "$detailscale"         "[ 7 7 ]"
+    "$detailblendfactor"   ".2"
+    "$detailblendfactor2"  ".4"
+    "$detailblendfactor3"  ".2"
+    "$detailblendfactor4"  ".1"
+	
+	"$basealphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.8 .8 .8]"
+	"$lumblendfactor2"          "0.5"
+    "$lumblendfactor3"          ".8"
+    "$lumblendfactor4"          "1"
+	
+	"$surfaceprop" "concrete_block"
+	
+}
+
+
+

@@ -1,0 +1,16 @@
+WorldVertexTransition
+{
+$baseTexture "concrete/hr_c/hr_conc_j"
+$basetexture2 "concrete/hr_c/hr_conc_i"
+$surfaceprop concrete
+$bumpmap "concrete/hr_c/hr_conc_j_normals"
+$bumpmap2 "concrete/hr_c/hr_conc_i_normals"
+$blendmodulatetexture "concrete/hr_c/hr_conc_i_blend"
+$SSBumpMathFix 1
+//$envmap "cubemaps/urban_cube01"
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[5 5 5]"
+	"$detailblendfactor" 	".5"
+//$normalmapalphaenvmapmask 1
+//$envmaptint "[ .05 .05 .05 ]"
+}

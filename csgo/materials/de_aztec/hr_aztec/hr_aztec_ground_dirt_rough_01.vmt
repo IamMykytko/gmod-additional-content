@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 		"de_aztec/hr_aztec/hr_aztec_ground_dirt_rough_01_color.vtf"
+	"$bumpmap" 			"de_aztec/hr_aztec/hr_aztec_ground_dirt_rough_01_normal.vtf"
+	
+	"$surfaceprop" 			"dirt"
+                                                          
+	//"%keywords" "dirt,dust,ground,gravel,sand" 	
+} 

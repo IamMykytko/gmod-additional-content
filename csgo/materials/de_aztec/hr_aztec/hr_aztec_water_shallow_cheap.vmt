@@ -1,0 +1,41 @@
+"Water"
+{
+	"%compilewater" 1
+	"%tooltexture" "dev/water_normal"
+
+	"$abovewater" 1
+	"$surfaceprop" "water"
+	"$bottommaterial" "de_aztec/hr_aztec/hr_aztec_water_beneath"
+	"$normalmap" "dev/water_normal"
+
+    //Go with the flow!
+	$flowmap "de_aztec/hr_aztec/hr_aztec_flowmap"
+    $flow_normaluvscale 100.0
+	$flow_worlduvscale 1
+    $flow_timeintervalinseconds 0.2 // Amount of time before the change happens
+    $flow_uvscrolldistance 0.175 // Stretch of UV Distance before change over to second set of flow
+    $flow_bumpstrength 1.5
+    $flow_timescale 0.35
+    $flow_noise_texture "liquids/water_noise"
+    $flow_noise_scale .0005
+    $flow_debug 0
+
+    // Reflection
+	//$reflectonlymarkedentities 1
+	//$reflect2dskybox 1
+	//"$reflecttexture" "_rt_WaterReflection"
+	"$reflecttexture" "tools/toolsblack"
+	"$reflecttint" "{ 170 170 170}"
+	//"$reflectentities" 1
+	"$reflectamount" "1"
+
+	$pseudotranslucent 1
+	$waterblendfactor 0.7
+
+    // Fog
+	"$fogenable" 1
+	"$fogcolor" "{ 90 86 61 }"
+	"$fogstart" -10
+	"$fogend" 55
+	$lightmapwaterfog 1	
+}

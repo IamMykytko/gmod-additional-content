@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	$color 0.004 // just over 1/255
+	$linearwrite 1
+	$additive 1
+}

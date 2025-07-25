@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/hr_brick/inferno/brick_a"
+
+	"$surfaceprop" "brick"
+
+"$detail" 				"detail\plaster_detail_01"
+"$detailscale" 			"[10 10]"
+"$detailblendfactor" 	".35"
+
+}

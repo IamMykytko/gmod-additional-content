@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	
+	"$basetexture" "concrete/hr_c/hr_conc_j_decal"
+	"$bumpmap"	"concrete/hr_c/hr_conc_j_decal_normals"
+	$translucent 1
+
+
+}

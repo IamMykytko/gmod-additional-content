@@ -1,0 +1,5 @@
+unlitgeneric
+{
+	$basetexture dev/snowflake
+	$additive 1
+}

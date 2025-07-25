@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	"$basetexture" "effects/survival_zone_projection_inv"
+	"$multiply" "1"
+	"$linearwrite" "1"
+}

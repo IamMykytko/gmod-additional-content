@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals\hr_decals\venice_grime_1"
+
+	"$translucent" 1
+	"$decal" 1
+
+}

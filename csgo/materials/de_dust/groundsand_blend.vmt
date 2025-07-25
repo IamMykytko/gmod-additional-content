@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	
+	"$baseTexture" "de_dust/groundsand03"
+	"$basetexture2" "concrete/blacktop_ext_04"
+
+	$normalmapalphaenvmapmask 1
+
+	"$surfaceprop" "sand"
+
+	"$bumpmap" "de_dust/groundsand03_normal"
+	//"$bumpmap" "de_dust/groundsand03a_normal"
+	"%keywords" "cstrike" 
+}

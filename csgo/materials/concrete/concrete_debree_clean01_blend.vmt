@@ -1,0 +1,20 @@
+"WorldVertexTransition" 
+{
+	"$baseTexture" 			"concrete/concrete_debree_clean01"
+	"$baseTexture2" 		"concrete/concrete_debree_clean01_wet"
+	"$ssbump"				"1"
+	"$bumpmap" 				"concrete/concrete_debree_clean01_ssbump"
+	"$bumpmap2" 			"concrete/concrete_debree_clean01_ssbump"
+	"$surfaceprop" 			"dirt"
+	"$surfaceprop2" 		"dirt"
+
+	"$blendmodulatetexture"	"concrete/concrete_debree_clean01_blend"
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.01 .01 .01]"	
+		
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[8 8 8 ]"
+	"$detailblendfactor" 	"1"
+
+
+}

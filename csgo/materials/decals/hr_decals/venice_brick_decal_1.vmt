@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals\hr_decals\venice_brick_decal_1"
+	$bumpmap "brick/hr_brick/venice/venice_brick_4g_normal"
+
+	"$translucent" 1
+	"$decal" 1
+
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[9 9 9]"
+	"$detailblendfactor" 	".6"
+
+}

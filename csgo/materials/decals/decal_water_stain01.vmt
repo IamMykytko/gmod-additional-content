@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\decal_water_stain01"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "1.000"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+}

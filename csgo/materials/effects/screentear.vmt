@@ -1,0 +1,8 @@
+screenspace_general
+{
+	"$basetexture" "_rt_fullframefb"
+	"$texture1"    "effects/screentear1"
+	"$pixshader"   "cs_screentear_ps30"
+	"$c0_y"        "0"
+	"$c0_x"        "0"
+}

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/hr_brick/inferno/brick_m"
+	"$bumpmap"  "brick/hr_brick/inferno/brick_m_normals"
+	"$surfaceprop" "rock"
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[8 8]"
+	"$detailblendfactor" 	".4"
+}

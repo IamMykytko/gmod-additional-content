@@ -1,0 +1,6 @@
+screenspace_general
+{
+	"$pixshader" "cs_zone_distancefield_inv_ps30"
+	"$blendopmin" "1"
+	"$linearwrite" "1"
+}

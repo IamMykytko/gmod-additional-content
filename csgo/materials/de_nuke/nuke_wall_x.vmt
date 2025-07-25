@@ -1,0 +1,12 @@
+lightmappedgeneric
+{
+	"$basetexture"          "de_nuke/nuke_wall_x"
+	"$surfaceprop"          concrete
+	"$alphatest"            "1"
+	"$allowalphatocoverage" "1"
+	"$alphatestreference"   "0.4"
+	"$decal"                1
+	"$decalscale"           ".25"
+	"$vertexcolor"          1
+	"$vertexalpha"          1
+}

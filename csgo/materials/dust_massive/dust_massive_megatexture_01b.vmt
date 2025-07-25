@@ -1,0 +1,23 @@
+"WorldVertexTransition"
+{
+	"$basetexture"              "dust_massive\dust_massive_megatexture_01b"
+	"$basetexture2"              "dust_massive\dust_massive_megatexture_01b"
+	"$surfaceprop"              "sand"
+
+//	"$layertint2"				"{200 200 200}"
+
+	"$detail"                   "dust_massive\detail_ground_02"
+	"$detail2"                   "dust_massive\detail_ground_03"
+	"$detailscale"              "[ 50 50 ]"
+	"$detailscale2"              "[ 50 50 ]"
+	"$detailblendfactor"        "0.7"
+	"$detailblendfactor2"       "0.7"
+
+
+
+
+
+	"%detailtype"           "survival_grass"
+	"$surfacepropalpha"	"slowgrass"
+	
+}

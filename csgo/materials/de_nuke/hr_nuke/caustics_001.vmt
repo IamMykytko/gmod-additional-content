@@ -1,0 +1,14 @@
+"modulate"
+{
+	"$basetexture"               "de_nuke/hr_nuke/caustics_001"
+	"$mod2x"                     "1"
+	"proxies"
+	{
+		"animatedtexture"
+		{
+			"animatedtexturevar"         "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate"   22.50
+		}
+	}
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_cbble/CBBLE_Tile_01"
+	"$surfaceprop" "brick"
+	//	"$detail" "detail/dt_ground2" 
+ 	//"$bumpmap" "de_mirage/ground/ground_tilef_normals"
+}

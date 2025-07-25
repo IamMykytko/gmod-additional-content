@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete/vertigo_concretewalla"
+	"$surfaceprop" "Concrete"
+//	"$detail" "detail/detailconcrete001a"
+//	"$detailscale" "3"
+	"$detail" "detail/dt_stone1"
+	"$detailscale" "10"
+}

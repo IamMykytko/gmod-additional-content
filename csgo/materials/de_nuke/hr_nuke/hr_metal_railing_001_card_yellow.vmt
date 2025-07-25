@@ -1,0 +1,10 @@
+lightmappedgeneric
+{
+	"$basetexture"          "de_nuke/hr_nuke/hr_metal_railing_001_card_color"
+	"$alphatest"            "1"
+	"$allowalphatocoverage" "1"
+	"$alphatestreference"   "0.2"
+	"$bumpmap"              "de_nuke/hr_nuke/hr_metal_railing_001_card_normals"
+	"$nocull"               "1"
+	"$color"                "{237 191 63}"
+}

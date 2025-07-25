@@ -1,0 +1,13 @@
+"worldvertextransition"
+{
+	"$basetexture"          "brick/hr_brick/venice/venice_brick_1"
+	"$bumpmap"              "brick/hr_brick/venice/venice_brick_1_normal"
+	"$blendmodulatetexture" "brick/hr_brick/venice/venice_brick_1b_blend"
+	"$basetexture2"         "brick/hr_brick/venice/venice_brick_1_dirty"
+	"$bumpmap2"             "brick/hr_brick/venice/venice_brick_1_normal"
+	"$surfaceprop"          "concrete"
+	"$detail"               "detail/detailconcrete001a"
+	"$detail2"              "detail/detailconcrete001a"
+	"$detailscale"          "[8 8 8 ]"
+	"$detailblendfactor"    "1"
+}

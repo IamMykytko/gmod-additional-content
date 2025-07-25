@@ -1,0 +1,14 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "concrete/hr_c/hr_sidewalk_c"
+	"$surfaceprop"  	"concrete"
+	"$bumpmap" 	"concrete/hr_c/hr_sidewalk_c_normals"
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[2 2 2]"
+	"$detailblendfactor" 	"1"
+					"$phong" "1"
+                "$phongexponent" "45.0"
+                "$phongMaskContrastBrightness" "[3 .5]"
+                "$phongAmount" "[.5 .5 .5 1.0]"
+}

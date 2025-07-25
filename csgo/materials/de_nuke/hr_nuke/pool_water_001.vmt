@@ -1,0 +1,30 @@
+"refract"
+{
+	"$refractamount"            ".050"
+	"$bluramount"               "1"
+	"$normalmap"                "de_nuke/hr_nuke/pool_water_normals_001"
+	"$normalmap2"               "de_nuke/hr_nuke/pool_water_normals_002"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap"                   "environment maps/metal_generic_003"
+	"$envmaptint"               "[.5 .7 1]"
+	"$fresnelreflection"        0.2
+	"$mirroraboutviewportedges" 1
+	"$surfaceprop"              "water"
+	"$fadeoutonsilhouette"      "1"
+	"$refracttinttexture"       " "glass/hr_g/hr_glass_panel_001" "
+	"proxies"
+	{
+		"texturescroll"
+		{
+			"texturescrollvar"          "$bumptransform"
+			"texturescrollrate"         "0.01"
+			"texturescrollangle"        "0"
+		}
+		"texturescroll"
+		{
+			"texturescrollvar"          "$bumptransform2"
+			"texturescrollrate"         "0.06"
+			"texturescrollangle"        "20"
+		}
+	}
+}

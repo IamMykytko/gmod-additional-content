@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "de_cbble\fabric\fabric_a"
+"$bumpmap" "de_cbble\fabric\fabric_a_normal"
+"$detail" 				"detail\noise_detail_01"
+"$detailscale" 			"[ 8 8 ]"
+"$detailblendfactor" 	".5"
+}

@@ -1,0 +1,8 @@
+lightmappedgeneric
+{
+	"$basetexture"       "concrete/hr_c/hr_concrete_floor_001_color"
+	"$surfaceprop"       "rubber"
+	"$detail"            "concrete/hr_c/hr_concrete_polished_001_detail"
+	"$detailscale"       ".10"
+	"$detailblendfactor" "1.25"
+}

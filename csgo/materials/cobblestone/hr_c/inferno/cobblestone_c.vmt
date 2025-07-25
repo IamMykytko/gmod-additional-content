@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+$baseTexture "cobblestone/hr_c/inferno/cobblestone_c"
+$bumpmap "cobblestone/hr_c/inferno/cobblestone_c_normals"
+
+$surfaceprop concrete
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[8 8]"
+	"$detailblendfactor" 	".5"
+}

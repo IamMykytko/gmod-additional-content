@@ -1,0 +1,7 @@
+"DecalModulate"
+{
+	"$baseTexture" "de_aztec/hr_aztec/hr_aztec_decal_lantern_01"
+	"$decal" 1
+	"$decalscale" ".5" 
+	
+}

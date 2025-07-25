@@ -1,0 +1,8 @@
+lightmappedgeneric
+{
+	"$basetexture"            "concrete/hr_c/hr_concrete_wall_006_color"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 1.0]"
+	"$envmapsaturation"       ".55"
+	"$fresnelreflection"      "0.25"
+}

@@ -1,0 +1,20 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" 				"dust_massive\dust_massive_ground_rock_01_color"
+ 	"$bumpmap" 				"dust_massive\dust_massive_ground_rock_01_normal"
+	"$baseTexture2" 			"dust_massive\dust_massive_ground_sand_01_color"
+	"$bumpmap2" 				"dust_massive\dust_massive_ground_sand_01_normal"
+
+
+	$NEWLAYERBLENDING	1
+	$BLENDSOFTNESS	.025
+	$LAYERBORDERSTRENGTH	.5
+	$LAYERBORDEROFFSET	0
+	$LAYERBORDERSOFTNESS	.1
+	$LAYERBORDERTINT	"{160 135 110}"
+	"$blendmodulatetexture" 	"dust_massive\dust_massive_ground_rock_01_height"
+	"$surfaceprop" 				"concrete"
+	"$surfaceprop2" 			"sand"
+	"%keywords" 				"hrdust,ground,street,asphalt" 	
+	
+} 

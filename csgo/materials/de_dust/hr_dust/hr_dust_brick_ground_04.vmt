@@ -1,0 +1,25 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_brick_ground_04_color"
+	"$bumpmap" "de_dust/hr_dust/hr_dust_brick_ground_04_normal"
+	"$baseTexture2" "de_dust/hr_dust/hr_dust_sand_02_color"
+	"$bumpmap2" "de_dust/hr_dust/hr_dust_sand_02_normal"
+	"$blendmodulatetexture" "de_dust/hr_dust/hr_dust_brick_ground_04_blendmod"
+
+
+	$NEWLAYERBLENDING	1
+	$BLENDSOFTNESS	0.05    
+	$LAYERBORDERSTRENGTH	.25
+	$LAYERBORDEROFFSET	.25
+	$LAYERBORDERSOFTNESS	.1 
+	$LAYERBORDERTINT	"{75 58 58 }"
+	
+
+	"$surfaceprop" 				"concrete"
+	"$surfaceprop2" 			"sand"
+
+
+
+	"%keywords" "ground,brick,rock" 	
+
+}

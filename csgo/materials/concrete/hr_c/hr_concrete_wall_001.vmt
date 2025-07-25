@@ -1,0 +1,9 @@
+lightmappedgeneric
+{
+	"$basetexture"   "concrete/hr_c/hr_concrete_wall_stainmap_001"
+	"$bumpmap"       "concrete/hr_c/hr_concrete_wall_001_normals"
+	"$bumptransform" "center 0 0 scale 8 8 rotate 0 translate 0 0"
+	"$surfaceprop"   "concrete"
+	"$detail"        "concrete/hr_c/hr_concrete_wall_001_color"
+	"$detailscale"   "8"
+}

@@ -1,0 +1,14 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "dust_massive\dust_massive_rock_01_color"
+	"$basetexturetransform" "center .5 .5 scale .25 .25 rotate 0 translate 0 0"
+	"$bumptransform" "center .5 .5 scale .25 .25 rotate 0 translate 0 0"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "dust_massive\dust_massive_rock_01_normal"
+
+}

@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"decals\hr_decals\dust_manhole_concrete_color"
+	"$bumpmap"	"decals\hr_decals\dust_manhole_concrete_normal"
+	"$surfaceprop" 	"concrete"
+
+	"$decal" "1"
+	"$translucent" "1"
+
+
+}

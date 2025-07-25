@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "dust_massive/overlay_sign_east"
+	"$surfaceprop" 			"concrete"
+	"$translucent" 			"1"
+	"$alpha "				".8"	
+	"$decal" 1
+	"$decalscale" ".25" 
+
+
+
+	"%keywords" "road,asphalt,decal,gravel,stripe" 	
+
+}

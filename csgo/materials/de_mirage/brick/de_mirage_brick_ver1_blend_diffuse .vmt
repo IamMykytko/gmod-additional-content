@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "de_mirage/brick/brick_ver1_diffuse"
+	
+	"$blendmodulatetexture""de_mirage/brick/brick_ver1_blend"
+	
+	"$basetexture2" "de_mirage/ground/ground_tilee_diffuse"
+
+
+
+}

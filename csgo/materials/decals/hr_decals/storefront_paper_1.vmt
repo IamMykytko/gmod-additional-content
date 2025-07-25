@@ -1,0 +1,9 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "decals\hr_decals\storefront_paper_1"
+
+	"$translucent" 1
+	"$decal" 1
+
+
+}

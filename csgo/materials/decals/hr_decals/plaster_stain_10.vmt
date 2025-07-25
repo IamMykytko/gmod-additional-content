@@ -1,0 +1,17 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "decals\hr_decals\plaster_stain_10"
+
+	"$translucent" 1
+	"$decal" 1
+	
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"	
+	    "$detail"              "detail\noise_detail_01"
+	    "$detailscale"         "[ 4 8 ]"
+	    "$detailblendfactor"   ".6"
+
+
+	$color "{300 300 300}"	
+
+}

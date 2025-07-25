@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+$baseTexture "cs_italy/hpe_plaster_wall_red_windows"
+$surfaceprop plaster
+
+$envmap "env_cubemap"
+$basealphaenvmapmask 1
+$envmapcontrast 1
+$envmapsaturation 1
+$envmaptint "[ .75 .75 .75]"
+}

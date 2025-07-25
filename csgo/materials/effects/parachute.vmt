@@ -1,0 +1,6 @@
+screenspace_general
+{
+	"$pixshader"      "parachute_ps30"
+	"$basetexture"    "_rt_fullframefb"
+	//"$texture1"       "effects\healthboost"
+}

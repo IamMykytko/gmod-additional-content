@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/vostok_ashes_01"
+	"$translucent" 1
+	"$decal" 1
+	"$decalscale" .25
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+}

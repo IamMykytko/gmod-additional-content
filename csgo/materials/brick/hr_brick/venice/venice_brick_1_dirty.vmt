@@ -1,0 +1,12 @@
+"lightmappedgeneric"
+{
+	"$basetexture"              "brick/hr_brick/venice/venice_brick_1_dirty"
+	"$bumpmap"                  "brick/hr_brick/venice/venice_brick_1_normal"
+	"$surfaceprop"              "concrete_block"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap"                   "env_cubemap"
+	"$envmaptint"               "[.3 .3 .3]"
+	"$detail"                   "detail/detailconcrete001a"
+	"$detailscale"              "[8 8 8 ]"
+	"$detailblendfactor"        "1"
+}

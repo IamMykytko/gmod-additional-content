@@ -1,0 +1,14 @@
+unlitgeneric
+{
+	"$basetexture"       "dev/screenhighlight_pulse"
+	"$multiply"          "1"
+	"proxies"
+	{
+		"texturescroll"
+		{
+			"texturescrollvar"   "$basetexturetransform"
+			"texturescrollrate"  "0.6"
+			"texturescrollangle" "90"
+		}
+	}
+}

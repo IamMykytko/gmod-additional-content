@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "decals/vostok_window01"
+	"$Translucent" "1"
+	"$Decal" "1"
+	"$DecalScale" "0.250000"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

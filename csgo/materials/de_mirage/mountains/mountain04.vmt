@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_mirage/mountains/mountain04"
+	$translucent 1
+	"$surfaceprop" "sand"
+	//"$detail" "detail/dt_ground2" 
+	//"$bumpMap" "de_mirage/doors/doortexture_a_normal"
+	"$nofog" "1" 
+	
+}

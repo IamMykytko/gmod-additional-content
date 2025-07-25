@@ -1,0 +1,7 @@
+vertexlitgeneric
+{
+	"$color"       "0.3"
+	"$basetexture" "models/props_vehicles/car_glass.vtf"
+	"$envmap"      "env_cubemap"
+	"$envmaptint"  "0.2"
+}

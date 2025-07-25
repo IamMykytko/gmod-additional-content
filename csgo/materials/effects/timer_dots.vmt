@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+  "$baseTexture" "effects/timer_dots"
+  "$surfaceprop" "glass"
+  "$selfillum" 1
+}

@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$basetexture" 	"ceiling\HR_C\hr_sound_insulation_panels_01"
+
+	"$bumpmap" 	"ceiling\HR_C\hr_sound_insulation_panels_01_normal"
+
+
+}

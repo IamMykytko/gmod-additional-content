@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "de_cbble\signs\french_signs_a"
+$bumpmap "de_cbble\signs\french_signs_a_normal"
+
+	"$alphatest" "1"
+	"$decal" "1"
+}

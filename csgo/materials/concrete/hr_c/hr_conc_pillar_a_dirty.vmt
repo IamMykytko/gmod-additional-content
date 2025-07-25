@@ -1,0 +1,14 @@
+lightmappedgeneric
+{
+$baseTexture "concrete/hr_c/hr_conc_pillar_a_dirty"
+
+$surfaceprop concrete
+$bumpmap "concrete/hr_c/hr_conc_pillar_a_clean_normals"
+
+	
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[2 2 2]"
+	"$detailblendfactor" 	"1"
+
+
+}

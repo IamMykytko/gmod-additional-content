@@ -1,0 +1,14 @@
+"decalModulate"
+{
+	"$baseTexture" "dust_massive/overlay_sand_ground_01"
+	"$surfaceprop" 			"sand"
+	"$translucent" 			".5"
+	"$alpha "				"1"	
+	"$decal" 1
+	"$decalscale" ".125" 
+
+
+
+	"%keywords" "sand" 	
+
+}

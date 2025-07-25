@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "fall_massive\hr_grass_01b"
+
+	
+	"%detailtype"           "survival_grass_autumn"
+	"$surfacepropalpha"	"slowgrass"
+
+}

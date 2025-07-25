@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "decals/milbridgelight"
+	"$additive" "1"
+	"$decal" "1"
+	"$decalscale" "0.250000"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

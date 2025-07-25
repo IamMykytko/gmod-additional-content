@@ -1,0 +1,23 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_ground_dirt_rough_01_color"
+	"$bumpmap" "de_dust/hr_dust/hr_dust_ground_dirt_rough_01_normal" 
+	
+	"$blendmodulatetexture" "de_dust/hr_dust/hr_dust_ground_dirt_rough_01_blend"
+
+	"$baseTexture2" "de_dust/hr_dust/hr_dust_sand_03_color"
+	"$bumpmap2" "de_dust/hr_dust/hr_dust_sand_02_normal"                                
+		
+	"$surfaceprop" 				"gravel"
+	"$surfaceprop2" 			"sand"
+	
+	$NEWLAYERBLENDING			1
+	$BLENDSOFTNESS				0.2
+	$LAYERBORDERSTRENGTH		0.3
+	$LAYERBORDEROFFSET			0
+	$LAYERBORDERSOFTNESS		0.2
+	$LAYERBORDERTINT			"{94 68 47}"
+	 	
+	"%keywords" "ground,dirt,blend" 	
+	
+} 

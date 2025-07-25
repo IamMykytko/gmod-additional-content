@@ -1,0 +1,11 @@
+lightmappedGeneric
+{
+	$baseTexture "decals/russian_soviet_train_decals"
+	$translucent 1
+	$decal 1
+	$decalscale 0.25
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$bumpMap" "decals/russian_soviet_train_decals_normal"
+
+}

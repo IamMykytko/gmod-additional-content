@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\prodflrlghta"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250"
+//	"$envmap" "env_cubemap" must make a cubemap texture and point to that to use
+//	"$envmapmask" "decals\prodflrlghta_ref"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+}

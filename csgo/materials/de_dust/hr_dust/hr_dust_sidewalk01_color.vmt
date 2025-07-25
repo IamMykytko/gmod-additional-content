@@ -1,0 +1,5 @@
+// ### This basic VMT was written based on the e:\valvegames\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "de_dust/hr_dust/hr_dust_sidewalk01_color.vtf"
+}

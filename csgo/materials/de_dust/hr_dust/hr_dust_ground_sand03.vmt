@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{                           
+	"$baseTexture" 			"de_dust/hr_dust/hr_dust_sand_03_color"
+ 	"$bumpmap" 			"de_dust/hr_dust/hr_dust_sand_02_normal"
+	"%keywords" "ground,dirt" 	
+} 

@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"brick\offwll_snow"
+	"$surfaceprop" "brick"
+	"$bumpmap" "brick/offwll_snow_normal"
+ 	"$envmap" "env_cubemap"
+	"$envmapcontrast" "1"
+	"$normalmapalphaenvmapmask" "1"
+}

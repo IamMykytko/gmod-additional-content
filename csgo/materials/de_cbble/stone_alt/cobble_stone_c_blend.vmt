@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+"$basetexture" "nature/dirt02" 
+"$basetexture2"	"de_cbble/stone_alt/cobble_stone_c" 	
+"$bumpmap"	"de_cbble/grass_alt/grass_c_normal" 
+"$bumpmap2"	"de_cbble/stone_alt/cobble_stone_c_normal"
+"$blendmodulatetexture" "de_cbble/stone_alt/cobble_stone_c_blend" 
+	"$detail" 				"detail/noise_detail_01"
+	"$detailscale" 			"[ 4 4 ]"
+	"$detailblendfactor" 	".2"
+$surfaceprop dirt
+$surfaceprop2 concrete
+
+}

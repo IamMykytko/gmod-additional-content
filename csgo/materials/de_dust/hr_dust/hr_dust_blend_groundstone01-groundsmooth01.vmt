@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_ground_stone_01_color"
+	"$bumpmap" "de_dust/hr_dust/hr_dust_ground_stone_01_normal"
+	
+	"$blendmodulatetexture" "de_dust/hr_dust/hr_dust_ground_stone_01_blend"
+
+	"$baseTexture2" "de_dust/hr_dust/hr_dust_sand_03_color"
+	"$bumpmap2" "de_dust/hr_dust/hr_dust_sand_02_normal"                                
+	
+	"$surfaceprop" 				"concrete"
+	"$surfaceprop2" 			"sand"
+
+	"%keywords" "ground,dirt,blend" 	
+	
+} 

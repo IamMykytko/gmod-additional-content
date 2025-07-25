@@ -1,0 +1,7 @@
+screenspace_general
+{
+	"$pixshader"           "underwater_ps30"
+	"$basetexture"         "_rt_fullframefb"
+	"$texture1"            "liquids/water_river_normal_sharp"
+	"$linearread_texture1" "1"
+}

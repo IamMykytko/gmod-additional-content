@@ -1,0 +1,43 @@
+unlitgeneric
+{
+	"$basetexture" "dev/replay_noise"
+	"$envmap"      "env_cubemap"
+	"$envmaptint"  "0.22"
+	"$angle"       "0.0"
+	"$translate"   "[0.0 0.0]"
+	"$center"      "[0.5 0.5]"
+	"$rampx"       "0"
+	"$rampy"       "0"
+	"$zero"        "0"
+	"proxies"
+	{
+		"linearramp"
+		{
+			"rate"         "4"
+			"initialvalue" "0.0"
+			"resultvar"    "$rampx"
+		}
+		"sine"
+		{
+			"sineperiod"   "16"
+			"resultvar"    "$rampy"
+		}
+		"uniformnoise"
+		{
+			"resultvar"    "$translate[0]"
+		}
+		"add"
+		{
+			"srcvar1"      "$rampy"
+			"srcvar2"      "$zero"
+			"resultvar"    "$translate[1]"
+		}
+		"texturetransform"
+		{
+			"translatevar" "$translate"
+			"rotatevar"    "$angle"
+			"centervar"    "$center"
+			"resultvar"    "$basetexturetransform"
+		}
+	}
+}

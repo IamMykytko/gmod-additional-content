@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete/vertigo_concretefloora"
+//	"$bumpmap" "concrete/vertigo_concretefloora_normal"
+//	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "Concrete"
+//	"$envmapsaturation" .25
+//	"$envmapcontrast" 	.5
+//	"$envmaptint" "[4 4 4]"
+}

@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\hpe_plaster_decal_decay_03"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "1.000"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+}

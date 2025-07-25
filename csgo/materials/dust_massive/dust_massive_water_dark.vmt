@@ -1,0 +1,62 @@
+"Water"
+{
+	"%compilewater" 1
+	"%tooltexture" "dev/water_normal"
+
+
+    //forceexpensive Must be set to 1 for Portal 2 water reflections to work.
+   	 $forceexpensive 1
+	"$abovewater" 1
+	"$surfaceprop" "water"
+	"$bottommaterial" "dev/dev_waterbeneath2"
+//	"$normalmap" "dev/water_normal"
+	"$normalmap" "de_nuke/hr_nuke/pool_water_normals_001"
+
+
+    //Go with the flow!
+	$flowmap "dust_massive/dust_massive_water_flowmap"
+    	$flow_normaluvscale 800
+    	$flow_worlduvscale 1
+    	$flow_timeintervalinseconds 1	    	 // Amount of time before the change happens
+    	$flow_uvscrolldistance .5		 // Stretch of UV Distance before change over to second set of flow
+    	$flow_bumpstrength 4
+    	$flow_timescale 1
+    	$flow_noise_texture "liquids/water_noise"
+	$flow_noise_scale .001
+    	$flow_debug 0
+
+
+
+    // Reflection
+	"$reflecttexture" "_rt_WaterReflection"
+	"$reflecttint" "{ 255 255 255 }"
+	"$reflectskyboxonly" 0
+//	"$reflectentities" 1
+	"$reflectonlymarkedentities" 1
+
+//	"$reflect2dskybox" 1
+	"$reflect3dskybox" 1 
+	"$reflectamount" "1"
+
+
+    // Refraction
+	$refract 1
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" "0.125"
+	"$refracttint" "{ 200 200 200 }"
+ 
+
+
+    // Fog stuff.
+	"$fogenable" 1
+	"$fogcolor" "{ 50 94 102 }"
+	"$fogstart" 1
+	"$fogend" 32
+	"$lightmapwaterfog" 1
+
+//	"GPU<2"
+//	{
+//		"$fallbackmaterial" "liquids/shack_water_cheap"
+//	}
+
+}

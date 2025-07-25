@@ -1,0 +1,6 @@
+"unlitgeneric"
+{
+	"$basetexture" "de_aztec/hr_aztec/hr_aztec_light_skylight_01"
+	"$surfaceprop" "glass"
+	"$color"       "[.1 .1 .1]"
+}

@@ -1,0 +1,8 @@
+WorldVertexTransition
+{
+	$basetexture "Concrete/concretefloor012a"
+	$baseTexture2 "de_prodigy/concrete02"
+	$surfaceprop concrete
+	$surfaceprop2 concrete
+}
+

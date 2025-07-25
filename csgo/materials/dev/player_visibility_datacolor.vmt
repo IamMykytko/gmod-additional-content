@@ -1,0 +1,11 @@
+unlittwotexture
+{
+	$basetexture black
+	$texture2 black
+	
+	$playerdatacolor 1
+	$playerdatacolor_camdepth 0
+	$playerdatacolor_wsposz 0
+	$playerdatacolor_velocity 0
+	$playerdatacolor_opacity 1
+}

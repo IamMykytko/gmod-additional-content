@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "cs_italy/tileroof01"
+	"%keywords" "cstrike"
+	"$surfaceprop" "tile"
+	"$bumpmap" "cs_italy/tileroof01_normal"
+}

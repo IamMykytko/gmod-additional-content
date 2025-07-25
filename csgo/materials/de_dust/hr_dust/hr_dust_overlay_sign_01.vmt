@@ -1,0 +1,40 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_overlay_sign_01"
+	//"$bumpmap" "de_dust/hr_dust/hr_dust_decal_road_striping_normal"
+	
+	"$surfaceprop" 			"gravel"
+
+	"$translucent" 			"1"
+	"$alpha "				"0.75"	
+	//"$alphatest" 			"1"
+	//"$allowalphatocoverage"	"1"
+	//"$alphatestreference"	"0.4"
+	//"nocull"				"1"	
+	"$decal" 1
+	"$decalscale" ".25" 
+	//"$color"	"[1 1 .9]"
+	
+	
+	//"$envmap"					"env_cubemap"
+	//"$envmaplightscale"			"0.5"
+	//"$envmaplightscaleminmax" 	"[0 0.1]"
+	//"$envmapcontrast"			"0.25"
+
+	//"$envmapsaturation"		".75"
+	//"$envmapfresnel"			"1"
+	//"$basetexture2noenvmap" 	"1"
+	//"$envmap"					""
+	//"$detail" 				"detail\plaster_detail_01"
+	//"$detailscale" 			"[9 9 9]"
+	//"$detailblendfactor" 		".6"
+
+	//"$phong"			 		"1"                                         
+   	//"$phongexponent"			"85"                                                           
+   	//"$phongAmount"       		"[.5 .5 .5 1.0]"   
+
+	//$normalmapalphaenvmapmask 	1 
+
+	"%keywords" "road,asphalt,decal,gravel,stripe" 	
+
+}

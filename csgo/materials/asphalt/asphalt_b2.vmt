@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+$baseTexture "asphalt/asphalt_b2"
+"$bumpmap"  "asphalt/asphalt_b2_normals"
+$surfaceprop concrete
+
+
+	
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[5 5 5 ]"
+	"$detailblendfactor" 	"1"
+}

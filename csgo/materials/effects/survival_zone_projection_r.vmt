@@ -1,0 +1,7 @@
+unlitgeneric
+{
+	"$color" "[1 0 0]"
+	"$basetexture" "effects/survival_zone_projection"
+	"$additive" "1"
+	"$linearwrite" "1"
+}

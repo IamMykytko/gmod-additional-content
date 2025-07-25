@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_cbble/roof_alt/roof_a"
+	"$surfaceprop" "tile"
+		"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 4 4 ]"
+	"$detailblendfactor" 	".5"
+ 	"$bumpmap" "de_cbble/roof_alt/roof_a_normal"
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.1 .1 .1]"
+}

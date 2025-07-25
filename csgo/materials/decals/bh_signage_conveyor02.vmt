@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\bh_signage_conveyor02"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "1.000"
+
+}

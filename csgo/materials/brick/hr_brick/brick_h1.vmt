@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+$basetexture "brick/hr_brick/brick_h1"
+
+$surfaceprop "brick"
+
+$bumpmap "brick/hr_brick/brick_h_normals"
+
+	//"$blendmodulatetexture" "brick/hr_brick/brick_a_blend"
+
+	
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[8 8 8 ]"
+	"$detailblendfactor" 	"1"
+
+}

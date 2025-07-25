@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/props/cs_office/CS_Elevator_Floor_And_RM_4_5_6_Signs"
+	"$surfaceprop" "Metal"
+}

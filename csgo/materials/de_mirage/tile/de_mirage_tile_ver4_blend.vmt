@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "de_dust/tilefloor01"
+	
+	"$blendmodulatetexture""de_mirage/brick/brick_ver3_blend"
+	
+	"$basetexture2""de_mirage/ground/ground_tilef_diffuse"
+	
+	$surfaceprop concrete
+	$surfaceprop2 sand
+
+
+}

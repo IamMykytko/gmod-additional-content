@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "decals/coop_tire_tracks_bend"
+	"$vertexalpha" "1"
+	"$translucent" 1
+	"$decal"       1
+	"$decalscale"  0.25
+}

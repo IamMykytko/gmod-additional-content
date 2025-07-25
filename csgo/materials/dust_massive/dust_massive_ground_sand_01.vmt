@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "dust_massive\dust_massive_ground_sand_01_color"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "dust_massive\dust_massive_ground_sand_01_normal"
+	$surfaceprop sand
+
+}

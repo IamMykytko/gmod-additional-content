@@ -1,0 +1,13 @@
+"sprite"
+{
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin"      "[ 0.50 0.50 ]"
+	"$basetexture" "dust_massive/light_glow"
+//	"$additive" "1"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$nofog" "1"
+
+
+}

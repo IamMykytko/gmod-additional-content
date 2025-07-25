@@ -1,0 +1,23 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_rollupdoor_metal_01_color"
+	"$bumpmap" "de_dust/hr_dust/hr_dust_rollupdoor_metal_01_normal"
+	
+	"$blendmodulatetexture" "de_dust/hr_dust/hr_dust_rollupdoor_metal_01_blend"
+
+	"$baseTexture2" "de_dust/hr_dust/hr_dust_rollupdoor_metal_01_rusty_color"
+	"$bumpmap2" "de_dust/hr_dust/hr_dust_rollupdoor_metal_01_normal"  
+	//"$bumpmap2" "de_dust/hr_dust/hr_dust_rollupdoor_metal_01_rusty_normal"  
+	
+	"$blendtintbybasealpha"		"1"
+
+	"$layertint1"				"{240 236 232}" //white
+	//"$layertint1"				"{176 197 222}" //desat ligth blue
+	//"$layertint1"				"{165 142 136}" //desat red
+		
+	"$surfaceprop" 				"metalpanel"
+
+	//"$envmap"					"env_cubemap"
+
+	"%keywords" 				"hrdust,metal,door,rollup,corrugated" 		
+} 

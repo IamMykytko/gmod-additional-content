@@ -1,0 +1,28 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "dust_massive/sewage_gunk_overlay"
+	"$surfaceprop" 			"concrete"
+	"$translucent" 			"1"
+	"$alpha "				".6"	
+	"$decal" 1
+	"$decalscale" ".5" 
+
+	"$scrollrateresult"  1
+	"proxies"
+	{
+		"sine"
+		{
+			"resultvar"          "$scrollrateresult"
+			"sineperiod"         30
+			"sinemin"            .0000005
+			"sinemax"            -.000005
+		}
+		"texturescroll"
+		{
+			"texturescrollvar"   "$basetexturetransform"
+			"texturescrollrate"  "$scrollrateresult"
+			"texturescrollangle" 90
+		}
+		
+	}
+}

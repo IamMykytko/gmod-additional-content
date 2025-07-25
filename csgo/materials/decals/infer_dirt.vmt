@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	
+	"$basetexture" "decals/infer_dirt"
+	"$translucent" 1
+	"$decal" 1
+
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"	
+
+
+	
+}
+

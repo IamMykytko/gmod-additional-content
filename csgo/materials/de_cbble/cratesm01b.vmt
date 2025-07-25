@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_cbble/cratesm01b"
+	"$surfaceprop" "wood"
+	//	"$detail" "detail/dt_ground2" 
+ 	//"$bumpmap" "de_cbble/concret02normal"
+}

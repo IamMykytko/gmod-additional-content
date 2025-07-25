@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_mirage/brick/brick_ver1_diffuse"
+	"$surfaceprop" "rock"	
+		"$bumpmap"  "de_mirage/brick/brick_ver1_a_normal"
+}

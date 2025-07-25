@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "de_cbble/grass_alt/grass_a" 
+	"$basetexture2" "nature/dirt02"
+
+	$bumptransform "center .75 .75 scale .4 .4 rotate 0 translate 0 0"
+	$bumpmap "concrete/pavement_height-ssbump"
+	$ssbump 1
+	$SSBumpMathFix 1
+
+	$blendmodulatetexture "nature/blend_texture_01"
+
+	$surfaceprop grass
+	$surfaceprop2 dirt
+
+}

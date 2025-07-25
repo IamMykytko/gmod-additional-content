@@ -1,0 +1,10 @@
+"lightmappedgeneric"
+{
+	"$basetexture"       "decals/hr_decals/white_stripe_a"
+	"$decal"             1
+	"$translucent"       1
+	"$color"             "{5 35 55}"
+	"$detail"            "detail/noise_detail_01"
+	"$detailscale"       "[ 8 8 ]"
+	"$detailblendfactor" ".2"
+}

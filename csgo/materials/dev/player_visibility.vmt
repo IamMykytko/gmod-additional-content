@@ -1,0 +1,16 @@
+screenspace_general
+{
+	"$pixshader"              "playervisibility_ps30"
+	"$basetexture"            "_rt_fullframefb"
+	"$texture1"               "_rt_fullframefb2"
+	"$texture2"               "_rt_fullframefb3"
+	"$alpha_blend"            "1"
+	"$linearread_basetexture" "1"
+	"$linearread_texture1"    "1"
+	"$linearwrite"            "1"
+	"$c0_x"                   "0.001"
+	"$c0_y"                   "0.001"
+	"$c0_z"                   "0.7"
+	"$writedepth"             "0"
+	"$depthtest"              "0"
+}

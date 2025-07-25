@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "de_vertigo/vertigo_buildingskyline_ft"
+	$translucent 1
+}

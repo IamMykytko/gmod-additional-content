@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "cs_italy/skybox_plaster_trim_light"
+$surfaceprop plaster
+}

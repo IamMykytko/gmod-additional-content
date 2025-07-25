@@ -1,0 +1,13 @@
+"screenspace_zone"
+{
+	"$basetexture"    "_rt_fullframedepth"
+	"$texture1"       "_rt_zoneprojection"
+	"$LINEARREAD_TEXTURE1" "1"
+	"$texture2"       "_rt_fullframefb"
+	"$texture3"       "dev/zone_warning"
+	"$LINEARREAD_TEXTURE3" "1"
+	"$writez"         "0"
+	"$invviewprojmat" "0"
+	"$zonemode"       "1"
+	"$ALPHA_BLEND"	  "1"
+}

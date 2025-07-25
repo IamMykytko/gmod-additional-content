@@ -1,0 +1,26 @@
+"WorldVertexTransition"
+{
+"$basetexture" "concrete/hr_c/inferno/concrete_b1"
+"$bumpmap" "concrete/hr_c/inferno/concrete_b_normals"
+
+"$blendmodulatetexture" "brick/hr_brick/inferno/flagstone_d_blend"
+
+"$basetexture2" "brick/hr_brick/inferno/brick_f"
+"$bumpmap2"  "brick/hr_brick/inferno/brick_f_normals"
+
+
+
+$surfaceprop plaster
+$surfaceprop2 concrete
+
+
+
+"$detail" 				"detail\plaster_detail_01"
+
+"$detail2" 				"detail\plaster_detail_01"
+"$detailscale" 			"[9 9 9]"
+"$detailblendfactor" 	"1"
+
+	
+}
+

@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "dust_massive/dust_graffiti_waves_01"
+	"$surfaceprop" 			"concrete"
+	"$translucent" 			"1"
+	"$alpha "				".8"	
+	"$decal" 1
+	"$decalscale" ".5" 
+
+
+
+}

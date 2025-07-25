@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_decal_road_striping_color"
+	"$bumpmap" "de_dust/hr_dust/hr_dust_decal_road_striping_normal"
+	
+	"$surfaceprop" 			"gravel"
+
+	"$translucent" 			"1"
+	"$alpha "				"0.85"	
+
+	"$decal" 1
+	"$decalscale" ".25" 
+
+	"%keywords" "road,asphalt,decal,gravel,stripe" 	
+
+}

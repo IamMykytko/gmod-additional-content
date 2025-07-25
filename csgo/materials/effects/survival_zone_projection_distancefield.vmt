@@ -1,0 +1,6 @@
+screenspace_general
+{
+	"$pixshader" "cs_zone_distancefield_ps30"
+	"$additive" "1"
+	"$linearwrite" "1"
+}

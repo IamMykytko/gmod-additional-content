@@ -1,0 +1,59 @@
+"Lightmapped_4WayBlend"
+{
+ 
+	"%tooltexture"		"fall_massive\hr_grass_4way_tooltexture"
+	"$basetexture"              "fall_massive\hr_grass_01"
+  
+    "$texture1_lumstart"        "0"
+    "$texture1_lumend"          ".1"
+    "$surfaceprop"              "grass"
+
+
+
+
+
+
+
+    "$basetexture2"             "fall_massive\hr_grass_01b"
+
+    "$surfaceprop2"              "grass"
+    "$texture2_lumstart"        "0"
+    "$texture2_lumend"          "0.4"
+
+    "$texture2_blendstart"      ".4"
+    "$texture2_blendend"        "1.0"
+
+
+    "$basetexture3"             "fall_massive\hr_leaves_01"
+    "$texture3_lumstart"        "0"
+    "$texture3_lumend"          "0.5"
+    "$texture3_blendstart"      "0.4"
+    "$texture3_blendend"        "1.0"
+
+    "$surfaceprop3"              "dirt"
+
+
+    "$basetexture4"             "fall_massive\hr_ground_wood"
+    "$texture4_lumstart"        "0"
+    "$texture4_lumend"          "0.1"
+    "$texture4_blendstart"      "0.4"
+    "$texture4_blendend"        "1.0"
+
+    "$surfaceprop4"              "gravel"
+
+    "$detail"                   "detail\noise_detail_01"
+    "$detailscale"              "[ 32 32 ]"
+    "$detailblendfactor"        "0.7"
+    "$detailblendfactor2"       "0.4"
+    "$detailblendfactor3"       "0.2"
+    "$detailblendfactor4"       "0.2"
+
+
+
+
+	"%detailtype"           "survival_grass_autumn"
+
+	"$surfacepropalpha" "slowgrass"
+
+
+}

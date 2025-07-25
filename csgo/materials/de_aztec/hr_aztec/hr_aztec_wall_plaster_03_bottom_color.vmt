@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+ 	"$baseTexture" 		"de_aztec/hr_aztec/hr_aztec_wall_plaster_03_bottom_color"
+	"$bumpmap" 			"de_aztec/hr_aztec/hr_aztec_wall_plaster_03_normal"
+	
+	"$surfaceprop" 			"plaster"
+                                                          
+	"%keywords" "wall,stone,rock,grey,aztec,plaster" 	
+}

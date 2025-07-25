@@ -1,0 +1,8 @@
+"screenspace_zone"
+{
+	"$basetexture"    "_rt_fullframedepth"
+	"$texture1"       "dev/zone_warning"
+	"$texture2"       "_rt_fullframefb"
+	"$writez"         "0"
+	"$invviewprojmat" "0"
+}

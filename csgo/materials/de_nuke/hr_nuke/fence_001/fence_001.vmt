@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"         "models/props_urban/fence001.vtf"
+	"$nocull"              1
+	"$alphatest"           1
+	"$alphatestreference"  0.3
+	"$translucent"         1
+	"$flashlightnolambert" 1
+	"$nodecal"             1
+	"$surfaceprop"         "chainlink"
+	"$disablecsmlookup"    "1"
+}

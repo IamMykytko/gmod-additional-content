@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+	"$basetexture"			"de_dust\hr_dust\antenna_card"
+
+	"$translucent"			"1"
+//	"$alphatest" 			"1"
+//	"$allowalphatocoverage"	"1"
+	"$alphatestreference"	"0.3"
+//	"$AllowFenceRenderStateHack" "1"
+//	"$nocull"				"1"
+//	"$envmaplightscale"		"1"
+//	"$envmapsaturation"		"1.5"
+//	"$envmapcontrast"		"0.25"
+//	"$envmap"				"env_cubemap"
+//	"$envmap"				"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+//	"$envmapmask"			"models\props\de_nuke\car_nuke_ref"
+	"$surfaceprop" 			"metal"
+	"%compilepassbullets" 1
+}

@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "dust_massive/metal_silo001"
+	"$bumpmap" "dust_massive/metal_silo001_normal"
+	"$surfaceprop" 			"metal"
+
+}

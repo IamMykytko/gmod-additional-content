@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+	"$baseTexture" 		"concrete/cinderblockwall01colortint"
+	"$surfaceprop" 		"concrete"
+	"$bumpmap" 			"concrete/cinderblockwall01colortint-ssbump"
+	"$ssbump" 			"1"
+	
+	"$color"			"[.86 .9 .82]"
+	
+//	"$envmap" 			"env_cubemap"
+//	"$normalmapalphaenvmapmask" "1"
+//	"$envmapcontrast"	".8"
+//	"$envmaptint" 		"[1 1 1]"
+	"%keywords"			"mill, de_mill"
+}

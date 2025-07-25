@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_aztec/aztec_carving_02a"
+	"$surfaceprop" "rock"
+	"$bumpmap" "de_aztec/aztec_carving02_normal"
+	"%keywords" "cstrike" 
+}

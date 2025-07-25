@@ -1,0 +1,25 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" 				"de_dust/hr_dust/hr_dust_asphalt_06_color"
+	"$bumpmap" 				"de_dust/hr_dust/hr_dust_asphalt_06_normal"
+	"$baseTexture2" 			"de_dust/hr_dust/hr_dust_asphalt_05_color"
+	"$bumpmap2" 				"de_dust/hr_dust/hr_dust_asphalt_05_normal"
+	"$blendmodulatetexture" 		"de_dust/hr_dust/hr_dust_asphalt_06_blendmod"
+
+
+
+	$NEWLAYERBLENDING	1
+	$BLENDSOFTNESS	0.01    
+	$LAYERBORDERSTRENGTH	.05
+	$LAYERBORDEROFFSET	.25
+	$LAYERBORDERSOFTNESS	.25
+	$LAYERBORDERTINT	"{75 58 58 }"
+	
+	"$surfaceprop" 				"concrete"
+	"$surfaceprop2" 			"concrete"
+
+	
+    
+	"%keywords" 				"hrdust,ground,street,asphalt" 	
+	
+} 

@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_plaster_17b_color"
+	"$bumpmap" "de_dust/hr_dust/hr_dust_plaster_17_normal"
+
+                                           
+	
+	"$surfaceprop" "plaster"
+
+
+ 
+
+	"%keywords" "wall,brick,blend" 	
+
+}

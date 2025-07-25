@@ -1,0 +1,12 @@
+screenspace_general
+{
+	"$pixshader"      "depthblur_ps30"
+	"$basetexture"    "_rt_fullframefb"
+	"$texture1"       "_rt_fullframedepth"
+	"$invviewprojmat" "0"
+	"$viewprojmat"    "0"
+	"$c0_x"           "1500"	// g_flBlurDepthStart
+	"$c0_y"           "3500"	// g_flBlurDepthEnd
+	"$c0_z"           "0.004"	// g_flBlurScale
+	"$c0_w"           "0.003"	// g_flBlurEdgeBias
+}

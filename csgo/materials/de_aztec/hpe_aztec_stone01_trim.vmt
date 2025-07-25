@@ -1,0 +1,10 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_aztec/hpe_aztec_stone01_trim"
+	"$surfaceprop" "rock"
+//	"$bumpmap" "de_aztec/hpe_aztec_stone01_trim_normal"
+	"$bumpmap" "de_aztec/hpe_aztec_stone01_height-ssbump"
+	$SSBumpMathFix 1
+	$ssbump 1
+	"%keywords" "cstrike" 
+}

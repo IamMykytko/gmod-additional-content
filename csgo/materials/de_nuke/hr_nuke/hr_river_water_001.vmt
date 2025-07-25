@@ -1,0 +1,42 @@
+"lightmappedgeneric"
+{
+	"$basetexture"            "de_nuke/hr_nuke/hr_river_water_001"
+	"$addbumpmaps"            "1"
+	"$bumpmap2"               "de_nuke/hr_nuke/pool_water_normals_001"
+	"$bumptransform2"         "center 0 0 scale 4 8 rotate 0 translate 0 0"
+	"$bumpdetailscale2"       "3.0"
+	"$bumpmap"                "de_nuke/hr_nuke/hr_river_water_001_normal"
+	"$bumptransform"          "center 0 0 scale 12 12 rotate 90 translate 0 0"
+	"$bumpdetailscale1"       "0.5"
+	"$surfaceprop"            "water"
+	"$detailscale"            "[10 5]"
+	"$detailblendfactor"      ".1"
+	"$envmap"                 "env_cubemap"
+	"$envmaplightscale"       "0.65"
+	"$envmaplightscaleminmax" "[0.0 .4]"
+	"$envmapsaturation"       ".5"
+	"$envmapcontrast"         ".9"
+	"$fresnelreflection"      "0.01"
+	"$reflectivity"           "[.5 .55 .6]"
+	"proxies"
+	{
+		"texturescroll"
+		{
+			"texturescrollvar"        "$bumptransform"
+			"texturescrollrate"       "0.035"
+			"texturescrollangle"      "15"
+		}
+		"texturescroll"
+		{
+			"texturescrollvar"        "$bumptransform2"
+			"texturescrollrate"       "0.045"
+			"texturescrollangle"      "0"
+		}
+		"texturescroll"
+		{
+			"texturescrollvar"        "$basetexturetransform"
+			"texturescrollrate"       "0.02"
+			"texturescrollangle"      "0"
+		}
+	}
+}

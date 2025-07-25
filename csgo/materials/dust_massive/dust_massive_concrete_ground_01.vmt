@@ -1,0 +1,11 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "dust_massive/dust_massive_concrete_ground_01_color"
+	"$bumpmap" "dust_massive/dust_massive_concrete_ground_01_normal"
+	"$surfaceprop" 			"concrete"
+
+ 
+
+	"%keywords" "ground,brick,rock" 	
+
+}

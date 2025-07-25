@@ -1,0 +1,6 @@
+lightmappedgeneric
+{
+$basetexture "de_dust/templewall04a_bottom"
+$bumpmap "de_dust/templewall04a_bottom_normal"
+$surfaceprop concrete
+}

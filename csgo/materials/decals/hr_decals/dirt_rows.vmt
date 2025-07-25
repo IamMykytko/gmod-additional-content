@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+
+		"$translucent" 1
+	"$basetexture" "decals/hr_decals/dirt_rows"
+	"$bumpmap" "decals/hr_decals/dirt_rows_normals"
+	
+	"$decal" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"	
+	
+	    "$detail"              "detail\noise_detail_01"
+    "$detailscale"         "[ 8 8 ]"
+    "$detailblendfactor"   ".2"
+	
+
+	
+}
+

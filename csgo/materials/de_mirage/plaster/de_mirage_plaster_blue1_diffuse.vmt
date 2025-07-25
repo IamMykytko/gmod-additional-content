@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_mirage/plaster/plaster_blue1_diffuse"
+	"$surfaceprop" "plaster"
+//	"$detail" "detail/dt_ground2" 
+"$bumpmap" "de_mirage/base/base_top_ver1_normal"
+}

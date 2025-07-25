@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_dust/residwall04a"
+	$bumpmap "de_dust/residwall04a_top_normal"
+	$surfaceprop concrete
+}

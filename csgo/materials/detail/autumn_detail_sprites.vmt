@@ -1,0 +1,13 @@
+grass
+{
+	"$basetexture"       	"detail/autumn_detail_sprites"
+	"$masks"       		"detail/foliage_atlas002_masks"
+	"$alphatest"         "1"
+	"$vertexcolor"       "1"
+	"$worldspacetint"    "detail/autumn_grass_tint"
+	"$worldspacetype"    "detail/autumn_grass_type"
+//	"$worldspaceburn"    "_rt_grassburn"
+//	"$worldspacezone"    "_rt_zoneprojection"
+	%notooltexture       "1"
+	"$minimumspritesize" "16"
+}

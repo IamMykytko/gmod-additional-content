@@ -1,0 +1,10 @@
+lightmappedGeneric
+{
+$baseTexture "de_mirage/decals/window_b_decal"
+$translucent 1
+$decal 1
+$decalscale 0.25
+                "$vertexcolor" "1"
+                "$vertexalpha" "1"
+				"$bumpmap" "de_mirage/base/base_top_ver1_normal"
+}

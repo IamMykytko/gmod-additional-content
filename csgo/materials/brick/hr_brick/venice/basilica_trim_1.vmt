@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "brick/hr_brick/venice/basilica_trim_1"
+	"$bumpmap"     "brick/hr_brick/venice/basilica_trim_1_normal"
+	"$envmap"      "env_cubemap"
+	"$envmaptint"  "[.03 .03 .03]"
+}

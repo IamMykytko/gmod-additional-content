@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "de_mirage\hr_mirage\mirage_plaster_1"
+
+	"$bumpmap" "de_mirage\hr_mirage\mirage_plaster_1_normal"
+	
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

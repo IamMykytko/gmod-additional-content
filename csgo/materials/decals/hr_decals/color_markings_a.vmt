@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	
+	"$basetexture" "decals/hr_decals/color_markings_a"
+	
+	"$decal" 1
+	
+	
+	    "$detail"              "detail\noise_detail_01"
+    "$detailscale"         "[ 8 8 ]"
+    "$detailblendfactor"   ".2"
+	
+
+	
+}
+

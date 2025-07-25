@@ -1,0 +1,12 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "decals\hr_decals\water_stain_1"
+
+	"$translucent" 1
+	"$decal" 1
+
+//	    "$detail"              "detail\noise_detail_01"
+//	    "$detailscale"         "[ 4 8 ]"
+//	    "$detailblendfactor"   "2"
+
+}

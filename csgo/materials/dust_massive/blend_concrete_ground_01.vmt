@@ -1,0 +1,24 @@
+"WorldVertexTransition"
+{
+	"$baseTexture2" "dust_massive/dust_massive_concrete_ground_01_color"
+	"$bumpmap2" "dust_massive/dust_massive_concrete_ground_01_normal"
+	"$baseTexture" "dust_massive/dust_massive_concrete_ground_01_color"
+	"$bumpmap" "dust_massive/dust_massive_concrete_ground_01_normal"
+	"$blendmodulatetexture" "de_dust/hr_dust/hr_dust_stone_ground_01_blendmod"
+
+	"$layertint1"				"{210 200 190}"
+	
+
+	$NEWLAYERBLENDING	1
+	$BLENDSOFTNESS	0.1
+	$LAYERBORDERSTRENGTH	.25
+	$LAYERBORDEROFFSET	.1
+	$LAYERBORDERSOFTNESS	.1
+	$LAYERBORDERTINT	"{160 135 110}"
+	"$surfaceprop" 			"concrete"
+	"$surfaceprop2" 		"concrete"
+	//"$reflectivity" "{200 180 160}" 
+
+	"%keywords" "ground,brick,rock" 	
+
+}

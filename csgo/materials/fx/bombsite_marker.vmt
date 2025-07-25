@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	$basetexture "FX\bombsite_marker"
+	//$color "{231 165 39}"
+	$translucent 1
+	//$nocull 1
+}

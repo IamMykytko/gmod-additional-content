@@ -1,0 +1,12 @@
+WorldVertexTransition
+{
+$basetexture2 "concrete/rubble_floor_01"
+$basetexture "nature/ground_grass01"
+$SSBumpMathFix 1
+$bumpmap "concrete/pavement_height-ssbump"
+$ssbump 1
+$blendmodulatetexture "nature/blend_texture_01"
+$surfaceprop2 gravel
+$surfaceprop grass
+"%keywords" l4d2
+}

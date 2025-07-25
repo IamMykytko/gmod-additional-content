@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	//"$basetexture" "Dev/reflectivity_10b"
+	"$basetexture" "coop_cementplant/mission_select_whitespace_blend"
+	"$surfaceprop" "concrete"
+	"$translucent" 1
+	"$nofog"	1
+	//"$basetexture" "Tools/toolsblack"
+	"%compileNoLight" 1
+}

@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "concrete/train_tunnel01a"
+	"$surfaceprop"  	"concrete"
+//	"$bumpmap" 	"concrete/tunnel01-ssbump"
+//	"$ssbump" "1"
+
+}

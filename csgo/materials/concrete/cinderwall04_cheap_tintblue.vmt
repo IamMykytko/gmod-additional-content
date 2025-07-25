@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "concrete/cinderwall04"
+	"$color"       "{110 140 165}"
+	"$surfaceprop" "concrete"
+}

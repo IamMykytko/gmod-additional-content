@@ -1,0 +1,10 @@
+"lightmappedgeneric"
+{
+	"$translucent"       1
+	"$basetexture"       "decals/hr_decals/cobblestone_a_decal"
+	"$bumpmap"           "cobblestone/hr_c/inferno/cobblestone_a_normals"
+	"$decal"             1
+	"$detail"            "detail/noise_detail_01"
+	"$detailscale"       "[ 8 8 ]"
+	"$detailblendfactor" ".2"
+}

@@ -1,0 +1,6 @@
+"unlitgeneric"
+{
+	"$basetexture" "de_nuke/hr_nuke/window_illum_001_color"
+	"$surfaceprop" "glass"
+	"$color"       "[.9 .9 1]"
+}

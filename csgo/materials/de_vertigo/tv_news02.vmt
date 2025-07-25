@@ -1,0 +1,46 @@
+"unlittwotexture"
+
+{
+	"$basetexture"       "de_vertigo/tv_news01"
+
+	"$texture2"          "de_vertigo/news_overlay_2"
+	"$translucent"       "0"
+	"$additive"          "0"
+	"$nofog"             "0"
+
+//	"$angle" 0.0
+	"$translate" "[0.0 0.0]"
+	"$center" "[-0.5 -0.5]"
+
+	"proxies"
+	{
+		"sine"
+		{
+			"resultvar"          "$translate[0]"
+			"sineperiod"         6
+			"sinemin"            -.01
+			"sinemax"            .01
+		}
+		"sine"
+		{
+			"resultvar"          "$translate[1]"
+			"sineperiod"         8
+			"sinemin"            -.007
+			"sinemax"            .007
+		}
+		"texturetransform"
+		{
+			"translateVar" "$translate"
+			"rotateVar" "$angle"
+			"centerVar" "$center"
+			"resultVar" "$basetexturetransform"
+        		}
+//		"texturescroll"
+//		{
+//			"texturescrollvar"   "$texture2transform"
+//			"texturescrollrate"  0.04
+//			"texturescrollangle" -90
+//			"texturescale"       0.8
+//		}
+	}
+}

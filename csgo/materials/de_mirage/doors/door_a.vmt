@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_mirage/doors/doortexture_a_diffuse"
+	"$surfaceprop" "wood"
+	//"$detail" "detail/dt_ground2" 
+	"$bumpMap" "de_mirage/doors/doortexture_a_normal"
+}

@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "buildings/carpet004"
+$surfaceprop carpet
+"%keywords" l4d2
+}

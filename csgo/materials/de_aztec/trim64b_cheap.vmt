@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_aztec/trim64b"
+	"$surfaceprop" "rock"
+//	"$bumpmap" "de_aztec/trim64b_normal"
+	"%keywords" "cstrike"
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+$basetexture "brick/hr_brick/brick_f2"
+
+$surfaceprop "brick"
+
+
+}

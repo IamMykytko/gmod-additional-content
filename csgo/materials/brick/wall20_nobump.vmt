@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "brick/wall20"
+	"$surfaceprop" "brick"
+	"$color"	"[1.25 1.25 1.25]"
+
+//	"$detail" "detail\detail_brick_01"
+//	"$detailscale" "7"
+//	"$detailblendfactor" .6
+//	"$detailblendmode" 7
+}

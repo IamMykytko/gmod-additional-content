@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/hr_brick/inferno/flagstone_a"
+
+	"$surfaceprop" "brick"
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[8 8]"
+	"$detailblendfactor" 	".25"
+
+
+}

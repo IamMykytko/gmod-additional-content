@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_aztec/stairsfake01"
+	"$surfaceprop" "rock"
+//	"$bumpmap" "de_aztec/stairsfake01_normal"
+	"%keywords" "cstrike" 
+}

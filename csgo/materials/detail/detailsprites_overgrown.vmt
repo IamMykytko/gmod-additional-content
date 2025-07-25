@@ -1,0 +1,7 @@
+Grass
+{
+	$baseTexture "detail\detailsprites_overgrown"
+	$alphatest 1
+	$vertexcolor 1
+	$WorldSpaceScale 3
+}

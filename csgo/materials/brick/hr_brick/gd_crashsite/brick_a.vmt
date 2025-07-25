@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/hr_brick/gd_crashsite/brick_a"
+	"$bumpmap"  "brick/hr_brick/gd_crashsite/brick_a_normals"
+	"$surfaceprop" "brick"
+
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[6 6 6]"
+	"$detailblendfactor" 	".8"
+
+}

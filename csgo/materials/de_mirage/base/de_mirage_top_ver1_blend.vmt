@@ -1,0 +1,20 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "de_mirage/base/base_mid_ver1_diffuse"
+	
+	"$blendmodulatetexture""de_mirage/base/base_blend1_diffuse"
+	
+	"$basetexture2""de_mirage/base/base_top_ver1_diffuse"
+	
+	"$bumpmap"  "de_mirage/plaster_worn/plaster_brick1_diffuse_normal"
+	
+	"$bumpmap2" "de_mirage/base/base_top_ver1_normal"
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	"0.05"
+	
+	$surfaceprop plaster
+	$surfaceprop2 plaster
+
+}

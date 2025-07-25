@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "dust_massive/road_02_edge_transparent"
+	"$translucent" 1
+	"$decal"       1
+}

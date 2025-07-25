@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_cbble/stone_alt/brick_a"
+	"$surfaceprop" "concrete"
+		"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 20 20 ]"
+	"$detailblendfactor" 	".7"
+ 	"$bumpmap" "de_cbble/stone_alt/brick_a_normal"
+
+}

@@ -1,0 +1,9 @@
+screenspace_general
+{
+	$basetexture	_rt_fullframefb
+	$texture1		dev\hex
+	$LINEARREAD_TEXTURE1 1
+	$alphablend		1
+	$writez			0
+	$pixshader		hex_transition_ps30	
+}

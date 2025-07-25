@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "buildings/shingles_ext_01"
+$surfaceprop wood
+
+
+"%keywords" l4d2
+}

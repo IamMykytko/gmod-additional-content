@@ -1,0 +1,6 @@
+"SplineRope"
+{
+	"$basetexture"			"cable\phonecable"
+	"$alphatestreference"	"0.5"
+	"$tiling"				"12"
+}

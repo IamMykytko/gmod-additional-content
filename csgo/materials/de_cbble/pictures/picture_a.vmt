@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_cbble/pictures/picture_a"
+	"$surfaceprop" "plaster"
+		"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 5 5 ]"
+	"$detailblendfactor" 	".5"
+ 	"$bumpmap" "de_cbble/pictures/picture_normal"
+
+
+}

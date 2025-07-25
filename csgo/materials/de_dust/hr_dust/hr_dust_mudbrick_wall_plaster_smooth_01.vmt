@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_mudbrick_wall_plaster_smooth_01_color"
+	"$bumpmap" "de_dust/hr_dust/hr_dust_mudbrick_wall_plaster_smooth_01_normal"
+	
+
+	"$surfaceprop" 			"plaster"
+
+	"%keywords" "wall,plaster" 	
+}

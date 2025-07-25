@@ -1,0 +1,7 @@
+WorldVertexTransition
+{
+	$basetexture "concrete\milwall002"
+	$baseTexture2 "Concrete/concretefloor012a"
+	$surfaceprop concrete
+	$surfaceprop2 concrete
+}

@@ -1,0 +1,8 @@
+lightmappedgeneric
+{
+	"$basetexture"          "de_nuke/hr_nuke/hr_hanging_wires_001"
+	"$alphatest"            "1"
+	"$allowalphatocoverage" "1"
+	"$alphatestreference"   "0.2"
+	"$nocull"               "1"
+}

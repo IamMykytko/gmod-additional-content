@@ -1,0 +1,41 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_brick_ground_01_color"
+	"$bumpmap" "de_dust/hr_dust/hr_dust_brick_ground_01_normal"
+	
+	"$blendmodulatetexture" "de_dust/hr_dust/hr_dust_brick_ground_01_blend"
+
+	"$baseTexture2" "de_dust/hr_dust/hr_dust_ground_dirt_rough_01_color"
+	"$bumpmap2" "de_dust/hr_dust/hr_dust_ground_dirt_rough_01_normal"                                
+	
+	"$surfaceprop" "gravel"
+
+	//"$dropshadowopacity" 		"0.95"		//How strong the highlights and shadows should be
+	//"$dropshadowscale" 		"0.0625" 	//The size in UV coordinates of the drop shadow
+	//"$dropshadowhighlightscale" 	"0.0225" 	//The size in UV coordinates of the drop highlight
+	//"$dropshadowdepthexaggeration" 	"3" 		//Use the depth in the blend modulation texture to vary 
+
+	"$envmap"			"env_cubemap"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 0.1]"
+	"$envmapcontrast"		"0.25"
+
+	//"$envmapsaturation"		".75"
+	//"$envmapfresnel"		"1"
+	//"$basetexture2noenvmap" 	"1"
+	//"$envmap"			""
+	
+	//"$detail" 			"detail\plaster_detail_01"
+	//"$detailscale" 		"[9 9 9]"
+	//"$detailblendfactor" 		".6"
+
+	//"$phong"			 "1"                                         
+    	//"$phongexponent"		"85"                                                           
+    	//"$phongAmount"       		"[.5 .5 .5 1.0]"   
+
+	//$normalmapalphaenvmapmask 	1  	
+    
+	"%keywords" "ground,street,brick,dirt,asphalt,blend" 	
+	
+} 

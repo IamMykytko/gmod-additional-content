@@ -1,0 +1,18 @@
+WorldVertexTransition
+{
+$basetexture "brick/hr_brick/brick_a"
+$basetexture2 "concrete/hr_c/hr_conc_b"
+$surfaceprop "brick"
+
+$bumpmap "brick/hr_brick/brick_a_normals"
+$bumpmap2 "concrete/hr_c/hr_conc_b_normals"
+
+"$blendmodulatetexture" "brick/hr_brick/brick_a_blend"
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.05 .05 .05]"	
+	
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[8 8 8 ]"
+	"$detailblendfactor" 	".5"
+
+}

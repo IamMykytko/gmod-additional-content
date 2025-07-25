@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick\hr_brick\overpass\hr_overpass_brick_02_color"
+
+	"$bumpmap" 	"brick\hr_brick\overpass\hr_overpass_brick_02_normal"
+	"$surfaceprop" 	"brick"
+
+
+}

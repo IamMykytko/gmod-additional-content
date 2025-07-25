@@ -1,0 +1,25 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" 			"de_aztec/hr_aztec/hr_aztec_wall_stone_04_grey_color"
+	"$bumpmap" 				"de_aztec/hr_aztec/hr_aztec_wall_stone_04_grey_normal"
+ 	"$baseTexture2" 		"de_aztec/hr_aztec/hr_aztec_mural_01_left_color"
+	"$bumpmap2" 			"de_aztec/hr_aztec/hr_aztec_wall_plaster_01_normal"
+
+	"$blendmodulatetexture" "de_aztec/hr_aztec/hr_aztec_wall_stone_04_blend-plaster"
+	
+	
+	$NEWLAYERBLENDING	1
+	$BLENDSOFTNESS	.01   	
+	$LAYERBORDERSTRENGTH	0.5 
+	
+	$LAYERBORDEROFFSET	0
+	$LAYERBORDERSOFTNESS	0.5
+	$LAYERBORDERTINT	"{128 128 128}" 
+                                   
+	
+	"$surfaceprop" 	"rock"
+	"$surfaceprop2" "plaster"
+
+	"%keywords" "wall,stone,rock,grey,moss,blend,aztec" 		 
+}
+ 

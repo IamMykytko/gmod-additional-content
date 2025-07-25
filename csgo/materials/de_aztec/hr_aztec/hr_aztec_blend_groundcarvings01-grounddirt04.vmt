@@ -1,0 +1,25 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" 			"de_aztec/hr_aztec/hr_aztec_ground_carvings_01_color"
+	"$bumpmap" 				"de_aztec/hr_aztec/hr_aztec_ground_carvings_01_normal"
+ 	"$baseTexture2" 		"de_aztec/hr_aztec/hr_aztec_ground_dirt_04_color"
+	"$bumpmap2" 			"de_aztec/hr_aztec/hr_aztec_ground_dirt_04_normal"
+	"$basetexturetransform2" "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+
+	"$blendmodulatetexture" "de_aztec/hr_aztec/hr_aztec_ground_carvings_01_blend"
+	
+	$NEWLAYERBLENDING	1
+	$BLENDSOFTNESS	.06     	
+	$LAYERBORDERSTRENGTH	.1 
+	
+	$LAYERBORDEROFFSET	.01
+	$LAYERBORDERSOFTNESS	.08	 
+	$LAYERBORDERTINT	"{106 91 74}"
+                                   
+	
+	"$surfaceprop" 	"rock"
+	"$surfaceprop2" "dirt"
+
+	"%keywords" "ground,dirt,rock,blend,aztec"  
+}
+ 

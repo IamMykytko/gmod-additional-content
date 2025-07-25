@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_mirage/wood/wood_ver3_diffuse"
+	"$surfaceprop" "wood"
+	//"$detail" "detail/dt_ground2" 
+}

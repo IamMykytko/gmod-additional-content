@@ -1,0 +1,41 @@
+Lightmapped_4WayBlend
+{
+    "$basetexture"         "concrete\hr_c\hr_conc_d3"
+	"$bumpmap"         		"concrete\hr_c\hr_conc_d_normals"
+
+    "$basetexture2"        "stone\hr_stone\hr_pebbles_a"
+    "$bumpmap2"            "stone\hr_stone\hr_pebbles_normals_a"
+    "$texture2_uvscale"    "[2 2]"
+    "$texture2_lumstart"   "0.1"
+    "$texture2_lumend"     "0.4"
+    "$texture2_blendstart" "0.4"
+    "$texture2_blendend"   "1"
+
+    "$basetexture3"        "mud\hr_m\mud_a"
+    "$texture3_blendmode"  "0"
+    "$texture3_uvscale"    "[2 2]"
+    "$texture3_lumstart"   "0.3"
+    "$texture3_lumend"     "0.9"
+    "$texture3_blendstart" "0.1"
+    "$texture3_blendend"   "0.9"
+
+    "$basetexture4"         "concrete\hr_c\hr_conc_e"
+    "$texture4_blendmode"  "0"
+    "$texture4_uvscale"    "[1 1]"
+    "$texture4_lumstart"   "0.6"
+    "$texture4_lumend"     "1"
+    "$texture4_blendstart" "0.4"
+    "$texture4_blendend"   "0.9"
+
+    "$detail"              "detail\noise_detail_01"
+    "$detailscale"         "[ 8 8 ]"
+    "$detailblendfactor"   ".2"
+    "$detailblendfactor2"  ".2"
+    "$detailblendfactor3"  ".2"
+    "$detailblendfactor4"  ".2"
+	
+
+}
+
+
+

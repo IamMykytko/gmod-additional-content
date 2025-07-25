@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\offpaintingj"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250"
+	"$envmap" "environment maps\cs_office"
+	"$envmapmask" "decals\offpaintingj_ref"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+}

@@ -1,0 +1,24 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" 			"de_aztec/hr_aztec/hr_aztec_ground_mud_03_color"
+	"$bumpmap" 				"de_aztec/hr_aztec/hr_aztec_ground_mud_03_normal"
+ 	"$baseTexture2" 		"de_aztec/hr_aztec/hr_aztec_ground_grass_01_color"
+	"$bumpmap2" 			"de_aztec/hr_aztec/hr_aztec_ground_grass_01_normal"
+
+	"$blendmodulatetexture" "de_aztec/hr_aztec/hr_aztec_ground_mud_03_blend"
+	
+	$NEWLAYERBLENDING	1
+	$BLENDSOFTNESS	.06   	
+	$LAYERBORDERSTRENGTH	.1  
+	
+	$LAYERBORDEROFFSET	.01
+	$LAYERBORDERSOFTNESS	.08	 
+	$LAYERBORDERTINT	"{106 91 74}"
+                                   
+	
+	"$surfaceprop" 	"mud"
+	"$surfaceprop2" "grass"
+
+	"%keywords" "ground,dirt,grass,weeds,rock,blend,aztec"  
+}
+ 

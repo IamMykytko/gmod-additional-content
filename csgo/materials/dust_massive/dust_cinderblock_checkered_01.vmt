@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "dust_massive/dust_cinderblock_checkered_01_color"
+	"$bumpmap" "de_dust/hr_dust/hr_dust_cinderblock_01_normal"
+
+	"$surfaceprop" 			"plaster"
+
+
+
+	"%keywords" "wall,plaster" 	
+
+}

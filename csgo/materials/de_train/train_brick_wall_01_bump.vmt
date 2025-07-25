@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"de_train\train_brick_wall_01"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "concrete/concretewall041d_normal"
+//	"$normalmapalphaenvmapmask" "1"
+}

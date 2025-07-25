@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "cstrike/{tk_grate"
+	"$translucent" 1
+	"%compilepassbullets" 1
+	"$surfaceprop" "metalgrate"
+}

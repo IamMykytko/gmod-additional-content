@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "cs_italy/hpe_plaster_tint"
+$color "{176 159 141}"
+$surfaceprop plaster
+}

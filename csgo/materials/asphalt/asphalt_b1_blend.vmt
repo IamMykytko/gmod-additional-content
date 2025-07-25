@@ -1,0 +1,29 @@
+"WorldVertexTransition"
+{
+$baseTexture "asphalt/asphalt_b1"
+"$bumpmap"  "asphalt/asphalt_b1_normals"
+$surfaceprop concrete
+$basetexture2 "dirt/hr_d/dirt_b"
+$bumpmap2 "dirt/hr_d/dirt_b_normals"	
+$blendmodulatetexture "dirt/hr_d/dirt_c_blend"
+  
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[5 5 5]"
+	"$detailblendfactor" 	"1"
+	"$detail2" 				"detail\plaster_detail_01"
+	"$detailscale2" 			"[5 5 5]"
+	"$detailblendfactor2" 	".5"
+	
+	"$phong"							 "1"                                         
+"$phongexponent"					 "8.0"                                    
+ "$phongMaskContrastBrightness2"          "[2.0 0.1]"                          
+ "$phongBaseTint2"                       "0.0"                                    
+  "$phongAmount2"                      "[0.0 0.0 0.0 1.0]"           
+
+  "$phongexponent2"                                      "15.0"                                  
+  "$phongMaskContrastBrightness"        "[4.0 -0.05]"                      
+  "$phongBaseTint"                    "0.0"                                 
+  "$phongAmount"                     "[.5 .5 .5 1]"     
+	
+
+}

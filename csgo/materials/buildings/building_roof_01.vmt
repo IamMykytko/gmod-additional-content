@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "buildings/building_roof_01"
+$bumpmap "buildings/building_roof_01_height-ssbump"
+$ssbump 1
+$SSBumpMathFix 1
+$surfaceprop plaster
+"%keywords" l4d2
+}

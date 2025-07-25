@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals\hr_decals\dust_panel_paint_patch"
+
+	"$surfaceprop" 	"concrete"
+
+	"$translucent" 1
+	"$decal" 1
+}

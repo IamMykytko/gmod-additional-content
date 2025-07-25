@@ -1,0 +1,17 @@
+"lightmappedgeneric"
+{
+	"$basetexture"           "brick/hr_brick/venice/brick_ground_c"
+	"$bumpmap"               "brick/hr_brick/venice/brick_ground_c_normals"
+	"$surfaceprop"           "concrete_block"
+//	"$basealphaenvmapmask"   "1"
+//	"$envmap"                "env_cubemap"
+//	"$envmaptint"            "[.35 .35 .35]"
+	"$detail"                "detail/plaster_detail_01"
+	"$detailscale"           "[6 6 6]"
+	"$detailblendfactor"     ".8"
+//	"$envmaplightscale"      ".8"
+//	"$envmapsaturation"      "2"
+//	"$envmapanisotropy"      "1"
+//	"$envmapanisotropyscale" ".6"
+//	"$envmapcontrast"        ".2"
+}

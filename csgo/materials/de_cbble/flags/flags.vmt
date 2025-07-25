@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$baseTexture "de_cbble\flags\flags"
+
+
+	"$alphatest" "1"
+	"$decal" "1"
+}

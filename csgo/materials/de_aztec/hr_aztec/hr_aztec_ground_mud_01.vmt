@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 		"de_aztec/hr_aztec/hr_aztec_ground_mud_01_color"
+	"$bumpmap" 			"de_aztec/hr_aztec/hr_aztec_ground_mud_01_normal"
+	
+	"$surfaceprop" 			"mud"
+                                                          
+	"%keywords" "mud,wet,sand" 	
+}   

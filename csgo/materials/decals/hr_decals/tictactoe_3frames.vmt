@@ -1,0 +1,21 @@
+ "LightMappedGeneric"
+ {
+  "$baseTexture" "decals/hr_decals/tictactoe_3frames"
+
+	"$translucent" 1
+	"$decal" 1
+
+	"$frame" 0
+
+  "Proxies" 
+  { 
+  	
+	
+   "ToggleTexture"
+   {
+    "toggleTextureVar" "$baseTexture"
+    "toggleTextureFrameNumVar" "$frame"
+//    "toggleTextureShouldWrap" "0"
+   } 	
+  } 
+ }

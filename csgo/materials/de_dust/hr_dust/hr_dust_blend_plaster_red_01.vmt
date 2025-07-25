@@ -1,0 +1,45 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" 				"de_dust/hr_dust/hr_dust_plaster_05_color"
+//	"$bumpmap" 					"de_dust/hr_dust/hr_dust_asphalt_01_normal"
+
+	"$layertint1"				"{172 118 107}"
+	"$layertint2"				"[1 1 1]"
+
+	"$baseTexture2" 			"de_dust/hr_dust/hr_dust_plaster_04_color"
+	
+//	"$blendmodulatetexture" 	"asphalt\hr_c\hr_asphalt_001_blendmod"	
+	"$blendmodulatetexture" 	"de_dust/hr_dust/hr_dust_plaster_05_blendmod"
+	"$blendmodulatetransform"	"center 0 0 scale 0.75 0.75 rotate 0 translate 0 0"
+	
+	"$surfaceprop" 				"concrete"
+
+//	"$envmap"					"env_cubemap"
+//	"$envmap"					"environment maps\metal_generic_001"
+//	"$envmap"					"models\props\de_nuke\hr_nuke\metal_railing_001\metal_railing_cube"
+//	"$envmap"					"environment maps\nuke2"
+	
+//	"$basealphaenvmapmask"		"1"
+	
+//	"$envmaplightscale"			"1"
+//	"$envmaplightscaleminmax" 	"[0 1.5]"
+//	"$envmapcontrast"			"0.5"
+
+//	"$envmapsaturation"			".75"
+//	"$fresnelreflection"		"0.001"
+//	"$basetexture2noenvmap" 	"1"
+
+	
+	"$detail" 					"de_dust/hr_dust/hr_dust_asphalt_04_detail"
+	"$detailscale" 				"[.45 .45]"
+	"$detailblendfactor" 		"-0.65"
+
+	"$detail2" 					"de_dust/hr_dust/hr_dust_asphalt_04_detail"
+	"$detailscale2" 			"[.40 .40]"
+	"$detailblendfactor2" 		"0.75"	
+	
+//	$normalmapalphaenvmapmask 	"1" 
+    
+	"%keywords" 				"hrdust,ground,street,asphalt" 	
+	
+} 

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "decals/Runner_Mat_01"
+	"$Decal" "1"
+	"$DecalScale" "0.250000"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

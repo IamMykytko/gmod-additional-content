@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_vertigo/safety_sign_text"
+	"$surfaceprop" "Default"
+	"$translucent" "1"
+	"$decal"       "1"
+
+	"Proxies"
+	{
+		"ToggleTexture"
+		{
+			"toggleTextureVar" "$basetexture"
+			"toggleTextureFrameNumVar" "$frame"
+		}
+	}
+}

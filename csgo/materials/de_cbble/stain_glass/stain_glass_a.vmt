@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_cbble/stain_glass/stain_glass_a"
+	"$surfaceprop" "glass"
+		"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 20 20 ]"
+	"$detailblendfactor" 	".7"
+ 	"$bumpmap" "de_cbble/stain_glass/stain_glass_a_normal"
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.15 .15 .15]"
+
+}

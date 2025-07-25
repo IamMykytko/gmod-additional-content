@@ -1,0 +1,9 @@
+WorldVertexTransition
+{
+$basetexture "concrete/blacktop_ext_04"
+$basetexture2 "ground/snow01"
+
+$blendmodulatetexture "ground/snowblendtexture"
+$surfaceprop concrete
+$surfaceprop2 snow
+}

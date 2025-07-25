@@ -1,0 +1,24 @@
+"LightmappedGeneric"
+{
+$baseTexture "cobblestone/hr_c/inferno/cobblestone_a"
+
+$surfaceprop concrete
+$bumpmap "cobblestone/hr_c/inferno/cobblestone_a_normals"
+
+	"$normalmapalphaenvmapmask" "1"
+	//"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.0 .1 .1]"	
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[5 5 5]"
+	"$detailblendfactor" 	".4"
+	"$envmaplightscale" "1"
+
+	
+//                "$phong"                         "1"                                         // to enable phong
+
+//                "$phongexponent"                   "65.0"                                    // phong exponent for basetexture, default is "5.0"
+//                "$phongMaskContrastBrightness"       "[3.0 3]"                           // contrast and brightness for basetexture phong mask generation, default is [1.0 0.0]
+//                "$phongBaseTint"                   "0.0"                                     // tint phong using basetexture rgb, default is 0.0 (no tint with basetexture), 1.0 = full tint, default is "0.0"
+//                "$phongAmount"                   "[3 3 3 1.0]"            // rgb - tint/amount for phong on basetexture, a - is a diffuse component multiplier, default is [2.0 2.0 2.0 1.0]
+
+}

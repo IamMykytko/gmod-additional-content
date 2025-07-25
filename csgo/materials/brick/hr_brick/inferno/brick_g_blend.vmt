@@ -1,0 +1,21 @@
+"WorldVertexTransition"
+{
+$baseTexture "brick/hr_brick/inferno/brick_g"
+$bumpmap "brick/hr_brick/inferno/brick_g_normals"
+
+//$blendmodulatetexture "brick/hr_brick/inferno/brick_a_blend"
+
+$blendmodulatetexture"brick/hr_brick/inferno/brick_g_blend"
+"$basetexture2" "brick/hr_brick/inferno/brick_g2"
+"$bumpmap2"  "brick/hr_brick/inferno/brick_g_normals"
+
+$surfaceprop brick
+
+
+
+"$detail" 				"detail\plaster_detail_01"
+"$detailscale" 			"[9 9]"
+"$detailblendfactor" 	"1"
+
+}
+

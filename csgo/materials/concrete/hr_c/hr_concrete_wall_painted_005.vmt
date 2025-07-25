@@ -1,0 +1,13 @@
+lightmappedgeneric
+{
+	"$basetexture"            "concrete/hr_c/hr_concrete_wall_painted_002_color"
+	"$bumpmap"                "concrete/hr_c/hr_concrete_wall_painted_002_normals"
+	"$bumptransform"          "center 0 0 scale 1.5 1.5 rotate 0 translate 0 0"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 .8]"
+	"$fresnelreflection"      ".1"
+	"$detail"                 "concrete/hr_c/hr_concrete_wall_painted_002_detail"
+	"$detailscale"            ".24"
+	"$detailblendfactor"      ".45"
+}

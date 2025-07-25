@@ -1,0 +1,11 @@
+lightmappedGeneric
+{
+	$baseTexture "decals/graffiti_spray_04"
+	$translucent 1
+	$decal 1
+	$color "{6 5 5}"
+	$decalscale 0.25
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+}

@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete/tunnel_concretewall_01b"
+	"$surfaceprop" "concrete"
+	
+	"$detail" "detail\dt_conc"
+	"$detailscale" "10"
+	"$detailblendfactor" ".7"
+	"$detailblendmode" "0"
+
+
+}

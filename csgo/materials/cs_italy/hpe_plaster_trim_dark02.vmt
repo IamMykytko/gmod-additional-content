@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+$baseTexture "cs_italy/hpe_plaster_trim_dark02"
+$surfaceprop plaster
+}

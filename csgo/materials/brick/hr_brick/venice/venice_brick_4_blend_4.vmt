@@ -1,0 +1,9 @@
+"worldvertextransition"
+{
+	"$basetexture"          "brick/hr_brick/venice/venice_brick_4f"
+	"$bumpmap"              "brick/hr_brick/venice/venice_brick_4_normal"
+	"$blendmodulatetexture" "brick/hr_brick/venice/venice_brick_4_blend_modulate_2"
+	"$basetexture2"         "plaster/hr_p/venice/venice_plaster_6"
+	"$bumpmap2"             "plaster/hr_p/venice/venice_plaster_6_normal"
+	"$surfaceprop"          "concrete"
+}

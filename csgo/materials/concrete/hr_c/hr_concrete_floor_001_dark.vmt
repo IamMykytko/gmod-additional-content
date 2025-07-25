@@ -1,0 +1,15 @@
+lightmappedgeneric
+{
+	"$basetexture"            "concrete/hr_c/hr_concrete_floor_001_color"
+	"$bumpmap"                "concrete/hr_c/hr_concrete_floor_001_normals"
+	"$color"                  "[0.6 0.6 0.6]"
+	"$envmap"                 "environment maps/metal_generic_001"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 0.3]"
+	"$envmapsaturation"       ".65"
+	"$envmapcontrast"         ".5"
+	"$surfaceprop"            "rubber"
+	"$detail"                 "concrete/hr_c/hr_concrete_polished_001_detail"
+	"$detailscale"            ".10"
+	"$detailblendfactor"      "1.25"
+}

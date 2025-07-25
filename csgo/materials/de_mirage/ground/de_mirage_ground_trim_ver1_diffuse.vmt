@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_mirage/ground/ground_trim_ver1_diffuse"
+	"$surfaceprop" "stone"
+//	"$detail" "detail/dt_ground2" 
+}

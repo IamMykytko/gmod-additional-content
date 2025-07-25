@@ -1,0 +1,7 @@
+
+LightmappedGeneric
+{
+	$basetexture "dust2_legacy/legacy_d2_road01a"
+	$surfaceprop "concrete"
+	$POINTSAMPLEMAGFILTER 1
+}

@@ -1,0 +1,10 @@
+lightmappedgeneric
+{
+	"$basetexture"            "de_nuke/whiteboard_overlay_01_color"
+	"$surfaceprop"            "plastic"
+	"$envmapmask"             "de_nuke/whiteboard_overlay_01_color"
+	"$envmap"                 "environment maps/metal_generic_001"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.2]"
+	"$envmapcontrast"         "0.7"
+}

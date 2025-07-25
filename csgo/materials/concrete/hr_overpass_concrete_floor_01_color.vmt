@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete\hr_overpass_concrete_floor_01_color"
+
+	"$bumpmap" "concrete\hr_overpass_concrete_floor_01_normal"
+	"$surfaceprop" "concrete"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

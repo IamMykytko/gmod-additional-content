@@ -1,0 +1,9 @@
+screenspace_general
+{
+	"$vertexshader" "vertexlit_and_unlit_generic_vs30"
+	"$pixshader"   "gradientmap_ps30"
+	"$basetexture" "_rt_fullframefb1"
+	"$alpha_blend" "1"
+	"$texture1"    "dev/hitlocator/hitlocator_gradient"
+	"$writealpha"  "1"
+}

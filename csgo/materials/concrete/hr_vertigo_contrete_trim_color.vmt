@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"concrete\hr_vertigo_contrete_trim_color"
+	"$surfaceprop" "concrete"
+
+	"$bumpmap" 	"concrete\hr_vertigo_contrete_trim_normal"
+	
+//	"$detail" 			"detail/detailconcrete001a"
+//	"$detailtexturetransform"	"center .5 .5 scale 1 8 rotate 0 translate 0 0"
+//	"$detailscale" "1"
+
+
+}

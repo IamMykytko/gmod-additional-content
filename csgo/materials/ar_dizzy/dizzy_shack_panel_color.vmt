@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ar_dizzy\dizzy_shack_panel_color"
+
+	"$bumpmap"                "ar_dizzy\dizzy_shack_panel_normal"
+	"$surfaceprop"            "metal"
+//	"$envmap"                 "environment maps/nuke2"
+	"$envmap"		  "env_cubemap"
+	"$envmapmask"             "ar_dizzy\dizzy_shack_panel_mask"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.5]"
+	"$envmapcontrast"         ".8"
+//	"$fresnelreflection"      "0.2"
+
+
+}

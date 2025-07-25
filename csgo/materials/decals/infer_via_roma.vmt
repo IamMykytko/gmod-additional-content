@@ -1,0 +1,11 @@
+lightmappedGeneric
+{
+	$baseTexture "decals/infer_via_roma"
+	$translucent 1
+	$decal 1
+	$decalscale 0.25
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$bumpMap" "decals/infer_via_roma_normal"
+
+}

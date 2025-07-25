@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_shacks/wood_planks_green2"
+	$surfaceprop wood
+}

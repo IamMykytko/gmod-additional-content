@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_cbble/stone_wall_b_02"
+	"$surfaceprop" "stone"
+	"$bumpmap" "de_cbble/stone_wall_b_02normal"
+	"%keywords" "cstrike"
+}

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 		"de_aztec/hr_aztec/hr_aztec_ground_rock_02_color"
+	"$bumpmap" 			"de_aztec/hr_aztec/hr_aztec_ground_rock_02_normal"
+	
+	"$surfaceprop" 			"rock"
+                                                          
+	"%keywords" "rock,ground,gravel" 	
+}   

@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	$basetexture "dev\hitlocator\hitlocator_leaderlines"
+	$translucent 1
+	//$additive 1
+}

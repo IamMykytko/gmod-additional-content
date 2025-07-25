@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_mirage/base/base_trim_ver1_diffuse"
+	"$surfaceprop" "concrete"	
+
+	//"$bumpmap" "de/mirage/ground/brick_ver1_normal
+
+
+}

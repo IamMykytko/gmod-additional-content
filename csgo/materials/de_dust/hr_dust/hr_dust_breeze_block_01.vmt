@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_breeze_block_01_color"
+	"$bumpmap" "de_dust/hr_dust/hr_dust_breeze_block_01_normal"                          
+	"$surfaceprop" "concrete"
+	"%keywords" "wall,concrete" 		
+} 

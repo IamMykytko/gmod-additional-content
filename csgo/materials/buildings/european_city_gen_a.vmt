@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture" "buildings\european_city_gen_a"
+// 	 $translucent" "1"
+    "$alphatest" "1"
+    "$alphaTestReference" ".35"
+
+}

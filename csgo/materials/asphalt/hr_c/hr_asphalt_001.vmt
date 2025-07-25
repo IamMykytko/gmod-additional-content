@@ -1,0 +1,10 @@
+"worldvertextransition"
+{
+	"$basetexture"          "asphalt/hr_c/hr_asphalt_001"
+	"$basetexture2"         "asphalt/hr_c/hr_asphalt_gravel_001"
+	"$blendmodulatetexture" "asphalt/hr_c/hr_asphalt_001_blendmod"
+	"$surfaceprop"          "concrete"
+	"$detail"               "asphalt/hr_c/hr_asphalt_001_detail"
+	"$detailscale"          ".21"
+	"$detailblendfactor"    ".85"
+}

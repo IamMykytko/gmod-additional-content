@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"de_nuke\nuklogo01_de"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "12.000"
+
+}

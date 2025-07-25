@@ -1,0 +1,24 @@
+"UnlitGeneric"
+{
+	// Original shader: BaseTimesLightmapSelfIllum
+	"$basetexture" "effects/digital_level_bar"
+	"$selfillum" 1
+	"$surfaceprop" "metal"
+	"$nodecal" 1
+
+	"Proxies"
+	{
+		"MaterialModify"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+		}
+
+		//"AnimatedTexture"
+		//{
+		//	"animatedtexturevar" "$basetexture"
+		//	"animatedtextureframenumvar" "$frame"
+		//	"animatedtextureframerate" 12
+		//}
+	}
+}

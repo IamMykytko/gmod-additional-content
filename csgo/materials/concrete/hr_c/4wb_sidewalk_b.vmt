@@ -1,0 +1,66 @@
+Lightmapped_4WayBlend
+{
+    "$basetexture"          "asphalt\asphalt_b"
+	"$bumpmap"         		"asphalt\asphalt_b1_normals"
+	"$surfaceprop" "concrete"
+	
+    "$basetexture2"        "stone\hr_stone\hr_pebbles_a"
+    "$bumpmap2"            "stone\hr_stone\hr_pebbles_normals_a"
+    "$texture2_uvscale"    "[2 2]"
+    "$texture2_lumstart"   "0.1"
+    "$texture2_lumend"     "0.2"
+    "$texture2_blendstart" "0.5"
+    "$texture2_blendend"   ".9"
+	"$texture2_bumpblendfactor" "0"
+	"$surfaceprop2" "dirt"
+	
+    "$basetexture3"         "ground/hr_g/ground_a"
+    
+    "$texture3_uvscale"    "[2 2]"
+    "$texture3_lumstart"   "0"
+    "$texture3_lumend"     ".5"
+    "$texture3_blendstart" ".8"
+    "$texture3_blendend"   "1"
+	"$texture3_bumpblendfactor" ".5"
+	"$surfaceprop3" "gravel"
+	
+    "$basetexture4"         "ground\hr_g\ground_b"
+    "$texture4_blendmode"  "0"
+    "$texture4_uvscale"    "[2 2]"
+    "$texture4_lumstart"   "0"
+    "$texture4_lumend"     "0.2"
+    "$texture4_blendstart" "0.8"
+    "$texture4_blendend"   "1"
+	"$texture4_bumpblendfactor" ".5"	
+	"$surfaceprop4" "dirt"
+
+    "$detail"              "detail\plaster_detail_01"
+    "$detailscale"         "[4 4 4]"
+    "$detailblendfactor"   ".8"
+    "$detailblendfactor2"  ".8"
+    "$detailblendfactor3"  ".8"
+    "$detailblendfactor4"  ".8"
+	
+
+	
+	"$lumblendfactor2"          ".6"
+    "$lumblendfactor3"          "1"
+    "$lumblendfactor4"          "1"
+		
+	
+
+	"$ENVMAPANISOTROPY" 		"1"
+	"$ENVMAPANISOTROPYSCALE"	"7"
+	//$normalmapalphaenvmapmask 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[0.6 0.6 1.2]"
+	"$envmapsaturation" "1"
+	"$basealphaenvmapmask" 1
+	 $ENVMAPLIGHTSCALE 1
+	//"$envmapcontrast" "0.5"
+	$ENVMAPLIGHTSCALEMINMAX "[0.75 5]"
+}
+	
+
+
+

@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+	"$translucent" 1
+	"$basetexture" "de_nuke\nuke_metalgrate_01"
+	"$surfaceprop" "metalgrate"
+}

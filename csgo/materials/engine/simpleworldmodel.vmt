@@ -1,0 +1,10 @@
+// This is the common vmt that is included by vmts in the bsp file system that are generated with buildmodelforworld
+"worldimposter"
+//"unlitgeneric"
+{
+	// the vmt that includes this should specify:
+	// $basetexture: whole material with lighting baked in
+	// $albedo: whole material without lighting
+	// $lightmap: lighting only
+}
+ 

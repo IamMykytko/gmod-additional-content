@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "cs_assault/steps_escalator01_desat"
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ .05 .05 .05 ]"
+
+	"$surfaceprop" "tile"
+
+}

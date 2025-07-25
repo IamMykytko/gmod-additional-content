@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "de_dust\hr_dust\dust_ornament_overlay"
+
+	"$translucent" "1"
+	"$decal"       "1"
+
+
+}

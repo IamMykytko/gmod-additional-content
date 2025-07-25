@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$basetexture" "decals/{pstripe2"
+	"$decal" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

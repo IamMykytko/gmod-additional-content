@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$translucent" 1
+	"$basetexture" "decals/decalmetalhatch007a"
+	"$decal"       1
+	"$decalscale"  0.25
+	"%keywords"    "airexchange,borealis"
+}

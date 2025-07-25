@@ -1,0 +1,7 @@
+
+LightmappedGeneric
+{
+	$basetexture "dust2_legacy/legacy_d2_crate03a"
+	$surfaceprop "wood"
+	$POINTSAMPLEMAGFILTER 1
+}

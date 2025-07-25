@@ -1,0 +1,21 @@
+screenspace_general
+{
+	"$pixshader"      "dronecam_ps30"
+	"$basetexture"    "_rt_fullframefb"
+	"$texture1"       "dev/replay_noise"
+	"$c0_x"           "0.0"
+	"$c0_y"           "0.0"
+	"$c0_z"           "0.0"
+	"proxies"
+	{
+		"uniformnoise"
+		{
+			"resultvar" "$c0_y"
+		}
+		"Sine"
+		{
+			"sineperiod" 8
+			"resultVar" "$c0_z"
+		}
+	}
+}

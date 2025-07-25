@@ -1,0 +1,11 @@
+"lightmappedgeneric"
+{
+	"$basetexture"   "brick/hr_brick/venice/doge_brick_1"
+	"$bumpmap"       "brick/hr_brick/venice/doge_brick_1_normal"
+	"$surfaceprop"   "concrete_block"
+	"$envmap"        "env_cubemap"
+	"$envmaptint"    "[.03 .03 .03]"
+	"$phong"         "1"
+	"$phongexponent" "35.0"
+	"$phongamount"   "[2.5 2.5 2.5 1.0]"
+}

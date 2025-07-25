@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Building_Template/Building_Template001f"
+	"$surfaceprop"  "concrete"
+
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+}

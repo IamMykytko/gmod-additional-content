@@ -1,0 +1,14 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_cbble/rooftile_a_broken_01"
+
+	"$surfaceprop" "brick"
+	"$bumpmap" "de_cbble/rooftile_a_01normal"
+	"$normalmapalphaenvmapmask" "1"
+        //"$envmapcontrast" 1
+        //"$envmapsaturation" .7
+        "$envmaptint" "[ 0.01 0.01 0.01 ]"
+  	"$envmap" "env_cubemap"
+	//"%keywords" "cstrike"
+	"$alphatest" 1
+}

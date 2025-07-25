@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_mirage/ground/ground_tilec_diffuse"
+	"$surfaceprop" "sand"
+//	"$detail" "detail/dt_ground2" 
+}

@@ -1,0 +1,32 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_ground_sand_01_color"
+	//"$bumpmap" "de_dust/hr_dust/hr_dust_ground_stone_01_normal"
+	                               
+	
+	"$surfaceprop" "sand"
+
+	//"$envmap"			"env_cubemap"
+
+	//"$envmaplightscale"		"1"
+	//"$envmaplightscaleminmax" 	"[0 0.1]"
+	//"$envmapcontrast"		"0.25"
+
+	//"$envmapsaturation"		".75"
+	//"$envmapfresnel"		"1"
+	//"$basetexture2noenvmap" 	"1"
+	//"$envmap"			""
+	
+	//"$detail" 			"detail\plaster_detail_01"
+	//"$detailscale" 		"[9 9 9]"
+	//"$detailblendfactor" 		".6"
+
+	//"$phong"			 "1"                                         
+    	//"$phongexponent"		"85"                                                           
+    	//"$phongAmount"       		"[.5 .5 .5 1.0]"   
+
+	//$normalmapalphaenvmapmask 	1  	
+    
+	"%keywords" "ground,rock,street,sand" 	
+	
+} 

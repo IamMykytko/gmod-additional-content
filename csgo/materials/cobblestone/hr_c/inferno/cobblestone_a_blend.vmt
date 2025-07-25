@@ -1,0 +1,30 @@
+"WorldVertexTransition"
+{
+$baseTexture "cobblestone/hr_c/inferno/cobblestone_a"
+
+$blendmodulatetexture "cobblestone/hr_c/inferno/cobblestone_a_blend"
+
+$surfaceprop concrete
+$bumpmap "cobblestone/hr_c/inferno/cobblestone_a_normals"
+	
+"$basetexture2" "grass\hr_grass\inferno\grass_a"
+"$bumpmap2"  "grass\hr_grass\inferno\grass_a_normals"	
+	"$detail" 				"detail\plaster_detail_01"
+	"$detailscale" 			"[8 8 8]"
+	"$detailblendfactor" 	".9"
+
+//                "$phong"                         "1"                                         // to enable phong
+
+//                "$phongexponent"                   "60.0"                                    // phong exponent for basetexture, default is "5.0"
+//                "$phongMaskContrastBrightness"       "[10 .01]"                           // contrast and brightness for basetexture phong mask generation, default is [1.0 0.0]
+//                "$phongBaseTint"                   "0.0"                                     // tint phong using basetexture rgb, default is 0.0 (no tint with basetexture), 1.0 = full tint, default is "0.0"
+//                "$phongAmount"                   "[.5 .5 .5 1]"            // rgb - tint/amount for phong on basetexture, a - is a diffuse component multiplier, default is [2.0 2.0 2.0 1.0]
+
+//                "$phongexponent2"                                      "12.0"                                   // same set of parameters for basetexture2 (worldvertextransition) if used
+//                "$phongMaskContrastBrightness2"        "[4.0 0]"                         // 
+//                "$phongBaseTint2"                                        "0.0"                                     // 
+//                "$phongAmount2"                                         "[1 1 1 1]"            // 
+}
+
+
+

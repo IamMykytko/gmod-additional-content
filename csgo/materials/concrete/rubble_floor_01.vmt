@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "concrete/rubble_floor_01"
+$surfaceprop concrete
+"%keywords" l4d2
+}

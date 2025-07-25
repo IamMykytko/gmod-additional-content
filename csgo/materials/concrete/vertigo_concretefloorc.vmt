@@ -1,0 +1,16 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "concrete\vertigo_concretefloorc"
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "concrete/vertigo_concretefloora_normal"
+
+	"$surfaceprop" "concrete"
+
+
+}

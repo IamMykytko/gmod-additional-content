@@ -1,0 +1,10 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "concrete/hr_c/hr_sidewalk_a"
+	"$surfaceprop"  	"concrete"
+	"$bumpmap" 	"concrete/hr_c/hr_sidewalk_a_bump"
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[2 2 2]"
+	"$detailblendfactor" 	"1"
+}

@@ -1,0 +1,21 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "de_mirage/ground/ground_tilec_blend_diffuse"
+	
+	"$blendmodulatetexture""de_mirage/ground/ground_tilec_blendmp_diffuse"
+	
+	"$basetexture2""de_mirage/ground/ground_tilef_diffuse"
+	
+
+	"$bumpmap" "de_mirage/ground/ground_tilec_normal"
+	"$bumpmap2" "de_mirage/ground/ground_tilef_normals"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	"0.25"
+
+	"$bumpscale" "0.1"
+
+	
+	$surfaceprop rock
+	$surfaceprop2 sand
+}

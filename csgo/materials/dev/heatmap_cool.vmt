@@ -1,0 +1,8 @@
+screenspace_general
+{
+	"$pixshader"   "gradientmap_ps30"
+	"$basetexture" "_rt_fullframefb1"
+	"$alpha_blend" "1"
+	"$texture1"    "dev/heatmap_cool"
+	"$writealpha"  "1"
+}

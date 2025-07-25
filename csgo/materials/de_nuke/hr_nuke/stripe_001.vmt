@@ -1,0 +1,6 @@
+"decalmodulate"
+{
+	"$basetexture" "de_nuke/hr_nuke/stripe_001"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

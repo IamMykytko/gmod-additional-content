@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "buildings/vertigo_skyscraper"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "buildings/vertigo_skyscraper_ref"
+	"$surfaceprop" "glass"
+}

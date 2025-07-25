@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "concrete/highway_02_turn"
+$surfaceprop concrete
+"%keywords" l4d2
+}

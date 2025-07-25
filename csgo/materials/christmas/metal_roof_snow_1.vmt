@@ -1,0 +1,14 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "christmas\metal_roof_snow_1"
+
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+	"$bumpmap" "christmas\metal_roof_snow_1_normal"
+	"$surfaceprop" "metal"
+
+
+}

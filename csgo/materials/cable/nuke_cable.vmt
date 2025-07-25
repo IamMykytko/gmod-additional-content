@@ -1,0 +1,5 @@
+"splinerope"
+{
+	"$basetexture" "cable/nuke_cable_001"
+	"$translucent" "1"
+}

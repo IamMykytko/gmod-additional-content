@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "floors/hr_c/hr_floor_tile_001_color"
+	"$surfaceprop" "rubber"
+	"$detail"      "floors/hr_c/hr_floor_tile_001_detail"
+	"$detailscale" ".25"
+}

@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	$baseTexture "dust_massive/overlay_helipad"
+	"$surfaceprop" 			"concrete"
+	"$translucent" 			"1"
+	"$alpha "				"1"	
+	"$decal" 1
+	"$decalscale" ".25" 
+
+}

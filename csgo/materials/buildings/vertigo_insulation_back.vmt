@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "buildings/vertigo_insulation_back"
+	"$bumpmap"     "buildings/vertigo_insulation_back_N"
+	 $surfaceprop "upholstery"
+//	"$envmapmask"  "buildings/vertigo_insulation_ref"
+//	"$envmap" "env_cubemap"
+//	"$envmaptint" "[.7 .7 .7]"
+}

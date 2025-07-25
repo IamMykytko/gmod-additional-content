@@ -1,0 +1,10 @@
+"worldvertextransition"
+{
+	"$basetexture"          "concrete/hr_c/hr_concrete_floor_05_color"
+	"$basetexture2"         "concrete/hr_c/hr_concrete_floor_05_dirty_color"
+	"$blendmodulatetexture" "concrete/hr_c/hr_concrete_floor_05_blendmod"
+	"$detail"               "concrete/hr_c/hr_concrete_floor_05_detail"
+	"$detailscale"          ".24"
+	"$detailblendfactor"    ".55"
+	"$surfaceprop"          "concrete"
+}

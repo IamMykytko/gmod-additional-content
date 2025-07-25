@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/vertigo_sheetrockdust"
+	"$translucent" 1
+	"$decal" 1
+	"$decalscale" .25
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

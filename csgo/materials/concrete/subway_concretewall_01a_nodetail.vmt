@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "concrete/subway_concretewall_01a"
+
+	"$bumpmap" "concrete/subway_concretewall_01a_ssbump"
+	"$ssbump" "1"
+
+//	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" 1
+//	"$envmaptint" "[ .5 .5 .5 ]"
+
+	//"$bumptransform" "center 0 0 scale .5 .5 rotate 0 translate 0 0"
+
+//	"$detail" "detail\detail_concrete_02_ssbump"
+//	"$detailscale" "2.5"
+//	"$detailblendfactor" .5
+//	"$detailblendmode" 0
+}

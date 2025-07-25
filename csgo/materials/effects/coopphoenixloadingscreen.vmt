@@ -1,0 +1,14 @@
+"unlitgeneric"
+{
+	"$basetexture"               "effects/coopphoenixloadingscreen"
+	"$surfaceprop"               "glass"
+	"proxies"
+	{
+		"materialmodifyanimated"
+		{
+			"animatedtexturevar"         "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate"   "0"
+		}
+	}
+}

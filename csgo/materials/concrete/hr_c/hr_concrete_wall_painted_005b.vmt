@@ -1,0 +1,20 @@
+lightmappedgeneric
+{
+	"$basetexture"            "concrete/hr_c/hr_concrete_wall_painted_002_color"
+	"$addbumpmaps"            "1"
+	"$bumpmap2"               "concrete/hr_c/hr_concrete_column_001_normals"
+	"$bumptransform2"         "center 0 0 scale 4 1 rotate 0 translate 0 0"
+	"$bumpdetailscale2"       ".75"
+	"$bumpmap"                "concrete/hr_c/hr_concrete_wall_painted_002_normals"
+	"$bumptransform"          "center 0 0 scale 4 1 rotate 0 translate 0 0"
+	"$bumpdetailscale"        "1"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 .8]"
+	"$envmapsaturation"       ".65"
+	"$envmapcontrast"         ".2"
+	"$fresnelreflection"      "0.1"
+	"$detail"                 "concrete/hr_c/hr_concrete_wall_painted_003_detail"
+	"$detailscale"            "[4 1]"
+	"$detailblendfactor"      ".4"
+}

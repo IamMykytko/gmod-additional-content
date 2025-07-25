@@ -1,0 +1,19 @@
+"worldvertextransition"
+{
+	"%tooltexture"	"concrete/hr_vertigo_concrete_walle_tooltexture"
+
+	"$basetexture" "concrete/hr_vertigo_concrete_walle_color"
+	"$surfaceprop" "concrete"
+
+	"$bumpmap"     "concrete/hr_vertigo_concrete_walle_normal"
+
+	"$detail" "detail/detailconcrete001a"
+	"$detailscale" "2"
+
+	"$blendmodulatetexture"        "concrete/hr_vertigo_concrete_walle_modulate"
+
+	"$basetexture2"                "concrete/hr_vertigo_concrete_wallf_color"
+	"$bumpmap2"                    "concrete/hr_vertigo_concrete_wallf_normal"
+
+
+}

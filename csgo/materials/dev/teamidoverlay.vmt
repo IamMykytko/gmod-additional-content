@@ -1,0 +1,8 @@
+screenspace_general
+{
+	$PIXSHADER teamoutline_ps20
+	$basetexture _rt_FullScreen
+	$additive 1
+	$linearread_basetexture 1
+	$linearwrite 1
+}

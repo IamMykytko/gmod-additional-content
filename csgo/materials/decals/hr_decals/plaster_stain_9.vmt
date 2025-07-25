@@ -1,0 +1,13 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "decals\hr_decals\plaster_stain_9"
+
+	"$translucent" 1
+	"$decal" 1
+	
+	
+	    "$detail"              "detail\noise_detail_01"
+	    "$detailscale"         "[ 4 8 ]"
+	    "$detailblendfactor"   ".9"
+
+}

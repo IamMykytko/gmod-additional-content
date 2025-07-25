@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "dust_massive/sign_warning_01"
+	"$surfaceprop" 			"metal"
+
+
+	"%keywords" "road,asphalt,decal,gravel,stripe" 	
+
+}

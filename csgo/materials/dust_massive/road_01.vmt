@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "dust_massive\road_01"
+	$surfaceprop gravel
+
+
+}

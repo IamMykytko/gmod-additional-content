@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+$baseTexture "decals/window_wood40"
+$translucent 1
+$decal 1
+$decalscale "0.250000"
+$vertexcolor 1
+$vertexalpha 1
+}

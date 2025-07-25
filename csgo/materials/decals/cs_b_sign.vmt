@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/CS_B_sign"
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

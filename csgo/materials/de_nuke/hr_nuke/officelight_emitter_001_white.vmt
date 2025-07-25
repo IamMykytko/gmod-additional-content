@@ -1,0 +1,6 @@
+"unlitgeneric"
+{
+	"$basetexture" "cs_havana/white"
+	"$surfaceprop" "glass"
+	"$color"       "[2 2 2]"
+}

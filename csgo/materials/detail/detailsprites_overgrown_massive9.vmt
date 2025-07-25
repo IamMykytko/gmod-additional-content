@@ -1,0 +1,11 @@
+grass
+{
+	"$basetexture"    "detail/foliage_atlas"
+	"$alphatest"      "1"
+	"$vertexcolor"    "1"
+	"$worldspacetint" "detail/test_massive9_grass_tint"
+	"$worldspacetype" "detail/test_massive9_grass_type"
+	"$worldspaceburn" "_rt_grassburn"
+	"$worldspacezone" "_rt_zoneprojection"
+	%notooltexture    "1"
+}

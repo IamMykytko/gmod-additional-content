@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$basetexture" "decals/target"
+	// Don't make this a decal because at an extreme angle it will show through walls.
+	//"$decal" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

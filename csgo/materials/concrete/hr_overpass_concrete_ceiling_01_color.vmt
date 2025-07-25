@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"concrete\hr_overpass_concrete_ceiling_01_color"
+
+	"$bumpmap" 	"concrete\hr_overpass_concrete_ceiling_01_normal"
+	"$surfaceprop" 	"concrete"
+
+	"$detail" 	"detail/detailconcrete001a"
+	"$detailscale" 	"2"
+
+
+}

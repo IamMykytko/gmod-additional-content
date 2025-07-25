@@ -1,0 +1,14 @@
+"lightmappedgeneric"
+{
+	"$basetexture"            "de_nuke/hr_nuke/hazard_stripe_001"
+	"$bumpmap"                "concrete/hr_c/hr_concrete_column_001_normals"
+	"$bumptransform"          "center 0 0 scale 8 4 rotate 90 translate 0 0"
+	"$detail"                 "metal/hr_metal/hr_metal_trim_001_detail"
+	"$detailscale"            "[8 4]"
+	"$detailblendfactor"      "2"
+	"$envmap"                 "environment maps/metal_generic_001"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 .65]"
+	"$envmapcontrast"         ".95"
+	"$surfaceprop"            "concrete"
+}

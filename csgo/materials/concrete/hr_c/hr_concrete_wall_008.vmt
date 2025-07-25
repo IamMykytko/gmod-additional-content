@@ -1,0 +1,8 @@
+lightmappedgeneric
+{
+	"$basetexture"       "concrete/hr_c/hr_concrete_wall_008_color"
+	"$surfaceprop"       "concrete"
+	"$detail"            "concrete/hr_c/hr_concrete_wall_008_detail"
+	"$detailscale"       "[.25 1]"
+	"$detailblendfactor" ".9"
+}

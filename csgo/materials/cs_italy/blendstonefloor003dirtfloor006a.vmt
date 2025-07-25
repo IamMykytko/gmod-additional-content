@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Stone/stonefloor003a"
+    "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	"$bumpmap" "stone/stonefloor003a_normal"
+	"$surfaceprop" "concrete"
+	
+	"$basetexture2" "Nature/dirtfloor006a"
+    "$basetexturetransform2" "center .5 .5 scale .125 .125 rotate 0 translate 0 0"
+	"$surfaceprop2" "dirt"
+	
+	"$blendmodulatetexture" "stone/stonefloor003a_blend"
+}
+
+

@@ -1,0 +1,17 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "decals\hr_decals\plaster_damage_2"
+	"$bumpmap"  "decals/hr_decals/plaster_damage_2_normal"
+
+	"$translucent" 1
+	"$decal" 1
+	
+	
+	
+	   "$detail"              "detail\noise_detail_01"
+	    "$detailscale"         "[ 8 8 ]"
+	    "$detailblendfactor"   ".65"
+
+//	    "$color" "{300 300 300}"	
+
+}

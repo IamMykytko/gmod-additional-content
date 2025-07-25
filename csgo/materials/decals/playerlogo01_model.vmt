@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+$mappingwidth "48"
+$mappingheight "48"
+
+$vertexcolor 1
+$vertexalpha 1
+
+$decal 1
+$translucent 1
+
+$alpha 1.0
+$alphamodifiedbyproxy_DO_NOT_SET_IN_VMT 1
+
+$detail "decals/sprays/alpha"
+$detailblendmode 9
+$detailscale 1
+$detailblendfactor 0
+
+$color "{255 255 255}"
+$basetexture "decals/bloodstain_hand"
+Proxies
+{
+  PlayerLogo
+  {
+  }
+}
+
+}

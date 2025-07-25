@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_tile_01_color"
+	"$bumpmap" "de_dust/hr_dust/hr_dust_tile_01_normal"
+
+	                               
+	
+	"$surfaceprop" 				"tile"
+
+
+ 	"%keywords" "ground,street,asphalt" 	
+	
+} 

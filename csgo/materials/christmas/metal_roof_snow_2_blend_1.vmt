@@ -1,0 +1,20 @@
+"worldvertextransition"
+{
+	"%tooltexture"			"christmas\metal_roof_snow_2_blend_1_tooltexture"
+
+	"$basetexture"                 "christmas\metal_roof_snow_2"
+	"$bumpmap"                     "christmas\metal_roof_snow_2_normal"
+
+	"$blendmodulatetexture"        "christmas\metal_roof_snow_2_blend_modulate"
+
+	"$basetexture2" "ground\snow01"
+	"$bumpmap2" "ground/snow01_normal"
+
+
+	"$surfaceprop"          "metal"
+	"$surfaceprop2"         "snow"
+
+
+
+
+}

@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_decal_mudbrick_wear_01_color"
+	"$bumpmap" 	   "de_dust/hr_dust/hr_dust_decal_mudbrick_wear_01_normal"
+	
+	"$surfaceprop" 			"plaster"
+
+	"$translucent" 			"1"
+
+	"$decal" 1
+	"$decalscale" ".25" 
+}

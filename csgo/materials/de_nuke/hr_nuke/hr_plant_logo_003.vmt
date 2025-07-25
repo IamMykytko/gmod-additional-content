@@ -1,0 +1,17 @@
+lightmappedgeneric
+{
+	"$basetexture"            "de_nuke/hr_nuke/hr_plant_logo_003"
+	"$alphatest"              "1"
+	"$allowalphatocoverage"   "1"
+	"$alphatestreference"     "0.4"
+	"$decal"                  1
+	"$decalscale"             ".25"
+	"$vertexcolor"            1
+	"$vertexalpha"            1
+	"$envmapmask"             "de_nuke/hr_nuke/hr_plant_logo_003"
+	"$envmap"                 "environment maps/metal_generic_001"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.0 1.0]"
+	"$envmapsaturation"       ".55"
+	"$fresnelreflection"      "0.35"
+}

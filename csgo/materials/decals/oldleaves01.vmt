@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"nature\oldleaves01"
+	"$translucent" 	"1"
+	"$decal" 		"1"
+	"$decalscale" 	"0.25"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+	"%tooltexture"	"decals\oldleaves01_tooltexture"
+	"%keywords"		"house, de_house"
+}

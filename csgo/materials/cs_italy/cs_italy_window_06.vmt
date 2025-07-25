@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture" "cs_italy/CS_italy_window_06"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "1.000"
+}

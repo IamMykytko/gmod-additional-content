@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+"$baseTexture" "concrete/hr_c/hr_concrete_stairs_02_color"
+"$bumpmap" 	"concrete/hr_c/hr_concrete_stairs_02_normal"
+"$surfaceprop" "concrete"
+
+	"$detail" 				"detail\detailconcrete001a"
+	"$detailscale" 			"[2 2 2]"
+	"$detailblendfactor" 	"1"
+}
+

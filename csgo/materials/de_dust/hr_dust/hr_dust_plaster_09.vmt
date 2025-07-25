@@ -1,0 +1,30 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "de_dust/hr_dust/hr_dust_plaster_09_color"
+	"$bumpmap" 					"de_dust/hr_dust/hr_dust_plaster_05_normal"
+	"$baseTexture2" "de_dust/hr_dust/hr_dust_plaster_04_color"
+	"$bumpmap2" 					"de_dust/hr_dust/hr_dust_plaster_04_normal"
+
+	"$blendmodulatetexture" 	"de_dust/hr_dust/hr_dust_plaster_04_blendmod"
+	//"$blendmodulatetransform"	"center 0 0 scale .75 .75   rotate 0 translate 0 0"
+
+
+	$NEWLAYERBLENDING	1
+	$BLENDSOFTNESS	0.1
+	$LAYERBORDERSTRENGTH	.4
+	$LAYERBORDEROFFSET	.2
+	$LAYERBORDERSOFTNESS	.5
+	$LAYERBORDERTINT	"{160 135 110}"
+	
+
+	"$surfaceprop" 			"plaster"
+	"$surfaceprop2" 		"plaster"
+
+
+
+	"%keywords" "wall,plaster" 
+
+
+	//"$reflectivity" "{245 190 140}" 	
+
+}
