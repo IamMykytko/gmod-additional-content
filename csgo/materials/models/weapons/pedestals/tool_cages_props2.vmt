@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\cs_assault\Tool_cages_Props2.vtf"
+$color "[.68 .7 .7]"
+}

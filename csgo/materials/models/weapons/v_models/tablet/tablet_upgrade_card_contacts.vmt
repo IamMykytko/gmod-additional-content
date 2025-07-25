@@ -1,0 +1,7 @@
+vertexlitgeneric
+{
+	"$basetexture"         "models/weapons/v_models/tablet/tablet_upgrade_card_hires"
+	"$envmaptint"          "[ 1 0.83 0.13 ]"
+	"$basealphaenvmapmask" "1"
+	"$envmap"              "env_cubemap"
+}

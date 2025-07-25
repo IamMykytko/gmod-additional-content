@@ -1,0 +1,24 @@
+vertexlitgeneric
+{
+	$basetexture			models\weapons\w_models\arms\w_ct_gsg9_glove_color
+	
+	$envmap env_cubemap
+	$envmaptint "[ .01 .01 .02 ]"
+	$normalmapalphaenvmapmask 1
+	
+	$bumpmap				models\weapons\w_models\arms\w_ct_base_glove_normal
+	$phongexponenttexture	models\weapons\w_models\arms\w_ct_base_glove_exp
+	
+ 	$phong 1
+	$phongboost .6
+	$phongalbedoboost 15
+	$phongtint "[0.7 0.8 1]"
+	
+	$phongfresnelranges "[1 1 3]"
+	
+	$rimlight 1
+	$rimlightexponent 4
+	$rimlightboost 1
+	$rimmask 1
+	
+}

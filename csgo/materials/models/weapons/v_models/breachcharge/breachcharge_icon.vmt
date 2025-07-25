@@ -1,0 +1,5 @@
+unlitgeneric
+{
+	$alphatest 1
+	$basetexture "models\weapons\v_models\breachcharge\breachcharge_icon"
+}

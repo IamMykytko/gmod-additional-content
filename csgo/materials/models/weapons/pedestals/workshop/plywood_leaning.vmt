@@ -1,0 +1,9 @@
+patch
+{
+	include materials\models\props\de_vertigo\plywood_leaning.vmt
+	insert
+	{
+		$color 1.8
+		$desaturatewithbasealpha 1
+	}
+}

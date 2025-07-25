@@ -1,0 +1,10 @@
+patch
+{
+	include materials\models\props\props_gameplay\target_bullseye_prop.vmt
+	insert
+	{
+		$color 1.8
+		$desaturatewithbasealpha 1
+		$envmapsaturation 0
+	}
+}

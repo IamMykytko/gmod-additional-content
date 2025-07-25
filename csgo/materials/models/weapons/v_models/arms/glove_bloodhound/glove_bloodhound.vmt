@@ -1,0 +1,24 @@
+character
+{
+	"$basetexture"              models/weapons/v_models/arms/glove_bloodhound/glove_bloodhound
+	"$envmap"                   env_cubemap
+	"$envmapsaturation"         -0.7
+	"$envmaplightscale"         1.0
+	"$envmaplightscaleminmax"   "[-.05 1]"
+	"$envmaptint"               "[ .015 .015 .025 ]"
+	"$normalmapalphaenvmapmask" 1
+	"$bumpmap"                  models/weapons/v_models/arms/glove_bloodhound/glove_bloodhound_normal
+	"$phongwarptexture"         models/weapons/v_models/arms/glove_bloodhound/glove_bloodhound_specwarp
+	"$fresnelrangestexture"     models/weapons/v_models/arms/glove_bloodhound/glove_bloodhound_fresnelwarp
+	"$masks1"                   models/weapons/v_models/arms/glove_bloodhound/glove_bloodhound_masks1
+	"$masks2"                   models/weapons/v_models/arms/glove_bloodhound/glove_bloodhound_masks2
+	"$phong"                    1
+	"$phongboost"               .4
+	"$phongalbedoboost"         15
+	"$phongtint"                "[2.1 2.4 3]"
+	"$rimlight"                 1
+	"$rimlightexponent"         10
+	"$rimlightboost"            .2
+	"$rimmask"                  1
+	"$ambientreflectionboost"   0.035
+}

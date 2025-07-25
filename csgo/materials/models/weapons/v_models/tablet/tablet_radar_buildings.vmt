@@ -1,0 +1,9 @@
+unlitgeneric
+{
+	"$alphatest"               "1"
+	"$alphatestreference"      "0.95"
+	"$vertexcolor"             "1"
+	"$tablet_radar_level_name" "none"
+	"$levelnamereplacevar"     "$basetexture"
+	"$basetexture"             "models/weapons/v_models/tablet/tablet_radar_%levelname%"
+}

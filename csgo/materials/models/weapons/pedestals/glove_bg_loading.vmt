@@ -1,0 +1,42 @@
+unlitgeneric
+{
+	$basetexture "models/weapons/pedestals/glove_bg_loading"
+	$color 0.16
+	
+	$tempvar 0
+	
+	"proxies"
+	{
+		"EconInspectPreviewTime"
+		{
+			"resultVar" "$tempvar"
+		}
+		
+		"RemapValClamp"
+		{
+			"srcVar1" "$tempvar"
+		
+			"range_in_min" 1.7
+			"range_in_max" 2.1
+			"range_out_min" 1.0
+			"range_out_max" 0.0
+			
+			"resultVar" "$alpha"
+		}
+		
+		"RemapValClamp"
+		{
+			"srcVar1" "$tempvar"
+		
+			"range_in_min" 0.0
+			"range_in_max" 0.2
+			"range_out_min" 0.0
+			"range_out_max" 0.2
+			
+			"resultVar" "$color"
+		}
+		
+	}
+	
+}
+

@@ -1,0 +1,14 @@
+"vertexlitgeneric"
+{
+	"$basetexture"          "models/weapons/v_models/arms/separatist/sleeve_separatist"
+	"$bumpmap"              "models/weapons/v_models/arms/st6/sleeve_st6_normal"
+	"$phongexponent"		"12"
+	"$phong"                "1"
+	"$phongboost"           "0.2"
+	"$phongtint"            "[1 1 1]"
+	"$phongfresnelranges"   "[.1 .1 .1]"
+	"$rimlight"             "1"
+	"$rimlightexponent"     "8"
+	"$rimlightboost"        ".1"
+	"$rimmask"              1
+}

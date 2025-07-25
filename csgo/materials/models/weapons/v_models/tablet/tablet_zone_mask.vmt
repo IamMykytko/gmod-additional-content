@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	$alphatest 1
+	$additive 1
+	"$basetexture" "models/weapons/v_models/tablet/tablet_zone_mask"
+}

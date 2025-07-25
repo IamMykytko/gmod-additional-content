@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "concrete\concretefloor016a"
+	$color "[.3 .3 .3]"
+}

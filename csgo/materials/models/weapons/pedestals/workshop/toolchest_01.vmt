@@ -1,0 +1,10 @@
+patch
+{
+	include materials\models\props\de_boathouse\toolchest_01.vmt
+	insert
+	{
+		$color 1.6
+		$desaturatewithbasealpha 1
+		$envmapsaturation 0
+	}
+}

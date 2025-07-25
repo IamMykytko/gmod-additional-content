@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/props/gg_Vietnam/vietnam_hut_wood_gang"
+	"$detail" 				"detail\dt_wood2"
+	"$detailscale" 			"[ 26 26 ]"
+	"$detailblendfactor" 	"1.0"
+}

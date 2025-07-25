@@ -1,0 +1,13 @@
+unlitgeneric
+{
+	$basetexture "models/weapons/w_models/w_eq_tablet/tablet_light"
+	$color "{ 255 205 0 }"
+	proxies
+	{
+		TabletUpgradeProxy
+		{
+			upgrade "0"
+			resultvar "$alpha" 
+		}
+	}
+}

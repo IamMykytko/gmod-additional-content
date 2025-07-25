@@ -1,0 +1,28 @@
+"character"
+{
+	"$basetexture"            "models/weapons/v_models/arms/swat/sleeve_swat_medic_color"
+	"$bumpmap"                "models/weapons/v_models/arms/swat/sleeve_swat_leader_normal"
+	"$masks1"                 "models/weapons/v_models/arms/swat/sleeve_swat_leader_masks1"
+	"$masks2"                 "models/weapons/v_models/arms/swat/sleeve_swat_leader_masks2"
+	"$envmaptint"             "[4 4 4]"
+	"$envmapsaturation"       "-0.6"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[.48 1]"
+	"$phongwarptexture"       "models/player/custom_player/shared/ctm_specwarp_v2"
+	"$fresnelrangestexture"   "models/player/custom_player/shared/ctm_fresnelwarp_v2"
+	"$phongboost"             ".001"
+	"$phongalbedoboost"       "2"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "0.2"
+	"$rimlightalbedo"         "0.6"
+	"$fakerimtint"            "[0.5 0.7 1]"
+	"$fakerimboost"           "9"
+	"$shadowsaturation"       "0.23"
+	"$shadowsaturationbounds" "[-0.1 0.3 0.4 0.7]"
+	"$shadowcontrast"         "0.05"
+	"$shadowtint"             "[0 0.8 1 0.5]"
+	"$anisotropyamount"       "0.7"
+	"$model"                  "1"
+	
+	
+}

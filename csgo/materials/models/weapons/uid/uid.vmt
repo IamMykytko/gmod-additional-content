@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	$phong "1"
+	$basetexture "models\weapons\uid\uid"
+	$basemapalphaphongmask "1"
+	$phongexponent "100"
+	$phongboost ".8"	
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.15 .15 .15]"
+	"$basealphaenvmapmask" 1
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+}

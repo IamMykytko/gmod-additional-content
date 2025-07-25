@@ -1,0 +1,67 @@
+character
+{
+//	"$basetexture"            models/weapons/v_models/arms/glove_motorcycle/glove_motorcycle_color
+//	"$bumpmap"                models/weapons/v_models/arms/glove_motorcycle/glove_motorcycle_normal
+	"$masks1"                 models/weapons/v_models/arms/glove_motorcycle/glove_motorcycle_masks1
+	"$phongwarptexture"       models/weapons/v_models/arms/common/material_specwarp
+	"$fresnelrangestexture"   models/weapons/v_models/arms/glove_motorcycle/glove_motorcycle_fresnelrange
+	"$basealphaenvmask"       1
+	"$rimlightboost"          0.5
+	"$rimlightexponent"       16
+	"$ambientreflectionboost" 0.8
+	"$shadowsaturation"       0.1
+	"$shadowsaturationbounds" "[0.1 0.3 0.6 0.9]"
+	"$phongboost"             1
+	"$envmap"                 "env_cubemap"
+	"$envmaplightscale"       0.99
+
+	$preview 				1
+	$basetexture            white
+	$bumpmap				models/weapons/customization/glove_motorcycle/glove_motorcycle_normal
+	$materialmask			models/weapons/customization/glove_motorcycle/material_mask
+	$ao						models/weapons/customization/glove_motorcycle/ao
+	
+	$grunge					models/weapons/customization/glove_motorcycle/grunge
+	$grungetexturetransform "center .5 .5 scale 2.5 2.5 rotate 0 translate 0 0"
+	$wearbleaching 			"[.8 0 .1 .4]"
+	$damagebleaching		"[.2 0 .1 .4]"
+	
+	"$palettecolor1" "[ 63.000000 62.000000 66.000000 ]"
+	"$palettecolor2" "[ 96.000000 102.000000 106.000000 ]"
+	"$palettecolor3" "[ 37.000000 37.000000 37.000000 ]"
+	"$palettecolor4" "[ 52.000000 52.000000 54.000000 ]"
+	"$palettecolor5" "[ 73.000000 77.000000 82.000000 ]"
+	"$palettecolor6" "[ 51.000000 54.000000 55.000000 ]"
+	"$palettecolor7" "[ 209.000000 209.000000 209.000000 ]"
+	"$palettecolor8" "[ 211.000000 189.000000 31.000000 ]"
+	
+	$detail					models/weapons/customization/glove_motorcycle/detail
+	$detailnormal			models/weapons/customization/glove_motorcycle/detailnormal
+	$detailscale	"[4 5 8 6]"
+	$detailphongalbedotint "[0.05 0.5 0.6 0.05]"
+	$detailnormaldepth	"[4 1 10 1.3]"
+	$damagenormaledgedepth "[2 1 1 1]"
+	
+	$damageedgephongboost "[.85 0.5 0 0]"
+	$damageedgeenvboost "[0 1 0 0]"
+	
+	$detailenvboost "[.05 0.05 0 0]"
+	$damagedetailenvboost "[0.05 0.05 0 0]"
+	$detailphongboost "[0.1 0.5 0.5 0.5]"
+	$weardetailphongboost "[-4 1 0 0]"
+	$damagedetailphongboost "[-.4 10 .005 0]"
+	$detailwarpindex "[0 0.06 1 1]"
+	
+	$curvaturewearboost "[0.5 0.5 0 0]"
+	$curvaturewearpower "[3 3.5 1 1]"
+	
+	"$damagelevels1" "[ 0.000000 1.000000 ]"
+	"$damagelevels2" "[ 0.000000 1.000000 ]"
+	"$damagelevels3" "[ 0.000000 1.000000 ]"
+	"$damagelevels4" "[ 0.000000 1.000000 ]"
+	
+	$damagedetailsaturation "[0 0 0 0]"
+	$detailgrungefactor "[0 0 0 0]"
+	
+	$wearprogress 0.5
+}

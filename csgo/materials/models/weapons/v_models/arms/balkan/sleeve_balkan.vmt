@@ -1,0 +1,14 @@
+"vertexlitgeneric"
+{
+	"$basetexture"          "models/weapons/v_models/arms/balkan/sleeve_balkan"
+	"$bumpmap"              "models/weapons/v_models/arms/balkan/sleeve_balkan_normal"
+	"$phongexponenttexture" "models/weapons/v_models/arms/balkan/sleeve_balkan_exp"
+	"$phong"                "1"
+	"$phongboost"           "0.1"
+	"$phongtint"            "[1 1 1]"
+	"$phongfresnelranges"   "[.2 .2 1]"
+	"$rimlight"             "1"
+	"$rimlightexponent"     "8"
+	"$rimlightboost"        ".2"
+	"$rimmask"              1
+}

@@ -1,0 +1,19 @@
+VertexlitGeneric
+{
+	$basetexture	"models\weapons\uid\uid_charset"
+	$alphatest 1
+	$AlphaTestReference .44
+	Proxies
+	{
+		WeaponLabelText
+		{
+			displayDigit		8
+		}
+		StatTrakIllum
+		{
+			resultVar	$color
+			minVal		0.75
+			maxVal		1.5
+		}
+	}
+}

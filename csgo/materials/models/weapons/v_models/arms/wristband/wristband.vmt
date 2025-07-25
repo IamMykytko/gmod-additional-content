@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+	$basetexture "models/weapons/v_models/arms/wristband/wristband"
+	$envmap env_cubemap
+	$envmaptint 0.3
+	
+	$alphatest 1
+}

@@ -1,0 +1,10 @@
+patch
+{
+	include materials\models\props\cs_assault\light_keybox.vmt
+	insert
+	{
+		$color 2.0
+		$desaturatewithbasealpha 1
+		$envmapsaturation 0
+	}
+}

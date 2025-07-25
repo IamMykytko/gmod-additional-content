@@ -1,0 +1,13 @@
+VertexlitGeneric
+{
+	$basetexture	"models\weapons\uid\uid_charset"
+	$alphatest 1
+	$AlphaTestReference .43
+	Proxies
+	{
+		WeaponLabelTextPreview
+		{
+			displayDigit		18
+		}
+	}
+}

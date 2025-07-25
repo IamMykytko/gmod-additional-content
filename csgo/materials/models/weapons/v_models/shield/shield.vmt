@@ -1,0 +1,17 @@
+vertexlitgeneric
+{
+	"$basetexture"               "models/weapons/w_models/w_eq_shield/shield"
+	"$bumpmap"                   "dev/flat_normal"
+	"$basemapluminancephongmask" "1"
+	"$phong"                     "1"
+	"$phongboost"                "5"
+	"$phongexponent"             "12"
+	"$phongdisablehalflambert"   "1"
+	"$detail"                    "models/props/de_dust/hr_dust/dust_detail/dust_detail_metal_01"
+	"$detailscale"               "6"
+	"$detailblendfactor"         "2.5"
+	"$envmap"                    "editor/cube_vertigo_blurred_hdr"
+	"$envmaptint"                "0.02"
+	"$basealphaenvmapmask"       "1"
+	"$disablecsmlookup"          "1"
+}

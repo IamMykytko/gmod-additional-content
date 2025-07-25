@@ -1,0 +1,10 @@
+patch
+{
+	include materials\models\props\cs_assault\security_shelf.vmt
+	insert
+	{
+		$color 1.4
+		$desaturatewithbasealpha 1
+		$envmapsaturation 0
+	}
+}

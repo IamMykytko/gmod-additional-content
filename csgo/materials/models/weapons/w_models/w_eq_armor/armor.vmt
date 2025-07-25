@@ -1,0 +1,11 @@
+"character"
+{
+	"$color"              "0.9"
+	"$basetexture"        "models/weapons/w_models/w_eq_armor/armor_diffuse"
+	"$bumpmap"            "models/weapons/w_models/w_eq_armor/armor_normal"
+	"$masks1"             "models/weapons/w_models/w_eq_armor/armor_masks1"
+	"$basealphaphongmask" "1"
+	"$phongalbedoboost"   "1"
+	"$phongexponent"      "32"
+	"$phongboost"         "3"
+}

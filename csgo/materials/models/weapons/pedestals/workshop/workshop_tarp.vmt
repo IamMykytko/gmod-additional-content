@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\pedestals\workshop_tarp"
+	"$detail" 				"detail\dt_tape"
+	"$detailscale" 			"[ 16 16 ]"
+	"$detailblendfactor" 	"1.7"
+	$color 1.5
+}

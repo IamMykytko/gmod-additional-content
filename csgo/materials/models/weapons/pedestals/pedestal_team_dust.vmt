@@ -1,0 +1,39 @@
+unlitgeneric
+{
+	"$color"             "0.3"
+	"$basetexture"       "models/weapons/pedestals/pedestal_team_dust"
+	"$translucent"       "1"
+	"$detail"            "effects/smoke/smoke_cloud_detail.vtf"
+	"$detailscale"       "[3 3]"
+	"$detailblendfactor" "0.6"
+	"$detailblendmode"   "0"
+	"$sinedetail"        "0.0"
+	"$sinebase"          "0.0"
+	"proxies"
+	{
+		"sine"
+		{
+			"sineperiod"         "16"
+			"sinemax"            "0.01"
+			"sinemin"            "-0.01"
+			"resultvar"          "$sinedetail"
+		}
+		"texturetransform"
+		{
+			"translatevar"       "$sinedetail"
+			"resultvar"          "$detailtexturetransform"
+		}
+		"sine"
+		{
+			"sineperiod"         "24"
+			"sinemax"            "0.008"
+			"sinemin"            "-0.008"
+			"resultvar"          "$sinebase"
+		}
+		"texturetransform"
+		{
+			"translatevar"       "$sinebase"
+			"resultvar"          "$basetexturetransform"
+		}
+	}
+}

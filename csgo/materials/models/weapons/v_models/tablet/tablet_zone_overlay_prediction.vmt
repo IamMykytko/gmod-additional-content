@@ -1,0 +1,19 @@
+screenspace_general
+{
+	"$vertexshader"        "vertexlit_and_unlit_generic_vs30"
+	"$vertexnormal"        "1"
+	"$vertextransform"     "1"
+	"$pixshader"           "cs_tablet_zone_ps30"
+	"$basetexture"         "_rt_zoneprojection"
+	"$linearread_basetexture" "1"
+	"$texture1"            "dev/zone_warning"
+	"$linearread_texture1" "1"
+	"$texture2"            "models/weapons/v_models/tablet/tablet_zone_gradients"
+	//"$linearread_texture2" "1"
+	"$levelnamereplacevar" "$texture3"
+	"$texture3"            "models/weapons/v_models/tablet/tablet_radar_%levelname%"
+	"$linearread_texture3" "1"
+	"$alpha_blend"         "1"
+	"$c0_x"                "1"
+	//$LINEARWRITE 1
+}

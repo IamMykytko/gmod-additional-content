@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "models\weapons\pedestals\display_case"
+	$color 3.6
+	$desaturatewithbasealpha 1
+	$envmapsaturation 0
+}

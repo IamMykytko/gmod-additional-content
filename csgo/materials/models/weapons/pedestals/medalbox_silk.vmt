@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+	$phong "1"
+	$basetexture "models\weapons\pedestals\medalbox_diffuse"
+	$bumpmap "models\weapons\pedestals\medalbox_normal"
+	$lightwarptexture "models\weapons\pedestals\lightwarp_silk"
+	$basemapalphaphongmask "1"
+	$basealphaenvmapmask "1"
+	$phongexponent 60
+	"$phongalbedotint" "1"
+	//"$phongdisablehalflambert" "1"
+	"$detail" 				"detail\dt_smooth1"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	"1"
+	"$envmap" "Editor\cube_vertigo"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.1 .1 .1]"
+}

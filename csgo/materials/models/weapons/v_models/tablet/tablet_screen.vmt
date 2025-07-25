@@ -1,0 +1,22 @@
+screenspace_general
+{
+	"$vertexshader"    "vertexlit_and_unlit_generic_vs30"
+	"$vertexnormal"    "1"
+	"$vertextransform" "1"
+	"$pixshader"       "cs_tablet_ps30"
+	"$additive"        "1"
+	"$basetexture"     "_rt_viewmodelscratch"
+	"$c0_y"            "0.001"
+	"$c0_x"            "0.1"
+	//"$drivername"      "deploydriver"
+	proxies
+	{
+		AnimCycle
+		{
+			sequence "0"
+			fallback "1"
+			remaprangemax "0.75"
+			resultvar            "$c0_z" 
+		}
+	}
+}

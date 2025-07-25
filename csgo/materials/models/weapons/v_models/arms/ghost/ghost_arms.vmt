@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"            models/weapons/v_models/arms/ghost/ghost_arms
+	"$alphatest"	"1"
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\pedestals\table_top"
+	$color "[.39 .4 .4]"
+	"$detail" 				"detail\dt_wood1"
+	"$detailtexturetransform" "center .5 .5 scale 3 3 rotate 90 translate 0 0"
+	"$detailblendfactor" 	"0.9"
+}

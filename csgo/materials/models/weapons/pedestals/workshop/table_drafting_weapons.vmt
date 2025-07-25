@@ -1,0 +1,9 @@
+patch
+{
+	include materials\models\props\de_boathouse\table_drafting_weapons.vmt
+	insert
+	{
+		$desaturatewithbasealpha 1
+		$envmapsaturation 0
+	}
+}

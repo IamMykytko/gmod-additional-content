@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "vgui\white"
+	$color "[.5 .5 .5]"
+	$alphatest "0"
+	$disablecsmlookup "1"
+}

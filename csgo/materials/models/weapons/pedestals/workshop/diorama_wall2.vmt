@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "wood\woodwall018a"
+	$color 1.5
+	$desaturatewithbasealpha 1
+}

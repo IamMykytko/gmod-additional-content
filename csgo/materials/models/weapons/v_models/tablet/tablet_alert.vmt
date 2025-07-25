@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	$additive 1
+	$basetexture "models\weapons\v_models\tablet\alert\alert"
+	$frame 0
+}

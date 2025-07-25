@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\props\de_boathouse\Cart_Utility_01"
+	"$Envmap" "env_cubemap"
+	"$EnvmapMask" "models\props\de_boathouse\Cart_Utility_01_ref"
+	$color 2.0
+	$desaturatewithbasealpha 1
+	$envmapsaturation 0
+}

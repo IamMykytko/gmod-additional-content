@@ -1,0 +1,13 @@
+"character"
+{
+	"$color"              "0.8"
+	"$basetexture"        "models/weapons/w_models/w_eq_helmet/helmet_diffuse"
+	"$bumpmap"            "models/weapons/w_models/w_eq_helmet/helmet_normal"
+	"$masks1"             "models/weapons/w_models/w_eq_helmet/helmet_masks1"
+	"$basealphaphongmask" "1"
+	"$phongalbedoboost"   "1"
+	"$phongexponent"      "36"
+	"$rimlightexponent"   "6"
+	"$rimlightboost"      ".2"
+	"$phongboost"         "3"
+}

@@ -1,0 +1,5 @@
+unlitgeneric
+{
+	$basetexture "models/weapons/pedestals/rarity_gradient_bg"
+	$color "[ 0.317 0.192 0.552 ]"
+}

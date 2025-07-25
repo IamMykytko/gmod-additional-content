@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\cs_militia/table_shed"
+	$color "[.39 .4 .4]"
+	"$detail" 				"detail\dt_wood1"
+	"$detailscale" 			"[ 12 12 ]"
+	"$detailblendfactor" 	"0.9"
+}

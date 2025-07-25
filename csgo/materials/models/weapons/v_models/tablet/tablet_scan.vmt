@@ -1,0 +1,5 @@
+unlitgeneric
+{
+	"$basetexture"         "models/weapons/v_models/tablet/tablet_scan"
+	"$additive"            "1"
+}

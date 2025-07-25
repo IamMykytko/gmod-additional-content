@@ -1,0 +1,7 @@
+vertexlitgeneric
+{
+	$color "0"
+	$envmap env_cubemap
+	$translucent 1
+	$alpha 0.5
+}

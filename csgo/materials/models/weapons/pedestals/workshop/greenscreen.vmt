@@ -1,0 +1,5 @@
+UnlitGeneric
+{
+	"$basetexture" "models\weapons\pedestals\green"
+	"$receiveflashlight" "0"
+}

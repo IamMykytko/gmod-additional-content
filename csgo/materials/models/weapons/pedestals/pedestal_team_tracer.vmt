@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	"$color"       "0.2"
+	"$basetexture" "models/weapons/pedestals/pedestal_team_tracer"
+	"$additive"    "1"
+}

@@ -1,0 +1,74 @@
+character
+{
+	"$basetexture"              models/weapons/v_models/arms/glove_bloodhound/glove_bloodhound
+	"$envmap"                   env_cubemap
+	"$envmapsaturation"         -0.7
+	"$envmaplightscale"         1.0
+	"$envmaplightscaleminmax"   "[-.05 1]"
+	//"$envmaptint"               "[ .15 .15 .25 ]"
+	"$basealphaenvmask" 		1
+	//"$bumpmap"                  models/weapons/v_models/arms/glove_bloodhound/glove_bloodhound_normal
+	"$phongwarptexture"         models/weapons/v_models/arms/glove_bloodhound/glove_bloodhound_specwarp
+	"$fresnelrangestexture"     models/weapons/v_models/arms/glove_bloodhound/glove_bloodhound_fresnelwarp
+	"$masks1"                   models/weapons/v_models/arms/glove_bloodhound/glove_bloodhound_masks1
+	"$masks2"                   models/weapons/v_models/arms/glove_bloodhound/glove_bloodhound_masks2
+	"$phong"                    1
+	"$phongboost"               .1
+	"$phongalbedoboost"         50
+	"$phongtint"                "[2.1 2.4 3]"
+	"$rimlight"                 1
+	"$rimlightexponent"         10
+	"$rimlightboost"            .2
+	"$rimmask"                  1
+	"$ambientreflectionboost"   0.035
+	
+	$preview 				1
+	$basetexture            models/weapons/customization/glove_bloodhound/color
+	$bumpmap				models/weapons/customization/glove_bloodhound/glove_bloodhound_normal
+	$materialmask			models/weapons/customization/glove_bloodhound/material_mask
+	$ao						models/weapons/customization/glove_bloodhound/ao
+	
+	$grunge					models/weapons/customization/glove_bloodhound/grunge
+	$grungetexturetransform "center .5 .5 scale 2.5 2.5 rotate 0 translate 0 0"
+	$wearbleaching 			"[.8 0 .1 .4]"
+	$damagebleaching		"[.2 0 .1 .4]"
+	
+	"$palettecolor1" "[ 29 37 44 ]"
+	"$palettecolor2" "[ 38 39 40 ]"
+	"$palettecolor3" "[ 130 127 126 ]"
+	"$palettecolor4" "[ 59 57 57 ]"
+	"$palettecolor5" "[ 40 34 27 ]"
+	"$palettecolor6" "[ 67 57 44 ]"
+	"$palettecolor7" "[ 65 57 45 ]"
+	"$palettecolor8" "[ 44 14 1 ]"
+	
+	$detail					models/weapons/customization/glove_bloodhound/detail
+	$detailnormal			models/weapons/customization/glove_bloodhound/detailnormal
+	$detailscale	"[4.4 2 4 4]"
+	$detailphongalbedotint "[0.05 1.0 0.6 0.05]"
+	$detailnormaldepth	"[1.2 0 1 1.3]"
+	$damagenormaledgedepth "[2 0.5 1 0]"
+	
+	$damageedgephongboost "[.85 1.1 0 0]"
+	$damageedgeenvboost "[0 1 0 0]"
+	
+	$detailenvboost "[.04 4 0 0]"
+	$damagedetailenvboost "[0 4 0 0]"
+	$detailphongboost "[0.05 .25 0.005 0]"
+	$weardetailphongboost "[-4 1 0 0]"
+	$damagedetailphongboost "[-.4 10 .005 0]"
+	$detailwarpindex "[0.01 0.63 0.01 0.01]"
+	
+	$curvaturewearboost "[0.5 0.5 0 0]"
+	$curvaturewearpower "[3 3.5 1 1]"
+	
+	$damagelevels1 "[.08 .1]"
+	$damagelevels2 "[0.3 0.5]"
+	$damagelevels3 "[0 1]"
+	$damagelevels4 "[0 1]"
+	
+	$damagedetailsaturation "[.1 -1 0 0]"
+	$detailgrungefactor "[0.3 .1 0 0]"
+	
+	$wearprogress 0.5
+}

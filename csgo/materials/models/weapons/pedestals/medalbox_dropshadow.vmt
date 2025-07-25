@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models\weapons\pedestals\medalbox_dropshadow"
+	$translucent "1"
+}

@@ -1,0 +1,18 @@
+character
+{
+	"$basetexture"            models/weapons/v_models/arms/glove_slick/glove_slick_color
+ 	"$bumpmap"                models/weapons/customization/glove_slick/glove_slick_normal
+	"$masks1"                 models/weapons/v_models/arms/glove_slick/glove_slick_masks1
+	"$phongwarptexture"       models/weapons/customization/materials/material_specwarp
+	"$fresnelrangestexture"   models/weapons/v_models/arms/glove_slick/glove_slick_fresnelrange
+	"$basealphaenvmask"       1
+	"$rimlightboost"          1
+	"$rimlightexponent"       4
+	"$ambientreflectionboost" 0.8
+	"$shadowsaturation"       0.1
+	"$shadowsaturationbounds" "[0.1 0.3 0.6 0.9]"
+	"$phongboost"             1
+	"$envmap"                 "env_cubemap"
+	"$envmaplightscale"       0.99
+
+}

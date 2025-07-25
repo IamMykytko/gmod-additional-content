@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	//$multiply 1
+	$translucent 1
+	$basetexture "models\weapons\v_models\tablet\tablet_grid_neveroccupied"
+}

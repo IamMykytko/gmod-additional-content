@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	$translucent 1
+	$color 1
+	$basetexture "models\weapons\v_models\tablet\tablet_hostage_resq"
+}

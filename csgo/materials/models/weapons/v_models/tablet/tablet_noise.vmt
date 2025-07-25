@@ -1,0 +1,50 @@
+unlitgeneric
+{
+	"$additive"    "1"
+	"$basetexture" "dev/replay_noise"
+	"$translucent" "1"
+	"$color"       "0.9"
+	"$angle"       "0.0"
+	"$translate"   "[0.0 0.0]"
+	"$center"      "[0.5 0.5]"
+	"$rampx"       "0"
+	"$rampy"       "0"
+	"$zero"        "0"
+	"proxies"
+	{
+		"linearramp"
+		{
+			"rate"         "4"
+			"initialvalue" "0.0"
+			"resultvar"    "$rampx"
+		}
+		"sine"
+		{
+			"sineperiod"   "16"
+			"resultvar"    "$rampy"
+		}
+		//"add"
+		//{
+		//	"srcvar1"      "$rampx"
+		//	"srcvar2"      "$zero"
+		//	"resultvar"    "$translate[0]"
+		//}
+		"UniformNoise"
+		{
+			"resultvar"    "$translate[0]"
+		}
+		"add"
+		{
+			"srcvar1"      "$rampy"
+			"srcvar2"      "$zero"
+			"resultvar"    "$translate[1]"
+		}
+		"texturetransform"
+		{
+			"translatevar" "$translate"
+			"rotatevar"    "$angle"
+			"centervar"    "$center"
+			"resultvar"    "$basetexturetransform"
+		}
+	}
+}

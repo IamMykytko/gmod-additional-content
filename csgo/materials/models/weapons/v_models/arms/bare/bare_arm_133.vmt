@@ -1,0 +1,18 @@
+character
+{
+	"$basetexture"            models/weapons/v_models/arms/bare/bare_arm_133
+ 	"$bumpmap"                models/weapons/v_models/arms/bare/bare_arm_133_normal
+	"$masks1"                 models/weapons/v_models/arms/bare/bare_arm_masks1
+	"$phongwarptexture"       models/weapons/customization/materials/material_specwarp
+	"$fresnelrangestexture"   models/weapons/v_models/arms/bare/bare_arm_fresnelrange
+	"$basealphaenvmask"       1
+	"$rimlightboost"          1
+	"$rimlightexponent"       8
+	"$ambientreflectionboost" 1.0
+	"$shadowsaturation"       0.15
+	"$shadowsaturationbounds" "[0.25 0.5 0.5 0.7]"
+	"$phongboost"             1
+	"$envmap"                 "env_cubemap"
+	"$envmaplightscale"       0.5
+	"$shadowrimboost"			1
+}

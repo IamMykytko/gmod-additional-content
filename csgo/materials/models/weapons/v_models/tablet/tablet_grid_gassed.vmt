@@ -1,0 +1,46 @@
+"UnlitTwoTexture"
+{
+	//$additive 1
+	$translucent 1
+	$alpha 0.99
+	$basetexture "models\weapons\v_models\tablet\tablet_grid_gassed"
+	$texture2 "models\weapons\v_models\tablet\tablet_grid_gassed_overlay"	
+	//$texture2 "effects\energyball"	
+	//$texture2scale 110.0001
+	//$texture2transform "center .5 .5 scale 0.5 0.5 rotate 0 translate 0 0"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" "$color[0]"
+			"sineperiod" .2
+			"sinemin" .99
+			"sinemax" 1
+		}
+		"Sine"
+		{
+			"resultVar" "$color[1]"
+			"sineperiod" .1
+			"sinemin" .98
+			"sinemax" 1
+		}
+		"Sine"
+		{
+			"resultVar" "$color[2]"
+			"sineperiod" .1
+			"sinemin" .99
+			"sinemax" 1
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" 0.2
+			"texturescrollangle" 10
+		}
+
+
+	}
+
+}

@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	$basetexture black
+	$alphatest 1
+	$alpha 0
+}

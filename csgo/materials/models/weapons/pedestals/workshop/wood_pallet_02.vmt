@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_prodigy\wood_pallet_02"
+	$color 1.5
+	$desaturatewithbasealpha 1
+}

@@ -1,0 +1,9 @@
+patch
+{
+	include materials\models\props\de_vostok\hardwareitems01.vmt
+	insert
+	{
+		$desaturatewithbasealpha 1
+		$envmapsaturation 0
+	}
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "models\weapons\pedestals\display_case"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 16 1 ]"
+	"$detailblendfactor" 	"0.3"
+}

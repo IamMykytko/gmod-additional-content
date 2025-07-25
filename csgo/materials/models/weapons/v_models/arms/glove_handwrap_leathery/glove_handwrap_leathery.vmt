@@ -1,0 +1,21 @@
+"vertexlitgeneric"
+
+{	
+	"$basetexture"              models\weapons\v_models\arms\glove_handwrap_leathery\glove_handwrap_leathery_color
+	"$envmap"                   env_cubemap
+	"$envmaptint"               "[ .01 .01 .02 ]"
+	"$normalmapalphaenvmapmask" 1
+	"$bumpmap"                  models\weapons\v_models\arms\glove_handwrap_leathery\glove_handwrap_leathery_normal
+	"$phongexponenttexture"     models\weapons\v_models\arms\glove_handwrap_leathery\glove_handwrap_leathery_exp
+	"$phong"                    1
+	"$phongboost"               .8
+	"$phongalbedoboost"         15
+	"$phongtint"                "[0.7 0.8 1]"
+	"$phongfresnelranges"       "[1 1 3]"
+	"$rimlight"                 1
+	"$rimlightexponent"         10
+	"$rimlightboost"            .7
+	"$rimmask"                  1
+	}	
+
+

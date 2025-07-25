@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/props/gg_Vietnam/vietnam_hut_wood_gang"
+	$desaturatewithbasealpha 1
+	$envmapsaturation 0
+}

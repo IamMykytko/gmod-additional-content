@@ -1,0 +1,39 @@
+unlitgeneric
+{
+	"$basetexture"         "models/weapons/v_models/tablet/tablet_screen_buylight"
+	"$additive"            "1"
+	"$moneytemp"           "0"
+	"$moneythreshold"      "1249"
+	"$alphamoneybelow"     "0"
+	"$alphamoneyabove"     "1"
+	"$sinetemp"            "0"
+	"$moneythresholdyikes" "4499"
+	"proxies"
+	{
+		"moneyproxy"
+		{
+			"resultvar"            "$moneytemp"
+		}
+		"lessorequal"
+		{
+			lessequalvar           "$alphamoneybelow"
+			greatervar             "$alphamoneyabove"
+			srcvar1               "$moneytemp"
+			srcvar2               "$moneythreshold"
+			resultvar             "$alpha"
+		}
+		"sine"
+		{
+			"sineperiod"           "0.4"
+			"resultvar"            "$sinetemp"
+		}
+		"lessorequal"
+		{
+			lessequalvar           "$alpha"
+			greatervar             "$sinetemp"
+			srcvar1               "$moneytemp"
+			srcvar2               "$moneythresholdyikes"
+			resultvar             "$alpha"
+		}
+	}
+}

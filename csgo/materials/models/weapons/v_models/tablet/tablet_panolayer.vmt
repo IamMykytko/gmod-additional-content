@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	$basetexture "models\weapons\v_models\tablet\tablet_panolayer" // for reasons, this dummy texture needs to have alpha
+	$translucent 1
+	$pano_valid 0
+}

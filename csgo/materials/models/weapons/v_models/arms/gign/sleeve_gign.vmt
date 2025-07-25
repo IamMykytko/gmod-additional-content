@@ -1,0 +1,14 @@
+"vertexlitgeneric"
+{
+	"$basetexture"             "models/weapons/v_models/arms/gign/sleeve_gign"
+	"$bumpmap"                 "models/weapons/v_models/arms/st6/sleeve_st6_normal"
+	"$phong"                   "1"
+	"$phongboost"              "1"
+	"$phongexponent"           "12"
+	"$phongtint"               "[1 1 1]"
+	"$phongfresnelranges"      "[.2 .2 1]"
+	"$phongdisablehalflambert" "1"
+	"$rimlight"                "1"
+	"$rimlightexponent"        "15"
+	"$rimlightboost"           ".2"
+}

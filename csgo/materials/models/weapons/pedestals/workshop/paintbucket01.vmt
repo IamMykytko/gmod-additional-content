@@ -1,0 +1,10 @@
+patch
+{
+	include materials\models\props\cs_militia\paintbucket01.vmt
+	insert
+	{
+		$color 2.8
+		$desaturatewithbasealpha 1
+		$envmapsaturation 0
+	}
+}

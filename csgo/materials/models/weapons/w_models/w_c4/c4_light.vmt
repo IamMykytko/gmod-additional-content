@@ -1,0 +1,22 @@
+unlitgeneric
+{
+	"$basetexture" "models/weapons/w_models/w_c4/c4_light.vtf"
+	"$additive"    "1"
+	"$color"       "1"
+	"$hide_if_override"  "1"
+	"$nocsmwrite"  "1"
+	"proxies"
+	{
+		"sine"
+		{
+			"sineperiod"   "0.15"
+			"sinemin"      "0.35"
+			"resultvar"    "$color"
+		}
+		
+		"EntityResolve"
+		{
+			"resultvar"    "$color"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+"vertexlitgeneric"
+{
+	"$basetexture"          "models/weapons/v_models/arms/anarchist/sleeve_anarchist"
+	"$bumpmap"              "models/weapons/v_models/arms/anarchist/sleeve_anarchist_normal"
+	"$phongexponenttexture" "models/weapons/v_models/arms/anarchist/sleeve_anarchist_exp"
+	"$phong"                "1"
+	"$phongboost"           "0.5"
+	"$phongtint"            "[1 1 1]"
+	"$phongfresnelranges"   "[.2 .2 1]"
+	"$rimlight"             "1"
+	"$rimlightexponent"     "9"
+	"$rimlightboost"        ".2"
+	"$rimmask"              1
+}

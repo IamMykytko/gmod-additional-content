@@ -1,0 +1,17 @@
+character
+{
+	"$basetexture"            black
+	"$bumpmap"                models/weapons/v_models/arms/glove_sporty/glove_sporty_normal
+	"$masks1"                 models/weapons/v_models/arms/glove_sporty/glove_sporty_masks1
+	"$phongwarptexture"       models/weapons/customization/materials/material_specwarp
+	"$fresnelrangestexture"   models/weapons/v_models/arms/glove_sporty/glove_sporty_fresnelrange
+	"$basealphaenvmask"       1
+	"$rimlightboost"          1
+	"$rimlightexponent"       4
+	"$ambientreflectionboost" 0.4
+	"$shadowsaturation"       0.3
+	"$shadowsaturationbounds" "[0.1 0.3 0.3 0.8]"
+	"$phongboost"             2
+	"$envmap"                 "env_cubemap"
+	"$envmaplightscale"       0.5
+}

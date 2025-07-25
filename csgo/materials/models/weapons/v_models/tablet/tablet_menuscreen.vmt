@@ -1,0 +1,7 @@
+unlitgeneric
+{
+	$basetexture "models\weapons\v_models\tablet\tablet_menu"
+	"$envmap"		"env_cubemap"
+	"$envmapfresnel" "1"
+	$envmaptint 0.12
+}

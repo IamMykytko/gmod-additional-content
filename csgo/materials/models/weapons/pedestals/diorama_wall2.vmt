@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "wood\woodwall018a"
+	$color "[.48 .5 .5]"
+}

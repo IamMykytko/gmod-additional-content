@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\tablet\tablet_blank"
+	"$envmap"		"environment maps\metal_generic_004"
+	"$envmaptint" 0.15
+}
+

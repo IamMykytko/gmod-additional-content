@@ -1,0 +1,18 @@
+character
+{
+	"$basetexture"            black
+	"$bumpmap"                models/weapons/customization/glove_motorcycle/glove_motorcycle_normal
+	"$masks1"                 models/weapons/v_models/arms/glove_motorcycle/glove_motorcycle_masks1
+	"$phongwarptexture"       models/weapons/customization/materials/material_specwarp
+	"$fresnelrangestexture"   models/weapons/v_models/arms/glove_motorcycle/glove_motorcycle_fresnelrange
+	"$basealphaenvmask"       1
+	"$rimlightboost"          1.0
+	"$rimlightexponent"       16
+	"$ambientreflectionboost" 0.8
+	"$shadowsaturation"       0.1
+	"$shadowsaturationbounds" "[0.1 0.3 0.6 0.9]"
+	"$phongboost"             2
+	"$phongalbedoboost"       20
+	"$envmap"                 "env_cubemap"
+	"$envmaplightscale"       0.99
+}

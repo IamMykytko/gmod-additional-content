@@ -1,0 +1,6 @@
+vertexlitgeneric
+{
+	"$color"       "[0.22 0.24 0.24]"
+	"$basetexture" "models/weapons/pedestals/pedestal_team_grass"
+	"$translucent" "1"
+}

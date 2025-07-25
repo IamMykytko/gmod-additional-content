@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$phong "1"
+	$basetexture "models\weapons\pedestals\medalbox_diffuse"
+	$bumpmap "models\weapons\pedestals\medalbox_normal"
+	$basemapalphaphongmask "1"
+	$basealphaenvmapmask "1"
+	$phongexponent 60
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+	"$detail" 				"detail\dt_carpet1"
+	"$detailscale" 			"[ 12 12 ]"
+	"$detailblendfactor" 	"0.4"
+	"$envmap" "Editor\cube_vertigo"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.1 .1 .1]"
+}

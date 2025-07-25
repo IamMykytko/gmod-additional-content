@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"               "models\weapons\v_models\tablet\tablet"
+	"$bumpmap"                   "dev/flat_normal"
+	"$basemapluminancephongmask" "1"
+	"$phong"                     "1"
+	"$phongboost"                "10"
+	"$phongexponent"             "60"
+	"$phongdisablehalflambert"   "1"
+	"$envmap"                  "editor/cube_vertigo_blurred_hdr"
+	"$envmaptint"              "0.01"
+}
