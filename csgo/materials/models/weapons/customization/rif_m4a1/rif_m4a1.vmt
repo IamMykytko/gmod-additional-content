@@ -1,0 +1,31 @@
+patch
+{
+	include "materials\models\weapons\customization\paints\master.vmt"
+	
+	insert 	
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER WEAPON
+		//-------------------------------------------------
+
+		"$surfacetexture" "models\weapons\customization\rif_m4a1\rif_m4a1_surface"
+		"$maskstexture" "models\weapons\customization\rif_m4a1\rif_m4a1_masks"
+		"$aotexture" "models\weapons\customization\rif_m4a1\rif_m4a1_ao"
+		"$postexture" "models\weapons\customization\rif_m4a1\rif_m4a1_pos"
+		"$exptexture" "models\weapons\v_models\rif_m4a1\rif_m4a1_exponent"
+		"$WEARTEXTURETRANSFORM" "scale 1.96 1.96 translate 0 0 rotate 0"
+		"$GRUNGETEXTURETRANSFORM" "scale 1.96 1.96 translate 0 0 rotate 0"
+		
+		// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWPHONGALBEDOTINT" 1
+		
+		// SET THIS IF $ENVMAP IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWENVMAP" 1
+		
+		// WEAR PROGRESSION FACTOR
+		"$WEARPROGRESS" 0.2
+		
+		"$PREVIEWWEAPONOBJSCALE" 0.981
+		"$PREVIEWWEAPONUVSCALE" 0.425
+	}
+}

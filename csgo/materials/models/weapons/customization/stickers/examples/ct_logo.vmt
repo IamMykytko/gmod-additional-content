@@ -1,0 +1,18 @@
+WeaponDecal
+{
+	$basetexture models\weapons\customization\stickers\examples\ct_logo
+	$decalstyle 2 			//color-replace sticker style
+	$colortint "[ 12 16 19 ]"
+	$colortint2 "[ 32 43 50 ]"
+	$colortint3 "[ 91 114 131 ]"
+	$colortint4 "[ 141 155 165 ]"
+	$unwearstrength 0.2
+	$envmap "env_cubemap"
+	$envmaptint "[ .07 .07 .07 ]"
+	$phong 1
+	$phongexponent	2
+	$phongfresnelranges "[ .2 .5 1 ]"
+	$phongalbedotint 1.0
+	$phongboost 1.0
+	$phongalbedoboost 10.0	
+}

@@ -1,0 +1,20 @@
+WeaponDecal
+{	
+	$DECALSTYLE "1"
+	"$basetexture" "models\weapons\customization\stickers\broken_fang\badge_of_service"
+	"$wearwidthmax" "0.00"
+	"$unwearstrength" ".60"
+	$mirrorhorizontal "0"
+	$wearremapmin "0.680000"
+	$wearremapmid "0.800000"
+	$wearremapmax "0.760000"
+	$wearbias "0.300000"
+	$envmap "env_cubemap"
+	$envmaptint "[ .07 .07 .07 ]"
+	$phong 1
+	$phongexponent	2
+	$phongfresnelranges "[ .2 .5 1 ]"
+	$phongalbedotint 0.18
+	$phongboost 1.0
+	$phongalbedoboost 10.0	
+}

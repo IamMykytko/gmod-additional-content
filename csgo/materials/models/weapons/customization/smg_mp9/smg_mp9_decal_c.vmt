@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\smg_mp9\smg_mp9_decal_C
+	$wearremapmin 0.36
+	$wearremapmid 1.0
+	$wearremapmax 0.96
+	$wearwidthmin 0.12
+	$wearwidthmax 0.06
+	$hlmvallowedit 1
+}

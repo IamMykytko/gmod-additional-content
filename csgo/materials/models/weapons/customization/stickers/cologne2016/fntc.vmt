@@ -1,0 +1,19 @@
+weapondecal
+{
+	$basetexture models\weapons\customization\stickers\cologne2016\fntc
+	$decalstyle 0
+	$wearbias 0.25
+	$wearremapmin 0.36
+	$wearremapmax 1.0
+	$unwearstrength 0.15
+	$colortint "[255 255 255]"
+	$envmap "env_cubemap"
+	$envmaptint "[ .02 .02 .02 ]"
+	
+	$phong 1
+	$phongexponent 1.0
+	$phongfresnelranges "[ .2 .5 1 ]"
+	$phongalbedotint 0.7
+	$phongboost 1
+	$phongalbedoboost 14.0
+}

@@ -1,0 +1,17 @@
+weapondecal
+{	
+	$basetexture models\weapons\customization\stickers\emskatowice2014\sticker_3dmax
+	$decalstyle 3
+	$holomask models\weapons\customization\stickers\emskatowice2014\sticker_3dmax_holomask
+	$holospectrum models\weapons\customization\stickers\default\holowarp_red
+	$wearbias 0.04
+	$unwearstrength 0.16
+	$envmap "env_cubemap"
+	$envmaptint "[ .05 .05 .05 ]"
+	$phong 1
+	$phongexponent 1.0
+	$phongfresnelranges "[ .2 .5 1 ]"
+	$phongalbedotint 0.3
+	$phongboost 1.0
+	$phongalbedoboost 10.0	
+}

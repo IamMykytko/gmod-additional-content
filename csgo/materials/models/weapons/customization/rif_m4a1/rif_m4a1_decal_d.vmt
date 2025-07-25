@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\rif_m4a1\rif_m4a1_decal_D
+	$wearremapmin 0.48
+	$wearremapmid 0.68
+	$wearremapmax 0.86
+	$wearwidthmin 0.12
+	$wearwidthmax 0.12
+	$hlmvallowedit 1
+}

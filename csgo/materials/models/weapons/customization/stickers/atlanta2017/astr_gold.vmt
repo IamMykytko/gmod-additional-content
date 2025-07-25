@@ -1,0 +1,21 @@
+weapondecal
+{
+	$basetexture models\weapons\customization\stickers\atlanta2017\astr
+	$normalmap	 models\weapons\customization\stickers\atlanta2017\astr_normal
+	$desatbasetint 0.04
+	$colortint "[250 170 35]"
+	$decalstyle 4
+	$wearremapmin 0.3
+	$wearremapmid 0.99
+	$wearremapmax 1.15
+	$wearbias 0.1
+	$unwearstrength 0.15
+	$envmap "env_cubemap"
+	$envmaptint "[ 26 26 26 ]"
+	$phong 1
+	$phongexponent 2
+	$phongfresnelranges "[ 1 1 1 ]"
+	$phongalbedotint 1.0
+	$phongboost 0.0
+	$phongalbedoboost 20.0
+}

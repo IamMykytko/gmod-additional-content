@@ -1,0 +1,21 @@
+weapondecal
+{
+	$basetexture models\weapons\customization\stickers\boston2018\sig_neo
+	$normalmap	 models\weapons\customization\stickers\boston2018\sig_neo_normal
+	$colortint "[144 144 144]"
+    $desatbasetint 1
+	$decalstyle 4
+	$wearremapmin 0.3
+	$wearremapmid 0.99
+	$wearremapmax 1.15
+	$wearbias 0.06
+	$unwearstrength 0.25
+	$envmap "env_cubemap"
+	$envmaptint "[ 8 8 8 ]"
+	$phong 1
+	$phongexponent 2
+	$phongfresnelranges "[ 1 1 1 ]"
+	$phongalbedotint 1.0
+	$phongboost 0.0
+	$phongalbedoboost 5.0
+}

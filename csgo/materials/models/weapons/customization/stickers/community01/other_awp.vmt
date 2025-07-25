@@ -1,0 +1,14 @@
+"WeaponDecal"
+{
+	"$basetexture"		"models\weapons\customization\stickers\community01\other_awp"
+	"$decalstyle"		"1"
+	"$unwearstrength"		"0.16"
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[ .07 .07 .07 ]"
+	"$phong"		"1"
+	"$phongexponent"		"2"
+	"$phongfresnelranges"		"[ .2 .5 1 ]"
+	"$phongalbedotint"		"1.000000"
+	"$phongboost"		"1.000000"
+	"$phongalbedoboost"		"10.000000"
+}

@@ -1,0 +1,22 @@
+nodraw
+{
+	$highlightcycle 0.3
+	Proxies
+	{
+		StickerSelection
+		{
+			resultVar	"$highlight"
+			stickerindex	1
+		}
+		StickerPeel
+		{
+			resultVar	"$peel"
+			stickerindex	1
+		}
+		LinearRamp
+		{
+			resultVar	"$highlightcycle"
+			rate 6
+		}
+	}
+}

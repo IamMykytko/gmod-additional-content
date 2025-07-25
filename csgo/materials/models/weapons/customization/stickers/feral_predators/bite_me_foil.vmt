@@ -1,0 +1,15 @@
+"WeaponDecal"
+{
+	"$DECALSTYLE"		"4"
+	"$basetexture"		"models\weapons\customization\stickers\feral_predators\bite_me_foil"
+	"$normalmap"		"models\weapons\customization\stickers\feral_predators\bite_me_foil_normal"
+	"$envmap"		"env_cubemap"
+	"$colortint"		"[ 153.000000 153.000000 153.000000 ]"
+	"$envmaptint"		"[25 25 25]"
+	"$phong"		"1"
+	"$phongexponent"		"0.100000"
+	"$phongfresnelranges"		"[ 1 1 1 ]"
+	"$phongalbedotint"		"1.000000"
+	"$phongboost"		"40.000000"
+	"$phongalbedoboost"		"2.000000"
+}

@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\pist_tec9\pist_tec9_decal_C
+	$wearremapmin 0.82
+	$wearremapmid 0.9
+	$wearremapmax 1.0
+	$wearwidthmin 0.1
+	$wearwidthmax 0.04
+	$hlmvallowedit 1
+}

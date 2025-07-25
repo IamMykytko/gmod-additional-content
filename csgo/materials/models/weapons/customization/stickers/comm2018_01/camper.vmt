@@ -1,0 +1,15 @@
+"WeaponDecal"
+{
+"$DECALSTYLE" "1"
+"$basetexture" "models\weapons\customization\stickers\comm2018_01\camper"
+"$unwearstrength" ".4"
+"$wearbias" "0.30" 
+"$envmap" "env_cubemap"
+"$envmaptint" "[ .07 .07 .07 ]"
+"$phong" "1"
+"$phongexponent" "2"
+"$phongfresnelranges" "[ .2 .5 1 ]"
+"$phongalbedotint" "1"
+"$phongboost" "1"
+"$phongalbedoboost" "10"
+}

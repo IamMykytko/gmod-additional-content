@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\shot_sawedoff\shot_sawedoff_decal_A
+	$wearremapmin 0.64
+	$wearremapmid 0.48
+	$wearremapmax 0.96
+	$wearwidthmin 0.12
+	$wearwidthmax 0.06
+	$hlmvallowedit 1
+}

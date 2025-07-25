@@ -1,0 +1,14 @@
+"WeaponDecal"
+{
+	"$DECALSTYLE"		"1"
+	"$basetexture"		"models\weapons\customization\stickers\community01\black_king"
+	"$unwearstrength"		"0.2"
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[ .07 .07 .07 ]"
+	"$phong"		"1"
+	"$phongexponent"		"2"
+	"$phongfresnelranges"		"[ .2 .5 1 ]"
+	"$phongalbedotint"		"1.000000"
+	"$phongboost"		"1.000000"
+	"$phongalbedoboost"		"10.000000"
+}

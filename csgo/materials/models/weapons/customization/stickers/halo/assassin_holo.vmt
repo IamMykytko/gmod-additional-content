@@ -1,0 +1,17 @@
+"WeaponDecal"
+{
+"$DECALSTYLE" "3"
+"$basetexture" "models\weapons\customization\stickers\halo\assassin"
+"$holomask"			"models\weapons\customization\stickers\halo\assassin_holo_mask"
+"$holospectrum"		 "models\weapons\customization\stickers\halo\assassin_holo_spectrum"
+"$unwearstrength" ".53"
+"$wearbias" "0.20" 
+"$envmap" "env_cubemap"
+"$envmaptint" "[ .07 .07 .07 ]"
+"$phong" "1"
+"$phongexponent" "2"
+"$phongfresnelranges" "[ .2 .5 1 ]"
+"$phongalbedotint" "1"
+"$phongboost" "1"
+"$phongalbedoboost" "10"
+}

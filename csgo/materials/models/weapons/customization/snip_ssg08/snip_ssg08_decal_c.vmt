@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\snip_ssg08\snip_ssg08_decal_C
+	$wearremapmin 0.78
+	$wearremapmid 0.78
+	$wearremapmax 0.98
+	$wearwidthmin 0.12
+	$wearwidthmax 0.06
+	$hlmvallowedit 1
+}

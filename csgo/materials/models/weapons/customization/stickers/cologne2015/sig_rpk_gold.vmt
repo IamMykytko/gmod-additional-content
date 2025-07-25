@@ -1,0 +1,20 @@
+weapondecal
+{	
+	$basetexture models\weapons\customization\stickers\cologne2015\sig_rpk
+	$normalmap	 models\weapons\customization\stickers\cologne2015\sig_rpk_normal
+	$desatbasetint 0.16
+	$colortint "[250 170 35]"
+	$decalstyle 4
+	$wearbias 0.06
+	$unwearstrength 0.08
+	$envmap "env_cubemap"
+	$envmaptint "[ 26 26 26 ]"
+	$phong 1
+	$phongexponent 2
+	$phongfresnelranges "[ 1 1 1 ]"
+	$phongalbedotint 1.0
+	$phongboost 80.0
+	$phongalbedoboost 2.0
+	$patternscale 1.05
+	$patternrotation -4.0
+}

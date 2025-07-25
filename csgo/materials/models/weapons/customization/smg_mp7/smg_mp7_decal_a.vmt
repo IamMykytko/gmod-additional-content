@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\smg_mp7\smg_mp7_decal_A
+	$wearremapmin 0.62
+	$wearremapmid 0.78
+	$wearremapmax 0.96
+	$wearwidthmin 0.12
+	$wearwidthmax 0.12
+	$hlmvallowedit 1
+}

@@ -1,0 +1,28 @@
+patch
+{
+	include "materials\models\weapons\customization\paints\master.vmt"
+	
+	insert 	
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER WEAPON
+		//-------------------------------------------------
+		"$basetexture" "models\weapons\customization\snip_scar20\snip_scar20"
+		"$surfacetexture" "models\weapons\customization\snip_scar20\snip_scar20_surface"
+		"$maskstexture" "models\weapons\customization\snip_scar20\snip_scar20_masks"
+		"$aotexture" "models\weapons\customization\snip_scar20\snip_scar20_ao"
+		"$postexture" "models\weapons\customization\snip_scar20\snip_scar20_pos"
+		"$exptexture" "models\weapons\v_models\snip_scar20\snip_scar20_exponent"
+		"$WEARTEXTURETRANSFORM" "scale 2.45 2.45 translate 0 0 rotate 0"
+		"$GRUNGETEXTURETRANSFORM" "scale 2.45 2.45 translate 0 0 rotate 0"
+		
+		// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWPHONGALBEDOTINT" 1
+		
+		// WEAR PROGRESSION FACTOR
+		"$WEARPROGRESS" 0.2
+		
+		"$PREVIEWWEAPONOBJSCALE" 1.224
+		"$PREVIEWWEAPONUVSCALE" 0.84
+	}
+}

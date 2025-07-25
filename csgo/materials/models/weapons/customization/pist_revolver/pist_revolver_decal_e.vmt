@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\pist_revolver\pist_revolver_decal_C
+	$wearremapmin 0.62
+	$wearremapmid 0.92
+	$wearremapmax 0.96
+	$wearwidthmin 0.12
+	$wearwidthmax 0.1
+	$hlmvallowedit 1
+}

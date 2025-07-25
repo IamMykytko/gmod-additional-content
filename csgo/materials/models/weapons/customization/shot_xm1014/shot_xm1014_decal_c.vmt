@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\shot_xm1014\shot_xm1014_decal_C
+	$wearremapmin 0.7
+	$wearremapmid 0.98
+	$wearremapmax 0.98
+	$wearwidthmin 0.12
+	$wearwidthmax 0.06
+	$hlmvallowedit 1
+}

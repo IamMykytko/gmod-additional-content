@@ -1,0 +1,21 @@
+weapondecal
+{
+	$basetexture models\weapons\customization\stickers\krakow2017\sig_k0nfig
+	$decalstyle 0
+	$wearbias 0.34
+	$unwearstrength 0.4
+	$wearremapmin 0.36 
+	$wearremapmax 1.0 
+	
+	$envmap "env_cubemap"
+	$envmaptint "[ .02 .02 .02 ]"
+	$colortint "[255 255 255]"
+    $desatbasetint 1
+	
+	$phong 1
+	$phongexponent 1.0
+	$phongfresnelranges "[ .2 .5 1 ]"
+	$phongalbedotint 0.0
+	$phongboost 2
+	$phongalbedoboost 14.0
+}

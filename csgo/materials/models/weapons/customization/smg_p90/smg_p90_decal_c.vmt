@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\smg_p90\smg_p90_decal_C
+	$wearremapmin 0.66
+	$wearremapmid 0.96
+	$wearremapmax 0.94
+	$wearwidthmin 0.12
+	$wearwidthmax 0.06
+	$hlmvallowedit 1
+}

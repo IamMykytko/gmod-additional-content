@@ -1,0 +1,17 @@
+weapondecal
+{	
+	$basetexture models\weapons\customization\stickers\cologne2014\esl_c
+	$normalmap	 models\weapons\customization\stickers\cologne2014\esl_a_normal
+	$colortint "[70 70 70]"
+	$decalstyle 4
+	$wearbias 0.06
+	$unwearstrength 0.08
+	$envmap "env_cubemap"
+	$envmaptint "[ 25 25 25 ]"
+	$phong 1
+	$phongexponent 1
+	$phongfresnelranges "[ 1 1 1 ]"
+	$phongalbedotint 1.0
+	$phongboost 80.0
+	$phongalbedoboost 2.0	
+}

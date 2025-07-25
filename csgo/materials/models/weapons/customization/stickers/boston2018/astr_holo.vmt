@@ -1,0 +1,22 @@
+weapondecal
+{
+	$basetexture models\weapons\customization\stickers\boston2018\astr
+	$holomask	 models\weapons\customization\stickers\boston2018\astr_holomask
+	$holospectrum models\weapons\customization\stickers\krakow2017\spectrum
+	$decalstyle 3
+	$colortint "[255 255 255]"
+    $desatbasetint 1
+	$wearbias 0.34
+	$unwearstrength 0.4
+	$wearremapmin 0.36 
+	$wearremapmax 1.0 
+	$envmap "env_cubemap"
+	$envmaptint "[ 0.02 0.02 0.02 ]"
+	$phong 1
+	$phongexponent	2
+	$phongfresnelranges "[ .1 .25 .5 ]"
+	$phongalbedotint 1.0
+	$phongboost 1.0
+	$phongalbedoboost 5.0
+    $normalmap effects\flat_normal
+}

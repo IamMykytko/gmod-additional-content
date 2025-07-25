@@ -1,0 +1,28 @@
+patch
+{
+	include "materials\models\weapons\customization\paints\master.vmt"
+	
+	insert 	
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER WEAPON
+		//-------------------------------------------------
+
+		"$surfacetexture" "models\weapons\customization\shot_mag7\shot_mag7_surface"
+		"$maskstexture" "models\weapons\customization\shot_mag7\shot_mag7_masks"
+		"$aotexture" "models\weapons\customization\shot_mag7\shot_mag7_ao"
+		"$postexture" "models\weapons\customization\shot_mag7\shot_mag7_pos"
+		"$exptexture" "models\weapons\v_models\shot_mag7\shot_mag7_exponent"
+		"$WEARTEXTURETRANSFORM" "scale 1.46 1.46 translate 0 0 rotate 0"
+		"$GRUNGETEXTURETRANSFORM" "scale 1.46 1.46 translate 0 0 rotate 0"
+		
+		// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWPHONGALBEDOTINT" 1
+		
+		// WEAR PROGRESSION FACTOR
+		"$WEARPROGRESS" 0.2
+		
+		"$PREVIEWWEAPONOBJSCALE" 0.732
+		"$PREVIEWWEAPONUVSCALE" 0.612
+	}
+}

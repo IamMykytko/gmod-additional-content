@@ -1,0 +1,15 @@
+"WeaponDecal"
+{
+	"$basetexture"		"models\weapons\customization\stickers\community01\flammable"
+	"$normalmap"		"models\weapons\customization\stickers\community01\flammable_normal"
+	"$unwearstrength"		"0.240000"
+	"$DECALSTYLE"		"4"
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[ 2 2 2 ]"
+	"$PHONG"		"1"
+	"$PHONGEXPONENT"		"0.56"
+	"$PHONGFRESNELRANGES"		"[ 1 1 1 ]"
+	"$PHONGALBEDOTINT"		"1.000000"
+	"$PHONGBOOST"		"40.000000"
+	"$PHONGALBEDOBOOST"		"1.000000"
+}

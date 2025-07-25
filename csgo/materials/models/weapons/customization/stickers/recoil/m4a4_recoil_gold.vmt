@@ -1,0 +1,20 @@
+weapondecal
+{
+	$basetexture models\weapons\customization\stickers\recoil\m4a4_recoil_gold
+	$normalmap	models\weapons\customization\stickers\recoil\m4a4_recoil_normal
+	$decalstyle 4
+	$colortint "[200 200 200]"
+	$desatbasetint 1
+	$wearbias 0.06
+	$unwearstrength 0.1
+	$wearremapmin 0.1
+	$wearremapmax 0.95
+	$envmap "env_cubemap"
+	$envmaptint "[ 8 8 8 ]"
+	$phong 1
+	$phongexponent 2
+	$phongfresnelranges "[ 1 1 1 ]"
+	$phongalbedotint 1.0
+	$phongboost 0.0
+	$phongalbedoboost 20.0
+}

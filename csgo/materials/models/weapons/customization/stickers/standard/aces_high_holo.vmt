@@ -1,0 +1,16 @@
+WeaponDecal
+{	
+	$basetexture models\weapons\customization\stickers\standard\aces_high_foil
+	$HOLOMASK models\weapons\customization\stickers\standard\aces_high_foil_holomask
+	$HOLOSPECTRUM models\weapons\customization\stickers\standard\green_red
+	$DECALSTYLE 3 		//holographic sticker style
+	$unwearstrength 0.06
+	$envmap "env_cubemap"
+	$envmaptint "[ .02 .02 .02 ]"
+	$PHONG 1
+	$PHONGEXPONENT	2
+	$PHONGFRESNELRANGES "[ .1 .25 .5 ]"
+	$PHONGALBEDOTINT 1.0
+	$PHONGBOOST 1.0
+	$PHONGALBEDOBOOST 10.0
+}	

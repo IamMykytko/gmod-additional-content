@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\pist_fiveseven\pist_fiveseven_decal_B
+	$wearremapmin 0.56
+	$wearremapmid 0.92
+	$wearremapmax 0.93
+	$wearwidthmin 0.1
+	$wearwidthmax 0.06
+	$hlmvallowedit 1
+}

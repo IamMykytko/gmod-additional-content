@@ -1,0 +1,31 @@
+patch
+{
+	include "materials\models\weapons\customization\paints\master.vmt"
+	
+	insert 	
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER WEAPON
+		//-------------------------------------------------
+
+		"$surfacetexture" "models\weapons\customization\smg_bizon\smg_bizon_surface"
+		"$maskstexture" "models\weapons\customization\smg_bizon\smg_bizon_masks"
+		"$aotexture" "models\weapons\customization\smg_bizon\smg_bizon_ao"
+		"$postexture" "models\weapons\customization\smg_bizon\smg_bizon_pos"
+		"$exptexture" "models\weapons\v_models\smg_bizon\bizon_exponent"
+		"$WEARTEXTURETRANSFORM" "scale 1.65 1.65 translate 0 0 rotate 0"
+		"$GRUNGETEXTURETRANSFORM" "scale 1.65 1.65 translate 0 0 rotate 0"
+		
+		// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWPHONGALBEDOTINT" 1
+		
+		// SET THIS IF $ENVMAP IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWENVMAP" 1
+		
+		// WEAR PROGRESSION FACTOR
+		"$WEARPROGRESS" 0.2
+		
+		"$PREVIEWWEAPONOBJSCALE" 0.826 
+		"$PREVIEWWEAPONUVSCALE"  0.596
+	}
+}

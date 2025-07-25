@@ -1,0 +1,19 @@
+"WeaponDecal"
+{
+	"$DECALSTYLE"		"4"
+	"$basetexture"		"models\weapons\customization\stickers\warhammer\chaos_marine_foil_base"
+	"$normalmap"		"models\weapons\customization\stickers\warhammer\chaos_marine_foil_normal"
+	"$envmap"		"env_cubemap"
+	"$colortint"          "[75 75 75]"
+	"$wearprogress"		"0.000000"
+	"$unwearstrength"     "0.50"
+	"$wearbias"           "0.30"
+	"$envmap"             "env_cubemap"
+	"$envmaptint"         "[ 26 26 26 ]"
+	"$phong"              1
+	"$phongexponent"      2
+	"$phongfresnelranges" "[ 1 1 1 ]"
+	"$phongalbedotint"    1.0
+	"$phongboost"         90.0
+	"$phongalbedoboost"   2.0
+}

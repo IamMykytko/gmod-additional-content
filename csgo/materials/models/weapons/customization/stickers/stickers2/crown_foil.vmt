@@ -1,0 +1,15 @@
+      WeaponDecal
+		{	
+			$DECALSTYLE 4 // embossed foil
+			$basetexture models\weapons\customization\stickers\stickers2\crown
+			$normalmap	 models\weapons\customization\stickers\stickers2\crown_normal
+			$unwearstrength 0.08
+			$envmap "env_cubemap"
+			$envmaptint "[ 25 25 25 ]"
+			$phong 1
+			$phongexponent	0.1
+			$phongfresnelranges "[ 1 1 1 ]"
+			$phongalbedotint 1.0
+			$phongboost 40.0
+			$phongalbedoboost 2.0
+		}

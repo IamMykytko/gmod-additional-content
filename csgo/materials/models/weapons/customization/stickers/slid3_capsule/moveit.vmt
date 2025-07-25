@@ -1,0 +1,14 @@
+"WeaponDecal"
+{
+	"$DECALSTYLE"		"0"
+	"$basetexture"		"models\weapons\customization\stickers\slid3_capsule\moveit.vtf"
+	"$unwearstrength"		"0.160000"
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[ .07 .07 .07 ]"
+	"$phong"		"1"
+	"$phongexponent"		"2"
+	"$phongfresnelranges"		"[ .2 .5 1 ]"
+	"$phongalbedotint"		"1.000000"
+	"$phongboost"		"1.000000"
+	"$phongalbedoboost"		"10.000000"
+}

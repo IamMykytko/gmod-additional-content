@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\rif_galilar\rif_galilar_decal_A
+	$wearremapmin 0.66
+	$wearremapmid 0.98
+	$wearremapmax 0.98
+	$wearwidthmin 0.12
+	$wearwidthmax 0.06
+	$hlmvallowedit 1
+}

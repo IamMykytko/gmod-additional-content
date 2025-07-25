@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\shot_mag7\shot_mag7_decal_A
+	$wearremapmin 0.52
+	$wearremapmid 0.54
+	$wearremapmax 0.92
+	$wearwidthmin 0.16
+	$wearwidthmax 0.14
+	$hlmvallowedit 1
+}

@@ -1,0 +1,16 @@
+"WeaponDecal"
+{
+	"$DECALSTYLE"		"4"
+	"$basetexture"			"models\weapons\customization\stickers\community02\phoenix_foil"
+	"$normalmap"			"models\weapons\customization\stickers\community02\phoenix_normal"
+	"$unwearstrength"		"0.06"
+	"$wearbias"		"0.02"
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[ 8 8 8 ]"
+	"$phong"		"1"
+	"$phongexponent"		"0.200000"
+	"$phongfresnelranges"		"[ 2 2 2 ]"
+	"$phongalbedotint"		"1.000000"
+	"$phongboost"		"10"
+	"$phongalbedoboost"		"2.000000"
+}

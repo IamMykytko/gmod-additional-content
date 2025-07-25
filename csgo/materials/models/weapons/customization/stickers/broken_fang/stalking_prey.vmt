@@ -1,0 +1,21 @@
+WeaponDecal
+{	
+	$DECALSTYLE "1"
+	"$basetexture" "models\weapons\customization\stickers\broken_fang\stalking_prey"
+	$unwearstrength "0.340000"
+	$mirrorhorizontal "0"
+	$wearremapmin "0.680000"
+	$wearremapmid "0.800000"
+	$wearremapmax "0.760000"
+	$wearwidthmin "0.100000"
+	$wearwidthmax "0.440000"
+	$wearbias "0.700000"
+	$envmap "env_cubemap"
+	$envmaptint "[ .07 .07 .07 ]"
+	$phong 1
+	$phongexponent	2
+	$phongfresnelranges "[1 14 13]"
+	$phongalbedotint 0.18
+	$phongboost 1.0
+	$phongalbedoboost 10.0	
+}

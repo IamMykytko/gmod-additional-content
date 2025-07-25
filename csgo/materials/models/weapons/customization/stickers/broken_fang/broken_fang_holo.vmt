@@ -1,0 +1,22 @@
+WeaponDecal
+{	
+$DECALSTYLE 3 
+$basetexture "models\weapons\customization\stickers\broken_fang\broken_fang_holo_base"
+$holomask "models\weapons\customization\stickers\broken_fang\broken_fang_holomask"
+$holospectrum "models\weapons\customization\stickers\broken_fang\broken_fang_spectrum"
+$unwearstrength ".90"
+$wearremapmin ".40"
+$wearremapmid ".90"
+$wearremapmax ".86"
+$wearwidthmax ".24"
+$wearbias "0.38"
+$unwearstrength ".300000"
+$envmap "env_cubemap"
+$envmaptint "[ .07 .07 .07 ]"
+$phong "1"
+$phongexponent "2"
+$phongfresnelranges "[ .2 .5 1 ]"
+$phongalbedotint "1"
+$phongboost "1"
+$phongalbedoboost "10"
+}

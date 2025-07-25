@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\smg_ump45\smg_ump45_decal_D
+	$wearremapmin 0.7
+	$wearremapmid 0.6
+	$wearremapmax 0.96
+	$wearwidthmin 0.12
+	$wearwidthmax 0.1
+	$hlmvallowedit 1
+}

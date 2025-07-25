@@ -1,0 +1,17 @@
+weapondecal
+{	
+	$basetexture models\weapons\customization\stickers\emskatowice2014\sticker_fnatic
+	$decalstyle 3
+	$holomask models\weapons\customization\stickers\emskatowice2014\sticker_fnatic_holomask
+	$holospectrum models\weapons\customization\stickers\emskatowice2014\sticker_fnatic_holowarp
+	$wearbias 0.08
+	$unwearstrength 0.16
+	$envmap "env_cubemap"
+	$envmaptint "[ .02 .02 .02 ]"
+	$phong 1
+	$phongexponent 1.0
+	$phongfresnelranges "[ .2 .5 1 ]"
+	$phongalbedotint 0.3
+	$phongboost 1.0
+	$phongalbedoboost 10.0	
+}

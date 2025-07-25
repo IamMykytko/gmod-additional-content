@@ -1,0 +1,15 @@
+"WeaponDecal"
+{
+	"$DECALSTYLE"		"1"
+	"$basetexture"		"models\weapons\customization\stickers\cs20\cs20_2old_glossy"
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[ .07 .07 .07 ]"
+	"$phong"		"1"
+	"$phongexponent"		"2"
+	"$phongfresnelranges"		"[1 14 13]"
+	"$phongalbedotint"		"0.180000"
+	"$phongboost"		"1.000000"
+	"$phongalbedoboost"		"10.000000"
+	"$unwearstrength"		"0.2"
+	"$wearremapmin"		"0.700000"
+}

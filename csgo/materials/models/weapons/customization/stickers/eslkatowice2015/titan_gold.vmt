@@ -1,0 +1,17 @@
+weapondecal
+{	
+	$basetexture models\weapons\customization\stickers\eslkatowice2015\titan
+	$normalmap	 models\weapons\customization\stickers\eslkatowice2015\titan_normal
+	$colortint "[255 202 73]"
+	$decalstyle 4
+	$wearbias 0.06
+	$unwearstrength 0.08
+	$envmap "env_cubemap"
+	$envmaptint "[ 16 16 16 ]"
+	$phong 1
+	$phongexponent 6
+	$phongfresnelranges "[ 1 1 1 ]"
+	$phongalbedotint 1.0
+	$phongboost 40.0
+	$phongalbedoboost 2.0
+}

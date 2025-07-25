@@ -1,0 +1,17 @@
+"WeaponDecal"
+{
+	"$decalstyle" "4"
+	"$basetexture" "models\weapons\customization\stickers\halo\chief_foil_base"
+	"$normalmap" "models\weapons\customization\stickers\halo\chief_normal"
+	"$colortint"          "[75 75 75]"
+	"$unwearstrength"     "0.50"
+	"$wearbias"           "0.22"
+	"$envmap"             "env_cubemap"
+	"$envmaptint"         "[ 26 26 26 ]"
+	"$phong"              1
+	"$phongexponent"      2
+	"$phongfresnelranges" "[ 1 1 1 ]"
+	"$phongalbedotint"    1.0
+	"$phongboost"         90.0
+	"$phongalbedoboost"   2.0
+}

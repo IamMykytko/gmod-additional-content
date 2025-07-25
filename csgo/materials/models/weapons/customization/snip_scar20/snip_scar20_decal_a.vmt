@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\snip_scar20\snip_scar20_decal_A
+	$wearremapmin 0.1
+	$wearremapmid 0.6
+	$wearremapmax 0.99
+	$wearwidthmin 0.3
+	$wearwidthmax 0.03
+	$hlmvallowedit 1
+}

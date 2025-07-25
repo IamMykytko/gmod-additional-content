@@ -1,0 +1,18 @@
+weapondecal
+{
+	$basetexture models\weapons\customization\stickers\cluj2015\sig_kioshima
+	$decalstyle 0
+	$wearbias 0.25
+	$wearremapmax 0.9
+	$unwearstrength 0.2
+	
+	$envmap "env_cubemap"
+	$envmaptint "[ .015 .015 .015 ]"
+	
+	$phong 1
+	$phongexponent 1.0
+	$phongfresnelranges "[ .2 .5 1 ]"
+	$phongalbedotint 0.7
+	$phongboost 1
+	$phongalbedoboost 14.0
+}

@@ -1,0 +1,17 @@
+weapondecal
+{	
+	$basetexture models\weapons\customization\stickers\emskatowice2014\wolf_esl_gold_foil
+	$normalmap	 models\weapons\customization\stickers\emskatowice2014\wolf_esl_normal
+	$colortint "[ 100 100 100 ]"
+	$decalstyle 4
+	$wearbias 0.06
+	$unwearstrength 0.08
+	$envmap "env_cubemap"
+	$envmaptint "[ 25 25 25 ]"
+	$phong 1
+	$phongexponent 4
+	$phongfresnelranges "[ 1 1 1 ]"
+	$phongalbedotint 1.0
+	$phongboost 40.0
+	$phongalbedoboost 2.0	
+}

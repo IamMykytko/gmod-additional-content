@@ -1,0 +1,16 @@
+"WeaponDecal"
+{
+	"$DECALSTYLE"		"3"
+	"$basetexture"		"models\weapons\customization\stickers\slid3_capsule\dontworryigotcha.vtf"
+	"$holomask"		"models\weapons\customization\stickers\slid3_capsule\dontworryigotcha_holomask.vtf"
+	"$holospectrum"		"models\weapons\customization\stickers\default\holowarp_default"
+	"$unwearstrength"		"0.100000"
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[ .07 .07 .07 ]"
+	"$phong"		"1"
+	"$phongexponent"		"2"
+	"$phongfresnelranges"		"[ .2 .5 1 ]"
+	"$phongalbedotint"		"1.000000"
+	"$phongboost"		"1.000000"
+	"$phongalbedoboost"		"10.000000"
+}

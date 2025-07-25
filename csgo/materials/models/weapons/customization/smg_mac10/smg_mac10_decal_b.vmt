@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\smg_mac10\smg_mac10_decal_B
+	$wearremapmin 0.72
+	$wearremapmid 0.76
+	$wearremapmax 0.94
+	$wearwidthmin 0.12
+	$wearwidthmax 0.06
+	$hlmvallowedit 1
+}

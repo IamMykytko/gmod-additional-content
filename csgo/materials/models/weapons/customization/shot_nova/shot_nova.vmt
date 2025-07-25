@@ -1,0 +1,28 @@
+patch
+{
+	include "materials\models\weapons\customization\paints\master.vmt"
+	
+	insert 	
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER WEAPON
+		//-------------------------------------------------
+
+		"$surfacetexture" "models\weapons\customization\shot_nova\shot_nova_surface"
+		"$maskstexture" "models\weapons\customization\shot_nova\shot_nova_masks"
+		"$aotexture" "models\weapons\customization\shot_nova\shot_nova_ao"
+		"$postexture" "models\weapons\customization\shot_nova\shot_nova_pos"
+		"$exptexture" "models\weapons\v_models\shot_nova\shot_nova_exponent"
+		"$WEARTEXTURETRANSFORM" "scale 2.20 2.20 translate 0 0 rotate 0"
+		"$GRUNGETEXTURETRANSFORM" "scale 2.20 2.20 translate 0 0 rotate 0"
+		
+		// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWPHONGALBEDOTINT" 1
+		
+		// WEAR PROGRESSION FACTOR
+		"$WEARPROGRESS" 0.2
+		
+		"$PREVIEWWEAPONOBJSCALE" 1.1026
+		"$PREVIEWWEAPONUVSCALE" 0.744
+	}
+}

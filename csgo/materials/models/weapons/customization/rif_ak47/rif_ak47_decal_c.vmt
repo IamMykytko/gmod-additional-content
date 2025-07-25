@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\rif_ak47\rif_ak47_decal_C
+	$wearremapmin 0.7
+	$wearremapmid 0.86
+	$wearremapmax 0.98
+	$wearwidthmin 0.12
+	$wearwidthmax 0.04
+	$hlmvallowedit 1
+}

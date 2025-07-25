@@ -1,0 +1,17 @@
+"weapondecal"
+{
+	"$decalstyle"         "4"
+	"$basetexture"        "models/weapons/customization/stickers/illuminate_capsule_02/pixiu_foil"
+	"$normalmap"          "models/weapons/customization/stickers/illuminate_capsule_02/pixiu_normal"
+	"$colortint"          "[75 75 75]"
+	"$unwearstrength"     "0.06"
+	"$wearbias"           "0.02"
+	"$envmap"             "env_cubemap"
+	"$envmaptint"         "[ 26 26 26 ]"
+	"$phong"              1
+	"$phongexponent"      2
+	"$phongfresnelranges" "[ 1 1 1 ]"
+	"$phongalbedotint"    1.0
+	"$phongboost"         80.0
+	"$phongalbedoboost"   2.0
+}

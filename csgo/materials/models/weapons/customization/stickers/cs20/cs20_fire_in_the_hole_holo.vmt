@@ -1,0 +1,17 @@
+"WeaponDecal"
+{
+	"$DECALSTYLE"		"3"
+	"$basetexture"		"models\weapons\customization\stickers\cs20\cs20_fire_in_the_hole_holo"
+	"$holomask"		"models\weapons\customization\stickers\cs20\cs20_fire_in_the_hole_holomask"
+	"$holospectrum"		"models\weapons\customization\stickers\cs20\cs20_fire_in_the_hole_spectrum"
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[ .07 .07 .07 ]"
+	"$phong"		"1"
+	"$phongexponent"		"2"
+	"$phongfresnelranges"		"[ .2 .5 1 ]"
+	"$phongalbedotint"		"1.000000"
+	"$phongboost"		"1.000000"
+	"$phongalbedoboost"		"10.000000"
+	"$unwearstrength"		"0.2"
+	"$wearremapmin"		"0.700000"
+}

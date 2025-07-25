@@ -1,0 +1,28 @@
+patch
+{
+	include "materials\models\weapons\customization\paints\master.vmt"
+	
+	insert 	
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER WEAPON
+		//-------------------------------------------------
+		"$basetexture" "models\weapons\customization\snip_awp\snip_awp"
+		"$surfacetexture" "models\weapons\customization\snip_awp\snip_awp_surface"
+		"$maskstexture" "models\weapons\customization\snip_awp\snip_awp_masks"
+		"$aotexture" "models\weapons\customization\snip_awp\snip_awp_ao"
+		"$postexture" "models\weapons\customization\snip_awp\snip_awp_pos"
+		"$exptexture" "models\weapons\v_models\snip_awp\awp_exponent"
+		"$WEARTEXTURETRANSFORM" "scale 2.99 2.99 translate 0 0 rotate 0"
+		"$GRUNGETEXTURETRANSFORM" "scale 2.99 2.99 translate 0 0 rotate 0"
+		
+		// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWPHONGALBEDOTINT" 1
+		
+		// WEAR PROGRESSION FACTOR
+		"$WEARPROGRESS" 0.2
+		
+		"$PREVIEWWEAPONOBJSCALE" 1.495
+		"$PREVIEWWEAPONUVSCALE" 1.029
+	}
+}

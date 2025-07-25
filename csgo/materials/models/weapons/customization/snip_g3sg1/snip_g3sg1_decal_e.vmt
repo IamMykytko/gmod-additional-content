@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\snip_g3sg1\snip_g3sg1_decal_E
+	$wearremapmin 0.54
+	$wearremapmid 0.98
+	$wearremapmax 0.9
+	$wearwidthmin 0.12
+	$wearwidthmax 0.1
+	$hlmvallowedit 1
+}

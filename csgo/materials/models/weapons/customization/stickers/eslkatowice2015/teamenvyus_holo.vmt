@@ -1,0 +1,19 @@
+weapondecal
+{	
+	$basetexture models\weapons\customization\stickers\eslkatowice2015\teamenvyus
+	$decalstyle 3
+	$holomask models\weapons\customization\stickers\eslkatowice2015\teamenvyus_holomask
+	$holospectrum models\weapons\customization\stickers\eslkatowice2015\teamenvyus_holowarp
+	$grungetexture models\weapons\customization\stickers\eslkatowice2015\holo_backing_2015
+	$grungescale 3
+	$wearbias 0.04
+	$unwearstrength 0.16
+	$envmap "env_cubemap"
+	$envmaptint "[ .05 .05 .05 ]"
+	$phong 1
+	$phongexponent 1.0
+	$phongfresnelranges "[ .2 .5 1 ]"
+	$phongalbedotint 0.3
+	$phongboost 1.0
+	$phongalbedoboost 10.0	
+}

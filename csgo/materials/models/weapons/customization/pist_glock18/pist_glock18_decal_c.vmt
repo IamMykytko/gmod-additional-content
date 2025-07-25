@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\pist_glock18\pist_glock18_decal_C
+	$wearremapmin 0.78
+	$wearremapmid 0.82
+	$wearremapmax 1.0
+	$wearwidthmin 0.12
+	$wearwidthmax 0.08
+	$hlmvallowedit 1
+}

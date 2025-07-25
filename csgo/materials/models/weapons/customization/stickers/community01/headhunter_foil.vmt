@@ -1,0 +1,21 @@
+weapondecal
+{
+	$basetexture		models\weapons\customization\stickers\community01\headhunter
+	$normalmap		models\weapons\customization\stickers\community01\headhunter_normal
+	
+	$unwearstrength		0.14
+	$wearbias		0.06
+	$decalstyle		4
+	
+	$envmap		env_cubemap
+	$envmaptint		"[ 8 8 6 ]"
+	
+	$phong		1
+	$phongexponent 0.08
+	
+	$phongfresnelranges		"[ 0 0.8 1 ]"
+	$phongalbedotint		1
+	$phongboost		6.0
+	$phongalbedoboost		10.0
+	
+}

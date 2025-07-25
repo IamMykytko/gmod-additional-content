@@ -1,0 +1,8 @@
+weapondecal
+{	
+	$basetexture models\weapons\customization\stickers\stickers2\goodgame
+	
+	$unwearstrength 0.2
+	
+	$DECALSTYLE 1 // Standard paper-backed plastic sticker
+}

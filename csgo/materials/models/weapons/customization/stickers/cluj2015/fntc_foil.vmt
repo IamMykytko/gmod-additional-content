@@ -1,0 +1,20 @@
+weapondecal
+{
+	$basetexture models\weapons\customization\stickers\cluj2015\fntc
+	$normalmap	 models\weapons\customization\stickers\cluj2015\fntc_normal
+	$colortint "[140 140 140]"
+	$decalstyle 4
+	$wearremapmin 0.8
+	$wearremapmid 0.99
+	$wearremapmax 1
+	$wearbias 0.1
+	$unwearstrength 0.2
+	$envmap "env_cubemap"
+	$envmaptint "[ 26 26 26 ]"
+	$phong 1
+	$phongexponent 2
+	$phongfresnelranges "[ 1 1 1 ]"
+	$phongalbedotint 1.0
+	$phongboost 0.0
+	$phongalbedoboost 20.0
+}

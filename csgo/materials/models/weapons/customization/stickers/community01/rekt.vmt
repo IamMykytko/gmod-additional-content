@@ -1,0 +1,17 @@
+"WeaponDecal"
+{
+	"$DECALSTYLE"		"3"
+	"$basetexture"		"models\weapons\customization\stickers\community01\rekt.vtf"
+	"$holomask"		"models\weapons\customization\stickers\community01\rekt_holomask.vtf"
+	"$holospectrum"		"models\weapons\customization\stickers\community01\rekt_spectrum.vtf"
+	"$unwearstrength"		"0.22"
+	"$wearbias"			"0.06"
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[ .07 .07 .07 ]"
+	"$phong"		"1"
+	"$phongexponent"		"2"
+	"$phongfresnelranges"		"[ .2 .5 1 ]"
+	"$phongalbedotint"		"1.000000"
+	"$phongboost"		"1.000000"
+	"$phongalbedoboost"		"10.000000"	
+}

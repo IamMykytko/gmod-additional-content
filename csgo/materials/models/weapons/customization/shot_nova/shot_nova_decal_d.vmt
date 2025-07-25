@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\shot_nova\shot_nova_decal_D
+	$wearremapmin 0.46
+	$wearremapmid 0.8
+	$wearremapmax 0.96
+	$wearwidthmin 0.12
+	$wearwidthmax 0.1
+	$hlmvallowedit 1
+}

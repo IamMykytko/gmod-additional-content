@@ -1,0 +1,23 @@
+weapondecal
+{	
+	$basetexture models\weapons\customization\stickers\cologne2015\sig_spiidi
+	
+	$decalstyle 0
+	$wearbias 0.25
+	$unwearstrength 0.16
+	
+	$envmap "env_cubemap"
+	$envmaptint "[ .015 .015 .015 ]"
+	
+	$phong 1
+	$phongexponent 1.0
+	$phongfresnelranges "[ .2 .5 1 ]"
+	$phongalbedotint 0.7
+	$phongboost 1
+	$phongalbedoboost 14.0
+	
+	$patternscale 1.05
+	$patternrotation -4.0
+}
+
+

@@ -1,0 +1,19 @@
+WeaponDecal
+{	
+	$basetexture models\weapons\customization\stickers\standard\luck_foil
+	$normalmap	 models\weapons\customization\stickers\standard\luck_foil_normal
+	
+	$unwearstrength 0.08
+	
+	$DECALSTYLE 4 // Embossed foil
+	
+	$envmap "env_cubemap"
+	$envmaptint "[ 25 25 25 ]"
+	
+	$PHONG 1
+	$PHONGEXPONENT	0.1
+	$PHONGFRESNELRANGES "[ 1 1 1 ]"
+	$PHONGALBEDOTINT 1.0
+	$PHONGBOOST 40.0
+	$PHONGALBEDOBOOST 2.0
+}

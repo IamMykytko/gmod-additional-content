@@ -1,0 +1,33 @@
+patch
+{
+	include "materials\models\weapons\customization\paints\master.vmt"
+	
+	insert 	
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER WEAPON
+		//-------------------------------------------------
+		"$surfacetexture" "models\weapons\customization\rif_aug\rif_aug_surface"
+		"$maskstexture" "models\weapons\customization\rif_aug\rif_aug_masks"
+		"$aotexture" "models\weapons\customization\rif_aug\rif_aug_ao"
+		"$postexture" "models\weapons\customization\rif_aug\rif_aug_pos"
+		"$exptexture" "models\weapons\v_models\rif_aug\rif_aug_exponent"
+		"$WEARTEXTURETRANSFORM" "scale 2 2 translate 0 0 rotate 0"
+		"$GRUNGETEXTURETRANSFORM" "scale 2 2 translate 0 0 rotate 0"
+		
+		// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWPHONGALBEDOTINT" 1
+		
+		// SET THIS IF $ENVMAP IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWENVMAP" 1
+		
+		// OVERRIDE BASE TEXTURE IF NECESSARY
+		"$baseTexture" "models\weapons\customization\rif_aug\rif_aug"
+		
+		// WEAR PROGRESSION FACTOR
+		"$WEARPROGRESS" 0.2
+		
+		"$PREVIEWWEAPONOBJSCALE" 0.823
+		"$PREVIEWWEAPONUVSCALE" 0.763
+	}
+}

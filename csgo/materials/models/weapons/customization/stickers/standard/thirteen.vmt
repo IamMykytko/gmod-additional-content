@@ -1,0 +1,18 @@
+WeaponDecal
+{	
+	$basetexture models\weapons\customization\stickers\standard\thirteen
+	
+	$unwearstrength 0.08
+	
+	$DECALSTYLE 1 // Standard paper-backed plastic sticker
+	
+	$envmap "env_cubemap"
+	$envmaptint "[ .07 .07 .07 ]"
+	
+	$PHONG 1
+	$PHONGEXPONENT	2
+	$PHONGFRESNELRANGES "[ .2 .5 1 ]"
+	$PHONGALBEDOTINT 1.0
+	$PHONGBOOST 1.0
+	$PHONGALBEDOBOOST 10.0
+}

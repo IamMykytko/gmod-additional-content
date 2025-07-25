@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\snip_awp\snip_awp_decal_B
+	$wearremapmin 0.5
+	$wearremapmid 0.96
+	$wearremapmax 0.94
+	$wearwidthmin 0.12
+	$wearwidthmax 0.06
+	$hlmvallowedit 1
+}

@@ -1,0 +1,28 @@
+patch
+{
+	include "materials\models\weapons\customization\paints\master.vmt"
+	
+	insert 	
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER WEAPON
+		//-------------------------------------------------
+
+		"$surfacetexture" "models\weapons\customization\rif_galilar\rif_galilar_surface"
+		"$maskstexture" "models\weapons\customization\rif_galilar\rif_galilar_masks"
+		"$aotexture" "models\weapons\customization\rif_galilar\rif_galilar_ao"
+		"$postexture" "models\weapons\customization\rif_galilar\rif_galilar_pos"
+		"$exptexture" "models\weapons\v_models\rif_galilar\rif_galilar_exponent"
+		"$WEARTEXTURETRANSFORM" "scale 1.83 1.83 translate 0 0 rotate 0"
+		"$GRUNGETEXTURETRANSFORM" "scale 1.83 1.83 translate 0 0 rotate 0"
+		
+		// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWPHONGALBEDOTINT" 1
+		
+		// WEAR PROGRESSION FACTOR
+		"$WEARPROGRESS" 0.1
+		
+		"$PREVIEWWEAPONOBJSCALE" 0.9159
+		"$PREVIEWWEAPONUVSCALE" 0.75
+	}
+}

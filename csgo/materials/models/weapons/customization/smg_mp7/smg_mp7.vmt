@@ -1,0 +1,31 @@
+patch
+{
+	include "materials\models\weapons\customization\paints\master.vmt"
+	
+	insert 	
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER WEAPON
+		//-------------------------------------------------
+
+		"$surfacetexture" "models\weapons\customization\smg_mp7\smg_mp7_surface"
+		"$maskstexture" "models\weapons\customization\smg_mp7\smg_mp7_masks"
+		"$aotexture" "models\weapons\customization\smg_mp7\smg_mp7_ao"
+		"$postexture" "models\weapons\customization\smg_mp7\smg_mp7_pos"
+		"$exptexture" "models\weapons\v_models\smg_mp7\smg_mp7_exponent"
+		"$WEARTEXTURETRANSFORM" "scale .87 .87 translate 0 0 rotate 0"
+		"$GRUNGETEXTURETRANSFORM" "scale .87 .87 translate 0 0 rotate 0"
+		
+		// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWPHONGALBEDOTINT" 1
+		
+		// SET THIS IF $ENVMAP IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWENVMAP" 1
+		
+		// WEAR PROGRESSION FACTOR
+		"$WEARPROGRESS" 0.2
+		
+		"$PREVIEWWEAPONOBJSCALE" 0.4354
+		"$PREVIEWWEAPONUVSCALE" 0.466
+	}
+}

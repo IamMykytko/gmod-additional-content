@@ -1,0 +1,19 @@
+weapondecal
+{
+	$basetexture models\weapons\customization\stickers\berlin2019\sig_kjaerbye
+	$decalstyle 0
+	$colortint "[255 255 255]"
+	$desatbasetint 1
+	$wearbias 0.34
+	$unwearstrength 0.4
+	$wearremapmin 0.36
+	$wearremapmax 1.0
+	$envmap "env_cubemap"
+	$envmaptint "[ 0.02 0.02 0.02 ]"
+	$phong 1
+	$phongexponent 1.0
+	$phongfresnelranges "[ 0.2 0.5 1 ]"
+	$phongalbedotint 0.0
+	$phongboost 2
+	$phongalbedoboost 14.0
+}
