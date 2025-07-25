@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_soho/FootBridge002"
+	"$surfaceprop" "concrete"
+	"%keywords" "tf"
+}

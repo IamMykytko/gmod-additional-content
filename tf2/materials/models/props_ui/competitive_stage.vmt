@@ -1,0 +1,16 @@
+ "VertexLitGeneric"
+{
+	"$baseTexture" "models/props_ui/competitive_stage"
+	"$selfillum" 1
+
+//phong properties
+	"$phong"	"1"
+	"$phongboost"	"5"
+	"$phongexponent"	"90"
+	"$phongfresnelranges"	"[.5 1 2]"
+	
+	
+	
+	"%keywords" "tf"
+
+}

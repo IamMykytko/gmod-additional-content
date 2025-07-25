@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture	"models/props_sunshine/deer_cutout001"
+$surfaceprop	"wood"
+$model 			1
+}

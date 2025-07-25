@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_teaser/update_billboard001"
+
+	"$bumpmap" "models\effects\flat_normal"
+	"$basemapalphaphongmask" 1
+
+	"$phong" "1"
+	"$phongexponent" "120"
+	"$phongboost" "2"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.55 .5 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "0.4"	
+	"$rimlightboost" "0.5"
+
+}

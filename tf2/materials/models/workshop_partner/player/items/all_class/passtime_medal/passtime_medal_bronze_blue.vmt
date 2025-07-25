@@ -1,0 +1,37 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models/workshop_partner/player/items/all_class/passtime_medal/passtime_medal_bronze_blue"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"$yellow"		"0"
+	"$color2"		"{ 255 255 255 }"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

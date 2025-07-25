@@ -1,0 +1,45 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_ui/comp_logo_icon_gold"
+//	"$bumpmap" "models/props_ui/round_banner_normal"
+	
+	"$basemapalphaphongmask" 1
+	
+	"$envmap" "cubemaps\cubemap_specular001"
+	"$envmaptint" "[2 1.9 2.6]"
+//	"$envmapcontrast" 6
+	
+//	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+
+//                "$blendtintbybasealpha" "0" 
+//                "$blendtintcoloroverbase" "1"  
+
+//                "$colortint_base" "{205 203 204}"
+//                "$color2" "{205 203 204}"
+//                "$colortint_tmp" "[0 0 0]"
+
+	
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"4"
+	"$phongexponent"	"90"
+	"$phongfresnelranges"	"[.025 1 2]"
+	//"$phongtint"  "[.4 .3 .6]"
+	"$halflambert" "0"
+	
+	"$selfillum" 1	
+	"$selfillumtint" "[5 5 5]"
+  "$selfIllumFresnel" "1"
+  "$selfIllumFresnelMinMaxExp" "[0 5 10]" // 0.0 1.0 1.0 is the default
+	
+	                                "ItemTintColor"
+                                {
+                                                "resultVar" "$colortint_tmp"
+                                }
+                                "SelectFirstIfNonZero"
+                                {
+                                                "srcVar1"             "$colortint_tmp"
+                                                "srcVar2"             "$colortint_base"
+                                                "resultVar" "$color2"
+                                }
+}

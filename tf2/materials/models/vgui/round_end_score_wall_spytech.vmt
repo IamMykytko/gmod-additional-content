@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/vgui/round_end_score_wall_spytech"
+	"$selfillum" 1
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.5 1 .8]"
+	"$bumpmap" "models/effects/flat_normal"
+
+}

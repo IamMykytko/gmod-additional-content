@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "pl_barnblitz/woodwall_yellowworn002"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+
+}

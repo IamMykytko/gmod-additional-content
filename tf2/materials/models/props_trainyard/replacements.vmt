@@ -1,0 +1,134 @@
+replacements
+{
+	templates
+	{
+		standard
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$VERTEX_LIT				1
+					
+					$EFFECT					0
+		
+					$basetexture			$basetexture
+					$BASE_STEP_RANGE		"[ 0.0 1.0 ]"
+		
+					$CANVAS					"rj/colorbar3"
+					$CANVAS_SCALE			"[ 0.002 0.002 0.2 ]"
+					$CANVAS_STEP_RANGE		"[ 0.0 1.0 ]"
+					$CANVAS_COLOR_START		"[ 0.0 1.0 0.0 ]"
+					$CANVAS_COLOR_END		"[ 1.0 1.0 0.0 ]"
+				}
+			}
+		}
+
+		cart_base
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$EFFECT					1
+					$VERTEX_LIT				1
+
+					$basetexture			"models/props_trainyard/cart_base_pyro"
+					$vertexcolor			$vertexcolor
+					//$alphatest			1
+
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.2
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+		cart_bomb_red
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$EFFECT					1
+					$VERTEX_LIT				1
+
+					$basetexture			"models/props_trainyard/cart_bomb_red_pyro"
+					$vertexcolor			$vertexcolor
+					//$alphatest			1
+
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.2
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+		cart_bomb
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$EFFECT					1
+					$VERTEX_LIT				1
+
+					$basetexture			"models/props_trainyard/cart_bomb_pyro"
+					$vertexcolor			$vertexcolor
+					//$alphatest			1
+
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.2
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+		cart_dispenser
+		{
+			"VertexLitGeneric"
+			{
+				pyro_vision
+				{
+					$EFFECT					1
+					$VERTEX_LIT				1
+
+					$basetexture			"models/props_trainyard/cart_dispenser_pyro"
+					$vertexcolor			$vertexcolor
+					//$alphatest			1
+
+
+					$DIFFUSE_WHITE			0.9
+					$GRAY_POWER				0.2
+					$GRAY_STEP				"[ 0.0 1.0 ]"
+					$LIGHTMAP_GRADIENTS		255
+				}
+			}
+		}
+
+	}
+
+	patterns
+	{
+		cart_base
+		{
+			template	"cart_base"
+		}
+		cart_bomb_red
+		{
+			template	"cart_bomb_red"
+		}
+		cart_bomb
+		{
+			template	"cart_bomb"
+		}
+		cart_dispenser
+		{
+			template	"cart_dispenser"
+		}
+	}
+}
+

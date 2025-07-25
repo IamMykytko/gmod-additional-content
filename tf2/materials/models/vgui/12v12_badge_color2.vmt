@@ -1,0 +1,47 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/vgui/12v12_badge_color"
+	"$basemapalphaphongmask" 1
+
+	"$envmap" "cubemaps\cubemap_specular001"    
+//	"$envmap" "cubemaps\cubemap_gold001"
+	"$envmaptint" "[.08 .09 .1]"
+//	"$envmapcontrast" "[.1]"
+	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+
+    "$blendtintbybasealpha" "0" 
+    "$blendtintcoloroverbase" "1"  
+
+    "$colortint_base" "{94 153 218}"
+    "$color2" "{94 153 218}"
+    "$colortint_tmp" "[0 0 0]"
+
+	
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	".5"
+	"$phongtint"	"[.3 .7 2]"
+	"$phongexponent"	"80"
+	"$phongfresnelranges"	"[5 1 2]"
+	"$halflambert" "0"
+
+	"$selfillum" 1
+	"$selfillumtint" "[3 3 3]"
+	"$selfIllumFresnel" "1"
+	"$selfIllumFresnelMinMaxExp" "[0 1 5]" // 0.0 1.0 1.0 is the default
+
+	"Proxies"
+	{
+		"ItemTintColor"
+		{
+			"resultVar" "$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"	"$colortint_tmp"
+			"srcVar2"	"$colortint_base"
+			"resultVar"	"$color2"
+		}
+	}
+}

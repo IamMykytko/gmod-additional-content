@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\thundermountain_fx\bigboom_1"
+	"$surfaceprop"	"metal"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_trainyard/lightpole_on"
+	"$selfillum" "1"
+//	"$nocull" "1"
+
+}

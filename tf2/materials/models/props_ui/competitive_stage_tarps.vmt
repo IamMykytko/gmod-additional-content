@@ -1,0 +1,8 @@
+ "VertexLitGeneric"
+{
+	"$baseTexture" "models/props_ui/competitive_stage_tarps"
+	"$bumpmap" "models/props_ui/competitive_stage_tarps_normal"
+	"$selfillum" 1
+	"%keywords" "tf"
+
+}

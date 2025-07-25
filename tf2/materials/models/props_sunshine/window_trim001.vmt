@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture	"models/props_sunshine/window_trim001"
+$surfaceprop	"rock"
+$model 			1
+}

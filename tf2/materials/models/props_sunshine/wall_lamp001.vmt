@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture	"models/props_sunshine/wall_lamp001"
+$surfaceprop	"metal"
+$model 			1
+}

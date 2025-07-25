@@ -1,0 +1,47 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/vgui/competitive_badge_laurels"
+//	"$bumpmap"	"models/vgui/versus_doors02_normal"
+	
+	"$basemapalphaphongmask" 1
+	
+	"$envmap" "cubemaps\cubemap_specular001"    
+//	"$envmap" "cubemaps\cubemap_gold001"
+	"$envmaptint" "[.3 .3 .3]"
+//	"$envmapcontrast" "[.1]"
+	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+
+//                "$blendtintbybasealpha" "0" 
+//                "$blendtintcoloroverbase" "1"  
+
+//                "$colortint_base" "{205 203 204}"
+//                "$color2" "{205 203 204}"
+//                "$colortint_tmp" "[0 0 0]"
+
+	
+//phong properties
+"$phong"	"1"
+"$phongboost"	"8"
+"$phongtint"	"[.6 2 .8]"
+"$phongexponent"	"80"
+"$phongfresnelranges"	"[5 1 8]"
+"$halflambert" "0"
+
+"$selfillum" 1
+//"$selfillummask" "models/vgui/versus_doors_b_illum"
+"$selfillumtint" "[3 3 3]"
+ "$selfIllumFresnel" "1"
+ "$selfIllumFresnelMinMaxExp" "[0 1 5]" // 0.0 1.0 1.0 is the default
+
+                                "ItemTintColor"
+                               {
+                                               "resultVar" "$colortint_tmp"
+                               }
+                               "SelectFirstIfNonZero"
+                               {
+                                               "srcVar1"             "$colortint_tmp"
+                                               "srcVar2"             "$colortint_base"
+                                               "resultVar" "$color2"
+                               }
+}

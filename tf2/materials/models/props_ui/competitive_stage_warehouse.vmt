@@ -1,0 +1,7 @@
+ "VertexLitGeneric"
+{
+	"$baseTexture" "models/props_ui/competitive_stage_warehouse"
+	"$selfillum" 1
+	"%keywords" "tf"
+
+}

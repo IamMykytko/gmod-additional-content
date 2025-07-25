@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+//"Modulate"
+{
+	"$basetexture" "models/workshop_partner/player/items/all_class/hm_disguisehat/hm_disguisehat"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" ".5"
+	"$envmaptint" " [1 .7 .3]"
+	"$envmapmask" "models/workshop_partner/player/items/all_class/hm_disguisehat/hm_disguisehat_normal"
+	"$translucent" 0
+//	"$additive" 1
+	"$model" "1"
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"$yellow" "0"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}
