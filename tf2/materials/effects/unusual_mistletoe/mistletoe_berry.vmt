@@ -1,0 +1,9 @@
+"Spritecard"
+{
+	"$baseTexture" "Effects\unusual_mistletoe\mistletoe_berry"
+	//"$translucent"	"1"
+	//"$overbrightfactor"	"2"
+	"$vertexalpha"	"1"
+	"$vertexcolor"	"1"
+	$DEPTHBLEND "0"   
+}

@@ -1,0 +1,8 @@
+"Spritecard"
+{
+	//"srgb?$overbrightfactor" "1.5"
+	"$baseTexture" "effects/electricity_cloud/electricity_cloud_bolts"
+	$translucent 1
+	"$addself" "0"
+	$DEPTHBLEND 0
+}

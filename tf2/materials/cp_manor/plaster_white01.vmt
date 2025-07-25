@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "cp_manor/plaster_white01"
+	"$surfaceprop" "plaster"
+	"%keywords" "tf"
+}

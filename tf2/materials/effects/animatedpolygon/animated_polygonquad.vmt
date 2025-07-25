@@ -1,0 +1,6 @@
+"Spritecard"
+{
+	"$baseTexture" "Effects\AnimatedPolygon/animated_polygonquad"
+	$translucent 1
+	$overbrightfactor 1
+}

@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/debris/debris_chunk"	
+	$additive 1
+	$vertexalpha 1
+	$vertexcolor 1
+	$nocull 1
+}
+
+

@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/icecave1"	
+	$vertexalpha 1
+	$additive 1
+	$vertexcolor 1
+	$nocull 1
+}
+
+

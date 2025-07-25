@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "Metal/wall016b_harbor"
+	"$bumpmap" "Metal/wall011_bump-ssbump"
+        "$ssbump" "1"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+
+}

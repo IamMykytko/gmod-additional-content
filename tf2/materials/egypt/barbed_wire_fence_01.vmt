@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	"$basetexture"	"egypt\barbed_wire_fence_01"
+	"$surfaceprop" "rock"
+	"$translucent" 1 
+	"$nocull" 1 
+
+
+
+}

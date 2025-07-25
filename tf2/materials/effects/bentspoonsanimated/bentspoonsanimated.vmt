@@ -1,0 +1,6 @@
+"SpriteCard"
+{
+	"$basetexture" "effects/bentspoonsanimated/bentspoonsanimated"
+	"$overbrightfactor" "2"
+	"$alpha" "1"
+}

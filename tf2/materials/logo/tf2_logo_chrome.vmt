@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "logo\TF2_Logo_chrome"
+	"$translucent" 1
+	"$ignorez" 1
+}

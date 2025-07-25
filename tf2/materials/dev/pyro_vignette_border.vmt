@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+	$basetexture			"rj/rj_warp_vignette"
+	$ignorez				1
+	$nocull					1
+}

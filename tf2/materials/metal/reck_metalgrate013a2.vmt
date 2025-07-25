@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/metalgrate013a"
+	"$surfaceprop" "metalgrate"
+	"%keywords" "tf"
+	"$translucent" 1
+	"$nodecal" "1"
+}

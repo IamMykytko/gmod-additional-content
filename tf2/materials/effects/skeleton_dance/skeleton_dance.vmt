@@ -1,0 +1,8 @@
+"Spritecard"
+{
+	"$baseTexture" "Effects\skeleton_dance\skeleton_dance"
+	$translucent 1
+	"$addself" "0"
+	$DEPTHBLEND 0
+	$blendframes 0
+}

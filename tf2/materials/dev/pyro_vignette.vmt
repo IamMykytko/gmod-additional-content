@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	$basetexture			"rj/vignette_strip"
+	$vertexcolor			1
+	$additive				1
+	$ignorez				1
+	$nocull					1
+}

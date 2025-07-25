@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/icicles4"
+	"$vertexcolor"     "1"
+	"$vertexalpha"     "1"
+	"$nocull" 1
+	"$additive" 1
+}

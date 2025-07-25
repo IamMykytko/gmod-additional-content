@@ -1,0 +1,8 @@
+"Spritecard"
+{
+	"$basetexture"	"Effects/animated_vortex_energy/vortex_sparkle"
+	"$additive"	1
+	"$vertexcolor"	1
+	"$vertexalpha"	1
+	$DEPTHBLEND "0"    
+}

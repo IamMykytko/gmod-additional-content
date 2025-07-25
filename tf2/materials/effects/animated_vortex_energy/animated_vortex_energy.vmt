@@ -1,0 +1,9 @@
+"Spritecard"
+{
+	//"srgb?$overbrightfactor" "1.5"
+	"$baseTexture" "Effects\animated_vortex_energy/animated_vortex_energy"
+	$translucent 1
+	"$addself" "0"
+	$DEPTHBLEND 0
+}
+

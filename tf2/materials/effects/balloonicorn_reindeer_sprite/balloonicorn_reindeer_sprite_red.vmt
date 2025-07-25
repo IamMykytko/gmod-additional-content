@@ -1,0 +1,9 @@
+"Spritecard"
+{
+	//"srgb?$overbrightfactor" "1.5"
+	"$baseTexture" "Effects\Balloonicorn_Reindeer_Sprite/Balloonicorn_Reindeer_Sprite_red"
+	$translucent 1
+	"$addself" "0"
+	$DEPTHBLEND 0
+}
+

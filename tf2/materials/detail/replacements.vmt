@@ -1,0 +1,26 @@
+replacements
+{
+	templates
+	{
+		standard
+		{
+                     	"UnlitGeneric"
+                       	{
+                     			"UnlitGeneric"
+                           		{
+ 						 			$copyall                                     	1
+						 			$basetexture                 			"rj/detailsprites_pyrovision02"
+								}
+						}
+		}
+	}
+
+	patterns
+	{
+		detailsprites
+		{
+			template	"standard"
+		}
+	}
+}
+

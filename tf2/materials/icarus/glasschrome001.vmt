@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "icarus/glasschrome001"
+	"$basealphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "glass"
+	"%keywords" "tf"
+}

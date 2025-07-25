@@ -1,0 +1,8 @@
+"Spritecard"
+{
+	//"srgb?$overbrightfactor" "1.5"
+	"$baseTexture" "effects/animated_electricity/animated_electricity"
+	$translucent 1
+	"$addself" "0"
+	$DEPTHBLEND 0
+}

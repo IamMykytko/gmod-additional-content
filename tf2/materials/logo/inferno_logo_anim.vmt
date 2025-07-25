@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"logo/inferno_logo_anim"
+	"$surfaceprop"	"default"
+	"$translucent" 1
+	"$ignorez" 1
+
+
+	"Proxies"
+		{
+			"AnimatedTexture"
+			{
+				"animatedtexturevar" "$basetexture"
+				"animatedtextureframenumvar" "$frame"
+				"animatedtextureframerate" 16
+			}
+		}
+}

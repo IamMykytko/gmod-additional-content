@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+
+//"LightmappedGeneric"
+{
+	"$basetexture" "island/thatch_roof001"
+	"$basetexture2" "island/thatch_roof001_light"
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+
+//	"$basetexture" "island/thatch_roof001"
+//	"$bumpmap" "Brick/brickwall001_height-ssbump"
+	"%keywords" "tf"
+//	"$ssbump" "1"
+	"$nocull" 1
+	"$surfaceprop" "grass"
+}

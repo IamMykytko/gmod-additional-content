@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "cubemaps\render_source/cubemap_sheen_panorama06up"
+	$translucent 1
+}
+

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "cp_bloodstained/steeldoor_03"
+	"$surfaceprop" "metal"
+}

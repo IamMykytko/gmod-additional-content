@@ -1,0 +1,8 @@
+"SpriteCard"
+{
+	"$basetexture" "effects/snowflake01_glow"
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+	"$additive" "1"
+	"$overbrightfactor"	"1"
+}

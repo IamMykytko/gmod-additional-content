@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "medieval/concretefloor003_trim"
+	"$surfaceprop"	"concrete"
+	"%keywords"	"tf"
+}

@@ -1,0 +1,14 @@
+pyro_vision
+{
+	$EFFECT					3
+	$disabled				0
+	$basetexture			"_rt_FullFrameFB"
+	$warptexture			"rj/rj_warp_vignette"
+	$noisetexture			"rj/noise"
+	$VIGNETTE_TEXTURE		"_rt_ResolvedFullFrameDepth"
+	$VIGNETTE_TILE			"rj/papergrain_pink"
+	
+	$NOISE_SCALE			0.2
+	$TIME_SCALE				0.02
+	$HEAT_HAZE_SCALE		0.04
+}

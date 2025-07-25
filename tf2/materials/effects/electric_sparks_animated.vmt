@@ -1,0 +1,8 @@
+"SpriteCard"
+{
+	$basetexture "effects/electric_sparks_animated"
+	$additive	1
+	$overbrightfactor 2
+	$vertexalpha 1
+	$vertexcolor 1
+}
