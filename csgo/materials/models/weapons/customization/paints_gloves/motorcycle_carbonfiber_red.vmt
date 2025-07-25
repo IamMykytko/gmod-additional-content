@@ -1,0 +1,70 @@
+customcharacter
+{
+	$materialmask			models/weapons/customization/glove_motorcycle/material_mask4
+	$ao						models/weapons/customization/glove_motorcycle/ao
+	
+	$detail					models/weapons/customization/glove_motorcycle/detail2
+	$detailnormal			models/weapons/customization/glove_motorcycle/detailnormal
+	$detailscale 			"[ 4.000 5.000 3.000 3.200 ]"
+	$detailphongboost		"[ 0.090 0.200 0.008 0.050 ]"
+	$detailmetalness		"[ 0.800 0.280 0.800 0.280 ]"
+	$detailenvboost 		"[ 0.050 0.010 0.000 0.000 ]"
+	$detailphongalbedotint 	"[ 0.000 0.000 0.000 0.000 ]"
+	$detailwarpindex 		"[ 0.075 0.070 0.025 0.025 ]"
+	$detailnormaldepth 		"[ 0.800 2.200 5.000 1.500 ]"
+	$detailgrunge 			"[ 0.100 0.250 0.200 0.000 ]"
+	
+	"$palettecolor1" "[  25  25  25 ]"		// palm and fingers top/bottom	
+	"$palettecolor2" "[  25  20  20 ]"		// back of hand
+	"$palettecolor3" "[  48   6   6 ]"		// palm pad and index finger tip
+	"$palettecolor4" "[  65  65  65 ]"		// knucle armor, index/thumb web, and strap brace/buckle
+	"$palettecolor5" "[ 101  16  16 ]"		// trim and knucle armor pad
+	"$palettecolor6" "[  41  35  34 ]"		// stitching
+	"$palettecolor7" "[ 140  20  20 ]"		// inbetween fingers
+	"$palettecolor8" "[ 140  20  20 ]"		// icon and back slice
+	
+	//PATTERN
+	$pattern					"models\weapons\customization\paints\anodized_multi\ossify"
+	$patternreplaceindex		2
+	$patterncolorindices		"[ 2 0 7 0 ]"
+	$patterndetailinfluence 	"0.0"
+	$patternpaintthickness 		"2.2"
+	$pattern_offset_x_start		0
+	$pattern_offset_x_end		1
+	$pattern_offset_y_start		0
+	$pattern_offset_y_end		1
+	$pattern_rotate_start		-20
+	$pattern_rotate_end			20
+	$patternscale				4.8
+	$grungescale 				2.3
+	
+	//GRUNGE
+	$grunge						models/weapons/customization/glove_motorcycle/grunge2
+	$grime 						"[ 0.700 0.500 0.200 1.500 ]"
+	$grimesaturation 			"[ 0.500 0.500 2.000 0.500 ]"
+	$grimebrightnessadjustment 	"[ 0.000 0.900 0.000 0.500 ]"
+	$damagegrunge 				"[ 0.900 0.800 0.900 0.300 ]"
+	$detailgrungefactor 		"[ 0.000 0.000 0.000 0.000 ]"
+	$grungemax 					"[ 0.900 0.600 1.000 0.600 ]"
+	
+	//DAMAGE
+	$damagelevels1 						"[ 0.089 0.090 ]"
+	$damagelevels2 						"[ 0.020 0.120 ]"
+	$damagelevels3 						"[ 0.006 0.014 ]"
+	$damagelevels4 						"[ 0.010 0.080 ]"
+	$damagedetailphongboost 			"[ 0.100 0.000 0.000 0.000 ]"
+	$damagedetailenvboost 				"[ 0.000 0.000 0.100 0.000 ]"
+	$damagenormaledgedepth 				"[ 3.000 1.500 3.000 3.000 ]"
+	$damageedgephongboost 				"[ -1.000 2.000 0.500 0.500 ]"
+	$damageedgeenvboost 				"[ 1.000 1.000 0.300 0.000 ]"
+	$damagedetailsaturation 			"[ -0.00 0.000 -0.80 -1.00 ]"
+	$damagedetailbrightnessadjustment 	"[ -0.200 0.000 -0.30 0.000 ]"
+	
+	//WEAR	
+	$curvaturewearboost 		"[ 0.150 0.250 0.080 0.080 ]"
+	$curvaturewearpower			"[ 1.900 2.900 3.900 1.900 ]"
+	$weardetailphongboost 		"[ 1.000 0.000 0.000 0.000 ]"
+	$weardetailenvboost 		"[ 0.000 0.000 0.000 0.000 ]"
+	$wearexponent				0.7
+	$wearprogress				0.0
+}

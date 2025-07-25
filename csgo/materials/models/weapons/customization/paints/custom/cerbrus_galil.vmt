@@ -1,0 +1,18 @@
+Patch
+       {
+	                     "style"						"7"
+	                    "pattern"						"cerbrus_galil"
+	                    "pattern_scale"				"1"
+	                    "phongintensity"				"153"
+	                    "phongexponent"			"128"
+	                    "pattern_offset_x_start"	        "0.0"
+	                    "pattern_offset_x_end"	        "0.0"
+	                    "pattern_offset_y_start"	        "0.0"
+	                    "pattern_offset_y_end"	        "0.0"
+	                    "pattern_rotate_start"		"0.0"
+	                    "pattern_rotate_end"		"0.0"
+	                    "wear_remap_min"			"0.02"
+	                    "wear_remap_max"			"0.7"
+	                    "ignore_weapon_size_scale"	"1"
+	                    "dialog_config"				"12,0,0,1"
+                        }

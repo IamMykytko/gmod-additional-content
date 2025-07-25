@@ -1,0 +1,30 @@
+patch
+{
+	include "materials\models\weapons\customization\paints\master.vmt"
+	
+	insert 	
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER WEAPON
+		//-------------------------------------------------
+		"$surfacetexture" "models\weapons\customization\mach_m249para\mach_m249para_surface"
+		"$maskstexture" "models\weapons\customization\mach_m249para\mach_m249para_masks"
+		"$aotexture" "models\weapons\customization\mach_m249para\mach_m249para_ao"
+		"$postexture" "models\weapons\customization\mach_m249para\mach_m249para_pos"
+		"$exptexture" "models\weapons\v_models\mach_m249para\m249_exponent"
+		"$WEARTEXTURETRANSFORM" "scale 2.65 2.65 translate 0 0 rotate 0"
+		"$GRUNGETEXTURETRANSFORM" "scale 2.65 2.65 translate 0 0 rotate 0"
+		
+		// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWPHONGALBEDOTINT" 1
+		
+		// SET THIS IF $ENVMAP IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWENVMAP" 1
+		
+		// WEAR PROGRESSION FACTOR
+		"$WEARPROGRESS" 0.2
+		
+		"$PREVIEWWEAPONOBJSCALE" 1.326
+		"$PREVIEWWEAPONUVSCALE" 1.151
+	}
+}

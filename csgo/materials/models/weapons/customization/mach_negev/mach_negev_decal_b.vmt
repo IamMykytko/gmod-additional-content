@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\mach_negev\mach_negev_decal_B
+	$wearremapmin 0.8
+	$wearremapmid 0.96
+	$wearremapmax 0.98
+	$wearwidthmin 0.1
+	$wearwidthmax 0.02
+	$hlmvallowedit 1
+}

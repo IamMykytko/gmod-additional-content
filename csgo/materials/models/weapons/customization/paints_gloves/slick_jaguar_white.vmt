@@ -1,0 +1,68 @@
+customcharacter
+{
+	$materialmask			models/weapons/customization/glove_slick/material_mask
+	$ao						models/weapons/customization/glove_slick/ao_no_cross
+	
+	$detail					models/weapons/customization/glove_slick/detail4
+	$detailnormal			models/weapons/customization/glove_slick/detailnormal4
+	$detailscale 			"[ 3.500 6.500  1.000 3.500 ]"
+	$detailphongboost 		"[ 0.800 0.300 20.000 0.15 ]"
+	$detailenvboost 		"[ 0.200 0.100  1.000 0.050 ]"
+	$detailphongalbedotint 	"[ 0.000 0.000  1.000 0.600 ]"
+	$detailwarpindex 		"[ 0.000 0.070  0.000 0.148 ]"
+	$detailnormaldepth 		"[ 3.000 1.000  1.000 2.000 ]"
+	
+	"$palettecolor1" "[ 203 196 188 ]"	// palm
+	"$palettecolor2" "[ 150 150 150 ]"	// back of hand and thumb
+	"$palettecolor3" "[  95  75  55 ]"	// wrist emblem
+	"$palettecolor4" "[ 190 190 190 ]"	// back of fingers and wrist trim
+	"$palettecolor5" "[  10  10  10 ]"	// stitching
+	"$palettecolor6" "[  27  22  22 ]"	// palm band
+	"$palettecolor7" "[ 140 134 120 ]"	// wear color
+	"$palettecolor8" "[ 196 193 188 ]"	// wrist strap
+	
+	//PATTERN
+	$pattern					"models\weapons\customization\paints\anodized_multi\jaguar_print"
+	$patternreplaceindex		2
+	$patterncolorindices		"[ 5 1 1 7 ]"
+	$patterndetailinfluence 	8.00
+	$patternpaintthickness 		0.00
+	$pattern_offset_x_start		0
+	$pattern_offset_x_end		1
+	$pattern_offset_y_start		0
+	$pattern_offset_y_end		1
+	$pattern_rotate_start		-25
+	$pattern_rotate_end			25
+	$patternscale				1.70
+	$grungescale 				3.40
+	
+	//GRUNGE
+	$grunge						models/weapons/customization/glove_slick/grunge4
+	$grime 						"[ 0.100 0.800 0.000 0.300 ]"
+	$grimesaturation 			"[ 2.000 2.000 0.000 0.100 ]"
+	$grimebrightnessadjustment 	"[ 0.000 0.300 0.000 0.100 ]"
+	$damagegrunge 				"[ 0.300 0.600 0.000 0.400 ]"
+	$detailgrunge 				"[ 0.400 0.500 0.400 0.000 ]"
+	$grungemax 					"[ 0.800 0.800 0.200 0.800 ]"
+	
+	//DAMAGE
+	$damagelevels1 						"[ 0.0650 0.070 ]"
+	$damagelevels2 						"[ 0.0700 0.080 ]"
+	$damagelevels3 						"[ 0.0001 0.070 ]"
+	$damagelevels4 						"[ 0.03 0.080 ]"
+	$damagedetailphongboost 			"[ 0.0000 0.100 0.500 0.000 ]"
+	$damagedetailenvboost 				"[ 0.0000 0.050 0.000 0.000 ]"
+	$damagenormaledgedepth 				"[ 3.0000 5.000 1.000 1.000 ]"
+	$damageedgephongboost 				"[ 0.0000 2.000 0.200 0.000 ]"	
+	$damageedgeenvboost 				"[ 0.5000 1.000 0.300 0.000 ]"
+	$damagedetailbrightnessadjustment 	"[ -0.2000 1.200 -0.20 0.500 ]"
+	$damagedetailsaturation 			"[ -0.300 -0.99 -0.50 0.100 ]"
+	
+	//WEAR
+	$curvaturewearboost 		"[ 0.100 0.090 0.040 0.050 ]"
+	$curvaturewearpower			"[ 1.900 1.800 2.000 2.000 ]"
+	$weardetailphongboost 		"[ 0.200 1.000 0.000 0.000 ]"
+	$weardetailenvboost 		"[ 0.000 0.000 0.000 0.000 ]"	
+	$wearexponent				0.7
+	$wearprogress				0.0
+}

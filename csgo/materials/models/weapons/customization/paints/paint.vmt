@@ -1,0 +1,15 @@
+CustomWeapon
+{
+
+	//-------------------------------------------------
+	// START PREVIEW STUFF
+	//-------------------------------------------------
+	"$PREVIEW" 1
+
+	//-------------------------------------------------
+	// SAME FOR EVERY PAINT TYPE -- DON'T EDIT
+	//-------------------------------------------------
+	"$grungetexture" "models\weapons\customization\shared\gun_grunge"
+	"$weartexture" "models\weapons\customization\shared\paint_wear"
+
+}

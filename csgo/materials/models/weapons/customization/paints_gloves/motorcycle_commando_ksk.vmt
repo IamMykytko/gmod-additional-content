@@ -1,0 +1,69 @@
+customcharacter
+{
+	$materialmask			models/weapons/customization/glove_motorcycle/material_mask2
+	$ao						models/weapons/customization/glove_motorcycle/ao
+	
+	$detail					models/weapons/customization/glove_motorcycle/detail
+	$detailnormal			models/weapons/customization/glove_motorcycle/detailnormal
+	$detailscale 			"[ 4.000 5.000 3.000 4.000 ]"
+	$detailphongboost 		"[ 0.200 0.500 0.400 0.400 ]"
+	$detailenvboost 		"[ 0.100 0.100 0.000 0.000 ]"
+	$detailphongalbedotint 	"[ 0.000 0.000 0.000 0.000 ]"
+	$detailwarpindex 		"[ 0.075 0.070 0.025 0.025 ]"
+	$detailnormaldepth 		"[ 0.800 1.000 5.000 1.500 ]"
+	$detailgrunge 			"[ 0.100 0.250 0.200 0.000 ]"	
+	
+	"$palettecolor1" "[  57  59  47 ]"		// palm and fingers top/bottom	
+	"$palettecolor2" "[  88  89  68 ]"		// back of hand
+	"$palettecolor3" "[  89  46  44 ]"		// palm pad and index finger tip
+	"$palettecolor4" "[  13  13  14 ]"		// knucle armor, index/thumb web, and strap brace/buckle
+	"$palettecolor5" "[ 108  93  64 ]"		// trim and knucle armor pad - TAN
+	"$palettecolor6" "[  30  22  12 ]"		// stitching
+	"$palettecolor7" "[ 175 129  30 ]"		// inbetween fingers
+	"$palettecolor8" "[ 175  30  30 ]"		// icon and back slice
+	
+	//PATTERN
+	$pattern					"models\weapons\customization\paints\spray\flektarn"
+	$patternreplaceindex		2
+	$patterncolorindices		"[ 4 2 1 3 ]"
+	$patterndetailinfluence		0.60
+	$patternpaintthickness		0.40
+	$pattern_offset_x_start		0
+	$pattern_offset_x_end		1
+	$pattern_offset_y_start		0
+	$pattern_offset_y_end		1
+	$pattern_rotate_start		45
+	$pattern_rotate_end			45
+	$patternscale				0.60
+	$grungescale 				2.40
+	
+	//GRUNGE
+	$grunge						models/weapons/customization/glove_motorcycle/grunge2
+	$grime 						"[ 0.900 0.800 1.000 0.500 ]"
+	$grimesaturation 			"[ 0.600 0.000 0.200 0.900 ]"
+	$grimebrightnessadjustment 	"[ 0.300 0.300 0.000 0.000 ]"
+	$damagegrunge 				"[ 0.900 0.200 0.500 0.500 ]"
+	$grungemax 					"[ 0.500 0.600 1.000 0.800 ]"
+	$detailgrungefactor 		"[ 0.000 0.000 0.000 0.000 ]"
+	
+	//DAMAGE
+	$damagelevels1 						"[ 0.089 0.090 ]"
+	$damagelevels2						"[ 0.030 0.080 ]"
+	$damagelevels3 						"[ 0.008 0.014 ]"
+	$damagelevels4 						"[ 0.010 0.080 ]"
+	$damagedetailphongboost				"[ 0.100 0.000 0.000 0.000 ]"
+	$damagedetailenvboost 				"[ 0.000 0.000 0.100 0.000 ]"
+	$damagenormaledgedepth 				"[ 4.500 1.500 3.000 3.000 ]"
+	$damageedgephongboost 				"[ 4.000 2.000 0.500 0.500 ]"
+	$damageedgeenvboost 				"[ 1.000 1.000 0.300 0.000 ]"
+	$damagedetailsaturation 			"[ -0.30 -1.50 0.000 0.000 ]"
+	$damagedetailbrightnessadjustment 	"[ -0.00 1.000 0.500 0.000 ]"
+	
+	//WEAR
+	$weardetailphongboost				"[ 1.000 0.000 0.000 0.000 ]"
+	$weardetailenvboost					"[ 0.000 0.000 0.000 0.000 ]"
+	$curvaturewearboost					"[ 0.150 0.250 0.080 0.080 ]"
+	$curvaturewearpower					"[ 1.950 2.950 3.950 1.950 ]"
+	$wearexponent						0.7
+	$wearprogress						0.0
+}

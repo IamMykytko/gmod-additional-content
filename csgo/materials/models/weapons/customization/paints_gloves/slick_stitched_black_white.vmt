@@ -1,0 +1,54 @@
+customcharacter
+{
+	$materialmask			models/weapons/customization/glove_slick/material_mask3
+	$ao						models/weapons/customization/glove_slick/ao_stitches
+	
+	$detail					models/weapons/customization/glove_slick/detail2
+	$detailnormal			models/weapons/customization/glove_slick/detailnormal2
+	$detailscale 			"[ 3.500 8.000  1.000 2.000 ]"
+	$detailphongboost 		"[ 0.450 0.800 20.000 0.010 ]"
+	$detailenvboost 		"[ 0.050 0.100  1.000 0.000 ]"
+	$detailphongalbedotint 	"[ 0.000 0.000  1.000 0.000 ]"
+	$detailwarpindex 		"[ 0.000 0.070  0.000 0.020 ]"
+	$detailnormaldepth 		"[ 3.000 2.000  1.000 1.000 ]"
+	$detailgrunge 			"[ 0.300 0.500  0.400 0.200 ]"
+	
+	$palettecolor1 "[  21  21  21 ]"	// back of hand/fingers
+	$palettecolor2 "[ 175 175 175 ]"	// back of hand stitching and palm
+	$palettecolor3 "[ 120 120 120 ]"	// wrist emblem
+	$palettecolor4 "[  75  75  75 ]"	// stitching
+	$palettecolor5 "[ 198 170 119 ]"	
+	$palettecolor6 "[  30  30  30 ]"	// palm band and stitching
+	$palettecolor7 "[  90  90  90 ]"	// wear color?
+	$palettecolor8 "[ 155 155 155 ]"    // wrist strap
+
+	//GRUNGE
+	$grunge						models/weapons/customization/glove_slick/grunge
+	$grime 						"[ 0.800 0.800 0.400 0.900 ]"
+	$grimesaturation 			"[ 0.100 0.000 0.000 0.400 ]"
+	$grimebrightnessadjustment 	"[ 0.500 0.300 -0.50 0.300 ]"
+	$damagegrunge 				"[ 0.300 0.600 0.000 1.000 ]"
+	$grungemax 					"[ 0.300 0.800 1.500 0.500 ]"
+	$detailgrungefactor 		"[ 0.000 0.000 0.000 0.000 ]"
+
+	//DAMAGE
+	$damagelevels1 						"[ 0.065 0.070 ]"
+	$damagelevels2 						"[ 0.070 0.080 ]"
+	$damagelevels3 						"[ 0.000 0.070 ]"
+	$damagelevels4 						"[ 0.010 0.120 ]"
+	$damagedetailphongboost 			"[ 0.000 0.100 0.500 0.000 ]"
+	$damagedetailenvboost 				"[ 0.000 0.050 0.000 0.000 ]"
+	$damagenormaledgedepth 				"[ 4.000 5.000 1.000 3.000 ]"
+	$damageedgephongboost 				"[ 2.000 2.000 0.200 0.000 ]"	
+	$damageedgeenvboost 				"[ 0.500 1.000 0.300 0.000 ]"
+	$damagedetailbrightnessadjustment 	"[ -0.40 1.200 -0.50 -0.30 ]"
+	$damagedetailsaturation 			"[ -0.70 -0.99 -0.50 0.500 ]"
+	
+	//WEAR
+	$weardetailphongboost 	"[ 0.200 1.000 0.000 0.000 ]"
+	$weardetailenvboost 	"[ 0.000 0.000 0.000 0.000 ]"
+	$curvaturewearboost 	"[ 0.030 0.090 0.040 0.000 ]"
+	$curvaturewearpower		"[ 1.900 1.800 2.000 2.500 ]"
+	$wearexponent			0.55
+	$wearprogress			0.0
+}

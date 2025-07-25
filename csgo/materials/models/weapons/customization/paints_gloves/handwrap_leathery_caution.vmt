@@ -1,0 +1,68 @@
+customcharacter
+{
+	// material order: leather, fabric, wrist tag, unused
+	$materialmask				models\weapons\customization\glove_handwrap_leathery\glove_handwrap_leathery_ID
+	$ao							models\weapons\customization\glove_handwrap_leathery\glove_handwrap_leathery_ao
+	
+	$detailnormal				models\weapons\customization\glove_handwrap_leathery\glove_handwrap_tape_detailnormal
+	$detail						models\weapons\customization\glove_handwrap_leathery\glove_handwrap_tape_detail
+	$detailscale				"[ 4.000 5.2500 2.000 1.000 ]"
+	$detailnormaldepth			"[ 1.000 1.500 1.000 1.000 ]"
+	$detailphongalbedotint		"[ 0.20 0.000 0.850 0.000 ]"
+	$detailenvboost  			"[ 0.080 0.000 0.200 0.000 ]"
+	$detailmetalness 			"[ 1.000 1.000 0.700 1.000 ]"
+	$detailwarpindex 			"[ 0.000 0.020 0.000 0.055 ]"
+	$detailphongboost			"[ 0.400 0.200 1.000 1.000 ]"
+	
+	"$palettecolor1"			"[  36  36  14 ]"	//wrist tag
+	"$palettecolor2"			"[  42 38 40 ]"	//fabric
+	"$palettecolor3"			"[ 142 148 12 ]"	//leather 
+	"$palettecolor4"			"[ 220 220  40 ]"	//wrist tag text
+	"$palettecolor5"			"[  10  10  10 ]"	//wrist tag frame
+	"$palettecolor6"			"[   1   1   1 ]"		
+	"$palettecolor7"			"[   1   1   1 ]"		
+	"$palettecolor8"			"[   1   1   1 ]"
+	
+	//PATTERN
+	$pattern					"models\weapons\customization\materials\pattern_wrap_caution.vtf"
+	$patternreplaceindex		"3"
+	$patterncolorindices 		"[ 3 7 8 0 ]"
+	$patterndetailinfluence		0.6
+	$patternpaintthickness		0.6
+	$pattern_offset_x_start		0
+	$pattern_offset_x_end		1
+	$pattern_offset_y_start		0.09
+	$pattern_offset_y_end		0.09
+	$pattern_rotate_start		0
+	$pattern_rotate_end			0
+	$patternscale				2.4
+	$grungescale 				2.5
+		
+	//GRUNGE
+	$grunge						models\weapons\customization\glove_handwrap_leathery\glove_handwrap_ducttape_grunge
+	$detailgrunge				"[ 0.020 0.0100 0.020 0.100 ]"
+	$damagegrunge				"[ 0.85 1.000 1.000 0.250 ]"	
+	$grime 						"[ 1.500 0.100 1.000 0.250 ]"
+	$grimesaturation 			"[ 0.8 0.2000 0.000 0.000 ]"
+	$grimebrightnessadjustment  "[ -0.7  -0.8 -0.70 0.000 ]"	
+	$grungemax 					"[ 1.300 0.0000 0.000 0.000 ]"
+	$grungetexturetransform 	"scale 1.200000 1.200 translate 0.000000 0.000000 rotate 0.000000"
+	
+	//DAMAGE
+	$damagelevels1 				"[ 0.35 0.360 ]"
+	$damagelevels2				"[ 0.060 0.110 ]"
+	$damagelevels3				"[ 0.040 0.050 ]"
+	$damagelevels4				"[ 0.000 1.000 ]"
+	$damagenormaledgedepth		"[ 0.100 0.000 1.800 1.000 ]"
+	$damagedetailsaturation		"[ -0.20 -0.20 -0.20 -1.00 ]"
+	$damagedetailphongboost		"[ 0.400 0.000 .4000 1.000 ]"
+	$damagedetailbrightnessadjustment "[ 2.000 0.000 2.250 0.000 ]"
+	
+	//WEAR	
+	$curvaturewearpower		"[ 0.800 0.900 2.500 1.000 ]"
+	$curvaturewearboost		"[ 0.60 0.060 0.180 0.000 ]"	
+	$weardetailenvboost 	"[ 0.000 0.000 0.000 0.000 ]"
+	$wearexponent			0.4
+	//$wearexponent			1.0 // Testing factory new 
+	$wearprogress			0.0
+}

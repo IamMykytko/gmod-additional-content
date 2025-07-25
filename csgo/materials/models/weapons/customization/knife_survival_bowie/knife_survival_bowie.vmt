@@ -1,0 +1,19 @@
+patch
+{
+	include                   "materials/models/weapons/customization/paints/master.vmt"
+	insert
+	{
+		"$surfacetexture"         "models/weapons/customization/knife_survival_bowie/knife_survival_bowie_surface"
+		"$maskstexture"           "models/weapons/customization/knife_survival_bowie/knife_survival_bowie_masks"
+		"$aotexture"              "models/weapons/customization/knife_survival_bowie/knife_survival_bowie_ao"
+		"$postexture"             "models/weapons/customization/knife_survival_bowie/knife_survival_bowie_pos"
+		"$exptexture"             "models/weapons/v_models/knife_survival_bowie/knife_survival_bowie_exponent"
+		"$weartexturetransform"   "scale 1 1 translate 0 0 rotate 0"
+		"$grungetexturetransform" "scale 1 1 translate 0 0 rotate 0"
+		"$previewphongalbedotint" 0
+		"$previewenvmap"          1
+		"$wearprogress"           0.01
+		"$previewweaponobjscale"  0.406
+		"$previewweaponuvscale"   0.733
+	}
+}

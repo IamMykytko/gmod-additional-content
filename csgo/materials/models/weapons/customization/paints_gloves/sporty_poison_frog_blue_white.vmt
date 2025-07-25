@@ -1,0 +1,80 @@
+customcharacter
+
+{
+	$materialmask			models/weapons/customization/glove_sporty/material_mask01
+ 	$ao						models/weapons/customization/glove_sporty/ao
+	
+ 	$grunge					models/weapons/customization/glove_sporty/grunge
+	
+	$grime 				"[.8 0 1 .4]"
+	$damagegrunge		"[.8 .5 .1 .8]"
+	$grungemax			"[1 1 2 1]"
+	
+	"$palettecolor1" "[ 22.000000 36.000000 133.000000 ]"
+	"$palettecolor2" "[ 57.000000 113.000000 174.000000 ]"
+	"$palettecolor3" "[ 37.000000 57.000000 109.000000 ]"
+	"$palettecolor4" "[ 9.000000 126.000000 198.000000  ]"
+	"$palettecolor5" "[ 221.000000 225.000000 232.000000 ]"
+	"$palettecolor6" "[ 240.000000 248.000000 251.000000 ]"
+	"$palettecolor7" "[ 221.000000 225.000000 232.000000 ]"
+	"$palettecolor8" "[ 169.000000 188.000000 207.000000 ]"
+		
+	$patternreplaceindex		4
+	
+	$pattern					"models\weapons\customization\materials\pattern_poison_frog01"
+	$patterncolorindices		"[ 4.000000 8.000000 8.000000 1.000000 ]"
+	
+	$detail					models/weapons/customization/glove_sporty/detail5
+	$detailnormal			models/weapons/customization/glove_sporty/detailnormal6
+
+	$detailscale "[ 2.500000 5.00000 2.000000 6.000000 ]"
+	$detailphongboost "[ 0.1000 1.0000 0.200000 0.00500 ]"
+	$detailenvboost "[ 0.000000 0.4000 0.020000 0.000000 ]"
+	$detailphongalbedotint "[ 0.400000 0.400000 0.00000 0.000000 ]"
+	$detailwarpindex "[ 0.0000 0.1000 0.086000 0.0250000 ]"
+	$detailmetalness "[ 1.000000 1.000000 1.000000 1.000000 ]"
+	$detailnormaldepth "[ 2.000000 4.00000 1.000000 3.000000 ]"
+	
+	$weardetailphongboost "[ 0.000000 -1.000000 0.000000 0.000000 ]"
+	$weardetailenvboost "[ 0.000000 0.000000 0.000000 0.000000 ]"
+			
+	$damagedetailphongboost "[ 0.10000 -0.100000 0.00000 0.000000 ]"
+	$damagedetailenvboost "[ 0.00000 -1.0000 0.000000 0.000000 ]"
+	$damagenormaledgedepth "[ 0.50000 2.00000 1.000000 1.000000 ]"
+	$damageedgephongboost "[ 0.00000 0.00000 0.00000 0.000000 ]"	
+	$damageedgeenvboost "[ 0.000000 0.000000 0.00000 0.000000 ]"
+	$damagedetailbrightnessadjustment "[ 0.50000 -0.600000 -0.200000 0.20000 ]"
+	$damagedetailsaturation "[-0.7 0.0 0.5 -1.5]"
+	
+		
+	$curvaturewearboost "[ 0.40000 0.520000 0.100000 0.10000 ]"
+	$curvaturewearpower	"[ 3.000000 4.3000 4.000000 3.000000 ]"
+
+	$detailgrunge "[ 0.000000 0.050000 0.100000 0.100000 ]"
+	
+	$damagelevels1 "[ 0.018000 0.090000 ]"
+	$damagelevels2 "[ 0.008000 0.012000 ]"
+	$damagelevels3 "[ 0.01000 0.02000 ]"
+	$damagelevels4 "[ 0.018000 0.090000 ]"
+
+	$wearexponent				0.3
+	
+	$patterndetailinfluence 0.000000
+	$patternpaintthickness 2.00000
+
+	// paintkit values, don't affect preview
+	$pattern_offset_x_start		0
+	$pattern_offset_x_end		1
+	$pattern_offset_y_start		0
+	$pattern_offset_y_end		1
+	$pattern_rotate_start		30.0
+	$pattern_rotate_end			30.0
+	$patternscale				5.0
+	$grungescale 				2.500000
+	// end paintkit values
+	
+	//$patterntexturetransform "scale 5.000000 5.000000 translate 0.000000 0.000000 rotate 0"
+	//$grungetexturetransform "scale 2.5 2.5 translate 0.000000 0.000000 rotate 0"
+	//$preview 1
+	$wearprogress 0.0
+}

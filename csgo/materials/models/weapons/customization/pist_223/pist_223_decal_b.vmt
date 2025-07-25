@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\pist_223\pist_223_decal_B
+	$wearremapmin 0.6
+	$wearremapmid 0.94
+	$wearremapmax 0.98
+	$wearwidthmin 0.08
+	$wearwidthmax 0.04
+	$hlmvallowedit 1
+}

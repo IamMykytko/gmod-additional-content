@@ -1,0 +1,66 @@
+customcharacter
+{
+	$materialmask			models/weapons/customization/glove_bloodhound/material_mask
+	$ao						models/weapons/customization/glove_bloodhound/glove_hydra_ao
+	
+	$grunge					models/weapons/customization/glove_bloodhound/grunge_sfx_brown
+	
+	$detailgrunge			"[0.06 0.1 0 0]"
+	$grime 			"[1.1 1.0 0 .4]"
+	$grimedetailsaturation "[1 0.8 .3 0]"
+	$grimedetailbrightnessadjustment "[-0.65 0 0 0]"
+	$damagegrunge			"[1 0 0.0 .4]"
+	$grungemax 				"[.15 1 1 1]"
+	
+	"$palettecolor1" "[ 57 55 54 ]"      // back of hand
+	"$palettecolor2" "[ 146 157 106 ]"   // bloodhound
+	"$palettecolor3" "[ 147 147 151 ]"   // spikes
+	"$palettecolor4" "[ 121 122 128 ]"   // snap and grommits
+	"$palettecolor5" "[ 57 55 54 ]"      // trim
+	"$palettecolor6" "[ 57 55 54 ]"      // bloodhound leather area and palm
+	"$palettecolor7" "[ 57 55 54 ]"      // connector leather
+	"$palettecolor8" "[ 62 91 47 ]"      // fabric
+	
+	$detail					models/weapons/customization/glove_bloodhound/detail
+	$detailnormal			models/weapons/customization/glove_bloodhound/detailnormal
+	$detailscale	"[ 2.800000 2.200000 6.000000 4.000000 ]"
+	$detailphongalbedotint "[0.06 1.0 0.6 0.05]"
+	$detailnormaldepth	"[1.2 1 3 1.3]"
+	$damagenormaledgedepth "[1.8 1 1 0]"
+	
+	$damageedgephongboost "[0.15 .8 0 0]"
+	$damageedgeenvboost "[0 1 0 0]"
+	
+	$detailenvboost "[0.01 0.25 0 0]"
+	$damagedetailenvboost "[0 .05 0 0]"
+	$detailphongboost "[0.15 4 0.0 0]"
+	$weardetailphongboost "[-8 2 0 0]"
+	$damagedetailphongboost "[0.15 .5 .000 0]"
+	$detailwarpindex "[0.045 0.00 0.01 0.01]"
+	$detailmetalness "[1 0.4 1 1]"
+	
+	$curvaturewearboost "[0.5 1.6 1 0]"
+	$curvaturewearpower "[3.3 5.0 0.8 1]"
+	$wearexponent 0.8
+//	$wearprogress .99
+	
+	$damagelevels1 "[.08 .1]"
+	$damagelevels2 "[0.35 .4]"
+	$damagelevels3 "[0 1]"
+	$damagelevels4 "[0 1]"
+	
+	$damagedetailsaturation "[-.2 -0.8 .3 0]"
+	$damagedetailbrightnessadjustment "[-0.25 -.5 0 0]"
+	
+	// paintkit values, don't affect preview
+	$pattern_offset_x_start		0
+	$pattern_offset_x_end		0
+	$pattern_offset_y_start		0
+	$pattern_offset_y_end		0
+	$pattern_rotate_start		0
+	$pattern_rotate_end			0
+	$patternscale				1
+	$grungescale 				1.6
+	// end paintkit values
+	 //$grungetexturetransform "scale 1.600000 1.600000 translate 0.000000 0.000000 rotate 45.000000"
+}

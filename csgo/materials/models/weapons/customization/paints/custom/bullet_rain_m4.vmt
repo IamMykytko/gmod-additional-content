@@ -1,0 +1,27 @@
+Patch
+{
+	include "materials\models\weapons\customization\paints\paint.vmt"
+	insert
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER PAINT
+		//-------------------------------------------------
+		"$paintname" "cu_bullet_rain_m4a1"
+		
+		// PAINT PATTERN TEXTURE
+		"$painttexture" "models\weapons\customization\paints\custom\bullet_rain_m4"
+		// PAINT STYLE: 1 = SOLID COLORS, 2 = HYDROGRAPHIC, 3 = SPRAYPAINTED, 
+		// 		4 = ANODIZED SOLID COLORS, 5 = ANODIZED PATTERNED, 6 = ANODIZED AIRBRUSHED, 
+		//		7 = CUSTOM TEXTURE APPLIQUE, 
+		//		8 = PATINA/ANTIQUED
+		"$paintstyle"	7
+		// TEXTURE UV TRANFORMs
+		"$PATTERNTEXTURETRANSFORM" "scale 1 1 translate 0 0 rotate 0"
+		// PHONG EXPONENT FOR PAINTS
+		"$PHONGEXPONENT" 128
+		// PHONG INTENSITY FOR PAINTS
+		"$PHONGINTENSITY" .6
+
+		"$PREVIEWIGNOREWEAPONSCALE" 1
+	}
+}

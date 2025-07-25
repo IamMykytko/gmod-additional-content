@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\pist_cz_75\pist_cz_75_decal_A
+	$wearremapmin 0.36
+	$wearremapmid 0.99
+	$wearremapmax 0.99
+	$wearwidthmin 0.2
+	$wearwidthmax 0.12
+	$hlmvallowedit 1
+}

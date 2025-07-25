@@ -1,0 +1,68 @@
+customcharacter
+{            
+
+	$ao							models\weapons\customization\glove_specialist\glove_specialist_ao
+	$materialmask				models\weapons\customization\glove_specialist\glove_specialist_ID_low
+	
+	$detailnormal				models\weapons\customization\glove_specialist\glove_specialist_detailnormal
+	$detail						models\weapons\customization\glove_specialist\glove_specialist_detail
+	$detailscale				"[ 13.000000 7.500000 2.400000 3.000000 ]"
+	$detailnormaldepth			"[ 1.800000 6.300000 1.200000 1.000000 ]"
+	$detailphongalbedotint		"[ 0.70 0.0 0.0 0.0 ]"
+	$detailenvboost 			"[ 0.0 0.0 0.02 0.0 ]"
+	
+	$grunge						models\weapons\customization\glove_specialist\glove_specialist_grunge
+//	$grungetexturetransform 	"scale 3.20000 3.20000 translate 0.000000 0.000000 rotate 0.000000"
+
+//	Green, Black, Red	
+	"$palettecolor1"	"[ 103.000000 113.000000 70.000000 ]"				//back of hand cloth
+	"$palettecolor2"	"[ 99.000000 114.000000 80.000000 ]"				//plastic main
+	"$palettecolor3"	"[ 103.000000 113.000000 70.000000 ]"				//palm main 
+	"$palettecolor4"	"[ 16 16 16 ]"										//trim
+	"$palettecolor5"	"[ 143 52 52 ]"										//inner fingers & nub
+	"$palettecolor6"	"[ 49 49 43 ]"										//finger tip leather
+	"$palettecolor7"	"[ 112.000000 112.000000 54.000000 ]"				//stitching
+	"$palettecolor8"	"[ 47.000000 51.000000 32.000000 ]"					//plastic trim
+		
+	$damagelevels1				"[ 0.129000 0.143000 ]"
+	$damagelevels2				"[ 0.018000 0.090000 ]"
+	$damagelevels3				"[ 0.1200000 0.1900000 ]"
+	$damagelevels4				"[ 0.04000 0.047000 ]"
+	$damagenormaledgedepth		"[ 5.50000 2.000000 4.200000 3.000000 ]"
+	$damagedetailsaturation		"[ -0.250000 -0.400000 0.180000 0.000000 ]"
+	$damagedetailbrightnessadjustment "[ 0.000000 0.000000 1.000000 0.000000 ]"
+		
+	$damagegrunge				"[ 0.250000 0.180000 0.25 0.250000 ]"
+	$weargrunge					"[ .4 0.25 0.15 0.25 ]"
+	$detailgrunge				"[ 0.200000 0.300000 0.200000 0.100000 ]"
+	
+	$curvaturewearpower			"[ 3.23 4 1 4 ]"
+	$curvaturewearboost			"[ 0.39 0.04 0.07 0.1 ]"
+	
+	$patternreplaceindex		1
+	
+	$pattern					"models\weapons\customization\materials\pattern_specialist_tile"
+	$patterncolorindices		"[ 1.000000 2.000000 3.000000 4.000000 ]"
+//	$patterntexturetransform	"scale 4.600000 4.600000 translate 0.000000 0.000000 rotate 25.199997"
+	$patternphongfactor 		1.8
+	$patternpaintthickness 	 	1.42
+	$patterndetailinfluence		11.5
+	
+	$detailwarpindex 			"[ 0.040000 0.020000 0.040000 0.055000 ]"
+	$detailphongboost			"[ .120000 0.020000 0.0200000 0.100000 ]"
+	$damagedetailphongboost		"[ 0.000000 0.100000 .00000000 0.000000 ]"
+	
+//	$wearprogress				0.01
+	$wearexponent				0.5
+	
+		// paintkit values, don't affect preview
+	$pattern_offset_x_start		0
+	$pattern_offset_x_end		1
+	$pattern_offset_y_start		0
+	$pattern_offset_y_end		1
+	$pattern_rotate_start		25.199997
+	$pattern_rotate_end			25.199997
+	$patternscale				4.600000
+	$grungescale 				3.20000
+	// end paintkit values
+}              

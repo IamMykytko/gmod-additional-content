@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\weapons\customization\patches\case01\patch_fury"
+	"$translucent" "1"
+}

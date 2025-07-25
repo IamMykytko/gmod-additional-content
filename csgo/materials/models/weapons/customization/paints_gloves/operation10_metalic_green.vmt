@@ -1,0 +1,61 @@
+customcharacter
+{
+	$materialmask			models/weapons/customization/glove_bloodhound/material_mask_brokenfang
+	$ao						models/weapons/customization/glove_bloodhound/glove_brokenfang_ao
+	
+	$detail					models/weapons/customization/glove_bloodhound/detail_3
+	$detailnormal			models/weapons/customization/glove_bloodhound/detailnormal_3
+	$detailscale			"[ 2.800 2.100 2.000 4.000 ]"
+	$detailphongalbedotint 	"[ 1.000 0.900 0.600 1.000 ]"
+	$detailnormaldepth		"[ 1.600 1.000 3.000 1.300 ]"
+	$detailenvboost 		"[ 0.05 0.22 0 0 ]"
+	$detailphongboost 		"[ 2.000 0.500 0.000 0.150 ]"
+	$detailwarpindex 		"[ 0.000 0.130 0.023 0.023 ]"
+	$detailmetalness 		"[ 0.400 0.150 1.000 1.000 ]"
+	
+	"$palettecolor1" "[  45  76  71 ]" // back of hand
+	"$palettecolor2" "[ 159 91  65 ]" // broken fang
+	"$palettecolor3" "[ 149 94  75 ]" // spikes
+	"$palettecolor4" "[ 139 86  70 ]" // snap and grommits
+	"$palettecolor5" "[  75  63  63 ]" // trim
+	"$palettecolor6" "[  59 114  89 ]" // emblem leather area and palm
+	"$palettecolor7" "[  48  89  72 ]" // connector leather
+	"$palettecolor8" "[  15  15  15 ]" // fabric
+	
+	//"$palettecolor1" "[ 0 0 0 ]"
+	//"$palettecolor2" "[ 0 0 0 ]"
+	//"$palettecolor3" "[ 0 0 0 ]"
+	//"$palettecolor4" "[ 0 0 0 ]"
+	//"$palettecolor5" "[ 0 0 0 ]"
+	//"$palettecolor6" "[ 0 0 0 ]"
+	//"$palettecolor7" "[ 0 0 0 ]"
+	//"$palettecolor8" "[ 0 0 0 ]"
+	
+	//GRUNGE
+	$grunge			models/weapons/customization/glove_bloodhound/grunge_3
+	$weargrunge 	"[ 0.40 1.00 0.00 0.40 ]"
+	$damagegrunge	"[ 0.52 1.00 0.10 0.40 ]"
+	$detailgrunge 	"[ 0.30 0.10 0.00 0.00 ]"
+	$grimebrightnessadjustment "[ 0 10 0 0 ]"
+	$grimesaturation "[1 2 1 1]"
+	
+	//DAMAGE
+	$damagelevels1 			"[ 0.08 0.10 ]"
+	$damagelevels2 			"[ 0.40 0.98 ]"
+	$damagelevels3 			"[ 0.00 1.00 ]"
+	$damagelevels4 			"[ 0.00 1.00 ]"
+	$damagenormaledgedepth 	"[ 1.50 2.00 1.00 0.00 ]"
+	$damageedgephongboost 	"[ 0.10 0.80 0.00 0.00 ]"
+	$damageedgeenvboost 	"[ 0.00 1.00 0.00 0.00 ]"
+	$damagedetailenvboost 	"[ 0.00 0.05 0.00 0.00 ]"
+	$damagedetailphongboost "[ 0.01 0.20 0.00 0.00 ]"
+	$damagedetailsaturation "[ 0.40 0.8 0.30 0.00 ]"
+	$damagedetailbrightnessadjustment "[ 0.60 0.00 0.00 0.00 ]"
+	
+	//WEAR
+	$curvaturewearboost 	"[ 0.40 0.32 1.00 0.00 ]"
+	$curvaturewearpower 	"[ 3.00 3.50 0.80 1.00 ]"
+	$weardetailphongboost 	"[ -1.0 0.80 0.00 0.00 ]"
+	$wearexponent			0.55
+	$wearprogress			0.00
+}

@@ -1,0 +1,67 @@
+customcharacter
+{
+	$materialmask			models/weapons/customization/glove_bloodhound/material_mask_brokenfang_2
+	$ao						models/weapons/customization/glove_bloodhound/glove_brokenfang_ao
+	
+	$detail					models/weapons/customization/glove_bloodhound/detail_2
+	$detailnormal			models/weapons/customization/glove_bloodhound/detailnormal_2
+	$detailscale			"[ 2.800 1.100 3.600 2.600 ]"
+	$detailphongalbedotint 	"[ 0.060 0.800 0.060 0.050 ]"
+	$detailnormaldepth		"[ 1.200 1.000 1.500 1.600 ]"
+	$detailenvboost 		"[ 0.05 1 0 0 ]"
+	$detailphongboost 		"[ 0.150 0.400 0.250 0.020 ]"
+	$detailwarpindex 		"[ 0.045 0.030 0.045 0.010 ]"
+	$detailmetalness 		"[ 1.000 0.360 1.000 1.000 ]"
+	
+	"$palettecolor1" "[ 203 196 188 ]" // back of hand
+	"$palettecolor2" "[  77  77  82 ]" // broken fang
+	"$palettecolor3" "[ 127 127 131 ]" // spikes
+	"$palettecolor4" "[  91  92  98 ]" // snap and grommits
+	"$palettecolor5" "[  28  28  28 ]" // trim
+	"$palettecolor6" "[  37  37  37 ]" // emblem leather area and palm
+	"$palettecolor7" "[  37  37  37 ]" // connector leather
+	"$palettecolor8" "[  15  15  15 ]"  // fabric
+	
+	//PATTERN
+	$pattern 					"models/weapons/customization/materials/snakeskin_color"
+	$patternreplaceindex		1
+	$patterncolorindices 		"[ 8 8 8 1 ]"
+	$patterndetailinfluence 	64
+	$patternpaintthickness 		0
+	$patternphongfactor 		0
+	$pattern_offset_x_start		0
+	$pattern_offset_x_end		1
+	$pattern_offset_y_start		0
+	$pattern_offset_y_end		1
+	$pattern_rotate_start		0
+	$pattern_rotate_end			0
+	$patternscale				4
+	$grungescale 				1.6
+	
+	//GRUNGE
+	$grunge			models/weapons/customization/glove_bloodhound/grunge
+	$grime	 		"[ 0.400 0.300 0.000 0.400 ]"
+	$damagegrunge	"[ 0.520 0.400 1.000 1.000 ]"
+	$grungemax		"[ 1.000 0.50 1.000 1.000 ]"
+	$detailgrunge 	"[ 0.300 0.100 0.300 0.000 ]"
+	
+	//DAMAGE
+	$damagelevels1 			"[ 0.080 0.100 ]"
+	$damagelevels2 			"[ 0.300 0.900 ]"
+	$damagelevels3 			"[ 0.080 0.150 ]"
+	$damagelevels4 			"[ 0.000 1.000 ]"
+	$damagenormaledgedepth 	"[ 2.000 0.050 1.500 0.000 ]"
+	$damageedgephongboost 	"[ 0.100 0.800 1.000 0.000 ]"
+	$damageedgeenvboost 	"[ 0.000 1.000 0.000 0.000 ]"
+	$damagedetailenvboost 	"[ 0.000 0.050 0.000 0.000 ]"
+	$damagedetailphongboost "[ 0.010 -0.40 0.010 0.000 ]"
+	$damagedetailsaturation "[ 0.300 -0.200 0.400 0.000 ]"
+	$damagedetailbrightnessadjustment "[ -0.30 -0.40 0.000 0.000 ]"
+	
+	//WEAR
+	$curvaturewearboost 	"[ 0.700 0.750 0.700 0.000 ]"
+	$curvaturewearpower 	"[ 3.300 0.300 2.500 1.000 ]"
+	$weardetailphongboost 	"[ -2.00 8.000 -8.00 0.000 ]"
+	$wearexponent 			0.70
+	$wearprogress 			0.00
+}

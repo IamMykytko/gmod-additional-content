@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\weapons\customization\patches\casehlalyx\patch_hlalyx_blackmesa"
+	"$translucent" "1"
+}

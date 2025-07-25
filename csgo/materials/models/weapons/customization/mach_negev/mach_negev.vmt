@@ -1,0 +1,30 @@
+patch
+{
+	include "materials\models\weapons\customization\paints\master.vmt"
+	
+	insert 	
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER WEAPON
+		//-------------------------------------------------
+		"$surfacetexture" "models\weapons\customization\mach_negev\mach_negev_surface"
+		"$maskstexture" "models\weapons\customization\mach_negev\mach_negev_masks"
+		"$aotexture" "models\weapons\customization\mach_negev\mach_negev_ao"
+		"$postexture" "models\weapons\customization\mach_negev\mach_negev_pos"
+		"$exptexture" "models\weapons\v_models\mach_negev\mach_negev_exponent"
+		"$WEARTEXTURETRANSFORM" "scale 3 3 translate 0 0 rotate 0"
+		"$GRUNGETEXTURETRANSFORM" "scale 3 3 translate 0 0 rotate 0"
+		
+		// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWPHONGALBEDOTINT" 1
+		
+		// SET THIS IF $ENVMAP IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWENVMAP" 1
+		
+		// WEAR PROGRESSION FACTOR
+		"$WEARPROGRESS" 0.0
+		
+		"$PREVIEWWEAPONOBJSCALE" 1.1765
+		"$PREVIEWWEAPONUVSCALE" 0.74
+	}
+}

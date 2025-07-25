@@ -1,0 +1,63 @@
+customcharacter
+
+{              
+
+	$materialmask				models\weapons\customization\glove_handwrap_leathery\glove_handwrap_fabric_ID
+	$ao							models\weapons\customization\glove_handwrap_leathery\glove_handwrap_fabric_ao2
+	//$masks1						models\weapons\customization\glove_handwrap_leathery\glove_handwrap_leathery_masks1
+	
+	$detailnormal				models\weapons\customization\glove_handwrap_leathery\glove_handwrap_fabric_detailnormal
+	$detail						models\weapons\customization\glove_handwrap_leathery\glove_handwrap_fabric_detail
+	$detailscale				"[ 3.000000 6.500000 6.000000 1.000000 ]"
+	$detailnormaldepth			"[ 1.000000 4.00000 0.200000 1.000000 ]"
+	$detailphongalbedotint		"[ 0.0 0.0 0.0 0.0 ]"
+	
+	$pattern					"models\weapons\customization\materials\camo_wood"
+	$patternreplaceindex		"3"
+	$patterncolorindices 		"[ 6 7 8 0 ]"
+	$patterndetailinfluence		11.5
+	
+	$grunge						models\weapons\customization\glove_handwrap_leathery\glove_handwrap_leathery_grunge
+
+	"$palettecolor1"			"[  184.000000 170.000000 141.000000 ]"		//wrist tag
+	"$palettecolor2"			"[ 58.000000 46.000000 35.000000 ]"		//fabric
+	"$palettecolor3"			"[ 186.000000 171.000000 150.000000 ]"							//leather 
+	"$palettecolor4"			"[ 96.000000 96.000000 96.000000 ]"			//wrist tag text
+	"$palettecolor5"			"[ 89.000000 69.000000 49.000000 ]"			//wrist tag frame
+	"$palettecolor6"			"[  67.000000 56.000000 33.000000 ]"		
+	"$palettecolor7"			"[ 119.000000 98.000000 60.000000 ]"		
+	"$palettecolor8"			"[ 140.000000 126.000000 94.000000 ]"		
+	
+	$damagelevels1 				"[ 0.040000 0.050000 ]"
+	$damagelevels2				"[ 0.000000 0.10000 ]"
+	$damagelevels3				"[ 0.000000 1.000000 ]"
+	$damagelevels4				"[ 0.000000 1.000000 ]"
+	$damagenormaledgedepth		"[ 2.000000 0.000000 1.000000 1.000000 ]"
+	$damagedetailsaturation		"[ 0.2700000 0.0000 -2.00000 -1.000000 ]"
+	$damagedetailbrightnessadjustment "[ 0.000000 0.0500000 0.000000 0.000000 ]"
+	
+	$damagegrunge			"[ 0.250000 0.110000 1 0.250000 ]"
+	$weargrunge				"[ 0.125 0 0 0 ]"		
+	$detailgrunge			"[ 0.200000 0.100000 0.200000 0.100000 ]"
+	
+	$curvaturewearpower			"[ 2 1 1 1 ]"
+	$curvaturewearboost			"[ 0.1 0 0 0 ]"
+
+	$detailwarpindex 			"[ 0.040000 0.020000 0.040000 0.055000 ]"
+	$detailphongboost			"[ .120000 0.0600000 0.500000 1.000000 ]"
+	$damagedetailphongboost		"[ 0.000000 0.000000 .05000000 1.000000 ]"
+	
+	$wearexponent				0.5
+	
+		// paintkit values, don't affect preview
+	$pattern_offset_x_start		0
+	$pattern_offset_x_end		1
+	$pattern_offset_y_start		0
+	$pattern_offset_y_end		1
+	$pattern_rotate_start		0
+	$pattern_rotate_end			0
+	$patternscale				2.0
+	$grungescale 				2.5
+	// end paintkit values
+	
+}              

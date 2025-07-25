@@ -1,0 +1,82 @@
+customcharacter
+{
+	$materialmask			models/weapons/customization/glove_bloodhound/material_mask_2
+	$ao						models/weapons/customization/glove_bloodhound/glove_hydra_ao
+	
+	$grunge					models/weapons/customization/glove_bloodhound/grunge_2
+	$grime	 			"[.4 .1 0 .4]"
+	$damagegrunge		"[.52 0.4 1.0 1]"
+	$grungemax			"[1 .75 1 1]"
+	
+	//BLACK
+	"$palettecolor1" "[ 203.000000 196.000000 188.000000 ]" // back of hand
+	"$palettecolor2" "[ 141 124 90 ]" // bloodhound
+	"$palettecolor3" "[ 178 160 124 ]" // spikes
+	"$palettecolor4" "[ 141 124 90 ]" // snap and grommits
+	"$palettecolor5" "[ 28.000000 28.000000 28.000000 ]" // trim
+	"$palettecolor6" "[ 37.000000 37.000000 37.000000 ]" // bloodhound leather area and palm
+	"$palettecolor7" "[ 37.000000 37.000000 37.000000 ]" // connector leather
+	"$palettecolor8" "[ 15.000000 15.000000 15.000000 ]"  // fabric
+	$patterncolorindices 	"[ 8 8 8 1 ]"
+	
+	//WHITE
+	//"$palettecolor1" "[ 15.000000 15.000000 15.000000 ]" // back of hand
+	//"$palettecolor2" "[ 141 124 90 ]" // bloodhound
+	//"$palettecolor3" "[ 178 160 124 ]" // spikes
+	//"$palettecolor4" "[ 141 124 90 ]" // snap and grommits
+	//"$palettecolor5" "[ 190.000000 180.000000 169.000000 ]" // trim
+	//"$palettecolor6" "[ 190.000000 180.000000 169.000000 ]" // bloodhound leather area and palm
+	//"$palettecolor7" "[ 203.000000 196.000000 188.000000 ]" // connector leather
+	//"$palettecolor8" "[ 167.000000 146.000000 114.000 ]"  // fabric
+	//$patterncolorindices 	"[ 7 5 6 1 ]"
+	
+	$detail					models/weapons/customization/glove_bloodhound/detail_2
+	$detailnormal			models/weapons/customization/glove_bloodhound/detailnormal_2
+	
+	$detailscale	"[ 2.800000 1.100000 3.600000 2.600000 ]"
+	$detailphongalbedotint "[0.06 1.0 0.06 0.05]"
+	$detailnormaldepth	"[1.2 1 1.5 1.6]"
+	$damagenormaledgedepth "[2 0.05 1.5 0]"
+	$damageedgephongboost "[.1 .8 1 0]"
+	$damageedgeenvboost "[0 1 0 0]"
+	$detailenvboost "[0.01 1 0 0]"
+	$damagedetailenvboost "[0 .05 0 0]"
+	$detailphongboost "[0.15 2 0.25 0.02]"
+	$weardetailphongboost "[-2 8 -8 0]"
+	$damagedetailphongboost "[.01 -0.4 .01 0]"
+	$detailwarpindex "[0.045 0.00 0.045 0.01]"
+	$detailmetalness "[1 0.46 1 1]"
+	$damagedetailsaturation "[.3 0.9 0.4 0]"
+	$damagedetailbrightnessadjustment "[-0.3 -.4 0 0]"
+	$detailgrunge "[0.3 .1 0.3 0]"
+	$curvaturewearboost "[0.7 0.75 0.7 0]"
+	$curvaturewearpower "[3.3 0.3 2.5 1]"
+	
+	$damagelevels1 "[.08 .1]"
+	$damagelevels2 "[0.3 .9]"
+	$damagelevels3 "[.08 .15]"
+	$damagelevels4 "[0 1]"
+	
+	$patternreplaceindex	1
+	$pattern 				models/weapons/customization/materials/snakeskin_color
+	
+	$patterndetailinfluence 64
+	$patternpaintthickness 0
+	$patternphongfactor 0
+	
+	// paintkit values, don't affect preview
+	$pattern_offset_x_start		0
+	$pattern_offset_x_end		1
+	$pattern_offset_y_start		0
+	$pattern_offset_y_end		1
+	$pattern_rotate_start		0
+	$pattern_rotate_end			0
+	$patternscale				4
+	$grungescale 				1.6
+	// end paintkit values
+	//$patterntexturetransform "scale 5 5 translate 0.000000 0.000000 rotate 0.000000"
+	//$grungetexturetransform "scale 1.600000 1.600000 translate 0.000000 0.000000 rotate 45.000000"
+	
+	$wearexponent 0.8
+	//$wearprogress 0.25
+}

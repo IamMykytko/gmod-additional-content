@@ -1,0 +1,10 @@
+WeaponDecal
+{
+	$aotexture models\weapons\customization\mach_m249para\mach_m249para_decal_A
+	$wearremapmin 0.62
+	$wearremapmid 0.52
+	$wearremapmax 0.93
+	$wearwidthmin 0.16
+	$wearwidthmax 0.06
+	$hlmvallowedit 1
+}

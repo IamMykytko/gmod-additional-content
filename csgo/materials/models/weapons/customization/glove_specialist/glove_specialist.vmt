@@ -1,0 +1,87 @@
+"character"
+
+{              
+	$basetexture				white
+	//$envmap					env_cubemap
+	//$envmaptint				"[ .01 .01 .02 ]"
+	$bumpmap					models\weapons\customization\glove_specialist\glove_specialist_normal
+	$materialmask				models\weapons\customization\glove_specialist\glove_specialist_ID_low
+	$ao							models\weapons\customization\glove_specialist\glove_specialist_ao
+	$masks1						models\weapons\customization\glove_specialist\glove_specialist_masks1
+	$phongboost					1.0
+	$phongalbedoboost			7
+	$phongwarptexture			models\weapons\customization\materials\material_specwarp
+	//$phongtint				"[0.7 0.8 1]"
+	//$phongfresnelranges		"[1 1 3]"
+	//$rimlight					1
+	//$rimlightexponent			10
+	//$rimlightboost			.7
+	//$rimmask					1
+	$preview					1
+	
+	$detailnormal				models\weapons\customization\glove_specialist\glove_specialist_detailnormal
+	$detail						models\weapons\customization\glove_specialist\glove_specialist_detail
+	$detailscale				"[ 13.000000 7.500000 2.400000 3.000000 ]"
+	$detailnormaldepth			"[ 1.000000 0.300000 1.200000 1.000000 ]"
+	$detailphongalbedotint		"[ 0.0 0.7 0.0 0.0 ]"
+	
+	$grunge						models\weapons\customization\glove_specialist_grunge
+	$grungetexturetransform 	"scale 2.500000 2.500000 translate 0.000000 0.000000 rotate 0.000000"
+
+//	orange	
+//	"$palettecolor1"			"[ 128.000000 128.000000 128.000000 ]"		//back of hand cloth
+//	"$palettecolor2"			"[ 82.000000 82.000000 82.000000 ]"			//plastic main
+//	"$palettecolor3"			"[ 70.000000 70.000000 70.000000 ]"			//palm main 
+//	"$palettecolor4"			"[ 154.000000 154.000000 154.000000 ]"		//trim
+//	"$palettecolor5"			"[ 170.000000 170.000000 170.000000 ]"		//inner fingers & nub
+//	"$palettecolor6"			"[ 193.000000 94.000000 28.000000 ]"		//finger tip leather
+//	"$palettecolor7"			"[ 209.000000 209.000000 209.000000 ]"		//stitching
+//	"$palettecolor8"			"[ 193.000000 94.000000 28.000000 ]"		//plastic tri
+
+//black and yellow
+	"$palettecolor1"			"[ 69.000000 69.000000 69.000000 ]"			//back of hand cloth
+	"$palettecolor2"			"[ 82.000000 82.000000 82.000000 ]"			//plastic main
+	"$palettecolor3"			"[ 70.000000 70.000000 70.000000 ]"			//palm main 
+	"$palettecolor4"			"[ 167.000000 179.000000 26.000000 ]"		//trim
+	"$palettecolor5"			"[ 205.000000 219.000000 32.000000 ]"		//inner fingers & nub
+	"$palettecolor6"			"[ 108.000000 108.000000 108.000000 ]"		//finger tip leather
+	"$palettecolor7"			"[ 224.000000 224.000000 224.000000 ]"		//stitching
+	"$palettecolor8"			"[ 197.000000 197.000000 197.000000 ]"		//plastic trim
+	
+	$damagelevels1				"[ 0.000000 0.600000 ]"
+	$damagelevels2				"[ 0.000000 1.000000 ]"
+	$damagelevels3				"[ 0.100000 0.110000 ]"
+	$damagelevels4				"[ 0.100000 0.110000 ]"
+	$damagenormaledgedepth		"[ 1.000000 1.000000 1.000000 1.200000 ]"
+	$damagedetailsaturation		"[ -0.600000 0.000000 0.40000 -1.000000 ]"
+	
+	$damagebleaching			"[ 0.250000 0.250000 1 0.250000 ]" 			// param name will change to $damagegrunge
+	$wearbleaching				"[ 1 0 0 0 ]"								// param name will change to $weargrunge
+	$detailgrungefactor			"[ 0.200000 0.200000 0.200000 0.100000 ]"	// param name will change to $detailgrunged
+	
+	$curvaturewearpower			"[ 3 1 1 1 ]"
+	$curvaturewearboost			"[ 5 0 0 0 ]"
+	
+	$patternreplaceindex		1
+	
+	$pattern					"models\weapons\customization\materials\pattern_specialist_tile"
+	$patterncolorindices		"[ 6.000000 2.000000 3.000000 4.000000 ]"
+	$patterntexturetransform	"scale 4.600000 4.600000 translate 0.000000 0.000000 rotate 25.199997"
+	
+	$detailwarpindex 			"[ 0.040000 0.020000 0.040000 0.055000 ]"
+	$detailphongboost			"[ .120000 0.010000 0.500000 1.000000 ]"
+	$damagedetailphongboost		"[ 0.000000 1.000000 .05000000 1.000000 ]"
+	
+	$wearprogress				0
+	
+		// paintkit values, don't affect preview
+	$pattern_offset_x_start		0
+	$pattern_offset_x_end		1
+	$pattern_offset_y_start		0
+	$pattern_offset_y_end		1
+	$pattern_rotate_start		25.199997
+	$pattern_rotate_end			25.199997
+	$patternscale				4.600000
+	$grungescale 				2.500000
+	// end paintkit values
+}              

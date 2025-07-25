@@ -1,0 +1,31 @@
+patch
+{
+	include "materials\models\weapons\customization\paints\master.vmt"
+	
+	insert 	
+	{
+		//-------------------------------------------------
+		// MUST SET THIS BLOCK PER WEAPON
+		//-------------------------------------------------
+		"$baseTexture" "models\weapons\customization\pist_elite\pist_elite"
+		"$surfacetexture" "models\weapons\customization\pist_elite\pist_elite_surface"
+		"$maskstexture" "models\weapons\customization\pist_elite\pist_elite_masks"
+		"$aotexture" "models\weapons\customization\pist_elite\pist_elite_ao"
+		"$postexture" "models\weapons\customization\pist_elite\pist_elite_pos"
+		"$exptexture" "models\weapons\v_models\pist_elite\m9a1_exponent"
+		"$WEARTEXTURETRANSFORM" "scale .55 .55 translate 0 0 rotate 0"
+		"$GRUNGETEXTURETRANSFORM" "scale .55 .55 translate 0 0 rotate 0"
+		
+		// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWPHONGALBEDOTINT" 1
+		
+		// SET THIS IF $ENVMAP IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+		"$PREVIEWENVMAP" 1
+		
+		// WEAR PROGRESSION FACTOR
+		"$WEARPROGRESS" 0.2
+		
+		"$PREVIEWWEAPONOBJSCALE" 0.2891
+		"$PREVIEWWEAPONUVSCALE" 0.282
+	}
+}

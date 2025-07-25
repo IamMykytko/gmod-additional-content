@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\weapons\customization\patches\case_skillgroups\patch_legendaryeagle"
+	"$translucent" "1"
+}
