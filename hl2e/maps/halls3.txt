@@ -1,0 +1,12 @@
+Halls3 - Deathmatch and Team Deathmatch
+
+Map by Turtle Rock Studios
+
+
+
+The center building contains a
+suit recharger and health.
+
+Each small hallway has a teleporter in it.
+The ammo in each hallway gives clue as to
+what weapon lies on the other side.
