@@ -1,0 +1,110 @@
+// Halflife 1 custom sound mixers.
+// These Sound Mixers are referenced by name from Soundscapes, and are used to provide
+// custom volume control over various sound categories, called 'mix groups'
+
+// "GROUPRULES" specifies the rules for inclusion of a sound in a mix group.
+// Rules are checked sequentially (from top to bottom). All fields must match
+// in a row in order for a sound to match the group.  A sound my be included 
+// in up to 8 mix groups.
+
+// LIMITS: 
+//		up to 64 unique mix groups
+//		up to 76 group rules entries
+//		up to 32 sound mixers
+//		all strings are limited to 31 characters!
+
+// NOTE2: at runtime, you can display the classname of the sound source by
+// setting snd_showclassname 1 in the console.
+
+// NOTE3: main character dialog during critical scenes is ducked using a separate code path which, when
+// active, temporarilly disables mixer ducking (prevent double ducking).  
+// Lower priority sounds are ducked by higher priority sounds, if "is ducked" is enabled. 
+// Only sounds with "causes ducking" enabled can cause a lower priority sound to be ducked.
+
+"GROUPRULES"
+{
+// NOTE: order these from least general to most general
+
+//							directory or .wav	classname																Causes  Duck to  Ducker
+//	group name				name substring		substring	chan			sndlvl_min	sndlvl_max	priority Is Ducked	Ducking	Percent	 Threshold
+//  ---------				------------------	---------	-----------		----------	----------	-------- --------	-------	-------	 ---------
+	
+	"Barney_Dialog"			"barney/"			""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Gman_Dialog"			"gman/"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Soldier_Dialog"		"hgrunt/"			""			""				""			""			"60"		"0"		"0"		"100"	"20"
+	"Scientist_Dialog"		"scientist/"		""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Train_voice"			"tride/"			""			""				""			""			"60"		"0"		"0"		"100"	"20"
+	"Base_voice"			"vox/"				""			""				""			""			"60"		"0"		"0"		"100"	"20"
+
+	"Explosions"			"explo"				""			""				"120"		""			"50"		"0"		"1"		"100"	"40"
+
+	"Player_Suit"			"fvox/"				""			""				""			""			"50"		"0"		"0"		"100"	"40"
+	
+	"Weapons_Loud"			"weapon"			""			""				"140"		""			"50"		"0"		"1"		"100"	"40"
+	"Weapons"				"weapon"			""			""				""			""			"50"		"0"		"1"		"100"	"40"
+	"Player"				"player/"			""			""				""			""			"50"		"0"		"0"		"100"	"40"
+			
+	
+	"Ambient"				"ambience"			""			""				""			""			"20"		"1"		"0"		"60"	"40"
+	
+	"Trains"				"plats/"			""			""				""			""			"50"		"0"		"0"		"100"	"40"
+	"Doors"					"doors/"			""			""				""			""			"50"		"0"		"0"		"100"	"40"
+	"Buttons"				"buttons/"			""			""				""			""			"50"		"0"		"0"		"100"	"40"
+	"Items"					"items/"			""			""				""			""			"50"		"0"		"0"		"100"	"40"
+	"Fans"					"Fans/"				""			""				""			""			"50"		"0"		"0"		"100"	"40"
+	
+	"UI"					"common/"			""			""				""			""			"50"		"0"		"0"		"100"	"40"
+	
+	"Music"					"music/"			""			""				""			""			"25"		"1"		"1"		"75"	"40"
+	"Combat"				"weapon"			""			""				"110"		""			"50"		"0"		"0"		"100"	"40"
+	"Combat"				"explo"				""			""				"110"		""			"50"		"0"		"0"		"100"	"40"
+	"Weapons"				"weapon"			""			""				"120"		""			"50"		"0"		"0"		"100"	"40"
+
+	"All"					""					""			""				""			""			"50"		"0"		"0"		"100"	"40"
+}
+
+
+//----------------------------------------------------------------
+// Sound Mixers, referenced in Soundscapes via "SOUNDMIXER" "name"
+// New Sound Mixers may be created by level designers or sound engineer.
+//----------------------------------------------------------------
+
+// This is the default mix for the game.
+// The mix value of a sound will be set to the value referenced by the 
+// least general group found that includes the sound. (top to bottom search of grouprules)
+
+"Default_Mix"
+{
+
+//	group name				mix value
+//  --------				---------
+	"Explosions"			"0.94"
+	"Weapons"				"0.96"
+	
+	"Ambient"				"0.85"
+
+	"Barney_Dialog"			"0.97"
+	"Gman_Dialog"			"0.97"
+	"Scientist_Dialog"		"0.97"
+	"Train_voice"			"0.82"
+	"Base_voice"			"0.78"
+
+	"Trains"				"0.78"
+	"Doors"					"0.55"
+	"Buttons"				"0.78"
+	"Items"					"0.75"
+	"Fans"					"0.78"
+
+	"Player_Suit"			"0.7"
+	"Player"				"0.7"
+	"UI"					"0.65"
+
+	"Music"					"0.91"
+	
+	"All"					"0.82"
+}
+
+
+
+
+// add new sound mixers here...ALWAYS use Default_Mix as a template.

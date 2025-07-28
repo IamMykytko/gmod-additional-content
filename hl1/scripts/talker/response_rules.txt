@@ -1,0 +1,56 @@
+// Base script
+enumeration "NPCState"
+{
+	"None"		"0"
+	"Idle"		"1"
+	"Alert"		"2"
+	"Combat"	"3"
+	"Scripted"	"4"
+	"PlayDead"	"5"
+	"Dead"		"6"
+}
+
+// For choosing pre and post-disaster responses
+enumeration disaster
+{
+	"pre"		"1"
+	"post"		"2"
+}
+
+// An empty response
+response "NullResponse"
+
+// Pre and post disaster selectors (get extra weighting)
+criterion "IsPreDisaster" "disaster" "[disaster::pre]" required weight 2
+criterion "IsPostDisaster" "disaster" "[disaster::post]" required weight 2
+
+criterion "ConceptTalkAnswer" "Concept" "TLK_ANSWER" required
+criterion "ConceptTalkQuestion" "Concept" "TLK_QUESTION" required
+criterion "ConceptTalkIdle" "Concept" "TLK_IDLE" required
+criterion "ConceptTalkStare" "Concept" "TLK_STARE" required
+criterion "ConceptTalkUse" "Concept" "TLK_USE" required
+criterion "ConceptTalkStartFollow" "Concept" "TLK_STARTFOLLOW" required
+criterion "ConceptTalkStopFollow" "Concept" "TLK_STOPFOLLOW" required
+criterion "ConceptTalkStop" "Concept" "TLK_STOP" required
+criterion "ConceptTalkNoShoot" "Concept" "TLK_NOSHOOT" required
+criterion "ConceptTalkHello" "Concept" "TLK_HELLO" required
+criterion "ConceptTalkPHello" "Concept" "TLK_PHELLO" required
+criterion "ConceptTalkPIdle" "Concept" "TLK_PIDLE" required
+criterion "ConceptTalkPQuestion" "Concept" "TLK_PQUESTION" required
+criterion "ConceptTalkPlayerHurt1" "Concept" "TLK_PLHURT1" required
+criterion "ConceptTalkPlayerHurt2" "Concept" "TLK_PLHURT2" required
+criterion "ConceptTalkPlayerHurt3" "Concept" "TLK_PLHURT3" required
+criterion "ConceptTalkSmell" "Concept" "TLK_SMELL" required
+criterion "ConceptTalkWound" "Concept" "TLK_WOUND" required
+criterion "ConceptTalkMortal" "Concept" "TLK_MORTAL" required
+criterion "ConceptTalkResume" "Concept" "TLK_RESUME" required
+criterion "ConceptTalkTourGuideStayPut" "Concept" "TLK_TGSTAYPUT" required
+criterion "ConceptTalkTourGuideFind" "Concept" "TLK_TGFIND" required
+criterion "ConceptTalkTourGuideSeek" "Concept" "TLK_TGSEEK" required
+criterion "ConceptTalkTourGuideLostYou" "Concept" "TLK_TGLOSTYOU" required
+criterion "ConceptTalkTourGuideCatchUp" "Concept" "TLK_TGCATCHUP" required
+criterion "ConceptTalkTourGuideEndTour" "Concept" "TLK_TGENDTOUR" required
+
+// HL1 Talkers
+#include "talker/npc_barney.txt"
+#include "talker/npc_scientist.txt"
