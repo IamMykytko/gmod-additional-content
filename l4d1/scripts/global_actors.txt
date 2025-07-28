@@ -1,0 +1,27 @@
+globalactors
+{
+	"survivor_teenangst"		"teengirl"
+	"survivor_namvet"		"namvet"
+	"survivor_biker" 		"biker"
+	"survivor_manager" 		"manager"
+
+	"boomer"		"male"
+	"hunter"		"male"
+	"smoker"		"male"
+	"tank"			"male"
+	"witch"			"female"
+
+	"common_female_nurse01"				"female"
+	"common_female01"					"female"
+	"common_male_baggagehandler_01"		"male"
+	"common_male_pilot"					"male"
+	"common_male_rural01"				"male"
+	"common_male_suit"					"male"
+	"common_male01"						"male"
+	"common_military_male01"			"male"
+	"common_patient_male01"				"male"
+	"common_police_male01"				"male"
+	"common_surgeon_male01"				"male"
+	"common_tsaagent_male01"			"male"
+	"common_worker_male01"				"male"
+}

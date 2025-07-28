@@ -1,0 +1,110 @@
+/////////////
+// X360 button names
+//
+// A_BUTTON
+// B_BUTTON
+// X_BUTTON		
+// Y_BUTTON
+//		
+// L_SHOULDER
+// R_SHOULDER
+// L_TRIGGER
+// R_TRIGGER
+//
+// BACK		
+// START
+//
+// UP
+// DOWN
+// LEFT
+// RIGHT
+//
+// STICK1
+// STICK2
+//
+// S1_RIGHT
+// S1_LEFT		
+// S1_DOWN
+// S1_UP
+//
+// S2_RIGHT
+// S2_LEFT
+// S2_DOWN
+// S2_UP
+///////////////
+
+cheat_codes
+{
+	// Dev cheats
+	"NoClip"
+	{
+		"dev"		"1"
+
+		"code"		"UP"
+		"code"		"UP"
+		"code"		"UP"
+		"code"		"L_SHOULDER"
+		"code"		"UP"
+		"code"		"UP"
+		"code"		"UP"
+		"code"		"R_SHOULDER"
+		"code"		"UP"
+		"code"		"UP"
+
+		"command"	"noclip"
+	}
+
+	"WireframeCycle"
+	{
+		"dev"		"1"
+
+		"code"		"L_SHOULDER"
+		"code"		"L_SHOULDER"
+		"code"		"R_SHOULDER"
+		"code"		"R_SHOULDER"
+		"code"		"L_SHOULDER"
+		"code"		"R_SHOULDER"
+		"code"		"L_SHOULDER"
+		"code"		"R_SHOULDER"
+		"code"		"LEFT"
+		"code"		"RIGHT"
+
+		"command"	"incrementvar mat_wireframe 0 3 1"
+	}
+	
+	"TitleSafeToggle"
+	{
+		"dev"		"1"
+
+		"code"		"STICK1"
+		"code"		"STICK1"
+		"code"		"STICK1"
+		"code"		"STICK1"
+		"code"		"STICK2"
+		"code"		"STICK2"
+		"code"		"STICK2"
+		"code"		"STICK2"
+		"code"		"R_SHOULDER"
+		"code"		"R_SHOULDER"
+
+		"command"	"incrementvar mat_drawtitlesafe 0 1 1"
+	}
+
+	"InstallStatusToggle"
+	{
+		"dev"		"1"
+
+		"code"		"STICK1"
+		"code"		"STICK1"
+		"code"		"STICK1"
+		"code"		"STICK1"
+		"code"		"STICK2"
+		"code"		"STICK2"
+		"code"		"STICK2"
+		"code"		"STICK2"
+		"code"		"L_SHOULDER"
+		"code"		"L_SHOULDER"
+
+		"command"	"incrementvar xbox_install_status 0 1 1"
+	}
+}

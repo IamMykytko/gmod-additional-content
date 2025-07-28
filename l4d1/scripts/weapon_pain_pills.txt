@@ -1,0 +1,113 @@
+WeaponData
+{
+	"MaxPlayerSpeed"			"250"
+	"WeaponType"				"Healing"
+	"WeaponPrice"				"300"
+	"WeaponArmorRatio"			"1"
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"Team"						"ANY"
+	"BuiltRightHanded"			"1"
+	"PlayerAnimationExtension" 	"gren"
+	"MuzzleFlashScale"			"0"
+	"MuzzleFlashStyle"			"CS_MUZZLEFLASH_NONE"
+
+	"CanEquipWithShield"		"1"
+	"AddonModel"				"models/w_models/weapons/w_eq_painpills.mdl"
+	"AddonAttachment"			"pills"
+
+	// Weapon characteristics:
+	"Penetration"				"1"
+	"Damage"					"50"
+	"Range"						"4096"
+	"RangeModifier"				"0.99"
+	"Bullets"					"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"					"Pain Pills"
+	"playermodel"				"models/w_models/weapons/w_eq_painpills.mdl"
+
+	"viewmodel"			"models/v_models/v_painpills.mdl"
+	"CharacterViewmodelAddon"
+	{
+		"NamVet"			"models/v_models/v_arm_namvet.mdl"
+		"TeenGirl"			"models/v_models/v_arm_teengirl.mdl"
+		"Manager"			"models/v_models/v_arm_manager.mdl"
+		"Biker"				"models/v_models/v_arm_biker.mdl"
+	}
+	
+	"anim_prefix"				"anim"
+	"bucket"					"4"
+	"bucket_position"			"1"
+
+	"clip_size"					"-1"
+	"default_clip"				"1"
+	"primary_ammo"				"AMMO_TYPE_PAINPILLS"
+	"secondary_ammo"			"None"
+
+	"weight"					"2"
+	"item_flags"				"0"
+	"ITEM_FLAG_NOAMMOPICKUPS"	"1"
+
+	"LoadoutSlots"	"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"	"PainPills.Use"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"L4D_WeaponsSmall"
+				"character"	"a"
+		}
+		"weapon_s"
+		{	
+				"font"		"L4D_Weapons"
+				"character"	"a"
+		}
+		"ammo"
+		{
+				"font"		"DebugFixed"
+				"character"	"A"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-6 -9 -15"
+			Maxs	"15 11 0"
+		}
+		World
+		{
+			Mins	"-20 -20 -20"
+			Maxs	"20 20 20"
+		}
+		Addon
+		{
+			Mins	"-20 -20 -20"
+			Maxs	"20 20 20"
+		}
+	}
+}

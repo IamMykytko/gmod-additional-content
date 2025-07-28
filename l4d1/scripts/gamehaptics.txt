@@ -1,0 +1,2556 @@
+
+"Haptics"
+{
+       "tank"  "0.2"
+       "hunter" "0.5"
+       "normal" "0.5"
+       "smoker" "0.5"
+       "boomer" "0.5"
+       "witch" "0.2"
+
+       "Movement"
+       {
+               "SmokerDrag"
+               {
+                       "isEffect" "1"
+                       "Threshold"             "Player"
+                       "effecttype"            "Avatar"
+                       "msSampleRate"          "2"
+                       "storedSamples"         "5"
+                       "gameMeterScale"        "1"
+                       "VelocityScale"         "-0.0002"
+
+               }
+       }
+       "HasVehicles" "0"
+       "hud"
+       {
+               "pickup"
+               {
+                       "icon_painpills"
+                       {
+                               "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "40"
+                               "msSustain" "10"
+                               "msDecay" "40"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "2"
+                               }
+                       }
+                       "icon_healing"
+                       {
+                               "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "40"
+                               "msSustain" "10"
+                               "msDecay" "40"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "2"
+                               }
+                       }
+                       "icon_molotov"
+                       {
+                               "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "40"
+                               "msSustain" "10"
+                               "msDecay" "40"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "2"
+                               }
+                       }
+                       "icon_pipebomb"
+                       {
+                               "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "40"
+                               "msSustain" "10"
+                               "msDecay" "40"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "2"
+                               }
+                       }
+                       "icon_pistol"
+                       {
+                               "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "40"
+                               "msSustain" "10"
+                               "msDecay" "40"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "2"
+                               }
+                       }
+               }
+       }
+       "PlayerActions"
+       {
+               "StartPopSaferoom"
+               {
+                       "isEffect" "1"
+                       "group" "movement"
+                       "msRamp" "0"
+                       "msSustain" "60"
+                       "msDecay" "20"
+                       "force"
+                       {
+                               "x" "0"
+                               "y" "0"
+                               "z" "6"
+                       }
+
+               }
+               "Heal"
+               {
+                       "Start"
+                       {
+                       "isEffect" "1"
+                       "group" "movement"
+                       "effecttype"            "charge"
+                       "process"
+                       {
+                       "singleInstance"        "1"
+                       "destroyOnDeath"        "1"
+                       "destroyOnNavExit"      "1"
+                       "override"              "1"
+                       "nametag"               "healeffect"
+                       }
+                       "msRamp"                "500"
+                       "Base"
+                       {
+                               "x" "0"
+                               "y" "0"
+                               "z" "0.25"
+                       }
+                       "Frequency"
+                       {
+                               "Start"  "90"
+                               "Target" "2"
+                       }
+                       "Amplitude"
+                       {
+                               "Start"  "0.0"
+                               "Target" "0.0275"
+                       }
+                       "Roll"
+                       {
+                               "Start" "8"
+                               "Target" "9"
+                       }
+                       "msPhase"       "0"
+                       "msPeriod"      "1000"
+                       "Wave"
+                       {
+                               "x" "0.25"
+                               "y" "0.25"
+                               "z" "1.0"
+                       }
+                       }
+                       "Stop"
+                       {
+                       "isEffect" "1"
+                       "group" "movement"
+                       "effecttype" "destroy"
+                       "target" "healeffect"
+                       }
+               }
+               "BeingHealed"
+               {
+                       "Start"
+                       {
+                       "isEffect" "1"
+                       "group" "movement"
+                       "process"
+                       {
+                       "singleInstance"        "1"
+                       "destroyOnDeath"        "1"
+                       "destroyOnNavExit"      "1"
+                       "override"              "1"
+                       "nametag"               "beinghealedeffect"
+                       }
+                       "effecttype"            "charge"
+                       "msRamp"                "500"
+                       "Base"
+                       {
+                               "x" "0"
+                               "y" "0"
+                               "z" "0.25"
+                       }
+                       "Frequency"
+                       {
+                               "Start"  "90"
+                               "Target" "2"
+                       }
+                       "Amplitude"
+                       {
+                               "Start"  "0.0"
+                               "Target" "0.0275"
+                       }
+                       "Roll"
+                       {
+                               "Start" "8"
+                               "Target" "9"
+                       }
+                       "msPhase"       "0"
+                       "msPeriod"      "1000"
+                       "Wave"
+                       {
+                               "x" "0.25"
+                               "y" "0.25"
+                               "z" "1.0"
+                       }
+                       }
+                       "Stop"
+                       {
+                       "isEffect" "1"
+                       "group" "movement"
+                       "effecttype" "destroy"
+                       "target" "beinghealedeffect"
+                       }
+               }
+               "Revive"
+               {
+                       "Start"
+                       {
+                       "isEffect" "1"
+                       "group" "movement"
+                       "process"
+                       {
+                       "singleInstance"        "1"
+                       "destroyOnDeath"        "1"
+                       "destroyOnNavExit"      "1"
+                       "override"              "1"
+                       "nametag"               "reviveeffect"
+                       }
+                       "effecttype"            "charge"
+                       "msRamp"                "500"
+                       "Base"
+                       {
+                               "x" "0"
+                               "y" "0"
+                               "z" "0.25"
+                       }
+                       "Frequency"
+                       {
+                               "Start"  "90"
+                               "Target" "2"
+                       }
+                       "Amplitude"
+                       {
+                               "Start"  "0.0"
+                               "Target" "0.0275"
+                       }
+                       "Roll"
+                       {
+                               "Start" "8"
+                               "Target" "9"
+                       }
+                       "msPhase"       "0"
+                       "msPeriod"      "1000"
+                       "Wave"
+                       {
+                               "x" "0.25"
+                               "y" "0.25"
+                               "z" "1.0"
+                       }
+                       }
+                       "Stop"
+                       {
+                       "isEffect" "1"
+                       "group" "movement"
+                       "effecttype" "destroy"
+                       "target" "reviveeffect"
+                       }
+               }
+               "BeingRevived"
+               {
+                       "Start"
+                       {
+                       "isEffect" "1"
+                       "group" "movement"
+                       "effecttype"            "charge"
+                       "process"
+                       {
+                       "singleInstance"        "1"
+                       "destroyOnDeath"        "1"
+                       "destroyOnNavExit"      "1"
+                       "override"              "1"
+                       "nametag"               "beingrevivedeffect"
+                       }
+                       "msRamp"                "500"
+                       "Base"
+                       {
+                               "x" "0"
+                               "y" "0"
+                               "z" "0.25"
+                       }
+                       "Frequency"
+                       {
+                               "Start"  "90"
+                               "Target" "2"
+                       }
+                       "Amplitude"
+                       {
+                               "Start"  "0.0"
+                               "Target" "0.0275"
+                       }
+                       "Roll"
+                       {
+                               "Start" "8"
+                               "Target" "9"
+                       }
+                       "msPhase"       "0"
+                       "msPeriod"      "1000"
+                       "Wave"
+                       {
+                               "x" "0.25"
+                               "y" "0.25"
+                               "z" "1.0"
+                       }
+                       }
+                       "Stop"
+                       {
+                       "isEffect" "1"
+                       "group" "movement"
+                       "effecttype" "destroy"
+                       "target" "beingrevivedeffect"
+                       }
+               }
+       }
+       "Weapons"
+       {
+               "MiniGun"
+               {
+                       "MuzzleFlash"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "10"
+                               "msDecay" "0"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-1"
+                                       "z" "10"
+                               }
+                       }
+               }
+               "weapon_pistol"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "60"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "6"
+                               }
+                       }
+                       "Activities"
+                       {
+
+                               "1693"//melee
+                               {
+                       "isEffect" "1"
+
+                                       "group" "movement"
+                                       "msRamp" "200"
+                                       "msSustain" "60"
+                                       "msDecay" "60"
+                                       "special" "SPLINEENVELOPE"
+                                       "force"
+                                       {
+                                               "x" "2"
+                                               "y" "0"
+                                               "z" "2"
+                                       }
+                               }
+                               "1679"//draw
+                               {
+                       "isEffect" "1"
+
+                                       "group" "movement"
+                                       "msRamp" "200"
+                                       "msSustain" "60"
+                                       "msDecay" "60"
+                                       "special" "SPLINEENVELOPE"
+                                       "force"
+                                       {
+                                               "x" "0"
+                                               "y" "-1"
+                                               "z" "2"
+                                       }
+                                       "chain"//click 1
+                                       {
+                                       "msdelay" "300"
+                                       "msRamp" "1"
+                                       "msSustain" "1"
+                                       "msDecay" "1"
+                                       "special" "NOISEENVELOPE2X"
+
+                                       "force"
+                                       {
+                                               "x" "0.25"
+                                               "y" "0"
+                                               "z" "-0.75"
+                                       }
+                                       "chain"//click 2
+                                       {
+                                       "msdelay" "400"
+                                       "msRamp" "1"
+                                       "msSustain" "1"
+                                       "msDecay" "1"
+                                       "special" "NOISEENVELOPE2X"
+
+                                       "force"
+                                       {
+                                               "x" "-0.25"
+                                               "y" "0"
+                                               "z" "0.75"
+                                       }
+                                       "chain"//handforward
+                                       {
+                                       "msdelay" "500"
+                                       "msRamp" "120"
+                                       "msSustain" "20"
+                                       "msDecay" "30"
+                                       "special" "SPLINEENVELOPE"
+
+                                       "force"
+                                       {
+                                               "x" "0"
+                                               "y" "0.5"
+                                               "z" "0"
+                                       }
+                                       }
+                                       }
+                                       }
+                               }
+
+                               "1650"//draw
+                               {
+                       "isEffect" "1"
+
+                               "group" "movement"
+                               "msRamp" "100"
+                               "msSustain" "60"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-1"
+                                       "z" "2"
+                               }
+                               "chain"//click 1
+                               {
+                               "msdelay" "150"
+                               "msRamp" "1"
+                               "msSustain" "1"
+                               "msDecay" "1"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0.25"
+                                       "z" "-0.75"
+                               }
+                               "chain"//click 2
+                               {
+                               "msdelay" "250"
+                               "msRamp" "1"
+                               "msSustain" "1"
+                               "msDecay" "1"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-0.25"
+                                       "z" "0.75"
+                               }
+                               "chain"//handforward
+                               {
+                               "msdelay" "450"
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0.5"
+                                       "z" "0"
+                               }
+                               }
+                               }
+                               }
+                       }
+
+                               "1683"//reload one pistol
+                               {
+                       "isEffect" "1"
+
+                               "msRamp" "300"
+                               "msSustain" "100"
+                               "msDecay" "50"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "1"
+                                       "y" "-0.84"
+                                       "z" "-0.5"
+                               }
+                               "chain"//clip released
+                               {
+                               "msdelay" "200"
+                               "msRamp" "60"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-1.2"
+                                       "z" "0"
+                               }
+                               "chain"//clip inserted
+                               {
+                               "msdelay" "1100"
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-2"
+                                       "z" "0"
+                               }
+                               "chain"//hand hitting gun
+                               {
+                               "msdelay" "1500"
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+
+                                       "x" "1"
+                                       "y" "1.5"
+                                       "z" "0"
+                               }
+                               "chain"//clip clicked in
+                               {
+                               "msdelay" "1500"
+                               "msRamp" "20"
+                               "msSustain" "0"
+                               "msDecay" "10"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+
+                                       "x" "1"
+                                       "y" "2"
+                                       "z" "0"
+                               }
+                               "chain"//handforward
+                               {
+                               "msdelay" "1850"
+                               "msRamp" "120"
+                               "msSustain" "10"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-1"
+                                       "z" "0.5"
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                               "1656" //dual pistol reload
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "300"
+                               "msSustain" "100"
+                               "msDecay" "50"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "1"
+                                       "y" "-1.4"
+                                       "z" "-0.5"
+                               }
+                               "chain"//clip drop
+                               {
+                               "msdelay" "80"
+                               "msRamp" "60"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-2"
+                                       "z" "0"
+                               }
+                               "chain"//clip slide
+                               {
+                               "msdelay" "1100"
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-2"
+                                       "z" "0"
+                               }
+                               "chain"//clip hit
+                               {
+                               "msdelay" "1400"
+                               "msRamp" "20"
+                               "msSustain" "0"
+                               "msDecay" "10"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "-1"
+                                       "y" "1.5"
+                                       "z" "0"
+                               }
+                               "chain"//finger hitting gun
+                               {
+                               "msdelay" "1400"
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+
+                                       "x" "-0.75"
+                                       "y" "1"
+                                       "z" "0"
+                               }
+                               "chain"//clip slide
+                               {
+                               "msdelay" "1850"
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-2"
+                                       "z" "0"
+                               }
+                               "chain"//clip hit
+                               {
+                               "msdelay" "2100"
+                               "msRamp" "20"
+                               "msSustain" "0"
+                               "msDecay" "10"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "1"
+                                       "y" "1.5"
+                                       "z" "0"
+                               }
+                               "chain"//finger hitting gun
+                               {
+                               "msdelay" "2100"
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+
+                                       "x" "0.75"
+                                       "y" "1"
+                                       "z" "0"
+                               }
+                               "chain"//handforward
+                               {
+                               "msdelay" "2350"
+                               "msRamp" "120"
+                               "msSustain" "10"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "1.5"
+                                       "z" "0.5"
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                       }
+                       "AnimationEvents"
+                       {
+                       "21" //pistol muzzle
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "10"
+                               "msDecay" "0"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-1"
+                                       "z" "11"
+                               }
+
+
+                       }
+                       }
+               }
+
+               "weapon_smg"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "70"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "7"
+                               }
+                       }
+                       "Activities"
+                       {
+                               "1742"//melee
+                               {
+                       "isEffect" "1"
+
+                               "group" "movement"
+                               "msRamp" "150"
+                               "msSustain" "100"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "1.5"
+                                       "y" "0"
+                                       "z" "1.5"
+                               }
+                               }
+                               "1728"//draw
+                               {
+                       "isEffect" "1"
+
+                               "group" "movement"
+                               "msRamp" "200"
+                               "msSustain" "60"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-1"
+                                       "z" "2"
+                               }
+                               "chain"//handforward
+                               {
+                               "msdelay" "500"
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0.5"
+                                       "z" "0"
+                               }
+                               "chain"//handright
+                               {
+                               "msdelay" "600"
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "-1"
+                                       "y" "0.5"
+                                       "z" "0"
+                               }
+                               }
+                               }
+                               }
+                               "1730" //Muzzle
+                               {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "1"
+                               "msSustain" "16"
+                               "msDecay" "1"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "1"
+                                       "z" "9"
+                               }
+                               }
+                               "1732" //reload right noise
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "40"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "-2"
+                                       "y" "0"
+                                       "z" "0"
+                               }
+                               "chain" // tilt gun
+                               {
+                               "msRamp" "40"
+                               "msSustain" "20"
+                               "msDecay" "10"
+                               "msDelay" "300"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-2"
+                                       "z" "0"
+                               }
+                               "chain"//pull out old clip
+                               {
+                               "msRamp" "220"
+                               "msSustain" "20"
+                               "msDecay" "40"
+                               "msDelay" "450"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "-1"
+                                       "y" "0"
+                                       "z" "2.5"
+                               }
+
+                               "chain" //Partially insert new clip
+                               {
+                               "msRamp" "60"
+                               "msSustain" "20"
+                               "msDecay" "40"
+                               "msDelay" "1250"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "1"
+                                       "y" "0"
+                                       "z" "-1"
+                               }
+                               "chain" //tap new clip in place
+                               {
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "40"
+                               "msDelay" "1500"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+
+                                       "x" "2"
+                                       "y" "0"
+                                       "z" "-2"
+                               }
+                               "chain" //Move gun back to idle position
+                               {
+                               "msRamp" "220"
+                               "msSustain" "20"
+                               "msDecay" "40"
+                               "msDelay" "1800"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-1"
+                                       "z" "1"
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+
+                       }
+                       "AnimationEvents"
+                       {
+
+                       }
+               }
+
+               "weapon_pumpshotgun"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "30"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "13"
+                               }
+                       }
+                       "Activities"
+                       {
+                               "1789"//finger brass upward
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "NOISEENVELOPE8X"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "1"
+                                       "z" "0"
+                               }
+                               }
+                               "1770"//draw
+                               {
+                       "isEffect" "1"
+
+                               "msRamp" "200"
+                               "msSustain" "60"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-1"
+                                       "z" "2"
+                               }
+                               "chain"//handforward
+                               {
+                               "msdelay" "500"
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0.5"
+                                       "z" "0"
+                               }
+                               "chain"//grab
+                               {
+                               "msdelay" "480"
+                               "msRamp" "60"
+                               "msSustain" "10"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-1.8"
+                                       "z" "0"
+                               }
+                               }
+                               }
+                               }
+                               "1780"//raise forward reload
+                               {
+                       "isEffect" "1"
+
+                               "group" "movement"
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "-4"
+                               }
+                               "chain"
+                               {
+                               "msdelay" "70"
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "NOISEENVELOPE8X"
+                               "force"
+                               {
+                                       "x" "2"
+                                       "y" "0"
+                                       "z" "0"
+                               }
+                               }
+                               }
+                               "1783"//finger brass forward
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "NOISEENVELOPE8X"
+                               "force"
+                               {
+                                       "x" "2"
+                                       "y" "0"
+                                       "z" "0"
+                               }
+                               }
+                               "1784"//lower
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "4"
+                               }
+                               }
+                               "1774"//melee
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "200"
+                               "msSustain" "100"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "4"
+                                       "y" "0"
+                                       "z" "4"
+                               }
+                               }
+
+                               "1790" //Pump
+                               {
+                               "isEffect" "1"
+                               "group" "movement"
+                               "msRamp" "145"
+                               "msSustain" "20"
+                               "msDecay" "20"
+                               "msDelay" "160"
+                               "special" "NOISEENVELOPE8X"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-3"
+                                       "z" "0"
+                               }
+                               }
+
+                               "1792" //Pump
+                               {
+                               "isEffect" "1"
+                               "group" "movement"
+                               "msRamp" "145"
+                               "msSustain" "20"
+                               "msDecay" "20"
+                               "msDelay" "275"
+                               "special" "NOISEENVELOPE8X"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-3"
+                                       "z" "0"
+                               }
+                               }
+                       }
+                       "AnimationEvents"
+                       {
+                               "21" //Muzzle
+                               {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "6"
+                               "msSustain" "50"
+                               "msDecay" "5"
+                               "special" "NOISEENVELOPE4X"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "12"
+                               }
+                               }
+
+                               "33" //Pump
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "NOISEENVELOPE8X"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "4"
+                               }
+                               }
+                       }
+               }
+
+               "weapon_autoshotgun"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "30"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "13"
+                               }
+                       }
+                       "Activities"
+                       {
+                               "1799"//melee
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "200"
+                               "msSustain" "100"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "3.5"
+                                       "y" "0"
+                                       "z" "3.5"
+                               }
+                               }
+                               "1795"//draw
+                               {
+                       "isEffect" "1"
+
+                               "group" "movement"
+                               "msRamp" "200"
+                               "msSustain" "60"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-1"
+                                       "z" "2"
+                               }
+                               "chain"//handforward
+                               {
+                               "msdelay" "500"
+                               "msRamp" "120"
+                               "msSustain" "20"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0.5"
+                                       "z" "0"
+                               }
+                               "chain"//grab
+                               {
+                               "msdelay" "480"
+                               "msRamp" "60"
+                               "msSustain" "10"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-1.8"
+                                       "z" "0"
+                               }
+                               "chain"//grab
+                               {
+                               "msdelay" "650"
+                               "msRamp" "120"
+                               "msSustain" "10"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "2"
+                                       "y" "0"
+                                       "z" "-0.75"
+                               }
+                               }
+                               }
+                               }
+                               }
+                               "1813" //Pump
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "NOISEENVELOPE8X"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "4"
+                               }
+                               }
+                               "1805" //Pump
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+                               "msDelay" "20"
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "NOISEENVELOPE8X"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "4"
+                               }
+                               "chain"//raise forward reload
+                               {
+
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "2"
+                                       "y" "0"
+                                       "z" "1"
+                               }
+                               }
+                               }
+                               "1807" //Pump
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "NOISEENVELOPE8X"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "4"
+                               }
+                               }
+                               "1809" //return
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "-1.15"
+                                       "y" "0"
+                                       "z" "-1"
+                               }
+                               }
+                               "1811" //long reload start
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "-2"
+                                       "y" "-1"
+                                       "z" "1"
+                               }
+                               }
+                               "1815" //long reload end
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "-2"
+                                       "y" "0"
+                                       "z" "-1"
+                               }
+                               "chain"
+                               {
+                               "msDelay" "400"
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "NOISEENVELOPE8X"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "8"
+                               }
+                               "chain"//grab
+                               {
+                               "msdelay" "750"
+                               "msRamp" "120"
+                               "msSustain" "10"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "2"
+                                       "y" "0"
+                                       "z" "-0.75"
+                               }
+                               }
+                               }
+                               }
+
+                               "1817" //long reload interuptted end
+                               {
+                       "isEffect" "1"
+
+                               "group" "movement"
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "-2"
+                                       "y" "0"
+                                       "z" "-1"
+                               }
+                               "chain"
+                               {
+                               "msDelay" "400"
+                               "msRamp" "200"
+                               "msSustain" "0"
+                               "msDecay" "20"
+                               "special" "NOISEENVELOPE8X"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "8"
+                               }
+                               "chain"//grab
+                               {
+                               "msdelay" "750"
+                               "msRamp" "120"
+                               "msSustain" "10"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "2"
+                                       "y" "0"
+                                       "z" "-0.75"
+                               }
+                               }
+                               }
+                               }
+                       }
+                       "AnimationEvents"
+                       {
+                               "21" //pistol muzzle
+                               {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "6"
+                               "msSustain" "50"
+                               "msDecay" "5"
+                               "special" "NOISEENVELOPE4X"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "11"
+                               }
+                               }
+                       }
+               }
+
+               "weapon_hunting_rifle"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "30"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "13"
+                               }
+                       }
+                       "Activities"
+                       {
+
+                               "1752"//draw
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "200"
+                               "msSustain" "60"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-2"
+                                       "z" "2"
+                               }
+                               }
+                               "1766"//melee
+                               {
+                       "isEffect" "1"
+
+                               "group" "movement"
+                               "msRamp" "200"
+                               "msSustain" "100"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "2.5"
+                                       "y" "0"
+                                       "z" "2.5"
+                               }
+                               }
+                               "1756"//reload
+                               {
+                       "isEffect" "1"
+
+                               "group" "movement"
+                               "msRamp" "300"
+                               "msSustain" "100"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "-1.8"
+                                       "y" "0"
+                                       "z" "1"
+                               }
+                               "chain"//grab
+                               {
+                               "msdelay" "500"
+                               "msRamp" "60"
+                               "msSustain" "10"
+                               "msDecay" "30"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "4"
+                               }
+                               "chain"//grab
+                               {
+                               "msdelay" "650"
+                               "msRamp" "60"
+                               "msSustain" "10"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "3"
+                                       "z" "0"
+                               }
+                               "chain"//pull2
+                               {
+                               "msdelay" "720"
+                               "msRamp" "120"
+                               "msSustain" "10"
+                               "msDecay" "30"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "3"
+                                       "z" "0"
+                               }
+                               "chain"//right move
+                               {
+                               "msdelay" "1000"
+                               "msRamp" "320"
+                               "msSustain" "10"
+                               "msDecay" "200"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "1.5"
+                                       "y" "-1"
+                                       "z" "-1"
+                               }
+                               "chain"//hand in slap 1
+                               {
+                               "msdelay" "1800"
+                               "msRamp" "120"
+                               "msSustain" "10"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "-1.5"
+                                       "y" "1"
+                                       "z" "2"
+                               }
+                               "chain"//clipslap
+                               {
+                               "msdelay" "1875"
+                               "msRamp" "30"
+                               "msSustain" "10"
+                               "msDecay" "30"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "1.5"
+                                       "y" "-1"
+                                       "z" "0"
+                               }
+                               "chain"//hand in slap 1
+                               {
+                               "msdelay" "2300"
+                               "msRamp" "120"
+                               "msSustain" "10"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "2.5"
+                                       "y" "-2"
+                                       "z" "0"
+                               }
+                               "chain"//hand in
+                               {
+                               "msdelay" "2800"
+                               "msRamp" "320"
+                               "msSustain" "10"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "0.5"
+                                       "y" "1"
+                                       "z" "-1.5"
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                       }
+                       "AnimationEvents"
+                       {
+                               "21" //Muzzle
+                               {
+
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "5"
+                               "msSustain" "50"
+                               "msDecay" "0"
+                               "special" "NOISEENVELOPE2X"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-1"
+                                       "z" "10"
+                               }
+                               }
+                       }
+               }
+
+               "weapon_rifle"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "30"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "13"
+                               }
+                       }
+                       "Activities"
+                       {
+
+                               "1704"//draw
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "200"
+                               "msSustain" "200"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-2"
+                                       "z" "2"
+                               }
+                               }
+                               "1708"//reload
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "200"
+                               "msSustain" "500"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "-0.5"
+                                       "z" "1"
+                               }
+                               "chain"//release clip
+                               {
+                               "msdelay" "300"
+                               "msRamp" "80"
+                               "msSustain" "10"
+                               "msDecay" "60"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "2"
+                                       "z" "0"
+                               }
+                               "chain"//hand in1
+                               {
+                               "msdelay" "925"
+                               "msRamp" "80"
+                               "msSustain" "100"
+                               "msDecay" "70"
+                               "special" "SPLINEENVELOPE"
+
+                               "force"
+                               {
+                                       "x" "1"
+                                       "y" "1"
+                                       "z" "0"
+                               }
+                               "chain"//hand in2
+                               {
+                               "msdelay" "1050"
+                               "msRamp" "80"
+                               "msSustain" "40"
+                               "msDecay" "20"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "1.25"
+                                       "y" "0.75"
+                                       "z" "0"
+                               }
+                               "chain"//lower weapon
+                               {
+                               "msdelay" "1200"
+                               "msRamp" "100"
+                               "msSustain" "100"
+                               "msDecay" "40"
+                               "special" "NOISEENVELOPE2X"
+
+                               "force"
+                               {
+                                       "x" "-0.75"
+                                       "y" "-1"
+                                       "z" "0"
+                               }
+                               }
+                               }
+                               }
+                               }
+                               }
+                               "1718"//melee
+                               {
+                       "isEffect" "1"
+                               "group" "movement"
+
+                               "msRamp" "200"
+                               "msSustain" "100"
+                               "msDecay" "60"
+                               "special" "SPLINEENVELOPE"
+                               "force"
+                               {
+                                       "x" "2.5"
+                                       "y" "0"
+                                       "z" "2.5"
+                               }
+                               }
+                       }
+                       "AnimationEvents"
+                       {
+                               "21" //Muzzle
+                               {
+                       "isEffect" "1"
+
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "10"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0.1"
+                                       "z" "12"
+                               }
+                               }
+                       }
+               }
+
+               "weapon_pain_pills"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "special" "SPLINEENVELOPE"
+                               "msRamp" "0"
+                               "msSustain" "10"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "13"
+                               }
+                       }
+                       "Activities"
+                       {
+                               "1838"//draw
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "200"
+                                       "msSustain" "200"
+                                       "msDecay" "60"
+                                       "special" "NOISEENVELOPE2x"
+                                       "force"
+                                       {
+                                               "x" "0"
+                                               "y" "-1"
+                                               "z" "1"
+                                       }
+                               }
+                               "1842"//take
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "200"
+                                       "msSustain" "200"
+                                       "msDecay" "60"
+                                       "special" "NOISEENVELOPE2x"
+                                       "force"
+                                       {
+                                               "x" "0"
+                                               "y" "-1"
+                                               "z" "-2"
+                                       }
+                               }
+                               "1840"//melee
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "60"
+                                       "msSustain" "100"
+                                       "msDecay" "200"
+                                       "force"
+                                       {
+                                               "x" "1.8"
+                                               "y" "0"
+                                               "z" "1.5"
+                                       }
+                               }
+                       }
+               }
+               "weapon_molotov"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "special" "SPLINEENVELOPE"
+                               "msRamp" "0"
+                               "msSustain" "10"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "13"
+                               }
+                       }
+                       "Activities"
+                       {
+                               "1829"//draw
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "200"
+                                       "msSustain" "200"
+                                       "msDecay" "60"
+                                       "special" "SPLINEENVELOPE"
+                                       "force"
+                                       {
+                                               "x" "0"
+                                               "y" "-1.50"
+                                               "z" "0"
+                                       }
+                               }
+                               "1831"//pull back
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+                                       "msRamp" "150"
+                                       "msDecay" "30"
+                                       "msSustain" "200"
+                                       "special" "SPLINEENVELOPE"
+
+
+                                       "force"
+                                       {
+                                               "x" "0"
+                                               "y" "-0.75"
+                                               "z" "-2"
+                                       }
+                               }
+                               "1833"//Throw
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+                                       "msRamp" "150"
+                                       "msDecay" "30"
+
+
+                                       "force"
+                                       {
+                                               "x" "0"
+                                               "y" "0.75"
+                                               "z" "6"
+                                       }
+                               }
+                               "1835"//melee
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "60"
+                                       "msSustain" "100"
+                                       "msDecay" "200"
+                                       "force"
+                                       {
+                                               "x" "1.8"
+                                               "y" "0"
+                                               "z" "1.5"
+                                       }
+                               }
+                       }
+                       "AnimationEvents"
+                       {
+                       }
+               }
+
+               "weapon_pipe_bomb"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "special" "SPLINEENVELOPE"
+                               "msRamp" "0"
+                               "msSustain" "10"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "13"
+                               }
+                       }
+                       "Activities"
+                       {
+                               "1820"//draw
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "200"
+                                       "msSustain" "200"
+                                       "msDecay" "60"
+                                       "special" "SPLINEENVELOPE"
+                                       "force"
+                                       {
+                                               "x" "0"
+                                               "y" "-1.50"
+                                               "z" "0"
+                                       }
+                               }
+                               "1822"//pull back
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+                                       "msRamp" "150"
+                                       "msDecay" "30"
+                                       "msSustain" "200"
+                                       "special" "SPLINEENVELOPE"
+
+
+                                       "force"
+                                       {
+                                               "x" "0"
+                                               "y" "-0.75"
+                                               "z" "-2"
+                                       }
+                               }
+                               "1824"//Throw
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+                                       "msRamp" "150"
+                                       "msDecay" "30"
+
+
+                                       "force"
+                                       {
+                                               "x" "0"
+                                               "y" "0.75"
+                                               "z" "6"
+                                       }
+                               }
+                               "1826"//melee
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "60"
+                                       "msSustain" "100"
+                                       "msDecay" "200"
+                                       "force"
+                                       {
+                                               "x" "1.8"
+                                               "y" "0"
+                                               "z" "1.5"
+                                       }
+                               }
+                       }
+               }
+               "weapon_first_aid_kit"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "special" "SPLINEENVELOPE"
+                               "msRamp" "0"
+                               "msSustain" "90"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "5"
+                               }
+                       }
+                       "Activities"
+                       {
+                               "1847"//melee
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "200"
+                                       "msSustain" "100"
+                                       "msDecay" "60"
+                                       "special" "SPLINEENVELOPE"
+                                       "force"
+                                       {
+                                               "x" "1.8"
+                                               "y" "0"
+                                               "z" "1.5"
+                                       }
+                               }
+                       }
+               }
+               "Changed"
+               {
+
+                       "isEffect" "1"
+                       "group" "movement"
+                       "effecttype" "destroy"
+                       "target" "heldweapon"
+               }
+               "weapon_gascan"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "90"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "6"
+                               }
+                       }
+                       "Activated"
+                       {
+                       "isEffect" "1"
+                       "group" "movement"
+                       "process"
+                       {
+                       "singleInstance"        "1"
+                       "destroyOnDeath"        "1"
+                       "destroyOnNavExit"      "1"
+                       "override"              "1"
+                       "nametag"               "heldweapon"
+                       }
+                       "effecttype"            "charge"
+                       "msRamp"                "500"
+                       "Base"
+                       {
+                               "x" "0"
+                               "y" "-4"
+                               "z" "0.0"
+                       }
+                       "Frequency"
+                       {
+                               "Start"  "90"
+                               "Target" "2"
+                       }
+                       "Amplitude"
+                       {
+                               "Start"  "0.0"
+                               "Target" "0.0"
+                       }
+                       "Roll"
+                       {
+                               "Start" "0"
+                               "Target" "0"
+                       }
+                       "msPhase"       "0"
+                       "msPeriod"      "1000"
+                       "Wave"
+                       {
+                               "x" "0.25"
+                               "y" "0.25"
+                               "z" "1.0"
+                       }
+                       }
+                       "Activities"
+                       {
+                               "1853"//melee
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "200"
+                                       "msSustain" "100"
+                                       "msDecay" "60"
+                                       "special" "SPLINEENVELOPE"
+                                       "force"
+                                       {
+                                               "x" "2.5"
+                                               "y" "0"
+                                               "z" "1.5"
+                                       }
+                               }
+                       }
+               }
+
+               "weapon_propanetank"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "90"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "8"
+                               }
+                       }
+                       "Activated"
+                       {
+                       "isEffect" "1"
+                       "group" "movement"
+                       "process"
+                       {
+                       "singleInstance"        "1"
+                       "destroyOnDeath"        "1"
+                       "destroyOnNavExit"      "1"
+                       "override"              "1"
+                       "nametag"               "heldweapon"
+                       }
+                       "effecttype"            "charge"
+                       "msRamp"                "500"
+                       "Base"
+                       {
+                               "x" "0"
+                               "y" "-5"
+                               "z" "0.0"
+                       }
+                       "Frequency"
+                       {
+                               "Start"  "90"
+                               "Target" "2"
+                       }
+                       "Amplitude"
+                       {
+                               "Start"  "0.0"
+                               "Target" "0.0"
+                       }
+                       "Roll"
+                       {
+                               "Start" "0"
+                               "Target" "0"
+                       }
+                       "msPhase"       "0"
+                       "msPeriod"      "1000"
+                       "Wave"
+                       {
+                               "x" "0.25"
+                               "y" "0.25"
+                               "z" "1.0"
+                       }
+                       }
+                       "Activities"
+                       {
+                               "1853"//melee
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "200"
+                                       "msSustain" "100"
+                                       "msDecay" "60"
+                                       "special" "SPLINEENVELOPE"
+                                       "force"
+                                       {
+                                               "x" "3.5"
+                                               "y" "0"
+                                               "z" "1.5"
+                                       }
+                               }
+                       }
+               }
+               "weapon_oxygentank"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "90"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "4.5"
+                               }
+                       }
+                       "Activated"
+                       {
+                       "isEffect" "1"
+                       "group" "movement"
+                       "process"
+                       {
+                       "singleInstance"        "1"
+                       "destroyOnDeath"        "1"
+                       "destroyOnNavExit"      "1"
+                       "override"              "1"
+                       "nametag"               "heldweapon"
+                       }
+                       "effecttype"            "charge"
+                       "msRamp"                "500"
+                       "Base"
+                       {
+                               "x" "0"
+                               "y" "-4"
+                               "z" "0.0"
+                       }
+                       "Frequency"
+                       {
+                               "Start"  "90"
+                               "Target" "2"
+                       }
+                       "Amplitude"
+                       {
+                               "Start"  "0.0"
+                               "Target" "0.0"
+                       }
+                       "Roll"
+                       {
+                               "Start" "0"
+                               "Target" "0"
+                       }
+                       "msPhase"       "0"
+                       "msPeriod"      "1000"
+                       "Wave"
+                       {
+                               "x" "0.25"
+                               "y" "0.25"
+                               "z" "1.0"
+                       }
+                       }
+                       "Activities"
+                       {
+                               "1853"//melee
+                               {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "200"
+                                       "msSustain" "100"
+                                       "msDecay" "60"
+                                       "special" "SPLINEENVELOPE"
+                                       "force"
+                                       {
+                                               "x" "3.0"
+                                               "y" "0"
+                                               "z" "1.5"
+                                       }
+                               }
+                       }
+               }
+
+               "weapon_smoker_claw"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "special" "NOISEENVELOPE4X"
+                               "msRamp" "0"
+                               "msSustain" "30"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "1.5"
+                               }
+                       }
+                       "Activities"
+                       {
+                                       "187"//melee
+                                       {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "200"
+                                       "msSustain" "100"
+                                       "msDecay" "60"
+                                       "special" "SPLINEENVELOPE"
+                                       "force"
+                                       {
+                                               "x" "2.75"
+                                               "y" "0"
+                                               "z" "2.75"
+                                       }
+                                       }
+                       }
+               }
+
+               "weapon_boomer_claw"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "special" "NOISEENVELOPE4X"
+                               "msRamp" "0"
+                               "msSustain" "30"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "1.5"
+                               }
+                       }
+                       "Activities"
+                       {
+                                       "187"//melee
+                                       {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "200"
+                                       "msSustain" "100"
+                                       "msDecay" "60"
+                                       "special" "SPLINEENVELOPE"
+                                       "force"
+                                       {
+                                               "x" "2.75"
+                                               "y" "0"
+                                               "z" "2.75"
+                                       }
+                                       }
+                                       "1060"//vomit
+                                       {
+                       "isEffect" "1"
+                                       "group" "recoil"
+                                       "msRamp" "200"
+                                       "msSustain" "300"
+                                       "msDecay" "300"
+                                       "special" "NOISEENVELOPE4X"
+                                       "force"
+                                       {
+                                               "x" "0"
+                                               "y" "0"
+                                               "z" "-9"
+                                       }
+
+                                       }
+                       }
+               }
+
+               "weapon_hunter_claw"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "special" "NOISEENVELOPE4X"
+                               "msRamp" "0"
+                               "msSustain" "30"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "1.5"
+                               }
+                       }
+                       "Activities"
+                       {
+                                       "187"//melee
+                                       {
+                       "isEffect" "1"
+
+                                       "group" "movement"
+                                       "msRamp" "200"
+                                       "msSustain" "100"
+                                       "msDecay" "60"
+                                       "special" "SPLINEENVELOPE"
+                                       "force"
+                                       {
+                                               "x" "2.75"
+                                               "y" "0"
+                                               "z" "2.75"
+                                       }
+                                       }
+                       }
+               }
+
+               "weapon_tank_claw"
+               {
+                       "MeleeStrike"
+                       {
+                       "isEffect" "1"
+                               "group" "recoil"
+                               "msRamp" "0"
+                               "msSustain" "30"
+                               "msDecay" "20"
+                               "force"
+                               {
+                                       "x" "0"
+                                       "y" "0"
+                                       "z" "2"
+                               }
+                       }
+                       "Activities"
+                       {
+                                       "187"//melee
+                                       {
+                       "isEffect" "1"
+                                       "group" "movement"
+
+                                       "msRamp" "200"
+                                       "msSustain" "100"
+                                       "msDecay" "60"
+                                       "special" "SPLINEENVELOPE"
+                                       "force"
+                                       {
+                                               "x" "2.75"
+                                               "y" "0"
+                                               "z" "2.75"
+                                       }
+                                       }
+                       }
+               }
+       }
+
+}

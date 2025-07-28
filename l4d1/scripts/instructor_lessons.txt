@@ -1,0 +1,6486 @@
+//--------------------------------------------------------
+//
+// This file contains all the scripted lessons used by 
+// the game instructor.
+//
+//
+// PRIORITY LEVELS
+//
+// SURVIVOR
+// 150	awaiting closet rescue
+// 145  holdout time goal messages
+// 145  Get to the chopper, Finale start
+// 140	pounced, choking
+// 137	incapacitated by witch
+// 135	incapacitated, hanging from ledge
+// 133  Finale is starting, disturbance triggered
+// 131	Smoker pulling you
+// 130	IT (puked on), shove back infected
+// 127	attacked from behind
+// 125	revive interrupted (hold still)
+// 120	help pounced, help choking
+// 115	Tank!
+// 110	help incapacitated, help ledge hanger, witch spooked
+// 100	help IT (puked on) friend
+// 97	enter safe room, close safe room door, use minigun
+// 95	friendly fire
+// 94   notify stay together
+// 93	presumed combat
+// 91	given item
+// 88	heal self, eat pills
+// 88	rescue from closet
+// 86	heal other
+// 84	heal other (non-urgent)
+// 83	give pills
+// 82	give pills (non-urgent)
+// 80	finale is going
+// 77	rifle zoom
+// 76	pistol ammo, grenade limit
+// 75	scroll through inventory
+// 70	pick up a primary weapon (or upgrade)
+// 65   health kit
+// 60	pick up pills
+// 59   pick up pipebomb or molotov
+// 58   pick up ammo
+// 56	pick up a 2nd pistol
+// 50	open/close door
+// 45	reload
+//
+// NOTE: Zero priority lessons are NOT affected by , but NEVER affect priority
+// 00	notice panic button, notice finale radio, explain disturbance, open/close door, failed to take pills
+//
+// INFECTED
+// 150	awaiting spawn
+// 140	killed
+// 130	ghost mode
+// 120	pouncing, choking
+// 110	puked on someone
+// 100	killed
+// 90	failed special (missed tongue)
+// 80	victim available for special (pounce, tounge)
+// 70	navigation tip (climb, breakable wall)
+// 60	passive ability tip (leap, swipe)
+//
+//
+// INSTANCE TYPES
+//
+// 0 = multiple lessons of same type can be open at once
+// 1 = only one of each lesson type can be open at once
+// 2 = replace lesson of the same type
+// 3 = only one instance will display at a time (but all instances will be open)
+//
+//
+// FLAGS (use these to build an integer)
+//
+//#define LOCATOR_ICON_FX_NONE			0x00000000
+//#define LOCATOR_ICON_FX_PULSE_SLOW		0x00000001
+//#define LOCATOR_ICON_FX_PULSE_FAST		0x00000002
+//#define LOCATOR_ICON_FX_PULSE_URGENT		0x00000004
+//
+// 
+// CAPTION COLOR - supply a string in the format "rrr,ggg,bbb"  ex. "255,255,255" for white
+//
+//--------------------------------------------------------
+
+"instructor_lessons"
+{
+	///////////////////
+	///////////////////
+	//// HOLDOUT!  ////
+	///////////////////
+	///////////////////
+
+	//--------------------------------------------------------
+	// You have beaten your best time!
+	//--------------------------------------------------------
+	"Beat Player Record Time"
+	{
+		"team"			"2"
+		"priority"		"145"	
+		"timeout"		"10.0"
+		"can_open_when_dead"			"1"
+		"allow_nodraw_target"			"1"
+
+		"caption"		"#L4D_Instructor_player_record"
+		"onscreen_icon"	"icon_player_record"
+		
+		"open"
+		{
+			"holdout_goal_reached"
+			{
+				"local_player is"	"player id"
+				
+				"string1 set"		"string goalname"
+				"string1 is"		"string player_record"
+
+				"icon_target set"	"player local_player"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// You beat the team record!
+	//--------------------------------------------------------
+	"Beat Team Record Time"
+	{
+		"team"			"2"
+		"priority"		"145"	
+		"timeout"		"10.0"
+		"can_open_when_dead"			"1"
+		"allow_nodraw_target"			"1"
+
+		"caption"		"#L4D_Instructor_team_record"
+		"onscreen_icon"	"icon_player_record"
+		
+		"open"
+		{
+			"holdout_goal_reached"
+			{
+				"string1 set"		"string goalname"
+				"string1 is"		"string team_record"
+
+				"icon_target set"	"player local_player"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// You beat the world record!
+	//--------------------------------------------------------
+	"Beat World Record Time"
+	{
+		"team"			"2"
+		"priority"		"145"	
+		"timeout"		"10.0"
+		"can_open_when_dead"			"1"
+		"allow_nodraw_target"			"1"
+
+		"caption"		"#L4D_Instructor_world_record"
+		"onscreen_icon"	"icon_world_record"
+		
+		"open"
+		{
+			"holdout_goal_reached"
+			{
+				"string1 set"		"string goalname"
+				"string1 is"		"string world_record"
+
+				"icon_target set"	"player local_player"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// You earned a bronze medal!
+	//--------------------------------------------------------
+	"Earned Bronze Medal"
+	{
+		"team"			"2"
+		"priority"		"145"	
+		"timeout"		"10.0"
+		"can_open_when_dead"			"1"
+		"allow_nodraw_target"			"1"
+
+		"caption"		"#L4D_Instructor_earned_bronze_medal"
+		"onscreen_icon"	"icon_bronze_medal"
+		
+		"open"
+		{
+			"holdout_goal_reached"
+			{
+				"local_player is"	"player userid"
+				
+				"string1 set"		"string goalname"
+				"string1 is"		"string medal"
+				
+				"integer1 set"		"int id"
+				"integer1 is"		"int 0"
+
+				"icon_target set"	"player local_player"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// You earned a silver medal!
+	//--------------------------------------------------------
+	"Earned Silver Medal"
+	{
+		"team"			"2"
+		"priority"		"145"	
+		"timeout"		"10.0"
+		"can_open_when_dead"			"1"
+		"allow_nodraw_target"			"1"
+
+		"caption"		"#L4D_Instructor_earned_silver_medal"
+		"onscreen_icon"	"icon_silver_medal"
+		
+		"open"
+		{
+			"holdout_goal_reached"
+			{
+				"local_player is"	"player userid"
+				
+				"string1 set"		"string goalname"
+				"string1 is"		"string medal"
+				
+				"integer1 set"		"int id"
+				"integer1 is"		"int 1"
+
+				"icon_target set"	"player local_player"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// You earned a gold medal!
+	//--------------------------------------------------------
+	"Earned Gold Medal"
+	{
+		"team"			"2"
+		"priority"		"145"	
+		"timeout"		"10.0"
+		"can_open_when_dead"			"1"
+		"allow_nodraw_target"			"1"
+
+		"caption"		"#L4D_Instructor_earned_gold_medal"
+		"onscreen_icon"	"icon_gold_medal"
+		
+		"open"
+		{
+			"holdout_goal_reached"
+			{
+				"local_player is"	"player userid"
+				
+				"string1 set"		"string goalname"
+				"string1 is"		"string medal"
+				
+				"integer1 set"		"int id"
+				"integer1 is"		"int 2"
+
+				"icon_target set"	"player local_player"
+			}
+		}
+	}
+
+	///////////////////
+	///////////////////
+	//// SURVIVOR! ////
+	///////////////////
+	///////////////////
+
+
+
+	//--------------------------------------------------------
+	// This survivor has entered the safe room. Tell them 
+	// about shutting the door!
+	//--------------------------------------------------------
+	"Explain Close Safe Room"
+	{
+		"team"				"2"
+		"priority"			"97"	
+		"instance_type"		"1"
+
+		"display_limit"		"6"
+		"success_limit"		"2"
+		
+		"binding"			"+use"		
+		"caption"			"#L4D_Instructor_explain_close_safe_room"
+		"onscreen_icon"		"icon_door"
+		"range"				"600.0"
+		"start_sound"		"Instructor.ImportantLessonStart"
+		
+		"open"
+		{
+			"player_entered_checkpoint"
+			{
+				"local_player is"	"player userid"
+				"string2 set"		"string doorname"
+				"string2 is"		"string checkpoint_entrance"
+				"icon_target set"	"entity door"
+			}
+		}
+		
+		"close"
+		{
+			"player_use"
+			{
+				"local_player is"	"player userid"
+				"icon_target is"	"entity targetid"
+			}
+		}
+		
+		"success"
+		{
+			"player_use"
+			{
+				"local_player is"	"player userid"
+				"icon_target is"	"entity targetid"
+			}
+		}
+		
+		"update"
+		{
+			"Base Icon"
+			{
+				"onscreen_icon set"	"string icon_door"
+			}
+
+			"Selected Item"
+			{
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// This survivor can see the safe room door. Urge them in!
+	//--------------------------------------------------------
+	"Explain Enter Safe Room"
+	{
+		"team"				"2"
+		"priority"			"97"
+		"instance_type"		"1"
+
+		"display_limit"		"4"
+
+		"caption"				"#L4D_Instructor_explain_enter_safe_room"
+		"onscreen_icon"			"icon_door"
+		"range"					"600.0"
+		"lock_duration"			"5"
+		"show_when_occluded"	"0"
+		
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string classname"
+				"string1 is"		"string prop_door_rotating_checkpoint"
+				"string2 set"		"string entityname"
+				"string2 is"		"string checkpoint_entrance"
+				"icon_target set"	"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"player_entered_checkpoint"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// They tried to leave the safe room while others are
+	// loading. Show them what for!
+	//--------------------------------------------------------
+	"Explain Wait To Exit Safe Room"
+	{
+		"team"				"2"
+		"priority"			"0"	
+		"instance_type"		"1"
+
+		"caption"			"#L4D_Instructor_explain_wait_to_exit_safe_room"
+		"onscreen_icon"		"icon_alert"
+		
+		"timeout"			"8.0"
+		
+		"open"
+		{
+			"waiting_checkpoint_door_used"
+			{
+				"local_player is"	"player userid"
+				"entity1 set"		"entity entindex"
+				"icon_target set"	"player local_player"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// VERSUS: They tried to leave the safe room.
+	// This means teams aren't ready so the match shouldn't start yet.
+	//--------------------------------------------------------
+	"Explain Wait To Exit Safe Room Versus"
+	{
+		"team"				"2"
+		"priority"			"0"	
+		"instance_type"		"1"
+
+		"caption"			"#L4D_Instructor_explain_wait_to_push_button"
+		"onscreen_icon"		"icon_alert"
+		
+		"timeout"			"8.0"
+		
+		"open"
+		{
+			"waiting_door_used_versus"
+			{
+				"local_player is"	"player userid"
+				"entity1 set"		"entity entindex"
+				"icon_target set"	"player local_player"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// They tried to push a button that needs others to gather
+	// first. Show them what for!
+	//--------------------------------------------------------
+	"Explain Wait To Push Button"
+	{
+		"team"				"2"
+		"priority"			"0"	
+		"instance_type"		"1"
+
+		"caption"			"#L4D_Instructor_explain_wait_to_push_button"
+		"onscreen_icon"		"icon_alert"
+		
+		"timeout"			"8.0"
+		
+		"open"
+		{
+			"waiting_checkpoint_button_used"
+			{
+				"local_player is"	"player userid"
+				"icon_target set"	"player local_player"
+			}
+		}
+		
+		"close"
+		{
+			"success_checkpoint_button_used"
+			{
+			}
+		}
+	}
+
+
+	//--------------------------------------------------------
+	// Explain the pre rescue radio
+	//--------------------------------------------------------
+	"Explain Pre Radio"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_pre_radio"
+		"onscreen_icon"		"icon_button"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_pre_radio"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"started_pre_radio"
+			{
+			}
+		}	
+	}
+
+	//--------------------------------------------------------
+	// Explain the rescue radio
+	//--------------------------------------------------------
+	"Explain Radio"
+	{
+		"team"				"2"
+		"priority"			"0"
+		"display_limit"		"10"
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_radio"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_radio"
+			{
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"finale_start"
+			{
+			}
+		}
+
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_radio"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}	
+	}
+
+
+	//--------------------------------------------------------
+	// Explain the gas truck
+	//--------------------------------------------------------
+	"Explain Gas Truck"
+	{
+		"team"				"2"
+		"priority"			"0"
+		"display_limit"		"10"
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_gas_truck"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_gas_truck"
+			{
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"finale_start"
+			{
+			}
+		}
+
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_gas_truck"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}	
+	}
+
+
+	//--------------------------------------------------------
+	// The chopper has arrived - get on it!
+	//--------------------------------------------------------
+	"Board Chopper"
+	{
+		"team"			"2"
+		"priority"		"145"	
+		"timeout"		"10.0"
+
+		"caption"		"#L4D_Instructor_board_chopper"
+		"onscreen_icon"	"icon_alert"
+		
+		"open"
+		{
+			"finale_vehicle_ready"
+			{
+				"icon_target set"		"player local_player"
+			}
+		}
+		
+		"close"
+		{
+			"finale_vehicle_leaving"
+			{
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// The chopper is coming!
+	//--------------------------------------------------------
+	"Explain Finale Start"
+	{
+		"team"			"2"
+		"priority"		"145"
+		
+		"timeout"		"8.0"
+
+		"caption"		"#L4D_Instructor_survive_rescue"
+		"onscreen_icon"	"icon_alert"
+		"range"			"600.0"
+		
+		"open"
+		{
+			"finale_start"
+			{
+				"icon_target set"		"player local_player"
+			}
+		}	
+	}
+
+	//--------------------------------------------------------
+	// Hide minor lessons during finale
+	//--------------------------------------------------------
+	"Finale Priority Bumper"
+	{
+		"team"				"2"
+		"priority"			"80"
+
+		"no_icon_target"	"1"
+		"start_sound"		""
+
+		"open"
+		{
+			"finale_start"
+			{
+			}
+		}
+
+		"close"
+		{
+			"finale_win"
+			{
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Explain that disturbances (car alarm) attract horde
+	//--------------------------------------------------------
+	"Explain Panic Disturbance"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"2"
+		
+		"caption"				"#L4D_Instructor_explain_panic_disturbance"
+		"onscreen_icon"			"icon_no"
+		"show_when_occluded"	"0"
+		"no_offscreen"			"1"
+		"range"					"750"
+		"lock_duration"			"5"
+		"start_sound"			""
+
+		"open"
+		{
+			"explain_disturbance"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Explain that a car alarm was tripped (and who did it)
+	//--------------------------------------------------------
+	"Explain Panic Disturbance Triggered"
+	{
+		"team"				"2"
+		"priority"			"0"
+		"instance_type"		"1"
+		
+		"onscreen_icon"		"icon_alert_red"
+		"timeout"			"8"
+		"start_sound"		""
+
+		"open"
+		{
+			"create_panic_event"
+			{
+				"entity1 set"							"player userid"
+				"entity1 !is"							"entity null"
+				"entity1 !is"							"player local_player"
+				"icon_target set"						"player local_player"
+				"caption set"							"string #L4D_Instructor_explain_panic_disturbance_triggered"
+				"entity1 get player display name"		"int 1"
+				"caption_param set"						"string string1"
+			}
+			
+			"create_panic_event"
+			{
+				"entity1 set"							"player userid"
+				"entity1 is"							"entity local_player"
+				"icon_target set"						"player local_player"
+				"caption set"							"string #L4D_Instructor_explain_panic_disturbance_triggered2"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Explain that a witch was spooked (and who did it)
+	//--------------------------------------------------------
+	"Explain Witch Spooked"
+	{
+		"team"				"2"
+		"priority"			"0"
+		"instance_type"		"1"
+		
+		"onscreen_icon"					"icon_alert_red"
+		"timeout"						"8"
+		"can_timeout_while_inactive"	"1"
+		"start_sound"					""
+
+		"open"
+		{
+			"witch_harasser_set"
+			{
+				"entity1 set"							"player userid"
+				"entity1 !is"							"entity null"
+				"entity1 !is"							"player local_player"
+				"entity1 team is"						"int 2"
+				"entity2 set"							"entity witchid"
+				"icon_target set"						"player local_player"
+				"caption set"							"string #L4D_Instructor_explain_witch_spooked"
+				"entity1 get player display name"		"int 1"
+				"caption_param set"						"string string1"
+			}
+			
+			"witch_harasser_set"
+			{
+				"entity1 set"							"player userid"
+				"entity1 is"							"entity local_player"
+				"entity2 set"							"entity witchid"
+				"icon_target set"						"player local_player"
+				"caption set"							"string #L4D_Instructor_explain_witch_spooked2"
+			}
+		}
+		
+		"close"
+		{
+			"player_death"
+			{
+				"entity2 is"		"entity entityid"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Explain what the panic button does
+	//--------------------------------------------------------
+	"Explain Panic Button"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_panic_button"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_panic_button"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+
+
+
+	//--------------------------------------------------------
+	// Explain what the elevator button does
+	//--------------------------------------------------------
+	"Explain Elevator Button"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_elevator_button"
+		"onscreen_icon"			"icon_alert_red"
+		"offscreen_icon"		"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_elevator_button"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_elevator_button"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+
+
+	//--------------------------------------------------------
+	// Explain what the lift button does
+	//--------------------------------------------------------
+	"Explain Lift Button"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_lift_button"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_lift_button"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_lift_button"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Explain what the train lever does
+	//--------------------------------------------------------
+	"Explain Train Lever"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_train_lever"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_train_lever"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_train_lever"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Explain what the gas can panic does
+	//--------------------------------------------------------
+	"Explain Gas Can Panic"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_gas_can_panic"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_gas_can_panic"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_gas_can_panic"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Explain what the van panic does
+	//--------------------------------------------------------
+	"Explain Van Panic"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_van_panic"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_van_panic"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_van_panic"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Explain what the crane does
+	//--------------------------------------------------------
+	"Explain Crane"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_crane"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_crane"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_crane"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Explain how to provoke crazy church guy
+	//--------------------------------------------------------
+	"Explain Church Door"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_church_door"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_church_door"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_church_door"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Explain what the emergency door does
+	//--------------------------------------------------------
+	"Explain Emergency Door"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_emergency_door"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_emergency_door"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_emergency_door"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Explain what the bridge does
+	//--------------------------------------------------------
+	"Explain Bridge"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_bridge"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_bridge"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_bridge"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+	
+
+	//--------------------------------------------------------
+	// Explain how to lower forklift
+	//--------------------------------------------------------
+	"Explain Mainstreet"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_mainstreet"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+
+		"open"
+		{
+			"explain_mainstreet"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_mainstreet"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_panic_button2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+	
+
+	//--------------------------------------------------------
+	// Explain how to scroll through inventory
+	//--------------------------------------------------------
+	"Explain Inventory"
+	{
+		"team"				"2"
+		"priority"			"75"
+		"instance_type"		"1"
+	
+		"display_limit"		"6"
+		"success_limit"		"2"
+
+		"gamepad_binding"			"lastinv;slot3;slot4;slot5"
+		"binding"			"+invnext;+invprev"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_explain_inventory"
+		
+		"timeout"						"8.0"
+		"can_timeout_while_inactive"	"1"
+
+		"update_interval"	"0.25"
+		"integer1"			"2"
+
+		"open"
+		{
+			"item_pickup"
+			{
+				"local_player is"				"player userid"
+				"string1 set"					"string item"
+				"string1 !is"					"string hunting_rifle"
+				"string1 !is"					"string pumpshotgun"
+				"string1 !is"					"string autoshotgun"
+				"string1 !is"					"string rifle"
+				"string1 !is"					"string smg"
+				"icon_target set"				"player local_player"
+			}
+		}
+
+		"update"
+		{			
+			"Wait 2 Updates"
+			{
+				"integer1 !less than"			"int 1"
+				"integer1 subtract"				"int 1"
+			}
+			
+			"New Selection"
+			{
+				"integer1 less than"			"int 0"
+				"icon_target get active weapon"	"int 2"
+				"entity1 !is"					"entity entity2"
+				"void success"					"void"
+				"void close"					"void"
+			}
+			
+			"Original Selection"
+			{
+				"integer1 !less than"			"int 0"
+				"integer1 subtract"				"int 1"
+				"icon_target get active weapon"	"int 1"
+			}
+		}	
+	}
+	
+	//--------------------------------------------------------
+	// Explain how to zoom with the hunting rifle
+	//--------------------------------------------------------
+	"Explain Rifle Zoom"
+	{
+		"team"				"2"
+		"priority"			"76"
+		"instance_type"		"1"
+	
+		"display_limit"		"5"
+		"success_limit"		"2"
+
+		"binding"		"+zoom"
+		"onscreen_icon"	"use_binding"
+		"caption"		"#L4D_Instructor_explain_rifle_zoom"
+		"timeout"		"8.0"
+
+		"open"
+		{
+			"item_pickup"
+			{
+				"local_player is"				"player userid"
+				"string1 set"					"string item"
+				"string1 is"					"string hunting_rifle"
+				"icon_target set"				"player local_player"
+			}
+		}
+		
+		"close"
+		{
+			"weapon_zoom"
+			{
+				"local_player is"				"player userid"
+			}
+		}
+		
+		"success"
+		{
+			"weapon_zoom"
+			{
+				"local_player is"				"player userid"
+			}
+		}
+
+		"update"
+		{
+			"Base"
+			{
+				"visible set"					"bool 1"
+			}
+				
+			"Hunting rifle not selected"
+			{
+				"local_player !weapon is"		"string weapon_hunting_rifle"
+				"visible set"					"bool 0"
+			}	
+		}	
+	}
+
+
+	//--------------------------------------------------------
+	// Indicate that ammo is available
+	//--------------------------------------------------------
+	"Explain Ammo Resupply"
+	{
+		"team"				"2"
+		"priority"			"58"	
+		"instance_type"		"3"
+
+		"display_limit"		"4"
+
+		"binding"				"+use"
+		"caption"				"#L4D_Instructor_explain_ammo_resupply_get"
+		"onscreen_icon"			"icon_interact"
+		"offscreen_icon"		"icon_interact"
+		"icon_offset"			"8.0"
+		"range"					"360.0"
+		"show_when_occluded"	"0"
+		"lock_duration"			"5"
+		"start_sound"			""
+		
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string classname"
+				"string1 is"		"string weapon_ammo_spawn"
+				"icon_target set"	"entity subject"
+				"visible set"		"bool 0"
+			}
+		}
+		
+		"close"
+		{
+			"ammo_pickup"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+		
+		"update"
+		{
+			"Base Visible"
+			{
+				"visible set"				"bool 1"
+			}
+
+			"Don't Need Ammo"
+			{
+				"local_player weapon ammo full"		"int 0"
+				"visible set"						"bool 0"
+			}
+
+			"Selected other item"
+			{
+				"visible is"							"bool 1"
+				"local_player get potential use target"	"int 2"
+				"entity2 !is"							"entity null"
+				"entity2 !is"							"entity world"
+				"entity2 !is"							"entity icon_target"
+				"local_player use target is"			"entity entity2"
+				"visible set"							"bool 0"
+			}
+			
+			"Base Icon"
+			{
+				"visible is"				"bool 1"
+				"onscreen_icon set"			"string icon_interact"
+			}
+
+			"Selected Item"
+			{
+				"visible is"					"bool 1"
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+				"void present end"				"void"
+			}
+			
+			"Set Caption After Present"
+			{
+				"visible is"				"bool 1"
+				"caption set"				"string #L4D_Instructor_explain_ammo_resupply_get"
+				"void present complete"		"void"
+				"caption set"				"string #L4D_Instructor_explain_ammo_resupply"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate that a first aid kit is available
+	//--------------------------------------------------------
+	"Explain First Aid Kit"
+	{
+		"team"				"2"
+		"priority"			"65"
+		"instance_type"		"3"
+
+		"display_limit"		"12"	// Try hard to get the message across. High display limit, low success limit.
+		"success_limit"		"3"
+
+		"binding"				"+use"
+		"caption"				"#L4D_Instructor_explain_first_aid_get"
+		"onscreen_icon"			"icon_interact"
+		"offscreen_icon"		"icon_interact"
+		"icon_offset"			"8.0"
+		"range"					"360.0"
+		"show_when_occluded"	"0"
+		"lock_duration"			"5"
+		"start_sound"			""
+
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"			"player userid"
+				"local_player !weapon has"	"string weapon_first_aid_kit"
+				"string1 set"				"string classname"
+				"string1 is"				"string weapon_first_aid_kit_spawn"
+				"icon_target set"			"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string first_aid_kit"
+			}
+		}
+		
+		"success"
+		{
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string first_aid_kit"
+			}
+		}
+		
+		"update"
+		{
+			"Base Icon"
+			{
+				"onscreen_icon set"	"string icon_interact"
+				"visible set"		"bool 1"
+			}
+
+			"Selected other item"
+			{
+				"local_player get potential use target"	"int 2"
+				"entity2 !is"							"entity null"
+				"entity2 !is"							"entity world"
+				"entity2 !is"							"entity icon_target"
+				"local_player use target is"			"entity entity2"
+				"visible set"							"bool 0"
+			}
+			
+			"Selected Item"
+			{
+				"visible is"					"bool 1"
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+				"void present end"				"void"
+			}
+			
+			"Set Caption After Present"
+			{
+				"visible is"				"bool 1"
+				"caption set"				"string #L4D_Instructor_explain_first_aid_get"
+				"void present complete"		"void"
+				"caption set"				"string #L4D_Instructor_explain_first_aid"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate that a second pistol is available
+	//--------------------------------------------------------
+	"Explain 2nd Pistol"
+	{
+		"team"				"2"
+		"priority"			"56"
+		"instance_type"		"3"
+
+		"display_limit"		"2"
+
+		"binding"				"+use"
+		"caption"				"#L4D_Instructor_explain_2nd_pistol_get"
+		"onscreen_icon"			"icon_interact"
+		"offscreen_icon"		"icon_interact"
+		"icon_offset"			"8.0"
+		"range"					"360.0"
+		"show_when_occluded"	"0"
+		"lock_duration"			"5"
+		"start_sound"			""
+
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string classname"
+				"string1 is"		"string weapon_pistol_spawn"
+				"icon_target set"	"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"spawner_give_item"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string weapon_pistol"
+			}
+		}
+		
+		"update"
+		{
+			"Base Icon"
+			{
+				"onscreen_icon set"	"string icon_interact"
+				"visible set"		"bool 1"
+			}			
+
+			"Selected other item"
+			{
+				"local_player get potential use target"	"int 2"
+				"entity2 !is"							"entity null"
+				"entity2 !is"							"entity world"
+				"entity2 !is"							"entity icon_target"
+				"local_player use target is"			"entity entity2"
+				"visible set"							"bool 0"
+			}
+			
+			"Selected Item"
+			{
+				"visible is"					"bool 1"
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+				"void present end"				"void"
+			}
+			
+			"Set Caption After Present"
+			{
+				"visible is"				"bool 1"
+				"caption set"				"string #L4D_Instructor_explain_2nd_pistol_get"
+				"void present complete"		"void"
+				"caption set"				"string #L4D_Instructor_explain_2nd_pistol"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Indicate that a Molotov Cocktail is available
+	//--------------------------------------------------------
+	"Explain Molotov Cocktail"
+	{
+		"team"				"2"
+		"priority"			"59"
+		"instance_type"		"3"
+
+		"display_limit"		"2"
+
+		"binding"				"+use"
+		"onscreen_icon"			"icon_interact"
+		"offscreen_icon"		"icon_interact"
+		"caption"				"#L4D_Instructor_explain_molotov_get"
+		"range"					"360.0"
+		"icon_offset"			"8.0"
+		"show_when_occluded"	"0"
+		"lock_duration"			"5"
+		"start_sound"			""
+
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"			"player userid"
+				"string1 set"				"string classname"
+				"string1 is"				"string weapon_molotov_spawn"
+				"local_player !weapon has"	"string weapon_molotov"
+				"local_player !weapon has"	"string weapon_pipe_bomb"
+				"icon_target set"			"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string molotov"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string pipe_bomb"
+			}
+		}
+		
+		"update"
+		{
+			"Base Icon"
+			{
+				"onscreen_icon set"	"string icon_interact"
+				"visible set"		"bool 1"
+			}
+
+			"Selected other item"
+			{
+				"local_player get potential use target"	"int 2"
+				"entity2 !is"							"entity null"
+				"entity2 !is"							"entity world"
+				"entity2 !is"							"entity icon_target"
+				"local_player use target is"			"entity entity2"
+				"visible set"							"bool 0"
+			}
+			
+			"Selected Item"
+			{
+				"visible is"					"bool 1"
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+				"void present end"				"void"
+			}
+			
+			"Set Caption After Present"
+			{
+				"visible is"				"bool 1"
+				"caption set"				"string #L4D_Instructor_explain_molotov_get"
+				"void present complete"		"void"
+				"caption set"				"string #L4D_Instructor_explain_molotov"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Indicate that a Pipe Bomb is available
+	//--------------------------------------------------------
+	"Explain Pipe Bomb"
+	{
+		"team"				"2"
+		"priority"			"59"
+		"instance_type"		"3"
+
+		"display_limit"		"2"
+
+		"binding"				"+use"
+		"onscreen_icon"			"icon_interact"
+		"offscreen_icon"		"icon_interact"
+		"caption"				"#L4D_Instructor_explain_pipebomb_get"
+		"range"					"360.0"
+		"icon_offset"			"8.0"
+		"show_when_occluded"	"0"
+		"lock_duration"			"5"
+		"start_sound"			""
+
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"			"player userid"
+				"string1 set"				"string classname"
+				"string1 is"				"string weapon_pipe_bomb_spawn"
+				"local_player !weapon has"	"string weapon_pipe_bomb"
+				"local_player !weapon has"	"string weapon_molotov"
+				"icon_target set"			"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string pipe_bomb"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string molotov"
+			}
+		}
+		
+		"update"
+		{
+			"Base Icon"
+			{
+				"onscreen_icon set"	"string icon_interact"
+				"visible set"		"bool 1"
+			}
+
+			"Selected other item"
+			{
+				"local_player get potential use target"	"int 2"
+				"entity2 !is"							"entity null"
+				"entity2 !is"							"entity world"
+				"entity2 !is"							"entity icon_target"
+				"local_player use target is"			"entity entity2"
+				"visible set"							"bool 0"
+			}
+			
+			"Selected Item"
+			{
+				"visible is"					"bool 1"
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+				"void present end"				"void"
+			}
+			
+			"Set Caption After Present"
+			{
+				"visible is"				"bool 1"
+				"caption set"				"string #L4D_Instructor_explain_pipebomb_get"
+				"void present complete"		"void"
+				"caption set"				"string #L4D_Instructor_explain_pipebomb"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate that an auto shotgun is available
+	//--------------------------------------------------------
+	"Explain Autoshotgun"
+	{
+		"team"				"2"
+		"priority"			"70"
+		"instance_type"		"3"
+
+		"display_limit"		"2"
+
+		"binding"				"+use"
+		"onscreen_icon"			"icon_interact"
+		"offscreen_icon"		"icon_interact"
+		"caption"				"#L4D_Instructor_explain_autoshotgun_get"
+		"icon_offset"			"8.0"
+		"range"					"400.0"
+		"show_when_occluded"	"0"
+		"lock_duration"			"5"
+		"start_sound"			""
+
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"			"player userid"
+				"string1 set"				"string classname"
+				"string1 is"				"string weapon_autoshotgun_spawn"
+				"local_player !weapon has"	"string weapon_autoshotgun"
+				"local_player !weapon has"	"string weapon_rifle"
+				"local_player !weapon has"	"string weapon_hunting_rifle"
+				"icon_target set"			"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string autoshotgun"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string rifle"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string hunting_rifle"
+			}
+		}
+		
+		"update"
+		{
+			"Base Icon"
+			{
+				"onscreen_icon set"	"string icon_interact"
+				"visible set"		"bool 1"
+			}
+
+			"Selected other item"
+			{
+				"local_player get potential use target"	"int 2"
+				"entity2 !is"							"entity null"
+				"entity2 !is"							"entity world"
+				"entity2 !is"							"entity icon_target"
+				"local_player use target is"			"entity entity2"
+				"visible set"							"bool 0"
+			}
+			
+			"Selected Item"
+			{
+				"visible is"					"bool 1"
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+				"void present end"				"void"
+			}
+			
+			"Set Caption After Present"
+			{
+				"visible is"				"bool 1"
+				"caption set"				"string #L4D_Instructor_explain_autoshotgun_get"
+				"void present complete"		"void"
+				"caption set"				"string #L4D_Instructor_explain_autoshotgun"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate that an assault rifle is available
+	//--------------------------------------------------------
+	"Explain Assault Rifle"
+	{
+		"team"				"2"
+		"priority"			"70"
+		"instance_type"		"3"
+
+		"display_limit"		"2"
+
+		"binding"				"+use"
+		"onscreen_icon"			"icon_interact"
+		"offscreen_icon"		"icon_interact"
+		"caption"				"#L4D_Instructor_explain_rifle_get"
+		"range"					"400.0"
+		"icon_offset"			"8.0"
+		"show_when_occluded"	"0"
+		"lock_duration"			"5"
+		"start_sound"			""
+
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"			"player userid"
+				"string1 set"				"string classname"
+				"string1 is"				"string weapon_rifle_spawn"
+				"local_player !weapon has"	"string weapon_rifle"
+				"local_player !weapon has"	"string weapon_autoshotgun"
+				"local_player !weapon has"	"string weapon_hunting_rifle"
+				"icon_target set"			"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string autoshotgun"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string rifle"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string hunting_rifle"
+			}
+		}
+		
+		"update"
+		{
+			"Base Icon"
+			{
+				"onscreen_icon set"	"string icon_interact"
+				"visible set"		"bool 1"
+			}
+
+			"Selected other item"
+			{
+				"local_player get potential use target"	"int 2"
+				"entity2 !is"							"entity null"
+				"entity2 !is"							"entity world"
+				"entity2 !is"							"entity icon_target"
+				"local_player use target is"			"entity entity2"
+				"visible set"							"bool 0"
+			}
+			
+			"Selected Item"
+			{
+				"visible is"					"bool 1"
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+				"void present end"				"void"
+			}
+			
+			"Set Caption After Present"
+			{
+				"visible is"				"bool 1"
+				"caption set"				"string #L4D_Instructor_explain_rifle_get"
+				"void present complete"		"void"
+				"caption set"				"string #L4D_Instructor_explain_rifle"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate that a hunting rifle is available
+	//--------------------------------------------------------
+	"Explain Hunting Rifle"
+	{
+		"team"				"2"
+		"priority"			"70"
+		"instance_type"		"3"
+
+		"display_limit"		"2"
+
+		"binding"				"+use"
+		"caption"				"#L4D_Instructor_explain_hunting_rifle_get"
+		"onscreen_icon"			"icon_interact"
+		"offscreen_icon"		"icon_interact"
+		"range"					"400.0"
+		"icon_offset"			"8.0"
+		"show_when_occluded"	"0"
+		"lock_duration"			"5"
+		"start_sound"			""
+
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"			"player userid"
+				"string1 set"				"string classname"
+				"string1 is"				"string weapon_hunting_rifle_spawn"
+				"local_player !weapon has"	"string weapon_hunting_rifle"
+				"local_player !weapon has"	"string weapon_autoshotgun"
+				"local_player !weapon has"	"string weapon_rifle"
+				"icon_target set"			"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string autoshotgun"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string rifle"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string hunting_rifle"
+			}
+		}
+		
+		"update"
+		{
+			"Base Icon"
+			{
+				"onscreen_icon set"	"string icon_interact"
+				"visible set"		"bool 1"
+			}
+
+			"Selected other item"
+			{
+				"local_player get potential use target"	"int 2"
+				"entity2 !is"							"entity null"
+				"entity2 !is"							"entity world"
+				"entity2 !is"							"entity icon_target"
+				"local_player use target is"			"entity entity2"
+				"visible set"							"bool 0"
+			}
+			
+			"Selected Item"
+			{
+				"visible is"					"bool 1"
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+				"void present end"				"void"
+			}
+			
+			"Set Caption After Present"
+			{
+				"visible is"				"bool 1"
+				"caption set"				"string #L4D_Instructor_explain_hunting_rifle_get"
+				"void present complete"		"void"
+				"caption set"				"string #L4D_Instructor_explain_hunting_rifle"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate that an smg is available
+	//--------------------------------------------------------
+	"Explain SMG"
+	{
+		"team"				"2"
+		"priority"			"70"
+		"instance_type"		"3"
+
+		"display_limit"		"2"
+
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_smg_get"
+		"onscreen_icon"			"icon_interact"
+		"offscreen_icon"		"icon_interact"
+		"range"				"400.0"
+		"icon_offset"			"8.0"
+		"show_when_occluded"		"0"
+		"lock_duration"			"5"
+		"start_sound"			""
+
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"			"player userid"
+				"string1 set"				"string classname"
+				"string1 is"				"string weapon_smg_spawn"
+				"local_player !weapon has"	"string weapon_smg"
+				"local_player !weapon has"	"string weapon_pumpshotgun"
+				"local_player !weapon has"	"string weapon_rifle"
+				"local_player !weapon has"	"string weapon_autoshotgun"
+				"local_player !weapon has"	"string weapon_hunting_rifle"
+				"icon_target set"			"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string smg"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string pumpshotgun"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string autoshotgun"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string rifle"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string hunting_rifle"
+			}
+		}
+		
+		"update"
+		{
+			"Base Icon"
+			{
+				"onscreen_icon set"	"string icon_interact"
+				"visible set"		"bool 1"
+			}
+
+			"Selected other item"
+			{
+				"local_player get potential use target"	"int 2"
+				"entity2 !is"							"entity null"
+				"entity2 !is"							"entity world"
+				"entity2 !is"							"entity icon_target"
+				"local_player use target is"			"entity entity2"
+				"visible set"							"bool 0"
+			}
+			
+			"Selected Item"
+			{
+				"visible is"					"bool 1"
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+				"void present end"				"void"
+			}
+			
+			"Set Caption After Present"
+			{
+				"visible is"				"bool 1"
+				"caption set"				"string #L4D_Instructor_explain_smg_get"
+				"void present complete"		"void"
+				"caption set"				"string #L4D_Instructor_explain_smg"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate that a pumpshotgun is available
+	//--------------------------------------------------------
+	"Explain Pumpshotgun"
+	{
+		"team"				"2"
+		"priority"			"70"
+		"instance_type"		"3"
+
+		"display_limit"		"2"
+
+		"binding"				"+use"
+		"caption"				"#L4D_Instructor_explain_pumpshotgun_get"
+		"onscreen_icon"			"icon_interact"
+		"offscreen_icon"		"icon_interact"
+		"range"					"400.0"
+		"icon_offset"			"8.0"
+		"show_when_occluded"	"0"
+		"lock_duration"			"5"
+		"start_sound"			""
+
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"			"player userid"
+				"string1 set"				"string classname"
+				"string1 is"				"string weapon_pumpshotgun_spawn"
+				"local_player !weapon has"	"string weapon_pumpshotgun"
+				"local_player !weapon has"	"string weapon_smg"
+				"local_player !weapon has"	"string weapon_rifle"
+				"local_player !weapon has"	"string weapon_autoshotgun"
+				"local_player !weapon has"	"string weapon_hunting_rifle"
+				"icon_target set"			"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string smg"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string pumpshotgun"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string autoshotgun"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string rifle"
+			}
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string hunting_rifle"
+			}
+		}
+		
+		"update"
+		{
+			"Base Icon"
+			{
+				"onscreen_icon set"	"string icon_interact"
+				"visible set"		"bool 1"
+			}
+
+			"Selected other item"
+			{
+				"local_player get potential use target"	"int 2"
+				"entity2 !is"							"entity null"
+				"entity2 !is"							"entity world"
+				"entity2 !is"							"entity icon_target"
+				"local_player use target is"			"entity entity2"
+				"visible set"				"bool 0"
+			}
+			
+			"Selected Item"
+			{
+				"visible is"					"bool 1"
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+				"void present end"				"void"
+			}
+			
+			"Set Caption After Present"
+			{
+				"visible is"				"bool 1"
+				"caption set"				"string #L4D_Instructor_explain_pumpshotgun_get"
+				"void present complete"		"void"
+				"caption set"				"string #L4D_Instructor_explain_pumpshotgun"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate the availability of nearby pain pills
+	//--------------------------------------------------------
+	"Explain Pills"
+	{
+		"team"				"2"
+		"priority"			"60"
+		"instance_type"		"3"
+
+		"display_limit"		"8"
+		"success_limit"		"2"
+
+		"binding"				"+use"
+		"caption"				"#L4D_Instructor_explain_pills_get"
+		"onscreen_icon"			"icon_interact"
+		"offscreen_icon"		"icon_interact"
+		"icon_offset"			"8.0"
+		"range"					"360.0"
+		"show_when_occluded"	"0"
+		"lock_duration"			"5"
+		"start_sound"			""
+
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"			"player userid"
+				"string1 set"				"string classname"
+				"string1 is"				"string weapon_pain_pills_spawn"
+				"local_player !weapon has"	"string weapon_pain_pills"
+				"icon_target set"			"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string pain_pills"
+			}
+		}
+		
+		"success"
+		{
+			"item_pickup"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string pain_pills"
+			}
+		}
+		
+		"update"
+		{
+			"Base Icon"
+			{
+				"onscreen_icon set"	"string icon_interact"
+				"visible set"		"bool 1"
+			}
+
+			"Selected other item"
+			{
+				"local_player get potential use target"	"int 2"
+				"entity2 !is"							"entity null"
+				"entity2 !is"							"entity world"
+				"entity2 !is"							"entity icon_target"
+				"local_player use target is"			"entity entity2"
+				"visible set"							"bool 0"
+			}
+			
+			"Selected Item"
+			{
+				"visible is"							"bool 1"
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+				"void present end"				"void"
+			}
+			
+			"Set Caption After Present"
+			{
+				"visible is"				"bool 1"
+				"caption set"				"string #L4D_Instructor_explain_pills_get"
+				"void present complete"		"void"
+				"caption set"				"string #L4D_Instructor_explain_pills"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Explain how to manually reload your weapon
+	//--------------------------------------------------------
+	"Explain Reload"
+	{
+		"team"				"2"
+		"priority"			"45"
+		"instance_type"		"1"
+	
+		"display_limit"		"5"
+		"success_limit"		"2"
+
+		"binding"			"+reload"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_explain_reload"
+
+		"open"
+		{
+			"weapon_fire_at_40" // only happens at 40
+			{
+				"local_player is"							"player userid"
+//				"local_player clip percentage less than"	"float 40.0"
+				"local_player !weapon ammo empty"			"int 0"
+				"icon_target set"							"player local_player"
+			}
+		}
+		
+		"close"
+		{
+			"weapon_reload"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+		
+		"success"
+		{
+			"weapon_reload"
+			{
+				"local_player is"	"player userid"
+				"integer1 set"		"bool manual"
+				"integer1 is"		"bool 1"
+			}
+		}
+
+		"update"
+		{			
+			"Got ammo somehow or selected different"
+			{
+				"local_player !clip percentage less than"	"float 40.0"
+				"void close"								"void"
+			}
+			
+			"Out of ammo"
+			{
+				"local_player weapon ammo empty"			"int 0"
+				"void close"								"void"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Explain that pistols have infinte ammo
+	//--------------------------------------------------------
+	"Explain Pistol Ammo"
+	{
+		"team"				"2"
+		"priority"			"76"
+		"instance_type"		"1"
+	
+		"display_limit"		"2"
+
+		"onscreen_icon"		"icon_tip"
+		"caption"			"#L4D_Instructor_explain_pistol_ammo"
+		
+		"timeout"						"6.0"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"weapon_reload"
+			{
+				"local_player is"			"player userid"
+				"local_player weapon is"	"string weapon_pistol"
+				"icon_target set"			"player local_player"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Explain that you can only carry one grenade
+	//--------------------------------------------------------
+	"Explain Grenade Limit"
+	{
+		"team"				"2"
+		"priority"			"76"
+		"instance_type"		"1"
+	
+		"display_limit"		"3"
+
+		"onscreen_icon"		"icon_tip"
+		"caption"			"#L4D_Instructor_explain_grenade_limit"
+		
+		"timeout"						"6.0"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"item_pickup"
+			{
+				"local_player is"			"player userid"
+				"local_player weapon has"	"string weapon_pipe_bomb"
+				"string1 set"				"string item"
+				"string1 is"				"string molotov"
+				"icon_target set"			"player local_player"
+			}
+			"item_pickup"
+			{
+				"local_player is"			"player userid"
+				"local_player weapon has"	"string weapon_molotov"
+				"string1 set"				"string item"
+				"string1 is"				"string pipe_bomb"
+				"icon_target set"			"player local_player"
+			}
+			"item_pickup"
+			{
+				"local_player is"			"player userid"
+				"local_player weapon has"	"string weapon_pipe_bomb"
+				"string1 set"				"string item"
+				"string1 is"				"string pipe_bomb"
+				"icon_target set"			"player local_player"
+			}
+			"item_pickup"
+			{
+				"local_player is"			"player userid"
+				"local_player weapon has"	"string weapon_molotov"
+				"string1 set"				"string item"
+				"string1 is"				"string molotov"
+				"icon_target set"			"player local_player"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Explain that shooting a friend is bad.
+	//--------------------------------------------------------
+	"Explain Friendly Fire Attacker"
+	{
+		"team"							"2"
+		"priority"						"95"
+		"instance_type"					"2"
+
+		"onscreen_icon"					"icon_no"
+		"caption"						"#L4D_Instructor_explain_friendly_fire"
+		"icon_offset"					"12.0"
+		"timeout"						"5.0"
+		"can_timeout_while_inactive"	"1"
+		"no_offscreen"					"1"
+
+		"open"
+		{
+			"friendly_fire"
+			{
+				"local_player is"							"player attacker"
+				"local_player !is"							"player victim"
+				"local_player is"							"player guilty"
+				"integer1 set"								"int type"
+				"integer1 !has bit"							"int 3"	// ignore DMG_BURN
+				"integer1 !has bit"							"int 6"	// ignore DMG_BLAST
+				"icon_target set"							"player victim"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"							"string string1"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Explain that running through gunfire is bad.
+	//--------------------------------------------------------
+	"Explain Friendly Fire Reckless"
+	{
+		"team"				"2"
+		"priority"			"95"
+		"instance_type"		"2"
+	
+		"display_limit"		"4"
+
+		"onscreen_icon"					"icon_alert_red"
+		"caption"						"#L4D_Instructor_explain_reckless"
+		"timeout"						"5.0"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"friendly_fire"
+			{
+				"local_player !is"	"player attacker"
+				"local_player is"	"player victim"
+				"local_player is"	"player guilty"
+				"icon_target set"	"player local_player"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Indicate that a survivor is in a closet awaiting 
+	// rescue
+	//--------------------------------------------------------
+	"Explain Rescue"
+	{
+		"team"				"2"
+		"priority"			"88"
+		"instance_type"		"2"
+
+		"success_limit"		"2"
+
+		"onscreen_icon"					"icon_alert"
+		"caption"						"#L4D_Instructor_explain_rescue"
+		"icon_offset"					"32.0"
+		"force_caption"					"1"
+		"timeout"						"10"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"survivor_call_for_help"
+			{
+				"local_player !is"		"player userid"
+				"entity1 set"			"entity subject"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"survivor_rescued"
+			{
+			}
+		}
+		
+		"success"
+		{
+			"survivor_rescued"
+			{
+				"local_player is"		"player rescuer"
+			}
+		}
+	}	
+
+	//--------------------------------------------------------
+	// Tell this survivor who let them out of the rescue 
+	// closet
+	//--------------------------------------------------------
+	"RescuedBy"
+	{
+		"team"				"2"
+		"priority"			"99"
+		"instance_type"		"2"
+		"success_limit"		"0"
+
+		"onscreen_icon"					"icon_shield"
+		"no_offscreen"					"1"
+		"caption"						"#L4D_Instructor_rescued_by"
+		"caption_color"					"56,148,194"
+		"icon_offset"					"32.0"
+		"timeout"						"6"
+		"can_timeout_while_inactive"	"1"
+		"can_open_when_dead"			"1"
+
+		"open"
+		{
+			"survivor_rescued"
+			{
+				"local_player is"						"player victim"
+				"icon_target set"						"player rescuer"
+				"icon_target team is"					"int 2"
+				"icon_target get player display name"	"int 1"
+				"caption_param set"						"string string1"
+			}
+		}
+		
+		"close"
+		{
+			"player_death"
+			{
+				"icon_target is"	"player userid"
+			}
+		}
+	}	
+	
+	//--------------------------------------------------------
+	"RescuedOther"
+	{
+		"team"				"2"
+		"priority"			"99"
+		"instance_type"		"2"
+		"success_limit"		"0"
+
+		"onscreen_icon"					"icon_shield"
+		"caption"						"#L4D_Instructor_rescued_other"
+		"caption_color"					"56,148,194"
+		"timeout"						"6"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"survivor_rescued"
+			{
+				"local_player is"						"player rescuer"
+				"icon_target set"						"player local_player"
+				"entity1 set"							"player victim"
+				"entity1 get player display name"		"int 1"
+				"caption_param set"						"string string1"
+			}
+		}
+		
+		"close"
+		{
+			"player_death"
+			{
+				"icon_target is"	"player userid"
+			}
+		}
+	}	
+
+	//--------------------------------------------------------
+	// How to open/close a door
+	//--------------------------------------------------------
+	"Explain Use Door"
+	{
+		"team"					"2"
+		"priority"				"0"
+		"instance_type"			"2"
+		"fixed_instances_max"	"3"
+
+		"success_limit"			"3"
+
+		"binding"				"+use"
+		"onscreen_icon"			"use_binding"
+		"offscreen_icon"		"icon_door"
+		"no_offscreen"			"1"
+		"show_when_occluded"	"0"
+		"caption"				"#L4D_Instructor_explain_use_door"
+		"range"					"150.0"
+		"start_sound"			""
+		
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string classname"
+				"string1 is"		"string prop_door_rotating"
+				"icon_target set"	"entity subject"
+				"visible set"		"bool 0"
+			}
+		}
+		
+		"success"
+		{
+			"player_use"
+			{
+				"local_player is"	"player userid"
+				"icon_target is"	"entity targetid"
+			}
+		}
+		
+		"close"
+		{
+			"player_use"
+			{
+				"local_player is"	"player userid"
+				"icon_target is"	"entity targetid"
+			}
+		}
+		
+		"update"
+		{
+			"Base"
+			{
+				"visible set"					"bool 0"
+			}
+			
+			"Player has it as use target"
+			{
+				"local_player use target is"	"entity icon_target"
+				"visible set"					"bool 1"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// How to open/close a saferoom door
+	//--------------------------------------------------------
+	"Explain Use Saferoom Door"
+	{
+		"team"					"2"
+		"priority"				"73"
+		"instance_type"			"2"
+		"fixed_instances_max"	"3"
+
+		"success_limit"			"3"
+
+		"binding"				"+use"
+		"onscreen_icon"			"use_binding"
+		"offscreen_icon"		"icon_door"
+		"no_offscreen"			"1"
+		"show_when_occluded"	"0"
+		"caption"				"#L4D_Instructor_explain_use_door"
+		"range"					"150.0"
+		"start_sound"			""
+		
+		"open"
+		{
+			"entity_visible"
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string classname"
+				"string1 is"		"string prop_door_rotating_checkpoint"
+				"string2 set"		"string entityname"
+				"string2 is"		"string checkpoint_exit"
+				"icon_target set"	"entity subject"
+				"visible set"		"bool 0"
+			}
+		}
+		
+		"success"
+		{
+			"player_use"
+			{
+				"local_player is"	"player userid"
+				"icon_target is"	"entity targetid"
+			}
+		}
+		
+		"close"
+		{
+			"player_use"
+			{
+				"local_player is"	"player userid"
+				"icon_target is"	"entity targetid"
+			}
+		}
+		
+		"update"
+		{
+			"Base"
+			{
+				"visible set"					"bool 0"
+			}
+			
+			"Player has it as use target"
+			{
+				"local_player use target is"	"entity icon_target"
+				"visible set"					"bool 1"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// How to pickup a physics prop
+	//--------------------------------------------------------
+	"Explain Pickup Item"
+	{
+		"team"				"2"
+		"priority"			"100"	
+		"instance_type"		"1"
+
+		"display_limit"		"10"
+		"success_limit"		"3"
+
+		"binding"			"+use"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_explain_pickup_item"
+		"icon_offset"		"0.0"
+		"range"				"200"
+		"start_sound"		""
+	
+		"open"
+		{
+			"use_target"
+			{
+				"string1 set"		"string classname"
+				"string1 is"		"string C_PhysicsProp"
+				"integer1 set"		"bool isprop"
+				"integer1 is"		"int 1"
+				"integer1 set"		"integer targetid"
+				"icon_target set"	"entity targetid"
+			}
+		}
+		
+		"success"
+		{
+			"player_use"
+			{
+				"local_player is"	"player userid"
+				"integer1 is"		"integer targetid"
+			}
+		}
+		
+		"close"
+		{
+			"player_use"
+			{
+				"local_player is"	"player userid"
+				"integer1 is"		"integer targetid"
+			}
+			"use_target"
+			{
+				"integer2 set"		"integer targetid"
+				"integer2 is"		"integer 0"
+			}
+		}
+	}
+
+
+	//--------------------------------------------------------
+	// Notify this player that they are waiting for another
+	// survivor to rescue them.
+	//--------------------------------------------------------
+	"Notify Awaiting Rescue"
+	{
+		"team"				"2"
+		"priority"			"150"
+		"instance_type"		"2"
+
+		"can_open_when_dead"			"1"
+		"onscreen_icon"					"icon_alert"
+		"caption"						"#L4D_Instructor_notify_awaiting_rescue"
+		"timeout"						"10"
+		"can_timeout_while_inactive"	"1"
+		"start_sound"					""
+
+		"open"
+		{
+			"survivor_call_for_help"
+			{
+				"local_player is"		"player userid"
+				"entity1 set"			"player userid"
+				"icon_target set"		"player local_player"
+			}
+		}
+		
+		"close"
+		{
+			"survivor_rescued"
+			{
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Notify this player that if they go down again they'll
+	// die
+	//--------------------------------------------------------
+	"Notify Last Life"
+	{
+		"team"							"2"
+		"priority"						"150"
+		"instance_type"					"2"
+
+		"display_limit"					"5"
+
+		"can_open_when_dead"			"1"
+		"onscreen_icon"					"icon_alert"
+		"caption"						"#L4D_Instructor_notify_last_life"
+		"caption_color"					"255,255,0"
+		"timeout"						"10"
+		"can_timeout_while_inactive"	"1"
+		"start_sound"					""
+
+		"open"
+		{
+			"revive_success"
+			{
+				"local_player is"		"player subject"
+				"integer1 set"			"bool lastlife"
+				"integer1 is"			"bool 1"
+				"icon_target set"		"player local_player"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Remind this Survivor that staying together is crucial to
+	// survival. This is a general-purpose hint, not something
+	// specifically displayed when the group is separated.
+	//--------------------------------------------------------
+	"Notify Stay Together"
+	{
+		"team"				"2"
+		"priority"			"94"
+		"instance_type"		"1"
+
+		"display_limit"		"3"
+
+		"onscreen_icon"		"icon_tip"
+		"caption"			"#L4D_Instructor_notify_stay_together"
+		"timeout"			"8.0"
+
+		"open"
+		{
+			"player_left_start_area"
+			{
+				"icon_target set"		"player local_player"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Remind this Survivor that crouching improves accuracy 
+	// This is a general-purpose hint.
+	//--------------------------------------------------------
+	"Notify Crouch Accuracy"
+	{
+		"team"				"2"
+		"priority"			"94"
+		"instance_type"		"1"
+		
+		"prereq"			"Notify Stay Together"
+
+		"display_limit"		"2"
+
+		"onscreen_icon"		"use_binding"
+		"binding"			"+duck"
+		"caption"			"#L4D_Instructor_notify_crouch_accuracy"
+		"timeout"			"8.0"
+
+		"open"
+		{
+			"player_left_start_area"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"player local_player"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Remind this Survivor that crouching improves accuracy 
+	// This is a general-purpose hint.
+	//--------------------------------------------------------
+	"Notify Crouch Tactic"
+	{
+		"team"				"2"
+		"priority"			"94"
+		"instance_type"		"1"
+		
+		"prereq"			"Notify Crouch Accuracy"
+
+		"display_limit"		"2"
+
+		"onscreen_icon"		"use_binding"
+		"binding"			"+duck"
+		"caption"			"#L4D_Instructor_notify_crouch_tactic"
+		"timeout"			"8.0"
+
+		"open"
+		{
+			"player_left_start_area"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"player local_player"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this survivor that they should shove back nearby
+	// infected.
+	//--------------------------------------------------------
+	"Notify Shove Infected"
+	{
+		"team"				"2"
+		"priority"			"130"
+		"instance_type"		"2"
+	
+		"display_limit"		"15"
+		"success_limit"		"5"
+
+		"binding"			"+attack2"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_notify_shove_infected"
+
+		"open"
+		{
+			"player_hurt"
+			{
+				"local_player is"						"player userid"
+				"entity1 set"							"entity attackerentid"
+				"entity1 classname is"					"string class C_Infected"
+				"local_player get angular distance"		"entity entity1"
+				"distance less than"					"float 80.0"
+				"icon_target set"						"player local_player"
+			}
+		}
+		
+		"close"
+		{
+			"entity_shoved"
+			{
+				"entity1 is"		"entity entityid"
+			}
+			"player_incapacitated"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+		
+		"success"
+		{
+			"player_shoved"
+			{
+				"entity1 is"		"player userid"
+				"local_player is"	"player attacker"
+			}
+			"entity_shoved"
+			{
+				"entity1 is"		"entity entityid"
+				"local_player is"	"player attacker"
+			}		
+		}
+		
+		"update"
+		{
+			"He's far away now"
+			{
+				"local_player get distance"				"entity entity1"
+				"distance !less than"					"float 250.0"
+				"void close"							"void"
+			}
+			
+			"He vanished somehow"
+			{
+				"entity1 is"							"entity NULL"
+				"void close"							"void"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Notify this survivor that they are being attacked from
+	// behind.
+	//--------------------------------------------------------
+	"Notify Infected Behind"
+	{
+		"team"				"2"
+		"priority"			"127"
+		"instance_type"		"2"
+	
+		"display_limit"		"10"
+		"success_limit"		"3"
+
+		"binding"			"+lookspin"			[$X360]
+		"onscreen_icon"		"use_binding"		[$X360]
+		"onscreen_icon"		"icon_alert_red"	[$WIN32]
+		"caption"			"#L4D_Instructor_notify_infected_behind"
+
+		"open"
+		{
+			"player_hurt"
+			{
+				"local_player is"						"player userid"
+				"entity1 set"							"entity attackerentid"
+				"entity1 classname is"					"string class C_Infected"
+				"local_player get angular distance"		"entity entity1"
+				"distance !less than"					"float 120.0"
+				"icon_target set"						"player local_player"
+			}
+		}
+		
+		"close"
+		{
+			"entity_shoved"
+			{
+				"entity1 is"		"entity entityid"
+			}
+			"player_incapacitated"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+		
+		"success"
+		{
+			"player_shoved"
+			{
+				"entity1 is"		"player userid"
+				"local_player is"	"player attacker"
+			}
+			"entity_shoved"
+			{
+				"entity1 is"		"entity entityid"
+				"local_player is"	"player attacker"
+			}		
+		}
+		
+		"update"
+		{
+			"Now facing attacker"
+			{
+				"local_player get angular distance"		"entity entity1"
+				"distance less than"					"float 60.0"
+				"void success"							"void"
+				"void close"							"void"
+			}
+			
+			"He's far away now"
+			{
+				"local_player get distance"				"entity entity1"
+				"distance !less than"					"float 250.0"
+				"void close"							"void"
+			}
+			
+			"He vanished somehow"
+			{
+				"entity1 is"							"entity NULL"
+				"void close"							"void"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this survivor that they should shove back boomers
+	//--------------------------------------------------------
+	"Notify Shove Boomer"
+	{
+		"team"				"2"
+		"priority"			"130"
+		"instance_type"		"2"
+	
+		"display_limit"		"10"
+		"success_limit"		"3"
+
+		"binding"			"+attack2"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_notify_shove_boomer"
+		"icon_offset"		"12.0"
+		"range"				"180.0"
+
+		"open"
+		{
+			"boomer_near"
+			{
+				"local_player is"		"player victim"
+				"icon_target set"		"player userid"
+			}
+		}
+		
+		"close"
+		{
+			"player_death"
+			{
+				"icon_target is"	"entity entityid"
+			}
+			"player_death"
+			{
+				"icon_target is"	"player userid"
+			}
+			"entity_shoved"
+			{
+				"icon_target is"	"entity entityid"
+			}
+			"player_shoved"
+			{
+				"icon_target is"	"player userid"
+			}
+			"player_now_it"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+		
+		"success"
+		{
+			"player_shoved"
+			{
+				"icon_target is"	"player userid"
+				"local_player is"	"player attacker"
+			}
+			"entity_shoved"
+			{
+				"icon_target is"	"entity entityid"
+				"local_player is"	"player attacker"
+			}		
+		}
+		
+		"update"
+		{
+			"Boomer Changed Class Somehow"
+			{
+				"icon_target !weapon is"	"string weapon_boomer_claw"
+				"void close"				"void"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Notify the player that they were given an item
+	//--------------------------------------------------------
+	"Notify Given Item"
+	{
+		"team"				"2"
+		"priority"			"91"
+		"instance_type"		"1"
+		
+		"timeout"						"8"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"weapon_given"
+			{
+				"local_player is"						"player userid"
+				"integer1 set"							"int weapon"
+				"integer1 is"							"int 12"	// CSWeaponID WEAPON_PAIN_PILLS
+				"icon_target set"						"player local_player"
+				"onscreen_icon set"						"string icon_painpills"
+				"caption set"							"string #L4D_Instructor_notify_given_item_pain_pills"
+				"entity1 set"							"player giver"
+				"entity1 get player display name"		"int 1"
+				"caption_param set"						"string string1"
+			}
+		}
+		
+		"close"
+		{
+			"pills_used"
+			{
+				"local_player is"	"player userid"
+			}
+			
+			"weapon_given"
+			{
+				"local_player is"		"player giver"
+				"integer1 set"			"int weapon"
+				"integer1 is"			"int 12"	// CSWeaponID WEAPON_PAIN_PILLS
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Notify the player that they failed to give a duplicate
+	// weapon.
+	//--------------------------------------------------------
+	"Notify Failed To Give Duplicate"
+	{
+		"team"				"2"
+		"priority"			"91"
+		"instance_type"		"2"
+		
+		"timeout"						"8"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"weapon_give_duplicate_fail"
+			{
+				"local_player is"						"player giver"
+				"integer1 set"							"int weapon"
+				"integer1 is"							"int 12"	// CSWeaponID WEAPON_PAIN_PILLS
+				"icon_target set"						"player local_player"
+				"onscreen_icon set"						"string icon_painpills"
+				"caption set"							"string #L4D_Instructor_notify_failed_to_give_duplicate_pills"
+				"entity1 set"							"player userid"
+				"entity1 get player display name"		"int 1"
+				"caption_param set"						"string string1"
+			}
+		}
+		
+		"close"
+		{
+			"pills_used"
+			{
+				"local_player is"	"player userid"
+			}
+			
+			"weapon_given"
+			{
+				"local_player is"		"player giver"
+				"integer1 set"			"int weapon"
+				"integer1 is"			"int 12"	// CSWeaponID WEAPON_PAIN_PILLS
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Notify the player that they failed to use pills because
+	// their health is already full
+	//--------------------------------------------------------
+	"Notify Failed To Use Pills"
+	{
+		"team"				"2"
+		"priority"			"0"
+		"instance_type"		"2"
+		
+		"onscreen_icon"				"icon_painpills"
+		"caption"					"#L4D_Instructor_notify_failed_to_use_pills"
+		
+		"timeout"						"8"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"pills_used_fail"
+			{
+				"local_player is"						"player userid"
+				"icon_target set"						"player local_player"
+			}
+		}
+		
+		"close"
+		{
+			"pills_used"
+			{
+				"local_player is"	"player userid"
+			}
+			
+			"weapon_given"
+			{
+				"local_player is"		"player giver"
+				"integer1 set"			"int weapon"
+				"integer1 is"			"int 12"	// CSWeaponID WEAPON_PAIN_PILLS
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this survivor that they should heal themself.
+	//--------------------------------------------------------
+	"Notify Heal Self"
+	{
+		"team"				"2"
+		"priority"			"88"
+		"instance_type"		"1"
+	
+		"display_limit"		"8"
+		"success_limit"		"4"
+
+		"gamepad_binding"	"slot4"
+		"binding"			"+invnext;+invprev"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_notify_heal_self"
+		"lock_duration"		"5"
+		
+		"integer1"			"1"
+		"integer2"			"0"
+
+		"open"
+		{
+			"player_hurt"
+			{
+				"local_player is"				"player userid"
+				"local_player health less than"	"int 45"
+				"local_player weapon has"		"string weapon_first_aid_kit"
+				"icon_target set"				"player local_player"
+			}
+			"item_pickup"
+			{
+				"local_player is"				"player userid"
+				"string1 set"					"string item"
+				"string1 is"					"string first_aid_kit"
+				"local_player health less than"	"int 45"
+				"icon_target set"				"player local_player"
+			}
+			"entity_visible"
+			{
+				"local_player is"				"player userid"
+				"string1 set"					"string classname"
+				"string1 is"					"string prop_door_rotating_checkpoint"
+				"string2 set"					"string entityname"
+				"string2 is"					"string checkpoint_exit"
+				"local_player health less than"	"int 45"
+				"local_player weapon has"		"string weapon_first_aid_kit"
+				"icon_target set"				"player local_player"
+			}
+			"revive_success"
+			{
+				"local_player is"				"player subject"
+				"local_player health less than"	"int 45"
+				"local_player weapon has"		"string weapon_first_aid_kit"
+				"icon_target set"				"player local_player"
+			}
+		}
+		
+		"close"
+		{
+			"heal_begin"	// getting healed
+			{
+				"local_player is"	"player subject"
+				"visible set"		"bool 0"
+				"integer1 set"		"int 0"
+				"visible is"		"bool 1"	// Make invisible, but DON'T actually close
+			}
+			"heal_interrupted"
+			{
+				"local_player is"	"player subject"
+				"visible set"		"bool 1"
+				"integer1 set"		"int 1"
+				"visible is"		"bool 0"	// Make visible, but DON'T actually close
+			}
+			"heal_success"
+			{
+				"local_player is"	"player subject"
+			}
+			"heal_success"
+			{
+				"local_player is"	"player userid"
+			}
+			"pills_used"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+		
+		"success"
+		{
+			"heal_success"
+			{
+				"local_player is"	"player userid"
+				"local_player is"	"player subject"
+			}
+		}
+		
+		"update"
+		{
+			"Base Setting"
+			{
+				"gamepad_binding set"		"string slot4"
+				"binding set"				"string +invnext;+invprev"
+				"caption set"				"string #L4D_Instructor_notify_heal_self"
+				"local_player !weapon is"	"string weapon_first_aid_kit"
+				"integer2 set"				"int 0"
+			}
+			"Wants To Be Visible Unless Healing Other"
+			{
+				"integer1 is"								"int 1"		// Should be visible
+				"visible set"								"bool 1"
+				"local_player get use target"				"int 2"
+				"entity2 team is"							"int 2"
+				"entity2 health less than"					"int 70"
+				"entity2 !weapon has"						"string weapon_first_aid_kit"
+				"local_player weapon is"					"string weapon_first_aid_kit"	
+				"visible set"								"bool 0"
+			}
+			"Select First Aid Kit"
+			{
+				"local_player weapon is"	"string weapon_first_aid_kit"
+				"binding set"				"string +attack"
+				"caption set"				"string #L4D_Instructor_notify_heal_self_hold"
+				"integer2 is"				"int 0"
+				"void lock"					"void"
+				"integer2 set"				"int 1"
+			}
+			"Got Healthy Somehow"
+			{
+				"local_player !health less than"	"int 45"
+				"void close"						"void"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Notify this survivor that they should eat some pills
+	//--------------------------------------------------------
+	"Notify Pill Self"
+	{
+		"team"				"2"
+		"priority"			"88"
+		"instance_type"		"1"
+	
+		"display_limit"		"8"
+		"success_limit"		"4"
+
+		"gamepad_binding"	"slot5"	
+		"binding"			"+invnext;+invprev"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_notify_pill_self"
+		
+		"timeout"						"20.0"
+		"can_timeout_while_inactive"	"1"
+		
+		"integer1"			"1"
+
+		"open"
+		{
+			"player_hurt"
+			{
+				"local_player is"				"player userid"
+				"local_player health less than"	"int 45"
+				"local_player !weapon has"		"string weapon_first_aid_kit"
+				"local_player weapon has"		"string weapon_pain_pills"
+				"icon_target set"				"player local_player"
+			}
+			"item_pickup"
+			{
+				"local_player is"				"player userid"
+				"local_player !weapon has"		"string weapon_first_aid_kit"
+				"string1 set"					"string item"
+				"string1 is"					"string pain_pills"
+				"local_player health less than"	"int 45"
+				"icon_target set"				"player local_player"
+			}
+			"revive_success"
+			{
+				"local_player is"				"player subject"
+				"local_player health less than"	"int 45"
+				"local_player !weapon has"		"string weapon_first_aid_kit"
+				"local_player weapon has"		"string weapon_pain_pills"
+				"icon_target set"				"player local_player"
+			}
+		}
+		
+		"close"
+		{
+			"heal_begin"	// getting healed
+			{
+				"local_player is"	"player subject"
+				"visible set"		"bool 0"
+				"integer1 set"		"int 0"
+				"visible is"		"bool 1"	// Make invisible, but DON'T actually close
+			}
+			"heal_interrupted"
+			{
+				"local_player is"	"player subject"
+				"visible set"		"bool 1"
+				"integer1 set"		"int 1"
+				"visible is"		"bool 0"	// Make visible, but DON'T actually close
+			}
+			"heal_success"
+			{
+				"local_player is"	"player subject"
+			}
+			"pills_used"
+			{
+				"local_player is"	"player userid"
+			}
+			"weapon_given"			// Gave away the pills
+			{
+				"local_player is"	"player giver"
+				"integer1 set"		"int weapon"
+				"integer1 is"		"int 12"	// CSWeaponID WEAPON_PAIN_PILLS
+			}
+			"item_pickup"			// Picked up a health kit
+			{
+				"local_player is"	"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string first_aid_kit"
+			}
+		}
+		
+		"success"
+		{
+			"pills_used"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+		
+		"update"
+		{
+			"Base Setting"
+			{
+				"gamepad_binding set"	"string slot5"
+				"binding set"			"string +invnext;+invprev"
+			}
+		
+			"Wants To Be Visible Unless Healing Other"
+			{
+				"integer1 is"								"int 1"		// Should be visible
+				"visible set"								"bool 1"
+				"local_player get use target"				"int 2"
+				"entity2 team is"							"int 2"
+				"entity2 !weapon has"						"string weapon_pain_pills"
+				"local_player weapon is"					"string weapon_pain_pills"
+				"visible set"								"bool 0"
+			}
+
+			"Select First Aid Kit"
+			{
+				"local_player weapon is"	"string weapon_pain_pills"
+				"binding set"				"string +attack"
+			}
+			
+			"Got Healthy Somehow"
+			{
+				"local_player !health less than"	"int 45"
+				"void close"						"void"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this survivor that they should heal someone else.
+	//--------------------------------------------------------
+	"Notify Heal Other"
+	{
+		"team"				"2"
+		"priority"			"86"
+		"instance_type"		"1"
+	
+		"display_limit"		"12"
+		"success_limit"		"4"
+
+		"onscreen_icon"		"icon_medkit"
+		"caption"			"#L4D_Instructor_notify_heal_other"
+		"range"				"700.0"
+		"icon_offset"		"12.0"
+		"no_offscreen"		"1"
+		"update_interval"	"0.25"
+
+		"open"
+		{
+			"player_hurt"
+			{
+				"local_player !is"							"player userid"
+				"entity1 set"								"player userid"
+				"entity1 team is"							"int 2"
+				"entity1 health less than"					"int 45"
+				"local_player weapon has"					"string weapon_first_aid_kit"
+				"entity1 !weapon has"						"string weapon_first_aid_kit"
+				"icon_target set"							"player userid"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"							"string string1"
+			}
+			"entity_visible"
+			{
+				"local_player !is"						"player userid"
+				"string1 set"							"string classname"
+				"string1 is"							"string prop_door_rotating_checkpoint"
+				"string2 set"							"string entityname"
+				"string2 is"							"string checkpoint_exit"
+				"entity1 set"							"player userid"
+				"entity1 health less than"				"int 45"
+				"local_player weapon has"				"string weapon_first_aid_kit"
+				"entity1 !weapon has"					"string weapon_first_aid_kit"
+				"icon_target set"						"player userid"
+				"icon_target get player display name"	"int 1"
+				"caption_param set"						"string string1"
+			}
+			"revive_success"
+			{
+				"local_player !is"							"player subject"
+				"entity1 set"								"player subject"
+				"entity1 team is"							"int 2"
+				"entity1 health less than"					"int 45"
+				"local_player weapon has"					"string weapon_first_aid_kit"
+				"entity1 !weapon has"						"string weapon_first_aid_kit"
+				"icon_target set"							"player subject"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"							"string string1"
+			}
+		}
+		
+		"close"
+		{
+			"heal_begin"	// healing someone with our kit
+			{
+				"local_player is"	"player userid"
+				"visible set"		"bool 0"
+				"visible is"		"bool 1"	// Make invisible, but DON'T actually close
+			}
+			"heal_interrupted"
+			{
+				"local_player is"	"player userid"
+				"visible set"		"bool 1"
+				"visible is"		"bool 0"	// Make visible, but DON'T actually close
+			}
+			"heal_begin"	// other is getting healed by someone
+			{
+				"entity1 is"	"player subject"
+				"visible set"	"bool 0"
+				"visible is"	"bool 1"	// Make invisible, but DON'T actually close
+			}
+			"heal_interrupted"
+			{
+				"entity1 is"	"player subject"
+				"visible set"	"bool 1"
+				"visible is"	"bool 0"	// Make visible, but DON'T actually close
+			}
+			"heal_success"	// other got healed
+			{
+				"entity1 is"	"player subject"
+			}
+			"heal_success"	// I healed someone (no more kit)
+			{
+				"local_player is"	"player userid"
+			}
+			"pills_used"	// other used pills
+			{
+				"entity1 is"	"player userid"
+			}
+			"player_death"
+			{
+				"entity1 is"	"player userid"
+			}
+			"item_pickup"			// other picked up a health kit
+			{
+				"entity1 is"		"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string first_aid_kit"
+			}
+		}
+		
+		"success"
+		{
+			"heal_success"
+			{
+				"local_player is"	"player userid"
+				"entity1 is"		"player subject"
+			}
+		}
+		
+		"update"
+		{
+			"Default"
+			{
+				"onscreen_icon set"		"string icon_medkit"
+				"caption set"			"string #L4D_Instructor_notify_heal_other"
+			}
+			
+			"Select Health Kit Near"
+			{
+				"local_player !weapon is"		"string weapon_first_aid_kit"
+				"local_player use target is"	"player entity1"
+				"gamepad_binding set"			"string slot4"
+				"binding set"					"string +invnext;+invprev"
+				"onscreen_icon set"				"string use_binding"
+				"caption set"					"string #L4D_Instructor_notify_heal_other_near_select"
+			}
+			
+			"Use Health Kit Near"
+			{
+				"local_player weapon is"		"string weapon_first_aid_kit"
+				"local_player use target is"	"player entity1"
+				"binding set"					"string +attack2"
+				"onscreen_icon set"				"string use_binding"
+				"caption set"					"string #L4D_Instructor_notify_heal_other_near"
+			}
+			
+			"Use Health Kit Far"
+			{
+				"local_player weapon is"		"string weapon_first_aid_kit"
+				"local_player !use target is"	"player entity1"
+				"onscreen_icon set"				"string icon_alert"
+				"caption set"					"string #L4D_Instructor_notify_heal_other_far"
+			}
+			
+			"Got Healthy Somehow"
+			{
+				"icon_target !health less than"		"int 45"
+				"void close"						"void"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Notify this survivor that they can heal other near-by.
+	//--------------------------------------------------------
+	"Notify Heal Other (non-urgent)"
+	{
+		"team"				"2"
+		"priority"			"84"
+		"instance_type"		"1"
+	
+		"success_limit"		"2"
+
+		"binding"			"+attack2"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_notify_heal_other_near"
+		"icon_offset"		"12.0"
+		"no_offscreen"		"1"
+
+		"open"
+		{
+			"use_target"
+			{
+				"string1 set"								"string classname"
+				"entity1 set"								"entity targetid"
+				"entity1 team is"							"int 2"
+				"entity1 health less than"					"int 70"
+				"local_player weapon is"					"string weapon_first_aid_kit"
+				"icon_target set"							"entity targetid"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"							"string string1"
+			}
+		}
+		
+		"close"
+		{
+			"heal_begin"	// other is getting healed by someone
+			{
+				"entity1 is"	"player subject"
+				"visible set"	"bool 0"
+				"visible is"	"bool 1"	// Make invisible, but DON'T actually close
+			}
+			"heal_interrupted"
+			{
+				"entity1 is"	"player subject"
+				"visible set"	"bool 1"
+				"visible is"	"bool 0"	// Make visible, but DON'T actually close
+			}
+			"heal_success"	// other got healed
+			{
+				"entity1 is"	"player subject"
+			}
+			"heal_success"	// I healed someone (no more kit)
+			{
+				"local_player is"	"player userid"
+			}
+			"pills_used"	// other used pills
+			{
+				"entity1 is"	"player userid"
+			}
+			"player_death"
+			{
+				"entity1 is"	"player userid"
+			}
+			"item_pickup"			// other picked up a health kit
+			{
+				"entity1 is"		"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string first_aid_kit"
+			}
+		}
+		
+		"success"
+		{
+			"heal_success"
+			{
+				"local_player is"	"player userid"
+				"entity1 is"		"player subject"
+			}
+		}
+		
+		"update"
+		{
+			"Not Looking At Him Anymore"
+			{
+				"local_player !use target is"		"player icon_target"
+				"void close"						"void"
+			}
+			
+			"Selected Different Weapon"
+			{
+				"local_player !weapon is"			"string weapon_first_aid_kit"
+				"void close"						"void"
+			}
+					
+			"Got Healthy Somehow"
+			{
+				"icon_target !health less than"		"int 70"
+				"void close"						"void"
+			}
+		}
+	}
+
+
+	//--------------------------------------------------------
+	// Notify this survivor that they can give pills to another player.
+	//--------------------------------------------------------
+	"Notify Give Pills"
+	{
+		"team"				"2"
+		"priority"			"83"
+		"instance_type"		"1"
+	
+		"display_limit"		"8"
+		"success_limit"		"4"
+
+		"onscreen_icon"		"icon_painpills"
+		"caption"			"#L4D_Instructor_notify_give_pills"
+		"range"				"700.0"
+		"icon_offset"		"12.0"
+		"no_offscreen"		"1"
+		"update_interval"	"0.25"
+		
+		"timeout"						"20.0"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"player_hurt"
+			{
+				"local_player !is"							"player userid"
+				"entity1 set"								"player userid"
+				"entity1 team is"							"int 2"
+				"entity1 health less than"					"int 45"
+				"local_player weapon has"					"string weapon_pain_pills"
+				"local_player !weapon has"					"string weapon_first_aid_kit"
+				"entity1 !weapon has"						"string weapon_pain_pills"
+				"entity1 !weapon has"						"string weapon_first_aid_kit"
+				"icon_target set"							"player userid"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"							"string string1"
+			}
+			"entity_visible"
+			{
+				"local_player is"						"player userid"
+				"string1 set"							"string classname"
+				"string1 is"							"string prop_door_rotating_checkpoint"
+				"string2 set"							"string entityname"
+				"string2 is"							"string checkpoint_exit"
+				"entity1 set"							"player userid"
+				"entity1 health less than"				"int 45"
+				"local_player weapon has"				"string weapon_pain_pills"
+				"local_player !weapon has"				"string weapon_first_aid_kit"
+				"entity1 !weapon has"					"string weapon_pain_pills"
+				"entity1 !weapon has"					"string weapon_first_aid_kit"
+				"icon_target set"						"player userid"
+				"icon_target get player display name"	"int 1"
+				"caption_param set"						"string string1"
+			}
+			"revive_success"
+			{
+				"local_player !is"							"player subject"
+				"entity1 set"								"player subject"
+				"entity1 team is"							"int 2"
+				"entity1 health less than"					"int 45"
+				"local_player weapon has"					"string weapon_pain_pills"
+				"local_player !weapon has"					"string weapon_first_aid_kit"
+				"entity1 !weapon has"						"string weapon_pain_pills"
+				"entity1 !weapon has"						"string weapon_first_aid_kit"
+				"icon_target set"							"player subject"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"							"string string1"
+			}
+		}
+		
+		"close"
+		{
+			"heal_begin"	// other is getting healed
+			{
+				"entity1 is"	"player subject"
+				"visible set"	"bool 0"
+				"visible is"	"bool 1"	// Make invisible, but DON'T actually close
+			}
+			"heal_interrupted"
+			{
+				"entity1 is"	"player subject"
+				"visible set"	"bool 1"
+				"visible is"	"bool 0"	// Make visible, but DON'T actually close
+			}
+			"heal_success"	// other got healed
+			{
+				"entity1 is"	"player subject"
+			}
+			"weapon_given"
+			{
+				"entity1 is"	"player userid"
+				"integer1 set"	"int weapon"
+				"integer1 is"	"int 12"	// CSWeaponID WEAPON_PAIN_PILLS
+			}
+			"weapon_given"
+			{
+				"local_player is"	"player giver"
+				"integer1 set"		"int weapon"
+				"integer1 is"		"int 12"	// CSWeaponID WEAPON_PAIN_PILLS
+			}
+			"item_pickup"	// other picked up pills
+			{
+				"entity1 is"	"player userid"
+				"string1 set"	"string item"
+				"string1 is"	"string pain_pills"
+			}
+			"item_pickup"			// other picked up a health kit
+			{
+				"entity1 is"		"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string first_aid_kit"
+			}
+			"pills_used"	// other used pills
+			{
+				"entity1 is"	"player userid"
+			}
+			"pills_used"	// I used my pills
+			{
+				"local_player is"	"player userid"
+			}
+			"player_death"
+			{
+				"entity1 is"		"player userid"
+			}
+		}
+		
+		"success"
+		{
+			"weapon_given"
+			{
+				"entity1 is"		"player userid"
+				"local_player is"	"player giver"
+				"integer1 set"		"int weapon"
+				"integer1 is"		"int 12"	// CSWeaponID WEAPON_PAIN_PILLS
+			}
+		}
+		
+		"update"
+		{
+			"Default"
+			{
+				"onscreen_icon set"		"string icon_painpills"
+				"caption set"			"string #L4D_Instructor_notify_give_pills"
+			}
+			
+			"Select Pain Pills Near"
+			{
+				"local_player !weapon is"		"string weapon_pain_pills"
+				"local_player use target is"	"player entity1"
+				"gamepad_binding set"			"string slot5"
+				"binding set"					"string +invnext;+invprev"
+				"onscreen_icon set"				"string use_binding"
+				"caption set"					"string #L4D_Instructor_notify_give_pills_near_select"
+			}
+			
+			"Use Pain Pills Near"
+			{
+				"local_player weapon is"		"string weapon_pain_pills"
+				"local_player use target is"	"player entity1"
+				"binding set"					"string +attack2"
+				"onscreen_icon set"				"string use_binding"
+				"caption set"					"string #L4D_Instructor_notify_give_pills_near"
+			}
+			
+			"Use Pain Pills Far"
+			{
+				"local_player weapon is"		"string weapon_pain_pills"
+				"local_player !use target is"	"player entity1"
+				"onscreen_icon set"				"string icon_alert"
+				"caption set"					"string #L4D_Instructor_notify_give_pills_far"
+			}
+			
+			"Got Healthy Somehow"
+			{
+				"icon_target !health less than"		"int 45"
+				"void close"						"void"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Notify this survivor that they can give pills to 
+	// other nearby player.
+	//--------------------------------------------------------
+	"Notify Give Pills (non-urgent)"
+	{
+		"team"				"2"
+		"priority"			"82"
+		"instance_type"		"1"
+	
+		"success_limit"		"2"
+
+		"binding"			"+attack2"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_notify_give_pills_near"
+		"icon_offset"		"12.0"
+		"no_offscreen"		"1"
+
+		"open"
+		{
+			"use_target"
+			{
+				"string1 set"								"string classname"
+				"entity1 set"								"entity targetid"
+				"entity1 team is"							"int 2"
+				"local_player weapon is"					"string weapon_pain_pills"
+				"entity1 !weapon has"						"string weapon_pain_pills"
+				"icon_target set"							"entity targetid"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"							"string string1"
+			}
+		}
+		
+		"close"
+		{
+			"heal_begin"	// other is getting healed
+			{
+				"entity1 is"	"player subject"
+				"visible set"	"bool 0"
+				"visible is"	"bool 1"	// Make invisible, but DON'T actually close
+			}
+			"heal_interrupted"
+			{
+				"entity1 is"	"player subject"
+				"visible set"	"bool 1"
+				"visible is"	"bool 0"	// Make visible, but DON'T actually close
+			}
+			"heal_success"	// other got healed
+			{
+				"entity1 is"	"player subject"
+			}
+			"weapon_given"
+			{
+				"entity1 is"	"player userid"
+				"integer1 set"	"int weapon"
+				"integer1 is"	"int 12"	// CSWeaponID WEAPON_PAIN_PILLS
+			}
+			"weapon_given"
+			{
+				"local_player is"	"player giver"
+				"integer1 set"		"int weapon"
+				"integer1 is"		"int 12"	// CSWeaponID WEAPON_PAIN_PILLS
+			}
+			"item_pickup"	// other picked up pills
+			{
+				"entity1 is"	"player userid"
+				"string1 set"	"string item"
+				"string1 is"	"string pain_pills"
+			}
+			"item_pickup"			// other picked up a health kit
+			{
+				"entity1 is"		"player userid"
+				"string1 set"		"string item"
+				"string1 is"		"string first_aid_kit"
+			}
+			"pills_used"	// other used pills
+			{
+				"entity1 is"	"player userid"
+			}
+			"pills_used"	// I used my pills
+			{
+				"local_player is"	"player userid"
+			}
+			"player_death"
+			{
+				"entity1 is"		"player userid"
+			}
+		}
+		
+		"success"
+		{
+			"weapon_given"
+			{
+				"entity1 is"		"player userid"
+				"local_player is"	"player giver"
+				"integer1 set"		"int weapon"
+				"integer1 is"		"int 12"	// CSWeaponID WEAPON_PAIN_PILLS
+			}
+		}
+		
+		"update"
+		{
+			"Not Looking At Him Anymore"
+			{
+				"local_player !use target is"		"player icon_target"
+				"void close"						"void"
+			}
+			
+			"Selected Different Weapon"
+			{
+				"local_player !weapon is"			"string weapon_pain_pills"
+				"void close"						"void"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Explain how pill temp health works
+	//--------------------------------------------------------
+	"Explain Pill Temp Health"
+	{
+		"team"				"2"
+		"priority"			"91"
+		"instance_type"		"1"
+	
+		"display_limit"		"2"
+
+		"onscreen_icon"					"icon_painpills"
+		"caption"						"#L4D_Instructor_explain_pill_temp_health"
+		"timeout"						"8"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"pills_used"
+			{
+				"local_player is"	"player userid"
+				"icon_target set"	"player local_player"
+			}
+		}
+	}
+
+
+	//--------------------------------------------------------
+	// Notify this survivor that they are hanging from a ledge
+	// and helpless until another survivor assists them.
+	//--------------------------------------------------------
+	"Notify Ledge"
+	{
+		"team"				"2"
+		"priority"			"135"
+	
+		"display_limit"		"3"		[$WIN32]
+
+		"onscreen_icon"		"icon_alert"
+		"caption"			"#L4D_Instructor_notify_ledge"
+
+		"open"
+		{
+			"player_ledge_grab"
+			{
+				"local_player is"	"player userid"
+				"integer1 set"		"bool has_upgrade"
+				"integer1 !is"		"int 1"
+				"icon_target set"	"player local_player"
+			}
+		}
+		
+		"close"	
+		{
+			"revive_success"
+			{
+				"local_player is"	"player subject"
+			}
+			
+			"player_ledge_release"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this survivor that they are hanging from a ledge
+	// and explain any upgrades that may help them.
+	//--------------------------------------------------------
+	"Notify Ledge Upgrade"
+	{
+		"team"			"2"
+		"priority"		"135"
+
+		"binding"		"+attack"
+		"onscreen_icon"	"use_binding"
+		"caption"		"#L4D_Instructor_notify_ledge_upgrade"
+
+		"open"
+		{
+			"player_ledge_grab"
+			{
+				"local_player is"	"player userid"
+				"integer1 set"		"bool has_upgrade"
+				"integer1 is"		"int 1"
+				"icon_target set"	"player local_player"
+			}
+		}
+		
+		"close"	
+		{
+			"revive_success"
+			{
+				"local_player is"	"player subject"
+			}
+			
+			"player_ledge_release"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate that a fellow survivor is hanging from a ledge
+	// and needs assistance
+	//--------------------------------------------------------
+	"Help Ledge"
+	{
+		"team"				"2"
+		"priority"			"120"
+	
+		"success_limit"		"2"
+
+		"binding"			"+use"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"caption"			"#L4D_Instructor_help_ledge"
+		"icon_offset"		"50"
+
+		"open"
+		{
+			"player_ledge_grab"
+			{
+				"local_player !is"							"player userid"
+				"entity1 set"								"player userid"
+				"entity1 team is"							"int 2"
+				"icon_target set"							"player userid"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"							"string string1"
+			}
+
+			"revive_end"
+			{
+				"local_player !is"							"player subject"
+				"entity1 set"								"player subject"
+				"integer1 set"								"bool ledge_hang"
+				"integer1 !is"								"int 0"
+				"icon_target set"							"player subject"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"							"string string1"
+			}
+		}
+		
+		"close"	
+		{
+			"player_death"
+			{
+				"entity1 is"		"player userid"
+			}
+
+			"revive_begin"
+			{
+				"entity1 is"		"player subject"
+			}
+
+			"revive_success"
+			{
+				"entity1 is"		"player subject"
+			}
+			
+			"player_ledge_release"
+			{
+				"entity1 is"		"player userid"
+			}
+		}
+		
+		"success"
+		{
+			"revive_success"
+			{
+				"local_player is"	"player userid"
+				"entity1 is"		"player subject"
+			}
+		}
+
+		"update"
+		{
+			"Base Icon"
+			{
+				"onscreen_icon set"	"string icon_alert_red"
+			}
+
+			"Selected Survivor"
+			{
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"		"string use_binding"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this survivor that they are dead, killed by a
+	// witch and will have a chance to respawn
+	//--------------------------------------------------------
+	"Notify Dead By Witch"
+	{
+		"team"				"2"
+		"priority"			"150"
+		"instance_type"		"1"
+
+		"display_limit"		"2"
+
+		"can_open_when_dead"	"1"
+		"onscreen_icon"			"icon_tip"
+		"caption"				"#L4D_Instructor_notify_dead_by_witch1"
+		"timout"				"30"
+		"integer2"				"1"
+		"float1"				"1.5"
+		"start_sound"			""
+
+		"open"
+		{
+			"player_death"
+			{
+				"local_player is"		"player userid"
+				"entity2 set"			"entity attackerentid"
+				"entity2 classname is"	"string class C_Witch"
+				"entity1 set"			"player userid"
+				"icon_target set"		"player local_player"
+			}
+		}
+		
+		"close"
+		{
+			"survivor_call_for_help"
+			{
+				"local_player team is"	"int 2"
+				"local_player is"		"player userid"
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"			"int 2"
+				"float1 is"				"float 0.0"
+				"caption set"			"string #L4D_Instructor_notify_dead_by_witch1"
+				"float1 set"			"float 1.5"
+				"integer2 set"			"int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"			"int 1"
+				"float1 is"				"float 0.0"
+				"caption set"			"string #L4D_Instructor_notify_dead_by_witch2"
+				"float1 set"			"float 1.5"
+				"integer2 set"			"int 2"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this survivor that they are incapacitated from
+	// injury and helpless until another survivor assists 
+	// them.
+	//--------------------------------------------------------
+	"Notify Incapacitated"
+	{
+		"team"				"2"
+		"priority"			"135"
+		"instance_type"		"1"
+
+		"display_limit"		"3"
+
+		"onscreen_icon"		"icon_alert"
+		"caption"			"#L4D_Instructor_notify_incapacitated"
+		"caption_color"		"255,255,0"
+		"start_sound"		""
+
+		"open"
+		{
+			"player_incapacitated"
+			{
+				"local_player is"		"player userid"
+				"integer1 set"			"bool has_upgrade"
+				"integer1 !is"			"int 1"
+				"icon_target set"		"player local_player"		
+			}
+		}
+
+		"close"
+		{
+			"revive_success"
+			{
+				"local_player is"	"player subject"
+			}
+			"player_death"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this survivor that they are incapacitated from
+	// injury and notify them if they have an appropriate 
+	// upgrade to help themselves.
+	//--------------------------------------------------------
+	"Notify Incapacitated Upgrade"
+	{
+		"team"				"2"
+		"priority"			"135"
+		"instance_type"		"1"
+
+		"binding"			"+attack"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_notify_incapacitated_upgrade"
+		"caption_color"		"255,255,0"
+
+		"open"
+		{
+			"player_incapacitated"
+			{
+				"local_player is"	"player userid"
+				"integer1 set"		"bool has_upgrade"
+				"integer1 is"		"int 1"
+				"icon_target set"	"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"revive_success"
+			{
+				"local_player is"	"player subject"
+			}
+			"player_death"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this survivor that they are incapacitated from
+	// a witch attack and helpless until another survivor 
+	// assists them
+	//--------------------------------------------------------
+	"Notify Incapacitated By Witch"
+	{
+		"team"				"2"
+		"priority"			"137"
+		"instance_type"		"1"
+
+		"display_limit"		"3"
+
+		"onscreen_icon"		"icon_alert"
+		"caption"			"#L4D_Instructor_notify_incapacitated_by_witch"
+		"caption_color"		"255,255,0"
+		"start_sound"		""
+
+		"open"
+		{
+			"player_incapacitated"
+			{
+				"local_player is"		"player userid"
+				"integer1 set"			"bool has_upgrade"
+				"integer1 !is"			"int 1"
+				"entity1 set"			"entity attackerentid"
+				"entity1 classname is"	"string class C_Witch"
+				"icon_target set"		"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"revive_success"
+			{
+				"local_player is"	"player subject"
+			}
+			"player_death"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+	}
+
+
+	//--------------------------------------------------------
+	// Explain why a revive attempt was interrupted
+	//--------------------------------------------------------
+	"Revive Interrupted"
+	{
+		"team"				"2"
+		"priority"			"125"
+		"instance_type"		"1"
+
+		"display_limit"		"8"
+
+		"binding"						"+use"
+		"onscreen_icon"					"use_binding"
+		"caption"						"#L4D_Instructor_revive_end"
+		"timeout"						"8.0"
+		"can_timeout_while_inactive"	"1"
+		
+		"open"
+		{
+			"revive_end"
+			{
+				"local_player is"					"player userid"
+				"icon_target set"					"player local_player"
+				"entity1 set"						"player subject"
+				"entity1 get player display name"	"int 1"
+				"caption_param set"					"string string1"
+			}
+		}
+		
+		"close"
+		{
+			"revive_begin"
+			{
+				"local_player is"	"player userid"
+			}
+			
+			"player_death"
+			{
+				"entity1 is"		"player userid"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate that a fellow survivor is incapacitated and 
+	// requires assistance
+	//--------------------------------------------------------
+	"Help Incapacitated"
+	{
+		"team"				"2"
+		"priority"			"110"
+
+		"success_limit"		"2"
+
+		"binding"			"+use"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"caption"			"#L4D_Instructor_help_incapacitated"
+		"integer2"			"1"
+		"float1"			"1.0"
+		
+		"open"
+		{
+			"player_incapacitated"
+			{
+				"local_player !is"							"player userid"
+				"entity1 set"								"player userid"
+				"entity1 team is"							"int 2"
+				"icon_target set"							"player userid"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"							"string string1"
+			}
+
+			"revive_end"
+			{
+				"local_player !is"							"player subject"
+				"entity1 set"								"player subject"
+				"integer1 set"								"bool ledge_hang"
+				"integer1 is"								"int 0"
+				"icon_target set"							"player subject"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"							"string string1"
+			}
+		}
+
+		"close"
+		{
+			"player_death"
+			{
+				"entity1 is"		"player userid"
+			}
+
+			"revive_begin"
+			{
+				"entity1 is"		"player subject"
+			}
+
+			"revive_success"
+			{
+				"entity1 is"		"player subject"
+			}
+		}
+
+		"success"
+		{
+			"revive_success"
+			{
+				"entity1 is"		"player subject"
+				"local_player is"	"player userid"
+			}
+		}  
+
+		"update"
+		{
+			"Base Settings"
+			{
+				"onscreen_icon set"		"string icon_alert_red"
+				"icon_offset set"		"float 12.0"
+			}
+
+			"Don't Use Heath Kit"
+			{
+				"local_player weapon is"		"string weapon_first_aid_kit"
+				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string icon_noMedKit"
+			}
+
+			"Change to caption 1"
+			{
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_help_incapacitated"
+				"float1 set"                   "float 1.0"
+			}
+			
+			"Set Icon One"
+			{
+				"local_player !weapon is"		"string weapon_first_aid_kit"
+ 				"local_player use target is"	"entity icon_target"
+				"onscreen_icon set"				"string use_binding"
+				"icon_offset set"				"float 0.0"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this survivor that they have been vomited upon
+	// by a boomer and they are now "IT"
+	//--------------------------------------------------------
+	"Notify IT Vomit"
+	{
+		"team"				"2"
+		"priority"			"130"
+		"instance_type"		"1"
+
+		"display_limit"		"3"
+
+		"onscreen_icon"						"icon_alert"
+		"caption"							"#L4D_Instructor_notify_it1_vomit"
+		"timeout"							"20.0f"	// Saftey
+		"bump_with_timeout_when_learned"	"1"
+		"integer2"							"1"
+		"float1"							"1.5"
+		"start_sound"						""
+
+		"open"
+		{
+			"player_now_it"
+			{
+				"local_player is"	"player userid"
+				"integer1 set"		"bool exploded"
+				"integer1 is"		"int 0"
+				"entity1 set"		"player userid"
+				"icon_target set"	"player local_player"
+				"float1 set"		"float 1.5"
+				"integer2 set"		"int 1"
+			}
+		}
+
+		"close"
+		{
+			"player_no_longer_it"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" "float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_notify_it1_vomit"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_notify_it2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this survivor that they have been exploded upon
+	// by a boomer and they are now "IT"
+	//--------------------------------------------------------
+	"Notify IT Splatter"
+	{
+		"team"				"2"
+		"priority"			"130"
+
+		"display_limit"		"3"
+
+		"onscreen_icon"						"icon_alert"
+		"caption"							"#L4D_Instructor_notify_it1_splatter"
+		"timeout"							"20.0f"	// Saftey
+		"bump_with_timeout_when_learned"	"1"
+		"integer2"							"1"
+		"float1"							"1.5"
+		"start_sound"						""
+
+		"open"
+		{
+			"player_now_it"
+			{
+				"local_player is"	"player userid"
+				"integer1 set"		"bool exploded"
+				"integer1 is"		"int 1"
+				"entity1 set"		"player userid"
+				"icon_target set"	"player local_player"
+				"float1 set"		"float 1.5"
+				"integer2 set"		"int 1"
+			}
+		}
+
+		"close"
+		{
+			"player_no_longer_it"
+			{
+				"local_player is"	"player userid"
+			}
+		}
+
+        "update"
+        {
+			"Update Counter"
+			{
+				"float1 subtract"	"float 0.25"
+			}
+
+			"Change to caption 1 splatter"
+			{
+				"integer2 is"		"int 2"
+				"float1 is"			"float 0.0"
+				"caption set"		"string #L4D_Instructor_notify_it1_splatter"
+				"float1 set"		"float 1.5"
+				"integer2 set"		"int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"		"int 1"
+				"float1 is"			"float 0.0"
+				"caption set"		"string #L4D_Instructor_notify_it2"
+				"float1 set"		"float 1.5"
+				"integer2 set"		"int 2"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this surivor that a Hunter is presently pinning
+	// them to the ground and that they are waiting for 
+	// another survivor to assist them by attacking the 
+	// hunter.
+	//--------------------------------------------------------
+	"Notify Pounced"
+	{
+		"team"				"2"
+		"priority"			"140"
+
+		"display_limit"		"3"		[$WIN32]
+
+		"onscreen_icon"		"icon_alert"
+		"caption"			"#L4D_Instructor_notify_pounced"
+		"caption_color"		"255,255,0"
+		"flags"				"2"
+		"start_sound"		""
+
+		"open"
+		{
+			"lunge_pounce"
+			{
+				"local_player is"	"player victim"
+				"integer1 set"		"bool has_upgrade"
+				"integer1 is"		"int 0"
+				"entity1 set"		"player userid"
+				"icon_target set"	"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"pounce_end"
+			{
+				"icon_target is"	"player victim"
+			}
+			"player_death"
+			{
+				"entity1 is"		"player userid"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this surivor that a Hunter is presently pinning
+	// them to the ground and notify them to use an upgrade to
+	// save themselves.
+	//--------------------------------------------------------
+	"Notify Pounced Upgrade"
+	{
+		"team"				"2"
+		"priority"			"140"
+
+		"binding"			"+attack"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_notify_pounced_upgrade"
+		"caption_color"		"255,255,0"
+
+		"open"
+		{
+			"lunge_pounce"
+			{
+				"local_player is"	"player victim"
+				"integer1 set"		"bool has_upgrade"
+				"integer1 is"		"int 1"
+				"entity1 set"		"player userid"
+				"icon_target set"	"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"pounce_end"
+			{
+				"icon_target is"		"player victim"
+			}
+			"player_death"
+			{
+				"entity1 is"		"player userid"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this surivor that they are hanging from a Smoker
+	// tongue and that they are waiting for another survivor 
+	// to assist them.
+	//--------------------------------------------------------
+	"Notify Choked"
+	{
+		"team"				"2"
+		"priority"			"140"
+
+		"display_limit"		"3"		[$WIN32]
+
+		"onscreen_icon"		"icon_alert"
+		"caption"			"#L4D_Instructor_notify_choked"
+		"caption_color"		"255,255,0"
+		"start_sound"		""
+
+		"open"
+		{
+			"choke_start"
+			{
+				"local_player is"	"player victim"
+				"integer1 set"		"bool has_upgrade"
+				"integer1 is"		"int 0"
+				"entity1 set"		"player userid"
+				"icon_target set"	"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"choke_end"
+			{
+				"icon_target is"		"player victim"
+			}
+			"player_death"
+			{
+				"entity1 is"		"player userid"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Notify this surivor that they are hanging from a Smoker
+	// tongue and that they may use their upgrade to free
+	// themselves.
+	//--------------------------------------------------------
+	"Notify Choked Upgrade"
+	{
+		"team"				"2"
+		"priority"			"140"
+
+		"display_limit"		"3"
+
+		"onscreen_icon"		"icon_alert"
+		"caption"			"#L4D_Instructor_notify_choked_upgrade"
+
+		"open"
+		{
+			"choke_start"
+			{
+				"local_player is"	"player victim"
+				"integer1 set"		"bool has_upgrade"
+				"integer1 is"		"int 1"
+				"entity1 set"		"player userid"
+				"icon_target set"	"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"choke_end"
+			{
+				"icon_target is"		"player victim"
+			}
+			"player_death"
+			{
+				"entity1 is"		"player userid"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate that a fellow survivor is being vomited upon
+	// by a boomer and are now "IT"
+	//--------------------------------------------------------
+	"Help IT"
+	{
+		"team"				"2"
+		"priority"			"100"
+		"instance_type"		"1"		[$X360]
+
+		"display_limit"		"3"
+
+		"onscreen_icon"						"icon_shield"
+		"caption"							"#L4D_Instructor_help_it"
+		"icon_offset"						"12.0"
+		"range"								"700.0"
+		"timeout"							"20.0f"	// Saftey
+		"bump_with_timeout_when_learned"	"1"
+
+		"open"
+		{
+			"player_now_it"
+			{
+				"local_player !is"						"player userid"
+				"icon_target set"						"player userid"
+				"icon_target get player display name"	"int 1"
+				"caption_param set"						"string string1"
+			}
+		}
+
+		"close"
+		{
+			"player_no_longer_it"
+			{
+				"icon_target is"	"player userid"
+			}
+		}
+
+		"Update"
+		{
+			"Default Settings"
+			{
+				"icon_offset set"		"float 12.0"
+			}
+
+			"Far Icon Height"
+			{
+				"local_player get distance"	"entity icon_target"
+				"distance !less than"		"float 350.0"
+				"icon_offset set"			"float 72.0"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate that a fellow survivor is being choked by
+	// a Smoker and requires assistance
+	//--------------------------------------------------------
+	"Help Choked"
+	{
+		"team"				"2"
+		"priority"			"120"
+
+		"display_limit"		"10"
+		"success_limit"		"5"
+
+		"binding"			"+attack2"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"caption"			"#L4D_Instructor_help_choked"
+		"icon_offset"		"72.0"
+
+		"open"
+		{
+			"choke_start"
+			{
+				"local_player !is"						"player victim"
+				"entity1 set"							"player userid"
+				"entity2 set"							"player victim"
+				"icon_target set"						"player victim"
+				"icon_target get player display name"	"int 1"
+				"caption_param set"						"string string1"
+			}
+		}
+
+		"close"
+		{
+			"choke_end"
+			{
+				"entity2 is"		"player victim"
+			}
+			"player_death"
+			{
+				"entity1 is"		"player userid"
+			}
+			"player_death"
+			{
+				"entity2 is"		"player userid"
+			}
+		}
+
+		"success"
+		{
+			"choke_stopped"
+			{
+				"entity2 is"		"player victim"
+				"local_player is"	"player userid"
+			}
+		}
+
+		"update"
+		{
+			"Base Setting"
+			{
+				"icon_target set"	"player entity2"
+				"onscreen_icon set"	"string icon_alert_red"
+				"caption set"		"string #L4D_Instructor_help_choked"
+				"icon_offset set"	"float 12.0"
+			}
+
+			"Near Victim"
+			{
+				"local_player get distance"	"entity entity2"
+				"distance less than"		"float 110.0"
+				"binding set"				"string +attack2"
+				"onscreen_icon set"			"string use_binding"
+				"caption set"				"string #L4D_Instructor_help_choked_near"
+			}
+
+			"Very Far Victim"
+			{
+				"local_player get distance"	"entity entity2"
+				"distance !less than"		"float 500.0"
+				"local_player !weapon is"	"string weapon_first_aid_kit"
+				"local_player !weapon is"	"string weapon_pain_pills"
+				"local_player !weapon is"	"string weapon_molotov"
+				"local_player !weapon is"	"string weapon_pipe_bomb"
+				"icon_target set"			"player entity1"
+				"binding set"				"string +attack"
+				"onscreen_icon set"			"string use_binding"
+				"caption set"				"string #L4D_Instructor_help_choked_far"
+			}
+
+			"Far Victim"
+			{
+				"local_player get distance"	"entity entity2"
+				"distance !less than"		"float 350.0"
+				"icon_offset set"			"float 72.0"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Indicate that a fellow survivor is being attacked by
+	// a Hunter and requires assistance
+	//--------------------------------------------------------
+	"Help Pounced"
+	{
+		"team"				"2"
+		"priority"			"120"
+
+		"display_limit"		"10"
+		"success_limit"		"5"
+
+		"binding"			"+attack2"
+		"onscreen_icon"		"use_binding"
+		"offscreen_icon"	"icon_alert_red"
+		"caption"			"#L4D_Instructor_help_pounced"
+		"icon_offset"		"12.0"
+
+		"open"
+		{
+			"lunge_pounce"
+			{
+				"local_player !is"						"player victim"
+				"icon_target set"						"player userid"
+				"entity1 set"							"player victim"
+				"entity1 get player display name"		"int 1"
+				"caption_param set"						"string string1"
+			}
+		}
+
+		"close"
+		{
+			"pounce_end"
+			{
+				"entity1 is"		"player victim"
+			}
+			"player_death"
+			{
+				"icon_target is"	"player userid"
+			}
+			"player_death"
+			{
+				"entity1 is"		"player userid"
+			}
+		}
+
+		"success"
+		{
+			"pounce_stopped"
+			{
+				"entity1 is"		"player victim"
+				"local_player is"	"player userid"
+			}
+		}
+
+		"update"
+		{
+			"Base Present State"
+			{
+				"integer1 set"				"int 0"
+				"void present complete"		"void"
+				"integer1 set"				"int 1"		// Set to 1 once the present has completed
+				"caption set"				"string #L4D_Instructor_help_pounced"
+			}
+		
+			"Base Caption"
+			{
+				"integer1 is"				"int 1"
+				"binding set"				"string +attack2"
+				"onscreen_icon set"			"string use_binding"
+				"caption set"				"string #L4D_Instructor_help_pounced_near" // Always use the shove message		
+			}
+
+			"Far Hunter"
+			{
+				"integer1 is"				"int 1"
+				"local_player get distance"	"entity entity1"
+				"distance !less than"		"float 400.0"
+				"local_player !weapon is"	"string weapon_pumpshotgun"
+				"local_player !weapon is"	"string weapon_autoshotgun"
+				"local_player !weapon is"	"string weapon_first_aid_kit"
+				"local_player !weapon is"	"string weapon_pain_pills"
+				"local_player !weapon is"	"string weapon_molotov"
+				"local_player !weapon is"	"string weapon_pipe_bomb"
+				"onscreen_icon set"			"string icon_alert_red"
+				"caption set"				"string #L4D_Instructor_help_pounced_far"
+			}
+			
+			"Hunter Changed Class Somehow"
+			{
+				"icon_target !weapon is"	"string weapon_hunter_claw"
+				"void close"				"void"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// This player was pounced by a Hunter or choked by a Smoker
+	// and another player saved them. Point out who the savior is
+	//--------------------------------------------------------
+	"SavedBy"
+	{
+		"team"				"2"
+		"priority"			"99"
+
+		"display_limit"		"0"
+		"success_limit"		"0"
+
+		"onscreen_icon"					"icon_shield"
+		"no_offscreen"					"1"
+		"caption"						"#L4D_Instructor_saved_by"
+		"caption_color"					"56,148,194"
+		"icon_offset"					"12.0"
+		"timeout"						"6"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"pounce_stopped"
+			{
+				"local_player is"						"player victim"
+				"icon_target set"						"player userid"
+				"icon_target team is"					"int 2"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"						"string string1"
+			}
+			"choke_stopped"
+			{
+				"local_player is"						"player victim"
+				"icon_target set"						"player userid"
+				"icon_target team is"					"int 2"
+				"icon_target get player display name"		"int 1"
+				"caption_param set"						"string string1"
+			}
+		}
+
+		"close"
+		{
+			"player_death"
+			{
+				"icon_target is"	"player userid"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// This player just saved another player from a 
+	// Hunter or Smoker
+	//--------------------------------------------------------
+	"SavedOther"
+	{
+		"team"				"2"
+		"priority"			"99"
+
+		"display_limit"		"0"
+		"success_limit"		"0"
+
+		"onscreen_icon"					"icon_shield"
+		"caption"						"#L4D_Instructor_saved_other"
+		"caption_color"					"56,148,194"
+		"timeout"						"6"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"pounce_stopped"
+			{
+				"local_player is"						"player userid"
+				"icon_target set"						"player local_player"
+				"entity1 set"							"player victim"
+				"entity1 get player display name"		"int 1"
+				"caption_param set"						"string string1"
+			}
+			"choke_stopped"
+			{
+				"local_player is"						"player userid"
+				"icon_target set"						"player userid"
+				"entity1 set"							"player victim"
+				"entity1 get player display name"		"int 1"
+				"caption_param set"						"string string1"
+			}
+		}
+
+		"close"
+		{
+			"player_death"
+			{
+				"icon_target is"	"player userid"
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Explain that a tank is near and needs to be killed!
+	//--------------------------------------------------------
+	"Tank Bumper"
+	{
+		"team"				"2"
+		"priority"			"115"
+
+		"range"				"1000.0"
+		"no_icon_target"	"1"
+		"start_sound"		""
+
+		"open"
+		{
+			"tank_spawn"
+			{
+				"entity1 set"		"entity tankid"
+			}
+		}
+
+		"close"
+		{
+			"player_death"
+			{
+				"entity1 is"		"player userid"				
+			}
+
+			"player_death"
+			{
+				"entity1 is"		"entity entityid"				
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Smoker latched on to you, so don't show "help other" 
+	// lessons.
+	//--------------------------------------------------------
+	"Smoker Pull Bumper"
+	{
+		"team"				"2"
+		"priority"			"131"
+
+		"no_icon_target"				"1"
+		"timeout"						"30.0"	// Saftey
+		"can_timeout_while_inactive"	"1"
+		"start_sound"					""
+
+		"open"
+		{
+			"tongue_grab"
+			{
+				"local_player is"	"player victim"
+				"entity1 set"		"entity userid"
+			}
+		}
+
+		"close"
+		{
+			"player_death"
+			{
+				"entity1 is"		"player userid"				
+			}
+			
+			"tongue_release"
+			{
+				"local_player is"	"player victim"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// Round is over, so don't show any lessons
+	//--------------------------------------------------------
+	"Round End Bumper"
+	{
+		"team"				"2"
+		"priority"			"200"
+
+		"no_icon_target"	"1"
+		"start_sound"		""
+
+		"open"
+		{
+			"round_end"
+			{
+			}
+		}
+	}
+
+	//--------------------------------------------------------
+	// Invisibly change the priority to hide low priority 
+	// items while in presumed combat.
+	//--------------------------------------------------------
+	"Survivor Priority Bumper"
+	{
+		"team"				"2"
+		"priority"			"93"
+		"instance_type"		"2"
+
+		"timeout"						"4.0"
+		"can_timeout_while_inactive"	"1"
+		"no_icon_target"				"1"
+		"start_sound"					""
+
+		"open"
+		{
+			// Nearby thing shoved
+			"entity_shoved"
+			{
+				"entity1 set"				"entity entityid"
+				"entity1 team is"			"int 3"
+				"local_player get distance"	"entity entity1"
+				"distance less than"		"float 300.0"
+			}
+
+			// Nearby enemy shoved
+			"player_shoved"
+			{
+				"entity1 set"				"player userid"
+				"entity1 team is"			"int 3"
+				"local_player get distance"	"entity entity1"
+				"distance less than"		"float 300.0"
+			}
+			
+			// Self hurt an enemy player
+			"player_hurt"
+			{
+				"entity1 set"				"player attacker"
+				"entity1 is"				"player local_player"
+				"entity2 set"				"player userid"
+				"entity2 team is"			"int 3"
+			}
+			
+			// Self hurt an infected
+			"infected_hurt"
+			{
+				"entity1 set"				"player attacker"
+				"entity1 is"				"player local_player"
+			}
+
+			// Friend hurt a nearby enemy
+			"player_hurt"
+			{
+				"entity1 set"				"player attacker"
+				"entity1 team is"			"int 2"
+				"entity1 !is"				"player local_player"
+				"entity2 set"				"player userid"
+				"entity2 team is"			"int 3"
+				"local_player get distance"	"entity entity2"
+				"distance less than"		"float 300.0"
+			}
+
+			// Friend hurt a nearby infected
+			"infected_hurt"
+			{
+				"entity1 set"				"player attacker"
+				"entity1 team is"			"int 2"
+				"entity1 !is"				"player local_player"
+				"entity2 set"				"entity entityid"
+				"local_player get distance"	"entity entity2"
+				"distance less than"		"float 300.0"
+			}
+
+			// Nearby friend (or self) hurt by a player (not hurt by you)
+			"player_hurt"
+			{
+				"entity1 set"				"player userid"
+				"entity1 team is"			"int 2"
+				"local_player !is"			"player attacker"
+				"local_player get distance"	"entity entity1"
+				"distance less than"		"float 300.0"
+			}
+
+			// Nearby friend (or self) hurt by a thing
+			"player_hurt"
+			{
+				"entity1 set"				"player userid"
+				"entity1 team is"			"int 2"
+				"entity2 set"				"entity attackerentid"
+				"integer1 set"				"int type"
+				"integer1 !has bit"			"int 17"	// ignore DMG_POISON (incapacitate time damage)
+				"local_player get distance"	"entity entity1"
+				"distance less than"		"float 300.0"
+			}
+		}
+	}
+
+
+	///////////////////
+	///////////////////
+	//// INFECTED! ////
+	///////////////////
+	///////////////////
+
+
+// 150	awaiting spawn
+// 140	killed
+// 130	ghost mode
+// 120	pouncing, choking
+// 110	puked on someone
+// 100	killed
+// 90	failed special (missed tongue)
+// 80	victim available for special (pounce, tongue)
+// 70	navigation tip (climb, breakable wall)
+// 60	ability tip (vomit, throw)
+// 55	secondary attack tip (claws)
+
+
+	"Boomer Vomit"
+	{
+		"team"			"3"
+		"priority"		"60"
+
+		"success_limit"		"2"
+
+		"binding"			"+attack"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_boomer_vomit"
+
+		"instance_type"		"2"
+
+		"open"
+		{
+			"player_spawn"
+			{
+				"local_player is"			"player userid"
+				"local_player weapon is"	"string weapon_boomer_claw"
+				"icon_target set"			"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"ability_use"
+			{
+				"local_player is"		"player userid"
+				"string1 set"			"string ability"
+				"string1 is"			"string ability_vomit"				
+			}
+		}
+
+		"success"
+		{
+			"ability_use"
+			{
+				"local_player is"		"player userid"
+				"string1 set"			"string ability"
+				"string1 is"			"string ability_vomit"				
+			}
+		}
+	}
+
+	"Boomer Claw"
+	{
+		"team"			"3"
+		"priority"		"55"
+
+
+		"success_limit"		"2"
+
+		"binding"			"+attack2"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_boomer_claw"
+
+		"instance_type"		"2"
+
+		"open"
+		{
+			"player_spawn"
+			{
+				"local_player is"			"player userid"
+				"local_player weapon is"	"string weapon_boomer_claw"
+				"icon_target set"			"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"weapon_fire"
+			{
+				"local_player is"		"player userid"			
+			}
+		}
+
+		"success"
+		{
+			"weapon_fire"
+			{
+				"local_player is"		"player userid"			
+			}
+		}
+	}
+
+	"Hunter Claw"
+	{
+		"team"			"3"
+		"priority"		"55"
+
+		"success_limit"		"2"
+
+		"instance_type"		"2"
+
+		"binding"			"+attack2"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_hunter_claw"
+
+		"open"
+		{
+			"player_spawn"
+			{
+				"local_player is"			"player userid"
+				"local_player weapon is"	"string weapon_hunter_claw"
+				"icon_target set"			"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"weapon_fire"
+			{
+				"local_player is"		"player userid"			
+			}
+		}
+
+		"success"
+		{
+			"weapon_fire"
+			{
+				"local_player is"		"player userid"			
+			}
+		}
+	}
+
+	"Hunter Lunge"
+	{
+		"team"			"3"
+		"priority"		"60"
+		"instance_type"		"2"
+
+		"success_limit"		"5"
+
+		"binding"		"+attack"
+		"onscreen_icon"		"use_binding"
+		"caption"		"#L4D_Instructor_hunter_lunge"
+
+		"open"
+		{
+			"pounce_fail"
+			{
+				"icon_target set"			"player local_player"
+				"local_player is"			"player userid"
+			}
+		}
+
+		"close"
+		{
+			"ability_use"
+			{
+				"local_player is"		"player userid"
+				"string1 set"			"string ability"
+				"string1 is"			"string ability_lunge"				
+			}
+		}
+
+		"success"
+		{
+			"ability_use"
+			{
+				"local_player is"		"player userid"
+				"string1 set"			"string ability"
+				"string1 is"			"string ability_lunge"				
+			}
+		}
+	}
+
+	"Smoker Tongue Fail"
+	{
+		"team"				"3"
+		"priority"			"90"
+
+		"display_limit"		"3"
+
+		"timeout"			"5.0"
+
+		"onscreen_icon"		"icon_alert_red"
+		"caption"			"#L4D_Instructor_notify_choked_miss"
+
+		"instance_type"		"2"
+		
+		"open"
+		{	
+			"ability_use"
+			{
+				"local_player is"		"player userid"
+				"local_player weapon is"	"string weapon_smoker_claw"
+				"icon_target set"			"player local_player"
+				"integer1 set"			"int context"
+				"integer1 is"			"int 0"
+			}
+		}
+	}
+
+	"Smoker Tongue"
+	{
+		"team"				"3"
+		"priority"			"60"
+
+		"success_limit"		"2"
+
+		"binding"			"+attack"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_smoker_tongue"
+
+		"instance_type"		"2"
+
+		"open"
+		{
+			"player_spawn"
+			{
+				"local_player is"			"player userid"
+				"local_player weapon is"	"string weapon_smoker_claw"
+				"icon_target set"			"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"ability_use"
+			{
+				"local_player is"		"player userid"
+				"string1 set"			"string ability"
+				"string1 is"			"string ability_tongue"				
+			}
+		}
+
+		"success"
+		{
+			"ability_use"
+			{
+				"local_player is"		"player userid"
+				"string1 set"			"string ability"
+				"string1 is"			"string ability_tongue"				
+			}
+		}
+	}
+	
+	"Smoker Claw"
+	{
+		"team"				"3"
+		"priority"			"55"
+
+		"success_limit"		"2"
+
+		"binding"			"+attack2"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_smoker_claw"
+
+		"instance_type"		"2"
+
+		"open"
+		{
+			"player_spawn"
+			{
+				"local_player is"			"player userid"
+				"local_player weapon is"	"string weapon_smoker_claw"
+				"icon_target set"			"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"weapon_fire"
+			{
+				"local_player is"		"player userid"			
+			}
+		}
+
+		"success"
+		{
+			"weapon_fire"
+			{
+				"local_player is"		"player userid"		
+			}
+		}
+	}
+
+	"Tongue Break Bent"
+	{
+		"team"				"3"
+		"priority"			"90"
+		"display_limit"		"3"
+
+		"instance_type"		"2"
+
+		"onscreen_icon"					"icon_alert"
+		"caption"						"#L4D_Instructor_tongue_break_bent"
+		"timeout"						"8.0"
+		"can_timeout_while_inactive"	"1"
+
+		"open"
+		{
+			"tongue_broke_bent"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"player local_player"
+			}
+		}
+	}
+
+	"Tongue Break Victim Died"
+	{
+		"team"				"3"
+		"priority"			"90"
+		"display_limit"		"3"
+
+		"instance_type"		"2"
+
+		"onscreen_icon"					"icon_alert"
+		"caption"						"#L4D_Instructor_tongue_break_killed"
+		"timeout"						"8.0"
+		"can_timeout_while_inactive"	"1"
+	
+		"open"
+		{
+			"tongue_broke_victim_died"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"player local_player"
+			}
+		}
+	}
+
+	"Tank Claw"
+	{
+		"team"			"3"
+		"priority"		"60"
+
+		"success_limit"		"2"
+
+		"binding"			"+attack"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_tank_claw"
+
+		"instance_type"		"2"
+
+		"open"
+		{
+			"spawned_as_tank"
+			{
+				"local_player is"			"player userid"
+				"icon_target set"			"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"weapon_fire"
+			{
+				"local_player is"		"player userid"			
+			}
+		}
+
+		"success"
+		{
+			"weapon_fire"
+			{
+				"local_player is"		"player userid"		
+			}
+		}
+	}
+	
+	"Tank Rock"
+	{
+		"team"			"3"
+		"priority"		"55"
+
+		"success_limit"		"2"
+
+		"binding"			"+attack2"
+		"onscreen_icon"		"use_binding"
+		"caption"			"#L4D_Instructor_tank_rock"
+
+		"instance_type"		"2"
+
+		"open"
+		{
+			"spawned_as_tank"
+			{
+				"local_player is"			"player userid"
+				"icon_target set"			"player local_player"
+			}
+		}
+
+		"close"
+		{
+			"ability_use"
+			{
+				"local_player is"		"player userid"
+				"string1 set"			"string ability"
+				"string1 is"			"string ability_throw"				
+			}
+		}
+
+		"success"
+		{
+			"ability_use"
+			{
+				"local_player is"		"player userid"
+				"string1 set"			"string ability"
+				"string1 is"			"string ability_throw"				
+			}
+		}
+	}
+	
+	"Safe room door"
+	{
+		"team"			"3"
+		"priority"		"60"
+		"instance_type"		"2"
+		"display_limit"		"3"
+
+		"onscreen_icon"					"icon_alert"
+		"timeout"						"5.0"
+		"can_timeout_while_inactive"	"1"
+		"caption"		"#L4D_Instructor_break_checkpoint_door"
+
+		"open"
+		{
+			"hit_safe_room"
+			{
+				"icon_target set"			"player local_player"
+				"local_player is"			"player userid"
+			}
+		}
+	}
+		
+	//--------------------------------------------------------
+	// Explain how to blow open the bridge with the howitzer
+	// map l4d_garage01_alleys
+	//--------------------------------------------------------
+	"Explain Howitzer"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_howitzer"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+		
+		"open"
+		{
+			"explain_howitzer"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"create_panic_event"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_howitzer"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_howitzer2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+	
+	
+	
+	//--------------------------------------------------------
+	// Finale Lift Explanation part 1
+	// map l4d_garage02_lots
+	//--------------------------------------------------------
+	"Explain Lift Power Button"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_generator_button"
+		"onscreen_icon"		"icon_button"
+		"start_sound"		""
+		
+		"open"
+		{
+			"explain_generator_button"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"explain_lift_lever"
+			{
+			}
+		}
+
+	}
+	
+	//--------------------------------------------------------
+	// Finale Lift Explanation part 1
+	// map l4d_garage02_lots
+	//--------------------------------------------------------
+	"Explain Lift Lever"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_lift_lever"
+		"onscreen_icon"		"icon_alert_red"
+		"offscreen_icon"	"icon_alert_red"
+		"integer2"			"1"
+		"float1"			"1.5"
+		"start_sound"		""
+		
+		"open"
+		{
+			"explain_lift_lever"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"finale_start"
+			{
+			}
+		}
+		
+		"update"
+		{
+			"Update Counter"
+			{
+				"float1 subtract" 		"float 0.25"
+			}
+
+			"Change to caption 1"
+			{
+				"integer2 is"                  "int 2"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_lift_lever"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 1"
+			}
+
+			"Change to caption 2"
+			{
+				"integer2 is"                  "int 1"
+				"float1 is"                    "float 0.0"
+				"caption set"                  "string #L4D_Instructor_explain_lift_lever2"
+				"float1 set"                   "float 1.5"
+				"integer2 set"                 "int 2"
+			}
+		}
+	}
+	
+	
+		
+	//--------------------------------------------------------
+	// Finale Lift Explanation part 3
+	// map l4d_garage02_lots
+	//--------------------------------------------------------
+	"Explain Lift Power Button"
+	{
+		"team"				"2"
+		"priority"			"0"
+		
+		"display_limit"		"10"
+		
+		"binding"			"+use"
+		"caption"			"#L4D_Instructor_explain_repair_generator"
+		"onscreen_icon"		"icon_button"
+		"start_sound"		""
+		
+		"open"
+		{
+			"explain_repair_generator"
+			{
+				"local_player is"		"player userid"
+				"icon_target set"		"entity subject"
+			}
+		}
+		
+		"close"
+		{
+			"explain_lift_lever"
+			{
+			}
+		}
+
+	}
+	
+	
+}

@@ -1,0 +1,15 @@
+sprays_manifest
+{
+	"#L4D360UI_Multiplayer_Spray_Bill"	"spray_stencil_bill.vtf"
+	"#L4D360UI_Multiplayer_Spray_Francis"	"spray_stencil_francis.vtf"
+	"#L4D360UI_Multiplayer_Spray_Louis"	"spray_stencil_louis.vtf"
+	"#L4D360UI_Multiplayer_Spray_Zoey"	"spray_stencil_zoey.vtf"
+	"#L4D360UI_Multiplayer_Spray_Boomer"	"spray_stencil_boomer.vtf"
+	"#L4D360UI_Multiplayer_Spray_Hunter"	"spray_stencil_hunter.vtf"
+	"#L4D360UI_Multiplayer_Spray_Smoker"	"spray_stencil_smoker.vtf"
+	"#L4D360UI_Multiplayer_Spray_Tank"	"spray_stencil_tank.vtf"
+	"#L4D360UI_Multiplayer_Spray_Hand1"	"spray_stencil_finger1.vtf"
+	"#L4D360UI_Multiplayer_Spray_Hand2"	"spray_stencil_finger2.vtf"
+	"#L4D360UI_Multiplayer_Spray_Hand3"	"spray_stencil_finger3.vtf"
+	"#L4D360UI_Multiplayer_Spray_Hand4"	"spray_stencil_finger4.vtf"
+}

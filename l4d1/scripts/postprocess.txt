@@ -1,0 +1,154 @@
+post_process
+{
+	default
+	{
+		"localcontrast"			"0.5"
+		"edgelocalcontrast"		"0.0"
+		"vignettestart"			"0.8"
+		"vignetteend"			"1.1"
+		"vignetteblur"			"0.0"
+		"fadetoblack"			"0.0"
+	}
+
+	pills_1
+	{
+		"localcontrast"			"2.5"	// relative to base level
+		"edgelocalcontrast"		"0.0"	// relative to base level
+		"vignettestart"			"0.8"
+		"vignetteend"			"1.1"
+		"vignetteblur"			"0.0"
+		"fadetoblack"			"0.0"
+	}
+
+	pills_2
+	{
+		"localcontrast"			"-0.4"	// relative to base level
+		"edgelocalcontrast"		"0.0"	// relative to base level
+		"vignettestart"			"0.8"
+		"vignetteend"			"1.1"
+		"vignetteblur"			"0.0"
+		"fadetoblack"			"0.0"
+	}
+
+	healed
+	{
+		"localcontrast"			"-0.4"	// relative to base level
+		"edgelocalcontrast"		"0.0"	// relative to base level
+		"vignettestart"			"0.8"
+		"vignetteend"			"1.1"
+		"vignetteblur"			"0.0"
+		"fadetoblack"			"0.0"
+	}
+
+	it
+	{
+		"localcontrast"			"-0.7"
+		"edgelocalcontrast"		"-0.7"
+		"vignettestart"			"0.8"
+		"vignetteend"			"1.1"
+		"vignetteblur"			"0.0"
+		"fadetoblack"			"0.0"
+	}
+
+	pounced
+	{
+		"localcontrast"			"1.0"
+		"edgelocalcontrast"		"0.0"
+		"vignettestart"			"0.7"
+		"vignetteend"			"1.0"
+		"vignetteblur"			"1.0"
+		"fadetoblack"			"0.0"
+	}
+
+	// pounced_incap and choked_incap are faded in as temp health drains to 0
+	pounced_incap
+	{
+		"localcontrast"			"1.0"
+		"edgelocalcontrast"		"0.0"
+		"vignettestart"			"0.7"
+		"vignetteend"			"1.0"
+		"vignetteblur"			"1.0"
+		"fadetoblack"			"1.0"
+	}
+
+	choked
+	{
+		"localcontrast"			"1.0"
+		"edgelocalcontrast"		"0.0"
+		"vignettestart"			"0.7"
+		"vignetteend"			"1.0"
+		"vignetteblur"			"1.0"
+		"fadetoblack"			"0.0"
+	}
+
+	choked_incap
+	{
+		"localcontrast"			"1.0"
+		"edgelocalcontrast"		"0.0"
+		"vignettestart"			"0.7"
+		"vignetteend"			"1.0"
+		"vignetteblur"			"1.0"
+		"fadetoblack"			"1.0"
+	}
+
+	3rd_strike
+	{
+		"localcontrast"			"1.0"
+		"edgelocalcontrast"		"-1.0"
+		"vignettestart"			"0.6"
+		"vignetteend"			"1.0"
+		"vignetteblur"			"0.0"
+		"fadetoblack"			"0.0"
+	}
+
+	// incap_1 to 3 are cycled through as player temp health drains to 0
+	incap_1
+	{
+		"localcontrast"			"1.0"
+		"edgelocalcontrast"		"-1.0"
+		"vignettestart"			"0.6"
+		"vignetteend"			"1.0"
+		"vignetteblur"			"0.0"
+		"fadetoblack"			"0.0"
+	}
+
+	incap_2
+	{
+		"localcontrast"			"0.0"
+		"edgelocalcontrast"		"-1.0"
+		"vignettestart"			"0.2"
+		"vignetteend"			"0.6"
+		"vignetteblur"			"0.0"
+		"fadetoblack"			"0.0"
+	}
+
+	incap_3
+	{
+		"localcontrast"			"0.0"
+		"edgelocalcontrast"		"-1.0"
+		"vignettestart"			"0.2"
+		"vignetteend"			"0.6"
+		"vignetteblur"			"0.0"
+		"fadetoblack"			"1.0"
+	}
+
+	high_stress
+	{
+		"localcontrast"			"0.6"	// additive to the current default setting
+		"edgelocalcontrast"		"0.3"	// additive to the current default setting
+		"vignettestart"			"0.8"
+		"vignetteend"			"1.1"
+		"vignetteblur"			"0.0"
+		"fadetoblack"			"0.0"
+	}
+
+	on_fire
+	{
+		"localcontrast"			"1.25"
+		"edgelocalcontrast"		"-.65"
+		"vignettestart"			"0.4"
+		"vignetteend"			".85"
+		"vignetteblur"			"0.0"
+		"fadetoblack"			"0.0"
+	}
+}

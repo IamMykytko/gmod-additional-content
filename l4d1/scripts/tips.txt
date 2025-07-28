@@ -1,0 +1,54 @@
+//----------------------------------------------------------------
+// Tip strings and images used by CTipPanel
+// The images names refer to textures in mod_textures.txt
+//----------------------------------------------------------------
+"tips"
+{
+	"SurvivorTips"
+	{	  
+		"#L4D_Tip_Revive"				"tip_revive"
+		"#L4D_Tip_Heal"   				"tip_heal"
+		"#L4D_Tip_Shove"     			"tip_shove"
+		"#L4D_Tip_Items"     			"tip_items"
+		"#L4D_Tip_Boomer"    			"tip_boomer"
+		"#L4D_Tip_Witch"     			"tip_witch"
+		"#L4D_Tip_Smoker"    			"tip_smoker_pull"
+//		"#L4D_Tip_smoker2"				"tip_smoker"	//After you have killed a Smoker, avoid the poisonous cloud of smoke it leaves behind."
+		"#L4D_Tip_Tank"					"tip_tank"
+		"#L4D_Tip_Hunter"    			"tip_hunter"
+		"#L4D_Tip_Hunter2"   			"tip_hunter_pounce"
+		"#L4D_Tip_Checkpoint"			"tip_checkpoint"
+		"#L4D_Tip_bullets"  			"tip_info"
+		"#L4D_Tip_doors" 				"tip_doorbreak"
+		"#L4D_Tip_pain_pills"			"tip_info"
+		"#L4D_Tip_crouch"    			"tip_crouch"
+		"#L4D_Tip_reload_speeds"   		"tip_info"
+		"#L4D_Tip_shotgun"    			"tip_shotguns"
+		"#L4D_Tip_pipe_bomb"   			"tip_pipebomb"
+		"#L4D_Tip_safe_room_heal" 		"tip_info"
+		"#L4D_Tip_witch_annoyances"		"tip_witch"
+	}
+
+	"InfectedTips"
+	{	  
+		"#L4D_Z_Tip_falling"					"tip_info"		
+		"#L4D_Z_Tip_glows"						"tip_info"			
+		"#L4D_Z_Tip_break_doors"				"tip_doorbreak"	
+		"#L4D_Z_Tip_no_break_saferoom_doors"	"tip_checkpoint"	
+		"#L4D_Z_Tip_hunter_leap_aim"			"tip_hunter"	
+		"#L4D_Z_Tip_boomer_slow"				"tip_boomer"
+		"#L4D_Z_Tip_smoker_choke"				"tip_smoker"		
+		"#L4D_Z_Tip_tank_health"				"tip_tank"			
+		"#L4D_Z_Tip_hunter_wallkick"			"tip_hunter" [$WIN32]
+		"#L4D_360_Hint_hunter_wallkick"			"tip_hunter" [$X360]
+		"#L4D_Z_Tip_boomer_pop"					"tip_boomer"		
+		"#L4D_Z_Tip_smoker_poison"				"tip_smoker_pull"			
+		"#L4D_Z_Tip_tank_self_control"			"tip_tank"			
+		"#L4D_Z_Tip_boomer_it"					"tip_boomer_vomit"	
+		"#L4D_Z_Tip_tank_throw"					"tip_tank"			
+		"#L4D_Z_Tip_hunter_pounce_incaps"		"tip_hunter"		
+		"#L4D_Z_Tip_boomer_recharge"			"tip_boomer_vomit"	
+		"#L4D_Z_Tip_tank_break_walls"			"tip_tank"			
+		"#L4D_Z_Tip_boomer_vomit_no_move"		"tip_boomer_vomit"	
+	}
+}
