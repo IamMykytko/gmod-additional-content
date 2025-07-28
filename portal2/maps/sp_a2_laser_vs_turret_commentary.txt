@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "ELEVATING VIDEOS"
+		"origin" "-275 -1120 175"
+		"angles" "0 -90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-elevideo.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Ido Magal"
+		"synopsis" ""
+	}
+}

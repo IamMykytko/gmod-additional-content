@@ -1,0 +1,63 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "WELCOME TO PORTAL 2"
+		"origin" "-8695 1780 85"
+		"angles" "0 90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-welcome.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Gabe Newell"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "HOTEL HELL"
+		"origin" "-8515 1700 85"
+		"angles" "0 0 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-hotelhell.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Randy Lundeen"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "STORY REMNANTS"
+		"origin" "-8835 1815 85"
+		"angles" "0 0 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-remnants.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kyle Monroe"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "INTRODUCTION DESTRUCTION"
+		"origin" "-1450 4345 3145"
+		"angles" "0 0 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-destruction.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Gray Horsfield"
+		"synopsis" ""
+	}
+}

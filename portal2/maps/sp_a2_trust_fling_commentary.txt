@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "FLIGHT PATHS"
+		"origin" "724 -666 -195"
+		"angles" "0 0 0"
+		"precommands" "developer 1;ent_bbox trigger_catapult"
+		"postcommands" "ent_bbox trigger_catapult;developer 0"
+		"commentaryfile" "#commentary\com-flight.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "John Guthrie"
+		"synopsis" ""
+	}
+}

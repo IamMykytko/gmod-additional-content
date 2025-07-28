@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "MANY TO ONE"
+		"origin" "-1954 1454 -131"
+		"angles" "0 -90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-manytoone.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Doug Wood"
+		"synopsis" ""
+	}
+}

@@ -1,0 +1,33 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "SMOOTH JAZZ"
+		"origin" "-265 85 55"
+		"angles" "0 0 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-jazz.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Mike Morasky"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "STATE OF DECAY"
+		"origin" "585 -515 55"
+		"angles" "0 90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-decay.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kelly Thornton"
+		"synopsis" ""
+	}
+}

@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "GLADOS WAKES"
+		"origin" "9045 1185 455"
+		"angles" "0 0 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-wakes.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Matthew Russell"
+		"synopsis" ""
+	}
+}

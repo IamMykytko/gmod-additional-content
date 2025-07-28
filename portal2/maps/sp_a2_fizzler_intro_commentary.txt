@@ -1,0 +1,33 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "FIZZLING OUT"
+		"origin" "-34 -127 -4"
+		"angles" "0 180 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-fizzling.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Tejeev Kohli"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "EMANCIPATION GRID"
+		"origin" "400 -562 60"
+		"angles" "0 180 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-emancipation.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Bronwen Grimes"
+		"synopsis" ""
+	}
+}

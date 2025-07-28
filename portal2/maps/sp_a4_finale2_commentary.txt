@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "EXCURSION FUNNEL"
+		"origin" "382.778503 -761.309082 -63.968750"
+		"angles" "0 45 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-funnel.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Dave Saunders"
+		"synopsis" ""
+	}
+}

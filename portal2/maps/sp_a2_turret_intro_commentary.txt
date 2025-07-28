@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "PROJECT LIL"
+		"origin" "1090 -1887 -67"
+		"angles" "0 180 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-lil.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Marc Laidlaw"
+		"synopsis" ""
+	}
+}

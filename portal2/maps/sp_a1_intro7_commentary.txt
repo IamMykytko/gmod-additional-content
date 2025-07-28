@@ -1,0 +1,71 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "WHEATLEY AT E3"
+		"origin" "-335 -165 1275"
+		"angles" "0 45 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-e3.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Thorsten Scheuermann"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "WHEATLEY MODEL"
+		"origin" "-665 -680 1290"
+		"angles" "0 90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-wheatleymodel.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Richard Lord"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "THE EYE HAS IT"
+		"origin" "-1055 -400 1270"
+		"angles" "0 -45 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-eyehasit.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Karen Prell"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "eye_relay,Trigger,,0,-1"
+		}
+	}
+	"entity"
+	{
+		"id" "22"
+		"classname" "logic_relay"
+		"targetname" "eye_relay"
+		"spawnflags" "1"
+		"connections"
+		{
+			"OnTrigger" "@glados,RunScriptCode,sp_a1_intro7_EyeHasIt(),0,-1"
+		}
+		"origin" "-1055 -400 1270"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}	
+}

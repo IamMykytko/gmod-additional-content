@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "HORRIBLE ACCENTS"
+		"origin" "-3378 -1621 60"
+		"angles" "0 138 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-accents.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Erik Robson"
+		"synopsis" ""
+	}
+}

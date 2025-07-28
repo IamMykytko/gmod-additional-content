@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "CRAZY BOX"
+		"origin" "365 -1275 1596"
+		"angles" "0 180 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-crazybox.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Sergiy Migdalskiy"
+		"synopsis" ""
+	}
+}

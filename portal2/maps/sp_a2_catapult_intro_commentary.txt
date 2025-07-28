@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "CATAPULT INTRO"
+		"origin" "-189 465 -375"
+		"angles" "0 73 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-catapult.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kristopher Katz"
+		"synopsis" ""
+	}
+}

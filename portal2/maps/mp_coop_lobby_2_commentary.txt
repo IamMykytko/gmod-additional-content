@@ -1,0 +1,339 @@
+//-------------------------------------------hub
+
+"Entities"
+{
+	"entity"
+	{
+		"id" "1839694"
+		"classname" "logic_auto"
+		"spawnflags" "1"
+		"origin" "5120 4320 -448"
+		"connections"
+		{
+			"OnMapSpawn" "track2-orange-station,SetAnimation,assembly_station_door_close,1,-1"
+			"OnMapSpawn" "track2-blue-station,SetAnimation,assembly_station_door_close,1,-1"
+			"OnMapSpawn" "track4-blue-station,SetAnimation,assembly_station_door_close,1,-1"
+			"OnMapSpawn" "track4-orange-station,SetAnimation,assembly_station_door_close,1,-1"
+			"OnMapSpawn" "track4-orange-brush_clip_doors,Enable,,1,-1"
+			"OnMapSpawn" "track2-orange-brush_clip_doors,Enable,,1,-1"
+			"OnMapSpawn" "track4-blue-brush_clip_doors,Enable,,1,-1"
+			"OnMapSpawn" "track2-blue-brush_clip_doors,Enable,,1,-1"
+			"OnMapSpawn" "commentary_exit_trigger,Enable,,1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "HUB DESIGN"
+		"origin" "4227.265137 3572.438477 -447.968750"
+		"angles" "0 -141 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-hub.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Matt T. Wood"
+		"synopsis" ""
+		"teleport_origin" "4051.750000 3427.219971 -447.968750"
+	}
+
+	//----------------------------------------------- Robot Visual Design
+
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "ROBOTS VISUAL DESIGN"
+		"origin" "4977.115723 3599.033691 -447.968750"
+		"angles" "0 0 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-robotvisual.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Tristan Reidford"
+		"synopsis" ""
+		"teleport_origin" "4842.387695 3594.349609 -447.968750"
+		"connections"
+		{
+			"oncommentarystarted"	"commentary_eggbot2,enable,,0,-1"
+			"oncommentarystarted"	"commentary_ballbot2,enable,,0,-1"
+
+			"oncommentarystopped"	"commentary_eggbot2,disable,,0,-1"
+			"oncommentarystopped"	"commentary_ballbot2,disable,,0,-1"
+		}
+	}
+	entity
+	{
+		"classname" "prop_dynamic"
+		"targetname" "commentary_eggbot2"
+		"angles" "0 180 0"
+		"DefaultAnim" "portalgun_standing_idle"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/player/eggbot/eggbot.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "6"
+		"StartDisabled" "1"
+		"origin" "5164.945801 3562.520264 -512"
+		"solid" "0"
+	}
+	entity
+	{
+		"classname" "prop_dynamic"
+		"targetname" "commentary_ballbot2"
+		"angles" "0 -137 0"
+		"DefaultAnim" "portalgun_standing_idle"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/player/ballbot/ballbot.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "6"
+		"StartDisabled" "1"
+		"origin" "5147.637695 3781.871094 -512"
+		"solid" "0"
+	}
+
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "RETURN TO THE HUB"
+		"origin" "5118.601563 3940.722656 -447.968750"
+		"angles" "0 90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-hubreturn.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Gautam Babbar"
+		"synopsis" ""
+		"teleport_origin" "5119.419434 3796.675781 -447.968750"
+		"connections"
+		{
+			"oncommentarystarted" "relay_screen_on,Kill,,0,0"	
+			"oncommentarystarted" "relay_reveal_teambuilding,enable,,0,1"
+			"oncommentarystarted" "relay_reveal_fling,enable,,0,1"
+			"oncommentarystarted" "relay_reveal_teambuilding,trigger,,1,1"
+			"oncommentarystarted" "relay_reveal_teambuilding,disable,,1.1,1"
+			"oncommentarystarted" "relay_reveal_fling,trigger,,8,1"
+			"oncommentarystarted" "relay_reveal_fling,disable,,8.1,1"
+			"oncommentarystarted" "relay_reveal_tbeam,enable,,0,1"
+			"oncommentarystarted" "relay_reveal_tbeam,trigger,,12,1"
+			"oncommentarystarted" "relay_reveal_tbeam,disable,,12.1,1"
+
+			"oncommentarystopped" "relay_reveal_teambuilding,trigger,,0,1"
+			"oncommentarystopped" "relay_reveal_fling,trigger,,0,1"
+			"oncommentarystopped" "relay_reveal_tbeam,trigger,,0,1"
+		}
+	}
+//---------------------------------------------- Robot Whimsy
+
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "ROBOT WHIMSY"
+		"origin" "5122.197266 4261.625488 -447.968750"
+		"angles" "0 90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-whimsy.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Mike Belzer"
+		"synopsis" ""
+		"teleport_origin" "5123.180176 4070.422607 -447.968750"
+		"connections"
+		{
+			"oncommentarystarted"	"commentary_eggbot,enable,,0,-1"
+			"oncommentarystarted"	"commentary_ballbot,enable,,0,-1"
+
+			"oncommentarystarted"	"commentary_eggbot,setanimation,layer_taunt_noGun_small_wave,6,-1"
+			"oncommentarystarted"	"commentary_ballbot,setanimation,layer_taunt_big_wave,20,-1"
+
+			"oncommentarystopped"	"commentary_eggbot,disable,,0,-1"
+			"oncommentarystopped"	"commentary_ballbot,disable,,0,-1"
+		}
+	}
+
+	entity
+	{
+		"classname" "prop_dynamic"
+		"targetname" "commentary_eggbot"
+		"angles" "0 -99.440437 0.000000"
+		"DefaultAnim" "portalgun_standing_idle"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/player/eggbot/eggbot.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "6"
+		"StartDisabled" "1"
+		"origin" "5218.426758 4316.316406 -512"
+		"solid" "0"
+	}
+	entity
+	{
+		"classname" "prop_dynamic"
+		"targetname" "commentary_ballbot"
+		"angles" "0 -78.440437 0.000000"
+		"DefaultAnim" "portalgun_standing_idle"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/player/ballbot/ballbot.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "6"
+		"StartDisabled" "1"
+		"origin" "5023.389160 4311.036133 -512"
+		"solid" "0"
+	}
+
+//-----------------------------------------------
+
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "DISASSEMBLY DEVICE"
+		"origin" "5120.048828 5161.687988 -319.968750"
+		"angles" "0 90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-disassembly.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Danika Wright"
+		"synopsis" ""
+		"teleport_origin" "5119.749512 5045.048828 -319.968750"
+	}
+
+
+//----------------------------------------------- Orange bot
+
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "ORANGE BOT"
+		"origin" "6544.035645 4030.268799 -447.968750"
+		"angles" "0 180 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-orange.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Keith Lango"
+		"synopsis" ""
+		"teleport_origin" "6387.463379 4034.056152 -447.968750"
+		"connections"
+		{
+			"oncommentarystarted"	"commentary_eggbot3,enable,,0,-1"
+			"oncommentarystopped"	"commentary_eggbot3,disable,,0,-1"
+		}
+	}
+	entity
+	{
+		"classname" "prop_dynamic"
+		"targetname" "commentary_eggbot3"
+		"angles" "0 180 0.000000"
+		"DefaultAnim" "portalgun_standing_idle"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/player/eggbot/eggbot.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "6"
+		"StartDisabled" "1"
+		"origin" "6669.401367 4031.854492 -512"
+		"solid" "0"
+	}
+
+//----------------------------------------------- Blue bot
+
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "BLUE BOT"
+		"origin" "3666.015869 4032.958252 -767.968750"
+		"angles" "0 0 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-blue.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Christen Coomer"
+		"synopsis" ""
+		"teleport_origin" "3860.934326 4031.440918 -767.968750"
+		"connections"
+		{
+			"oncommentarystarted"	"commentary_ballbot3,enable,,0,-1"
+			"oncommentarystopped"	"commentary_ballbot3,disable,,0,-1"
+		}
+	}
+
+	entity
+	{
+		"classname" "prop_dynamic"
+		"targetname" "commentary_ballbot3"
+		"angles" "0 0 0"
+		"DefaultAnim" "portalgun_standing_idle"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/player/ballbot/ballbot.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "6"
+		"StartDisabled" "1"
+		"origin" "3529.374512 4033.218750 -832"
+		"solid" "0"
+	}
+
+
+//-------------------------------------------startup teleport and setup
+
+	entity
+	{
+		"classname" "info_player_start"
+		"angles" " -0.988941 23.574070 -0.000000"
+		"spawnflags" "1"
+		"origin" "4051.750000 3427.219971 -447.968750"
+	}
+	entity
+	{
+		"classname" "weapon_portalgun"
+		"angles" "0 0 0"
+		"CanFirePortal1" "1"
+		"CanFirePortal2" "1"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"spawnflags" "0"
+		"origin" "4051.750000 3427.219971 -447.968750"
+	}
+}
+
+
+

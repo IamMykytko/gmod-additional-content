@@ -1,0 +1,33 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "TAG: THE POWER OF PAINT "
+		"origin" "75 821 28"
+		"angles" "0 -90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-tag.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Brett English"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "JANITOR BOB "
+		"origin" "-2333.953125 1503.875732 1008.031250"
+		"angles" "0 0 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-janitor.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Ivan Simonici"
+		"synopsis" ""
+	}
+}

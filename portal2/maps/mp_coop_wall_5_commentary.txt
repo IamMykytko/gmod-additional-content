@@ -1,0 +1,261 @@
+//-------------------------------------------wall5
+"Entities"
+{
+
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "BOTVOX"
+		"origin" "-608.618896 -1745.074097 69.031250"
+		"angles" "0 -180 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-botvox.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Bill Van Buren"
+		"synopsis" ""
+		"teleport_origin" "-924.314026 -1739.936890 -63.968750"
+	}
+
+//-------------------------------------------by switches
+
+
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "SYNC UP"
+		"origin" "24 -1838 60"
+		"angles" "0 -143 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-sync.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Brian Jacobson"
+		"synopsis" ""
+		"teleport_origin" "-101 -1964 65"
+	        "connections"
+	        {
+				"oncommentarystarted" "camera_door_3-relay_doorclose,trigger,,0,-1"
+				"oncommentarystarted" "commentary_flip_switches,trigger,,18,-1"
+				"oncommentarystopped" "commentary_flip_switches,trigger,,0,-1"
+				"oncommentarystopped" "button_bts2,press,,1,-1"
+	        }
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "commentary_flip_switches"
+		"origin" "24 -1838 60"
+		"connections"
+		{
+			"OnTrigger" "lever_2a-push_button_knob,open,,0,1"
+			"OnTrigger" "lever_2b-push_button_knob,open,,0,1"
+		}
+	}
+
+//-------------------------------------------bonk heads section
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "BONK HEADS"
+		"origin" "329 -1570 60"
+		"angles" "0 -90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-bonk.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jeep Barnett"
+		"synopsis" ""
+		"teleport_origin" "296.031250 -1459.154297 64.031250"
+	}
+
+//-------------------------------------------landing zone area
+
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "HUGS"
+		"origin" "1277 -2086 308"
+		"angles" "0 141 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-hugs.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Keith Lango"
+		"synopsis" ""
+		"teleport_origin" "1162.607300 -2018.398315 312.031250"
+		"connections"
+		{
+			"oncommentarystarted" "commentary_eggbot,enable,,0,-1"
+			"oncommentarystarted" "commentary_ballbot,enable,,0,-1"
+
+			"oncommentarystarted" "commentary_eggbot,setanimation,taunt_teamhug_initiate,6,-1"
+			"oncommentarystarted" "commentary_eggbot,setanimation,taunt_teamhug_idle,7,-1"
+			"oncommentarystarted" "commentary_eggbot,setanimation,layer_taunt_teamhug_success,9,-1"
+
+			"oncommentarystarted" "commentary_ballbot,setanimation,taunt_teamhug_initiate,8,-1"
+			"oncommentarystarted" "commentary_ballbot,setanimation,taunt_teamhug_success,9,-1"
+			"oncommentarystarted" "commentary_ballbot,setanimation,portalgun_standing_idle,12.5,-1"
+
+
+			"oncommentarystopped" "commentary_eggbot,disable,,0,-1"
+			"oncommentarystopped" "commentary_ballbot,disable,,0,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "prop_wall_projector"
+		"origin" "1215 -1984 680"
+		"angles" "90 90 0"
+	}
+	entity
+	{
+		"classname" "prop_dynamic"
+		"targetname" "commentary_ballbot"
+		"angles" "0 90 0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/player/ballbot/ballbot.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "0"
+		"StartDisabled" "1"
+		"DefaultAnim" "portalgun_standing_idle"
+		"origin" "1424 -2012 248"
+	}
+	entity
+	{
+		"classname" "prop_dynamic"
+		"targetname" "commentary_eggbot"
+		"angles" "0 -128 0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/player/eggbot/eggbot.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "0"
+		"StartDisabled" "1"
+		"DefaultAnim" "portalgun_standing_idle"
+		"origin" "1440 -1964 248"
+	}
+
+
+//-------------------------------------------in office area
+
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "PREDICTING WITH PORTALS"
+		"origin" "1787 -1984 308"
+		"angles" "0 180 0"
+		"precommands" ""
+		"postc`ommands" ""
+		"commentaryfile" "#commentary\com-prediction.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Dave Kircher"
+		"synopsis" ""
+		"teleport_origin" "1686.077148 -1985.860107 312.031250"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "WRITING FOR CO-OP"
+		"origin" "2047 -1645 308"
+		"angles" "0 180 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-cowrite.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Chet Faliszek"
+		"synopsis" ""
+		"teleport_origin" "1932.347412 -1652.988525 311.031250"
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "disk_loaded_relay"
+		"origin" "2047 -1645 308"
+		"connections"
+		{
+			"OnTrigger" "comm_cmd,command,disconnect,2,-1"
+			"OnTrigger" "commentary_fade,fade,,0,-1"
+		}
+
+	}
+	"entity"
+	{
+		"classname" "env_fade"
+		"targetname" "commentary_fade"
+		"rendercolor" "0 0 0"
+		"duration" "2"
+		"renderamt" "255"
+		"spawnflags" "8"
+		"origin" "2047 -1645 308"
+		"ReverseFadeDuration" "2"
+	}
+
+//-------------------------------------------startup teleport and setup
+	entity
+	{
+		"classname" "info_player_start"
+		"angles" "0 0 0"
+		"spawnflags" "1"
+		"origin" "-960 -1744 -124.308"
+	}
+	entity
+	{
+		"classname" "weapon_portalgun"
+		"angles" "0 0 0"
+		"CanFirePortal1" "1"
+		"CanFirePortal2" "1"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"spawnflags" "0"
+		"origin" "-976 -1744 -110.731"
+	}
+
+
+	"entity"
+	{
+		"classname" "point_clientcommand"
+		"targetname" "comm_cmd"
+		"origin" "0 0 0"
+		"angles" "0 0 0"
+	}
+
+
+	"entity"
+	{
+		"classname" "logic_auto"
+		"targetname" ""
+		"origin" "6435 8335 45"
+		"angles" "0 0 0"
+		"id" 2332614
+		"spawnflags" 1
+		"connections"
+		{
+			"onmapspawn" "@relay_open_door_3,trigger,,1,-1"
+			"onmapspawn" "ptemplate_ball_fake,kill,,1,-1"
+			"onmapspawn" "ball_fake,kill,,1,-1"
+		}
+	}
+
+}

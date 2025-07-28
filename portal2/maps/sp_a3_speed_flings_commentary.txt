@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "SPEED PAINT"
+		"origin" "2270 -223 -259;"
+		"angles" "0 -135 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-speed.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Bank Charnchaichujit"
+		"synopsis" ""
+	}
+}

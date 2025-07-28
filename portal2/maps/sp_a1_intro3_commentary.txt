@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "NEW CHELL"
+		"origin" "170 2065 -355"
+		"angles" "0 45 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-chell.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Realm Lovejoy"
+		"synopsis" ""
+	}
+}

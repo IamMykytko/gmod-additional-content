@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "PREPARING FOR WHEATLEY'S LAIR"
+		"origin" "-121.846115 -2573.369141 192.031250"
+		"angles" "0 40 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-lair.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Alireza Razmpoosh"
+		"synopsis" ""
+	}
+}

@@ -1,0 +1,53 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "KILL YOUR TELEVISION"
+		"origin" "-226.190475 325.288666 728.137573"
+		"angles" "0 90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-monitor.wav"
+		"viewtarget" "target_target"
+		"viewposition" "target_position"
+		"prevent_movement" 1
+		"speakers" "Zachary Franks"
+		"synopsis" ""
+        "connections"
+        {
+            "oncommentarystarted" "commentary_box_template,ForceSpawn,,10,-1"
+			"oncommentarystopped" "commentary_box,Kill,,0,-1"
+        }
+
+	}
+	"entity"
+	{
+		"classname" "prop_weighted_cube"
+		"targetname" "commentary_box"
+		"origin" "-224 320 755"
+		"angles" "0 0 0"
+	}
+	"entity"
+	{
+		"classname" "point_template"
+		"targetname" "commentary_box_template"
+		"origin" "-224 320 755"
+		"angles" "0 0 0"
+		"Template01" "commentary_box"
+	}
+
+	"entity"
+	{
+		"classname" "info_target"
+		"targetname" "target_position"
+		"origin" "-34.870064 497.687988 810.676758"
+	}
+
+	"entity"
+	{
+		"classname" "info_target"
+		"targetname" "target_target"
+		"origin" "-429.726868 -87.426727 767.127502"
+	}
+}

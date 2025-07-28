@@ -1,0 +1,34 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "REFERENCE MATERIALS"
+		"origin" "-1291 -1976 60"
+		"angles" "0 0 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-reference.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Adam Foster"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "BIG DOOR"
+		"origin" "3675 4524 -344"
+		"angles" "0 -142 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-bigdoor.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Scott Dalton"
+		"synopsis" ""
+	}
+}
+

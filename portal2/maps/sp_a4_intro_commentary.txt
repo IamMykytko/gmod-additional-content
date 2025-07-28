@@ -1,0 +1,33 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "FRANKENTURRETS"
+		"origin" "28 115 64"
+		"angles" "0 76.499832 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-frankenturret.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Matt Charlesworth"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "WHEATLEY AS LEVEL DESIGNER"
+		"origin" " 1309.267090 383.095947 576.031250"
+		"angles" "0 180 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-designer.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Aaron Barber"
+		"synopsis" ""
+	}
+}

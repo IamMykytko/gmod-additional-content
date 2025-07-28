@@ -1,0 +1,33 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "VACUUM TRANSPORT"
+		"origin" "9153.449219 3885.906982 -415.968750"
+		"angles" "0 -90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-vacuum.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jeremy Bennett"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "TURRET BUILDING MACHINE"
+		"origin" "7729.935547 5695.455566 -319.968750"
+		"angles" "0 36 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-turret.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Aaron Nicholls"
+		"synopsis" ""
+	}
+}

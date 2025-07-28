@@ -1,0 +1,30 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_clientcommand"
+		"targetname" "comm_cmd"
+		"origin" "319.035461 1009.484619 865.297913"
+		"angles" "0 0 0"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "BIRDBRAIN"
+		"origin" "319.035461 1009.484619 865.297913"
+		"angles" "0 90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-birdbrain.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Erik Wolpaw"
+		"synopsis" ""
+                "connections"
+                {
+               	 "oncommentarystarted" "GladosCharacterStopScene("wheatley")"
+                }
+
+	}
+}

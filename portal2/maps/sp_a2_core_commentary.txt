@@ -1,0 +1,51 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "STALEMATE"
+		"origin" "0.764351 -1019.638794 64.031250"
+		"angles" "0 90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-stalemate.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Torsten Zabka"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "WHEATDOS"
+		"origin" "0.554327 1.185303 0.031250"
+		"angles" "0 0 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-wheatdos.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Michael Marcus"
+		"synopsis" ""
+		"StartDisabled" "1"
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "button_press_relay"
+		"connections"
+		{
+			"OnTrigger"	"WHEATDOS,Enable,,37,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "logic_auto"
+		"connections"
+		{
+			"OnMapSpawn"	"WHEATDOS,Disable,,37,-1"
+		}
+	}
+}

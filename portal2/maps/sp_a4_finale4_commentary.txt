@@ -1,0 +1,77 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_clientcommand"
+		"targetname" "comm_cmd"
+		"origin" "0 0 0"
+		"angles" "0 0 0"
+	}
+	"entity"
+	{
+		"classname" "logic_auto"
+		"targetname" ""
+		"origin" "6435 8335 45"
+		"angles" "0 0 0"
+		"id" 2332614
+		"spawnflags" 1
+		"connections"
+		{
+			"onmapspawn" "stalemate_clip_brush,kill,,0,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 0]"
+		}
+	}
+
+
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "PUNISHER"
+		"origin" "-1707.490479 102.673592 -1471.968750"
+		"angles" "0 -90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-punisher.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Joel Shoop"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "WHEATLEY ATTACKS"
+		"origin" "8 288 64.031250"
+		"angles" "0 90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-wheat_attacks.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kutta Srinivasan"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "CHEATING THE SPEED OF LIGHT"
+		"origin" "-0.023072 1502.308960 95.531250"
+		"angles" "0 -90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-cheating.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Phil Co"
+		"synopsis" ""
+	}
+}

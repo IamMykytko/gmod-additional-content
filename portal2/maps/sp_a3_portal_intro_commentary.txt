@@ -1,0 +1,33 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "PORTAL PAINT"
+		"origin" "258 -377 220"
+		"angles" "0 -90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-portalpaint.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Vitaliy Genkin"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "BLOBULATOR"
+		"origin" "-1 -53 44"
+		"angles" "0 135 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-blobulator.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Olivier Nallet"
+		"synopsis" ""
+	}
+}
