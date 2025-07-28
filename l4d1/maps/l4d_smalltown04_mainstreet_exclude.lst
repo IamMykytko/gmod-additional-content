@@ -1,0 +1,166 @@
+models/props_foliage/cedar01
+models/v_models/infected/v_hulk
+models/v_models/infected/v_boomer_body
+models/v_models/infected/v_boomer_body_normal
+models/v_models/infected/v_boomer_hands_normal
+detail/detailsprites
+models/v_models/infected/v_boomer_hands
+models/v_models/infected/v_hunter_hands
+models/v_models/infected/v_hunter_hands_normal
+models/v_models/infected/v_hunter_hands_detail
+models/props_doors/doormain_skin02
+models/props_doors/doormain_skin04
+models/props_doors/doormain_skin04_ref
+models/props_unique/zombiebreakwall01
+models/props_unique/zombiebreakwall01_h
+models/props_unique/zombiebreakwall01_i
+32 models/props_buildings/watertower_001a
+models/props_equipment/light_floodlight
+models/props_vehicles/truck001a_01
+models/props_foliage/tree_trunk
+models/props_signs/sign_drug01_on_b
+models/props_signs/sign_drug01_on_c
+models/props_plants/deadroses
+models/props_interiors/painting_landscape_a
+models/props_interiors/painting_landscape_b
+models/props_interiors/painting_landscape_c
+models/props_interiors/painting_landscape_d
+models/props_interiors/painting_landscape_e
+models/props_interiors/painting_landscape_f
+models/props_interiors/painting_landscape_g
+models/props_interiors/painting_landscape_h
+models/props_interiors/painting_landscape_i
+models/props_interiors/painting_landscape_j
+models/props_interiors/painting_landscape_k
+models/props_interiors/painting_landscape_l
+models/props_interiors/painting_portrait_a
+models/props_interiors/painting_portrait_b
+models/props_interiors/painting_portrait_c
+models/props_interiors/painting_portrait_d
+models/props_interiors/painting_portrait_e
+models/props_interiors/painting_portrait_f
+models/props_interiors/painting_portrait_g
+models/props_interiors/painting_portrait_h
+models/props_interiors/painting_portrait_i
+models/props_interiors/painting_portrait_j
+models/props_interiors/painting_portrait_k
+models/props_interiors/painting_portrait_l
+
+256 models/props_street/stopsign01
+128 models/props_plants/bush_big01
+64 models/props_cemetery/gravestones_col
+128 models/props_rooftop/satellitedish_large01
+256 models/props_rooftop/acvent04
+128 models/props_rooftop/acvent01
+256 models/props_rooftop/acvent02
+128 models/props_rooftop/rooftopcluster06a
+128 models/props_rooftop/billboard01_main
+128 models/props_rooftop/billboard01_supports
+256 models/props_street/sign_hollystapt
+64 models/props/de_nuke/chimneycluster01
+128 models/props/cs_office/light_outsidewall
+128 models/props_rooftop/antenna02
+512 nature/trees_card01
+512 models/props_foliage/branches_farm01
+512 models/props_foliage/trees_farm01
+512 decals/trash01
+512 models/props_interiors/candy_display01
+512 buildings/window_plaster01
+512 nature/milrock002
+512 nature/leaves
+256 buildings/facade01
+256 signs/movieposter03
+1024 buildings/city_nightburned02
+512 models/props_street/streetlightoldfash01
+512 models/props_street/streetlightoldfash01_ref
+512 models/props/cs_assault/forklift
+512 models/deadbodies/deadbodies_super
+512 models/v_models/weapons/pistol/v_pistol_reference
+256 models/props/cs_militia/mailbox01
+512 models/props_interiors/constructionwall_super
+256 models/props/cs_militia/newspaperstack01
+256 models/props_lab/powerbox001
+128 models/props_rooftop/antenna01
+512 models/props/de_nuke/truck_nuke
+512 nature/grasslawn_dry01
+128 models/props/cs_assault/pylon
+512 wood/milwall016
+512 models/props_vehicles/4carz1024
+512 concrete/pavement_height-ssbump
+256 concrete/roadparkinglot_stripes
+256 models/effects/urban_puddle01a
+256 models/props_street/electrical_boxes
+256 models/props_foliage/tree_deciduous_01a_trunk
+512 models/props_street/phonepole1a
+128 wood/woodshelf002a
+128 models/props_street/bollards
+256 models/props_vehicles/4carz1024_glass
+256 models/props_signs/sign_bait01
+512 signs/sign_antiques01
+256 signs/sign_surplus01
+128 models/props_signs/sign_eat01
+512 models/props_signs/sign_diner01
+512 nature/cliffface003a
+512 nature/dirt01
+512 nature/drkdirt
+512 nature/maple_leaves01
+512 models/props_fortifications/sandbags01
+512 models/props_junk/physics_trash_hospital
+512 models/w_models/minigun/w_minigun
+512 models/v_models/weapons/smg/uzi
+512 wood/ranchhouse_woodwall01_height-ssbump
+512 models/infected/boomer/boomer_exploded_01
+512 models/infected/boomer/boomer_normal
+256 models/props_junk/phys_objects02a
+256 models/props_junk/plastic_junk001a
+256 models/props_junk/trashdumpster02
+256 models/props_equipment/sleeping_bag1
+256 models/props_equipment/sleeping_bag3
+256 models/props/cs_assault/forklift_ref
+256 signs/movies01
+256 signs/movies03
+256 signs/movies02
+
+512 models/survivors/biker/francis_normal
+512 models/survivors/teenangst/zoey_normal
+512 models/survivors/manager/louis_normal
+512 models/survivors/namvet/bill_normal
+512 models/props_foliage/branchesfarm01_mip0
+512 models/props_foliage/cedar01_mip0
+512 models/props_vehicles/churchbus01_a
+512 models/props_vehicles/flatnose_truck
+512 models/props_vehicles/4carz1024
+512 models/infected/boomer/boomer
+512 models/props/cs_assault/forklift
+512 models/infected/hulk/hulk_01_normal
+512 models/infected/witch/witch_normal
+256 tile/tilefloor016a_normal
+512 models/infected/smoker/smoker_normal
+512 concrete/urban_concretefloor_01_ssbump
+512 concrete/road03
+512 concrete/roadparkinglot
+512 models/props_doors/checkpoint door
+512 models/props_vehicles/bus01_a
+512 models/infected/witch/witch
+512 models/infected/hulk/hulk_01
+512 models/infected/hunter/hunter_01
+512 models/infected/smoker/smoker
+512 models/props_junk/physics_trash
+512 models/infected/common/common_male_upper_05
+512 decals/decals_lit
+
+models/props_street/signgasstation01_on
+32 ads/ad01
+32 maps/l4d_smalltown04_mainstreet/c-2764_-2208_35.hdr
+512 models/infected/common/female_01/common_female_casual_upper_01
+512 models/infected/common/rural/common_rural_upper_01
+512 particle/spray1/spray1
+512 models/v_models/weapons/autoshot/m4super
+512 models/v_models/weapons/rifle/m16a2
+512 particle/fire_burning_character/fire_burning_character
+512 nature/dirt02
+512 models/infected/common/law_enforcement/common_police_male_upper_01
+512 models/infected/common/military_national_guard/common_military_upper_01
+512 models/infected/common/worker/common_worker_male_upper_01
+512 models/props_vehicles/semi_trailer
+512 models/infected/common/worker/common_worker_male_upper_02

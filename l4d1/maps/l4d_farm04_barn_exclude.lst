@@ -1,0 +1,24 @@
+512 models/infected/boomer/boomer_normal
+512 models/infected/hulk/hulk_01_normal
+512 models/infected/witch/witch_normal
+512 models/infected/smoker/smoker_normal
+
+models/v_models/infected/v_hulk
+models/v_models/infected/v_boomer_body
+models/v_models/infected/v_boomer_body_normal
+models/v_models/infected/v_boomer_hands_normal
+
+models/v_models/infected/v_boomer_hands
+models/v_models/infected/v_hunter_hands
+models/v_models/infected/v_hunter_hands_normal
+models/v_models/infected/v_hunter_hands_detail
+
+1024 models/props_foliage/trees_farm01
+512 models/props_vehicles/flatnose_truck
+512 models/hybridphysx/lawnmower_colour
+512 concrete/pavement_height-ssbump
+
+512 models/survivors/biker/francis_normal
+512 models/survivors/teenangst/zoey_normal
+512 models/survivors/manager/louis_normal
+512 models/survivors/namvet/bill_normal

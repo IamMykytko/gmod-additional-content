@@ -1,0 +1,66 @@
+detail/detailsprites
+models/props_doors/doormain_skin02
+models/props_doors/doormain_skin03
+models/props_doors/doormain_skin04
+models/props_doors/doormain_skin04_ref
+models/props_foliage/tree_trunk
+models/props/cs_office/projector
+models/props/cs_office/projector_p
+models/props_vehicles/airliner_finale_ligh
+models/props_vehicles/c130_propeller
+models/gibs/hgibs/skull1
+models/gibs/hgibs/skull1_normal
+256 models/props_lighting/light_industrialcluster01a
+128 models/props_lighting/light_industrialcluster01a_ref
+512 models/props_vehicles/airliner_finale1
+512 models/props_vehicles/airliner_finale2
+512 models/props_vehicles/airliner_finale3
+256 models/props_vehicles/c130_1
+128 models/props_vehicles/c130_2
+256 models/props_vehicles/airport_catering_truck1
+256 models/props_vehicles/airport_fuel_truck1
+256 models/props_vehicles/airport_fuel_truck2
+256 models/props_vehicles/airport_fuel_truck
+128 models/props_vehicles/airport_baggage_cart
+64 models/props_vehicles/airport_baggage_cart_ref
+64 models/props_vehicles/c130_propeller_static
+128 models/props_unique/airport/boarding_ramp_frame
+256 buildings/glass01_small
+
+512 models/infected/hulk/hulk_01_normal
+512 models/infected/witch/witch_normal
+512 models/infected/smoker/smoker_normal
+512 models/infected/boomer/boomer_normal
+512 models/props_vehicles/flatnose_truck
+512 concrete/pavement_height-ssbump
+512 models/v_models/weapons/pistol/v_pistol_reference
+512 models/v_models/weapons/smg/uzi
+
+512 models/survivors/biker/francis_normal
+512 models/survivors/teenangst/zoey_normal
+512 models/survivors/manager/louis_normal
+512 models/survivors/namvet/bill_normal
+
+512 models/infected/boomer/boomer_exploded_01
+512 models/infected/common/common_male_suit_02_upper_01
+512 models/infected/common/law_enforcement/common_police_male_upper_01
+512 models/infected/common/military_national_guard/common_military_upper_01
+512 models/infected/common/worker/common_worker_male_upper_01
+512 models/infected/common/worker/common_worker_male_upper_02
+512 models/infected/common/common_male_suit_01_upper_01
+512 models/infected/common/common_male_upper_01
+512 models/infected/common/common_male_upper_03
+512 models/infected/common/common_male_upper_05
+512 models/infected/common/common_male_upper_07
+512 models/infected/common/female_01/common_female_casual_upper_01
+512 models/infected/common/female_01/common_female_suit_lower_01
+512 models/infected/common/common_male_lower_01
+512 models/infected/common/common_male_suit_01_lower_01
+512 models/infected/common/common_male_suit_02_upper_01
+512 models/infected/common/female_01/common_female_casual_lower_01
+512 models/infected/common/law_enforcement/common_police_male_lower_01
+512 models/infected/common/law_enforcement/common_police_male_upper_01
+512 models/infected/common/military_national_guard/common_military_lower_01
+512 models/infected/common/military_national_guard/common_military_upper_01
+512 models/infected/common/worker/common_worker_male_lower_01
+512 models/infected/common/female_01/common_female_suit_upper_01

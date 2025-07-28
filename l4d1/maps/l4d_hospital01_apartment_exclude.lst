@@ -1,0 +1,99 @@
+detail/detailsprites
+models/v_models/infected/v_hulk
+models/v_models/infected/v_boomer_hands
+models/v_models/infected/v_hunter_hands
+models/v_models/infected/v_hunter_hands_detail
+models/props_doors/doormain_skin02
+models/props_doors/doormain_skin03
+models/props_interiors/painting_landscape_a
+models/props_interiors/painting_landscape_b
+models/props_interiors/painting_landscape_c
+models/props_interiors/painting_landscape_d
+models/props_interiors/painting_landscape_e
+models/props_interiors/painting_landscape_f
+models/props_interiors/painting_landscape_g
+models/props_interiors/painting_portrait_a
+models/props_interiors/painting_portrait_b
+models/props_interiors/painting_portrait_c
+models/props_interiors/painting_portrait_d
+models/props_interiors/painting_portrait_e
+models/props_interiors/painting_portrait_f
+models/props_interiors/painting_portrait_k
+models/props_interiors/painting_portrait_l
+models/props_vehicles/van001b_01
+
+512 plaster/roofbump-ssbump
+512 models/infected/boomer/boomer_normal
+512 models/infected/smoker/smoker_normal
+512 models/infected/hulk/hulk_01_normal
+512 models/infected/witch/witch_normal
+512 models/survivors/teenangst/teenangst_normal
+512 models/deadbodies/dead_military_police_super
+512 models/v_models/weapons/autoshot/m4super
+512 models/v_models/weapons/shotgun/v_pump_shotgun_reference
+512 models/v_models/weapons/rifle/m16a2
+512 models/v_models/weapons/pistol/v_pistol_reference
+512 models/v_models/weapons/smg/uzi
+512 models/v_models/weapons/sniper/v_sniper_reference
+512 decals/sos01
+512 concrete/urban_concretefloor_01_ssbump
+512 models/deadbodies/deadbodies_super
+512 models/infected/common/common_male_suit_01_upper_01
+512 models/infected/common/common_male_suit_02_upper_01
+512 models/infected/common/common_male_upper_01
+512 models/infected/common/common_male_upper_05
+512 models/infected/common/common_male_upper_03
+512 models/infected/common/common_male_upper_07
+512 models/infected/common/female_01/common_female_suit_upper_01
+512 models/infected/common/law_enforcement/common_police_male_upper_01
+512 models/infected/common/military_national_guard/common_military_upper_01
+512 models/infected/common/worker/common_worker_male_upper_01
+512 models/infected/common/worker/common_worker_male_upper_02
+256 models/props_vehicles/helicopter_news2
+256 models/props_wasteland/light_spotlight01a
+256 models/v_models/weapons/eq_molotov/v_eq_molotov_bottle_normal
+512 models/props_vehicles/4carz1024
+512 models/props_vehicles/flatnose_truck
+512 models/hybridphysx/helicopter_news_adj
+512 models/props_doors/checkpoint door
+512 plaster/rooffloor_tar01
+256 models/props_interiors/furniture_wood01
+512 models/props_junk/physics_trash_hospital
+256 models/props_interiors/furniture_wood02
+256 models/props_vehicles/4carz1024_glass
+256 decals/decalstain011a
+256 decals/decalstain001a
+256 decals/decalplaster002a
+512 models/props_urban/skylight
+512 models/props_industrial/warehouse_shelves
+256 signs/urban_building_sign001
+256 models/props/cs_militia/table_kitchen
+256 models/props_c17/lamppost03a
+256 models/props_doors/door_urban_48_118
+256 models/props_doors/doormain_skin04
+256 models/props_equipment/oxygentank01
+256 models/props_debris/concretedebris_chunk01
+256 models/props_debris/composite_debris
+256 models/props_junk/garbage003a_01
+256 models/props_junk/cardboard_boxes001a
+256 models/props_interiors/woodfurniture01
+256 models/props_junk/woodcrates01a
+256 models/props_lab/lab_objects02
+256 models/props_lab/monitor02
+512 models/props_rooftop/acunit01
+256 models/props_rooftop/billboard03_main
+512 models/props_rooftop/billboard06_main
+256 models/props_street/bay_window01
+256 models/props_street/electrical_boxes
+256 models/props_street/bollards
+256 models/props_wasteland/fence_sheet01
+256 models/props_windows/windows_urban01
+256 models/props_windows/windows_urban02
+256 models/props_wasteland/light_spotlight01b
+256 sprites/lightning001
+256 sprites/lightning002
+256 sprites/lightning003
+256 tile/urban_countertop01b
+256 models/props_street/watertower01
+256 models/props_rooftop/acvent01
+256 models/props_rooftop/acvent02

@@ -1,0 +1,491 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital03_path01"
+		"origin" "11396.9404296875 5424.1401367188 70.9100036621"
+		"angles" "0 91.5422286987 0"
+		"contextsubject" "hospital03_path01"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital03_path02"
+		"origin" "10882.490234375 6056.1899414063 61.8699989319"
+		"angles" "0 82.434387207 0"
+		"contextsubject" "hospital03_path02"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital03_path03"
+		"origin" "12656.4501953125 7161.4399414063 49.4900016785"
+		"angles" "0 43.0325965881 0"
+		"contextsubject" "hospital03_path03"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital03_path04"
+		"origin" "11219.7099609375 7821.1298828125 66.6100006104"
+		"angles" "0 -2.5072937012 0"
+		"contextsubject" "hospital03_path04"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital03_path05"
+		"origin" "13108.9501953125 7412.6201171875 72.6999969482"
+		"angles" "0 -11.5490913391 0"
+		"contextsubject" "hospital03_path05"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital03_path06"
+		"origin" "13377.4404296875 7532.0698242188 -225.7100067139"
+		"angles" "0 40.2249412537 0"
+		"contextsubject" "hospital03_path06"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital03_path07"
+		"origin" "13264.8798828125 8546.2197265625 -283.8200073242"
+		"angles" "0 -87.2205505371 0"
+		"contextsubject" "hospital03_path07"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital03_path08"
+		"origin" "14137.4501953125 9040.5 -398.7300109863"
+		"angles" "0 84.3803634644 0"
+		"contextsubject" "hospital03_path08"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital03_path09"
+		"origin" "13365.8896484375 10440.080078125 -426.5400085449"
+		"angles" "0 -173.4875793457 0"
+		"contextsubject" "hospital03_path09"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital03_path10"
+		"origin" "13354.6396484375 11520.349609375 -439.5700073242"
+		"angles" "0 -0.6635313034 0"
+		"contextsubject" "hospital03_path10"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital03_path11"
+		"origin" "12950.2099609375 12322.3701171875 75.3899993896"
+		"angles" "0 -21.5193939209 0"
+		"contextsubject" "hospital03_path11"
+	}
+	"entity"
+	{
+		"classname" "point_clientcommand"
+		"targetname" "comm_cmd"
+		"origin" "0 0 0"
+		"angles" "0 0 0"
+	}
+	"entity"
+	{
+		"id" "2332614"
+		"classname" "logic_auto"
+		"spawnflags" "1"
+		"connections"
+		{
+			"OnMapSpawn" "comm_cmd,Command,sv_cheats 1,0,-1"
+			"OnMapSpawn" "comm_cmd,Command,z_difficulty Easy,0,-1"
+			"OnMapSpawn" "comm_cmd,Command,director_no_bosses 1,0,-1"
+		}
+		"origin" "11275 4665 55"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "THE AI DIRECTOR AND ZOMBIE POPULATION"
+		"origin" "11276.8095703125 4667.58984375 57.1300010681"
+		"angles" "0 1.6499999762 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-aidirectorpop.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Charlie Brown"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "NETWORK BANDWIDTH"
+		"origin" "11308.2197265625 5314.2797851563 55.1800003052"
+		"angles" "0 6.0500001907 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-netbandwidth.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Zoid Kirsch"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "zoey_relay"
+		"origin" "11396 6563.8798828125 56.9048995972"
+		"angles" "0 0 0"
+		"id" 8049006
+		"spawnflags" 0
+		"startdisabled" 0
+		"connections"
+		{
+			"ontrigger" "zoey_template,ForceSpawn,,0,-1"
+			"ontrigger" "zoey_relay,Disable,,0.1,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_template"
+		"targetname" "zoey_template"
+		"origin" "11396 6563.8798828125 40.9048995972"
+		"angles" "0 0 0"
+		"id" 8049008
+		"spawnflags" 2
+		"template01" "zoey_model"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "commentary_dummy"
+		"targetname" "zoey_model"
+		"origin" "10816 5776 16.9048995972"
+		"angles" "0 270 0"
+		"id" 8049002
+		"model" "models/survivors/survivor_teenangst.mdl"
+		"startinganim" "Idle_Calm_Pistol"
+		"eyeheight" 64
+		"startingweapons" "weapon_pistol"
+		"headyawposeparam" "head_yaw"
+		"headpitchposeparam" "head_pitch"
+		"lookatplayers" 1
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "ZOEY"
+		"origin" "10812.599609375 5634.9399414063 60.0299987793"
+		"angles" "0 90.0599975586 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-zoey.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Andrea Wicklund"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "zoey_relay,Trigger,,0,-1"
+			"oncommentarystopped" "zoey_model,Kill,,0,-1"
+			"oncommentarystopped" "zoey_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "LINEAR MAPS VS. OPEN CITY "
+		"origin" "11450 6550 50"
+		"angles" "0 0 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-linearvopencity.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Matt T. Wood"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "GAS PUMPS"
+		"origin" "12239.169921875 6292.580078125 53.2000007629"
+		"angles" "0 2.3599998951 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-gaspumps.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Gray Horsfield"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "SCISSOR LIFT CLIMAX"
+		"origin" "12575 7240 75"
+		"angles" "0 84.5800018311 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-scissorlift.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Phil Co"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "THE AI DIRECTOR AND DRAMATIC PACING"
+		"origin" "10905 7125 325"
+		"angles" "0 -178.8300018311 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-dramaticpacing.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Gautam Babbar"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "info_target"
+		"targetname" "grain_target"
+		"origin" "12847 7992 75.1458969116"
+		"angles" "0 0 0"
+		"id" 8121040
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"classname" "info_target"
+		"targetname" "grain_camera"
+		"origin" "12902 7921 69"
+		"angles" "0 0 0"
+		"id" 8121042
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "logic_timer"
+		"targetname" "grain_timer"
+		"origin" "1275 8005 60"
+		"angles" "0 0 0"
+		"id" 6429668
+		"refiretime" 4
+		"spawnflags" 0
+		"startdisabled" 1
+		"userandomtime" 0
+		"connections"
+		{
+			"ontimer" "comm_cmd,Command,mat_grain_enable 0,0,-1"
+			"ontimer" "comm_cmd,Command,mat_grain_enable 1,2,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 2000]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "FILM EFFECTS - FILM GRAIN"
+		"origin" "12780 7850 60"
+		"angles" "0 -91.8000030518 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-filmgrain.wav"
+		"viewtarget" "grain_target"
+		"viewposition" "grain_camera"
+		"prevent_movement" 0
+		"speakers" "Alex Vlachos"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "grain_timer,Enable,,0,-1"
+			"oncommentarystarted" "comm_cmd,Command,mat_grain_scale_override 2,0,-1"
+			"oncommentarystopped" "comm_cmd,Command,mat_grain_scale_override 0,0,-1"
+			"oncommentarystopped" "grain_timer,Disable,,0,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "WRITING FOR LEFT 4 DEAD"
+		"origin" "14121.8203125 8721.400390625 -463.6400146484"
+		"angles" "0 87.5 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-l4dwriting.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Chet Faliszek"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "VERSUS MODE BALANCE"
+		"origin" "13526.5302734375 10260.9296875 -417.75"
+		"angles" "0 90.8799972534 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-vsbalance.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "David Sawyer"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "LADDER"
+		"origin" "14269.7099609375 11600.6796875 -325"
+		"angles" "0 85.7799987793 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-ladder.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jerry Bennett"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "witch_relay"
+		"origin" "13184 12272 48"
+		"angles" "0 0 0"
+		"id" 8048983
+		"spawnflags" 0
+		"startdisabled" 0
+		"connections"
+		{
+			"ontrigger" "witch_spawner,SpawnZombie,witch witch,0,-1"
+			"ontrigger" "witch_relay,Disable,,0.1,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"id" "9368544"
+		"classname" "commentary_zombie_spawner"
+		"angles" "0 270 0"
+		"targetname" "witch_spawner"
+		"origin" "13184 12320 10"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+		"connections"
+		{
+			"OnSpawnedZombieDeath" "witch_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "THE WITCH"
+		"origin" "13250 12200 50"
+		"angles" "0 136.6499938965 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-thewitch.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jerry Bennett"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "witch_relay,Trigger,,0,-1"
+			"oncommentarystopped" "witch,Kill,,0,-1"
+			"oncommentarystopped" "witch_relay,Enable,,0.1,-1"
+		}
+	}
+	
+	// Blocks like this search for existing entities, using "find_by_modelname" or "find_by_targetname"
+	// and apply the settings found inside the "modify" block to all matching entities.
+	"modify_entity"
+	{
+		// first find the entity or entities to modify
+		"find_by_modelname"		"models/props_interiors/door_sliding_breakable01.mdl"
+		
+		// AND / OR 
+		
+		//"find_by_targetname"	"some_targetname"
+		
+		// then the changes contained in this block are applied to all found ents
+		"modify"
+		{
+			"minhealthdmg"	"20"
+		}
+	}
+}

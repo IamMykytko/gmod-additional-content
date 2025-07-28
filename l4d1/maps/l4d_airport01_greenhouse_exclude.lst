@@ -1,0 +1,49 @@
+detail/detailsprites
+models/v_models/infected/v_hulk
+models/v_models/infected/v_boomer_hands
+models/v_models/infected/v_hunter_hands
+models/v_models/infected/v_hunter_hands_detail
+models/v_models/infected/v_boomer_body
+models/v_models/infected/v_boomer_body_normal
+models/v_models/infected/v_boomer_hands_normal
+glass/offwndwb_break_hdr
+models/gibs/hgibs/skull1
+models/gibs/hgibs/skull1_normal
+tools/climb
+tools/climb_alpha
+dev/dev_measuregeneric01
+dev/dev_measuregeneric01b
+tools/toolsclip
+tools/toolsfog
+tools/toolshint
+tools/toolsinvisible
+tools/toolsskip
+tools/toolstrigger
+models/props_doors/doormain_skin02
+models/props_doors/doormain_skin03
+models/props_lighting/lightfixture03_on
+models/props_interiors/painting_landscape_a
+models/props_interiors/painting_landscape_b
+models/props_interiors/painting_landscape_c
+models/props_interiors/painting_landscape_d
+models/props_interiors/painting_landscape_e
+models/props_interiors/painting_landscape_f
+models/props_interiors/painting_landscape_g
+models/props_interiors/painting_landscape_l
+models/props_interiors/painting_portrait_a
+models/props_interiors/painting_portrait_b
+models/props_interiors/painting_portrait_c
+models/props_interiors/painting_portrait_d
+models/props_interiors/painting_portrait_e
+models/props_interiors/painting_portrait_f
+models/props_interiors/painting_portrait_k
+models/props_interiors/painting_portrait_l
+models/props_lighting/lighthanging
+64 models/props_vehicles/boat_fishing
+256 models/props_vehicles/c130_2
+256 models/props_street/warehouse_vent_pipes
+256 models/props_foliage/tree_deciduous_01a_trunk
+256 models/props_street/bay_window01
+128 wood/barn01
+32 models/props_c17/handrailmetal001a
+32 models/props_vehicles/c130_propeller

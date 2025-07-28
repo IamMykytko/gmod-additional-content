@@ -1,0 +1,54 @@
+detail/detailsprites
+
+512 models/infected/boomer/boomer_normal
+512 models/infected/hulk/hulk_01_normal
+512 models/infected/witch/witch_normal
+512 models/infected/smoker/smoker_normal
+
+models/v_models/infected/v_hulk
+models/v_models/infected/v_boomer_body
+models/v_models/infected/v_boomer_body_normal
+models/v_models/infected/v_boomer_hands_normal
+
+models/v_models/infected/v_boomer_hands
+models/v_models/infected/v_hunter_hands
+models/v_models/infected/v_hunter_hands_normal
+models/v_models/infected/v_hunter_hands_detail
+
+1024 models/props_foliage/trees_farm01
+1024 models/hybridphysx/body_colour
+
+512 models/survivors/biker/francis_normal
+512 models/survivors/teenangst/zoey_normal
+512 models/survivors/manager/louis_normal
+512 models/survivors/namvet/bill_normal
+
+1024 models/hybridphysx/interior_light_and_colour
+1024 models/props_foliage/branchesfarm01_mip0
+512 models/hybridphysx/trim_colour
+512 models/props_vehicles/tractor01
+512 models/props_vehicles/4carz1024
+512 models/deadbodies/dead_military_police_super
+512 models/infected/boomer/boomer
+512 models/infected/boomer/boomer_exploded_01
+512 models/infected/common/common_male_upper_05
+512 models/infected/common/female_01/common_female_casual_upper_01
+512 models/infected/common/rural/common_rural_upper_01
+512 materials/models/infected/hulk/hulk_01
+512 materials/models/infected/hunter/hunter_01
+512 materials/models/infected/smoker/smoker
+512 materials/models/infected/witch/witch
+512 materials/metal/fence_barbed
+512 materials/nature/vine01
+512 models/props_vehicles/train_enginecar
+512 models/props_vehicles/train_tank
+512 models/v_models/weapons/pistol/v_pistol_reference
+512 models/v_models/weapons/smg/uzi
+512 models/props_vehicles/train_box
+
+
+
+
+
+
+

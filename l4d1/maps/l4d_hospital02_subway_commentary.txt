@@ -1,0 +1,520 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital02_path01"
+		"origin" "3020.3999023438 3010.8798828125 70.8799972534"
+		"angles" "0 -2.5739486217 0"
+		"contextsubject" "hospital02_path01"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital02_path02"
+		"origin" "3832.5300292969 3478.8798828125 -258.8900146484"
+		"angles" "0 86.9226303101 0"
+		"contextsubject" "hospital02_path02"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" ""
+		"origin" "7615.4887695313 2859.3107910156 -283.8635864258"
+		"angles" "0 -16.472694397 0"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital02_path04"
+		"origin" "8244.8701171875 5134.3100585938 38.4099998474"
+		"angles" "0 18.3697986603 0"
+		"contextsubject" "hospital02_path04"
+	}
+	"entity"
+	{
+		"classname" "point_clientcommand"
+		"targetname" "comm_cmd"
+		"origin" "0 0 0"
+		"angles" "0 0 0"
+	}
+	"entity"
+	{
+		"id" "2332614"
+		"classname" "logic_auto"
+		"spawnflags" "1"
+		"connections"
+		{
+			"OnMapSpawn" "comm_cmd,Command,sv_cheats 1,0,-1"
+			"OnMapSpawn" "comm_cmd,Command,z_difficulty Easy,0,-1"
+			"OnMapSpawn" "comm_cmd,Command,director_no_bosses 1,0,-1"
+		}
+		"origin" "3784 4072 -488"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "GAME INSTRUCTION SYSTEM"
+		"origin" "2925 2965 75"
+		"angles" "0 171.5599975586 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-gameinstruct.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jeep Barnett"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "CONTEXTUAL DIALOG"
+		"origin" "3709.5600585938 3244.2299804688 -301.6700134277"
+		"angles" "0 88.4899978638 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-contextdialog.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Elan Ruskin"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "random_weapons_relay"
+		"origin" "3784 4072 -488"
+		"angles" "0 0 0"
+		"id" 9320820
+		"connections"
+		{
+			"ontrigger" "weapons_spawn2_template,ForceSpawn,,0.25,1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "LIMITED RANDOM WEAPON PLACEMENT"
+		"origin" "3814.2099609375 4077.9399414063 -486.799987793"
+		"angles" "0 179.7599945068 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-randomweapon.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Steve Kalning"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "random_weapons_relay,Trigger,,0,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "ADVANCED ZOMBIE AI"
+		"origin" "4321.2700195313 4083.8500976563 -188.7799987793"
+		"angles" "0 169.4499969482 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-advzombieai.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Matt Campbell"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "COVERED BODY"
+		"origin" "4962.08984375 3968.5600585938 -298.8599853516"
+		"angles" "0 18.0300006866 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-coveredbody.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jaime Sue"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "SMOKING THE SET"
+		"origin" "5887.009765625 3801.8100585938 -290.6499938965"
+		"angles" "0 -44.8300018311 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-smokeset.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Lars Jensvold"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "PLAYER GLOWS"
+		"origin" "7183.240234375 2852.3100585938 -287.2099914551"
+		"angles" "0 2.25 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-playerglows.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Alex Vlachos"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "FLASHLIGHT"
+		"origin" "7335.759765625 3717.5100097656 -112.1100006104"
+		"angles" "0 -3.3800001144 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-flashlight.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jason Mitchell"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "RESCUE CLOSETS"
+		"origin" "8426.1298828125 4082.3000488281 -110.3000030518"
+		"angles" "0 -4.4200000763 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-rescueclosets.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Chris Ashton"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "IMPROVISED EXPLOSIVES"
+		"origin" "8124.9799804688 3330.7600097656 48.4500007629"
+		"angles" "0 -179.5599975586 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-improvexplosives.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Scott Dalton"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "CRESCENDO EVENT"
+		"origin" "7850 3825 75"
+		"angles" "0 -88.8000030518 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-crescendo.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Miles Estes"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "CRESCENDO EVENTS"
+		"origin" "7350 3290 50"
+		"angles" "0 179.7599945068 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-crescendoevents.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Dario Casali"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "commentary_dummy"
+		"targetname" "louis_model"
+		"origin" "7558 4115.259765625 249"
+		"angles" "0 240 0"
+		"id" 9320758
+		"model" "models/survivors/survivor_manager.mdl"
+		"skin" 0
+		"startinganim" "Idle_Calm_Pistol"
+		"eyeheight" 64
+		"startingweapons" "weapon_pistol"
+		"headyawposeparam" "head_yaw"
+		"headpitchposeparam" "head_pitch"
+		"lookatplayers" 1
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_template"
+		"targetname" "louis_template"
+		"origin" "7504 4120 264"
+		"angles" "0 0 0"
+		"id" 9320768
+		"spawnflags" 2
+		"template01" "louis_model"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "louis_relay"
+		"origin" "7504 4120.0400390625 280"
+		"angles" "0 0 0"
+		"id" 9320776
+		"spawnflags" 0
+		"startdisabled" 0
+		"connections"
+		{
+			"ontrigger" "louis_template,ForceSpawn,,0,-1"
+			"ontrigger" "louis_relay,Disable,,0.1,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "LOUIS"
+		"origin" "7540.8198242188 3991.3999023438 288.299987793"
+		"angles" "0 89.0199966431 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-louis.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Moby Francke"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "louis_relay,Trigger,,0,-1"
+			"oncommentarystopped" "louis_model,Kill,,0,-1"
+			"oncommentarystopped" "louis_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "PAINTING WITH LIGHT"
+		"origin" "7940 5045 50"
+		"angles" "0 56.4199981689 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-lightpaint.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Chris Chin"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "WORLD MODELS"
+		"origin" "8303.849609375 5153.9599609375 93.4700012207"
+		"angles" "0 11.4099998474 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-worldmodels.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Tristan Reidford"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "tank_relay"
+		"origin" "8936 5168 42.4057006836"
+		"angles" "0 0 0"
+		"id" 9320759
+		"connections"
+		{
+			"ontrigger" "tank_spawner,SpawnZombie,tank tank,0,-1"
+			"ontrigger" "tank_relay,Disable,,0.1,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 3500]"
+		}
+	}
+	"entity"
+	{
+		"id" "9368544"
+		"classname" "commentary_zombie_spawner"
+		"angles" "0 180 0"
+		"targetname" "tank_spawner"
+		"origin" "8955 5120 10"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+		"connections"
+		{
+			"OnSpawnedZombieDeath" "tank_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "THE TANK"
+		"origin" "8899.3203125 5146.2001953125 52.0299987793"
+		"angles" "0 -1.7000000477 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-thetank.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kerry Davis"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "tank_relay,Trigger,,0,-1"
+			"oncommentarystopped" "tank,Kill,,0,-1"
+			"oncommentarystopped" "tank_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "info_target"
+		"targetname" "color_target"
+		"origin" "10551 4966.740234375 163.199005127"
+		"angles" "0 0 0"
+		"id" 9336589
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "info_target"
+		"targetname" "color_camera"
+		"origin" "10248.400390625 5234.6201171875 89"
+		"angles" "0 0 0"
+		"id" 9336591
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 1000]"
+		}
+	}
+	"entity"
+	{
+		"classname" "logic_timer"
+		"targetname" "color_timer"
+		"origin" "5395 8635 6245"
+		"angles" "0 0 0"
+		"id" 6429668
+		"refiretime" 4
+		"spawnflags" 0
+		"startdisabled" 1
+		"userandomtime" 0
+		"connections"
+		{
+			"ontimer" "comm_cmd,Command,mat_colorcorrection 0,0,-1"
+			"ontimer" "comm_cmd,Command,mat_colorcorrection 1,2,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 2000]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "FILM EFFECTS - COLOR CORRECTION"
+		"origin" "10200 5250 60"
+		"angles" "0 0.5899999738 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-colorcorrect.wav"
+		"viewtarget" "color_target"
+		"viewposition" "color_camera"
+		"prevent_movement" 0
+		"speakers" "Thorsten Scheuermann"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "color_timer,Enable,,0,-1"
+			"oncommentarystopped" "color_timer,Disable,,0,-1"
+			"oncommentarystopped" "comm_cmd,Command,mat_colorcorrection 1,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital02_safehouse"
+		"origin" "10045.099609375 5035.0698242188 40.1300010681"
+		"angles" "0 -10.7056560516 0"
+		"contextsubject" "hospital02_safehouse"
+	}
+}

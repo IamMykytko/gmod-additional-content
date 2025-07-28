@@ -1,0 +1,96 @@
+detail/detailsprites
+models/gibs/hgibs/skull1
+models/gibs/hgibs/skull1_normal
+dev/dev_measuregeneric01
+dev/dev_measuregeneric01b
+dev/dev_measurewall01a
+brick/urban_brickwall_01a
+models/props_equipment/oxygentank01
+models/props_foliage/tree_trunk
+models/props_street/rent_sign
+models/props_lighting/LightFixure04On
+models/props_lighting/LightFixure05On
+models/props_lighting/lightfixture02aon
+models/props_lighting/lightfixture02on
+models/props_lighting/lightfixture02aoff
+models/props_street/rent_sign
+tools/toolsclip
+tools/toolsfog
+tools/toolshint
+tools/toolsinvisible
+tools/toolsskip
+tools/toolstrigger
+256 glass/urban_glass_03
+512 signs/sign_recycling
+512 models/props/cs_assault/forklift
+256 models/props/cs_assault/forklift_ref
+512 models/props_exteriors/train_truss01
+256 models/props_lighting/lightfixture04on
+256 models/props_c17/lamppost03a
+64 models/props_buildings/hmap_citycenter_hill
+256 models/props_lighting/lightfixture04off
+64 models/props_lighting/lightfixture04off_ref
+64 models/props_lighting/lightfixture02off
+256 models/props_rooftop/acunit1
+256 models/props_rooftop/acvent04
+256 models/props_rooftop/billboard01_main
+256 models/props_rooftop/rooftopcluster06a
+64 models/props_signs/eastern_waterworks_sign
+256 models/props_signs/raisedbillboard_frame
+256 models/props_signs/raisedbillboard_main
+256 models/props_street/watertower01
+256 models/props_exteriors/guardrail_ref
+512 models/props_foliage/branchesfarm01_mip0
+512 models/props_foliage/trees_farm01
+256 models/props_urban/skylight
+256 models/props_urban/fire_escape
+256 models/props_wasteland/fence_sheet01
+256 models/props_wasteland/fence_sheet02
+256 models/props_street/trimpiece02
+
+512 models/v_models/weapons/autoshot/m4super
+512 models/v_models/weapons/shotgun/v_pump_shotgun_reference
+512 models/v_models/weapons/rifle/m16a2
+512 models/v_models/weapons/pistol/v_pistol_reference
+512 models/v_models/weapons/smg/uzi
+512 models/v_models/weapons/sniper/v_sniper_reference
+512 models/w_models/minigun/w_minigun
+
+512 models/survivors/biker/francis_normal
+512 models/survivors/teenangst/zoey_normal
+512 models/survivors/manager/louis_normal
+512 models/survivors/namvet/bill_normal
+
+512 models/infected/hulk/hulk_01_normal
+512 models/infected/witch/witch_normal
+512 models/infected/smoker/smoker_normal
+512 models/infected/boomer/boomer_normal
+512 models/infected/boomer/boomer
+512 models/infected/boomer/boomer_exploded_01
+512 models/infected/hulk/hulk_01
+512 models/infected/hunter/hunter_01
+512 models/infected/smoker/smoker
+512 models/infected/witch/witch
+512 models/v_models/infected/v_hulk
+
+512 models/deadbodies/deadbodies_super
+512 models/deadbodies/dead_military_police_super
+512 models/infected/common/common_male_suit_01_upper_01
+512 models/infected/common/common_male_suit_02_upper_01
+512 models/infected/common/common_male_upper_01
+512 models/infected/common/common_male_upper_03
+512 models/infected/common/common_male_upper_05
+512 models/infected/common/common_male_upper_07
+512 models/infected/common/common_male_lower_01
+512 models/infected/common/common_male_suit_01_lower_01
+512 models/infected/common/law_enforcement/common_police_male_upper_01
+512 models/infected/common/law_enforcement/common_police_male_upper_02
+512 models/infected/common/law_enforcement/common_police_male_lower_01
+512 models/infected/common/military_national_guard/common_military_upper_01
+512 models/infected/common/military_national_guard/common_military_lower_01
+512 models/infected/common/worker/common_worker_male_upper_01
+512 models/infected/common/worker/common_worker_male_lower_01
+512 models/infected/common/female_01/common_female_casual_upper_01
+512 models/infected/common/female_01/common_female_suit_upper_01
+512 models/infected/common/female_01/common_female_suit_lower_01
+512 models/infected/common/female_01/common_female_casual_lower_01

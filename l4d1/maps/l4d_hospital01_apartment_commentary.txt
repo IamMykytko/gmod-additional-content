@@ -1,0 +1,585 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital01_path01"
+		"origin" "1503.8599853516 2675.25 75.7799987793"
+		"angles" "0 78.8679275513 0"
+		"contextsubject" "hospital01_path01"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital01_path02"
+		"origin" "1759.8499755859 3306.0400390625 47.0699996948"
+		"angles" "0 29.1699962616 0"
+		"contextsubject" "hospital01_path02"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital01_path03"
+		"origin" "2852.4899902344 4193.1000976563 52.4700012207"
+		"angles" "0 -0.2659577727 0"
+		"contextsubject" "hospital01_path03"
+	}
+	"entity"
+	{
+		"classname" "point_clientcommand"
+		"targetname" "comm_cmd"
+		"origin" "0 0 0"
+		"angles" "0 0 0"
+	}
+	"entity"
+	{
+		"id" "2332614"
+		"classname" "logic_auto"
+		"spawnflags" "1"
+		"connections"
+		{
+			"OnMapSpawn" "comm_cmd,Command,z_difficulty Easy,0.1,-1"
+			"OnMapSpawn" "comm_cmd,Command,sv_cheats 1,0,-1"
+			"OnMapSpawn" "comm_cmd,Command,director_no_bosses 1,0.1,-1"
+		}
+		"origin" "1888 896 512"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "INTRODUCTION"
+		"origin" "1900 930 500"
+		"angles" "0 -88.7399978638 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-intro.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Gabe Newell"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "PLAYER START"
+		"origin" "2125 1075 475"
+		"angles" "0 -1.4400000572 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-playerstart.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Steve Bond"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "INTRO MOVIES"
+		"origin" "1659.0300292969 902.4699707031 470.0100097656"
+		"angles" "0 -179.1199951172 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-intromovies.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Doug Wood"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "ORIGINS OF THE GAME"
+		"origin" "1677.0200195313 1149.6700439453 474.1900024414"
+		"angles" "0 -0.6499999762 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-origins.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Mike Booth"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "infected_relay"
+		"origin" "1849.8100585938 1232.5899658203 330.674987793"
+		"angles" "0 0 0"
+		"id" 2345013
+		"connections"
+		{
+			"ontrigger" "infected_template,ForceSpawn,,0,-1"
+			"ontrigger" "infected_model,SetAnimation,Idle_Neutral_04,0.1,-1"
+			"ontrigger" "infected_timer,Enable,,0,-1"
+			"ontrigger" "infected_relay,Disable,,0.1,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 3500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_template"
+		"targetname" "infected_template"
+		"origin" "1849.8100585938 1232.5899658203 314.674987793"
+		"angles" "0 0 0"
+		"id" 2345015
+		"spawnflags" 2
+		"template01" "infected_model"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 2500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "prop_dynamic"
+		"targetname" "infected_model"
+		"origin" "1833.8100585938 1280 296"
+		"angles" "0 0 0"
+		"id" 2345017
+		"fademindist" -1
+		"fadescale" 1
+		"maxanimtime" 10
+		"minanimtime" 5
+		"model" "models/infected/common_male_suit.mdl"
+		"renderamt" 255
+		"rendercolor" "255 255 255"
+		"skin" 0
+		"solid" 0
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 3000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429668"
+		"classname" "logic_timer"
+		"RefireTime" "4"
+		"spawnflags" "0"
+		"StartDisabled" "1"
+		"targetname" "infected_timer"
+		"UseRandomTime" "0"
+		"connections"
+		{
+			"OnTimer" "infected_model,SetAnimation,Idle_Neutral_04,0,-1"
+		}
+		"origin" "1833.8100585938 1280 296"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 2000]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "REALISTIC ZOMBIE ANIMATIONS"
+		"origin" "1893.25 1260.9499511719 331.1400146484"
+		"angles" "0 -179.4700012207 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-zombieanims.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Phil Robb"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "infected_relay,Trigger,,0,-1"
+			"oncommentarystopped" "infected_timer,Disable,,0,-1"
+			"oncommentarystopped" "infected_model,Kill,,0,-1"
+			"oncommentarystopped" "infected_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "RANDOM ITEM PLACEMENT"
+		"origin" "1672.4499511719 824.3300170898 327.4200134277"
+		"angles" "0 -88.4800033569 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-randomitem.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Phil Co"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "LEAVE THE MUSIC ON"
+		"origin" "1750 875 200"
+		"angles" "0 125.4800033569 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-musicon.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kelly Thornton"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "PLAYTESTING"
+		"origin" "2050 1300 200"
+		"angles" "0 -19.0100002289 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-playtest.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Marc Nagel"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"id" "9368544"
+		"classname" "commentary_zombie_spawner"
+		"angles" "0 180 0"
+		"targetname" "boomer_spawner"
+		"origin" "2432 1024 18"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+		"connections"
+		{
+			"OnSpawnedZombieDeath" "boomer_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "boomer_relay"
+		"origin" "2416 1072 48"
+		"angles" "0 0 0"
+		"id" 2344987
+		"connections"
+		{
+			"ontrigger" "boomer_spawner,SpawnZombie,boomer boomer,0,-1"
+			"ontrigger" "boomer_relay,Disable,,0.1,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 3500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "THE BOOMER"
+		"origin" "2323.1101074219 1025.4399414063 60.9700012207"
+		"angles" "0 1.7300000191 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-theboomer.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Sean Keegan"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "boomer_relay,Trigger,,0,-1"
+			"oncommentarystopped" "boomer,Kill,,0,-1"
+			"oncommentarystopped" "boomer_relay,Enable,,0,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "THE SCREAMER"
+		"origin" "2419.5500488281 1199.0200195313 59.4799995422"
+		"angles" "0 91.3199996948 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-thescreamer.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jaime Sue"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "francis_relay"
+		"origin" "2240 2272 48"
+		"angles" "0 0 0"
+		"id" 2332643
+		"connections"
+		{
+			"ontrigger" "francis_template,ForceSpawn,,0,-1"
+			"ontrigger" "francis_relay,Disable,,0.1,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "commentary_dummy"
+		"targetname" "francis_model"
+		"origin" "2592 1920 16"
+		"angles" "0 270 0"
+		"id" 2344639
+		"model" "models/survivors/survivor_biker.mdl"
+		"startinganim" "Idle_Calm_Pistol"
+		"eyeheight" 64
+		"startingweapons" "weapon_pistol"
+		"headyawposeparam" "head_yaw"
+		"headpitchposeparam" "head_pitch"
+		"lookatplayers" 1
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 1500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_template"
+		"targetname" "francis_template"
+		"origin" "2240 2272 32"
+		"angles" "0 0 0"
+		"id" 2344922
+		"spawnflags" 2
+		"template01" "francis_model"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 2000]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "FRANCIS THE BIKER"
+		"origin" "2575 1850 50"
+		"angles" "0 90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-francisbiker.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jeremy Bennett"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "francis_relay,Trigger,,0,-1"
+			"oncommentarystopped" "francis_model,Kill,,0,-1"
+			"oncommentarystopped" "francis_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "VISUAL DESIGN"
+		"origin" "2100 2300 50"
+		"angles" "0 179.4900054932 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-visualdesign.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Randy Lundeen"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "PROCEDURAL VS. SCRIPTED GAME DESIGN"
+		"origin" "1200 2500 50"
+		"angles" "0 131.7599945068 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-proceduralvscripted.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Mike Booth"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"id" "2332619"
+		"classname" "info_target"
+		"angles" "0 0 0"
+		"targetname" "contrast_camera"
+		"origin" "860.538 3283.66 89"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"id" "2332621"
+		"classname" "info_target"
+		"angles" "0 0 0"
+		"targetname" "contrast_target"
+		"origin" "777 3191.67 145.455"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429668"
+		"classname" "logic_timer"
+		"RefireTime" "4"
+		"spawnflags" "0"
+		"StartDisabled" "1"
+		"targetname" "contrast_timer"
+		"UseRandomTime" "0"
+		"connections"
+		{
+			"OnTimer" "comm_cmd,Command,mat_local_contrast_enable 0,0,-1"
+			"OnTimer" "comm_cmd,Command,mat_local_contrast_enable 1,2,-1"
+		}
+		"origin" "777 3191.67 145.455"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 2000]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "FILM EFFECTS - LOCAL CONTRAST"
+		"origin" "833.0599975586 3268.2900390625 57.5499992371"
+		"angles" "0 -90.2200012207 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-localcontrast.wav"
+		"viewtarget" "contrast_target"
+		"viewposition" "contrast_camera"
+		"prevent_movement" 0
+		"speakers" "Matt Wright"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "contrast_timer,Enable,,0,-1"
+			"oncommentarystopped" "contrast_timer,Disable,,0,-1"
+			"oncommentarystopped" "comm_cmd,Command,mat_local_contrast_enable 1,0,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "LIGHTING FOR THE APOCALYPSE"
+		"origin" "1350 3500 50"
+		"angles" "0 102.1399993896 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-lightingapoc.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Matt Campbell"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "CAR ALARMS"
+		"origin" "2400 4000 50"
+		"angles" "0 35.9000015259 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-caralarms.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Brenda Kennedy"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "SKYLINE"
+		"origin" "2475 4850 100"
+		"angles" "0 46.5999984741 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-skyline.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Sean Keegan"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "ENCOURAGING COOPERATION"
+		"origin" "3208.6599121094 3985.080078125 -199.0800018311"
+		"angles" "0 -111.9800033569 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-encouragecoop.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Dave Kircher"
+		"synopsis" ""
+	}
+}

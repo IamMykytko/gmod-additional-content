@@ -1,0 +1,718 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital05_path01"
+		"origin" "5316.6000976563 8599.8095703125 5550.6801757813"
+		"angles" "0 88.0611801147 0"
+		"contextsubject" "hospital05_path01"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital05_path02"
+		"origin" "7282.8701171875 8718.5703125 5801.240234375"
+		"angles" "0 90.8995895386 0"
+		"contextsubject" "hospital05_path02"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital05_path03"
+		"origin" "7288.6098632813 9092.009765625 6233.4702148438"
+		"angles" "0 -88.8841018677 0"
+		"contextsubject" "hospital05_path03"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital05_path04"
+		"origin" "5945.75 8411.6103515625 6098.419921875"
+		"angles" "0 -61.0983161926 0"
+		"contextsubject" "hospital05_path04"
+	}
+	"entity"
+	{
+		"classname" "point_clientcommand"
+		"targetname" "comm_cmd"
+		"origin" "0 0 0"
+		"angles" "0 0 0"
+	}
+	"entity"
+	{
+		"id" "2332614"
+		"classname" "logic_auto"
+		"spawnflags" "1"
+		"connections"
+		{
+			"OnMapSpawn" "comm_cmd,Command,sv_cheats 1,0,-1"
+			"OnMapSpawn" "comm_cmd,Command,z_difficulty Easy,0,-1"
+			"OnMapSpawn" "comm_cmd,Command,director_no_bosses 1,0,-1"
+			"OnMapSpawn" "radio_template,Kill,,0,-1"
+			"OnMapSpawn" "radio_game_event,Kill,,0,-1"
+		}
+		"origin" "7425 8865 5805"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "ROUND RESTART"
+		"origin" "5438.1801757813 8394.98046875 5582.7099609375"
+		"angles" "0 -2.4100000858 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-roundrestart.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Phil Robb"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "DYNAMIC MUSIC DESIGN"
+		"origin" "5547.8798828125 8517.76953125 5809.58984375"
+		"angles" "0 -0.4399999976 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-dramamusic.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Bill Van Buren"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "AUTOCROUCH"
+		"origin" "7423.3598632813 8863.240234375 5805.240234375"
+		"angles" "0 48.9000015259 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-autocrouch.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Brandon Idol"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "ROOFTOP FINALE"
+		"origin" "7348.9799804688 9033.08984375 6258.1801757813"
+		"angles" "0 -88.7300033569 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-rooftopfinale.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Chris Ashton"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "LANDING PAD"
+		"origin" "7277.7900390625 8515.830078125 6104.1899414063"
+		"angles" "0 -0.8700000048 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-landingpad.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jess Cliffe"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"id" "9368544"
+		"classname" "commentary_zombie_spawner"
+		"angles" "0 0 0"
+		"targetname" "smoker_spawner"
+		"origin" "6600 8672 6182"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+		"connections"
+		{
+			"OnSpawnedZombieDeath" "smoker_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "smoker_relay"
+		"origin" "6560.2900390625 8662.8203125 6219.6401367188"
+		"angles" "0 0 0"
+		"id" 4220484
+		"spawnflags" 0
+		"startdisabled" 0
+		"connections"
+		{
+			"ontrigger" "smoker_spawner,SpawnZombie,smoker smoker,0,-1"
+			"ontrigger" "smoker_relay,Disable,,0.1,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "THE SMOKER"
+		"origin" "6655.419921875 8666.1298828125 6215.7797851563"
+		"angles" "0 175.6999969482 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-thesmoker.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Khanh Nguyen"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "smoker_relay,Trigger,,0,-1"
+			"oncommentarystopped" "comm_cmd,Command,ent_fire smoker sethealth 0,0,-1"
+			"oncommentarystopped" "smoker_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "SMOKER VISUAL EFFECTS"
+		"origin" "6532.5600585938 8696.5302734375 6224.8901367188"
+		"angles" "0 -89.2200012207 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-smokereffects.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Scott Dalton"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"id" "9368544"
+		"classname" "commentary_zombie_spawner"
+		"angles" "0 270 0"
+		"targetname" "tank_spawner"
+		"origin" "6528 8440 5922"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+		"connections"
+		{
+			"OnSpawnedZombieDeath" "tank_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "tank_relay"
+		"origin" "6480 8432 5960"
+		"angles" "0 0 0"
+		"id" 4220427
+		"spawnflags" 1
+		"startdisabled" 0
+		"connections"
+		{
+			"ontrigger" "tank_spawner,SpawnZombie,tank tank,0,-1"
+			"ontrigger" "tank_relay,Disable,,0.1,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "KEEPING THE TANK IN CHARACTER"
+		"origin" "6378.1801757813 8487.01953125 5965.0200195313"
+		"angles" "0 -3.5899999142 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-keeptankchar.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jamaal Bradley"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "tank_relay,Trigger,,0,-1"
+			"oncommentarystopped" "tank,Kill,,0,-1"
+			"oncommentarystopped" "tank_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "TANK RAFFLE"
+		"origin" "6619.3598632813 8487.650390625 5966.25"
+		"angles" "0 -178.5299987793 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-tankraffle.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Eric Tams"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "tank_relay,Trigger,,0,-1"
+			"oncommentarystopped" "tank,Kill,,0,-1"
+			"oncommentarystopped" "tank_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "SCENE VARIANTS"
+		"origin" "5761.4702148438 8476.9697265625 5967.3901367188"
+		"angles" "0 177.6799926758 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-scenevariants.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Erik Wolpaw"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "SIGNAL RADIO"
+		"origin" "5858.1201171875 8340.4296875 5975.4301757813"
+		"angles" "0 -89.6500015259 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-signalradio.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kim Swift"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "commentary_dummy"
+		"targetname" "bill_model"
+		"origin" "5704 8672 6081"
+		"angles" "0 195 0"
+		"id" 4220529
+		"model" "models/survivors/survivor_namvet.mdl"
+		"skin" 0
+		"startinganim" "Idle_Calm_Pistol"
+		"eyeheight" 64
+		"startingweapons" "weapon_pistol"
+		"headyawposeparam" "head_yaw"
+		"headpitchposeparam" "head_pitch"
+		"lookatplayers" 1
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 1500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "commentary_dummy"
+		"targetname" "francis_model"
+		"origin" "5696 8640 6081"
+		"angles" "0 195 0"
+		"id" 4220532
+		"model" "models/survivors/survivor_biker.mdl"
+		"startinganim" "Idle_Calm_Pistol"
+		"eyeheight" 64
+		"startingweapons" "weapon_pistol"
+		"headyawposeparam" "head_yaw"
+		"headpitchposeparam" "head_pitch"
+		"lookatplayers" 1
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 2000]"
+		}
+	}
+	"entity"
+	{
+		"classname" "commentary_dummy"
+		"targetname" "zoey_model"
+		"origin" "5688 8608 6081"
+		"angles" "0 150 0"
+		"id" 4220535
+		"model" "models/survivors/survivor_teenangst.mdl"
+		"skin" 0
+		"startinganim" "Idle_Calm_Pistol"
+		"eyeheight" 64
+		"startingweapons" "weapon_pistol"
+		"headyawposeparam" "head_yaw"
+		"headpitchposeparam" "head_pitch"
+		"lookatplayers" 1
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 2500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "commentary_dummy"
+		"targetname" "louis_model"
+		"origin" "5700.2700195313 8577.98046875 6081"
+		"angles" "0 150 0"
+		"id" 4220538
+		"model" "models/survivors/survivor_manager.mdl"
+		"skin" 0
+		"startinganim" "Idle_Calm_Pistol"
+		"eyeheight" 64
+		"startingweapons" "weapon_pistol"
+		"headyawposeparam" "head_yaw"
+		"headpitchposeparam" "head_pitch"
+		"lookatplayers" 1
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 3000]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_template"
+		"targetname" "survivor_template"
+		"origin" "5632 8640 6096"
+		"angles" "0 0 0"
+		"id" 4220616
+		"spawnflags" 2
+		"template01" "bill_model"
+		"template02" "francis_model"
+		"template03" "zoey_model"
+		"template04" "louis_model"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 3500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "survivor_relay"
+		"origin" "5632 8640 6112"
+		"angles" "0 0 0"
+		"id" 4220630
+		"spawnflags" 0
+		"startdisabled" 0
+		"connections"
+		{
+			"ontrigger" "survivor_template,ForceSpawn,,0,-1"
+			"ontrigger" "survivor_relay,Disable,,0.1,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 3500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "SURVIVOR MODEL REFERENCE"
+		"origin" "5663.2700195313 8622.1904296875 6117.58984375"
+		"angles" "0 -1.8400000334 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-modreference.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Nick Maggiore"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "survivor_relay,Trigger,,0,-1"
+			"oncommentarystopped" "zoey_model,Kill,,0,-1"
+			"oncommentarystopped" "bill_model,Kill,,0,-1"
+			"oncommentarystopped" "louis_model,Kill,,0,-1"
+			"oncommentarystopped" "francis_model,Kill,,0,-1"
+			"oncommentarystopped" "survivor_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "TEAMWORK FEEDBACK"
+		"origin" "5813.919921875 8417.2197265625 6123.919921875"
+		"angles" "0 -2.9800000191 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-teamfeedback.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jeremy Stone"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "weapon_pipe_bomb_spawn"
+		"targetname" "pipebombs_spawn"
+		"origin" "6031 9178 6124"
+		"angles" "0 90 0"
+		"id" 4220267
+		"count" 1
+		"solid" 6
+		"editor"
+		{
+			"color" "0 0 200"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[500 1000]"
+		}
+	}
+	"entity"
+	{
+		"classname" "weapon_pipe_bomb_spawn"
+		"targetname" "pipebombs_spawn"
+		"origin" "6031 9185 6120"
+		"angles" "90 330 0"
+		"id" 4220269
+		"count" 1
+		"solid" 6
+		"spawnflags" 0
+		"editor"
+		{
+			"color" "0 0 200"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[500 1500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "weapon_pipe_bomb_spawn"
+		"targetname" "pipebombs_spawn"
+		"origin" "6039 9176 6124"
+		"angles" "0 0 0"
+		"id" 4220271
+		"count" 1
+		"solid" 6
+		"editor"
+		{
+			"color" "0 0 200"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[500 1000]"
+		}
+	}
+	"entity"
+	{
+		"classname" "weapon_pipe_bomb_spawn"
+		"targetname" "pipebombs_spawn"
+		"origin" "6047 9185 6120"
+		"angles" "90 255.5 0"
+		"id" 4220273
+		"count" 1
+		"solid" 6
+		"spawnflags" 0
+		"editor"
+		{
+			"color" "0 0 200"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[500 1500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_template"
+		"targetname" "pipebombs_template"
+		"origin" "5984 9184 6088"
+		"angles" "0 0 0"
+		"id" 4220347
+		"spawnflags" 2
+		"template01" "pipebombs_spawn"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"targetname" "pipebombs_relay"
+		"origin" "5984 9184 6104"
+		"angles" "0 0 0"
+		"id" 4220357
+		"spawnflags" 0
+		"startdisabled" 0
+		"connections"
+		{
+			"ontrigger" "weapon_pipe_bomb_spawn,Kill,,0,-1"
+			"ontrigger" "pipebombs_template,ForceSpawn,,0.1,-1"
+		}
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" 1
+			"visgroupautoshown" 1
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "THE PIPE BOMB"
+		"origin" "5980.4301757813 9209.3203125 6125.1298828125"
+		"angles" "0 -90.8799972534 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-pipebomb.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Brandon Idol"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "pipebombs_relay,Trigger,,0,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "REQUIRING EXPLICIT COOPERATION"
+		"origin" "5519.2099609375 8485.2001953125 6258.6401367188"
+		"angles" "0 -178.7200012207 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-explicitcoop.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Matt Campbell"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"id" "4227220"
+		"classname" "info_target"
+		"angles" "0 0 0"
+		"targetname" "vignette_target"
+		"origin" "5704 8832 6280"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"id" "4227222"
+		"classname" "info_target"
+		"angles" "0 0 0"
+		"targetname" "vignette_camera"
+		"origin" "5496 8632 6280"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429668"
+		"classname" "logic_timer"
+		"RefireTime" "4"
+		"spawnflags" "0"
+		"StartDisabled" "1"
+		"targetname" "vignette_timer"
+		"UseRandomTime" "0"
+		"connections"
+		{
+			"OnTimer" "comm_cmd,Command,mat_vignette_enable 0,0,-1"
+			"OnTimer" "comm_cmd,Command,mat_vignette_enable 1,2,-1"
+		}
+		"origin" "5395 8635 6245"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 2000]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "FILM EFFECTS - VIGNETTE"
+		"origin" "5392.5498046875 8638.41015625 6247.990234375"
+		"angles" "0 -3 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-vignette.wav"
+		"viewtarget" "vignette_target"
+		"viewposition" "vignette_camera"
+		"prevent_movement" 0
+		"speakers" "Gary McTaggart"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "vignette_timer,Enable,,0,-1"
+			"oncommentarystopped" "vignette_timer,Disable,,0,-1"
+			"oncommentarystopped" "comm_cmd,Command,mat_vignette_enable 1,0,-1"
+		}
+	}
+}

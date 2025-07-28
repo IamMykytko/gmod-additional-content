@@ -1,0 +1,65 @@
+detail/detailsprites
+models/v_models/infected/v_hulk
+models/v_models/infected/v_boomer_hands
+models/v_models/infected/v_hunter_hands
+models/v_models/infected/v_hunter_hands_detail
+models/props_doors/doormain_skin02
+models/props_doors/doormain_skin03
+
+512 plaster/roofbump-ssbump
+512 models/infected/boomer/boomer_normal
+512 models/infected/smoker/smoker_normal
+512 models/survivors/manager/manager_01_normal
+512 models/survivors/biker/biker_01_normal
+512 models/infected/hulk/hulk_01_normal
+512 models/infected/witch/witch_normal
+512 models/survivors/namvet/namvet_01_normal
+512 models/survivors/teenangst/teenangst_normal
+512 models/deadbodies/dead_military_police_super
+512 models/deadbodies/femalessuper
+512 models/props_doors/checkpoint door_enter_01
+512 models/props_doors/checkpoint door_exit_01
+512 models/props_industrial/warehouse_shelves_mip0
+512 models/v_models/weapons/autoshot/m4super
+512 models/v_models/weapons/shotgun/v_pump_shotgun_reference
+512 models/v_models/weapons/rifle/m16a2
+512 models/v_models/weapons/pistol/v_pistol_reference
+512 models/v_models/weapons/smg/uzi
+512 models/v_models/weapons/sniper/v_sniper_reference
+512 decals/sos01
+512 concrete/urban_concretefloor_01_ssbump
+512 models/deadbodies/deadbodies_super
+512 models/infected/common/common_male_suit_01_upper_01
+512 models/infected/common/common_male_suit_02_upper_01
+512 models/infected/common/common_male_suit_01_upper_02
+512 models/infected/common/common_male_suit_01_upper_03
+512 models/infected/common/common_male_suit_02_upper_03
+512 models/infected/common/common_male_upper_02
+512 models/infected/common/common_male_upper_01
+512 models/infected/common/common_male_suit_02_upper_04
+512 models/infected/common/common_male_upper_05
+512 models/infected/common/common_male_upper_03
+512 models/infected/common/common_male_suit_02_upper_02
+512 models/infected/common/common_male_upper_04
+512 models/infected/common/common_male_upper_06
+512 models/infected/common/female_01/common_female_casual_upper_02
+512 models/infected/common/common_male_upper_07
+512 models/infected/common/common_male_upper_08
+512 models/infected/common/female_01/common_female_casual_upper_03
+512 models/infected/common/female_01/common_female_casual_upper_04
+512 models/infected/common/female_01/common_female_casual_upper_05
+512 models/infected/common/female_01/common_female_suit_upper_01
+512 models/infected/common/female_01/common_female_suit_upper_02
+512 models/infected/common/female_01/common_female_suit_upper_03
+512 models/infected/common/female_01/common_female_suit_upper_04
+512 models/infected/common/law_enforcement/common_police_male_upper_01
+512 models/infected/common/military_national_guard/common_military_upper_01
+512 models/infected/common/worker/common_worker_male_upper_01
+512 models/infected/common/worker/common_worker_male_upper_02
+512 models/infected/common/worker/common_worker_male_upper_03
+512 models/infected/common/worker/common_worker_male_upper_04
+512 models/infected/common/worker/common_worker_male_upper_05
+512 models/infected/common/worker/common_worker_male_upper_06
+256 models/props_vehicles/helicopter_news2
+256 models/props_wasteland/light_spotlight01a
+256 models/v_models/weapons/eq_molotov/v_eq_molotov_bottle_normal

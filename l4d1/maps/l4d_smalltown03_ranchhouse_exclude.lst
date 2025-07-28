@@ -1,0 +1,164 @@
+models/v_models/infected/v_hulk
+models/v_models/infected/v_boomer_hands
+models/v_models/infected/v_hunter_hands
+models/v_models/infected/v_hunter_hands_detail
+models/v_models/infected/v_boomer_body
+models/v_models/infected/v_boomer_hands_normal
+
+models/gibs/hgibs/skull1
+models/gibs/hgibs/skull1_normal
+models/props_street/trafficlight01_lights
+models/props_street/trafficlight01_lights_yellow
+models/props_equipment/gas_pump_ref
+
+models/props_unique/zombiebreakwallwoodsiding01
+models/props_unique/zombiebreakwall01
+models/props_unique/zombiebreakwall01_b
+models/props_unique/zombiebreakwall01_c
+models/props_street/signgasstation01_on
+particle/particle_ring_wave
+
+detail/detailsprites
+
+256 models/props_equipment/gas_pump
+128 models/props_street/signgasstation02_on
+128 concrete/road01
+128 concrete/roadcrosswalk
+128 models/props_street/trafficlight01_main
+256 metal/freezerwall01-ssbump
+1024 models/props_foliage/trees_farm01
+1024 models/props_foliage/branches_farm01
+128 decals/shadowpillar3way01
+256 models/props_unique/zombiebreakwall01_a
+256 models/props_street/police_barricade
+16 skybox/sky_day01_09_hdrdn
+256 models/props_exteriors/chimney4
+512 models/props_unique/caboose01_interior04
+256 models/props/de_nuke/truck_nuke
+128 models/props_equipment/gas_pump
+256 plaster/wall_tan02
+256 decals/infstains
+64 dev/dev_normal
+128 models/props_rooftop/antenna02
+256 wood/milroof001
+256 models/props_rooftop/rooftank01
+256 models/props_rooftop/rooftopcluster06a
+512 buildings/roof09
+512 nature/trees_card01
+512 metal/fence_barbed
+256 models/props/de_inferno/wood_fence
+256 metal/metalpipe009a_normal
+256 metal/metalpipe009b_normal
+512 models/props_vehicles/tanker_wrecked
+256 models/props_debris/composite_debris2
+256 models/props_lighting/lightfixture03_on
+256 models/props_wasteland/light_spotlight01a
+256 tile/floor05-ssbump
+512 wood/ranchhouse_woodwall01_height-ssbump
+256 decals/dirtfloor012a
+128 models/props_c17/light_domelight02_on
+256 models/props_c17/lamppost03a
+256 models/props_vehicles/train_flatcar_spec
+256 models/props_wasteland/light_spotlight01b
+256 decals/decals_lit
+256 decals/decalstain002a
+256 effects/burned
+256 models/props/de_inferno/flower_barrel
+256 models/props_foliage/tree_trunk
+256 models/props_vehicles/4carz1024_glass
+256 nature/roots
+256 de_train/train_metalceiling_02
+256 models/props_lighting/lightfixture03_off
+256 models/props_lighting/lightfixture03_off_ref
+256 models/props_vehicles/flatnose_truck_glass
+256 models/props_street/awning_checkpoint
+256 models/props_rooftop/train_signalbox
+256 models/props_street/signrailroadcrossing01_ref
+256 models/props_vehicles/train_tank_spec
+256 models/props_unique/sandtower01_main
+256 models/deadbodies/corpse_02
+512 models/props/cs_assault/forklift_ref
+256 decals/stain01
+256 cs_havana/woodm
+256 de_chateau/woodm
+256 metal/freezerwall01
+256 metal/metalwall030a
+256 metal/metalfloor001a_normal
+256 metal/metalwall058a
+64 models/props_critters/crow01
+128 models/props_buildings/watertower_001a
+
+256 models/infected/boomer/boomer_normal
+512 models/infected/boomer/boomer_exploded_01
+512 models/infected/smoker/smoker_normal
+512 models/infected/smoker/smoker
+512 models/infected/hulk/hulk_01_normal
+512 models/infected/witch/witch_normal
+512 models/infected/witch/witch
+512 models/infected/hunter/hunter_01
+512 models/survivors/teenangst/teenangst_normal
+512 models/deadbodies/dead_military_police_super
+512 models/v_models/weapons/autoshot/m4super
+512 models/v_models/weapons/shotgun/v_pump_shotgun_reference
+512 models/v_models/weapons/rifle/m16a2
+512 models/v_models/weapons/pistol/v_pistol_reference
+512 models/v_models/weapons/smg/uzi
+512 models/v_models/weapons/sniper/v_sniper_reference
+512 models/deadbodies/deadbodies_super
+
+512 models/infected/common/common_male_suit_01_upper_01
+512 models/infected/common/common_male_suit_02_upper_01
+512 models/infected/common/rural/common_rural_upper_01
+512 models/infected/common/common_male_upper_01
+512 models/infected/common/common_male_upper_05
+512 models/infected/common/common_male_upper_03
+512 models/infected/common/common_male_upper_07
+
+512 models/infected/common/female_01/common_female_suit_upper_01
+512 models/infected/common/female_01/common_female_suit_upper_04
+512 models/infected/common/female_01/common_female_casual_upper_01
+
+512 models/infected/common/law_enforcement/common_police_male_upper_01
+512 models/infected/common/military_national_guard/common_military_upper_01
+512 models/infected/common/worker/common_worker_male_upper_01
+512 models/infected/common/worker/common_worker_male_upper_02
+512 models/infected/common/worker/common_worker_male_upper_03
+512 models/infected/common/worker/common_worker_male_upper_04
+512 models/infected/common/worker/common_worker_male_upper_05
+512 models/infected/common/worker/common_worker_male_upper_06
+256 models/v_models/weapons/eq_molotov/v_eq_molotov_bottle_normal
+
+512 models/survivors/biker/francis_normal
+512 models/survivors/teenangst/zoey_normal
+512 models/survivors/manager/louis_normal
+512 models/survivors/namvet/bill_normal
+512 models/props_foliage/branchesfarm01_mip0
+512 models/props_foliage/cedar01_mip0
+512 models/props_vehicles/churchbus01_a
+512 overlays/concrete_road01a
+512 concrete/pavement_height-ssbump
+512 models/props_vehicles/flatnose_truck
+512 models/props_vehicles/4carz1024
+512 models/infected/boomer/boomer
+64 maps/l4d_smalltown03_ranchhouse/c-10044_-5521_0
+512 models/props/cs_assault/forklift
+512 models/props_junk/physics_trash
+512 models/props_vehicles/train_box
+
+32 maps/l4d_smalltown03_ranchhouse/c-6959_-1638_69.hdr
+32 maps/l4d_smalltown03_ranchhouse/c-7113_-1887_75.hdr
+32 maps/l4d_smalltown03_ranchhouse/c-7457_-2109_69.hdr
+512 models/infected/hulk/hulk_01
+512 models/props_doors/checkpoint door
+512 models/props_vehicles/train_tank
+512 models/props_vehicles/train_flatcar
+512 nature/cliffface003a
+512 nature/cliffface001a
+512 particle/spray1/spray1
+512 particle/fire_burning_character/fire_burning_character
+512 models/props_vehicles/ambulance
+
+
+
+
+

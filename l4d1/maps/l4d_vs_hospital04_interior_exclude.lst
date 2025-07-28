@@ -1,0 +1,125 @@
+detail/detailsprites
+models/props_doors/doormain_skin02
+models/props_doors/doormain_skin03
+models/props_interiors/painting_portrait_b
+models/props_interiors/painting_portrait_g
+models/props_interiors/painting_portrait_h
+models/props_interiors/painting_portrait_j
+models/props_interiors/painting_portrait_i
+models/props_interiors/painting_portrait_k
+models/props_interiors/painting_portrait_l
+models/props_interiors/painting_landscape_c
+models/props_interiors/painting_landscape_d
+models/props_interiors/painting_landscape_f
+models/props_interiors/painting_landscape_g
+models/props_interiors/painting_landscape_h
+models/props_interiors/painting_landscape_j
+models/props_interiors/painting_landscape_i
+models/props_interiors/painting_landscape_k
+models/props_interiors/painting_landscape_l
+
+512 models/infected/boomer/boomer_normal
+512 models/infected/smoker/smoker_normal
+512 models/infected/hulk/hulk_01_normal
+512 models/infected/witch/witch_normal
+512 models/survivors/teenangst/teenangst_normal
+512 models/deadbodies/dead_military_police_super
+512 models/v_models/weapons/autoshot/m4super
+512 models/v_models/weapons/shotgun/v_pump_shotgun_reference
+512 models/v_models/weapons/rifle/m16a2
+512 models/v_models/weapons/pistol/v_pistol_reference
+512 models/v_models/weapons/smg/uzi
+512 models/v_models/weapons/sniper/v_sniper_reference
+512 models/deadbodies/deadbodies_super
+512 models/infected/common/common_male_suit_01_upper_01
+512 models/infected/common/common_male_suit_02_upper_01
+512 models/infected/common/common_male_upper_01
+512 models/infected/common/common_male_upper_05
+512 models/infected/common/common_male_upper_03
+512 models/infected/common/common_male_upper_07
+512 models/infected/common/female_01/common_female_suit_upper_01
+512 models/infected/common/law_enforcement/common_police_male_upper_01
+512 models/infected/common/military_national_guard/common_military_upper_01
+512 models/infected/common/worker/common_worker_male_upper_01
+512 models/infected/common/worker/common_worker_male_upper_02
+256 models/v_models/weapons/eq_molotov/v_eq_molotov_bottle_normal
+512 models/props_doors/checkpoint door
+1024 models/props_unique/zombiebreakwall01_d
+512 models/infected/boomer/boomer_exploded_01
+256 decals/proddirta
+256 decals/debris_concrete001a
+512 models/props_interiors/constructionwall_super
+256 models/props_plants/plantairport01_super
+512 plaster/blue02
+512 models/props_industrial/warehouse_shelves
+512 decals/bloodstain_003
+256 metal/door02
+256 models/props/de_inferno/walkingplywood
+256 models/props/de_nuke/skylight01_top
+256 models/props/de_nuke/skylight01_bottom
+256 models/props_c17/hospital_cart01
+256 models/props_junk/woodcrates01a
+256 models/props_street/garbage_can
+256 models/props_unique/counterweightrails
+256 models/props_pipes/pipeset02d_512_001a
+512 models/props/de_nuke/electricalbox02
+512 decals/logo_mercyhospital
+512 models/props_fortifications/indoor_fortification
+256 wood/plywood01
+256 models/props_unique/hospital/iv_pole
+256 models/props_unique/zombiebreakwall2x4core_steel
+256 models/props_unique/handrail_foodcourt01
+256 models/props_lab/powerbox001
+256 models/props_rooftop/acvent01
+256 models/props_junk/wheelbarrowo1a
+256 models/props_unique/hospital/iv_pole_ref
+256 models/props_interiors/refrigerator02_02
+256 models/props_interiors/refrigerator02_01
+256 models/props_industrial/wire_spool_01
+256 models/v_models/weapons/eq_molotov/v_eq_molotov_bottle
+256 plaster/ceiling_popcorn02
+256 plaster/ceilingtiles-ssbump
+256 plaster/urban_plasterwall_height-ssbump
+256 models/props_interiors/handrail01_hospital
+256 decals/trashdecal05a
+128 models/props_interiors/styrofoam_cups
+128 models/props_interiors/table_cafeteria_ref
+256 wood/cabinets_side01b
+256 plaster/ceiling_insulation02-ssbump
+256 plaster/sheetrockdepth01-ssbump
+128 models/props_interiors/tvanimstatic
+256 de_train/train_cement_stain_01
+256 metal/door03
+256 metal/metalhull003a
+256 metal/xray_board_off
+256 models/v_models/weapons/eq_molotov/v_eq_molotov_rag
+256 models/props_unique/wheelchair01
+256 models/props_unique/hospital/gurney
+256 models/props/de_train/ladderaluminium
+256 models/props_equipment/fountain_drinks
+256 models/props_pipes/interiorpipe002a
+128 models/props_lighting/light_construction_on
+256 models/props_vents/ventbreakable01
+256 metal/metal_ibeam01
+256 models/props_equipment/snack_machine_rings
+512 decals/graffiti_judgement
+512 models/props/cs_assault/forklift
+256 metal/xray_board
+512 models/props_interiors/kitchen_props_industrial01
+512 models/hybridphysx/buildingtexture
+256 metal/prodventa
+128 metal/prodventa_normal
+
+512 models/survivors/biker/francis_normal
+512 models/survivors/manager/louis_normal
+512 models/survivors/namvet/bill_normal
+512 models/survivors/teenangst/zoey_normal
+512 models/infected/boomer/boomer
+512 models/infected/hulk/hulk_01
+512 models/infected/hunter/hunter_01
+512 models/infected/smoker/smoker
+512 models/infected/witch/witch
+256 models/props/cs_assault/forklift_ref
+512 models/props_office/vending_machine01
+512 models/v_models/infected/v_hulk
+

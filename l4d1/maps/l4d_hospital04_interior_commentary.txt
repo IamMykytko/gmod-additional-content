@@ -1,0 +1,756 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital04_path01"
+		"origin" "12341.51953125 12973.080078125 56.9599990845"
+		"angles" "0 -10.9620513916 0"
+		"contextsubject" "hospital04_path01"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital04_path02"
+		"origin" "12330.1298828125 13277.6904296875 396.1199951172"
+		"angles" "0 88.7942657471 0"
+		"contextsubject" "hospital04_path02"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital04_path03"
+		"origin" "12466.599609375 13764.580078125 476.1600036621"
+		"angles" "0 12.9304656982 0"
+		"contextsubject" "hospital04_path03"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital04_path04"
+		"origin" "13431.349609375 15266.080078125 480.2699890137"
+		"angles" "0 -94.4211654663 0"
+		"contextsubject" "hospital04_path04"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital04_path05"
+		"origin" "13427.48046875 15095.599609375 5590.08984375"
+		"angles" "0 86.3889923096 0"
+		"contextsubject" "hospital04_path05"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital04_path06"
+		"origin" "14095.7900390625 14789.73046875 5495.3198242188"
+		"angles" "0 -171.7070007324 0"
+		"contextsubject" "hospital04_path06"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital04_path07"
+		"origin" "12343.4296875 14794.8203125 5588.4301757813"
+		"angles" "0 -92.4404373169 0"
+		"contextsubject" "hospital04_path07"
+	}
+	"entity"
+	{
+		"classname" "point_clientcommand"
+		"targetname" "comm_cmd"
+		"origin" "0 0 0"
+		"angles" "0 0 0"
+	}
+	"entity"
+	{
+		"id" "2332614"
+		"classname" "logic_auto"
+		"spawnflags" "1"
+		"connections"
+		{
+			"OnMapSpawn" "comm_cmd,Command,sv_cheats 1,0,-1"
+			"OnMapSpawn" "comm_cmd,Command,z_difficulty Easy,0,-1"
+			"OnMapSpawn" "comm_cmd,Command,director_no_bosses 1,0,-1"
+		}
+		"origin" "12355 12495 65"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "STAT SYSTEM"
+		"origin" "12356.75 12496.669921875 68.1800003052"
+		"angles" "0 89.8899993896 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-stats.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Charlie Burgin"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"id" "6429323"
+		"classname" "prop_dynamic"
+		"angles" "0 180 0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/infected/common_patient_male01.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "0"
+		"targetname" "death1_model"
+		"origin" "12518.7 13302.5 84.2223"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429343"
+		"classname" "prop_dynamic"
+		"angles" "0 135 0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/infected/common_patient_male01.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "0"
+		"targetname" "death2_model"
+		"origin" "12438.3 13168.2 16.2224"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429351"
+		"classname" "prop_dynamic"
+		"angles" "0 90 0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/infected/common_patient_male01.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "0"
+		"targetname" "death3_model"
+		"origin" "12328 13136 16.2224"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429363"
+		"classname" "prop_dynamic"
+		"angles" "0 135 0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/infected/common_patient_male01.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "0"
+		"targetname" "death4_model"
+		"origin" "12496 13128 152.222"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429375"
+		"classname" "point_template"
+		"spawnflags" "2"
+		"targetname" "death_template"
+		"Template01" "death1_model"
+		"Template02" "death2_model"
+		"Template03" "death3_model"
+		"Template04" "death4_model"
+		"origin" "12392 13192 32"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 2000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429399"
+		"classname" "logic_relay"
+		"spawnflags" "0"
+		"StartDisabled" "0"
+		"targetname" "death_relay"
+		"connections"
+		{
+			"OnTrigger" "death_template,ForceSpawn,,0,-1"
+			"OnTrigger" "death_timer,Enable,,0,-1"
+			"OnTrigger" "death1_model,SetAnimation,Death_01,0.1,-1"
+			"OnTrigger" "death2_model,SetAnimation,Death_02c,0.1,-1"
+			"OnTrigger" "death3_model,SetAnimation,Death_03,0.1,-1"
+			"OnTrigger" "death4_model,SetAnimation,Death_06,0.1,-1"
+			"OnTrigger" "death_relay,Disable,,0.1,-1"
+		}
+		"origin" "12392 13192 48"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 2000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429668"
+		"classname" "logic_timer"
+		"RefireTime" "4"
+		"spawnflags" "0"
+		"StartDisabled" "1"
+		"targetname" "death_timer"
+		"UseRandomTime" "0"
+		"connections"
+		{
+			"OnTimer" "death1_model,SetAnimation,Death_01,0,-1"
+			"OnTimer" "death2_model,SetAnimation,Death_02c,0,-1"
+			"OnTimer" "death3_model,SetAnimation,Death_03,0,-1"
+			"OnTimer" "death4_model,SetAnimation,Death_06,0,-1"
+		}
+		"origin" "12392 13192 64"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 2000]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "REALISTIC DEATH ANIMATIONS"
+		"origin" "12295.2197265625 13295.150390625 67.3899993896"
+		"angles" "0 -1.2799999714 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-deathanims.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Miles Estes"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "death_relay,Trigger,,0,-1"
+			"oncommentarystopped" "death_timer,Disable,,0,-1"
+			"oncommentarystopped" "death_relay,Enable,,0.1,-1"
+			"oncommentarystopped" "death1_model,Kill,,0,-1"
+			"oncommentarystopped" "death2_model,Kill,,0,-1"
+			"oncommentarystopped" "death3_model,Kill,,0,-1"
+			"oncommentarystopped" "death4_model,Kill,,0,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "KEEPING THE MUSIC INTERESTING"
+		"origin" "12196.9599609375 12899.830078125 201.1600036621"
+		"angles" "0 -89.8099975586 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-musicinterest.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Tim Larkin"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"id" "6428957"
+		"classname" "prop_dynamic"
+		"angles" "0 90 0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/infected/common_male01.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "0"
+		"targetname" "infected1_model"
+		"origin" "12781.1 12320 152"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429027"
+		"classname" "prop_dynamic"
+		"angles" "0 90 0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/infected/common_male01.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "27"
+		"solid" "0"
+		"targetname" "infected2_model"
+		"origin" "12653.1 12320 152"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429070"
+		"classname" "prop_dynamic"
+		"angles" "0 135 0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/infected/common_surgeon_male01.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "4"
+		"solid" "0"
+		"targetname" "infected4_model"
+		"origin" "12768 12288 152"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429074"
+		"classname" "prop_dynamic"
+		"angles" "0 150 0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/infected/common_patient_male01.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "3"
+		"solid" "0"
+		"targetname" "infected3_model"
+		"origin" "12768 12256 152"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429252"
+		"classname" "point_template"
+		"spawnflags" "2"
+		"targetname" "infected_template"
+		"Template01" "infected1_model"
+		"Template02" "infected2_model"
+		"Template03" "infected3_model"
+		"Template04" "infected4_model"
+		"Template05" "infected5_model"
+		"Template06" "infected6_model"
+		"origin" "12720 12352 168"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1500]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429416"
+		"classname" "prop_dynamic"
+		"angles" "0 15 0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/infected/common_male01.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "20"
+		"solid" "0"
+		"targetname" "infected5_model"
+		"origin" "12664 12256 152"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429428"
+		"classname" "prop_dynamic"
+		"angles" "0 30 0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/infected/common_female_nurse01.mdl"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "2"
+		"solid" "0"
+		"targetname" "infected6_model"
+		"origin" "12664 12288 152"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}
+	"entity"
+	{
+		"id" "6429264"
+		"classname" "logic_relay"
+		"spawnflags" "0"
+		"StartDisabled" "0"
+		"targetname" "infected_relay"
+		"connections"
+		{
+			"OnTrigger" "infected_template,ForceSpawn,,0,-1"
+			"OnTrigger" "infected1_model,SetAnimation,Idle_Neutral_01,0.1,-1"
+			"OnTrigger" "infected2_model,SetAnimation,Idle_Neutral_02,0.1,-1"
+			"OnTrigger" "infected3_model,SetAnimation,Idle_Neutral_03,0.1,-1"
+			"OnTrigger" "infected4_model,SetAnimation,Idle_Neutral_04,0.1,-1"
+			"OnTrigger" "infected5_model,SetAnimation,Idle_Neutral_04,0.1,-1"
+			"OnTrigger" "infected6_model,SetAnimation,Idle_Neutral_06,0.1,-1"
+			"OnTrigger" "infected_relay,Disable,,0.1,-1"
+		}
+		"origin" "12720 12352 184"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "A VARIETY OF INFECTED"
+		"origin" "12726.76953125 12617.3603515625 204.2200012207"
+		"angles" "0 -90.4899978638 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-varietyinfected.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Vitaily Genkin"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "infected_relay,Trigger,,0,-1"
+			"oncommentarystopped" "infected_relay,Enable,,0.1,-1"
+			"oncommentarystopped" "infected1_model,Kill,,0,-1"
+			"oncommentarystopped" "infected2_model,Kill,,0,-1"
+			"oncommentarystopped" "infected3_model,Kill,,0,-1"
+			"oncommentarystopped" "infected4_model,Kill,,0,-1"
+			"oncommentarystopped" "infected5_model,Kill,,0,-1"
+			"oncommentarystopped" "infected6_model,Kill,,0,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "INDIVIDUAL DECISIONS HAVE DIRECT REPERCUSSIONS"
+		"origin" "12201.259765625 12400.6298828125 337.6199951172"
+		"angles" "0 87.7600021362 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-individdecisions.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Mike Booth"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "DYNAMIC MUSIC - KEEP IT SIMPLE"
+		"origin" "12499.0498046875 13892.66015625 476.2200012207"
+		"angles" "0 89.3499984741 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-keepsimple.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Mike Morasky"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"id" "6428906"
+		"classname" "commentary_dummy"
+		"angles" "0 180 0"
+		"model" "models/survivors/survivor_namvet.mdl"
+		"skin" "0"
+		"StartingAnim" "Idle_Calm_Pistol"
+		"targetname" "bill_model"
+		"origin" "13100 14656 425"
+		"eyeheight" 64
+		"startingweapons" "weapon_pistol"
+		"headyawposeparam" "head_yaw"
+		"headpitchposeparam" "head_pitch"
+		"lookatplayers" 1
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+	"entity"
+	{
+		"id" "6428934"
+		"classname" "point_template"
+		"spawnflags" "2"
+		"targetname" "bill_template"
+		"Template01" "bill_model"
+		"origin" "13072 14688 440"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"id" "6428944"
+		"classname" "logic_relay"
+		"spawnflags" "0"
+		"StartDisabled" "0"
+		"targetname" "bill_relay"
+		"connections"
+		{
+			"OnTrigger" "bill_template,ForceSpawn,,0,-1"
+			"OnTrigger" "bill_relay,Disable,,0.1,-1"
+		}
+		"origin" "13072 14688 456"
+		"editor"
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 500]"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "BILL THE NAM VET"
+		"origin" "13000 14653.5498046875 467.299987793"
+		"angles" "0 -0.2199999988 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-billnamvet.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Ariel Diaz"
+		"synopsis" ""
+		"connections"
+		{
+			"oncommentarystarted" "bill_relay,Trigger,,0,-1"
+			"oncommentarystopped" "bill_model,Kill,,0,-1"
+			"oncommentarystopped" "bill_relay,Enable,,0.1,-1"
+		}
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "LEFT 4 DEAD BOX ART"
+		"origin" "13125.490234375 14149.580078125 471.3099975586"
+		"angles" "0 88.8000030518 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-boxart.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Greg Coomer"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "ELEVATOR WAIT CLIMAX"
+		"origin" "13447.6796875 14950.4697265625 479.8800048828"
+		"angles" "0 89.9100036621 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-elevatorclimax.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Matt Scott"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "DYNAMIC MUSIC - TRACKING THE EXPERIENCE"
+		"origin" "13430.009765625 15219.4697265625 480.7099914551"
+		"angles" "0 90.7900009155 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-trackexp.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Mike Morasky"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "DYNAMIC CONVERSATIONS"
+		"origin" "13433.25 15046.75 5586.7998046875"
+		"angles" "0 -91.6500015259 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-dynaconvers.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Elan Ruskin"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "CONSTRUCTION LEVEL"
+		"origin" "13718.669921875 14739.7998046875 5590.4599609375"
+		"angles" "0 -0.1299999952 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-constructionlevel.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Chris Ashton"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "LEDGE HANGING"
+		"origin" "13202.01953125 13964.48046875 5585.4301757813"
+		"angles" "0 -88.8300018311 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-ledgehang.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Khanh Nguyen"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "AUDIO SILHOUETTING AND PLAYTEST RESULTS"
+		"origin" "12167.419921875 13752.33984375 5585.8598632813"
+		"angles" "0 -179.8200073242 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-audiosilhouette.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Tobin Buttram"
+		"synopsis" ""
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "WHY DOES THIRD STRIKE EXIST?"
+		"origin" "12189.509765625 14483.01953125 5590.259765625"
+		"angles" "0 89.5400009155 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\com-whythirdstrike.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Sean Keegan"
+		"synopsis" ""
+	}
+}
