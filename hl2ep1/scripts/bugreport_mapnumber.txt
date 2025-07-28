@@ -1,0 +1,19 @@
+"mapnumber"
+{
+	//Citadel
+	"ep1_citadel_00"	"1"
+	"ep1_citadel_01"	"2"
+	"ep1_citadel_02"	"3"
+	"ep1_citadel_02b"	"4"
+	"ep1_citadel_03"	"5"
+	"ep1_citadel_04"	"6"
+
+	//C17
+	"ep1_c17_00"		"7"
+	"ep1_c17_00a"		"7"
+	"ep1_c17_01"		"8"
+	"ep1_c17_02"		"9"
+	"ep1_c17_02a"		"10"
+	"ep1_c17_02b"		"12"
+	"ep1_c17_05"		"11"
+}
