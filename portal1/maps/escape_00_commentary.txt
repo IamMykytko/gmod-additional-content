@@ -1,0 +1,80 @@
+"Entities"
+{
+
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Look up!"
+		"origin" "267.5 -837.6799927 -739.210022 "
+		"angles" "0 0.349999994 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment002.wav"
+		"printname" "Look Up!"
+		"viewtarget" "ladders_look_target"
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jeep Barnett"
+		"synopsis" "One bizarre fact of game design is that, without some serious prompting, players will rarely look up. In this case, the prompt is a ladder. Most players will investigate where the ladder goes, which is up. The ladder actually falls apart as soon as it's touched, but by then it's served its purpose."
+		"parser_id" "2"
+	}
+	"entity"
+	{
+		"classname" "info_target"
+		"targetname" "ladders_look_target"
+		"origin" "428.1700134277 -836.3900146484 -451.6600036621 "
+		"angles" "0 6.5399999619 0"
+		"parser_id" "3"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Behind the Scenes"
+		"origin" "665.3300171 -565.7800293 -261.7099915 "
+		"angles" "0 89.9000015259 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment001.wav"
+		"printname" "Behind the Scenes"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kim Swift"
+		"synopsis" "We designed the post-escape levels to give players brief glimpses of the inner workings of the Enrichment Center. This particular area exposes part of the Storage Cube Distribution System. These little vignettes help make this section of the game visually distinct from the testing chambers while reinforcing the idea that players are now behind-the-scenes."
+		"parser_id" "1"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Pistons"
+		"origin" "648.8499756 317.019989 -523.8200073 "
+		"angles" "0 4.1100001335 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment004.wav"
+		"printname" "Pistons"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Garret Rickey"
+		"synopsis" "Through playtesting, we discovered that fatigue set in if we didn't break up the more complicated, deliberately paced puzzles with problems that required the player to perform a much simpler task under time pressure. These pistons proved to be a good foundation for that simpler type of puzzle. Because they feature a moving surface, they also gave us an opportunity to employ some unusual portal transitions, such as ceiling-to-ceiling."
+		"parser_id" "4"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Ceiling to Ceiling"
+		"origin" "777.3499756 325.7399902 -395.6000061 "
+		"angles" "0 -3.9200000763 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment005.wav"
+		"printname" "Ceiling to Ceiling"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Paul Graham"
+		"synopsis" "During development, we'd often run across some piece of level design that would break the portal system. For instance, this ceiling-to-ceiling transition was an unexpected edge case that ended up requiring a lot of effort to make work. We tried never to take the easy route of simply changing the level design to work with existing portal technology. We knew that once the game was out in the wild, custom map creators would stress the system in ways we hadn't even considered, so we made it as flexible as possible."
+		"parser_id" "5"
+	}
+}

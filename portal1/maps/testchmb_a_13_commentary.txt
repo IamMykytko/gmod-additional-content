@@ -1,0 +1,55 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Companion Cube"
+		"origin" "1683.4499511719 582.7299804688 189.6900024414"
+		"angles" "0 -172.6399993896 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment084.wav"
+		"printname" "Companion Cube"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Chet Faliszek"
+		"synopsis" "We designed this hall so that players had to use a box as a shield, but many playtesters read it as an 'avoid-the-energy-ball' timing puzzle, and simply left the box behind. We solved this, in large part, by having the AI talk about the box. A lot. Once the dialog went in, playtesters went from routinely abandoning the box to never wanting it to leave their side. Since we weren't going to make players lug a box around for the rest of the game, we added a scene at the end of the level where players are forced to kill the box."
+		"parser_id" 84
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "The Idea is a Lie"
+		"origin" "1299.8199462891 393.2699890137 -169.3099975586"
+		"angles" "0 82.1900024414 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment101.wav"
+		"printname" "The Idea is a Lie"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Ellen McLain: Voice of GLaDOS"
+		"synopsis" "I know that I was told that, you know, sort of the idea of Valve is that everything... Everything is planned. Everything is worked out in advance. But that's a big, fat lie.  Because: The initial idea is started, and they bring an actor into the studio and they say, you know, 'Say these words for us, say this computer generated voice for us.' Okay, I'll do that. Well, then, that gives the creators other ideas. And it's... It's a rolling process; You roll from one idea into the next idea."
+		"parser_id" "101"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "The Incinerator"
+		"origin" "1475.9200439453 -128.5599975586 0.2800000012"
+		"angles" "0 -178.8899993896 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment083.wav"
+		"printname" "The Incinerator"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jeep Barnett"
+		"synopsis" "The awful end of the companion cube serves a dual purpose: it adds a lot more sinister character to our already pretty sinister AI while simultaneously training players to use the incinerator, a key component of the final level. The training has a nice dramatic payoff, since players later get to avenge the death of their good friend the companion cube by stuffing some of the AI's important parts into exactly the same type of incinerator."
+		"parser_id" 83
+	}
+
+}

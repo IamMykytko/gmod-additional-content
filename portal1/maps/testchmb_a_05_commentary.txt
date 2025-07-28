@@ -1,0 +1,38 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Portal Rendering 2 - Textures vs. Stencils"
+		"origin" "-42.8899993896 -201.3300018311 196.3200073242"
+		"angles" "0 178.2200012207 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment036.wav"
+		"printname" "Textures vs. Stencils"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "David Kircher"
+		"synopsis" "For the first few months of development, we rendered the views through portals to two offscreen textures. This approach was easy to implement and was compatible with a wide range of graphics hardware.  Unfortunately, this method was incompatible with antialiasing and consumed a large amount of video memory in order to handle recursive views through several portals.  Because of these disadvantages, we switched to a system which renders portal views recursively into the frame buffer with the aid of the stencil buffer to isolate pixels corresponding to a given portal. This is a more effective scheme because it is compatible with antialiasing and does not consume any additional video memory for offscreen textures."
+		"parser_id" "36"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Sharp and Round"
+		"origin" "-162.2400054932 65.1600036621 68.4000015259"
+		"angles" "0 -178.9400024414 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment041.wav"
+		"printname" "Sharp and Round"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Paul Graham"
+		"synopsis" "Because our test chamber environments were simplified for training purposes, we created visual hot spots within the rooms to guide players' attention. The design is essentially a balance between round objects and sharp objects, the sharp objects representing background elements and the round objects - such as doors and moveable props - comprising our points of visual interest."
+		"parser_id" "41"
+	}
+
+}

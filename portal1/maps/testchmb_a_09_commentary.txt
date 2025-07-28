@@ -1,0 +1,55 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Portal Ninja"
+		"origin" "515.8200073242 511.8999938965 53.7400016785"
+		"angles" "0 178.8800048828 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment066.wav"
+		"printname" "Portal Ninja"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jeep Barnett"
+		"synopsis" "A few playtesters put a portal on the floor here and used the rising stair pit to skip the rest of the puzzle. We'll usually rework a level if playtesters discover a way to bypass chunks of the puzzle too easily. But in this and a few other cases where skipping ahead arguably takes more skill than solving the puzzle properly, we let the ninja solution stand."
+		"parser_id" 66
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Portal Rendering 3 - Infinite Recursion is Infinitely Cool"
+		"origin" "511.0299987793 52.2700004578 76.6699981689"
+		"angles" "0 -92.8799972534 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment061.wav"
+		"printname" "Infinite Recursion is Infinitely Cool"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "David Kircher"
+		"synopsis" "This is a great spot to appreciate the recursive nature of portals. If you place a portal on each side of this hallway, you'll notice the portals seem to go on forever, similar to the effect you get in a hall of mirrors.  In actuality, we support a maximum of nine recursive portal views down any chain of portals. We achieve the impression of infinite recursion by copying part of the previously rendered frame onto the final portal in the recursive chain.  It's not absolutely perfect, but it's inexpensive and effective."
+		"parser_id" "61"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Layout"
+		"origin" "1016.4199829102 -866.4899902344 461.2900085449"
+		"angles" "0 152.1199951172 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment068.wav"
+		"printname" "Drawing the Eye"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Lars Jensvold"
+		"synopsis" "We designed this room to draw the player's eyes to the box. The light from the observation room casts horizontal shadows that point at the box, which is directly lit by a warm light from the ceiling. This warm light helps the box stand out against the predominantly cool test chamber lighting. The varying sized squares of the off limits surface also help direct the player's attention upward."
+		"parser_id" 68
+	}
+
+}

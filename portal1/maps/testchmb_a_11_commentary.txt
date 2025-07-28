@@ -1,0 +1,55 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Chatty Turrets"
+		"origin" "489.5599976 -660.0499878 63.04999924 "
+		"angles" "0 -174.4600067139 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment076.wav"
+		"printname" "Chatty Turrets"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Chet Faliszek"
+		"synopsis" "For Portal, we wanted to create a turret that was different from the traditional HL2 turrets.   The HL2 turrets are nothing more than mindless mounted guns, in Portal we wanted the turrets to have personality, to be characters.  The first step was a redesign of the look.  Once we had the look of the new turrets, they seemed less like menacing machine guns and more like cute robots.  And robots can never really be cute until they are talking robots.  So the next step was creating the vocal characteristics of the turrets.  Working with Ellen McClain, we settled on an innocent sounding voice with dialogue to match.  This juxtaposition of killing machine and innocent non-aggressive personality ends up making the Portal turret a memorable character."
+		"parser_id" "76"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Portal Kombat!"
+		"origin" "196.1900024 -404.3299866 56.11000061 "
+		"angles" "0 90.25 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment080.wav"
+		"printname" "Portal Kombat!"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Realm Lovejoy"
+		"synopsis" "Even though we didn't want Portal to be too combat heavy, we wanted to add at least a light combat mechanic. After a few less-than-successful attempts to actually realize this 'light combat' concept, we settled on turrets as a good compromise. The turrets can be defeated with tricky portal maneuvers, but they're also susceptible to a more straightforward berserker approach."
+		"parser_id" "80"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Ratman Den"
+		"origin" "-493.1700134 700.2000122 73.56999969 "
+		"angles" "0 -8.6000003815 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment077.wav"
+		"printname" "Ratman Den"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Erik Wolpaw"
+		"synopsis" "Even though Portal tells a simple story, we created a lot of backstory - for Aperture Science, for its employees, for its rivalry with the hated Black Mesa, and for where all of this fits into the cosmology of Half Life.  This first Portal game doesn't reveal all of it, but we crammed a lot of little details into the environments.  This area, for instance, called the Ratman Den, hints that there may be other people trapped in the facility."
+		"parser_id" "77"
+	}
+
+}

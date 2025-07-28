@@ -1,0 +1,106 @@
+"Entities"
+{
+	"entity"	//1
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Tracktrain hazards"
+		"origin" "-263.799987793 379.5599975586 45.5299987793"
+		"angles" "0 71.1200027466 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment097.wav"
+		"printname" "Tracktrain Hazards"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Garret Rickey"
+		"synopsis" "We use these moving platforms to add time pressure to puzzles. A sequence of simple decisions feels much more climactic under time pressure, in contrast to most puzzles in Portal which can be solved at the players' leisure. Puzzles that aren't time bound can be more complex, but at the expense of being less dramatic."
+		"parser_id" 97
+	}
+	"entity"	//2
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Thin Wall"
+		"origin" "-725.1400146484 38.7000007629 65.5500030518"
+		"angles" "0 90.0100021362 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment094.wav"
+		"printname" "Thin Wall"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Paul Graham"
+		"synopsis" "Sometimes little details make a huge difference. For instance, we had to add the left side to this wall to give players a visual representation of how thick it is. Without it, playtesters frequently thought the hall had just gotten impossibly narrower, panicked, and stopped making rational decisions."
+		"parser_id" 94
+	}
+	"entity"	//3
+	{
+		"classname" "point_commentary_node"
+		"targetname" "After the Fire"
+		"origin" "-1266.5699462891 445.6900024414 -52.0999984741"
+		"angles" "0 177.3999938965 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment095.wav"
+		"printname" "After the Fire"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Erik Wolpaw"
+		"synopsis" "Before the player escapes the fire pit, the AI dialog is all delivered in a computerized monotone. After the escape, however, GLaDOS gets progressively more expressive until, by the end, she's cycling through a whole mess of emotions. The role required an actor capable of mimicking the computer-generated voice while still infusing it with some real character. And since we planned to end the game with a song, she also needed to have a good singing voice. The woman we cast, Ellen McClane, is a great mimic, a terrific actor, and a classically trained operatic soprano. So that worked out pretty good."
+		"parser_id" 95
+	}
+	"entity"	//4
+	{
+		"classname" "point_commentary_node"
+		"targetname" "New off-limits surf rules"
+		"origin" "-459.4200134277 1227.5600585938 668.549987793"
+		"angles" "0 -103.4100036621 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment098.wav"
+		"printname" "Surface Rules"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kim Swift"
+		"synopsis" "In these new areas, we weren't using the surfaces the player is familiar with.  The rules for which new surfaces portals can be placed on and which surfaces are off-limits, needed to be taught.  So we created this area both to show the player they have escaped into the 'guts' of the facility and to re-train them in which surfaces are valid for portal placement."
+		"parser_id" 98
+	}
+	"entity"	//5
+	{
+		"classname" "point_commentary_node"
+		"targetname" "The Trailer"
+		"origin" "806.7299804688 156.7100067139 844.9899902344"
+		"angles" "0 -89.5899963379 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment105.wav"
+		"printname" "The Trailer"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Ellen McLain: Voice of GLaDOS"
+		"synopsis" "I went to Portal's, umm... I Googled 'Portal and game', and I went to the trailer. And I just loved it! I loved hearing my voice! [Laughter] And as I told the production team, I have never played a computer game in my life. But I want to play this one! [Laughter]"
+		"parser_id" "105"
+	}
+	"entity"	//6
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Trip Through The Chamber"
+		"origin" "1875.7299804688 251 706.3599853516"
+		"angles" "0 2.3699998856 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment096.wav"
+		"printname" "Trip Through The Chamber"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Realm Lovejoy"
+		"synopsis" "After players escape, we let them solve an old chamber in a new way. This reintroduction of a familiar space, which can now be solved in an 'incorrect' way, helps convey the sense that players are cheating the system while forging their own path through the facility."
+		"parser_id" 96
+	}
+
+}

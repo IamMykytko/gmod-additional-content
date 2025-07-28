@@ -1,0 +1,55 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Test Chamber Design"
+		"origin" "-334.9100036621 -50.3199996948 186.4900054932"
+		"angles" "0 1.4199999571 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment059.wav"
+		"printname" "Test Chamber Design"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jeremy Bennett"
+		"synopsis" "When we moved from largely placeholder art to our final visual design, this was the first level to get a facelift. We chose this map because it had many of our gameplay elements integrated into a relatively small space. The test chamber art direction was designed to make everything appear purposefully placed. The simple design helps focus players on the puzzles. It also provides a nice contrast to the later, much less sterile behind-the-scenes environments, which contributes to a clear sense of progression."
+		"parser_id" 59
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Minimum Placement"
+		"origin" "174.1499938965 5.2600002289 80.3000030518"
+		"angles" "0 -0.6800000072 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment063.wav"
+		"printname" "Minimum Placement"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Nick Maggiore"
+		"synopsis" "This is the first map in which we experimented with solving the puzzle in as few portal placements as possible. We tried to fit that concept into the story mode, but were never quite able to sell it. Instead of abandoning the idea altogether, we added the concept to a series of post-game 'Challenge' maps."
+		"parser_id" "63"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Permanently Stuck"
+		"origin" "615.4199829102 3.4300000668 183.2200012207"
+		"angles" "0 -1.6599999666 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment060.wav"
+		"printname" "Permanently Stuck"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kerry Davis"
+		"synopsis" "A problem we came across with virtually any puzzle involving boxes and doors was that players could portal the boxes to the other side of the door, thereby trapping themselves in a room with buttons but no boxes. We set up special triggers to detect and handle these cases, and then added the box delivery tubes to ensure players could always be supplied with the required tools."
+		"parser_id" 60
+	}
+
+}

@@ -1,0 +1,37 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Reorienting Energy Balls"
+		"origin" "-324.1700134277 135.5399932861 55.7999992371"
+		"angles" "0 9.9099998474 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment040.wav"
+		"printname" "Reorienting Energy Balls"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Chris Chin"
+		"synopsis" "Even though layering player training was a design goal from the start, we still ended up introducing some concepts too quickly. For instance, this used to be the first energy-ball redirection puzzle. Playtesting revealed that this puzzle introduced too many new concepts at once, which ended up frustrating a lot of playtesters. In response, we inserted two test chambers before this one to make the energy-ball redirection training more gradual."
+		"parser_id" 40
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Portal Physics 2 - Physics Clones"
+		"origin" "76.4199981689 -65.0800018311 43.0800018311"
+		"angles" "0 -61.2400016785 0"
+		"precommands" "sv_debug_physicsshadowclones 1"
+		"postcommands" "sv_debug_physicsshadowclones 0"
+		"commentaryfile" "#commentary\prtl-comment044.wav"
+		"printname" "Physics Clones"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "David Kircher"
+		"synopsis" "We previously talked about how we handle static portal collision. But collision with moving objects on the other side of the portal is a completely different and equally hard problem. Walking onto this scaffold was a very iffy proposition for the first few months of development. We solve the problem of colliding with these dynamic objects by cloning the objects from one portal to the other and strictly controlling what objects are allowed to collide with each other and how they're allowed to collide."
+		"parser_id" 44
+	}
+}

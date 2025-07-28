@@ -1,0 +1,38 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Offlimits"
+		"origin" "270.0899963379 -167.9700012207 -60.4399986267"
+		"angles" "0 -33.5600013733 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment038.wav"
+		"printname" "Off Limits"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Randy Lundeen"
+		"synopsis" "To make puzzles deeper than just teleporting to the exit, we had to include surfaces that won't hold a portal, which are formally introduced here. We experimented with several surface designs before we settled on this one, whose visual noise and reflectivity make it easy to identify at a distance."
+		"parser_id" 38
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "The Scaffold Floats"
+		"origin" "-396.8299865723 -220.1499938965 1432.7399902344"
+		"angles" "0 -163.6799926758 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment043.wav"
+		"printname" "The Scaffold Floats"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jeep Barnett"
+		"synopsis" "Originally, these scaffolds ran on electrified tracks.  But, crafty playtesters would hop along the rails to the exit, bypassing the puzzle entirely.  We tried to solve this by killing players as soon as they touched the rails.  That solution ended up being too much of an over correction, as even skilled playtesters were getting frustrated by these one-hit kills, in the more complex puzzles later in the game.  Making the scaffolds run along immaterial beams of light solved both problems."
+		"parser_id" "43"
+	}
+
+}

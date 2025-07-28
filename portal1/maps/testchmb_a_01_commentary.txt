@@ -1,0 +1,71 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Gated In"
+		"origin" "421.3500061035 176.6399993896 65.5100021362"
+		"angles" "0 84.8000030518 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment024.wav"
+		"printname" "Gated"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jason Brashill"
+		"synopsis" "In early versions of this map, playtesters would charge down the stairs without noticing what was creating the portals. We introduced a mandatory pause in the action - what we call a gate - to help ensure that players stop and notice the portal gun making a blue portal. A particle effect and a loud noise help draw their attention."
+		"parser_id" 24
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Into the Orange"
+		"origin" "-569.6900024414 192.75 644.8400268555"
+		"angles" "0 92.5299987793 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment026.wav"
+		"printname" "Into the Orange"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kerry Davis"
+		"synopsis" "This room was designed to make players understand that entrance and exit portals aren't tied to the color of the portal.  Playtesters often assumed that orange portals were exit-only, so we created this puzzle to force players to enter an orange portal."
+		"parser_id" 26
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Portal Rendering 1 - The basics"
+		"origin" "-606.6099853516 1074.6300048828 629.9600219727"
+		"angles" "0 82.8799972534 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment027.wav"
+		"printname" "Portal Rendering Basics"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "David Kircher"
+		"synopsis" "When rendering the player's view through a portal, we must render a separate image using a virtual camera which looks out of the opposite portal.  To obtain a correct image and efficient rendering performance, we render only what is visible through the limited field of view of the opposite portal and exclude objects which lie between the virtual camera and the plane of the opposite portal."
+		"parser_id" 27
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Elevators"
+		"origin" "-1654.5600585938 901.1500244141 632.6900024414"
+		"angles" "0 -177.8300018311 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment020.wav"
+		"printname" "Elevators"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Garret Rickey"
+		"synopsis" "The combination of the portal-destroying fields (which we call 'fizzlers') and the elevators serve a dual purpose. They provide a clearly identifiable end-point for each test-chamber, while also addressing the more practical problem of how to keep players from portaling across level loads. We eventually integrated the fizzlers into several of our puzzle designs."
+		"parser_id" "20"
+	}
+}

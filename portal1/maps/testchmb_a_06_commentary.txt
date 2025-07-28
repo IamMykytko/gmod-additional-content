@@ -1,0 +1,55 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Momentum"
+		"origin" "-1484.569946 120.3300018 59.22999954 "
+		"angles" "0 0 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment048.wav"
+		"printname" "Momentum"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Garret Rickey"
+		"synopsis" "Portal momentum ended up being the hardest concept to convey. For this series of puzzles, which went through more design iterations than virtually any other part of the game, we introduce the idea of redirecting your momentum using portals slowly, step by step. We even have the AI voice pretty explicitly explain the elements of the puzzle, something we avoided throughout most of the rest of the game."
+		"parser_id" "48"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Fling Theme"
+		"origin" "-1036.089966 204.3000031 182.7299957 "
+		"angles" "0 179.5800018311 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment053.wav"
+		"printname" "The Fling Theme"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Greg Coomer"
+		"synopsis" "Using gravity to fall into one portal so that you come rocketing out the other portal - a skill we call 'flinging' - was another difficult concept to train. We designed a specific visual cue - a pushed out concrete block above a pit with checkerboard concrete tile   - to indicate to players that it's time to use the fling maneuver. Repeated several times, this cue helps players associate pushed out concrete slabs with flinging, in much the same way that players learn to associate cubes with buttons."
+		"parser_id" "53"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Moving Pistons"
+		"origin" "400.6799927 130.7599945 448.2200012 "
+		"angles" "0 -178.8099975586 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment051.wav"
+		"printname" "Moving Pistons"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Bill Van Buren"
+		"synopsis" "Originally, these exit portal surfaces were static geometry in the final position, but playtesters stubbornly refused to look up to find them. This is another example of the classic game-design problem of coaxing players to look up. By putting the portals on moving pistons, we were able to start them in a position that players were more likely to see."
+		"parser_id" "51"
+	}
+
+}

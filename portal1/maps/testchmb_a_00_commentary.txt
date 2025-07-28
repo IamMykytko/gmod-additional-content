@@ -1,0 +1,163 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "commentary_auto"
+
+		"connections"
+		{
+			"OnCommentaryNewGame" "Welcome to Portal,StartUnstoppableCommentary,,0.5,1"
+			"OnCommentaryNewGame" "relay_start_map,Disable,,0.0,1"
+			"OnCommentaryNewGame" "hud_hint_enable,Disable,,0.0,1"
+			//"OnCommentaryNewGame" "credits,SetLogoLength,55,0.1,1"
+		}
+	}
+	"entity"	//1
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Welcome to Portal"
+		"origin" "-10081.9899902344 -5200.0599975586 6350.3499755859"
+		"angles" "0 89.8799972534 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment017.wav"
+		"printname" "Welcome to Portal"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Gabe Newell"
+		"synopsis" "Welcome to insert game name, here.  Hopefully you have already had a chance to enjoy the off-beat perspective and new game mechanic of Portal.  To listen to a commentary node, put your crosshair over the floating commentary symbol and press your use key. To stop a commentary node, put your crosshair over the rotating node and press the use key again. Some commentary nodes may take control of the game in order to show something to you. In these cases, simply press your use key again to stop the commentary.  Please let me know what you think after you have had a chance to play, as we think we are just at the beginning of taking advantage of this type of gameplay. I can be reached at gaben@valvesoftware.com. Thanks, and have fun!"
+		"parser_id" 17
+		"connections"
+		{
+			"OnCommentaryStopped" "relay_start_map,Enable,,0,-1"
+			"OnCommentaryStopped" "relay_start_map,Trigger,,0.1,-1"
+			"OnCommentaryStopped" "hud_hint_enable,Enable,,0,-1"
+			"OnCommentaryStopped" "hud_hint_enable,Trigger,,0.1,-1"
+			"OnCommentaryStopped" "fade_commentary,Fade,,0.1,-1"
+			//"OnCommentaryStopped" "lcs_create,Start,,2.0,-1"
+		}
+	}
+	"entity"	//2
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Hey, that's me!"
+		"origin" "-591.4099731445 -394.6400146484 207.8699951172"
+		"angles" "0 -94.3399963379 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment021.wav"
+		"printname" "Hey, That's Me!"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kim Swift"
+		"synopsis" "It's absolutely critical that players quickly wrap their heads around what a portal is.  We noticed early playtesters grasped the concept much more quickly when they caught a glimpse of themselves through a portal.  So we deliberately positioned this first portal to ensure that players will invariably see themselves."
+		"parser_id" 21
+	}
+	"entity"	//3
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Rat in a Cage"
+		"origin" "-598.75 -244.9400024414 218.1100006104"
+		"angles" "0 110.1999969482 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment015.wav"
+		"printname" "Rat in a Cage"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kim Swift"
+		"synopsis" "One of the things we learned from Narbacular Drop, our student project that became Portal, was that beginning players often thought portals took them into other spaces or even other dimensions. To help fight that notion, we start players in a visually unique room with memorable objects, so that when they walk through a portal for the first time, they have a clear point of reference, which communicates the idea that they're still in the same basic location. For instance, the radio, which is playing an instrumental version of 'Still Alive', helps as well by providing some audio continuity"
+		"parser_id" "15"
+	}
+	"entity"	//4
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Future Shoes"
+		"origin" "-808.2600097656 -258.3099975586 187.6199951172"
+		"angles" "0 -178.8099975586 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment018.wav"
+		"printname" "Future Shoes"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Bay Raitt"
+		"synopsis" "We put the player character in an orange jumpsuit to reinforce the fact that she's a test subject.  Visually, the warmer orange colors help her pop out against the colder tones of the environment.  Some playtesters were wondering why she could fall so far without getting hurt the way she would in Half-Life 2.  In response, we added mechanized heel springs to her lower legs; afterwards, there was no longer any question about why she could survive such long falls."
+		"parser_id" "18"
+	}
+	"entity"	//5
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Observation Rooms"
+		"origin" "-283.0599975586 -309.7099914551 279.8599853516"
+		"angles" "0 -34.6699981689 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment019.wav"
+		"printname" "Observation Rooms"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Realm Lovejoy"
+		"synopsis" "These frosted-glass observation rooms make the player feel as if they're being watched at all times, while keeping the identity of these watchers a mystery. The rooms serve a practical purpose as well, since we often use them as convenient and logical light sources for the test chambers."
+		"parser_id" 19
+	}
+	"entity"	//6
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Box Introductions"
+		"origin" "-664.9899902344 -902.6099853516 196.8999938965"
+		"angles" "0 -177.7899932861 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment016.wav"
+		"printname" "Box Introductions"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Robin Walker"
+		"synopsis" "Portal is effectively an extended player training exercise. We spend a huge portion of the game introducing a series of gameplay tools, then layering these tools into increasingly difficult puzzles. This layering starts here, where we train the button/box mechanic before introducing the more complicated concept of portals."
+		"parser_id" 16
+	}
+	"entity"	//7
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Objects within a Closing Portal"
+		"origin" "-1159.5999755859 -602.4000244141 631.4699707031"
+		"angles" "0 -91.3799972534 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment022.wav"
+		"printname" "Objects Within a Closing Portal"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Paul Graham"
+		"synopsis" "We wanted players to feel safe while standing in a portal, so we never kill them or destroy objects within a portal that's closing. Instead, we either push or teleport objects out of a portal as it closes."
+		"parser_id" "22"
+	}
+	"entity"	//8
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Gates of Understanding"
+		"origin" "-774.1199951172 -254.6100006104 629.9400024414"
+		"angles" "0 -2.3099999428 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment023.wav"
+		"printname" "Gates of Understanding"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Robin Walker"
+		"synopsis" "We very deliberately introduce and train each gameplay concept in Portal, so that once players reach this spot, we're confident that they know what a portal is and roughly how it works. Early versions of the game let players stumble through the beginning without always understanding what was going on, which really compromised teaching new concepts. The puzzle you just finished was designed so that stumbling around will almost always lead to a dead end. Completing the puzzle requires walking through a minimum of five portals in a specific order. This kind of gating, in which a solid understanding of key gameplay concepts is required for success, helped standardize the learning curve of the game tremendously."
+		"parser_id" 23
+	}
+
+
+}
+

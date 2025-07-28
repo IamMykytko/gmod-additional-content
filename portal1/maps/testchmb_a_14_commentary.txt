@@ -1,0 +1,37 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Recording GLaDOS"
+		"origin" "850.1199951172 -176.3500061035 337.3699951172"
+		"angles" "0 179.4700012207 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment000.wav"
+		"printname" "Recording GLaDOS"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Erik Wolpaw"
+		"synopsis" "Creating the AI voice was a multi-step process. First, we ran every line of dialog through an automatic text-to-speech program. In the studio, we cued the actress who plays GLaDOS, Ellen McClane, with the computer-generated sound file. She'd mimic it, and then, over the course of several takes, adjust her performance to clean up any words that were unintelligible in the computer version. For instance, here's a line as Ellen delivered it: <INSERT RAW ELLEN LINE>. Once the recording was done, we processed all of the dialog to give it an extra computery edge. Here's that same line as it appears in the game, with the pitch constrained, pitch modulation suppressed, and the formant moved up: <INSERT LINE HERE>."
+		"parser_id" "0"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Bogus Direction"
+		"origin" "-254.9799957275 -439.7200012207 309.7300109863"
+		"angles" "0 179.8000030518 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment103.wav"
+		"printname" "Bogus Direction"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Ellen McLain: Voice of GLaDOS"
+		"synopsis" "As an actor, you know, you come in, you do what you're told; You want to make your money. And sometimes you get good direction, and sometimes you don't get good direction. But it doesn't matter. And you certainly don't tell the production team any of this. But you come in and they'll, you know, they'll give you a lame line reading. And you're supposed to find some emotional value in that. But this is not what this team did. They would come in, for example, [and give me the direction] 'explosively indignant'. That's a wonderful direction for an actor. So, I must say that the production team won me over. Because so often I get bogus direction. But this time, I was actually directed and had fun at all the sessions."
+		"parser_id" "103"
+	}
+}

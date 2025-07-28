@@ -1,0 +1,55 @@
+"Entities"
+{
+	"entity"//1
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Glass"
+		"origin" "-425.8299865723 211.8000030518 77.5400009155"
+		"angles" "0 91.7799987793 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment032.wav"
+		"printname" "Glass"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Chet Faliszek"
+		"synopsis" "For training purposes, there's generally just one correct solution to these early puzzles. The original version of this room didn't have the glass barrier. Playtesters would often stand on the button to open the door, and then shoot a blue portal through the opening, bypassing the box entirely. Since this puzzle was meant illustrate the relationship between boxes and buttons, that solution, while clever, was a failure, so we added the glass barrier to prevent it. Later in the game, however, the puzzles become more open-ended."
+		"parser_id" "32"
+	}
+	"entity"	//2
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Portal Physics 1 - Cutting up the world."
+		"origin" "0 4.0500001907 -191.0200042725"
+		"angles" "0 -12.0500001907 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment035.wav"
+		"printname" "Cutting up the World"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "David Kircher"
+		"synopsis" "Integrating portals with the Source engine's physics system was a complex process that required several iterations to achieve the right balance of performance and correctness.  Because portals can be placed virtually anywhere in the game environment, the physics system had to be modified to allow dynamic changes to its representation of colliding geometry, such as the walls and floor around this box, and any objects which may lie on the opposite side of the portal.  Initial implementations of this dynamic collision generation system could take up to one half of one second, or 500 milliseconds, to compute the correct collision.  This may not sound like a long time in everyday life, but this pause during portal creation was quite noticeable in the context of the game.  Ultimately, we designed a system that creates temporary hybrid physics environments in bubbles around the portals using less accurate collision than that produced by Source's standard collision generation, but was accurate enough in practice and"
+		"parser_id" 35
+	}
+	"entity"	//3
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Modular Design"
+		"origin" "707.9899902344 982.6099853516 635.5700073242"
+		"angles" "0 90.7200012207 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment029.wav"
+		"printname" "Modular Design"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Nick Maggiore"
+		"synopsis" "Early versions of Portal featured more detailed, cluttered environments, much like Half Life 2. We quickly realized that unnecessary objects scattered all over the place distracted players to the point where it actually interfered with the portal training process. So we simplified the art style to favor clean, focused test chambers. The modular approach we settled on makes it look plausible that the chambers can reform dynamically on these pistons."
+		"parser_id" "29"
+	}
+
+}

@@ -1,0 +1,88 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Turret Ambush"
+		"origin" "5498.4702148438 595.9099731445 -1228.8199462891"
+		"angles" "0 -90.8499984741 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment012.wav"
+		"printname" "Turret Ambush Redux"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jeep Barnett"
+		"synopsis" "This massive turret ambush was originally a lot more massive, with turrets that dropped from the ceiling and popped out of surprise hatches. In fact, for a while, it was the game's climactic battle.  Through playtesting, we learned that this type of pure combat experience, didn't really fit with the preceding few hours of player training.  Over several iterations, we toned down the combat and made the room more about using portal momentum to fling yourself great distances, a skill that playtesters really enjoyed using and that's a key component of what eventually became our final battle."
+		"parser_id" "12"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Catwalks"
+		"origin" "4697.0698242188 609.1500244141 434.8500061035"
+		"angles" "0 0.1400000006 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment010.wav"
+		"printname" "Catwalks"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Randy Lundeen"
+		"synopsis" "Originally these catwalks were decorative, but playtesters consistently thought they were significant and often spent a lot of time trying to reach them. We didn't want to stand between people and their desire to walk on the catwalks, so we redesigned the area to make catwalks not only accessible but also necessary to proceed."
+		"parser_id" "10"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Red Phone"
+		"origin" "8414.5595703125 1364 483.8099975586"
+		"angles" "0 87.1299972534 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment014.wav"
+		"printname" "Red Phone"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Erik Wolpaw"
+		"synopsis" "The fiction behind this red phone is that, while GLaDOS was being developed, it was somebody's job to sit by it, and, if it ever looked like the AI was becoming sentient and godlike, that person would pick up the phone and call somebody to come help. At the point in time where the actual game takes place, it's become obvious that the Aperture Science Red Phone plan didn't 100% work out."
+		"parser_id" "14"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "An Affinity For Cake"
+		"origin" "9334.51953125 1179.1400146484 465.0700073242"
+		"angles" "0 6.9400000572 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment107.wav"
+		"printname" "An Affinity for Cake"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Ellen McLain: Voice of GLaDOS"
+		"synopsis" "So when they told me that there was going to be a song at the end, I thought, well, allright, who's going to write the song? And they told me there was going to be a song written by Jonathan Coulton. And I listened to a song that Jonathan had written, and it was very funny, very clever. So, I thought at that point, well, you know, this'll be okay. But I am an opera singer, so usually I sing: [opera singing]. And I thought, well, will I be able to have the right style for the song? So I was concerned. But then before the recording, they sent me an mp3 file of the song. And I listened to it with Jonathan singing it. But I loved the little song. And at home, as I practiced the little song, I tried to, you know, get back to GLaDOS's voice. You know: 'Aperture Science'. Just this tiny little passive-aggressive computer who's all alone until people try to come in and murder her. So of course she gets upset! But she seems... She seems to have this real affinity for cake. And... And I want to play the game because I want to recreate the cake recipe. And then put 'Portal' on it, and be able to serve it to my friends when they come over to my house."
+		"parser_id" "107"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "GLaDOS"
+		"origin" "9384.4599609375 1344.4699707031 572.0200195313"
+		"angles" "0 -2.5199999809 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment013.wav"
+		"printname" "GLaDOS"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jeremy Bennett"
+		"synopsis" "GLaDOS, the rogue disk operating system that now runs Aperture Science, went through a bunch of design iterations. Earlier versions included a floating brain, a sprawling, spidery mechanism, and an upside-down version of Botticelli's Rise of Venus built out of robot parts and wire. Evenutally, we settled on a huge mechanical device with a delicate robotic figure dangling out of it, which successfully conveys both GLaDOS's raw power and her femininity."
+		"parser_id" "13"
+	}
+}

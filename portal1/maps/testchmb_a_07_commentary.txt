@@ -1,0 +1,71 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Look Before You Leap"
+		"origin" "81.9400024414 -380.5 453.450012207"
+		"angles" "0 178.4400024414 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment054.wav"
+		"printname" "Look Before You Leap"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Scott Dalton"
+		"synopsis" "We found that, rather than looking into a portal to see where it went, playtesters would often leap blindly to their doom.  In response to this observation, the moral of this puzzle is 'look before you leap.'  The safe orange portal is out of the player's view from this balcony. That forces them to peer through a portal to see it, which trains players in the remote-viewing capabilities of portals."
+		"parser_id" 54
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Timed Door Buttons"
+		"origin" "168.7599945068 -484.8099975586 186.6999969482"
+		"angles" "0 -176.9199981689 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment058.wav"
+		"printname" "Timed Door Buttons"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Jason Brashill"
+		"synopsis" "Originally a weighted button was used to open the far door, but playtesters so strongly associated boxes with buttons that they'd get stuck searching hopelessly for a box. We changed the big button to a pedestal mounted push button, thus removing the box association, but playtesters still had trouble realizing they needed to shoot a portal through the door. Adding a ticking timer sound when the door was open cued players that the puzzle expected them to act during that time, which solved the problem."
+		"parser_id" "58"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Orange Portal"
+		"origin" "-138.3399963379 -395.7399902344 167.6399993896"
+		"angles" "0 -93.6299972534 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment056.wav"
+		"printname" "Orange Portal"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Lars Jensvold"
+		"synopsis" "This room is designed to build anticipation for the big moment when players finally get the fully powered portal gun. The puzzle path brings you in a circle around the device, so that it's virtually always in sight right up until you grab it."
+		"parser_id" "56"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Fling On Your Own"
+		"origin" "-238.1499938965 -1112.5100097656 847.25"
+		"angles" "0 -0.4600000083 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment057.wav"
+		"printname" "Fling On Your Own"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Chris Chin"
+		"synopsis" "Player training doesn't always stick, especially after the introduction of a big, new concept.  For instance, after they'd acquired the fully powered portal device, playtesters often forgot about the fling maneuver. Since it's such an important skill, this puzzle is designed to reintroduce the idea of flinging."
+		"parser_id" 57
+	}
+}

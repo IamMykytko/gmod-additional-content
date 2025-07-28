@@ -1,0 +1,89 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Double Fling"
+		"origin" "-1271.1999511719 -2749.5 -322.6799926758"
+		"angles" "0 -2.4800000191 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment069.wav"
+		"printname" "Double Fling"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Kim Swift"
+		"synopsis" "This particular section went through several iterations because it's the first place where players are required to perform possibly the trickiest portal maneuver, the double fling. Originally, the room also featured an energy ball redirection puzzle. Combined with the new double fling skill, however, it proved to be too much for most playtesters.  Overwhelmed players tend not to digest new information, so we simplified the puzzle to require only the double fling. To nudge players in the right direction, we also included visual hints, such as the previously introduced single fling theme - the pushed out concrete slab with a checkerboard landing zone."
+		"parser_id" 69
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Panic"
+		"origin" "-65.2900009155 -2162.2800292969 -341.1799926758"
+		"angles" "0 40.4599990845 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment072.wav"
+		"printname" "Panic"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Paul Graham"
+		"synopsis" "This puzzle requires players to redirect an energy ball through multiple portal placements. The multiple steps caused many early playtesters to panic and accidentally redirect a ball right into themselves, with deadly results. We redesigned the test chamber so that portals can only be placed in the top half of the room, which solved the problem by generally leaving players out of the ball's reach."
+		"parser_id" 72
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Mid-Air Placement"
+		"origin" "-484.9700012207 -1274.4000244141 -193.9400024414"
+		"angles" "0 88.6200027466 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment070.wav"
+		"printname" "Midair Placement"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Garret Rickey"
+		"synopsis" "We noticed through our playtests that many of our players weren't aware of the fact that you could place portals while falling. Since placing portals as you are falling is essential to accomplishing flings and many other portal tricks, we implemented this puzzle, so that the only way to solve it, was to use the mid-air placement tactic. It took numerous iterations and lots of tuning before this  consistently played well."
+		"parser_id" 70
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Double Fling Anywhere"
+		"origin" "563.5100097656 -639.2800292969 -182.3399963379"
+		"angles" "0 -1.2699999809 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment074.wav"
+		"printname" "Double Fling Anywhere"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Robin Walker"
+		"synopsis" "Perhaps the most important purpose of this final test chamber is to cement the double fling maneuver training. For previous flings, we employed a visual cue - a pushed out a section of wall. In preparation for the more freeform behind-the-scenes levels, however, we take the training wheels off.  To proceed, players must realize that they can double fling almost anywhere they want to, with or without hints."
+		"parser_id" "74"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Slow Moving Lifts"
+		"origin" "142.0299987793 1048.3699951172 -201.4600067139"
+		"angles" "0 50.3400001526 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment071.wav"
+		"printname" "Slow-Moving Lifts"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Realm Lovejoy"
+		"synopsis" "In this puzzle, we wanted players to realize that, using portals, they can travel long distances in a short step. Originally, we had stairs from the ground level to the upper rooms. Many playtesters, however, were able to run from one room to the other quickly enough to consider it a solution without ever thinking to use the even easier portal method. By changing the stairs to very slow moving lifts, we were able to level the travel time for all player experience levels, thus making the intended solution more clear."
+		"parser_id" 71
+	}
+
+}

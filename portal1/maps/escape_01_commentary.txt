@@ -1,0 +1,105 @@
+"Entities"
+{
+	"entity"	//1
+	{
+		"classname" "point_commentary_node"
+		"targetname" "They Let You Have Water"
+		"origin" "-1191.3499755859 2884.169921875 -330.3200073242"
+		"angles" "0 90.0400009155 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment106.wav"
+		"printname" "They Let You Have Water"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Ellen McLain: Voice of GLaDOS"
+		"synopsis" "In the sound booth, you're only connected to the production team by an intercom. And they can talk about you, and you don't know what they're saying. But you trust that they're being kind. And, you know, they'll... They'll push a button and then they'll say something to me. They say a direction. 'No, that wasn't right. Do it again. Give us three more reads.'  And a lot of time what happens is they'll... They would play the computer-generated sound for me on one line. And then I'm supposed to recreate that three times with the director saying, 'Ok, well, you know, more sarcastic,' or, 'More angry,' or, or, 'More irritated.' So: You stand in the booth hour after hour after hour. They're always very nice; they let you have water in here, and maybe a pencil to take a few notes. And of course you want it to be interesting, because you want them to hire you again!"
+		"parser_id" 106
+	}
+	"entity"	//2
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Turret Ambush"
+		"origin" "-1871.5200195313 2623.7800292969 -586.8400268555"
+		"angles" "0 -179.1199951172 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment009.wav"
+		"printname" "Turret Ambush"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Scott Dalton"
+		"synopsis" "As the end of the game draws closer, we increase the ratio of time-pressured puzzles, like this turret ambush, to give players the sense that they're approaching a climactic encounter."
+		"parser_id" 9
+	}
+	"entity"	//3
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Running Amok"
+		"origin" "-1796.9200439453 2159.1101074219 -583.0800170898"
+		"angles" "0 -95.2300033569 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment006.wav"
+		"printname" "Running Amok"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Greg Coomer"
+		"synopsis" "An important design goal of these post-escape levels was to give players the sense that they were running wild inside the guts of the facility. With that in mind, we added plenty of nooks and crannies for players to crawl into or place portals through. This ended up being a tricky lighting challenge, as the areas needed to be bright enough to navigate while still being dim enough to feel like obscure, disused sections of the building."
+		"parser_id" 6
+	}
+	"entity"	//4
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Sarcasm Is Fun"
+		"origin" "-1064.5100097656 896.8099975586 -195.4700012207"
+		"angles" "0 -176.2700042725 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment104.wav"
+		"printname" "Sarcasm is Fun"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Ellen McLain: Voice of GLaDOS"
+		"synopsis" "Sarcasm. GLaDOS is sarcastic a lot. And that's so much fun! But while I was trying to do this, trying to build in all these emotions, I still had to maintain the computer sound and maintain the pronunciation of repeated phrases. You know: 'Aperture Science' and 'The Enrichment Center'."
+		"parser_id" "104"
+	}
+	"entity"	//5
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Rocket Sentry"
+		"origin" "-361.1600036621 612.1099853516 -198.0500030518"
+		"angles" "0 0.8100000024 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment007.wav"
+		"printname" "Rocket Sentry"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Bill Van Buren"
+		"synopsis" "These rocket sentries originally fired lasers. We switched from lasers to rockets after we introduced the glass-breaking mechanic, mainly because glass shattering in a massive rocket explosion turned out to be a lot more satisfying than glass just slowly being melted by a laser. Originally, they also spoke, just like the bullet turrets.  Because players often redirect the rockets with their backs to the turret, however, a distinct, uncluttered sound cue was required. The voice simply added too much noise to the rocket redirect mechanic."
+		"parser_id" 7
+	}
+	"entity"	//6	
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Break Tube"
+		"origin" "908.1199951172 698.049987793 -186.8600006104"
+		"angles" "0 -81.9499969482 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\prtl-comment008.wav"
+		"printname" "Breakable Tube"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Realm Lovejoy"
+		"synopsis" "Breaking this tube gives players a chance to test out their newly trained rocket-redirecting and glass-breaking skills in a slightly different context, which helps cement the training."
+		"parser_id" 8
+	}
+}
